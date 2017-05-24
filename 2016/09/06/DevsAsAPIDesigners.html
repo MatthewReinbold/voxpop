@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Matthew Reinbold, formerly of Vox Pop</title>
-  <meta name="description" content="This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
-">
+  <title>What if Developers Aren&#39;t Meant to Do API Design?</title>
+  <meta name="description" content="I've grown concerned after running an enterprise API governance program. I review dozens of API designs, presented in the OpenAPI format, each week. In the p...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/2016/09/06/DevsAsAPIDesigners.html">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,95 +60,32 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <p class="home-image"><img src="/images/MatthewReinbold-speaking-2016.jpg" alt="Picture of Matthew teaching about APIs in 2016." /></p>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">What if Developers Aren't Meant to Do API Design?</h1>
+    <h2 class="post-subtitle">Struggling with the Question</h2>
+    <p class="post-meta"><time datetime="2016-09-06T00:00:00-04:00" itemprop="datePublished">Sep 6, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2017/05/24/RESTAPINotes.html">Tired API Tropes and OpenAPI News &#x2709;</a> <span class="post-meta">(May 24, 2017)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2017/05/17/RESTAPINotes.html">Status Codes, Hypermedia, Microservices, and More &#x2709;</a> <span class="post-meta">(May 17, 2017)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2017/04/13/SystematicSolutions.html">Searching for Systematic Solutions</a> <span class="post-meta">(Apr 13, 2017)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2017/01/17/RESTAPINotes.html">Service verses Library Development, APIs as a Product, and an API Documentation Whitepaper &#x2709;</a> <span class="post-meta">(Jan 17, 2017)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2017/01/09/RESTAPINotes.html">The iPhone Turns 10 &#x2709;</a> <span class="post-meta">(Jan 9, 2017)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2016/12/27/EmpathyForAll.html">Empathy for All</a> <span class="post-meta">(Dec 27, 2016)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2016/12/03/AMorePrefectUnion.html">Toward a More Perfect Union</a> <span class="post-meta">(Dec 3, 2016)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2016/11/17/ElectionAction.html">Planting One's Feet</a> <span class="post-meta">(Nov 17, 2016)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2016/10/17/RESTAPINotes.html">Microservice Deep Cuts &#x2709;</a> <span class="post-meta">(Oct 17, 2016)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2016/10/12/ExMachina.html">Ex Machina</a> <span class="post-meta">(Oct 12, 2016)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2016/10/11/RESTAPINotes.html">What does 'API as a Product' Mean? &#x2709;</a> <span class="post-meta">(Oct 11, 2016)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2016/09/15/RESTAPINotes.html">GraphQL &#x2709;</a> <span class="post-meta">(Sep 15, 2016)</span>
-        </h2>
-      </li>
-    
-      <li>
-        <h2>
-          <a class="post-link" href="/2016/09/06/DevsAsAPIDesigners.html">What if Developers Aren't Meant to Do API Design?</a> <span class="post-meta">(Sep 6, 2016)</span>
-        </h2>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <p>I've grown concerned after running an enterprise API governance program. I review dozens of API designs, presented in the OpenAPI format, each week. In the past I've adamantly maintained that poor API design was a training issue; if we, as the enterprise, could better connect developers with the right resources at the right time then we'd see an increase in <a href="http://voxpop.co/go.cfm?article=Consistency_AND_Cohesion" rel="nofollow">consistency and cohesion</a>. Getting those materials created and distributed has been a point of emphasis. </p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>But what if developers aren't meant to do API design? What if that is an entirely new, emergent skill set? </p>
 
-</div>
+<p>Before "Devops", enterprise software shops had numerous professional specializations: quality assurance, software architecture, software development, systems administrator, database administrator, etc. Each of these was recognized has having specific, deep expertise in a narrow field. The downside of having these channels, however, was that they became isolated from each other. "<a href="http://www.netlingo.com/word/throw-it-over-the-wall.php" rel="nofollow">Tossing it over the wall</a>" substituted for end-to-end project management. In the worst cases, when budgets or headcounts were under duress, all out trench warfare erupted. </p>
+
+<p>Devops, especially the frothy conference buzzword type, was supposed to bring peace to those software shops. If infrastructure could be reduced to code, the thinking goes, then <em>everything</em> could be handled by the developers. Rather than having separate disciplines that devolve to defending their turf in times of trial, you just have developers and (in a condescending acknowledgement of reality) those that support them. </p>
+
+<p>That extreme, all-is-devops viewpoint also is also problematic, however. In a previous job there was an impassioned embrace of devops. The existing sysadmins and database administrators were told, officially, that they were "legacy operations". Unofficially, management was telling seasoned, loyal professionals to pound sand. Perhaps unsurprisingly, six months later, production systems began falling over. The devops devotees didn't appreciate that Cassandra requires regular maintenance to avoid having its performance undermined by tombstones. Developers now had less time to do the things they enjoyed (developing) because they were relearning skills others had perfected (operations). Time to triage issues went through the roof because developers were relearning different skillsets. Couldn't those operations and database folks help out? Unfortunately not. They had sought jobs elsewhere; places where their experience was valued.</p>
+
+<p>I was reminded of this from a recent API Evangelist post: <a href="http://apievangelist.com/2016/08/30/graphql-seems-like-we-do-not-want-to-do-the-hard-work-of-api-design/" rel="nofollow">GraphQL Seems Like We Do Not Want To Do The Hard Work Of API Design</a>. I want developers to view API design as a core part of their job. I want them to see the importance of designing the API first, rather than being something they auto-generate from an implementation. I think these are complimentary skills and I <strong>certainly</strong> disagree with those that regulate API design to "documentation". </p>
+
+<p>However, is that too much to ask from a majority of our developers? Is API design its own thing, no different than systems administration or architecture? Is it time to recognize the API designer as its own unique profession, complete with its own career path? Should we stop expecting a hodgepodge of different disciplines (architecture, developers, product management) to do this important work <em>in-addition-to</em> what they currently do? </p>
+
+  </div>
+
+</article>
 
       </div>
     </div>

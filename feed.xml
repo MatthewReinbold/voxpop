@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matthew Reinbold, formerly of Vox Pop</title>
+    <description>This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 24 May 2017 16:01:20 -0400</pubDate>
+    <lastBuildDate>Wed, 24 May 2017 16:01:20 -0400</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Tired API Tropes and OpenAPI News &amp;#x2709;</title>
+        <description>&lt;p&gt;The 5/24/17 REST API Notes are out! In this latest newsletter, I run down a list of API presentation clichés with help from my Twitter friends. What are the common tropes that we come back to repeatedly? And can we find new ones? I also touch on Mulesoft joining the OpenAPI initiative. &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-5-24-2017-api-clich-s-and-mulesoft-joins-openapi-initiative&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-5-24-2017-api-clich-s-and-mulesoft-joins-openapi-initiative&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 24 May 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/05/24/RESTAPINotes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/24/RESTAPINotes.html</guid>
+        
+        <category>Tony</category>
+        
+        <category>Tam,OpenAPI,RAML,Blueprint,Mulesoft,Apiary,Lego</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Status Codes, Hypermedia, Microservices, and More &amp;#x2709;</title>
+        <description>&lt;p&gt;I published the latest edition of the REST API Notes newsletter on 2017/05/17. Included is a great refresher on status codes by Mark Nottingham, a recorded video presentation on  hypermedia and microservices for evolvable system design with Mike Amundsen, and just what next generation gateways like look like to Howard Dierking.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-05-17&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-05-17&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 17 May 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/05/17/RESTAPINotes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/17/RESTAPINotes.html</guid>
+        
+        <category>Mark</category>
+        
+        <category>Nottingham,hypermedia,microservices,Mike</category>
+        
+        <category>Amundsen,API</category>
+        
+        <category>Gateways,Howard</category>
+        
+        <category>Dierking</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Searching for Systematic Solutions</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;a href=&quot;/images/2017/04/oreilly-software-architecture.png&quot; class=&quot;lightbox&quot;&gt;&lt;img src=&quot;/images/2017/04/oreilly-software-architecture.png&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Snapshot of the stage at the O'Reilly Software Architecture Conference&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week I attended the O'Reilly Software Architecture Conference in New York City. While not &quot;officially&quot; a software architect anymore, I was keenly interested where the industry zeitgeist was regarding microservices, devops, and event-driven architectures. There &lt;strong&gt;was&lt;/strong&gt; some very valuable information on tap (by the end of the second day I had a few thousand words in my notes file). But there was also a couple shadows cast; apparitions that still have me cringing a week later. &lt;/p&gt;
+
+&lt;p&gt;A session would begin by establishing a strawman: an omission or lack of proper design would lead to an undesirable consequence in production. In one case, for example, the presentation presented an erroneous decomposition of a problem. Rather than &lt;strong&gt;bounded contexts&lt;/strong&gt; around a &lt;strong&gt;business capability&lt;/strong&gt;, they jumped straight to resources, letting the data define the subsequent API design. The result was redundant data seemingly owned by resources, requiring additional data synchronization across the distributed data-sources; i.e. a &quot;distributed monolith&quot;.&lt;/p&gt;
+
+&lt;p&gt;The presenter would then proceed to outline a &lt;em&gt;more&lt;/em&gt; elaborate solution, one that required the initial design failure. The more elaborate solution would have a titillating sounding name, of course. It was usually some combination of yesterday's buzzword and an action adjective . My take-away from these presentations is that anyone is just a &quot;hyper-componentization&quot;, &quot;rational-serverless&quot; or &quot;pico-ops&quot; away from a lucrative career in conference speaking and consultant fees.  &lt;/p&gt;
+
+&lt;p&gt;The technical press is incentivized to unearth a steady stream of &lt;strong&gt;THE NEXT BIG THING&amp;trade;&lt;/strong&gt;! The dopamine drip of discovering the bigger, better, and/or faster way of doing things is what drives attention to online publications, book subscriptions, and conference attendance. Too often, though, this seems to result in an industry that casts off yesterday's solutions as quickly as they can get tomorrow's promises. Rather than proceeding with care and practice after missing the mark, the solution, all too often, seems to be to find new silver bullets. &lt;/p&gt;
+
+&lt;p&gt;That phenomenon is unfortunate, and (probably) unavoidable. It is also, however, &lt;em&gt;not the most challenging thing&lt;/em&gt;. Many of the presenters were proud (and, in some cases, rightly so) for demonstrating &lt;em&gt;purely&lt;/em&gt; architectural solutions. Engineering conferences probably present developer solutions to the similar problems. I also guarantee that business folks are solving things from their perspective. While occasionally victories are possible, systemic success is not guaranteed because the problem is not being approached in a systemic, cross-disciplinary way. &lt;strong&gt;A company's business, culture, and technology are inextricably linked.&lt;/strong&gt; Addressing one in isolation, without considering the push and pull of the others, is likely to doom an effort (or, at a minimum, impede it). &lt;/p&gt;
+
+&lt;p&gt;Take, for example, microservices. Microservices are, simultaneously, a software architecture pattern, a cultural change, and a business concern:&lt;/p&gt;
+&lt;ul id=&quot;draft_check_box_list_0&quot;&gt;
+&lt;li&gt;Most technologists understand microservices as a software architecture pattern. Defining service boundaries through principles domain-driven-design for the sake of decomposition is a powerful thing. But only having the &lt;em&gt;tech&lt;/em&gt; right doesn't mean microservices will be successful in an organization. &lt;/li&gt;
+&lt;li&gt;Culture, as defined in the O'Reilly book, &lt;em&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920050308.do&quot; rel=&quot;nofollow&quot;&gt;Microservice Architecture&lt;/a&gt;&lt;/em&gt;, is &quot;a set of values, beliefs, or ideals that are shared by all the workers within an organization.&quot; If a employees do not trust each other, microservice coordination can't be minimized. If the organization values calendar release cycles tied to marketing blitzes, maximizing deliverable independence will be hard. &lt;/li&gt;
+&lt;li&gt;Adoption of any new behavior must be tied to a business benefit. If the combination of speed and safety inherent with successful microservice execution isn't reflected in a business metric, it becomes &quot;a tech thing&quot;. &quot;Tech things&quot; have a way of being entertained when times are good. However, when adversity happens, anything that isn't obviously tied to a business objective is in jeopardy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;a href=&quot;/images/2017/04/microservices-whiteboard.jpg&quot; class=&quot;lightbox&quot;&gt;&lt;img src=&quot;/images/2017/04/microservices-whiteboard.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Whiteboard from a recent offsite deep dive into microservices, and what it would take to support them.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;It is a mistake to look at the success that Amazon and Netflix have had and attribute it to &lt;em&gt;only&lt;/em&gt; one of these parts. Their systematic success requires systematic solutions. Succeeding with a new architectural paradigm, like microservices, means creating cultural, business, and technological change. Separating meaningful approaches from buzzword buzzards at single-discipline conferences is one thing. Having the position and/or professional network to holistically apply it successfully is another. &lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/04/13/SystematicSolutions.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/13/SystematicSolutions.html</guid>
+        
+        <category>Netflix,</category>
+        
+        <category>O'Reilly</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Service verses Library Development, APIs as a Product, and an API Documentation Whitepaper &amp;#x2709;</title>
+        <description>&lt;p&gt;The 2017/1/17 REST API Notes update has a handful of the most thought pieces about REST APIs on the web. Of particular note this time is an excellent piece Jessica Kerr on when to build a service, and when to build a library. Not everything should be an API (shocking, I know) but Jessica does a great job of breakind down the pros and cons. That, along with deeper dives into APIs-as-product, and API documentation await. &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-01-17&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-01-17&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 17 Jan 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2017/01/17/RESTAPINotes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/17/RESTAPINotes.html</guid>
+        
+        <category>Jessica</category>
+        
+        <category>Kerr,Mark</category>
+        
+        <category>Boyd,ESPN,OpenAPI,RAML,Blueprint,Matt</category>
+        
+        <category>Bernier,Mehdi</category>
+        
+        <category>Madjaoui</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The iPhone Turns 10 &amp;#x2709;</title>
+        <description>&lt;p&gt;I just published a very special edition of the REST API Notes Newsletter. As we begin a new year, I was struck by the 10th anniversary of the original iPhone announcement. RESTful APIs existed &lt;em&gt;before&lt;/em&gt; smart phones, of course. However, the popularity of mobile computing thrust an untold number of developers down the path of service architecture. I pause to ruminate on how far we've come (and just where we might need to go). &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-01-09-iphone-turns-10&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-01-09-iphone-turns-10&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 09 Jan 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2017/01/09/RESTAPINotes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/09/RESTAPINotes.html</guid>
+        
+        <category>Apple,iPhone,Steve</category>
+        
+        <category>Jobs,Roy</category>
+        
+        <category>Fielding,Ted</category>
+        
+        <category>Nelson,hypermedia,Netflix,microservices,Melvin</category>
+        
+        <category>Conway,cloud,devops,containerization,Android,Kin</category>
+        
+        <category>Lane,John</category>
+        
+        <category>Musser,Pamela</category>
+        
+        <category>Fox,Jacek</category>
+        
+        <category>Kopechy</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Empathy for All</title>
+        <description>&lt;p&gt;In &lt;a href=&quot;http://robbell.podbean.com/e/episode-126-wisdom-part-9-standing-firm-with-pete-rollins/&quot; rel=&quot;nofollow&quot;&gt;a recent Rob Bell podcast&lt;/a&gt;, the motivational speaker and former pastor discussed how people seek simplicity in uncertain times. Post-election, I even found myself reflexively demonizing, or over-simplifying, the opposition. The fact is that the country after the election isn't suddenly different than the one we had before. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rollingstone.com/tv/news/jon-stewart-donald-trump-is-a-repudiation-of-republicans-w450936&quot; rel=&quot;nofollow&quot;&gt;John Stewart, in a rare post-Daily-show interview, warned against painting vast swaths of America with an undifferentiated red brush&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;'So much of what liberals fight for is that people shouldn't be judged as &quot;monoliths,&quot;... defining Trump supporters by the worst of his rhetoric is ignorant.'&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;There is absolutely &lt;strong&gt;no place&lt;/strong&gt; for homophobic, misogynistic, racist, fascist, anti-Semitic, anti-Muslim, or anti-science sentiment in our government, presidential or otherwise. Referring to neo-Nazis as the &quot;alt right&quot; is a dangerous normalization. The continual stream of confusing, even contradictory, statements is less a sign of befuddlement and more &lt;a href=&quot;https://twitter.com/anamariecox/status/798939015781171200&quot; rel=&quot;nofollow&quot;&gt;a page out of the authoritarian playbook&lt;/a&gt;. The handful of people that seek to embolden and enrich their own diminutive agendas born of fear and ignorance will be, eventually, defeated. Period. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But what about the tens of millions of others?&lt;/strong&gt; Who are those people that voted for Trump not &lt;em&gt;because&lt;/em&gt; of his rhetoric, but &lt;em&gt;despite&lt;/em&gt; it? What kind of pain exists that makes embracing a monster more desirable than continuing to endure? &lt;strong&gt;How badly does a system have to fail for someone that &quot;blowing it up&quot; seems a logical step?&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;p&gt;I grew up on an Indian reservation, rural places long known to be economically challenged. If I skim &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_lowest-income_places_in_the_United_States&quot; rel=&quot;nofollow&quot;&gt;the list of lowest-income places in the United States&lt;/a&gt; I see familiar names. I can't justify Trump or his actions. But I can empathize with a rural America that has seen far too many of its basic social systems (social, economic, governmental, etc.) strip mined and abandoned in the name of progress. &lt;/p&gt;
+
+&lt;p&gt;We talk about the &quot;Rust Belt&quot;: the areas of declining industrial production slowly turning fallow before a changing world economy. But at least those places have the dignity of a moniker. Much of America - the America that elected Trump - does not. This is the America where their youth leave; either &lt;a href=&quot;http://www.wsj.com/articles/SB10001424052702303325204579463761632103386&quot; rel=&quot;nofollow&quot;&gt;migrating to cities due to lack of opportunity at home&lt;/a&gt; or &lt;a href=&quot;http://www.washingtonpost.com/wp-dyn/content/article/2005/11/03/AR2005110302528.html&quot; rel=&quot;nofollow&quot;&gt;joining the military&lt;/a&gt;. They leave behind a diminished, aging population that puts even greater strain on the remaining community fabric.  &lt;/p&gt;
+&lt;p&gt;Those that stay face &lt;a href=&quot;http://www.huffingtonpost.com/2015/03/16/rural-youth-suicides_n_6867420.html&quot; rel=&quot;nofollow&quot;&gt;suicide rates in rural areas are double those in urban areas&lt;/a&gt;. Their &lt;a href=&quot;http://www.clarionledger.com/story/news/2015/05/19/states-rural-roads-crumbling-dangerous/27584635/&quot; rel=&quot;nofollow&quot;&gt;infrastructure is crumbling&lt;/a&gt;. They watch &lt;a href=&quot;http://www.wsj.com/articles/SB10001424127887323997004578640531575133750&quot; rel=&quot;nofollow&quot;&gt;heroin use rise in their communities&lt;/a&gt;. That is when they're not suffering from &lt;a href=&quot;https://www.thefix.com/content/methland-reding-heartland-Oelwein8072?page=all&quot; rel=&quot;nofollow&quot;&gt;crystal meth or prescription pill related crime&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;When jobs do come, they often are at the behest of vast, international conglomerates more interesting in extracting what value there is left, rather than building sustaining economic engines. In his book, &lt;a href=&quot;http://www.theopennetworkqc.org/qcon-blog/archives/11-2016&quot; rel=&quot;nofollow&quot;&gt;Throwing Rocks at the Google Bus&lt;/a&gt;, media theorist Douglas Rushkoff articulates how Walmart, through low prices, &lt;a href=&quot;http://time.com/money/4192512/walmart-stores-closing-small-towns/&quot; rel=&quot;nofollow&quot;&gt;paradoxically bankrupts communities over the course of decades&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&quot;So now Walmart is in trouble, because so many small towns where it operates are impoverished. Once you have a Walmart, you can't make any money doing anything else. Everyone just either works for the Walmart or buys from the Walmart, that's it. And it's an extractive force, so eventually the towns go belly up, and now there's Walmarts closing because the towns they're operating in have died.&quot; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;That is the status quo that rural America has been told is the way forward. The future being championed by technology companies also doesn't provide much hope. Automation, not trade, &lt;a href=&quot;https://www.brookings.edu/blog/brookings-now/2016/11/18/what-is-the-future-of-free-trade-5-facts-about-us-trade-policy/&quot; rel=&quot;nofollow&quot;&gt;has already claimed manufacturing jobs&lt;/a&gt;. The introduction of &lt;a href=&quot;http://www.npr.org/sections/alltechconsidered/2016/10/13/497834498/for-the-long-haul-self-driving-trucks-may-pave-the-way-before-cars&quot; rel=&quot;nofollow&quot;&gt;self-driving, long-haul trucks now threatens to eliminate one of the last remaining middle-class occupations&lt;/a&gt; that didn't require a degree. Simply retraining isn't the answer, either, as &lt;a href=&quot;http://blogs.wsj.com/economics/2016/12/22/many-americans-live-in-education-deserts-new-research-shows/&quot; rel=&quot;nofollow&quot;&gt;many rural Americans live in &quot;Education Deserts&quot;&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Who is employed as a trucker? Besides several of my family members, &lt;a href=&quot;http://www.npr.org/sections/money/2015/02/05/382664837/map-the-most-common-job-in-every-state&quot; rel=&quot;nofollow&quot;&gt;quite a few of red state Americans&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2016/12/common-occupations-by-state.png&quot; /&gt;&lt;figcaption&gt;Map of most common jobs, by state, from &lt;a href=&quot;http://www.npr.org/sections/money/2015/02/05/382664837/map-the-most-common-job-in-every-state&quot;&gt;NPR's Money Blog&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Modern America has left part of itself behind&lt;/em&gt;. It is exactly this kind of status quo - the kind that only extracts without replacing with an alternative, that champions the disruption of livelihoods without transition to replacements, that &quot;hollows out&quot; health and home to enrich elites in far flung places - that has simmered resentment and anger. There are horrible people who took glee in a Trump victory. Then there where the millions that want - &lt;strong&gt;need&lt;/strong&gt; - something different. &lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2016/12/leave-red-states.png&quot; /&gt;&lt;figcaption&gt;A snapshot of a tweetstream &lt;a href=&quot;https://twitter.com/haircut_hippie/status/813105010255032321&quot;&gt;by Mark on Christmas&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&quot;But who gives a shit about some backwater?&quot;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Unfortunately, I see this sentiment all too often. Richard Florida, an American urban theorist, has long argued that knowledge economies favor urban rather than rural areas. In a recent piece, he argued that &lt;a href=&quot;https://medium.com/@Richard_Florida/the-most-disruptive-transformation-in-history-80a50ef89b4d#.adcjsij4i&quot; rel=&quot;nofollow&quot;&gt;our economic vitality required ceding nation state power to cities&lt;/a&gt;. Rather than using government power to create opportunity, as &lt;a href=&quot;http://www.nytimes.com/2016/08/08/technology/how-to-give-rural-america-broadband-look-to-the-early-1900s.html&quot; rel=&quot;nofollow&quot;&gt;co-ops are doing with New-Deal regulations to run fiber-optic cable&lt;/a&gt;, he'd accelerate these places returning to dust from which they rose.&lt;/p&gt;
+
+&lt;p&gt;America is not only a coast. Americans are not just the people who think or look like I do. &lt;em&gt;The American dream is not a system that enriches some while sacrificing others&lt;/em&gt;. Red or blue, the audaciousness of our civic experiment is that we are a &lt;em&gt;plurality&lt;/em&gt;. After the fascist and nationalistic fervor dissipates, we then begin the hard job: reclaiming an America system that works for &lt;strong&gt;all of us&lt;/strong&gt;, not some of us. Avoiding another protest vote capable of electing the next Trump depends on it.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2016/12/27/EmpathyForAll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/27/EmpathyForAll.html</guid>
+        
+        <category>Trump,Richard</category>
+        
+        <category>Florida,Douglas</category>
+        
+        <category>Rushkoff,Google,rural</category>
+        
+        <category>America,America</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Toward a More Perfect Union</title>
+        <description>&lt;figure&gt;
+&lt;img src=&quot;/images/2016/12/capital-one.gif&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I collaborate with numerous API development teams at Capital One. This week, like many before it, was a big week. On Tuesday, we had a year-end, all-hands meeting for the &lt;a href=&quot;https://developer.capitalone.com/&quot; rel=&quot;nofollow&quot;&gt;DevExchange&lt;/a&gt; product management team. We're geographically dispersed and these in-person events give us the rare opportunity to humanize our counterparts. &lt;/p&gt;
+
+&lt;p&gt;The event was followed by a team event at a bowling alley. While enjoying the more relaxed atmosphere, a previously unmet co-worker came over and asked, &quot;shouldn't you be off somewhere, approving an API?&quot; I totally missed the playfulness and immediately had a mini-panic attack: &quot;Did I miss an email? Which team did I forget about? Who's road map delay am I going to be blamed for next?&quot;&lt;/p&gt;
+
+&lt;p&gt;Turns out this was perfectly nice guy I knew only from email that just wanted to say &quot;hi&quot;. &lt;/p&gt;
+
+&lt;p&gt;My job is to represent an enterprise's non-functional requirements during software development. At some places this is called &quot;API Governance&quot;. At others, the role is handled by a &quot;Center of Excellence&quot;. Regardless of the name, I've seen the mess that happens when &lt;a href=&quot;/go.cfm?article=Consistency_AND_Cohesion&quot; rel=&quot;nofollow&quot;&gt;API consistency and cohesion&lt;/a&gt; aren't upheld in distributed systems. Spoilers: &lt;a href=&quot;http://www.educationdive.com/news/pearson-to-leave-the-lms-market-within-2-3-years/413333/&quot; rel=&quot;nofollow&quot;&gt;it ain't good&lt;/a&gt;. I take my job seriously. Probably &lt;em&gt;too&lt;/em&gt; seriously, if the near cardiac arrest is any indication.&lt;/p&gt;
+
+&lt;p&gt;The next evening, while trying not to worry about new work wrinkles, I watched &lt;a href=&quot;https://www.youtube.com/watch?v=wewAC5X_CZ8&quot; rel=&quot;nofollow&quot;&gt;Jenn Schiffer's presentation to the 2016 XOXO Festival&lt;/a&gt;. In the video Jenn points out that technologists, especially those working on the web, take themselves &lt;strong&gt;so incredibly seriously&lt;/strong&gt;. That, combined with what had previously happened earlier in the week, got me thinking.&lt;/p&gt;
+
+&lt;p&gt;I returned to work the next day resolute to reintroduce &lt;em&gt;the levity&lt;/em&gt; to my job. WORK&amp;trade; still has to be done, of course. But can we carve out time for those things that edify and excite us about it? That remind us why we're passionate about the jobs we're doing? &lt;/p&gt;
+
+&lt;p&gt;Perhaps as important, can we aggressively defend that time from being co-opted by &quot;more important matters&quot;? At the time my intern started, I started a book club within our team. The purpose was to read a book on product management or software development once a month and, at the end, discuss the lessons in relation to our daily activities. It was initially intended to provide context for the intern on the breadth and depth of our profession. I quickly also saw the important of regularly seeking out, and discussing, external ideas in relation to problems we were living through (the Innovator's Dilemma conversation was &lt;em&gt;fantastic&lt;/em&gt;). &lt;/p&gt;
+
+&lt;p&gt;After the first several months, however, participation dropped off. People had &lt;em&gt;real&lt;/em&gt; WORK&amp;trade; to do. As is at most companies, enrichment is a luxury paid for in time. And, as people got busy, they don't have that time to spend. In the short term, those co-workers opted to take those meetings, finish those presentations, and answer the emails demanding their attention. But we're trying to accomplish big things; bigger and of much longer duration than any one occasional scheduling conflict. We're in a marathon, not a sprint, and I worry about the long term implications.&lt;/p&gt;
+
+&lt;p&gt;Today was NexTech2016, an internal conference. It not only shares internal progress but, in TED-talk style, brings in outside voices. &lt;a href=&quot;https://twitter.com/tarah&quot; rel=&quot;nofollow&quot;&gt;Tarah Wheeler&lt;/a&gt;, website security czar for Symantec, finished the day emphasizing how important security for financial information is. After all, Tarah argued, this is how people &quot;buy their bread&quot;. Getting something to work and then calling it a day isn't enough. We need all the seriousness we can muster because we build the financial mechanisms that impact people's lives &lt;em&gt;daily&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was a well-intentioned message. I'm sure some in the audience may have needed to hear it. But, after she finished, I turned to the my co-worker and we both, simultaneously, let a long, weary sigh. There's a balance, a fluidity here we haven't mastered yet. &lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Dec 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2016/12/03/AMorePrefectUnion.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/03/AMorePrefectUnion.html</guid>
+        
+        <category>APIs,Capital</category>
+        
+        <category>One,DevExchange,Center</category>
+        
+        <category>of</category>
+        
+        <category>Excellence,bowling,Jenn</category>
+        
+        <category>Schiffer,XOXO,Innovator's</category>
+        
+        <category>Dilemma,NexTech,NexTech2016,Tarah</category>
+        
+        <category>Wheeler,Symantec</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Planting One's Feet</title>
+        <description>&lt;figure&gt;
+&lt;img src=&quot;/images/2016/11/safetypin.jpg&quot; /&gt;
+&lt;figcaption&gt;The humble &lt;a href=&quot;http://www.huffingtonpost.com/entry/safety-pin-trump-brexit_us_58251b53e4b0c4b63b0c11a9&quot;&gt;safety pin&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For better or worse, people will be processing the how and why of this election for some time. Unfortunately, we can't wait for full comprehension (if such a thing were even possible) before acting.&lt;/p&gt;
+&lt;p&gt;Many of the guides online discuss how to get started with encryption for messaging and email applications. There is certainly a concern that the world's most sophisticated surveillence apparatus is now in the hands of an unpredictable, even vengeful, actor. However, there's steps even prior to that we need to consider. Before doing a digital cleanse, consider that there are many, many organizations that are already staffed and fluent in doing the important work that needs doing. Their difficult jobs just became much, much harder. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-rSDUsMwakI&quot; rel=&quot;nofollow&quot;&gt;John Oliver did a fantastic piece on his HBO program about the election results&lt;/a&gt; (NSFW). He outlined numerous organizations worthy of support. Just throwing money at a problem doesn't solve it. But it is somewhere to start.&lt;/p&gt;
+
+&lt;p&gt;I just subscribed to the &lt;strong&gt;&lt;a href=&quot;https://www.washingtonpost.com/&quot; rel=&quot;nofollow&quot;&gt;Washington Post&lt;/a&gt;&lt;/strong&gt;. In addition to the Executive, Legislative, and Judicial branches, the media has served as &quot;the fourth estate&quot;. Thier job has been to keep the American public informed of acts being done in their name. Despite this, &quot;traditional&quot; journalism, has been drastically weakened by digital disruption. Other alternatives include &lt;a href=&quot;http://www.nytimes.com/&quot; rel=&quot;nofollow&quot;&gt;The New York Times&lt;/a&gt; and Pro Publica, an independent, non-profit that &lt;a href=&quot;https://www.propublica.org/article/hate-crimes-are-up-but-the-government-isnt-keeping-good-track-of-them&quot; rel=&quot;nofollow&quot;&gt;announced they'll begin the hard work of tracking hate crimes&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Then I set up a recurring donation to the &lt;strong&gt;&lt;a href=&quot;https://www.eff.org/&quot; rel=&quot;nofollow&quot;&gt;Electronic Frontier Foundation (EFF)&lt;/a&gt;&lt;/strong&gt;. America is a nation of laws and we need instiutions able to highlight and stop abuses. I chose the EFF because of the importance encryption, net neutrality, and online rights will play in the immediate future. The &lt;a href=&quot;https://www.aclu.org/&quot; rel=&quot;nofollow&quot;&gt;ACLU&lt;/a&gt;. John Oliver mentions plenty more deserving options.&lt;/p&gt;
+
+&lt;p&gt;Finally, and perhaps most importantly, I also arranged a recurring donation to the &lt;strong&gt;&lt;a href=&quot;http://houseforall.org/&quot; rel=&quot;nofollow&quot;&gt;House for All Sinners and Saints&lt;/a&gt;&lt;/strong&gt;. Admist all the hate, communities of love and acceptance shoulder new burdens. The House for All Sinners and Saints is a Denver based Lutheran church lead by Nadia Bolz-Weber, author of &quot;Accidental Saints&quot;. &lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;512&quot; height=&quot;376&quot; src=&quot;http://player.pbs.org/viralplayer/2365842749/&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; seamless=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;What is &lt;strong&gt;not&lt;/strong&gt; on the agenda is fleeing to another country. On election day, my wife took our two daughters to watch her vote. There was a lesson in civic duty that they needed to observe. In the same way, holding one's ground for basic human decency is the example we need to set. There's far too much at stake here to leave it to others.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2016/11/17/ElectionAction.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/11/17/ElectionAction.html</guid>
+        
+        <category>John</category>
+        
+        <category>Oliver,</category>
+        
+        <category>Washington</category>
+        
+        <category>Post,</category>
+        
+        <category>NY</category>
+        
+        <category>Times,</category>
+        
+        <category>Pro</category>
+        
+        <category>Publica,</category>
+        
+        <category>EFF,</category>
+        
+        <category>ACLU,</category>
+        
+        <category>House</category>
+        
+        <category>for</category>
+        
+        <category>All,</category>
+        
+        <category>Nadia</category>
+        
+        <category>Bolz-Weber</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Microservice Deep Cuts &amp;#x2709;</title>
+        <description>&lt;p&gt;Microservices continue to be the chum that attracts an absurd number of API thinkpieces. Many of these are slight, demonstrating only a superficial knowledge of the section. In this week's newsletter, however, I get to two bigger, meatier articles that offer real insights into the microservice phenomenon.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2016-10-17-microservices-deep-cuts&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2016-10-17-microservices-deep-cuts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 17 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2016/10/17/RESTAPINotes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/17/RESTAPINotes.html</guid>
+        
+        <category>microservices,Tom</category>
+        
+        <category>Killalea,Adrian</category>
+        
+        <category>Colyer</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ex Machina</title>
+        <description>&lt;figure&gt;
+&lt;img src=&quot;/images/2016/10/ex-machina.jpg&quot; /&gt;
+&lt;figcaption&gt;A still from &lt;em&gt;Ex Machina&lt;/em&gt; (2015)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&quot;&lt;a href=&quot;http://newatlas.com/ai-movie-trailer-morgan/45202/&quot; rel=&quot;nofollow&quot;&gt;AI CREATES MOVIE TRAILER&lt;/a&gt;!&quot; yells the headline. IBM's Watson, looking for something else to do besides win Jeopardy, is now making movie trailers. The trailer by itself, for a horror movie called Morgan, isn't anything special: some off putting music, dark sets, and implied danger. It would just be an ok achievement for a computer until one reads the fine print: Watson actually selected &lt;strong&gt;six minutes&lt;/strong&gt; of scenes it identified as potentially important, and then a human editor composed the resulting minute and a half, paired it with music, and then published the press release proclaiming the marketing gimmick finished. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*slow clap*&lt;/em&gt; &lt;/p&gt;
+
+&lt;p&gt;A much better example of where machine intelligence is applied is the short film &lt;a href=&quot;https://www.youtube.com/watch?v=LY7x2Ihqjmc&quot; rel=&quot;nofollow&quot;&gt;Sunspring&lt;/a&gt;. The script was created by feeding numerous &quot;sci-fi&quot; screenplays through an algorithm. The result was then interpreted by humans - a director, cinematographer, costumers, actors, scorers - to give it (some?) coherent narrative. It is &lt;em&gt;interesting&lt;/em&gt;. However, it clearly shows the limits even the state-of-the-art is capable of. There's a difference between &lt;em&gt;pattern matching&lt;/em&gt; and &lt;em&gt;creativity&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Turing_Test_(video_game)&quot; rel=&quot;nofollow&quot;&gt;The Turing Test&lt;/a&gt; is a recently released game that explores these issues in more depth. The game mentions &lt;strong&gt;&lt;a href=&quot;http://www.iep.utm.edu/chineser/&quot; rel=&quot;nofollow&quot;&gt;the Chinese Room Argument&lt;/a&gt;&lt;/strong&gt;, a thought experiment from the early 80s attributed to John Searle. In the theoretical situation a non-Chinese speaker is put into a room. Messages, written in Chinese, are passed into the room and responses are required. While the individual inside doesn't understand the contents of what they are given, they have book where they can match the characters they receive with correct responses. Once they find the correct pattern, they record a copy of the response to be passed back out. &lt;/p&gt;
+
+&lt;p&gt;In the experiment, is the individual in the room &quot;speaking&quot; Chinese? To those outside the room, it may appear that a conversation is happening. The person inside, however, has no understanding of what is being said.&lt;/p&gt;
+&lt;p&gt;That, ultimately, explains why Sunspring is so &lt;em&gt;odd&lt;/em&gt;. The machine learning algorithm was told to find significant patterns in the training data. But while it understood the &lt;em&gt;syntax&lt;/em&gt; of language, it has no &lt;em&gt;semantics&lt;/em&gt;; &lt;strong&gt;it doesn't understand what the words mean&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;There have been tremendous strides in the field of machine learning. Those are heavily contrasted with &lt;a href=&quot;/go.cfm?article=Codified_Cultural_Bias&quot; rel=&quot;nofollow&quot;&gt;some astonishing setbacks&lt;/a&gt;. To this point, however, what is often trumpeted as &quot;AI&quot; is still very much just a more efficient Chinese room participant. We are not yet in the presence of true, creative AI. Even then, the form that it takes will (most likely) be altogether alien, bordering on unrecognizable.&lt;/p&gt;
+
+&lt;p&gt;We get a moment of that in &lt;a href=&quot;https://en.wikipedia.org/wiki/Ex_Machina_(film)&quot; rel=&quot;nofollow&quot;&gt;Ex Machina&lt;/a&gt; (2015). (If you haven't seen it yet &lt;strong&gt;this is your spoiler warning&lt;/strong&gt;; further discussion of the film discusses important plot points of the third act.) Nearing the end, Ava (Alicia Vikander) carries out her escape from her creator with the help of Caleb (Domhnall Gleeson). She engineers a particularly brutal death of Nathan, her maker, played by Oscar Isaac. While the violence is shocking, the result isn't: Ava is exerting a justice that jives with most people's moral code. &lt;/p&gt;
+
+&lt;p&gt;But it is the &lt;em&gt;next&lt;/em&gt; action that chills to the bone. Millions of years of evolution have ingrained certain expectations about correct behavior.  Humans &lt;a href=&quot;http://www.theatlantic.com/science/archive/2015/10/people-dont-actually-want-equality/411784/&quot; rel=&quot;nofollow&quot;&gt;yearn for fairness&lt;/a&gt;. When we perceive a situation as &quot;unfair&quot; we &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S1877042814043523&quot; rel=&quot;nofollow&quot;&gt;tend to get testy&lt;/a&gt;. Caleb risks a tremendous amount to free Ava. As a result, we expect a happy ending for him; as the film's &quot;hero&quot; that would be fair. Yet Ava leaves him to die not because she has to, but because she can. The cold calculation of that moment is as alien and terrifying as anything else in the film.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;http://www.ustream.tv/recorded/87321900&quot; rel=&quot;nofollow&quot;&gt;a New America AI conversation with author Charles Stross&lt;/a&gt;, he made the argument that we are already in the presence of AI: the Limited Liability Corporation. Legally, they are treated as people. They acquire resources to sustain their life. They grow, they mature, and - in some cases, even die. In Stross's tour-de-force singularity book, &lt;em&gt;Accelerando&lt;/em&gt; (&lt;a href=&quot;http://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando-intro.html&quot; rel=&quot;nofollow&quot;&gt;Creative Commons Download Available&lt;/a&gt;), we don't find other alien species as we reach into space, but business algorithms continuing to churn long after their creators had passed from existence: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&quot;Basically, sufficiently complex resource-allocation algorithms reallocate scarce resources ... and if you don't jump to get out of their way, they'll reallocate you. I think that's what happened inside the Matrioshka brain we ended up in: Judging by the Slug it happens elsewhere, too. You've got to wonder where the builders of that structure came from. And where they went. And whether they realized that the destiny of intelligent tool-using life was to be a stepping-stone in the evolution of corporate instruments.&quot;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Today's showy attempts at machine intelligence are attempts at creating artifacts for people. They, like the participants in the Chinese room experiment, are being given a string of characters. They respond with what, they are told, are pleasing responses. When our constructs begin to reshape culture for their own, and most likely unrecognizable, ends - &lt;em&gt;that&lt;/em&gt; is the point when we are confronted with true AI. And, like Caleb's imprisonment by Ava, that realization will come too late. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2016/10/12/ExMachina.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/12/ExMachina.html</guid>
+        
+        <category>IBM</category>
+        
+        <category>Watson,Jeopardy,Sunspring,AI,John</category>
+        
+        <category>Searle,Ex</category>
+        
+        <category>Machina,Charles</category>
+        
+        <category>Stross</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
