@@ -500,4 +500,6 @@ embed,
 object {
   border: 0.2em solid #ccc;
   -moz-border-radius: 0.3em;
-  border-radius: 0.3em; }
+  border-radius: 0.3em;
+  text-align: center;
+  width: 100%; }

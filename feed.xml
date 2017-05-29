@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 May 2017 16:01:20 -0400</pubDate>
-    <lastBuildDate>Wed, 24 May 2017 16:01:20 -0400</lastBuildDate>
+    <pubDate>Sun, 28 May 2017 14:52:19 -0400</pubDate>
+    <lastBuildDate>Sun, 28 May 2017 14:52:19 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -92,6 +92,70 @@
         <category>Netflix,</category>
         
         <category>O'Reilly</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>March Lego City Update ▶</title>
+        <description>&lt;p&gt;Time flies when you're having fun. Or at least that's the excuse I'll make for having six months having gone between Lego city walkthroughs. Numerous buildings have benefited from subtle tweaks. However, by far, the biggest effort has been building out the multi-tiered approach.&lt;/p&gt;
+
+&lt;p&gt;The video is a quick fly-by of a wall in my home office. If nothing else, you can see what I do while on conference calls.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PAoqGisyr3Q&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/04/09/MarchLegoCityUpdate.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/09/MarchLegoCityUpdate.html</guid>
+        
+        <category>Lego,HuxleyMOC,video,Ghost</category>
+        
+        <category>in</category>
+        
+        <category>the</category>
+        
+        <category>Shell,Section</category>
+        
+        <category>9,Back</category>
+        
+        <category>to</category>
+        
+        <category>the</category>
+        
+        <category>Future,Snow</category>
+        
+        <category>Crash,Time</category>
+        
+        <category>Machine,Chatsubo,Cosa</category>
+        
+        <category>Nostra</category>
+        
+        <category>Pizza,Neuromancer,Big</category>
+        
+        <category>Dig</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Lego Batman Movie Review ▶</title>
+        <description>&lt;p&gt;The original Lego movie defied expectations. What could have been a crass commercial money-grab, instead, was a delightful romp. One of the standout characters from that film was Will Arnett's &lt;em&gt;Batman&lt;/em&gt;. Now in his own feature-length film, will the shtick hold up? &lt;/p&gt;
+
+&lt;p&gt;I thought putting together a movie review was as good of excuse as any to practice some video making skills.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zl0hzAhB91Y&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Feb 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2017/02/19/TheLegoBatmanMovieReview.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/19/TheLegoBatmanMovieReview.html</guid>
+        
+        <category>Lego,The</category>
+        
+        <category>Lego</category>
+        
+        <category>Batman</category>
+        
+        <category>Movie,Batman</category>
         
         
       </item>
@@ -315,78 +379,6 @@
         <category>Nadia</category>
         
         <category>Bolz-Weber</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Microservice Deep Cuts &amp;#x2709;</title>
-        <description>&lt;p&gt;Microservices continue to be the chum that attracts an absurd number of API thinkpieces. Many of these are slight, demonstrating only a superficial knowledge of the section. In this week's newsletter, however, I get to two bigger, meatier articles that offer real insights into the microservice phenomenon.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2016-10-17-microservices-deep-cuts&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2016-10-17-microservices-deep-cuts&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 17 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2016/10/17/RESTAPINotes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/17/RESTAPINotes.html</guid>
-        
-        <category>microservices,Tom</category>
-        
-        <category>Killalea,Adrian</category>
-        
-        <category>Colyer</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ex Machina</title>
-        <description>&lt;figure&gt;
-&lt;img src=&quot;/images/2016/10/ex-machina.jpg&quot; /&gt;
-&lt;figcaption&gt;A still from &lt;em&gt;Ex Machina&lt;/em&gt; (2015)&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&quot;&lt;a href=&quot;http://newatlas.com/ai-movie-trailer-morgan/45202/&quot; rel=&quot;nofollow&quot;&gt;AI CREATES MOVIE TRAILER&lt;/a&gt;!&quot; yells the headline. IBM's Watson, looking for something else to do besides win Jeopardy, is now making movie trailers. The trailer by itself, for a horror movie called Morgan, isn't anything special: some off putting music, dark sets, and implied danger. It would just be an ok achievement for a computer until one reads the fine print: Watson actually selected &lt;strong&gt;six minutes&lt;/strong&gt; of scenes it identified as potentially important, and then a human editor composed the resulting minute and a half, paired it with music, and then published the press release proclaiming the marketing gimmick finished. &lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*slow clap*&lt;/em&gt; &lt;/p&gt;
-
-&lt;p&gt;A much better example of where machine intelligence is applied is the short film &lt;a href=&quot;https://www.youtube.com/watch?v=LY7x2Ihqjmc&quot; rel=&quot;nofollow&quot;&gt;Sunspring&lt;/a&gt;. The script was created by feeding numerous &quot;sci-fi&quot; screenplays through an algorithm. The result was then interpreted by humans - a director, cinematographer, costumers, actors, scorers - to give it (some?) coherent narrative. It is &lt;em&gt;interesting&lt;/em&gt;. However, it clearly shows the limits even the state-of-the-art is capable of. There's a difference between &lt;em&gt;pattern matching&lt;/em&gt; and &lt;em&gt;creativity&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Turing_Test_(video_game)&quot; rel=&quot;nofollow&quot;&gt;The Turing Test&lt;/a&gt; is a recently released game that explores these issues in more depth. The game mentions &lt;strong&gt;&lt;a href=&quot;http://www.iep.utm.edu/chineser/&quot; rel=&quot;nofollow&quot;&gt;the Chinese Room Argument&lt;/a&gt;&lt;/strong&gt;, a thought experiment from the early 80s attributed to John Searle. In the theoretical situation a non-Chinese speaker is put into a room. Messages, written in Chinese, are passed into the room and responses are required. While the individual inside doesn't understand the contents of what they are given, they have book where they can match the characters they receive with correct responses. Once they find the correct pattern, they record a copy of the response to be passed back out. &lt;/p&gt;
-
-&lt;p&gt;In the experiment, is the individual in the room &quot;speaking&quot; Chinese? To those outside the room, it may appear that a conversation is happening. The person inside, however, has no understanding of what is being said.&lt;/p&gt;
-&lt;p&gt;That, ultimately, explains why Sunspring is so &lt;em&gt;odd&lt;/em&gt;. The machine learning algorithm was told to find significant patterns in the training data. But while it understood the &lt;em&gt;syntax&lt;/em&gt; of language, it has no &lt;em&gt;semantics&lt;/em&gt;; &lt;strong&gt;it doesn't understand what the words mean&lt;/strong&gt;. &lt;/p&gt;
-
-&lt;p&gt;There have been tremendous strides in the field of machine learning. Those are heavily contrasted with &lt;a href=&quot;/go.cfm?article=Codified_Cultural_Bias&quot; rel=&quot;nofollow&quot;&gt;some astonishing setbacks&lt;/a&gt;. To this point, however, what is often trumpeted as &quot;AI&quot; is still very much just a more efficient Chinese room participant. We are not yet in the presence of true, creative AI. Even then, the form that it takes will (most likely) be altogether alien, bordering on unrecognizable.&lt;/p&gt;
-
-&lt;p&gt;We get a moment of that in &lt;a href=&quot;https://en.wikipedia.org/wiki/Ex_Machina_(film)&quot; rel=&quot;nofollow&quot;&gt;Ex Machina&lt;/a&gt; (2015). (If you haven't seen it yet &lt;strong&gt;this is your spoiler warning&lt;/strong&gt;; further discussion of the film discusses important plot points of the third act.) Nearing the end, Ava (Alicia Vikander) carries out her escape from her creator with the help of Caleb (Domhnall Gleeson). She engineers a particularly brutal death of Nathan, her maker, played by Oscar Isaac. While the violence is shocking, the result isn't: Ava is exerting a justice that jives with most people's moral code. &lt;/p&gt;
-
-&lt;p&gt;But it is the &lt;em&gt;next&lt;/em&gt; action that chills to the bone. Millions of years of evolution have ingrained certain expectations about correct behavior.  Humans &lt;a href=&quot;http://www.theatlantic.com/science/archive/2015/10/people-dont-actually-want-equality/411784/&quot; rel=&quot;nofollow&quot;&gt;yearn for fairness&lt;/a&gt;. When we perceive a situation as &quot;unfair&quot; we &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S1877042814043523&quot; rel=&quot;nofollow&quot;&gt;tend to get testy&lt;/a&gt;. Caleb risks a tremendous amount to free Ava. As a result, we expect a happy ending for him; as the film's &quot;hero&quot; that would be fair. Yet Ava leaves him to die not because she has to, but because she can. The cold calculation of that moment is as alien and terrifying as anything else in the film.&lt;/p&gt;
-
-&lt;p&gt;In &lt;a href=&quot;http://www.ustream.tv/recorded/87321900&quot; rel=&quot;nofollow&quot;&gt;a New America AI conversation with author Charles Stross&lt;/a&gt;, he made the argument that we are already in the presence of AI: the Limited Liability Corporation. Legally, they are treated as people. They acquire resources to sustain their life. They grow, they mature, and - in some cases, even die. In Stross's tour-de-force singularity book, &lt;em&gt;Accelerando&lt;/em&gt; (&lt;a href=&quot;http://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando-intro.html&quot; rel=&quot;nofollow&quot;&gt;Creative Commons Download Available&lt;/a&gt;), we don't find other alien species as we reach into space, but business algorithms continuing to churn long after their creators had passed from existence: &lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&quot;Basically, sufficiently complex resource-allocation algorithms reallocate scarce resources ... and if you don't jump to get out of their way, they'll reallocate you. I think that's what happened inside the Matrioshka brain we ended up in: Judging by the Slug it happens elsewhere, too. You've got to wonder where the builders of that structure came from. And where they went. And whether they realized that the destiny of intelligent tool-using life was to be a stepping-stone in the evolution of corporate instruments.&quot;&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Today's showy attempts at machine intelligence are attempts at creating artifacts for people. They, like the participants in the Chinese room experiment, are being given a string of characters. They respond with what, they are told, are pleasing responses. When our constructs begin to reshape culture for their own, and most likely unrecognizable, ends - &lt;em&gt;that&lt;/em&gt; is the point when we are confronted with true AI. And, like Caleb's imprisonment by Ava, that realization will come too late. &lt;/p&gt;
-</description>
-        <pubDate>Wed, 12 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2016/10/12/ExMachina.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/12/ExMachina.html</guid>
-        
-        <category>IBM</category>
-        
-        <category>Watson,Jeopardy,Sunspring,AI,John</category>
-        
-        <category>Searle,Ex</category>
-        
-        <category>Machina,Charles</category>
-        
-        <category>Stross</category>
         
         
       </item>
