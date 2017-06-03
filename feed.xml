@@ -6,9 +6,41 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 May 2017 21:08:37 -0400</pubDate>
-    <lastBuildDate>Tue, 30 May 2017 21:08:37 -0400</lastBuildDate>
+    <pubDate>Sat, 03 Jun 2017 12:00:33 -0400</pubDate>
+    <lastBuildDate>Sat, 03 Jun 2017 12:00:33 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>API Info Comes in All Forms &amp;#x2709;</title>
+        <description>&lt;p&gt;The newest version of the REST API Notes is now available. In this edition, I cover two pieces on microservices: one a podcast covering the broad landscape of challenges, the other a video that dives deep into the cultural ramifications. Switching gears, there's also a slide deck on the need for a capability approach to API design.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &amp;lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-06-01&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-06-01&amp;lt;/a&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/06/01/RESTAPINotes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/01/RESTAPINotes.html</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        <category>Notes,microservices,API</category>
+        
+        <category>Design,Daniel</category>
+        
+        <category>Bryant,James</category>
+        
+        <category>Higginbotham,Cassandra</category>
+        
+        <category>Shum</category>
+        
+        
+      </item>
     
       <item>
         <title>Tired API Tropes and OpenAPI News &amp;#x2709;</title>
@@ -320,65 +352,6 @@
         <category>Dilemma,NexTech,NexTech2016,Tarah</category>
         
         <category>Wheeler,Symantec</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Planting One's Feet</title>
-        <description>&lt;figure&gt;
-&lt;img src=&quot;/images/2016/11/safetypin.jpg&quot; /&gt;
-&lt;figcaption&gt;The humble &lt;a href=&quot;http://www.huffingtonpost.com/entry/safety-pin-trump-brexit_us_58251b53e4b0c4b63b0c11a9&quot;&gt;safety pin&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;For better or worse, people will be processing the how and why of this election for some time. Unfortunately, we can't wait for full comprehension (if such a thing were even possible) before acting.&lt;/p&gt;
-&lt;p&gt;Many of the guides online discuss how to get started with encryption for messaging and email applications. There is certainly a concern that the world's most sophisticated surveillence apparatus is now in the hands of an unpredictable, even vengeful, actor. However, there's steps even prior to that we need to consider. Before doing a digital cleanse, consider that there are many, many organizations that are already staffed and fluent in doing the important work that needs doing. Their difficult jobs just became much, much harder. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-rSDUsMwakI&quot; rel=&quot;nofollow&quot;&gt;John Oliver did a fantastic piece on his HBO program about the election results&lt;/a&gt; (NSFW). He outlined numerous organizations worthy of support. Just throwing money at a problem doesn't solve it. But it is somewhere to start.&lt;/p&gt;
-
-&lt;p&gt;I just subscribed to the &lt;strong&gt;&lt;a href=&quot;https://www.washingtonpost.com/&quot; rel=&quot;nofollow&quot;&gt;Washington Post&lt;/a&gt;&lt;/strong&gt;. In addition to the Executive, Legislative, and Judicial branches, the media has served as &quot;the fourth estate&quot;. Thier job has been to keep the American public informed of acts being done in their name. Despite this, &quot;traditional&quot; journalism, has been drastically weakened by digital disruption. Other alternatives include &lt;a href=&quot;http://www.nytimes.com/&quot; rel=&quot;nofollow&quot;&gt;The New York Times&lt;/a&gt; and Pro Publica, an independent, non-profit that &lt;a href=&quot;https://www.propublica.org/article/hate-crimes-are-up-but-the-government-isnt-keeping-good-track-of-them&quot; rel=&quot;nofollow&quot;&gt;announced they'll begin the hard work of tracking hate crimes&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;Then I set up a recurring donation to the &lt;strong&gt;&lt;a href=&quot;https://www.eff.org/&quot; rel=&quot;nofollow&quot;&gt;Electronic Frontier Foundation (EFF)&lt;/a&gt;&lt;/strong&gt;. America is a nation of laws and we need instiutions able to highlight and stop abuses. I chose the EFF because of the importance encryption, net neutrality, and online rights will play in the immediate future. The &lt;a href=&quot;https://www.aclu.org/&quot; rel=&quot;nofollow&quot;&gt;ACLU&lt;/a&gt;. John Oliver mentions plenty more deserving options.&lt;/p&gt;
-
-&lt;p&gt;Finally, and perhaps most importantly, I also arranged a recurring donation to the &lt;strong&gt;&lt;a href=&quot;http://houseforall.org/&quot; rel=&quot;nofollow&quot;&gt;House for All Sinners and Saints&lt;/a&gt;&lt;/strong&gt;. Admist all the hate, communities of love and acceptance shoulder new burdens. The House for All Sinners and Saints is a Denver based Lutheran church lead by Nadia Bolz-Weber, author of &quot;Accidental Saints&quot;. &lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;512&quot; height=&quot;376&quot; src=&quot;http://player.pbs.org/viralplayer/2365842749/&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; seamless=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;What is &lt;strong&gt;not&lt;/strong&gt; on the agenda is fleeing to another country. On election day, my wife took our two daughters to watch her vote. There was a lesson in civic duty that they needed to observe. In the same way, holding one's ground for basic human decency is the example we need to set. There's far too much at stake here to leave it to others.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 17 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/11/17/ElectionAction.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/11/17/ElectionAction.html</guid>
-        
-        <category>John</category>
-        
-        <category>Oliver,</category>
-        
-        <category>Washington</category>
-        
-        <category>Post,</category>
-        
-        <category>NY</category>
-        
-        <category>Times,</category>
-        
-        <category>Pro</category>
-        
-        <category>Publica,</category>
-        
-        <category>EFF,</category>
-        
-        <category>ACLU,</category>
-        
-        <category>House</category>
-        
-        <category>for</category>
-        
-        <category>All,</category>
-        
-        <category>Nadia</category>
-        
-        <category>Bolz-Weber</category>
         
         
       </item>
