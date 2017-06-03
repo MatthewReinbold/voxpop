@@ -6,15 +6,15 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Jun 2017 12:00:33 -0400</pubDate>
-    <lastBuildDate>Sat, 03 Jun 2017 12:00:33 -0400</lastBuildDate>
+    <pubDate>Sat, 03 Jun 2017 12:04:40 -0400</pubDate>
+    <lastBuildDate>Sat, 03 Jun 2017 12:04:40 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>API Info Comes in All Forms &amp;#x2709;</title>
         <description>&lt;p&gt;The newest version of the REST API Notes is now available. In this edition, I cover two pieces on microservices: one a podcast covering the broad landscape of challenges, the other a video that dives deep into the cultural ramifications. Switching gears, there's also a slide deck on the need for a capability approach to API design.&lt;/p&gt;
 
-&lt;p&gt;You can find the web version of the newsletter email here: &amp;lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-06-01&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-06-01&amp;lt;/a&amp;gt;&lt;/p&gt;
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-06-01&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-06-01&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
 
