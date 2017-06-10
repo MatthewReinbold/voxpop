@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Jun 2017 12:04:40 -0400</pubDate>
-    <lastBuildDate>Sat, 03 Jun 2017 12:04:40 -0400</lastBuildDate>
+    <pubDate>Fri, 09 Jun 2017 23:14:41 -0400</pubDate>
+    <lastBuildDate>Fri, 09 Jun 2017 23:14:41 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -22,8 +22,8 @@
 
 </description>
         <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/06/01/RESTAPINotes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/01/RESTAPINotes.html</guid>
+        <link>http://localhost:4000/2017/06/01/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/01/RESTAPINotes/</guid>
         
         <category>REST</category>
         
@@ -54,8 +54,8 @@
 
 </description>
         <pubDate>Wed, 24 May 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/05/24/RESTAPINotes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/24/RESTAPINotes.html</guid>
+        <link>http://localhost:4000/2017/05/24/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/24/RESTAPINotes/</guid>
         
         <category>Tony</category>
         
@@ -76,8 +76,8 @@
 
 </description>
         <pubDate>Wed, 17 May 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/05/17/RESTAPINotes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/17/RESTAPINotes.html</guid>
+        <link>http://localhost:4000/2017/05/17/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/17/RESTAPINotes/</guid>
         
         <category>Mark</category>
         
@@ -118,8 +118,8 @@
 &lt;p&gt;It is a mistake to look at the success that Amazon and Netflix have had and attribute it to &lt;em&gt;only&lt;/em&gt; one of these parts. Their systematic success requires systematic solutions. Succeeding with a new architectural paradigm, like microservices, means creating cultural, business, and technological change. Separating meaningful approaches from buzzword buzzards at single-discipline conferences is one thing. Having the position and/or professional network to holistically apply it successfully is another. &lt;/p&gt;
 </description>
         <pubDate>Thu, 13 Apr 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/04/13/SystematicSolutions.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/13/SystematicSolutions.html</guid>
+        <link>http://localhost:4000/2017/04/13/SystematicSolutions/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/13/SystematicSolutions/</guid>
         
         <category>Netflix,</category>
         
@@ -137,8 +137,8 @@
 &lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PAoqGisyr3Q&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Apr 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/04/09/MarchLegoCityUpdate.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/09/MarchLegoCityUpdate.html</guid>
+        <link>http://localhost:4000/2017/04/09/MarchLegoCityUpdate/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/09/MarchLegoCityUpdate/</guid>
         
         <category>Lego,HuxleyMOC,video,Ghost</category>
         
@@ -178,8 +178,8 @@
 &lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zl0hzAhB91Y&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/02/19/TheLegoBatmanMovieReview.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/19/TheLegoBatmanMovieReview.html</guid>
+        <link>http://localhost:4000/2017/02/19/TheLegoBatmanMovieReview/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/19/TheLegoBatmanMovieReview/</guid>
         
         <category>Lego,The</category>
         
@@ -204,8 +204,8 @@
 
 </description>
         <pubDate>Tue, 17 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/01/17/RESTAPINotes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/17/RESTAPINotes.html</guid>
+        <link>http://localhost:4000/2017/01/17/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/17/RESTAPINotes/</guid>
         
         <category>Jessica</category>
         
@@ -232,8 +232,8 @@
 
 </description>
         <pubDate>Mon, 09 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/01/09/RESTAPINotes.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/09/RESTAPINotes.html</guid>
+        <link>http://localhost:4000/2017/01/09/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/09/RESTAPINotes/</guid>
         
         <category>Apple,iPhone,Steve</category>
         
@@ -295,8 +295,8 @@
 &lt;p&gt;America is not only a coast. Americans are not just the people who think or look like I do. &lt;em&gt;The American dream is not a system that enriches some while sacrificing others&lt;/em&gt;. Red or blue, the audaciousness of our civic experiment is that we are a &lt;em&gt;plurality&lt;/em&gt;. After the fascist and nationalistic fervor dissipates, we then begin the hard job: reclaiming an America system that works for &lt;strong&gt;all of us&lt;/strong&gt;, not some of us. Avoiding another protest vote capable of electing the next Trump depends on it.&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/12/27/EmpathyForAll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/27/EmpathyForAll.html</guid>
+        <link>http://localhost:4000/2016/12/27/EmpathyForAll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/27/EmpathyForAll/</guid>
         
         <category>Trump,Richard</category>
         
@@ -321,7 +321,7 @@
 
 &lt;p&gt;Turns out this was perfectly nice guy I knew only from email that just wanted to say &quot;hi&quot;. &lt;/p&gt;
 
-&lt;p&gt;My job is to represent an enterprise's non-functional requirements during software development. At some places this is called &quot;API Governance&quot;. At others, the role is handled by a &quot;Center of Excellence&quot;. Regardless of the name, I've seen the mess that happens when &lt;a href=&quot;/go.cfm?article=Consistency_AND_Cohesion&quot; rel=&quot;nofollow&quot;&gt;API consistency and cohesion&lt;/a&gt; aren't upheld in distributed systems. Spoilers: &lt;a href=&quot;http://www.educationdive.com/news/pearson-to-leave-the-lms-market-within-2-3-years/413333/&quot; rel=&quot;nofollow&quot;&gt;it ain't good&lt;/a&gt;. I take my job seriously. Probably &lt;em&gt;too&lt;/em&gt; seriously, if the near cardiac arrest is any indication.&lt;/p&gt;
+&lt;p&gt;My job is to represent an enterprise's non-functional requirements during software development. At some places this is called &quot;API Governance&quot;. At others, the role is handled by a &quot;Center of Excellence&quot;. Regardless of the name, I've seen the mess that happens when &lt;a href=&quot;//2016/06/02/ConsistencyAndCohesion&quot; rel=&quot;nofollow&quot;&gt;API consistency and cohesion&lt;/a&gt; aren't upheld in distributed systems. Spoilers: &lt;a href=&quot;http://www.educationdive.com/news/pearson-to-leave-the-lms-market-within-2-3-years/413333/&quot; rel=&quot;nofollow&quot;&gt;it ain't good&lt;/a&gt;. I take my job seriously. Probably &lt;em&gt;too&lt;/em&gt; seriously, if the near cardiac arrest is any indication.&lt;/p&gt;
 
 &lt;p&gt;The next evening, while trying not to worry about new work wrinkles, I watched &lt;a href=&quot;https://www.youtube.com/watch?v=wewAC5X_CZ8&quot; rel=&quot;nofollow&quot;&gt;Jenn Schiffer's presentation to the 2016 XOXO Festival&lt;/a&gt;. In the video Jenn points out that technologists, especially those working on the web, take themselves &lt;strong&gt;so incredibly seriously&lt;/strong&gt;. That, combined with what had previously happened earlier in the week, got me thinking.&lt;/p&gt;
 
@@ -336,8 +336,8 @@
 &lt;p&gt;It was a well-intentioned message. I'm sure some in the audience may have needed to hear it. But, after she finished, I turned to the my co-worker and we both, simultaneously, let a long, weary sigh. There's a balance, a fluidity here we haven't mastered yet. &lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/12/03/AMorePrefectUnion.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/03/AMorePrefectUnion.html</guid>
+        <link>http://localhost:4000/2016/12/03/AMorePrefectUnion/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/03/AMorePrefectUnion/</guid>
         
         <category>APIs,Capital</category>
         

@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
-">
+  <title>What if Developers Aren&#39;t Meant to Do API Design?</title>
+  <meta name="description" content="I've grown concerned after running an enterprise API governance program. I review dozens of API designs, presented in the OpenAPI format, each week. In the p...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/2016/09/06/DevsAsAPIDesigners/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,36 +60,28 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">What if Developers Aren't Meant to Do API Design?</h1>
+    <h2 class="post-subtitle">Struggling with the Question</h2>
+    <p class="post-meta"><time datetime="2016-09-06T00:00:00-04:00" itemprop="datePublished">Sep 6, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014.png" alt="Picture of Matthew presenting at the 2014 API Strategy Conference." />
-	<figcaption> Matthew Presenting at the 2014 API Strategy and Practice Conference &mdash; Photo by <a href="https://www.flickr.com/photos/kinlane/">Kin Lane</a></figcaption>
-</figure>
-</p>
+  <div class="post-content" itemprop="articleBody">
+    <p>I've grown concerned after running an enterprise API governance program. I review dozens of API designs, presented in the OpenAPI format, each week. In the past I've adamantly maintained that poor API design was a training issue; if we, as the enterprise, could better connect developers with the right resources at the right time then we'd see an increase in <a href="//2016/06/02/ConsistencyAndCohesion" rel="nofollow">consistency and cohesion</a>. Getting those materials created and distributed has been a point of emphasis. </p>
 
-<p><strong>Howdy.</strong> My name is Matthew and I am the Lead for the Capital One API Center of Excellence. Previously, I established the API governance program at Pearson. Before <em>that</em> I evangelized, developed, and grew the RESTful API initiative at Placewise Media.</p>
+<p>But what if developers aren't meant to do API design? What if that is an entirely new, emergent skill set? </p>
 
-<p>From 2003-2014 I ran my own web software consultancy, <strong>Vox Pop Design</strong>. It employed geographically dispersed development and design collaborators. Together, we created solutions used by <strong>Adobe</strong>, <strong>FedEx</strong>, <strong>Cricket Communications</strong>, and the state governments of <strong>Oregon</strong>, <strong>Washington</strong>, <strong>Idaho</strong>, and <strong>Montana</strong>, among others. While fun, I think I'm still catching up on sleep from this period.</p>
+<p>Before "Devops", enterprise software shops had numerous professional specializations: quality assurance, software architecture, software development, systems administrator, database administrator, etc. Each of these was recognized has having specific, deep expertise in a narrow field. The downside of having these channels, however, was that they became isolated from each other. "<a href="http://www.netlingo.com/word/throw-it-over-the-wall.php" rel="nofollow">Tossing it over the wall</a>" substituted for end-to-end project management. In the worst cases, when budgets or headcounts were under duress, all out trench warfare erupted. </p>
 
-<p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014b.jpg" alt="Picture of Matthew presenting at the CFObjective 2014 Conference." />
-	<figcaption> Speaking at CFObjective 2014. Photo by <a href="https://www.flickr.com/photos/oguz/">OÄŸuz DemirkapÄ±</a></figcaption>
-</figure>
-</p>
+<p>Devops, especially the frothy conference buzzword type, was supposed to bring peace to those software shops. If infrastructure could be reduced to code, the thinking goes, then <em>everything</em> could be handled by the developers. Rather than having separate disciplines that devolve to defending their turf in times of trial, you just have developers and (in a condescending acknowledgement of reality) those that support them. </p>
 
-<p>When not doing complex software process design, I tend to skew toward writing, speaking, and community building. I've been quoted online some (<a href="https://medium.com/capital-one-developers/api-lifecycle-governance-best-practices-56a1ebbb4f1b">Capital One DevExchange</a>, <a href="https://www.api2cart.com/blog/interview-matthew-reinbold/">API2Cart</a>, <a href="http://www.programmableweb.com/news/developers-roundtable-ask-%E2%80%98are-apis-copyrightable%E2%80%99/2014/05/21">Programmable Web</a>). I've also written professionally for the websites <em>Web Worker Daily</em> (RIP) and <em>Utah Pulse</em>. From April 2005 to August 2009 I was president of the Salt Lake City ColdFusion User's Group, an officially affiliated Adobe organization. I co-founded the Blogging for Business (B4B) Conference in 2007; an event about ethically using social media for business ends. In 2008 I produced the RIA Dev Shed, an event focused on next generation Rich Internet Applications. Finally, for much of the mid-Aughts, I ran a monthly indie web creator get-together called <em>CodeAway</em>.</p>
+<p>That extreme, all-is-devops viewpoint also is also problematic, however. In a previous job there was an impassioned embrace of devops. The existing sysadmins and database administrators were told, officially, that they were "legacy operations". Unofficially, management was telling seasoned, loyal professionals to pound sand. Perhaps unsurprisingly, six months later, production systems began falling over. The devops devotees didn't appreciate that Cassandra requires regular maintenance to avoid having its performance undermined by tombstones. Developers now had less time to do the things they enjoyed (developing) because they were relearning skills others had perfected (operations). Time to triage issues went through the roof because developers were relearning different skillsets. Couldn't those operations and database folks help out? Unfortunately not. They had sought jobs elsewhere; places where their experience was valued.</p>
 
-<p>
-<figure><img src="//voxpop.co/images/MatthewReinbold-speaking-2015.jpg" alt="Picture of Matthew presenting at the 2015 Capital One API Summit." />
-	<figcaption> Matthew onstage at the 2015 Capital One API Summit &mdash; Photo by <a href="https://twitter.com/lindybrandon/status/593058338159599616">Lorinda Brandon</a></figcaption>
-</figure>
-</p>
+<p>I was reminded of this from a recent API Evangelist post: <a href="http://apievangelist.com/2016/08/30/graphql-seems-like-we-do-not-want-to-do-the-hard-work-of-api-design/" rel="nofollow">GraphQL Seems Like We Do Not Want To Do The Hard Work Of API Design</a>. I want developers to view API design as a core part of their job. I want them to see the importance of designing the API first, rather than being something they auto-generate from an implementation. I think these are complimentary skills and I <strong>certainly</strong> disagree with those that regulate API design to "documentation". </p>
+
+<p>However, is that too much to ask from a majority of our developers? Is API design its own thing, no different than systems administration or architecture? Is it time to recognize the API designer as its own unique profession, complete with its own career path? Should we stop expecting a hodgepodge of different disciplines (architecture, developers, product management) to do this important work <em>in-addition-to</em> what they currently do? </p>
 
   </div>
 

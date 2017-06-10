@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
-">
+  <title>Consistency AND Cohesion</title>
+  <meta name="description" content="Many find they have not one, not two, but dozens of APIs within their organization. RESTful APIs are descriptive, not prescriptive. That is, there is so much...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/2016/06/02/ConsistencyAndCohesion/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,36 +60,75 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">Consistency AND Cohesion</h1>
+    <h2 class="post-subtitle">Why Enterprise API Governance is Necessary</h2>
+    <p class="post-meta"><time datetime="2016-06-02T00:00:00-04:00" itemprop="datePublished">Jun 2, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014.png" alt="Picture of Matthew presenting at the 2014 API Strategy Conference." />
-	<figcaption> Matthew Presenting at the 2014 API Strategy and Practice Conference &mdash; Photo by <a href="https://www.flickr.com/photos/kinlane/">Kin Lane</a></figcaption>
+  <div class="post-content" itemprop="articleBody">
+    <p>Many find they have not one, not two, but <em>dozens</em> of APIs within their organization. RESTful APIs are <em>descriptive</em>, not <em>prescriptive</em>. That is, there is so much about the creation of an API interface design that is open to personal interpretation. Left alone, odds are these interfaces will share few similarities. Telling multiple development teams to do some Googling and expecting them to arrive at exactly the same "correct" interface conclusions is ripe for disaster. The flexibility of API interface design, along with the body of seemingly contradictory advice, can be be a hinderance to scaling without central guidance.  </p>
+
+<p>In response to this problem, some companies create an API <strong>style guides</strong>. Just because you create a persuasive, even comprehensive, document for <em>how</em> to do something, however, it doesn't mean people <em>will</em>. That goes double when the creators of an API perceive that the  API style was dictated to them, rather than it is something done in their long term best interest.</p>
+
+<figure>
+<a href="/images/2016/06/unreadstyleguide.png" class="lightbox"><img src="/images/2016/06/unreadstyleguide.png" /></a>
+<figcaption>Apiary's Emmanuel Paraskakis <a href="https://twitter.com/edith_h/status/735573245714276352">Sharing an all-too-common Occurance</a></figcaption>
 </figure>
-</p>
 
-<p><strong>Howdy.</strong> My name is Matthew and I am the Lead for the Capital One API Center of Excellence. Previously, I established the API governance program at Pearson. Before <em>that</em> I evangelized, developed, and grew the RESTful API initiative at Placewise Media.</p>
+<p><strong>The consist and cohesive approach to API interface design within an organization is more important than the industry (or pundit) perceived "correctness"</strong>. The more <a href="//2016/02/08/MicroservicesKickstart" rel="nofollow">microservice-like</a> the granularity, the more important this becomes.</p>
 
-<p>From 2003-2014 I ran my own web software consultancy, <strong>Vox Pop Design</strong>. It employed geographically dispersed development and design collaborators. Together, we created solutions used by <strong>Adobe</strong>, <strong>FedEx</strong>, <strong>Cricket Communications</strong>, and the state governments of <strong>Oregon</strong>, <strong>Washington</strong>, <strong>Idaho</strong>, and <strong>Montana</strong>, among others. While fun, I think I'm still catching up on sleep from this period.</p>
+<p>Consider another interface that we are all familiar with: the electrical outlet.</p>
 
-<p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014b.jpg" alt="Picture of Matthew presenting at the CFObjective 2014 Conference." />
-	<figcaption> Speaking at CFObjective 2014. Photo by <a href="https://www.flickr.com/photos/oguz/">OÄŸuz DemirkapÄ±</a></figcaption>
+<figure>
+<a href="/images/2016/06/new-zealand-socketfit.jpg" class="lightbox"><img src="/images/2016/06/new-zealand-socketfit.jpg" /></a>
 </figure>
-</p>
 
-<p>When not doing complex software process design, I tend to skew toward writing, speaking, and community building. I've been quoted online some (<a href="https://medium.com/capital-one-developers/api-lifecycle-governance-best-practices-56a1ebbb4f1b">Capital One DevExchange</a>, <a href="https://www.api2cart.com/blog/interview-matthew-reinbold/">API2Cart</a>, <a href="http://www.programmableweb.com/news/developers-roundtable-ask-%E2%80%98are-apis-copyrightable%E2%80%99/2014/05/21">Programmable Web</a>). I've also written professionally for the websites <em>Web Worker Daily</em> (RIP) and <em>Utah Pulse</em>. From April 2005 to August 2009 I was president of the Salt Lake City ColdFusion User's Group, an officially affiliated Adobe organization. I co-founded the Blogging for Business (B4B) Conference in 2007; an event about ethically using social media for business ends. In 2008 I produced the RIA Dev Shed, an event focused on next generation Rich Internet Applications. Finally, for much of the mid-Aughts, I ran a monthly indie web creator get-together called <em>CodeAway</em>.</p>
+<p>An enterprise is like a house. There are numerous individuals installing outlets (sometimes there are even multiple contractors for a single room). Without a geographical context, how do contractors choose the "correct" outlet? Is an European electrical interface more or less "correct" than a North American one? </p>
 
-<p>
-<figure><img src="//voxpop.co/images/MatthewReinbold-speaking-2015.jpg" alt="Picture of Matthew presenting at the 2015 Capital One API Summit." />
-	<figcaption> Matthew onstage at the 2015 Capital One API Summit &mdash; Photo by <a href="https://twitter.com/lindybrandon/status/593058338159599616">Lorinda Brandon</a></figcaption>
+<p><strong>Of course not</strong> - all of the interfaces pictured carry electrical current. All are perfectly fine if consistently and cohesively used throughout. If a single house has an unpredictable assortment of electrical outlets then even doing simple connections incur an additional cost. The lack of consistency and cohesion has created <em>friction</em> to usage. </p>
+
+<p>An enterprise should strive to establish a set of API guidelines, or common practice, that fulfills their business intent. This might be creating the style guide mentioned above. However, that is only the first step. The bulk of subsequent effort is relentlessly ensuring that the consistent and cohesive application of those common practices happens. </p>
+
+<p>Everybody understands consistency. What is less obvious, when enforcing enterprise API guidelines, is the <em>cohesion</em> between interfaces. The Internet, my favorite source for Schrodinger's Cat jokes, defines cohesion as:</p>
+
+<blockquote>
+<p>"the act of forming a uniform whole"</p></blockquote>
+
+<p>But what does that mean for API interface design? Consider the following image. </p>
+
+<figure>
+<a href="/images/2016/06/salt-pepper.jpg" class="lightbox"><img src="/images/2016/06/salt-pepper.jpg" /></a>
+<figcaption>A Salt Shaker and Peppercorns: Cohesive Function but Inconsistent Interfaces</figcaption>
+
 </figure>
-</p>
+
+<p>At any table you're likely to find salt and pepper for seasoning food. However, here we see a salt shaker and pepper corns. While the two items are <em>cohesive</em> - they are both used to season food - the interface is <em>inconsistent</em>. Everyone can use a salt shaker. However, having to use the pepper corns in their current state is problematic. </p>
+
+<figure>
+<a href="/images/2016/06/salt-and-pepper-spray.jpg" class="lightbox"><img src="/images/2016/06/salt-and-pepper-spray.jpg" /></a>
+<figcaption>Salt and Pepper Sprays: Consistent Interfaces, but Uncohesive Function</figcaption>
+
+</figure>
+
+<p>In this image we've solved our interface consistency problem: we've got salt spray for creating luscious, beach-like hair... and we have pepper spray. They're both sprays. The interface is consistent. However, there is no cohesion. There is no uniform whole. You wouldn't use these items together (at least I hope not). And, despite being "salt" and "pepper", neither one has anything to do with a meal condiment. Consistency of the interface doesn't mean much <strong>if</strong> there is no cohesion in how the services can be combined. </p>
+
+<figure>
+<a href="/images/2016/06/salt-and-pepper-grinder.jpg" class="lightbox"><img src="/images/2016/06/salt-and-pepper-grinder.jpg" /></a>
+<figcaption>Salt and Pepper Mills: Consistent Interfaces, <strong>and</strong> Cohesive Function</figcaption>
+
+</figure>
+
+<figure>
+<a href="/images/2016/06/salt-and-pepper-shaker.jpg" class="lightbox"><img src="/images/2016/06/salt-and-pepper-shaker.jpg" /></a>
+<figcaption>Salt and Pepper Shakers: Also Consistent Interfaces, <strong>and</strong> Cohesive Function</figcaption>
+</figure>
+
+<p>Here we have two versions of an interface design that is <strong>both</strong> consistent <em>and</em> cohesive. The salt and pepper shakers are fine. Or, if you would so choose, the salt and pepper mills also demonstrate a consistent interface with cohesive behavior. What is paramount is that an organization standardizes on one interface design or the other. They shouldn't try to straddle both. Or, even more common, they shouldn't hope consistency and cohesion just happens over time, since "good" will be self-evident. </p>
+
+<p>That is just a recipe for confusion.</p>
 
   </div>
 

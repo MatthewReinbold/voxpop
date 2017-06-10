@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
-">
+  <title>A Microservice Primer</title>
+  <meta name="description" content="Irakli quoting Irakli on Microservices in early 2015">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/2016/02/08/MicroservicesKickstart/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,36 +60,87 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">A Microservice Primer</h1>
+    <h2 class="post-subtitle">Essential Resources to Get Started</h2>
+    <p class="post-meta"><time datetime="2016-02-08T00:00:00-05:00" itemprop="datePublished">Feb 8, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014.png" alt="Picture of Matthew presenting at the 2014 API Strategy Conference." />
-	<figcaption> Matthew Presenting at the 2014 API Strategy and Practice Conference &mdash; Photo by <a href="https://www.flickr.com/photos/kinlane/">Kin Lane</a></figcaption>
+  <div class="post-content" itemprop="articleBody">
+    <figure>
+<a href="/images/2016/02/irakli-microservices.jpg" class="lightbox"><img src="/images/2016/02/irakli-microservices.jpg" /></a>
+<figcaption>Irakli quoting Irakli on Microservices in early 2015</figcaption>
 </figure>
-</p>
 
-<p><strong>Howdy.</strong> My name is Matthew and I am the Lead for the Capital One API Center of Excellence. Previously, I established the API governance program at Pearson. Before <em>that</em> I evangelized, developed, and grew the RESTful API initiative at Placewise Media.</p>
+<h3>Introduction</h3>
 
-<p>From 2003-2014 I ran my own web software consultancy, <strong>Vox Pop Design</strong>. It employed geographically dispersed development and design collaborators. Together, we created solutions used by <strong>Adobe</strong>, <strong>FedEx</strong>, <strong>Cricket Communications</strong>, and the state governments of <strong>Oregon</strong>, <strong>Washington</strong>, <strong>Idaho</strong>, and <strong>Montana</strong>, among others. While fun, I think I'm still catching up on sleep from this period.</p>
+<p>If you have had anything to do with APIs in the past several years, chances are you've heard of <strong>microservices</strong>. If you've tried Googling afterward, chances are also that you've been overwhelmed by the deluge of tutorials, tips, and treacle within an easy click.</p>
 
-<p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014b.jpg" alt="Picture of Matthew presenting at the CFObjective 2014 Conference." />
-	<figcaption> Speaking at CFObjective 2014. Photo by <a href="https://www.flickr.com/photos/oguz/">OÄŸuz DemirkapÄ±</a></figcaption>
-</figure>
-</p>
+<p>After a year's worth of writing <a href="http://tinyletter.com/RESTAPINotes/archive">the REST API Newsletter</a>, I've been there. To help shortcut the learning process I've collected some of the best resources in one place. Enjoy, and if there is an essential reference that I've missed, let me know - I'd be glad to check it out.</p>
 
-<p>When not doing complex software process design, I tend to skew toward writing, speaking, and community building. I've been quoted online some (<a href="https://medium.com/capital-one-developers/api-lifecycle-governance-best-practices-56a1ebbb4f1b">Capital One DevExchange</a>, <a href="https://www.api2cart.com/blog/interview-matthew-reinbold/">API2Cart</a>, <a href="http://www.programmableweb.com/news/developers-roundtable-ask-%E2%80%98are-apis-copyrightable%E2%80%99/2014/05/21">Programmable Web</a>). I've also written professionally for the websites <em>Web Worker Daily</em> (RIP) and <em>Utah Pulse</em>. From April 2005 to August 2009 I was president of the Salt Lake City ColdFusion User's Group, an officially affiliated Adobe organization. I co-founded the Blogging for Business (B4B) Conference in 2007; an event about ethically using social media for business ends. In 2008 I produced the RIA Dev Shed, an event focused on next generation Rich Internet Applications. Finally, for much of the mid-Aughts, I ran a monthly indie web creator get-together called <em>CodeAway</em>.</p>
+<h3>Foundational Work</h3>
 
-<p>
-<figure><img src="//voxpop.co/images/MatthewReinbold-speaking-2015.jpg" alt="Picture of Matthew presenting at the 2015 Capital One API Summit." />
-	<figcaption> Matthew onstage at the 2015 Capital One API Summit &mdash; Photo by <a href="https://twitter.com/lindybrandon/status/593058338159599616">Lorinda Brandon</a></figcaption>
-</figure>
-</p>
+<p>What are microservices? Here's where to start:</p>
+
+<ul>
+<li>While Martin Fowler made "microservices" famous, he neither coined the term or claims to have done so. Still, <a href="http://martinfowler.com/articles/microservices.html">his post that launched dozens of conference session speakers is essential reading</a>.</li>
+<li>David Simons <a href="http://www.slideshare.net/DavidSimons5/decoupled-apis-through-microservices">has a slide deck that hammers home the most basic tenets of microservices</a>.</li>
+<li>Sam Newman, a colleague of Martin Fowler, has written a hugely influential O'Reilly book, "<a href="http://shop.oreilly.com/product/0636920033158.do">Building Microservices</a>". For the distilled version, try <a href="https://www.youtube.com/watch?v=OTSlg7_y3bA">"Deploying and Operating Microservices"</a> on YouTube. (There's also <a href="https://www.youtube.com/results?search_query=sam+newman+microservices">plenty more where that came from</a>.</li>
+</ul>
+
+<h3>Where to Start Building?</h3>
+
+<p>RESTful API design has enough ideological quagmires. Microservices are no exception. Should developers start with a monolithic software architecture or opt for fine grained services? There's no <em>right</em> answer. But for an introduction to both sides:</p>
+
+<ul>
+<li>The pros <a href="http://martinfowler.com/articles/dont-start-monolith.html">of beginning with microservices in mind</a>.</li>
+<li>The advantages <a href="http://martinfowler.com/bliki/MonolithFirst.html">of starting with a monolithic architecture and decomposing later</a>.</li>
+</ul>
+
+<h3>Implementing Microservices</h3>
+
+<p>Sami Lamti not only attended a workshop by Sam Newman, but shared his impressions of the content. The four part series includes:</p>
+
+<ul>
+<li><a href="http://devxp.blogspot.com/2015/07/design-and-implementation-of.html">Defining Microservices</a></li>
+<li><a href="http://devxp.blogspot.com/2015/07/design-and-implementation-of_16.html">Applying Microservices to Existing Code</a></li>
+<li><a href="http://devxp.blogspot.com/2015/07/design-and-implementation-of_20.html">Security, Orchestration, Choregraphy, and Testing</a></li>
+<li><a href="http://devxp.blogspot.com/2015/07/design-and-implementation-of_26.html">Testing and Versioning</a></li>
+</ul>
+
+<h3>Problems and Pitfalls</h3>
+
+<p>Irakli Nadareishvili is a frequent API speaker. Like Sam, he has a couple of online videos worth looking at:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=FEppnx4-QlM">Microservice Architecture: The Blind Spots</a></li>
+<li><a href="https://www.youtube.com/watch?v=QPgYIlCnOjA">API360 Summit: APIs Are Your Best Products</a> (for best time usage, skip to the 18:30 mark for Irakli's comments on unbundling)</li>
+</ul>
+
+<p>At some point when you have numerous, tiny services you have to put them back together again. That may be either through choreography or orchestration. For an example of how Netflix does it, check out Daniel Jacobson's article on <a href="http://thenextweb.com/dd/2013/12/17/future-api-design-orchestration-layer/">"The Future of API Design: The Orchestration Layer"</a>.</p>
+
+<h3>Microservices in Practice</h3>
+
+<p>It makes no sense to fill up on theory and ignore the body of first-hand accounts from those that have built microservices. A couple notable accounts include:</p>
+
+<ul>
+<li><a href="http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html">How SoundCloud Ended Up with Microservices</a>.</li>
+<li><a href="http://adamreeve.tumblr.com/post/114021365129/partial-failure-and-microservices">The Complexity of Microservices and Partial Failure at Comcast</a></li>
+<li><a href="http://www.infoworld.com/article/2936148/application-development/three-keys-to-successful-microservices.html">Nginx and Determining Microservice Success</a></li>
+</ul>
+
+<h3>Extra Credit</h3>
+
+<p>While I've tried to only provide the highlights, there's plenty more for those with the time (or the inclination) to go further: </p>
+
+<ul>
+<li>Adrian Cockroft, of Netflix infrastructure fame, has a 40-page PDF available for free entitled <a href="http://qconlondon.com/london-2014/dl/qcon-london-2014/slides/AdrianCockcroft_MigratingToMicroservices.pdf">"Migrating to Microservices"</a>.</li>
+<li>Adrian also has a presentation on <a href="https://www.youtube.com/watch?v=pwpxq9-uw_0">The State of the Art in Microservices</a> on YouTube</li>
+<li>Werner Vogels <a href="https://vimeo.com/29719577">shares Amazon's transformational story</a>.</li>
+<li>Neal Ford <a href="http://radar.oreilly.com/2015/04/4-reasons-why-microservices-resonate.html">muses on how microservices are the first post-DevOps revolution architecture</a>.</li>
+</ul>
 
   </div>
 

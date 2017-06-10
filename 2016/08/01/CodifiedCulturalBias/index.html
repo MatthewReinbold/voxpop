@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
-">
+  <title>Codified Cultural Bias</title>
+  <meta name="description" content="Microsoft's Tay">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/2016/08/01/CodifiedCulturalBias/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,35 +60,54 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">Codified Cultural Bias</h1>
+    <h2 class="post-subtitle">Why Facebook's Algorithmic Feed Bothers Me More than Killer AI</h2>
+    <p class="post-meta"><time datetime="2016-08-01T00:00:00-04:00" itemprop="datePublished">Aug 1, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014.png" alt="Picture of Matthew presenting at the 2014 API Strategy Conference." />
-	<figcaption> Matthew Presenting at the 2014 API Strategy and Practice Conference &mdash; Photo by <a href="https://www.flickr.com/photos/kinlane/">Kin Lane</a></figcaption>
+  <div class="post-content" itemprop="articleBody">
+    <figure>
+<a href="/images/2016/08/tay.jpg" class="lightbox"><img src="/images/2016/08/tay.jpg" alt="Microsoft's Tay" /></a>
+<figcaption>Microsoft's Tay</figcaption>
 </figure>
-</p>
 
-<p><strong>Howdy.</strong> My name is Matthew and I am the Lead for the Capital One API Center of Excellence. Previously, I established the API governance program at Pearson. Before <em>that</em> I evangelized, developed, and grew the RESTful API initiative at Placewise Media.</p>
+<p>My friend, who I hadn't seen in a decade, was having a hard time understanding why I had left Facebook. After all, not being on the platform had made getting together in person that much more difficult. What was wrong with me?</p>
 
-<p>From 2003-2014 I ran my own web software consultancy, <strong>Vox Pop Design</strong>. It employed geographically dispersed development and design collaborators. Together, we created solutions used by <strong>Adobe</strong>, <strong>FedEx</strong>, <strong>Cricket Communications</strong>, and the state governments of <strong>Oregon</strong>, <strong>Washington</strong>, <strong>Idaho</strong>, and <strong>Montana</strong>, among others. While fun, I think I'm still catching up on sleep from this period.</p>
+<blockquote>
+<p>"The AI we need to fear isn't the Terminator. It is codified cultural bias."</p></blockquote>
+
+<p><em>Shockingly</em>, that didn't clear things up. Before we start talking about extinction-level robotic events, we need to talk about your "feed". </p>
+<p>Social networks have some sort of "feed". This is the ongoing list of items created by a social circle visible to you: tweets from those you follow, photos from friends, job updates from coworkers, blurbs from blogs, etc. When a site starts, be it Twitter, Instagram, or Facebook, this stream of events is be presented in reverse-chronological order, with the newest item appearing on top. </p>
+
+<p>While simple, this presentation became problematic as these sites grew. Each platform wanted to maximize the amount of interaction a visitor had with the content they were presented. But as the flow-rate of each stream increased, "great" content - those items that would engage an audience and cause them to interact - began disappearing beneath of flood of banality. </p>
+<p>The social network's response was to, algorithmically, surface these pieces; to persist them in a stream longer than they would otherwise be in a chronologically organized timeline. Pieces of code scan everything available to you, prioritize what you should see, and display those items first.  </p>
+
+<p>In creating the default framing of the world around us, these algorithms have tremendous power. They are trade secrets. This code, and the machine learning behind it, isn't published publicly for review. It isn't possible to independently evaluate and assess the level of charm or malice contained within. These algorithms could be every bit the obedient, well-intentioned digital retriever, fetching our online newspaper on command.</p>
+<p>Unfortunately, history tells a different story. For example, <a href="http://boingboing.net/2016/07/15/why-do-pokemon-avoid-black-nei.html" rel="nofollow">Pokemon, because of a algorithm quirk, hate black neighborhoods</a>. Facebook, <a href="http://gizmodo.com/former-facebook-workers-we-routinely-suppressed-conser-1775461006" rel="nofollow">previously caught in a filtering scandal having supressed news of a certain type</a>, is <a href="http://motherboard.vice.com/read/facebooks-filter-bubble" rel="nofollow">getting worse</a>. But so what if algorithms <a href="https://www.technologyreview.com/s/601775/why-we-should-expect-algorithms-to-be-biased/" rel="nofollow">routinely demonstrate a white bias</a> - it is only for games and social networks, right? <strong>Wrong</strong>. When industry practice, with its bias, is <a href="http://www.nytimes.com/2016/06/23/us/backlash-in-wisconsin-against-using-data-to-foretell-defendants-futures.html?_r=0" rel="nofollow">then subsequently applied to sentencing</a> we don't need Terminators; we've got algorithms afoot destroying lives. </p>
+
+<p>How do examples like those above happen? Did the authors of the Google algorithm that <a href="http://www.wnyc.org/story/deep-problem-deep-learning/" rel="nofollow">tagged two photoed black people as gorillas</a> intend to offend? Was it Microsoft's mission <a href="http://www.businessinsider.com/microsoft-deletes-racist-genocidal-tweets-from-ai-chatbot-tay-2016-3" rel="nofollow">to create an algorithm, named <strong>Tay</strong> which spewed genocidal tweets</a>? I'd assume not, at least not consciously. But the process used for everything from sentiment analysis to image recognition relies on patterns derived from "machine-learning". And machine-learning has proven particularly adept at learning unintended lessons. </p>
+
+<p>Machine-learning starts with a subset of data. This data is used to train the algorithms to recognize patterns. But, if there is a problem with the data, things go awry. Specifically, <a href="http://www.usatoday.com/story/tech/2015/07/01/google-apologizes-after-photos-identify-black-people-as-gorillas/29567465/" rel="nofollow">the lack of diversity in test pools causes these pattern matching processes to double down on cultural biases</a>. Microsoft admitted "<a href="https://www.engadget.com/2016/03/25/microsoft-explains-tay-ai-incident/" rel="nofollow">it wasn't prepared for what would happen when it exposed Tay to a wider audience</a>." When the seed data is from <a href="http://mobile.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html" rel="nofollow">almost entirely 20-something, single, white males</a> the result are algorithms predijudiced against the old, married, female, and racially diverse. </p>
+
+<figure>
+<a href="/images/2016/08/moneylaunderingforbias.jpg" class="lightbox"><img src="/images/2016/08/moneylaunderingforbias.jpg" alt="Tweet Screencap" /></a>
+<figcaption>"Machine Learning is money laundering for bias."</figcaption>
+</figure>
+
+<p><a href="http://thepoliticsofsystems.net/2016/05/closing-apis-and-the-public-scrutiny-of-very-large-online-platforms/" rel="nofollow">I'm not the only one increasingly bothered by this</a>. Recently <a href="http://www.ustream.tv/recorded/87321900" rel="nofollow">the New America institute hosted an even chat with Charles Stross</a>, the author of a number of science fiction books. He was asked what about future AI scared him. Charles stated quite firmly that he is much more concerned about algorithms that reinforce, even exacerbate, social injustices than he is a robotic uprising.</p>
+
+<p>That brings us back to Facebook. The thing that sets it apart from other services is the heavy-handedness with which it pushes the algorithmic feed. Where elsewhere I can flip a setting or click on a dialog and have the chronological view back, Facebook reverts to the algorithmic version over and over and over. If I am against ceding cultural artifacts to a closed system then I shouldn't tithe to it. If I'm creeped out by Facebook monetizing "echo-chambers" built from friends and family's content then I shouldn't contribute contribute the mortar. Finally, if I distrust the algorithm's ability to serve society's best interests, I am obliged not to be there.</p>
+
+<p>For years, the begrudging response to why somebody should use it was that "everybody is already on it". That will remain true until it is not. </p>
 
 <p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014b.jpg" alt="Picture of Matthew presenting at the CFObjective 2014 Conference." />
-	<figcaption> Speaking at CFObjective 2014. Photo by <a href="https://www.flickr.com/photos/oguz/">OÄŸuz DemirkapÄ±</a></figcaption>
-</figure>
-</p>
-
-<p>When not doing complex software process design, I tend to skew toward writing, speaking, and community building. I've been quoted online some (<a href="https://medium.com/capital-one-developers/api-lifecycle-governance-best-practices-56a1ebbb4f1b">Capital One DevExchange</a>, <a href="https://www.api2cart.com/blog/interview-matthew-reinbold/">API2Cart</a>, <a href="http://www.programmableweb.com/news/developers-roundtable-ask-%E2%80%98are-apis-copyrightable%E2%80%99/2014/05/21">Programmable Web</a>). I've also written professionally for the websites <em>Web Worker Daily</em> (RIP) and <em>Utah Pulse</em>. From April 2005 to August 2009 I was president of the Salt Lake City ColdFusion User's Group, an officially affiliated Adobe organization. I co-founded the Blogging for Business (B4B) Conference in 2007; an event about ethically using social media for business ends. In 2008 I produced the RIA Dev Shed, an event focused on next generation Rich Internet Applications. Finally, for much of the mid-Aughts, I ran a monthly indie web creator get-together called <em>CodeAway</em>.</p>
-
-<p>
-<figure><img src="//voxpop.co/images/MatthewReinbold-speaking-2015.jpg" alt="Picture of Matthew presenting at the 2015 Capital One API Summit." />
-	<figcaption> Matthew onstage at the 2015 Capital One API Summit &mdash; Photo by <a href="https://twitter.com/lindybrandon/status/593058338159599616">Lorinda Brandon</a></figcaption>
-</figure>
+	<ul>
+		<li><em>Update 2016-09-14:</em> <a href="https://www.youtube.com/watch?v=qXQA6D4JC0A">The PBS Idea Channel on Why Facebook News Can't Escape Bias</a></li>
+		<li><em>Update 2016-12-06:</em> <a href="http://arstechnica.com/tech-policy/2016/12/court-software-glitches-result-in-erroneous-arrests-defense-lawyers-say/">Software Glitches so Bad, It Gets the Wrong People Arrested</a></li>
+	</ul>
 </p>
 
   </div>
