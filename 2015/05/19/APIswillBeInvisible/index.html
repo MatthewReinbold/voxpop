@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
-">
+  <title>APIs will be Invisible</title>
+  <meta name="description" content="A sub-section of Interstate I-90 beneath Boston&lt;/figcation&gt;&lt;/figure&gt;">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/2015/05/19/APIswillBeInvisible/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,36 +60,38 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">APIs will be Invisible</h1>
+    <h2 class="post-subtitle">My Past, Present, and Future of RESTful APIs</h2>
+    <p class="post-meta"><time datetime="2015-05-19T00:00:00-04:00" itemprop="datePublished">May 19, 2015</time></p>
   </header>
 
-  <div class="post-content">
-    <p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014.png" alt="Picture of Matthew presenting at the 2014 API Strategy Conference." />
-	<figcaption> Matthew Presenting at the 2014 API Strategy and Practice Conference &mdash; Photo by <a href="https://www.flickr.com/photos/kinlane/">Kin Lane</a></figcaption>
-</figure>
-</p>
+  <div class="post-content" itemprop="articleBody">
+    <figure>
+<a href="/images/2015/05/roads.jpg" class="lightbox"><img src="/images/2015/05/roads.jpg" /></a>
+<figcaption>A sub-section of Interstate I-90 beneath Boston&lt;/figcation&gt;
+&lt;/figure&gt;
 
-<p><strong>Howdy.</strong> My name is Matthew and I am the Lead for the Capital One API Center of Excellence. Previously, I established the API governance program at Pearson. Before <em>that</em> I evangelized, developed, and grew the RESTful API initiative at Placewise Media.</p>
+<p><em>In preparation for the Nordic APIs Seattle event, the speakers were asked a series of questions regarding the past, present, and future of API design. These aren't trivial questions; as developers and designers of complex systems it is important to revisit where we've been in order to steer where we're going. For posterity, I thought I'd share my responses.</em></p>
 
-<p>From 2003-2014 I ran my own web software consultancy, <strong>Vox Pop Design</strong>. It employed geographically dispersed development and design collaborators. Together, we created solutions used by <strong>Adobe</strong>, <strong>FedEx</strong>, <strong>Cricket Communications</strong>, and the state governments of <strong>Oregon</strong>, <strong>Washington</strong>, <strong>Idaho</strong>, and <strong>Montana</strong>, among others. While fun, I think I'm still catching up on sleep from this period.</p>
+<h3>How did you get interested in APIs?</h3>
 
-<p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014b.jpg" alt="Picture of Matthew presenting at the CFObjective 2014 Conference." />
-	<figcaption> Speaking at CFObjective 2014. Photo by <a href="https://www.flickr.com/photos/oguz/">OÄŸuz DemirkapÄ±</a></figcaption>
-</figure>
-</p>
+<p>One of my first API experiences, prior to the native-app fueled explosion, was to consume multiple partner APIs to create a new, unique experience (more <a href="/go.cfm?article=Document_First">here</a> and <a href="/go.cfm?article=Sophisticated_Software">here</a> and <a href="/go.cfm/article/Document_First_Again">here</a>). Even in the "bad-ole SOAP days" it was obvious how powerful standardized patterns of reuse and interaction could extend "traditional" software development. It's not for everyone (<a href="/go.cfm?article=Cooling_on_the_Connected_Car">or everything</a>). But I've been accelerating data across increasingly frictionless pipes since. </p>
 
-<p>When not doing complex software process design, I tend to skew toward writing, speaking, and community building. I've been quoted online some (<a href="https://medium.com/capital-one-developers/api-lifecycle-governance-best-practices-56a1ebbb4f1b">Capital One DevExchange</a>, <a href="https://www.api2cart.com/blog/interview-matthew-reinbold/">API2Cart</a>, <a href="http://www.programmableweb.com/news/developers-roundtable-ask-%E2%80%98are-apis-copyrightable%E2%80%99/2014/05/21">Programmable Web</a>). I've also written professionally for the websites <em>Web Worker Daily</em> (RIP) and <em>Utah Pulse</em>. From April 2005 to August 2009 I was president of the Salt Lake City ColdFusion User's Group, an officially affiliated Adobe organization. I co-founded the Blogging for Business (B4B) Conference in 2007; an event about ethically using social media for business ends. In 2008 I produced the RIA Dev Shed, an event focused on next generation Rich Internet Applications. Finally, for much of the mid-Aughts, I ran a monthly indie web creator get-together called <em>CodeAway</em>.</p>
+<h3>What is/was the best API you ever used?</h3>
 
-<p>
-<figure><img src="/images/MatthewReinbold-speaking-2015.jpg" alt="Picture of Matthew presenting at the 2015 Capital One API Summit." />
-	<figcaption> Matthew onstage at the 2015 Capital One API Summit &mdash; Photo by <a href="https://twitter.com/lindybrandon/status/593058338159599616">Lorinda Brandon</a></figcaption>
-</figure>
-</p>
+<p>Everybody cites a handful of APIs worth emulating - Stripe, Twilio, SendGrid, etc. However, what I'm currently digging is a tool for creating APIs - <strong><a href="https://www.kimonolabs.com/">Kimono Labs</a></strong>. Point it at any available website and it will take the structured HTML and turn it into retrievable API data. It is extremely powerful. Further, it underpins a point: if you don't have an API, somebody will create one for you. That probably sounds great to some businesses that have hesitated with their own API efforts. <strong>But why would you leave your brand, your data, and your potential customers in the hands of a 3rd party?</strong></p>
+
+<h3>What is the most important thing to think about when a corporation creates their own API?</h3>
+
+<p>I believe the most important thing is the business model. The cost for taking on the <em>entirety</em> of an API's life cycle <em>should</em> be known before starting. While the <em>"build-it-and-they-will-come"</em> model is romantic, in reality, I've rarely seen it end well. ESPN, for example, appeared to create a public API that didn't have a clear vision for what developers were supposed to build with it or how customers would pay to help sustain it. That API is now, predictably, no longer public.</p>
+
+<h3>What is the future of APIs?</h3>
+
+<p>We are still in a period when people are wrestling with what constitutes a successful API. I'm sure plenty of folks also talked at great length about the benefits and correct implementation of the Interstate Highway system shortly after its inception, too. But that nuance is wasted on me - Interstates simply exist, are efficient, and I'm onto thinking about the destination at the other end. Mature infrastructure becomes invisible. We'll soon reach a similar point with APIs. We'll take for granted that there was a period when creating distributed software systems this way was a contested thing. In the future the only time we'll comment on an API is when it is missing (or in need of repair). </p>
+</figcaption></figure>
 
   </div>
 

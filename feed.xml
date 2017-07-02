@@ -6,9 +6,41 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Jun 2017 23:14:41 -0400</pubDate>
-    <lastBuildDate>Fri, 09 Jun 2017 23:14:41 -0400</lastBuildDate>
+    <pubDate>Sun, 02 Jul 2017 15:49:32 -0400</pubDate>
+    <lastBuildDate>Sun, 02 Jul 2017 15:49:32 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>API Info Comes in All Forms &amp;#x2709;</title>
+        <description>&lt;p&gt;The latest REST API Notes has been published. I highlight a great, introductory guide to RESTful API basics from Diogo Lucas written FAQ format. Then I highlight a number of authors that have shared their various perspectives on microservice development. Interestingly, their work builds off of one another in a way that gives a &lt;em&gt;complete&lt;/em&gt; perspective on building microservice APIs.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-06-19&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-06-19&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 19 Jun 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/06/19/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/19/RESTAPINotes/</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        <category>Notes,Diogo</category>
+        
+        <category>Lucas,microservices,Matt</category>
+        
+        <category>Stine,Phil</category>
+        
+        <category>Calcado,Jeremy</category>
+        
+        <category>Miller,InfoQ</category>
+        
+        
+      </item>
     
       <item>
         <title>API Info Comes in All Forms &amp;#x2709;</title>
@@ -305,53 +337,6 @@
         <category>Rushkoff,Google,rural</category>
         
         <category>America,America</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Toward a More Perfect Union</title>
-        <description>&lt;figure&gt;
-&lt;img src=&quot;/images/2016/12/capital-one.gif&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I collaborate with numerous API development teams at Capital One. This week, like many before it, was a big week. On Tuesday, we had a year-end, all-hands meeting for the &lt;a href=&quot;https://developer.capitalone.com/&quot; rel=&quot;nofollow&quot;&gt;DevExchange&lt;/a&gt; product management team. We're geographically dispersed and these in-person events give us the rare opportunity to humanize our counterparts. &lt;/p&gt;
-
-&lt;p&gt;The event was followed by a team event at a bowling alley. While enjoying the more relaxed atmosphere, a previously unmet co-worker came over and asked, &quot;shouldn't you be off somewhere, approving an API?&quot; I totally missed the playfulness and immediately had a mini-panic attack: &quot;Did I miss an email? Which team did I forget about? Who's road map delay am I going to be blamed for next?&quot;&lt;/p&gt;
-
-&lt;p&gt;Turns out this was perfectly nice guy I knew only from email that just wanted to say &quot;hi&quot;. &lt;/p&gt;
-
-&lt;p&gt;My job is to represent an enterprise's non-functional requirements during software development. At some places this is called &quot;API Governance&quot;. At others, the role is handled by a &quot;Center of Excellence&quot;. Regardless of the name, I've seen the mess that happens when &lt;a href=&quot;//2016/06/02/ConsistencyAndCohesion&quot; rel=&quot;nofollow&quot;&gt;API consistency and cohesion&lt;/a&gt; aren't upheld in distributed systems. Spoilers: &lt;a href=&quot;http://www.educationdive.com/news/pearson-to-leave-the-lms-market-within-2-3-years/413333/&quot; rel=&quot;nofollow&quot;&gt;it ain't good&lt;/a&gt;. I take my job seriously. Probably &lt;em&gt;too&lt;/em&gt; seriously, if the near cardiac arrest is any indication.&lt;/p&gt;
-
-&lt;p&gt;The next evening, while trying not to worry about new work wrinkles, I watched &lt;a href=&quot;https://www.youtube.com/watch?v=wewAC5X_CZ8&quot; rel=&quot;nofollow&quot;&gt;Jenn Schiffer's presentation to the 2016 XOXO Festival&lt;/a&gt;. In the video Jenn points out that technologists, especially those working on the web, take themselves &lt;strong&gt;so incredibly seriously&lt;/strong&gt;. That, combined with what had previously happened earlier in the week, got me thinking.&lt;/p&gt;
-
-&lt;p&gt;I returned to work the next day resolute to reintroduce &lt;em&gt;the levity&lt;/em&gt; to my job. WORK&amp;trade; still has to be done, of course. But can we carve out time for those things that edify and excite us about it? That remind us why we're passionate about the jobs we're doing? &lt;/p&gt;
-
-&lt;p&gt;Perhaps as important, can we aggressively defend that time from being co-opted by &quot;more important matters&quot;? At the time my intern started, I started a book club within our team. The purpose was to read a book on product management or software development once a month and, at the end, discuss the lessons in relation to our daily activities. It was initially intended to provide context for the intern on the breadth and depth of our profession. I quickly also saw the important of regularly seeking out, and discussing, external ideas in relation to problems we were living through (the Innovator's Dilemma conversation was &lt;em&gt;fantastic&lt;/em&gt;). &lt;/p&gt;
-
-&lt;p&gt;After the first several months, however, participation dropped off. People had &lt;em&gt;real&lt;/em&gt; WORK&amp;trade; to do. As is at most companies, enrichment is a luxury paid for in time. And, as people got busy, they don't have that time to spend. In the short term, those co-workers opted to take those meetings, finish those presentations, and answer the emails demanding their attention. But we're trying to accomplish big things; bigger and of much longer duration than any one occasional scheduling conflict. We're in a marathon, not a sprint, and I worry about the long term implications.&lt;/p&gt;
-
-&lt;p&gt;Today was NexTech2016, an internal conference. It not only shares internal progress but, in TED-talk style, brings in outside voices. &lt;a href=&quot;https://twitter.com/tarah&quot; rel=&quot;nofollow&quot;&gt;Tarah Wheeler&lt;/a&gt;, website security czar for Symantec, finished the day emphasizing how important security for financial information is. After all, Tarah argued, this is how people &quot;buy their bread&quot;. Getting something to work and then calling it a day isn't enough. We need all the seriousness we can muster because we build the financial mechanisms that impact people's lives &lt;em&gt;daily&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;It was a well-intentioned message. I'm sure some in the audience may have needed to hear it. But, after she finished, I turned to the my co-worker and we both, simultaneously, let a long, weary sigh. There's a balance, a fluidity here we haven't mastered yet. &lt;/p&gt;
-</description>
-        <pubDate>Sat, 03 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/12/03/AMorePrefectUnion/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/03/AMorePrefectUnion/</guid>
-        
-        <category>APIs,Capital</category>
-        
-        <category>One,DevExchange,Center</category>
-        
-        <category>of</category>
-        
-        <category>Excellence,bowling,Jenn</category>
-        
-        <category>Schiffer,XOXO,Innovator's</category>
-        
-        <category>Dilemma,NexTech,NexTech2016,Tarah</category>
-        
-        <category>Wheeler,Symantec</category>
         
         
       </item>

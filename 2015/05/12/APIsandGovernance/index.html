@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
-">
+  <title>The Favela vs the Planned Community</title>
+  <meta name="description" content="A Brazilian Favela. Photo by Armando Lobos. Used under Creative Commons license.&lt;/figcation&gt;&lt;/figure&gt;">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/2015/05/12/APIsandGovernance/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,36 +60,44 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">The Favela vs the Planned Community</h1>
+    <h2 class="post-subtitle">Why is API Governance Necessary?</h2>
+    <p class="post-meta"><time datetime="2015-05-12T00:00:00-04:00" itemprop="datePublished">May 12, 2015</time></p>
   </header>
 
-  <div class="post-content">
-    <p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014.png" alt="Picture of Matthew presenting at the 2014 API Strategy Conference." />
-	<figcaption> Matthew Presenting at the 2014 API Strategy and Practice Conference &mdash; Photo by <a href="https://www.flickr.com/photos/kinlane/">Kin Lane</a></figcaption>
-</figure>
-</p>
+  <div class="post-content" itemprop="articleBody">
+    <figure>
+<a href="/images/2015/05/favela.jpg" class="lightbox"><img src="/images/2015/05/favela.jpg" /></a>
+<figcaption>A Brazilian Favela. <a href="https://www.flickr.com/photos/armandolobos/2577042778/">Photo by Armando Lobos</a>. Used under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons</a> license.&lt;/figcation&gt;
+&lt;/figure&gt;
 
-<p><strong>Howdy.</strong> My name is Matthew and I am the Lead for the Capital One API Center of Excellence. Previously, I established the API governance program at Pearson. Before <em>that</em> I evangelized, developed, and grew the RESTful API initiative at Placewise Media.</p>
 
-<p>From 2003-2014 I ran my own web software consultancy, <strong>Vox Pop Design</strong>. It employed geographically dispersed development and design collaborators. Together, we created solutions used by <strong>Adobe</strong>, <strong>FedEx</strong>, <strong>Cricket Communications</strong>, and the state governments of <strong>Oregon</strong>, <strong>Washington</strong>, <strong>Idaho</strong>, and <strong>Montana</strong>, among others. While fun, I think I'm still catching up on sleep from this period.</p>
+<p>When speaking about the entire API life-cycle, much of the terminology is muddy. To me, <strong>API Management</strong> are those things concerned with the day-to-day operation of an API or API ecosystem. These are things like self-service documentation, monitoring, access enforcement, and request throttling. I define <strong>API Governance</strong> as those processes which shape and inform the way APIs are made in conjunction with other APIs. It is the planning that is concerned with the health of entire ecosystems, not a single implementation.</p>
 
-<p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014b.jpg" alt="Picture of Matthew presenting at the CFObjective 2014 Conference." />
-	<figcaption> Speaking at CFObjective 2014. Photo by <a href="https://www.flickr.com/photos/oguz/">OÄŸuz DemirkapÄ±</a></figcaption>
-</figure>
-</p>
+<p>There's not a whole lot of governance required when a company has one API. It is what it is. The need for a larger approach to the design and building of APIs is warranted when we consider multiple APIs, <em>as is the case with microservices</em>. With this architectural pattern a company may have dozens, if not hundreds, of exposed APIs. Here applications may no longer have point-to-point integrations with the APIs they're dependent on. Instead, interactions are the result of numerous APIs being composed into new experiences. These experiences are enabled from having a neighborhood of coherent, consistent APIs to draw from. </p>
 
-<p>When not doing complex software process design, I tend to skew toward writing, speaking, and community building. I've been quoted online some (<a href="https://medium.com/capital-one-developers/api-lifecycle-governance-best-practices-56a1ebbb4f1b">Capital One DevExchange</a>, <a href="https://www.api2cart.com/blog/interview-matthew-reinbold/">API2Cart</a>, <a href="http://www.programmableweb.com/news/developers-roundtable-ask-%E2%80%98are-apis-copyrightable%E2%80%99/2014/05/21">Programmable Web</a>). I've also written professionally for the websites <em>Web Worker Daily</em> (RIP) and <em>Utah Pulse</em>. From April 2005 to August 2009 I was president of the Salt Lake City ColdFusion User's Group, an officially affiliated Adobe organization. I co-founded the Blogging for Business (B4B) Conference in 2007; an event about ethically using social media for business ends. In 2008 I produced the RIA Dev Shed, an event focused on next generation Rich Internet Applications. Finally, for much of the mid-Aughts, I ran a monthly indie web creator get-together called <em>CodeAway</em>.</p>
+<p>Picture a <strong>favela</strong>, or Brazilian shantytown. Each building successfully fills the role of a house. It provides shelter and security. Like an API, it is encapsulated and enjoys a certain level of cohesion. If all we were concerned about was the functional requirement to have lots of houses there we can look at the resulting hillside patchwork and call it a day. </p>
 
-<p>
-<figure><img src="/images/MatthewReinbold-speaking-2015.jpg" alt="Picture of Matthew presenting at the 2015 Capital One API Summit." />
-	<figcaption> Matthew onstage at the 2015 Capital One API Summit &mdash; Photo by <a href="https://twitter.com/lindybrandon/status/593058338159599616">Lorinda Brandon</a></figcaption>
-</figure>
-</p>
+<p>But expecting a new product to navigate this is unrealistic; those new to this environment will quickly be overwhelmed and lost. There has been no thought to things like accessibility or navigability because there was no coordinated vision for the holistic environment. There was no HOA or community planning. We lack a larger vision for the neighborhood. </p>
+
+<figure>
+<a href="/images/2015/05/plannedcommunity.jpg" class="lightbox"><img src="/images/2015/05/plannedcommunity.jpg" /></a>
+<figcaption>Planned Community. <a href="https://www.flickr.com/photos/thecourtyard/12513038084">Photo by Dan Reed</a>. Used under a <a href="https://creativecommons.org/licenses/by-nc/2.0/">Creative Commons</a> license.&lt;/figcation&gt;
+&lt;/figure&gt;
+
+<p>This vision is not the role for Quality Engineering (QA). QA is a separate discipline devoted to ensuring that the functional requirements of effort, or the API, are met. QA, using our neighborhood metaphor, is more akin to building inspectors. They ensure the house is structurally sound, adheres to the original plan, and won't inadvertently cause harm. That is a vital role, but one focused on the house, not the neighborhood.</p>
+
+<p>API Governance still requires each API to fulfill it's functional requirements; API developers still are the construction crews tasked with building houses. However, API Governance has a responsibility to ensure non-functional requirements are also accounted for. These are the API equivalents of access for emergency personnel, edifying amenities like pools and green-spaces, and consistent navigation throughout. There are lots of places that meet the basic expectations for shelter. But how desirable is the neighborhood?</p>
+
+<p>At the recent Capital One API Summit, Irakli Nadareishvili was adamant that centralized planning is a mistake, whether for economies (ala Communism) or microservices. I agree that overly onerous bureaucracies, acting as gatekeeper between development and deployment, will sap the innovation and agility from a system. The inability to respond to new business opportunities (or threats) is a bad thing. However, <em>the wild west is also an untenable model</em>. A constantly changing landscape with no structure or coherence is not a place I want to build, either.</p>
+
+<p>API Governance is a tricky balancing act. But, ultimately, it is necessary for creating appealing API neighborhoods. </p>
+
+<p><em>Update:</em> This piece generated a fair amount of discussion. I've attempted to <a href="https://storify.com/libel_vox/on-api-governance">capture some of it</a>.
+</p></figcaption></figure></figcaption></figure>
 
   </div>
 

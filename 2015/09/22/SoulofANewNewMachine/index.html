@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
-">
+  <title>On API Product</title>
+  <meta name="description" content="If culture is important, then how do we ensure it appears in an API design?&lt;/figcation&gt;&lt;/figure&gt;">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/2015/09/22/SoulofANewNewMachine/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,36 +60,43 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">On API Product</h1>
+    <h2 class="post-subtitle">Soul of a New, NEW Machine</h2>
+    <p class="post-meta"><time datetime="2015-09-22T00:00:00-04:00" itemprop="datePublished">Sep 22, 2015</time></p>
   </header>
 
-  <div class="post-content">
-    <p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014.png" alt="Picture of Matthew presenting at the 2014 API Strategy Conference." />
-	<figcaption> Matthew Presenting at the 2014 API Strategy and Practice Conference &mdash; Photo by <a href="https://www.flickr.com/photos/kinlane/">Kin Lane</a></figcaption>
-</figure>
+  <div class="post-content" itemprop="articleBody">
+    <figure>
+<a href="/images/2015/09/disrupt-office.jpg" class="lightbox"><img src="/images/2015/09/disrupt-office.jpg" /></a>
+<figcaption>If culture is important, then how do we ensure it appears in an API design?&lt;/figcation&gt;
+&lt;/figure&gt;
+
+<p><em>The Soul of a New Machine</em> was a Pulitzer Prize winning book written by Tracy Kidder. It chronicled two computer design groups attempting to create <em>the</em> microcomputer of the 1980s. The &quot;Soul&quot; referred to the essence of the machine they toiled to bring to life. It was the summation of the people who played a part during creation. As stated on the <a href="https://en.wikipedia.org/wiki/The_Soul_of_a_New_Machine">Wikipedia entry</a>:</p>
+<blockquote>
+<p>&quot;The soul is theirs, stored in silicon and microcode.&quot;</p>
+</blockquote>
+<p>Lately I've been spending a fair amount of time thinking about not just APIs, but <em>API Products</em>. In doing so, I've become aware that there is another level of mental perception required in order to create them. Anybody can sit down and, in an afternoon, become up to speed and the <em>mechanics</em> of a RESTful API; these are things like what verb to use where, status codes, and resource creation. A person can use their favorite language and quickly put together something that checks all the  functional boxes to be called an API. <strong>But that doesn't make a good API Product</strong>. </p>
+<p>An API product should have character. It should have a personality. It should display the best intentions of its creators by optimizing for the consumer. It should have a <em>soul</em>.  
 </p>
+<p>What does a technical implementation with "soul" look like? I was reminded of this while watching a (fairly) <a href="http://www.infoq.com/presentations/api-design-advice">recent presentation by John Musser</a>. At 10:15 he discusses why REST is preferable to SOAP, and at 16:44 why developers, overwhelmingly, have chosen JSON over XML. In both cases it would easy to mechanically dictate these revelations to teams creating products: "if your API isn't RESTful and passing JSON payloads, you can't deploy". But that doesn't engage the teams into thinking about the character of the API they should create &mdash; APIs that, like REST and JSON, are simple to consume, lightweight, readable, and make sense to both humans and machines.</p>
+<p>We <em>should</em> know the character, or soul, of the APIs we want to expose publicly: intuitive, flexible, solving a business objective in a meaningful way and &mdash; dare I say &mdash; delightful to use (where it makes sense). Are there others? Different characteristics warranted by the industry one is in? </p>
+<p>With those desired properties defined, we can shape and guide the conversation about everything that comes as part of the design; in the same way that simplicity enticed developers to adopt REST over SOAP, our characteristics should drive our API developer's decisions over ontology placement, payload representations, etc. </p>
+<p>It is tempting to try and shortcut API design. A company could attempt to imbue disparate teams with knowledge and experience (sometimes won over the course of years). But, for the sake of expediency and consistency, many API creators are handed a checklist of &quot;company guidelines&quot; and told them to blindly adhere to them. At best, this leads to functionally competent, but wrote, designs. At worst, it creates a culture where developers become divorced from outcomes and asking a centralized governing or deployment body to &quot;just tell me what to do to deploy&quot;. In this case, the education gap introduced for sake of speed doesn't just persist; it is exacerbated as the number and complexity of APIs grow, requiring ever more gatekeepers and &quot;expert&quot; oversight to maintain the facade. The "best practices" have gone from being a kickstart to a crutch.</p>
 
-<p><strong>Howdy.</strong> My name is Matthew and I am the Lead for the Capital One API Center of Excellence. Previously, I established the API governance program at Pearson. Before <em>that</em> I evangelized, developed, and grew the RESTful API initiative at Placewise Media.</p>
+<blockquote>"for a while, we eliminated 'best practices' as a phrase at work because it was becoming a crutch and it was stifling any new or innovative thinking" - <a href="https://twitter.com/lindybrandon">@lindybrandon</a>
+</blockquote>
 
-<p>From 2003-2014 I ran my own web software consultancy, <strong>Vox Pop Design</strong>. It employed geographically dispersed development and design collaborators. Together, we created solutions used by <strong>Adobe</strong>, <strong>FedEx</strong>, <strong>Cricket Communications</strong>, and the state governments of <strong>Oregon</strong>, <strong>Washington</strong>, <strong>Idaho</strong>, and <strong>Montana</strong>, among others. While fun, I think I'm still catching up on sleep from this period.</p>
+<blockquote>"I hate 'best practices' as a phrase.. I prefer 'common patterns' because the opposite of best is worst while the opposite of common isn't necessarily bad." - <a href="https://twitter.com/CaseySoftware">@caseysoftware</a></blockquote>
 
-<p>
-<figure><img src="/images/MatthewReinbold2-speaking-2014b.jpg" alt="Picture of Matthew presenting at the CFObjective 2014 Conference." />
-	<figcaption> Speaking at CFObjective 2014. Photo by <a href="https://www.flickr.com/photos/oguz/">OÄŸuz DemirkapÄ±</a></figcaption>
-</figure>
-</p>
+<p>There is still a vital role performed by API governance. But those creating the API product <strong>need</strong> to have the best understanding of the potential consumer's needs and use cases. This understanding needs to be the characteristics upon the which the API is built, even if that supersedes general <del>best</del> common practice.</p>
 
-<p>When not doing complex software process design, I tend to skew toward writing, speaking, and community building. I've been quoted online some (<a href="https://medium.com/capital-one-developers/api-lifecycle-governance-best-practices-56a1ebbb4f1b">Capital One DevExchange</a>, <a href="https://www.api2cart.com/blog/interview-matthew-reinbold/">API2Cart</a>, <a href="http://www.programmableweb.com/news/developers-roundtable-ask-%E2%80%98are-apis-copyrightable%E2%80%99/2014/05/21">Programmable Web</a>). I've also written professionally for the websites <em>Web Worker Daily</em> (RIP) and <em>Utah Pulse</em>. From April 2005 to August 2009 I was president of the Salt Lake City ColdFusion User's Group, an officially affiliated Adobe organization. I co-founded the Blogging for Business (B4B) Conference in 2007; an event about ethically using social media for business ends. In 2008 I produced the RIA Dev Shed, an event focused on next generation Rich Internet Applications. Finally, for much of the mid-Aughts, I ran a monthly indie web creator get-together called <em>CodeAway</em>.</p>
 
-<p>
-<figure><img src="/images/MatthewReinbold-speaking-2015.jpg" alt="Picture of Matthew presenting at the 2015 Capital One API Summit." />
-	<figcaption> Matthew onstage at the 2015 Capital One API Summit &mdash; Photo by <a href="https://twitter.com/lindybrandon/status/593058338159599616">Lorinda Brandon</a></figcaption>
-</figure>
-</p>
+<p>If the totality of API common practice is a toolbox, then it is not a matter of educating teams to &quot;use a hammer&quot;. When building API products, we need to be educating teams when to use a hammer, and when to <em>grab a different tool</em> to express themselves. The soul of the new, <em>new</em> machine requires it.</p>
+
+</figcaption></figure>
 
   </div>
 
