@@ -6,9 +6,73 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Jul 2017 16:15:20 -0400</pubDate>
-    <lastBuildDate>Sun, 02 Jul 2017 16:15:20 -0400</lastBuildDate>
+    <pubDate>Wed, 05 Jul 2017 17:29:05 -0400</pubDate>
+    <lastBuildDate>Wed, 05 Jul 2017 17:29:05 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>underconstruction.gif</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;a href=&quot;/images/2017/07/voxpop-circa-2009.png&quot; class=&quot;lightbox&quot;&gt;&lt;img src=&quot;/images/2017/07/voxpop-circa-2009.png&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;A screenshot of my Wordpress site in 2009. Yes, I am a fan of Aidan Hughes.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;a-brief-bit-of-context&quot;&gt;A Brief Bit of Context&lt;/h2&gt;
+&lt;p&gt;In 2011, shortly after moving to Denver, Colorado, I relaunched my blog. I had been, happily, using &lt;a href=&quot;https://wordpress.org/&quot;&gt;self-hosted Wordpress&lt;/a&gt; for a number of years. However, I felt I was missing out on a learning opportunity by not making a CMS for myself.&lt;/p&gt;
+
+&lt;p&gt;It was around this time that I had switched to writing in &lt;a href=&quot;https://en.wikipedia.org/wiki/Markdown&quot;&gt;markdown&lt;/a&gt; for personal note taking. I was also interested in exploring a non-database approach; blog posts would be written as flat files. I had some &lt;a href=&quot;http://www.adobe.com/products/coldfusion-family.html&quot;&gt;ColdFusion&lt;/a&gt; framework scaffolding for application management I wanted to further noodle with and responsive web design was begging to be explored. In short, I didn’t just want a place to dump words; I wanted a sandbox to play in. Viola! A Blog!&lt;/p&gt;
+
+&lt;p&gt;I learned a lot, which was the point. But, as time passed, there were a number of wrinkles that didn’t have easy fixes without effort and/or host changes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;URL’s maintained the “*.cfm” ColdFusion extension, something that was increasingly dated. URL rewriting was possible, but that seemed like a workaround for what should be naturally occuring behavior.&lt;/li&gt;
+  &lt;li&gt;Secure, encrypted communication (“HTTPS”) was problematic on my shared host, even in the age of &lt;a href=&quot;https://letsencrypt.org/&quot;&gt;Let’s Encrypt&lt;/a&gt;. Given that &lt;a href=&quot;https://www.troyhunt.com/i-wanna-go-fast-https-massive-speed-advantage/&quot;&gt;HTTPS actually is served &lt;em&gt;faster&lt;/em&gt;&lt;/a&gt;, I was increasingly bothered I was not only insecure, but &lt;em&gt;slower&lt;/em&gt; than I could be.&lt;/li&gt;
+  &lt;li&gt;I hadn’t gone far enough with the “static site” approach. Writing the articles in markdown was a start. But then processing them through a server continued to have all the security risks while netting none of the performance upside. Very little of what I was doing required run-time processing.&lt;/li&gt;
+  &lt;li&gt;Deployments felt dated. While development teams I collaborated with in my day job had shiny, new deployment pipelines, I was still setting up FTP (not even SFTP!) and overwriting files. This is minor (I don’t believe every passion project needs the complete continuous-integration-laptop-sticker-sheet). But it &lt;em&gt;felt&lt;/em&gt; dated.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;static-site-rendering&quot;&gt;Static Site Rendering&lt;/h2&gt;
+&lt;p&gt;The benefits of static site rendering are numerous:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;SPEED&lt;/strong&gt; - There’s no processing server side; posts have already been reduced to the essential atomic units of the web: HTML, Javascript, and CSS. There’s something poetic to me about that.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt; - While not so much an issue with my own coded CMS, I lived in constant fear of missing a &lt;a href=&quot;https://en.wikipedia.org/wiki/Zero-day_(computing)&quot;&gt;zero-day&lt;/a&gt; Wordpress exploit patch and finding myself, along with clients, compromised. Reducing the number of moving parts significantly &lt;em&gt;decreases&lt;/em&gt; the places where something might go wrong.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hosting&lt;/strong&gt; - Rather than having to find, research, and deploy to increasingly rare ColdFusion hosts (or port to another language), I can post my content to anywhere that supports HTTP/JS/CSS.  hosting. This becomes &lt;em&gt;very&lt;/em&gt; compelling given that &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;, one option, is &lt;em&gt;free&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Jekyll_(software)&quot;&gt;Jekyll&lt;/a&gt; is great. Feed it html and markdown and out comes a blog. Moving over my custom pieces, already organized as one file per post, was trivial. It was just a matter of changing my custom XML, used to define titles, tags, etc. to Jekyll’s &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;Front Matter YAML&lt;/a&gt;. Jekyll is written in Ruby but, for my purposes, it really doesn’t matter; I fire up a command line, capture my word-junk, and Jekyll does the rest. &lt;a href=&quot;http://kinlane.com/2016/04/23/the-potential-of-jekyll-as-a-static-data-engine/&quot;&gt;Kin Lane has been estolling the virtues of Jekyll for awhile&lt;/a&gt;. I’m just now catching up. &lt;strong&gt;Jekyll is free to download and run locally on your machine&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-new-writing-process&quot;&gt;My New Writing Process&lt;/h2&gt;
+
+&lt;p&gt;After I finish a piece, I push the resulting changes, rendered by Jekyll into static content, to a Github repo. This not only gives me a record of changes over time; it also populates a Github page. This means my blog is able to leverage the same &lt;a href=&quot;https://github.com/dev-sec&quot;&gt;hardened infrastructure&lt;/a&gt; that Github uses to run the rest of its operation. &lt;strong&gt;Github Pages is a free service for public repos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Github page sites, understandably, have Github URLs by default. Maintaining my own domain name is important to me. If I should ever move, for whatever reason, I should be able to change the host without requiring everyone to update their links. A custom host, registered with &lt;a href=&quot;https://www.hover.com/&quot;&gt;Hover.com&lt;/a&gt;, is the &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;abstraction that allows me to do that&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, Github Pages don’t easily enable SSL for custom domain names. For that, I added Cloudflare to the mix. Cloudflare is a CDN, or Content Delivery Network. They own a &lt;em&gt;ton&lt;/em&gt; of hardware and geographically scatter it about. They then replicate content distributed through them to each of these nodes. When you make a request, the content is returned from the closest server, not whatever server the content originated from. The result is &lt;em&gt;speed&lt;/em&gt;. But, not only that, &lt;a href=&quot;https://hackernoon.com/set-up-ssl-on-github-pages-with-custom-domains-for-free-a576bdf51bc&quot;&gt;Cloudflare can be configured so content can be delivered through its network via HTTPS, and not just HTTP&lt;/a&gt;. Given my needs, &lt;strong&gt;Cloudflare usage is free&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;At this point, I can render a static site from markdown with Jekyll, deploy new updates via Git, host it on Github Pages, point to it with a custom domain, and secure it with Cloudflare. The last hurdle is take requests mistakenly made to HTTP URLs and reroute them to HTTPs (and thus avoiding the dreaded ‘mixed content’ browser nastigrams. Thankfully, &lt;a href=&quot;https://support.cloudflare.com/hc/en-us/articles/200170536-How-do-I-redirect-all-visitors-to-HTTPS-SSL-&quot;&gt;Cloudflare saves the day here, too&lt;/a&gt;. I’ve got a smoking fast, secure, and reasonably sound site &lt;em&gt;for the cost of a domain name and some elbow grease to put the bits together&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-left-to-do&quot;&gt;What’s Left to Do?&lt;/h2&gt;
+&lt;p&gt;I have, in fits and starts, been porting over previous content to the new site. I have content from 2015 and newer moved. References to the REST API Notes newsletters go back to the beginning of 2016. More to do there but having a couple years worth of the most recent material is not nothing.&lt;/p&gt;
+
+&lt;p&gt;The design is spartan, at the moment. I’ll probably let this grow organically, as the need arises.&lt;/p&gt;
+
+&lt;p&gt;I also am missing sub-navigation dynamically driven by a tag. For example, in an article about APIs, I could drop in some script that would create in-line navigation that would link to my other pieces about APIs. If I wrote a new piece and used the specific tag, the navigation would be updated automagically. I still need to figure out how to make this work in a static-site generated workflow.&lt;/p&gt;
+
+&lt;h2 id=&quot;doesnt-medium-already-do-all-this&quot;&gt;Doesn’t Medium Already Do All This?&lt;/h2&gt;
+&lt;p&gt;After a thousand words, I’d assume the rational question would be “Why not just get a Medium blog”? &lt;a href=&quot;https://medium.com/&quot;&gt;Medium&lt;/a&gt; is great for enabling discovery. I also have load of respect for Ev Williams and his track record in making the web a great place for creators (Blogger, Odeo [which was ahead of its time], Twitter, and now Medium). But, increasingly, &lt;a href=&quot;http://fortune.com/2017/01/04/medium-layoff-announcment-ev-williams/&quot;&gt;Medium seems like a failing experiment and less like a finished product&lt;/a&gt;. In trying to find a business model that works, Ev &lt;a href=&quot;https://www.nytimes.com/2017/05/20/technology/evan-williams-medium-twitter-internet.html&quot;&gt;has acknowledged that successful web monetization pushes publishers to ‘all car crashes, all the time&lt;/a&gt;’. That &lt;em&gt;really&lt;/em&gt;, &lt;em&gt;really&lt;/em&gt; makes me nervous about the longevity of any content contributed there.&lt;/p&gt;
+
+&lt;p&gt;But I am privileged. After decades of practice, I can suss out the techno-gobbledygook and cobble together a working site. A vast majority either can’t - or won’t. We need more viable options, not experiments, for the creation, hosting, and discovery of ideas. Until one of those happens, however, I’ll continue to be here, figuring out how to make this work on my own.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Jul 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/07/04/SiteUpdate/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/04/SiteUpdate/</guid>
+        
+        <category>Aidan</category>
+        
+        <category>Hughes,Coldfusion,Github,Git,Jekyll,Cloudflare,Wordpress,Medium,Ev</category>
+        
+        <category>Williams</category>
+        
+        
+      </item>
     
       <item>
         <title>API FAQ and Microservices Roundup &amp;#x2709;</title>
@@ -283,59 +347,6 @@
         <category>Fox,Jacek</category>
         
         <category>Kopechy</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Empathy for All</title>
-        <description>&lt;p&gt;In &lt;a href=&quot;http://robbell.podbean.com/e/episode-126-wisdom-part-9-standing-firm-with-pete-rollins/&quot; rel=&quot;nofollow&quot;&gt;a recent Rob Bell podcast&lt;/a&gt;, the motivational speaker and former pastor discussed how people seek simplicity in uncertain times. Post-election, I even found myself reflexively demonizing, or over-simplifying, the opposition. The fact is that the country after the election isn't suddenly different than the one we had before. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.rollingstone.com/tv/news/jon-stewart-donald-trump-is-a-repudiation-of-republicans-w450936&quot; rel=&quot;nofollow&quot;&gt;John Stewart, in a rare post-Daily-show interview, warned against painting vast swaths of America with an undifferentiated red brush&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;'So much of what liberals fight for is that people shouldn't be judged as &quot;monoliths,&quot;... defining Trump supporters by the worst of his rhetoric is ignorant.'&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;There is absolutely &lt;strong&gt;no place&lt;/strong&gt; for homophobic, misogynistic, racist, fascist, anti-Semitic, anti-Muslim, or anti-science sentiment in our government, presidential or otherwise. Referring to neo-Nazis as the &quot;alt right&quot; is a dangerous normalization. The continual stream of confusing, even contradictory, statements is less a sign of befuddlement and more &lt;a href=&quot;https://twitter.com/anamariecox/status/798939015781171200&quot; rel=&quot;nofollow&quot;&gt;a page out of the authoritarian playbook&lt;/a&gt;. The handful of people that seek to embolden and enrich their own diminutive agendas born of fear and ignorance will be, eventually, defeated. Period. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;But what about the tens of millions of others?&lt;/strong&gt; Who are those people that voted for Trump not &lt;em&gt;because&lt;/em&gt; of his rhetoric, but &lt;em&gt;despite&lt;/em&gt; it? What kind of pain exists that makes embracing a monster more desirable than continuing to endure? &lt;strong&gt;How badly does a system have to fail for someone that &quot;blowing it up&quot; seems a logical step?&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;p&gt;I grew up on an Indian reservation, rural places long known to be economically challenged. If I skim &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_lowest-income_places_in_the_United_States&quot; rel=&quot;nofollow&quot;&gt;the list of lowest-income places in the United States&lt;/a&gt; I see familiar names. I can't justify Trump or his actions. But I can empathize with a rural America that has seen far too many of its basic social systems (social, economic, governmental, etc.) strip mined and abandoned in the name of progress. &lt;/p&gt;
-
-&lt;p&gt;We talk about the &quot;Rust Belt&quot;: the areas of declining industrial production slowly turning fallow before a changing world economy. But at least those places have the dignity of a moniker. Much of America - the America that elected Trump - does not. This is the America where their youth leave; either &lt;a href=&quot;http://www.wsj.com/articles/SB10001424052702303325204579463761632103386&quot; rel=&quot;nofollow&quot;&gt;migrating to cities due to lack of opportunity at home&lt;/a&gt; or &lt;a href=&quot;http://www.washingtonpost.com/wp-dyn/content/article/2005/11/03/AR2005110302528.html&quot; rel=&quot;nofollow&quot;&gt;joining the military&lt;/a&gt;. They leave behind a diminished, aging population that puts even greater strain on the remaining community fabric.  &lt;/p&gt;
-&lt;p&gt;Those that stay face &lt;a href=&quot;http://www.huffingtonpost.com/2015/03/16/rural-youth-suicides_n_6867420.html&quot; rel=&quot;nofollow&quot;&gt;suicide rates in rural areas are double those in urban areas&lt;/a&gt;. Their &lt;a href=&quot;http://www.clarionledger.com/story/news/2015/05/19/states-rural-roads-crumbling-dangerous/27584635/&quot; rel=&quot;nofollow&quot;&gt;infrastructure is crumbling&lt;/a&gt;. They watch &lt;a href=&quot;http://www.wsj.com/articles/SB10001424127887323997004578640531575133750&quot; rel=&quot;nofollow&quot;&gt;heroin use rise in their communities&lt;/a&gt;. That is when they're not suffering from &lt;a href=&quot;https://www.thefix.com/content/methland-reding-heartland-Oelwein8072?page=all&quot; rel=&quot;nofollow&quot;&gt;crystal meth or prescription pill related crime&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;When jobs do come, they often are at the behest of vast, international conglomerates more interesting in extracting what value there is left, rather than building sustaining economic engines. In his book, &lt;a href=&quot;http://www.theopennetworkqc.org/qcon-blog/archives/11-2016&quot; rel=&quot;nofollow&quot;&gt;Throwing Rocks at the Google Bus&lt;/a&gt;, media theorist Douglas Rushkoff articulates how Walmart, through low prices, &lt;a href=&quot;http://time.com/money/4192512/walmart-stores-closing-small-towns/&quot; rel=&quot;nofollow&quot;&gt;paradoxically bankrupts communities over the course of decades&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&quot;So now Walmart is in trouble, because so many small towns where it operates are impoverished. Once you have a Walmart, you can't make any money doing anything else. Everyone just either works for the Walmart or buys from the Walmart, that's it. And it's an extractive force, so eventually the towns go belly up, and now there's Walmarts closing because the towns they're operating in have died.&quot; &lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;That is the status quo that rural America has been told is the way forward. The future being championed by technology companies also doesn't provide much hope. Automation, not trade, &lt;a href=&quot;https://www.brookings.edu/blog/brookings-now/2016/11/18/what-is-the-future-of-free-trade-5-facts-about-us-trade-policy/&quot; rel=&quot;nofollow&quot;&gt;has already claimed manufacturing jobs&lt;/a&gt;. The introduction of &lt;a href=&quot;http://www.npr.org/sections/alltechconsidered/2016/10/13/497834498/for-the-long-haul-self-driving-trucks-may-pave-the-way-before-cars&quot; rel=&quot;nofollow&quot;&gt;self-driving, long-haul trucks now threatens to eliminate one of the last remaining middle-class occupations&lt;/a&gt; that didn't require a degree. Simply retraining isn't the answer, either, as &lt;a href=&quot;http://blogs.wsj.com/economics/2016/12/22/many-americans-live-in-education-deserts-new-research-shows/&quot; rel=&quot;nofollow&quot;&gt;many rural Americans live in &quot;Education Deserts&quot;&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;Who is employed as a trucker? Besides several of my family members, &lt;a href=&quot;http://www.npr.org/sections/money/2015/02/05/382664837/map-the-most-common-job-in-every-state&quot; rel=&quot;nofollow&quot;&gt;quite a few of red state Americans&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2016/12/common-occupations-by-state.png&quot; /&gt;&lt;figcaption&gt;Map of most common jobs, by state, from &lt;a href=&quot;http://www.npr.org/sections/money/2015/02/05/382664837/map-the-most-common-job-in-every-state&quot;&gt;NPR's Money Blog&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Modern America has left part of itself behind&lt;/em&gt;. It is exactly this kind of status quo - the kind that only extracts without replacing with an alternative, that champions the disruption of livelihoods without transition to replacements, that &quot;hollows out&quot; health and home to enrich elites in far flung places - that has simmered resentment and anger. There are horrible people who took glee in a Trump victory. Then there where the millions that want - &lt;strong&gt;need&lt;/strong&gt; - something different. &lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2016/12/leave-red-states.png&quot; /&gt;&lt;figcaption&gt;A snapshot of a tweetstream &lt;a href=&quot;https://twitter.com/haircut_hippie/status/813105010255032321&quot;&gt;by Mark on Christmas&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&quot;But who gives a shit about some backwater?&quot;&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Unfortunately, I see this sentiment all too often. Richard Florida, an American urban theorist, has long argued that knowledge economies favor urban rather than rural areas. In a recent piece, he argued that &lt;a href=&quot;https://medium.com/@Richard_Florida/the-most-disruptive-transformation-in-history-80a50ef89b4d#.adcjsij4i&quot; rel=&quot;nofollow&quot;&gt;our economic vitality required ceding nation state power to cities&lt;/a&gt;. Rather than using government power to create opportunity, as &lt;a href=&quot;http://www.nytimes.com/2016/08/08/technology/how-to-give-rural-america-broadband-look-to-the-early-1900s.html&quot; rel=&quot;nofollow&quot;&gt;co-ops are doing with New-Deal regulations to run fiber-optic cable&lt;/a&gt;, he'd accelerate these places returning to dust from which they rose.&lt;/p&gt;
-
-&lt;p&gt;America is not only a coast. Americans are not just the people who think or look like I do. &lt;em&gt;The American dream is not a system that enriches some while sacrificing others&lt;/em&gt;. Red or blue, the audaciousness of our civic experiment is that we are a &lt;em&gt;plurality&lt;/em&gt;. After the fascist and nationalistic fervor dissipates, we then begin the hard job: reclaiming an America system that works for &lt;strong&gt;all of us&lt;/strong&gt;, not some of us. Avoiding another protest vote capable of electing the next Trump depends on it.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 27 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/12/27/EmpathyForAll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/27/EmpathyForAll/</guid>
-        
-        <category>Trump,Richard</category>
-        
-        <category>Florida,Douglas</category>
-        
-        <category>Rushkoff,Google,rural</category>
-        
-        <category>America,America</category>
         
         
       </item>
