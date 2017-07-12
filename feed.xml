@@ -6,9 +6,65 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Jul 2017 23:16:36 -0400</pubDate>
-    <lastBuildDate>Tue, 11 Jul 2017 23:16:36 -0400</lastBuildDate>
+    <pubDate>Wed, 12 Jul 2017 02:11:25 -0400</pubDate>
+    <lastBuildDate>Wed, 12 Jul 2017 02:11:25 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Logan, Westerns, and a Civilized Internet</title>
+        <description>&lt;p&gt;Have you seen the movie, &lt;strong&gt;Logan&lt;/strong&gt; (2017)? There’s no shame if you saw the promos and, previously burned by X-films, regulated it the whenever pile. However, it is quite good. Hugh Jackman, a fan-favorite onscreen character despite uneven vehicles, gets a moving, if dark, sendoff. It has the kind of depth that resulted in it featured on Wisecrack’s “The Philosophy of” series:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tHLw7ox458c&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;As the video points out, Logan is less a superhero movie, and much more a &lt;em&gt;western&lt;/em&gt;. As articulated by Will Wright in his book, &lt;em&gt;Six Guns &amp;amp; Society&lt;/em&gt;, the typical western follows a predictable arc:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Our hero, usually a man from the wild, is embraced by encroaching civilization&lt;/li&gt;
+  &lt;li&gt;The hero is dragged into conflict to protect his new, civilized friends; this struggle is often the clash between new and old worlds&lt;/li&gt;
+  &lt;li&gt;He saves the day, sometimes becoming part of this new group; other times discovering that the very uncouth means to save the new world have no place in it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The struggle between new and old worlds is key. The video references “Enclosure”, the 500-hundred-year old English practice of taking communal lands, which were free for anyone’s use, and &lt;strong&gt;enclosing&lt;/strong&gt; them. This creates private farms. The idea is to take something perceived as wild and uncontrollable and &lt;em&gt;order&lt;/em&gt; it with ownership, rules, and law.&lt;/p&gt;
+
+&lt;p&gt;The effects of enclosure on the typical western hero aren’t great. As Jeremy Hsu &lt;a href=&quot;http://blogs.discovermagazine.com/lovesick-cyborg/2017/03/24/logan-westerns-and-technological-optimism&quot;&gt;says in his review of the film&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“None of the surviving heroes in those classic Westerns truly enjoy a happy ride into the sunset. But they do all seem to recognize themselves as relics of a dying era. Their individual stories reflect the larger narrative of the Wild Wild West giving way to civilization marching in lockstep with technological progress.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I consider myself fortunate having come of age along with the internet. My internet wasn’t Facebook, Amazon, YouTube or even Google. It was the crazy hallucinogenic potential of the early cyberpunk authors, the fevered nonsense of &lt;a href=&quot;https://en.wikipedia.org/wiki/Mondo_2000&quot;&gt;Mondo2000&lt;/a&gt;, and embarrassing, unpolished attempts at self-expression on GeoCities, web forums, and 1x1 transparent spacer GIFs. It was wild. Unpredictable. Raw. I really didn’t understand the meaning of the word “madcap” until I had a student account and an unmonitored college computer lab.&lt;/p&gt;
+
+&lt;p&gt;Slowly, but surely, &lt;em&gt;enclosure&lt;/em&gt; has come. Like the encroachment of a western’s civilized society, there’s always a benefit: predictability, safety, and comfort. Towns got a sherrif, pastor, and schools. The internet got commerce. It gave us information. And law was passed that wasn’t just good, but necessary; case in point, Title III of the &lt;a href=&quot;https://www.fredlaw.com/news__media/2017/06/14/1548/first_federal_trial_on_website_accessibility_winn-dixie_violates_ada&quot;&gt;Americans with Disabilities Act&lt;/a&gt;. Some taming of the wild was necessary.&lt;/p&gt;
+
+&lt;p&gt;But enclosure can go too far. “&lt;strong&gt;Zero rating&lt;/strong&gt;” is the practice of network access providers not charging customers for data when they use specific internet services. Implementing a zero rating scheme upholds the letter of net neutrality; products or services aren’t blocked. However, in a world of data-capped plans - particularly on mobile - it certainly violates the spirit.&lt;/p&gt;
+
+&lt;p&gt;Network access providers have been playing a very long game. They’ve diversified, going from being “dump pipes” to international media conglomerates. Comcast bought chunks of NBCUniveral from 2009 to 2013. Verizon bought AOL in 2015 (Huffington Post, Techcrunch, etc.), Yahoo in 2016, and its built its own Go90 exclusive. AT&amp;amp;T is attempting to buy Time Warner and pair with its &lt;a href=&quot;https://www.theverge.com/2016/11/29/13774648/fcc-att-zero-rating-directv-net-neutrality-vs-tmobile&quot;&gt;previous DirecTV purchase&lt;/a&gt;). Even with more modest players, like TMobile, bundle services like Spotify, Apple Music, and Pandora together in an “unlimited” package. You can still &lt;em&gt;roam&lt;/em&gt; to other places… &lt;em&gt;but it will cost you&lt;/em&gt;. Rather than compete on service or speed, content that doesn’t count against a datacap is the new competitive edge.&lt;/p&gt;
+
+&lt;p&gt;So the rough-and-tumble of the early internet is gone, and today’s current category leaders (&lt;a href=&quot;https://www.recode.net/2017/5/31/15720268/netflix-ceo-reed-hastings-net-neutrality-open-internet&quot;&gt;Netflix&lt;/a&gt;! &lt;a href=&quot;https://www.theverge.com/2017/6/21/15816974/verizon-tumblr-net-neutrality-internet-politics-david-karp&quot;&gt;Tumblr&lt;/a&gt;!) are crowned with &lt;a href=&quot;http://fortune.com/2017/02/03/trump-fcc-zero-rating-att-verizon/&quot;&gt;the new administration&lt;/a&gt;. And that’s a problem. &lt;a href=&quot;https://www.newamerica.org/oti/blog/zero-rating-plans-are-a-serious-threat-to-the-open-internet/&quot;&gt;A statement, made last year by the previous FCC chairman, points out that zero rating practices&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“present a serious threat to the Open Internet: they distort competition, thwart innovation, threaten free speech, and restrict consumer choice — all harms the rules were meant to prevent. These harms tend to fall disproportionately on low-­income communities and communities of color, who tend to rely on mobile networks as their primary or exclusive means of access to the Internet.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Want to take on an incumbent? Now you not only have to provide a better service or site than they do; you also have to overcome the deals they have with network access providers. How many orders of magnitude does your offering need to be for someone to, knowingly, edge toward their data cap?&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;a href=&quot;/images/2017/07/logan.jpg&quot; class=&quot;lightbox&quot;&gt;&lt;img src=&quot;/images/2017/07/logan.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;A screenshot from the Logan movie. Kind of how I'm starting to feel about these net neutrality fights.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;People may not change, but the world’s frame of reference does. I recognized that my perception of what the internet is may be very different from someone who has always ever viewed it with an Instagram filter. Perhaps I am a relic from the old world that, having helped civilize it, now no longer has a home here. But maybe I have a fight or two left before I return to the wilderness.&lt;/p&gt;
+
+&lt;p&gt;Logan is a great movie. It is about control: the struggle in seeking, maintaining, and relinquishing it. &lt;a href=&quot;https://www.theguardian.com/technology/2017/jul/11/what-is-net-neutrality-threat-trump-administration&quot;&gt;July 12 is a day of protest&lt;/a&gt;. Given the political climate, there’s outrage fatigue. I get that. But if we don’t have a free and fair medium for expression, collaboration, organization, and the subsequent reporting thereof, then tackling those other challenges will be impossible.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in getting involved, check out &lt;a href=&quot;https://www.battleforthenet.com/july12/&quot;&gt;BattleForTheNet.com&lt;/a&gt;. If you’d like to leave a comment on the current FCC net neutrality plan, try &lt;a href=&quot;gofccyourself.com&quot;&gt;GoFCCYourself.com&lt;/a&gt; and mention you want to see strong oversite of ISPs (just don’t &lt;a href=&quot;http://www.thedailybeast.com/fcc-radio-silent-on-stolen-identities-writing-love-letters-for-telecoms&quot;&gt;use stolen customer identities to stuff the comment box&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Finally, if this all seems rather dull and boring, here’s what John Oliver had to say about Net Neutrality a few months ago:&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/92vuuZt7wak&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 12 Jul 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/07/12/Logan/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/12/Logan/</guid>
+        
+        
+      </item>
     
       <item>
         <title>underconstruction.gif</title>
@@ -311,42 +367,6 @@
         <category>Bernier,Mehdi</category>
         
         <category>Madjaoui</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>The iPhone Turns 10 &amp;#x2709;</title>
-        <description>&lt;p&gt;I just published a very special edition of the REST API Notes Newsletter. As we begin a new year, I was struck by the 10th anniversary of the original iPhone announcement. RESTful APIs existed &lt;em&gt;before&lt;/em&gt; smart phones, of course. However, the popularity of mobile computing thrust an untold number of developers down the path of service architecture. I pause to ruminate on how far we've come (and just where we might need to go). &lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-01-09-iphone-turns-10&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-01-09-iphone-turns-10&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 09 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/01/09/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/09/RESTAPINotes/</guid>
-        
-        <category>Apple,iPhone,Steve</category>
-        
-        <category>Jobs,Roy</category>
-        
-        <category>Fielding,Ted</category>
-        
-        <category>Nelson,hypermedia,Netflix,microservices,Melvin</category>
-        
-        <category>Conway,cloud,devops,containerization,Android,Kin</category>
-        
-        <category>Lane,John</category>
-        
-        <category>Musser,Pamela</category>
-        
-        <category>Fox,Jacek</category>
-        
-        <category>Kopechy</category>
         
         
       </item>
