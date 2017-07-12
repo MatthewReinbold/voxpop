@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jul 2017 12:17:46 -0400</pubDate>
-    <lastBuildDate>Wed, 12 Jul 2017 12:17:46 -0400</lastBuildDate>
+    <pubDate>Wed, 12 Jul 2017 12:24:40 -0400</pubDate>
+    <lastBuildDate>Wed, 12 Jul 2017 12:24:40 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -58,6 +58,8 @@
 
 &lt;p&gt;Finally, if this all seems rather dull and boring, here’s what John Oliver had to say about Net Neutrality a few months ago:&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/92vuuZt7wak&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Update 7/12/17: Turns out, I’m not the first to make the connection between the internet and the physical American frontier. &lt;a href=&quot;http://www.newyorker.com/tech/elements/net-neutrality-and-the-idea-of-america&quot;&gt;Tim Wu covered similar territory in his 2014 New Yorker piece.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Jul 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/07/12/Logan/</link>
