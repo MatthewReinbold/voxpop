@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Jul 2017 00:30:06 -0400</pubDate>
-    <lastBuildDate>Sun, 16 Jul 2017 00:30:06 -0400</lastBuildDate>
+    <pubDate>Wed, 19 Jul 2017 14:48:12 -0400</pubDate>
+    <lastBuildDate>Wed, 19 Jul 2017 14:48:12 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -60,6 +60,8 @@
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/92vuuZt7wak&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Update 7/12/17: Turns out, I’m not the first to make the connection between the internet and the physical American frontier. &lt;a href=&quot;http://www.newyorker.com/tech/elements/net-neutrality-and-the-idea-of-america&quot;&gt;Tim Wu, coiner of the term “net neutrality”, covered similar territory in his 2014 New Yorker piece.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Update 7/19/17: Wired &lt;a href=&quot;https://www.wired.com/story/keep-net-neutrality-fight-going/&quot;&gt;has a great piece on how to keep the fight for net neutrality going&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Jul 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/07/12/Logan/</link>
@@ -78,6 +80,37 @@
         <category>Jeremy</category>
         
         <category>Hsu,Facebook,Amazon,YouTube,Google,Netflix,Tumblr,Yahoo,AOL,AT&amp;T,Comcast,NBC,Verizon</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>API Versioning, DevEx, and Microservice Design Canvas &amp;#x2709;</title>
+        <description>&lt;p&gt;There's an eclectic, yet powerful mix of stories this time in the REST API notes. First, I cover the API versioning strategy employed by Goolge, get into API developer experience requirements, and then end with Matt McLarty's newly published *microservice design canvas*. &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-07-05&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-07-05&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Jul 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/07/05/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/05/RESTAPINotes/</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        <category>Notes,microservices,Dan</category>
+        
+        <category>Ciruli,Google,Matt</category>
+        
+        <category>McLarty,IBM,Lorna</category>
+        
+        <category>Mitchell,Amanda</category>
+        
+        <category>Folson</category>
         
         
       </item>
@@ -132,6 +165,8 @@
 &lt;p&gt;After a thousand words, I’d assume the rational question would be “Why not just get a Medium blog”? &lt;a href=&quot;https://medium.com/&quot;&gt;Medium&lt;/a&gt; is great for enabling discovery. I also have load of respect for Ev Williams and his track record in making the web a great place for creators (Blogger, Odeo [which was ahead of its time], Twitter, and now Medium). But, increasingly, &lt;a href=&quot;http://fortune.com/2017/01/04/medium-layoff-announcment-ev-williams/&quot;&gt;Medium seems like a failing experiment and less like a finished product&lt;/a&gt;. In trying to find a business model that works, Ev &lt;a href=&quot;https://www.nytimes.com/2017/05/20/technology/evan-williams-medium-twitter-internet.html&quot;&gt;has acknowledged that successful web monetization pushes publishers to ‘all car crashes, all the time&lt;/a&gt;’. That &lt;em&gt;really&lt;/em&gt;, &lt;em&gt;really&lt;/em&gt; makes me nervous about the longevity of any content contributed there.&lt;/p&gt;
 
 &lt;p&gt;But I am privileged. After decades of practice, I can suss out the techno-gobbledygook and cobble together a working site. A vast majority either can’t - or won’t. We need more viable options, not experiments, for the creation, hosting, and discovery of ideas. Until one of those happens, however, I’ll continue to be here, figuring out how to make this work on my own.&lt;/p&gt;
+
+&lt;p&gt;Update 7/19/2017: Troy Hunt has &lt;a href=&quot;https://www.troyhunt.com/cloudflare-ssl-and-unhealthy-security-absolutism/&quot;&gt;a fantastic piece on CloudFlare and unhealthy security absolutism&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Jul 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/07/04/SiteUpdate/</link>
@@ -355,34 +390,6 @@
         <category>Batman</category>
         
         <category>Movie,Batman</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Service verses Library Development, APIs as a Product, and an API Documentation Whitepaper &amp;#x2709;</title>
-        <description>&lt;p&gt;The 2017/1/17 REST API Notes update has a handful of the most thought pieces about REST APIs on the web. Of particular note this time is an excellent piece Jessica Kerr on when to build a service, and when to build a library. Not everything should be an API (shocking, I know) but Jessica does a great job of breakind down the pros and cons. That, along with deeper dives into APIs-as-product, and API documentation await. &lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-01-17&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-01-17&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 17 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/01/17/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/17/RESTAPINotes/</guid>
-        
-        <category>Jessica</category>
-        
-        <category>Kerr,Mark</category>
-        
-        <category>Boyd,ESPN,OpenAPI,RAML,Blueprint,Matt</category>
-        
-        <category>Bernier,Mehdi</category>
-        
-        <category>Madjaoui</category>
         
         
       </item>
