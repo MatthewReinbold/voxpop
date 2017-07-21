@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Jul 2017 14:48:12 -0400</pubDate>
-    <lastBuildDate>Wed, 19 Jul 2017 14:48:12 -0400</lastBuildDate>
+    <pubDate>Fri, 21 Jul 2017 00:49:15 -0400</pubDate>
+    <lastBuildDate>Fri, 21 Jul 2017 00:49:15 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -167,6 +167,8 @@
 &lt;p&gt;But I am privileged. After decades of practice, I can suss out the techno-gobbledygook and cobble together a working site. A vast majority either can’t - or won’t. We need more viable options, not experiments, for the creation, hosting, and discovery of ideas. Until one of those happens, however, I’ll continue to be here, figuring out how to make this work on my own.&lt;/p&gt;
 
 &lt;p&gt;Update 7/19/2017: Troy Hunt has &lt;a href=&quot;https://www.troyhunt.com/cloudflare-ssl-and-unhealthy-security-absolutism/&quot;&gt;a fantastic piece on CloudFlare and unhealthy security absolutism&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Update 7/20/2017: Another Troy Hunt piece, &lt;a href=&quot;https://www.troyhunt.com/life-is-about-to-get-harder-for-websites-without-https&quot;&gt;discussing why the web is quickly going to &lt;strong&gt;secure by default&lt;/strong&gt;&lt;/a&gt;. I had heard about non-secured sites being punished in search engine rankings, but the browser implications are as compelling reason as any.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Jul 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/07/04/SiteUpdate/</link>
