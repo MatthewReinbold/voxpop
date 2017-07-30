@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>APIs and Better Dev Cultures</title>
+  <meta name="description" content="Michael Eacrett of SAP Discussing In-Memory Platforms">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2014/05/21/gluecon-day-1-recap/">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Matthew Reinbold, formerly of Vox Pop</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+  <div class="wrapper">
+    <h2><em>Development, Software or Otherwise</em></h2>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">APIs and Better Dev Cultures</h1>
+    <h2 class="post-subtitle">Gluecon 2014 Day 1 Recap</h2>
+    <p class="post-meta"><time datetime="2014-05-21T00:00:00-04:00" itemprop="datePublished">May 21, 2014</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <figure>
+<a href="/images/2014/05/MichaelEacrett.jpg" class="lightbox"><img src="/images/2014/05/MichaelEacrett.jpg" /></a>
+<figcaption>Michael Eacrett of SAP Discussing In-Memory Platforms</figcaption>
+</figure>
+
+<p>This is the third continuous year that I have had the good fortune of attending the Gluecon conference. Held May 21-22 in Broomfield, Colorado, the conference focuses on big data, cloud, and API issues. Admist the technical chat, a number of the sessions that I attended also had an emphasis in enhancing software development culture. Below is an abridged version of my notes.</p>
+
+<section>
+	<nav>
+		<h1><a name="index">Index</a></h1>
+		<ul>
+			<li><a href="#socialglue">Social Glue</a></li>
+			<li><a href="#containers">Containers All the Way Down</a></li>
+			<li><a href="#parallel">The Parallel Universes of DevOps and Cloud Developers</a></li>
+			<li><a href="#women">Deconstructing Women in Technology</a></li>
+			<li><a href="#sdk">API SDKs will Ruin Your Life</a></li>
+			<li><a href="#enterpriseDevOps">DevOps vs the Enterprise</a></li>
+			<li><a href="#apitrackintro">API Track Introduction</a></li>
+			<li><a href="#first">API First!</a></li>
+			<li><a href="#linguist">Why Your Next API Should Be Designed By a Linguist</a></li>
+			<li><a href="#security">Security Testing with APIs</a></li>
+			<li><a href="#securing">How to Secure Your REST API the Right Way</a></li>
+			<li><a href="#developerco">What Makes a Great Developer Company?</a></li>
+			<li><a href="#psychology">Software Psychologists to Become Analytics Heroes</a></li>
+
+		</ul>
+	</nav>
+</section>
+
+<section>
+<h2><a name="socialglue">Social Glue</a></h2>
+<h3><a href="https://twitter.com/rachelchalmers">Rachel Chalmers</a>, (ignition parterns)</h3>
+
+<p>Through many natural examples, ideal team size seems to be 2-6 people. </p>
+
+<h3>Breaking up the Problem</h3>
+
+<ul>
+<li>solving large problems is very heard</li>
+<li>breaking down the problem is itself is a problem</li>
+<li>but it can be done</li>
+<li>good interfaces make good solutions</li>
+<li>better interfaces are cultural as well as technical</li>
+</ul>
+
+<p>Reference to a <a href="http://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr">Velocity 2009 ppt, called "10 deploys per day - dev and ops at Flickr"</a>. It proposed a new social contract partially in software but also 'codified' in a culture. The code was the stored wisdom of the ops team. They set ground rules of how people would interact with the software and among themselves. They cultivated a healthy attitude toward each other when the inevitable disasters would happen. This trust in the team reduces cognitive load. </p>
+
+<blockquote>
+  "Enterprises want to move from disaster recovery to disaster indifference." <a href="https://twitter.com/stevenscg/status/469252606385078274">Chris Stevens</a>
+</blockquote>
+
+<p>A company is not just a technology or a legal structure. <strong>A company is a group of companions</strong>. Is is a set of people that work better together than alone. Rachel also cited a Netflix culture document, "<a href="http://www.slideshare.net/reed2001/culture-1798664">Seven Aspects of our Culture</a>". A culture like Netflix's is a key differentiator. Rachel is willing to bet her career that an open, transparent organization can out compete a coercive, controlling one. Netflix is highly aligned, loosely coupled. </p>
+
+<p><strong>Code is stored wisdom.</strong> <strong>Culture is about creating a safe and supportive environment where the best ideas can be captured into code.</strong></p>
+
+<p>CIOs want to build service-orientated architecture. The move from waterfall to agile is a response to a need to more quickly in the face of competitive pressure. It illustrates how every company should think of itself in the software and information business.</p>
+
+<p>Private IT will never compete with the public cloud. And "not developed here" approaches can't compete with SaaS. Desktop gives way to mobile. But mobile is training wheels compared to the coming IoT (Internet of Things). Silos give way to APIs and services. These process are all reflection of the need to better capture collective intelligence for competitive advantage.</p>
+
+<p><strong>Code is stored wisdom. Culture allows wisdom to surface from groups. Clean interfaces enable groups to speak with one voice, reducing communication overheads</strong>.  </p>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="containers">Containers All the Way Down: A Blueprint for Upgrading the Internet</a></h2>
+<h3><a href="https://twitter.com/solomonstre">Solomon Hykes</a>, Docker</h3>
+
+<p><a href="https://www.docker.io/">Docker</a> is an open source project that standardizes how a project is packaged and subsequently executed in a sandboxed environment. The pieces are detached from any specific machine. </p>
+
+<p>The challenge we all have is that the applications that we're now building don't neatly fit notions of platforms of the past. We are able to point at individual products but things like cloud services are fuzzy concepts; it doesn't capture the entirety of what we're doing. We cobble together tools that are not fit for working together. Creating the glue to make these disparate pieces <strong>work</strong> takes <em>a lot of time and effort</em>.</p>
+
+<blockquote>
+  "apps we are building are made of services: discrete logical loosely couple composable components"
+</blockquote>
+
+<p> Composability and remixability are important. They need to talk with each other over network messages. They also need to be independent of the machine they're running on. Hardware dies, becomes obsolete, and therefore the software - with expectations of 100% uptime - <em>needs to be independent of infrastructure</em>. </p>
+
+<blockquote>
+  "My thought in the 70s was that the Internet we were all working on alongside personal computing was a really good scalable design, and that we should make a virtual internet of virtual machines that could be cached by the hardware machines. It's really too bad that this didn't happen." - <a href="http://www.computerworld.com.au/article/352182/z_programming_languages_smalltalk-80/?pp=2">Alan Kay</a> (creator of OOP, and Smalltalk)
+</blockquote>
+
+<p>All Docker does is try to gain consensus around a key thing is missing: regardless of how people wish to implement to solution <strong>there is a uniform place for people <em>to go</em> build stuff</strong>.  </p>
+
+<p>The new problems:</p>
+
+<ul>
+<li>clustering</li>
+<li>orchestration</li>
+<li>discovery</li>
+<li>identity and trust</li>
+</ul>
+
+<p>These problems have been solved. We just need to standardize the interfaces between them. </p>
+
+<blockquote>
+  "Docker is a standards body that anyone can join just by writing code."
+</blockquote>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="parallel">The Parallel Universes of DevOps and Cloud Developers</a></h2>
+<h3><a href="https://twitter.com/dberkholz">Donnie Berkholz</a>, Redmonk</h3>
+
+<p>In his job, Donnie has gained an expertise of quantifying things like open source communities. When observing cloud based solutions, becomes apparently that developers are put in the position of being their own sysadmins. DevOps - the traditional division with sysadmin functions - are not aware of what the developers are doing. </p>
+
+<blockquote>
+  It's not about tools, it's about people and culture.
+</blockquote>
+
+<p>Part of the separation problem is because of differences in culture. In order to facilitate faster deployments, we need to tear down the silos around the separate groups. Silos are difficult to maintain when things are entirely open. </p>
+
+<blockquote>
+  "Completely disagree that the solution for devs and ops working together is culture. Culture reflects norms, not causes them" <a href="https://twitter.com/bernardgolden/status/469144659869315074">Bernard Golden</a>
+</blockquote>
+
+<p>"Infrastructure as code" are projects like CFEngine, Puppet, Chef, Saltstack. It's not a new idea (CFEngine came out in 1993). However, the tools came to the forefront with the need to matriculate deployments to the cloud.</p>
+
+<p>The best Dev/Ops Experience wins. Common barriers to a great DevOp experience include:</p>
+
+<ol>
+<li>inability to find the download</li>
+<li>requiring registration</li>
+<li>tricky, multi-step installation and/or configuration</li>
+<li>having a poor first dev experience</li>
+<li>seeing no community where I can turn to for support</li>
+</ol>
+
+<p>Optimizing for cloud deployment is very different than just building software that can be run in the cloud. For Ops its not about the run-time experience, it's about the build time experience. </p>
+
+<p>In dev world, people choose tools they enjoy, the same as with developers. For example, an obscene amount of developers choose mongoDB because of how delightful the development experience is. Listed in order of popularity, developers choose:</p>
+
+<ul>
+<li>mongoDB</li>
+<li>redis</li>
+<li>mysql</li>
+<li>mongolab</li>
+</ul>
+
+<p>But Ops prefer the tools that best support them:</p>
+
+<ul>
+<li>postgreSQL</li>
+<li>Cassandra</li>
+<li>riak</li>
+</ul>
+
+<p>Today we have two separate communities, living in parallel. They do similar things but rarely does either group reach out to each other. What is the common ground? Continuous delivery and DevOps are extremely similar things, but continuous delivery is thought of as a code thing. DevOps is thought of as babysitting servers. That needs to change.</p>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="women">Deconstructing Women in Technology</a></h2>
+<h3><a href="https://twitter.com/electromute">Ingrid Alongi</a>, Quickleft</h3>
+
+<blockquote>
+  "More girls tend to associate computing with 'typing,' 'math,' and 'boredom,' while boys are more likely to associate computing with 'video games,' 'design,' 'electronics,' 'solving problems,' and 'interesting'" - <a href="http://dotdiva.org/downloads/New_Image_Computing_final.pdf">2008 ACM Study</a>
+</blockquote>
+
+<p>There is a problem in the discussion on women in technology; the problem is that we're not focused on the <strong>right</strong> problem. It is the equivalent of "Surviovorship Bias", a phenomenon observed during WWII. At that time the Allies wanted to increase the odds that bombers would successfully return from their missions. Armoring the entire plane was impractical; it would make them too heavy. So they examined where on the planes they found bullet holes. The intention was that they would armor these spots. </p>
+
+<p>While it was a nice sentiment, it was solving the wrong problems. Instead of studying where the bullet holes were on planes that made it back to base, they <em>should</em> have studied where holes appeared in planes that failed to return. Those were the locations that needed additional armor.</p>
+
+<p>A similar problem exists when discussing women in technology. We're looking in the wrong place. It's not a matter of convincing women that technology is cool. It's a problem of culture; women constantly feel pressure to prove their code is just as good as a man's. Or woman feel singled out. They feel conspicuous. They are never made to feel that they are just another member of the team. So they vote with their feet, and leave the industry. </p>
+
+<p>Setting out to explicitly "build a more diverse team" runs the risk of being misconstrued as a touchy-feely effort. However, committing to building a high-performance team not only clearly aligns with the business goals, but will naturally require diverse inputs. Seven ways to promote a better performing team:</p>
+
+<ol>
+<li>Make a commitment to seeking out original, diverse thinkers and providing a trusting, safe environment where ideas can be thoughtfully heard, considered.</li>
+<li>Host team-building events <em>during</em> office hours. If the only way to talk to boss is after hours at the bar, then that's a turnoff to some types of people.</li>
+<li>Provide multiple outlets for people to reach out to leadership. Empower people to freely talk to those with the power to change things.</li>
+<li>Examine hiring practices. References to "design guy" in long term strategy will likely elbow female candidates from considering themselves for position. Likewise, beware of loaded words or job descriptions that appeal to one group over another.</li>
+<li>Examine your bonus and raise criteria. While you may hire good engineers only a certain subset may be good negotiators. If left unchecked, this may be perceived as wage discrimination.</li>
+<li>?</li>
+<li>A job is a professional place of work, but that doesn't mean it can't be fun.</li>
+</ol>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="sdk">API SDKs will Ruin Your Life</a></h2>
+<h3><a href="https://twitter.com/johnsheehan">John Sheehan</a>, RunScope</h3>
+
+<p>Why do SDKs have such an uptake among providers? Because SDKs are on the critical path to developer success for the APIs.</p>
+
+<p>The problem is that to support SDKs in the 6 major languages (.NET, Java, Ruby, Python, PHP, node), and each version has multiple versions. The result is a tremendous amount of developer pain. And then GoLang comes along.</p>
+
+<p>Can autogeneration be a solution? Not really. That is a great way to create mediocre code. </p>
+
+<p>Can it be left to the dev community? Perhaps. But that also has hit-or-miss results and can reflect badly on the service because of bad initial experience.</p>
+
+<p>Devs love SDKs. They are used because:</p>
+
+<ul>
+<li>Enable Rapid Prototyping</li>
+<li>Fill Gaps When Language Support is Deficient</li>
+<li>Negotiate Complex APIs (or bad APIs, but if a bad API requires an SDK to be usable, shouldn't the API be rewritten?)</li>
+<li>Facilitate Native API Usage</li>
+</ul>
+
+<p>Versioning of the SDK in conjunction with the API is frustrating. Adds headaches to deployment. Other SDK dangers include:</p>
+
+<ul>
+<li>Using more than one (because of library conflicts)</li>
+<li>Community-built (updates are out of your control)</li>
+<li>Introduces many dependencies</li>
+<li>May become an inactive project</li>
+</ul>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="enterpriseDevOps">DevOps vs the Enterprise: What We can learn from Mainframe (Going Big and Screwing Up on DevOps Implementations)</a></h2>
+<h3><a href="https://twitter.com/mikebaukes">Mike Baukes</a>, ScriptRock</h3>
+
+<p>Quite often, the business doesn't understand what you're doing in DevOps. </p>
+
+<p>With agile, things can work really well when the familiarity and ability of each member is the same. When there is a high degree of variability then things can become difficult; people get overwhelmed.</p>
+
+<p>There are challenges to devops. Things standing in the way of even deploying simple updates:</p>
+
+<ul>
+<li>teams spread across geography and org charts</li>
+<li>average request fulfillment was 2 weeks</li>
+<li>riddled with process debt</li>
+</ul>
+
+<p>In building the team culture they recruited the best, but that immediately caused tension and elitism and arrogance began to grow. While they had done a great job selling an approach from the C-level down they hit wall with those in the trenches.</p>
+
+<p>Technical debt was a huge barrier. Spent 90% of time writing code and 10% on education. When it comes down to it, it was faster to code it themselves. Didn't invest enough in the making a good solution. Entire 8 week project was blown away six months later because not enough time was spent on education.</p>
+
+<p>The lessons learned during the implementation:</p>
+
+<ul>
+<li>spend time upfront being empathetic with the company you're coming into; there's a reason why things have evolved the way they are</li>
+<li>don't automate what you don't understand</li>
+<li>DevOps is an organizational change</li>
+<li>software in production and but not in dev is #fail (leads to a shifting sands of patch management, reporting, etc if otherwise)</li>
+</ul>
+
+<p>How would Mike do things differently today? </p>
+
+<h3>Wave 1</h3>
+
+<ul>
+<li>know what you have</li>
+<li>configuration drift detection</li>
+<li>configuration visibility across all devices</li>
+</ul>
+
+<h3>Wave 2</h3>
+
+<ul>
+<li>map accountability to org</li>
+<li>execution doc</li>
+<li>pre-flight checks</li>
+</ul>
+
+<h3>Wave 3</h3>
+
+<ul>
+<li>test driven automation</li>
+<li>service driven infrastructure</li>
+<li>eliminate duplicate documentation</li>
+</ul>
+
+<blockquote>
+  "Don't automate what you don't understand" And don't automate what isn't working, either. <a href="https://twitter.com/omarsultan/status/469170784154316800">Omar Sultan</a>
+</blockquote>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="apitrackintro">API Track Introduction</a></h2>
+<h3><a href="https://twitter.com/alexwilliams">Alex Williams</a>, The New Stack</h3>
+
+<p>It used to be about getting the best efficiencies out of a stack. Now it is about the speed with which you can bring new products to market; whether or not it is efficient doesn't matter. As long as the first attempt is efficient <em>enough</em> for the consumer, that wins. </p>
+
+<blockquote>
+  "We have seen the emergence of lightweight apps... but now we are starting to see the emergence of the lightweight infrastructure."
+</blockquote>
+
+<p>-</p>
+
+<blockquote>
+  "The API is the single point of truth. We saw how effective that was for supporting apps. That's why we're starting to see the emergence of APIs in the infrastructure environment."
+</blockquote>
+
+<p>The "single point of truth" is threatened, however, by the Oracle vs Google ruling. If everyone is forced to create custom interfaces for fear of being sued, we run the risk of destroying the speed of interoperability and deployment, the original <strong>promise</strong> of APIs. </p>
+
+<p>It's no longer a technology matter. An understanding of the courts and broader culture sentiment is increasingly going to matter.</p>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="first">API First: Designing Your Product from the Platform Out</a></h2>
+<h3><a href="https://twitter.com/synedra">Kirsten Hunter</a>, 3Scale</h3>
+
+<p>The idea of API First is that you build the API first before anything else; including websites that traditionally would be server-side code outputting HTML. It involves loving your API and making it a first class product. You want the API to drive an experience that is meaningful to the end user. </p>
+
+<p>APIs that are organically grown resemble an old potato that has left to sprout. Ad-hoc API development leads to duplicate code, features without specific use cases, and inconsistent interfaces. APIs that are perceived as "another thing" to do (in addition to feature development, tests, etc) will never scale or be loved.</p>
+
+<p>The API First Development model is the MVC strategy taken to the next level. It is a uniform contract providing consistently across view clients (mobile, web, other).</p>
+
+<p>Examples of API first companies:</p>
+
+<ul>
+<li>LOB (cloud printing)</li>
+<li>Instagram (started mobile first, but used mobile API to power a website)</li>
+<li>3Scale</li>
+<li>Etsy (with v3, even website is on the API)</li>
+</ul>
+
+<p>Kirsten doesn't encourage the use of SDKs. Anything that provides a level of abstraction from the API will provide levels of difficulty in understanding and maintainability (not to mention providing another place for bugs to hide). If an API is so difficult to use, fix that first rather than building an abstraction on top of it.</p>
+
+<blockquote>
+  "If you want your API to remain relevant make it the central interface to your biz logic for both product and integrations" - <a href="https://twitter.com/modethirteen/status/469205831666241536">James Andrew Vaughn</a>
+</blockquote>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="linguist">Why Your Next API Should Be Designed By a Linguist</a></h2>
+<h3><a href="https://twitter.com/understandig">Rebecca Standig</a>, Keen IO</h3>
+
+<p>What is linguistics? Linguists look for patterns. In relation to APIs, morphology and phonology are pertinent. They think about syntax in very abstract, meta ways. The same processes are important when developing APIs. Certain language structures are difficult to pick out given the limited amount of information, something not unlike working with customers.</p>
+
+<p>When developing the language of an API, consider:</p>
+
+<ul>
+<li>do you have a grammar</li>
+<li>that makes sense</li>
+<li>that can be intuitively guessed at by those familiar in your field but not with your implementation</li>
+<li>and be broken down into granular, component parts</li>
+<li>with a syntax (the implementation details) abstracted away from the user?</li>
+</ul>
+
+<p>Common linguistic phenomenon is that complex aspects becomes increasingly less complex over time. This holds true for APIs as well. If something is too difficult to accomplish (for example, requiring multiple calls to compose a single interface) it will be refactored over time.</p>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="security">Security Testing with APIs (Security Scans)</a></h2>
+<h3><a href="https://twitter.com/GillerMichael">Michael Giller</a>, SOAPUI</h3>
+
+<p>First type of security vulnerability are injections:</p>
+
+<ul>
+<li>sql injection</li>
+<li>xpath injection</li>
+<li>code injection (watch out for eval() func)</li>
+<li>log injection (people can soak up cycles chasing planted ghosts)</li>
+<li>XML External Entity Injection</li>
+</ul>
+
+<p>Cross Site Scripting (XSS); allows people to bypass same origin policy.</p>
+
+<blockquote>
+  "Sensitive information exposure test is brilliant. Seeing service versions, stack traces -- turns my stomach." <a href="https://twitter.com/mansillaDEV/status/469215368813109250">Neil Mansilla</a>
+</blockquote>
+
+<p>Denial of Service attack - be able to recognize when to recognize it is under attack. Within SoapUI, using load testing to verify the capability of a server to handle exponential traffic surges.</p>
+
+<p>Check user permissions. Make sure that your users can only access the information they need to access.</p>
+
+<p>Watch out for sequential IDs - they are just begging for someone curious enough to act on "what if" questions.</p>
+
+<blockquote>
+  "In addition to security, it also protects from exposing business growth metrics." <a href="https://twitter.com/mansillaDEV/status/469218019101507584">Neil Mansilla</a>
+</blockquote>
+
+<p>Fuzzing Scan generates random input for specified request parameters for a specified number of requests. Helps expose whether you're returning hints for attack when the API is unsure what to do with what it is given.</p>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="securing">How to Secure Your REST API the Right Way</a></h2>
+<h3><a href="https://twitter.com/lhazlewood">Les Hazelwood</a>, Stormpath</h3>
+
+<h3>Best Practices</h3>
+
+<h4>API Keys, not Passwords</h4>
+
+<ul>
+<li>Entropy (a key is larger, random than a human-friendly password)</li>
+<li>Independence</li>
+<li>Speed (if using keys, don't necessary have to do processor intensive algorithmic hoop jumping)</li>
+<li>Reduced Exposure</li>
+<li>Traceability</li>
+<li>Rotation</li>
+<li>Authenticate <em>every</em> request (it's supposed to be stateless; sessions are discouraged)</li>
+<li>Encrypt API key secret values (permanent data store protection)</li>
+<li>Avoid Sessions (no  XSRF [cross-site forgery] if there is no session)</li>
+</ul>
+
+<h4>Identifiers</h4>
+
+<ul>
+<li>should be opaque</li>
+<li>secure random or random/time UUID</li>
+<li>URL-friendly 'base62' encoding</li>
+<li>avoid sequential numbers:
+<ul><li>distribute ID generation load</li>
+<li>mitigate fusking attacks</li></ul></li>
+</ul>
+
+<h4>Query Injection</h4>
+
+<p>Always sanitize and validate every input. </p>
+
+<h4>Redirects and Forwards</h4>
+
+<p>This is where clients and/or customers can declare their own URLs to be sent to after the server processes things.
+* Avoid if possible
+* if used, validate the value and ensure authorized for the current user</p>
+
+<h4>TLS</h4>
+
+<ul>
+<li>Use TLS for everything</li>
+<li>Once electing to TLS:
+<ul><li>never redirect</li>
+<li>never switch back and forth</li></ul></li>
+<li>Cookies: set the 'secure' and 'httpOnly' flags for secure cookies</li>
+<li>backend infrastructure connections use TLS too</li>
+<li>configure your SSL provider to support only strong (FIPS 140-2 compliant) algorithms</li>
+<li>use cipher suites w/ perfect forward secrecy</li>
+<li>keep your TLS certificates valid</li>
+<li>app-level encryption + TLKS for most secure results</li>
+</ul>
+
+<h4>Configuration</h4>
+
+<ul>
+<li>do security testing as part of continuous integration suite</li>
+<li>keep security patches up to date</li>
+<li>use same config in Dev, Prod, QA (docker is great for this)</li>
+<li>externalize passwords/credentials</li>
+</ul>
+
+<h4>Storage</h4>
+
+<ul>
+<li>sensitive data encrypted at rest</li>
+<li>encrypt offsite backups</li>
+<li>strong algorithms/standards</li>
+<li>strong encryption keys and key mgt</li>
+<li>strong password hashing</li>
+<li>external key storage</li>
+<li>encrypted file system</li>
+</ul>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="developerco">What Makes a Great Developer Company?</a></h2>
+<h3><a href="https://twitter.com/ethankurz">Ethan Kurzweil</a>, Bessemer Venture Partners</h3>
+
+<p>"Making the Case for the Developer as the Center of the Universe"</p>
+
+<p>Why developers? Why make companies that sell to them?</p>
+
+<p>We now have examples of successfully developer-lead companies (Facebook, Yahoo, Google). Microsoft has greatly benefited from catering to the developer ecosystem. Even with the recent negative press coverage, Microsoft still has 2x the free cash flow than Google.</p>
+
+<p>Because they are more central to competitive advantage, developers are now making spending decisions. <a href="http://thenewkingmakers.com/">References the O'Reilly book, [The New Kingmakers</a>, and how the CIO is last to know. Developers are bringing in their own tooling to accomplish tasks; platform decision making is driven even more bottom-up than top-down.]</p>
+
+<p>eBay paid $800 million to buy Braintree because they had a beloved developer platform, while PayPal was not. Braintree is now replacing the existing PayPal infrastructure.</p>
+
+<p>The business models are strong. </p>
+
+<h3>Cost of Acquisition</h3>
+
+<ul>
+<li>low hurdle to adoption</li>
+<li>organic usage drives business</li>
+<li>marketing covers sales and support initially</li>
+<li><p>social media is accelerant (devs talk a lot!)</p>
+
+<h3>Lifetime Value of Customers</h3></li>
+<li><p>very sticky and hard to rip out</p></li>
+<li>enjoy economies of scale</li>
+<li>net negative churn; as customer's usage grow, so does your revenue</li>
+</ul>
+
+<p>Examples of companies doing it right:</p>
+
+<ul>
+<li>sendgrid</li>
+<li>github</li>
+<li>twilio</li>
+<li>new relic</li>
+</ul>
+
+<h3>What makes a great developer company?</h3>
+
+<p>The seven commandments of building the biggest company possible (not all need to be met, but getting most of these help):</p>
+
+<ol>
+<li>delivered as a service that can be <strong>metered</strong> (as opposed to on premise where you lose touch with usage patterns) - ex. twilio</li>
+<li>Your relationship grows with their business (economics of dropbox on amazon); need to capture value of the business growth you're facilitating</li>
+<li>Replaces something that companies already pay for (Amazon Web Services replaces the pain and maintenance of keeping services yourself. Easily allows company to find budget to direct to you</li>
+<li>Offers an amazing user experience (as good as a consumer product). Just because it's a dev company doesn't mean that devs deserve bad experiences. (Mashape, Stripe)</li>
+<li>Devs love it and aren't afraid to express their love (what do you get when you do a twitter search for a product?)</li>
+<li>Exhibits strong network effects (does it get stronger as more people use it, like Stackoverflow - the more people answer questions, the more valuable the service is)</li>
+<li>Eliminates the need for non-core skillset that no one enjoys (Stripe, Stormpath, Oauth provider)</li>
+<li>(bonus!) Democratizes Development - does it extend the power of software and engineering to more people beyond traditional developers? (Optimizely, ability to run an A/B test). Success is measurable through metrics. Takes 18 million programmers (worldwide) and opens it up to the 400 million IT workers.</li>
+</ol>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+<section>
+<h2><a name="psychology">Carpe Datum! Time for Software Psychologists to Become Analytics Heroes</a></h2>
+<h3><a href="https://twitter.com/bjorn_fb">Bjorn Freeman-Benson</a>, New Relic&lt;/a&gt;</h3>
+
+<p>Bjorn realized that much of what we do in software is about listening to other people. That is why he lists "software psychologist" as his job title on LinkedIn. </p>
+
+<p>It is one thing to have bugs in the program. But, as he learned the hard way while developing UrbanSim, there may be bugs in the larger mental model. The software may be behaving perfectly, but if the model is incorrect the results will still result in the same disappointment.</p>
+
+<blockquote>
+  Psychologists use an assortment of evidence-based treatments to help people improve themselves. In software psychology, I most commonly use code-psychotherapy, better know as "listening to the pain".
+</blockquote>
+
+<p>Software psychology needs to be done in the real world. We need to listen to the systems that are doing the actual work. Triaging in a test environment is like taking a person to a tropical beach, allowing them to relax, and then asking them what is wrong with their life. There are bizarre corners of the net where odd things happen. If we aren't listening then we're missing the oddities that would never even occur to us while building a test case.</p>
+
+<p>What is a Code Stream (as opposed to Code Smell)?</p>
+
+<blockquote>
+  A code scream is a behavior indication of a deeper problem in the system. It differs from a a code smell in that it is a behavior rather than structural, e.g., an overly long response time rather than an overly long method.
+</blockquote>
+
+<p>The code can also scream about other things. It may not be a technical insight. It may be trying to tell you something about the business. Since all businesses have turned into software businesses, these software insights are available in every organization.</p>
+
+<p>The data exists - but it is currently not optimized. The real world makes listening hard. The steps:</p>
+
+<ol>
+<li>you have to learn how to get the data out</li>
+<li>the query runs against production</li>
+<li>the query will take overnight to complete</li>
+<li>it will take a few tries to get it right</li>
+</ol>
+
+<p>The problem with this is similar to how Amazon's software (pre-2000) used to be. At the time it was one executable written in C (everything from warehouse to storefront, you would just start the same exe with different command line arguments). It took 12 hours to compile. As a developer, you would get one update a day, regardless if you were willing to work extra hours.</p>
+
+<p>That is why Amazon moved to a software service architecture. Likewise, listening needs to be more rapid than a nightly data warehousing dump. Collect, store, and present ASAP. </p>
+
+<p>Even better, don't just listen. Have a conversation. How do you do that?</p>
+
+<ol>
+<li>Ask good questions (to ask good questions (and get good answers) you need to ask a lot of questions</li>
+<li>Collect all the data, because you'll never know when you'll need it. allows for new questions as your desire for insights deepen</li>
+<li>NOW, ask lots of questions - if you get fast answers, you'll ask more questions</li>
+<li>enable the business to "listen to your code"; build dashboards, share, and help others become data psychologists</li>
+</ol>
+<p><a href="#index">Back to Gluecon Day 1 Index</a></p>
+</section>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a href="mailto:hello@matthewreinbold.com">hello@matthewreinbold.com</a></li>
+        </ul>
+        <!--
+        -->
+          <div id="quote" class="triangle-isosceles left" >
+
+          </div>
+        <div id="image" style="float:left;">
+          <img src="/images/headshot-2013c.png" alt="Matthew's avatar" class="bottomImage"/>
+        </div>
+        <!--
+        style="font-size:0.9em; background-color:#4a0000; color:#ffffff; border: 1px solid #753500; border-radius:0.5em; width:115px;float:right;padding:0.5em;"
+        -->
+
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://tinyletter.com/restapinotes"><span class="icon icon--twitter"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="226 288.5 160 215" enable-background="new 226 288.5 160 215" xml:space="preserve">
+<g id="Logo_2_">
+	<path id="White_Envelope_1_" fill="#FFFFFF" d="M368.6,333.9H243.4c-6.2,0-11.1,5.1-11.1,11.1v102c0,6.2,5.1,11,11.1,11h45
+		l42.5,32.6V458h37.7c6.2,0,11-5.1,11-11V345C379.7,338.8,374.6,333.9,368.6,333.9z"/>
+	<path id="Red_Heart_2_" fill="#EC1C24" d="M301.2,302.8l4.8,4.8l4.8-4.8c8.8-8.8,22.9-8.8,31.7,0c8.8,8.8,8.8,22.9,0,31.7L306,364
+		l-36.6-29.5c-8.8-8.8-8.8-22.9,0-31.7C278.2,294,292.4,294,301.2,302.8z"/>
+	<path id="Black_Outline_1_" d="M368.6,328.9h-15.9c1.1-3.1,2-6.5,2-10.2c0-7.6-2.8-14.4-8.2-19.8s-12.5-8.2-19.8-8.2
+		c-7.6,0-14.4,2.8-19.8,8.2l-0.9,0.9l-0.9-0.9c-5.4-5.4-12.5-8.2-19.8-8.2c-7.6,0-14.4,2.8-19.8,8.2c-8.2,8.2-10.2,20.1-6.2,30
+		h-15.9c-9.4,0-17,7.6-17,17v100.3c0,9.4,7.6,17,17,17h40.5l52.7,40v-40h32c9.4,0,17-7.6,17-17V345.9
+		C385.6,336.5,378,328.9,368.6,328.9z M273.4,306.8c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8l8.8,8.8l8.8-8.8
+		c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8s4.8,7.4,4.8,11.9c0,4.2-1.7,8.5-4.8,11.6L306,356.6l-32.6-26.4
+		C266.9,323.8,267.2,313.3,273.4,306.8z M243.4,340.2h24.4l38.5,31.2l38.5-31.2h24.1c3.1,0,5.7,2.5,5.7,5.7v17.3L306,415l-68.3-51.8
+		v-17.3C237.7,342.7,240.3,340.2,243.4,340.2z M374.3,377.3v39.4l-25.8-19.8L374.3,377.3z M263.5,397.1L237.7,417v-39.4L263.5,397.1
+		z M368.6,451.8H325v28.3l-37.4-28.3h-44.2c-3.1,0-5.7-2.6-5.7-5.7v-15l35.4-26.9l33.1,25.2l33.1-25.2l35.4,26.9v15
+		C374.3,449.3,371.7,451.8,368.6,451.8z"/>
+</g>
+</svg>
+</span><span class="username">REST API Notes</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/libel_vox"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">Twitter</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://instagram.com/huxleymoc"><span class="icon icon--instagram"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="post-instagram">
+		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M255,153c56.1,0,102,45.9,102,102c0,56.1-45.9,102-102,102c-56.1,0-102-45.9-102-102C153,198.9,198.9,153,255,153z M63.75,459
+			C56.1,459,51,453.9,51,446.25V229.5h53.55C102,237.15,102,247.35,102,255c0,84.15,68.85,153,153,153c84.15,0,153-68.85,153-153
+			c0-7.65,0-17.85-2.55-25.5H459v216.75c0,7.65-5.1,12.75-12.75,12.75H63.75z M459,114.75c0,7.65-5.1,12.75-12.75,12.75h-51
+			c-7.65,0-12.75-5.1-12.75-12.75v-51c0-7.65,5.1-12.75,12.75-12.75h51C453.9,51,459,56.1,459,63.75V114.75z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span><span class="username">Instagram</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://youtube.com/user/libelvox/videos"><span class="icon icon--youtube"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#e62117" d="M94.98,28.84c0,0-0.94-6.6-3.81-9.5c-3.64-3.81-7.72-3.83-9.59-4.05c-13.4-0.97-33.52-0.85-33.52-0.85s-20.12-0.12-33.52,0.85c-1.87,0.22-5.95,0.24-9.59,4.05c-2.87,2.9-3.81,9.5-3.81,9.5S0.18,36.58,0,44.33v7.26c0.18,7.75,1.14,15.49,1.14,15.49s0.93,6.6,3.81,9.5c3.64,3.81,8.43,3.69,10.56,4.09c7.53,0.72,31.7,0.89,32.54,0.9c0.01,0,20.14,0.03,33.54-0.94c1.87-0.22,5.95-0.24,9.59-4.05c2.87-2.9,3.81-9.5,3.81-9.5s0.96-7.75,1.02-15.49v-7.26C95.94,36.58,94.98,28.84,94.98,28.84z M38.28,61.41v-27l25.74,13.5L38.28,61.41z"/></svg></span> <span class="username">YouTube</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://libelvox.tumblr.com"><span class="icon icon--tumblr"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="post-tumblr">
+		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M357,229.5h-76.5c0,0,0,96.9,0,99.45c0,17.85,2.55,28.05,28.05,28.05c22.95,0,48.45,0,48.45,0v76.5c0,0-25.5,2.55-53.55,2.55
+			c-66.3,0-99.45-40.8-99.45-86.7c0-30.6,0-119.85,0-119.85h-51v-71.4c61.2-5.1,66.3-51,71.4-81.6h56.1V153H357V229.5z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span><span class="username">Tumblr</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://pinterest.com/libelvox"><span class="icon icon--pinterest"><?xml version="1.0" ?><svg height="1792" viewBox="0 0 1792 1792" width="1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103q-111 0-218-32 59-93 78-164 9-34 54-211 20 39 73 67.5t114 28.5q121 0 216-68.5t147-188.5 52-270q0-114-59.5-214t-172.5-163-255-63q-105 0-196 29t-154.5 77-109 110.5-67 129.5-21.5 134q0 104 40 183t117 111q30 12 38-20 2-7 8-31t8-30q6-23-11-43-51-61-51-151 0-151 104.5-259.5t273.5-108.5q151 0 235.5 82t84.5 213q0 170-68.5 289t-175.5 119q-61 0-98-43.5t-23-104.5q8-35 26.5-93.5t30-103 11.5-75.5q0-50-27-83t-77-33q-62 0-105 57t-43 142q0 73 25 122l-99 418q-17 70-13 177-206-91-333-281t-127-423q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/></svg></span> <span class="username">Pinterest</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://soundcloud.com/matthew-reinbold/tracks"><span class="icon icon--soundcloud"><svg xmlns="http://www.w3.org/2000/svg" width="2500" height="1387" viewBox="0 208.952 1048.713 581.696"><path d="M0 686.216c0 13.014 4.718 22.854 14.152 29.524 9.435 6.669 19.52 9.027 30.256 7.076 10.085-1.952 17.161-5.531 21.229-10.736 4.066-5.205 6.1-13.827 6.1-25.864v-141.52c0-10.086-3.497-18.626-10.492-25.62-6.994-6.995-15.534-10.492-25.62-10.492-9.76 0-18.137 3.497-25.132 10.492C3.498 526.07 0 534.61 0 544.696v141.52zm112.24 60.512c0 9.436 3.335 16.511 10.004 21.229 6.67 4.718 15.21 7.076 25.62 7.076 10.736 0 19.438-2.359 26.108-7.076 6.669-4.717 10.004-11.793 10.004-21.229V416.84c0-9.76-3.498-18.138-10.492-25.132-6.995-6.994-15.535-10.492-25.62-10.492-9.76 0-18.138 3.498-25.132 10.492-6.995 6.995-10.492 15.372-10.492 25.132v329.888zm111.752 15.616c0 9.435 3.416 16.511 10.248 21.229 6.832 4.717 15.616 7.076 26.353 7.076 10.41 0 18.95-2.359 25.619-7.076 6.67-4.718 10.005-11.794 10.005-21.229V461.248c0-10.085-3.498-18.707-10.492-25.864-6.995-7.157-15.372-10.735-25.132-10.735-10.086 0-18.707 3.578-25.864 10.735s-10.736 15.779-10.736 25.864v301.096zm112.24 1.464c0 17.894 12.037 26.841 36.112 26.841 24.074 0 36.111-8.947 36.111-26.841v-488c0-27.328-8.296-42.781-24.888-46.36-10.736-2.603-21.31.488-31.72 9.272-10.411 8.784-15.616 21.146-15.616 37.088v488zm114.193 14.152V247.016c0-16.917 5.042-27.002 15.128-30.256 21.797-5.205 43.432-7.808 64.904-7.808 49.775 0 96.136 11.712 139.079 35.136 42.944 23.424 77.674 55.388 104.188 95.892 26.515 40.505 41.887 85.156 46.116 133.957 19.845-8.459 40.991-12.688 63.439-12.688 45.547 0 84.506 16.104 116.876 48.312 32.371 32.209 48.557 70.923 48.557 116.145 0 45.547-16.186 84.424-48.557 116.632-32.37 32.208-71.166 48.312-116.388 48.312l-424.56-.488c-2.929-.976-5.125-2.766-6.589-5.368s-2.193-4.882-2.193-6.834z"/></svg></span> <span class="username">SoundCloud</span></a>
+
+          </li>
+                    
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
+</p>
+      </div>
+
+      <div style="clear:both;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(
+    function() {
+     $.getJSON( '/quotes.json', 
+      function(data) {
+        // generate a random number between 0 and length-1
+        var index = Math.floor(Math.random() * (data.quotes.length - 1) ); 
+        //alert(data.quotes[index].quote);
+        $('#quote').text('"' + data.quotes[index].quote + '" - ' + data.quotes[index].attribution )
+      }
+    );
+   }
+  );
+</script>
+
+  </body>
+
+</html>

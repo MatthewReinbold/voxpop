@@ -544,7 +544,7 @@ object {
   width: 0; }
 
 .triangle-isosceles.left:after {
-  top: 80px;
+  top: 60px;
   /* controls vertical position */
   left: -20px;
   /* value = - border-left-width - border-right-width */
