@@ -551,3 +551,30 @@ object {
   bottom: auto;
   border-width: 10px 20px 10px 0;
   border-color: transparent #f3961c; }
+
+/* imported from previous site */
+#gallery li {
+  display: inline-block;
+  background-color: #e0e0e0;
+  border: 0.1em solid #ccc;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  margin: 0.5em 0em 0.5em 0em;
+  padding: 0.5em 0.5em 0.5em 0.5em; }
+
+#gallery img {
+  height: 127px;
+  width: 127px; }
+
+#gallery_vertical li {
+  display: inline-block;
+  background-color: #e0e0e0;
+  border: 0.1em solid #ccc;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  margin: 0.5em 0em 0.5em 0em;
+  padding: 0.5em 0.5em 0.5em 0.5em; }
+
+#gallery_vertical img {
+  width: 127px;
+  height: 226px; }
