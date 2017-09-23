@@ -6,9 +6,152 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Aug 2017 21:42:55 -0400</pubDate>
-    <lastBuildDate>Mon, 07 Aug 2017 21:42:55 -0400</lastBuildDate>
+    <pubDate>Sat, 23 Sep 2017 16:24:49 -0400</pubDate>
+    <lastBuildDate>Sat, 23 Sep 2017 16:24:49 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Recapping RESTfest  &amp;#x2709;</title>
+        <description>&lt;p&gt;RESTfest happens every year in Greenville, SC. Despite its small size, it always is a source notable REST events. In this edition of REST API notes, I cover a handful of announcements, including Erik Wilde's &lt;em&gt;linksets&lt;/em&gt; proposal. This, and more, in the newsletter.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-18&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-18&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/09/18/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/18/RESTAPINotes/</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        <category>Notes,Erik</category>
+        
+        <category>Wilde,RESTfest,linksets,hypermedia,Stephen</category>
+        
+        <category>Mizell,Mark</category>
+        
+        <category>Foster,microservices,GraphQL,Dennis</category>
+        
+        <category>Walsh</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Fielding's Reflection on REST  &amp;#x2709;</title>
+        <description>&lt;p&gt;Roy T. Fielding was the author of the original paper outlining the REST architectural style. He recently revisited his work in a paper, and subsequent presentation that is covered in this week's REST API Notes. I also cover Equifax, and allegations that the breach was because of a REST exploit.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-11-roy-s-reflections&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-11-roy-s-reflections&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/09/11/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/11/RESTAPINotes/</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        <category>Notes,Roy</category>
+        
+        <category>Fielding,Equifax,Java,Struts</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Revisiting GraphQL (Again)  &amp;#x2709;</title>
+        <description>&lt;p&gt;Back in September of 2016, I [spent a portion of the REST API Newsletter carefully considering GraphQL](http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2016-09-15-graphql). I'm back at it a year later. Has anything changed?&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-05-graphql-again&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-05-graphql-again&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/09/05/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/05/RESTAPINotes/</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        <category>Notes,GraphQL,Arnaud</category>
+        
+        <category>Lauret,Sumit</category>
+        
+        <category>Sarkar,Mark</category>
+        
+        <category>Boyd,Abraham</category>
+        
+        <category>Maslow,Scott</category>
+        
+        <category>Bellware</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>API Versioning, Integrations, and Microservice Podcasts  &amp;#x2709;</title>
+        <description>&lt;p&gt;REST API Notes for 8/28 is out! In it I have stories on Stripe and their versioning, Zapier on integration success factors, and two recent #Microservice podcasts. In addition, I take a moment to acknowledge the shuttering of the Stormpath API. &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-08-28&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-08-28&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Aug 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/08/28/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/28/RESTAPINotes/</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        <category>Notes,microservices,Stripe,Zapier,Wade</category>
+        
+        <category>Foster,Sam</category>
+        
+        <category>Newman,Stormpath</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Microservices Patterns, Doubt, and You are not Netflix  &amp;#x2709;</title>
+        <description>&lt;p&gt;Sam Newman, author of the O'Reilly book, &quot;[Building Microservices](http://shop.oreilly.com/product/0636920033158.do)&quot; pumps the brakes on microservice hype in the latest edition of REST API Notes. The Open API Spec is now, officially, 3.0.  &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-08-14&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-08-14&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Aug 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/08/14/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/14/RESTAPINotes/</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        <category>Notes,microservices,Sam</category>
+        
+        <category>Newman,Microsoft,Stephen</category>
+        
+        <category>O'Grady,AsyncAPI,OpenAPI</category>
+        
+        
+      </item>
     
       <item>
         <title>Logan, Westerns, and a Civilized Internet</title>
@@ -62,6 +205,8 @@
 &lt;p&gt;Update 7/12/17: Turns out, I’m not the first to make the connection between the internet and the physical American frontier. &lt;a href=&quot;http://www.newyorker.com/tech/elements/net-neutrality-and-the-idea-of-america&quot;&gt;Tim Wu, coiner of the term “net neutrality”, covered similar territory in his 2014 New Yorker piece.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Update 7/19/17: Wired &lt;a href=&quot;https://www.wired.com/story/keep-net-neutrality-fight-going/&quot;&gt;has a great piece on how to keep the fight for net neutrality going&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Update 8/24/17: &lt;a href=&quot;https://www.youtube.com/watch?v=K2Sn_wN2p44&quot;&gt;The praise for Logan keeps coming.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Jul 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/07/12/Logan/</link>
@@ -242,156 +387,6 @@
         <category>Higginbotham,Cassandra</category>
         
         <category>Shum</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tired API Tropes and OpenAPI News &amp;#x2709;</title>
-        <description>&lt;p&gt;The 5/24/17 REST API Notes are out! In this latest newsletter, I run down a list of API presentation clichés with help from my Twitter friends. What are the common tropes that we come back to repeatedly? And can we find new ones? I also touch on Mulesoft joining the OpenAPI initiative. &lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-5-24-2017-api-clich-s-and-mulesoft-joins-openapi-initiative&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-5-24-2017-api-clich-s-and-mulesoft-joins-openapi-initiative&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 24 May 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/05/24/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/24/RESTAPINotes/</guid>
-        
-        <category>Tony</category>
-        
-        <category>Tam,OpenAPI,RAML,Blueprint,Mulesoft,Apiary,Lego</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Status Codes, Hypermedia, Microservices, and More &amp;#x2709;</title>
-        <description>&lt;p&gt;I published the latest edition of the REST API Notes newsletter on 2017/05/17. Included is a great refresher on status codes by Mark Nottingham, a recorded video presentation on  hypermedia and microservices for evolvable system design with Mike Amundsen, and just what next generation gateways like look like to Howard Dierking.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-05-17&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-05-17&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 17 May 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/05/17/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/17/RESTAPINotes/</guid>
-        
-        <category>Mark</category>
-        
-        <category>Nottingham,hypermedia,microservices,Mike</category>
-        
-        <category>Amundsen,API</category>
-        
-        <category>Gateways,Howard</category>
-        
-        <category>Dierking</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Searching for Systematic Solutions</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;a href=&quot;/images/2017/04/oreilly-software-architecture.png&quot; class=&quot;lightbox&quot;&gt;&lt;img src=&quot;/images/2017/04/oreilly-software-architecture.png&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Snapshot of the stage at the O'Reilly Software Architecture Conference&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Last week I attended the O'Reilly Software Architecture Conference in New York City. While not &quot;officially&quot; a software architect anymore, I was keenly interested where the industry zeitgeist was regarding microservices, devops, and event-driven architectures. There &lt;strong&gt;was&lt;/strong&gt; some very valuable information on tap (by the end of the second day I had a few thousand words in my notes file). But there was also a couple shadows cast; apparitions that still have me cringing a week later. &lt;/p&gt;
-
-&lt;p&gt;A session would begin by establishing a strawman: an omission or lack of proper design would lead to an undesirable consequence in production. In one case, for example, the presentation presented an erroneous decomposition of a problem. Rather than &lt;strong&gt;bounded contexts&lt;/strong&gt; around a &lt;strong&gt;business capability&lt;/strong&gt;, they jumped straight to resources, letting the data define the subsequent API design. The result was redundant data seemingly owned by resources, requiring additional data synchronization across the distributed data-sources; i.e. a &quot;distributed monolith&quot;.&lt;/p&gt;
-
-&lt;p&gt;The presenter would then proceed to outline a &lt;em&gt;more&lt;/em&gt; elaborate solution, one that required the initial design failure. The more elaborate solution would have a titillating sounding name, of course. It was usually some combination of yesterday's buzzword and an action adjective . My take-away from these presentations is that anyone is just a &quot;hyper-componentization&quot;, &quot;rational-serverless&quot; or &quot;pico-ops&quot; away from a lucrative career in conference speaking and consultant fees.  &lt;/p&gt;
-
-&lt;p&gt;The technical press is incentivized to unearth a steady stream of &lt;strong&gt;THE NEXT BIG THING&amp;trade;&lt;/strong&gt;! The dopamine drip of discovering the bigger, better, and/or faster way of doing things is what drives attention to online publications, book subscriptions, and conference attendance. Too often, though, this seems to result in an industry that casts off yesterday's solutions as quickly as they can get tomorrow's promises. Rather than proceeding with care and practice after missing the mark, the solution, all too often, seems to be to find new silver bullets. &lt;/p&gt;
-
-&lt;p&gt;That phenomenon is unfortunate, and (probably) unavoidable. It is also, however, &lt;em&gt;not the most challenging thing&lt;/em&gt;. Many of the presenters were proud (and, in some cases, rightly so) for demonstrating &lt;em&gt;purely&lt;/em&gt; architectural solutions. Engineering conferences probably present developer solutions to the similar problems. I also guarantee that business folks are solving things from their perspective. While occasionally victories are possible, systemic success is not guaranteed because the problem is not being approached in a systemic, cross-disciplinary way. &lt;strong&gt;A company's business, culture, and technology are inextricably linked.&lt;/strong&gt; Addressing one in isolation, without considering the push and pull of the others, is likely to doom an effort (or, at a minimum, impede it). &lt;/p&gt;
-
-&lt;p&gt;Take, for example, microservices. Microservices are, simultaneously, a software architecture pattern, a cultural change, and a business concern:&lt;/p&gt;
-&lt;ul id=&quot;draft_check_box_list_0&quot;&gt;
-&lt;li&gt;Most technologists understand microservices as a software architecture pattern. Defining service boundaries through principles domain-driven-design for the sake of decomposition is a powerful thing. But only having the &lt;em&gt;tech&lt;/em&gt; right doesn't mean microservices will be successful in an organization. &lt;/li&gt;
-&lt;li&gt;Culture, as defined in the O'Reilly book, &lt;em&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920050308.do&quot; rel=&quot;nofollow&quot;&gt;Microservice Architecture&lt;/a&gt;&lt;/em&gt;, is &quot;a set of values, beliefs, or ideals that are shared by all the workers within an organization.&quot; If a employees do not trust each other, microservice coordination can't be minimized. If the organization values calendar release cycles tied to marketing blitzes, maximizing deliverable independence will be hard. &lt;/li&gt;
-&lt;li&gt;Adoption of any new behavior must be tied to a business benefit. If the combination of speed and safety inherent with successful microservice execution isn't reflected in a business metric, it becomes &quot;a tech thing&quot;. &quot;Tech things&quot; have a way of being entertained when times are good. However, when adversity happens, anything that isn't obviously tied to a business objective is in jeopardy.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;a href=&quot;/images/2017/04/microservices-whiteboard.jpg&quot; class=&quot;lightbox&quot;&gt;&lt;img src=&quot;/images/2017/04/microservices-whiteboard.jpg&quot; /&gt;&lt;/a&gt;&lt;figcaption&gt;Whiteboard from a recent offsite deep dive into microservices, and what it would take to support them.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;It is a mistake to look at the success that Amazon and Netflix have had and attribute it to &lt;em&gt;only&lt;/em&gt; one of these parts. Their systematic success requires systematic solutions. Succeeding with a new architectural paradigm, like microservices, means creating cultural, business, and technological change. Separating meaningful approaches from buzzword buzzards at single-discipline conferences is one thing. Having the position and/or professional network to holistically apply it successfully is another. &lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Apr 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/04/13/SystematicSolutions/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/13/SystematicSolutions/</guid>
-        
-        <category>Netflix,</category>
-        
-        <category>O'Reilly</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>March Lego City Update ▶</title>
-        <description>&lt;p&gt;Time flies when you're having fun. Or at least that's the excuse I'll make for having six months having gone between Lego city walkthroughs. Numerous buildings have benefited from subtle tweaks. However, by far, the biggest effort has been building out the multi-tiered approach.&lt;/p&gt;
-
-&lt;p&gt;The video is a quick fly-by of a wall in my home office. If nothing else, you can see what I do while on conference calls.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PAoqGisyr3Q&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Apr 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/04/09/MarchLegoCityUpdate/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/09/MarchLegoCityUpdate/</guid>
-        
-        <category>Lego,HuxleyMOC,video,Ghost</category>
-        
-        <category>in</category>
-        
-        <category>the</category>
-        
-        <category>Shell,Section</category>
-        
-        <category>9,Back</category>
-        
-        <category>to</category>
-        
-        <category>the</category>
-        
-        <category>Future,Snow</category>
-        
-        <category>Crash,Time</category>
-        
-        <category>Machine,Chatsubo,Cosa</category>
-        
-        <category>Nostra</category>
-        
-        <category>Pizza,Neuromancer,Big</category>
-        
-        <category>Dig</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Lego Batman Movie Review ▶</title>
-        <description>&lt;p&gt;The original Lego movie defied expectations. What could have been a crass commercial money-grab, instead, was a delightful romp. One of the standout characters from that film was Will Arnett's &lt;em&gt;Batman&lt;/em&gt;. Now in his own feature-length film, will the shtick hold up? &lt;/p&gt;
-
-&lt;p&gt;I thought putting together a movie review was as good of excuse as any to practice some video making skills.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Zl0hzAhB91Y&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 19 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/02/19/TheLegoBatmanMovieReview/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/19/TheLegoBatmanMovieReview/</guid>
-        
-        <category>Lego,The</category>
-        
-        <category>Lego</category>
-        
-        <category>Batman</category>
-        
-        <category>Movie,Batman</category>
         
         
       </item>

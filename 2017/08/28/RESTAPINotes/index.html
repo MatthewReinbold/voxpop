@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Logan, Westerns, and a Civilized Internet</title>
-  <meta name="description" content="Have you seen the movie, Logan (2017)? There’s no shame if you saw the promos and, previously burned by X-films, relegated it the whenever pile. However, it ...">
+  <title>API Versioning, Integrations, and Microservice Podcasts  &amp;#x2709;</title>
+  <meta name="description" content="REST API Notes for 8/28 is out! In it I have stories on Stripe and their versioning, Zapier on integration success factors, and two recent #Microservice podc...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/2017/07/12/Logan/">
+  <link rel="canonical" href="http://localhost:4000/2017/08/28/RESTAPINotes/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -63,64 +63,19 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Logan, Westerns, and a Civilized Internet</h1>
-    <h2 class="post-subtitle">Where to Even Start...</h2>
-    <p class="post-meta"><time datetime="2017-07-12T00:00:00-04:00" itemprop="datePublished">Jul 12, 2017</time></p>
+    <h1 class="post-title" itemprop="name headline">API Versioning, Integrations, and Microservice Podcasts  &#x2709;</h1>
+    <h2 class="post-subtitle">REST API Notes for 2017/08/28</h2>
+    <p class="post-meta"><time datetime="2017-08-28T00:00:00-04:00" itemprop="datePublished">Aug 28, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Have you seen the movie, <strong>Logan</strong> (2017)? There’s no shame if you saw the promos and, previously burned by X-films, relegated it the whenever pile. However, it is quite good. Hugh Jackman, a fan-favorite onscreen character despite uneven vehicles, gets a moving, if dark, sendoff. It has the kind of depth that resulted in it featured on Wisecrack’s “The Philosophy of” series:</p>
+    <p>REST API Notes for 8/28 is out! In it I have stories on Stripe and their versioning, Zapier on integration success factors, and two recent #Microservice podcasts. In addition, I take a moment to acknowledge the shuttering of the Stormpath API. </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tHLw7ox458c" frameborder="0" allowfullscreen=""></iframe>
+<p>You can find the web version of the newsletter email here: <a href="http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-08-28">http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-08-28</a></p>
 
-<p>As the video points out, Logan is less a superhero movie, and much more a <em>western</em>. As articulated by Will Wright in his book, <em>Six Guns &amp; Society</em>, the typical western follows a predictable arc:</p>
+<p>Past editions of the newsletter can be found here: <a href="http://tinyletter.com/RESTAPINotes/archive﻿">http://tinyletter.com/RESTAPINotes/archive﻿</a>.</p>
 
-<ul>
-  <li>Our hero, usually a man from the wild, is embraced by encroaching civilization</li>
-  <li>The hero is dragged into conflict to protect his new, civilized friends; this struggle is often the clash between new and old worlds</li>
-  <li>He saves the day, sometimes becoming part of this new group; other times discovering that the very uncouth means to save the new world have no place in it</li>
-</ul>
-
-<p>The struggle between new and old worlds is key. The video references “Enclosure”, the 500-hundred-year old English practice of taking communal lands, which were free for anyone’s use, and <strong>enclosing</strong> them. This creates private farms. The idea is to take something perceived as wild and uncontrollable and <em>order</em> it with ownership, rules, and law.</p>
-
-<p>The effects of enclosure on the typical western hero aren’t great. As Jeremy Hsu <a href="http://blogs.discovermagazine.com/lovesick-cyborg/2017/03/24/logan-westerns-and-technological-optimism">says in his review of the film</a>:</p>
-
-<blockquote>
-  <p>“None of the surviving heroes in those classic Westerns truly enjoy a happy ride into the sunset. But they do all seem to recognize themselves as relics of a dying era. Their individual stories reflect the larger narrative of the Wild Wild West giving way to civilization marching in lockstep with technological progress.”</p>
-</blockquote>
-
-<p>I consider myself fortunate having come of age along with the internet. My internet wasn’t Facebook, Amazon, YouTube or even Google. It was the crazy hallucinogenic potential of the early cyberpunk authors, the fevered nonsense of <a href="https://en.wikipedia.org/wiki/Mondo_2000">Mondo2000</a>, and embarrassing, unpolished attempts at self-expression on GeoCities, web forums, and 1x1 transparent spacer GIFs. It was wild. Unpredictable. Raw. I really didn’t understand the meaning of the word “madcap” until I had a student account and an unmonitored college computer lab.</p>
-
-<p>Slowly, but surely, <em>enclosure</em> has come. Like the encroachment of a western’s civilized society, there’s always a benefit: predictability, safety, and comfort. Towns got a sherrif, pastor, and schools. The internet got commerce. It gave us information. And law was passed that wasn’t just good, but necessary; case in point, Title III of the <a href="https://www.fredlaw.com/news__media/2017/06/14/1548/first_federal_trial_on_website_accessibility_winn-dixie_violates_ada">Americans with Disabilities Act</a>. Some taming of the wild was necessary.</p>
-
-<p>But enclosure can go too far. “<strong>Zero rating</strong>” is the practice of network access providers not charging customers for data when they use specific internet services. Implementing a zero rating scheme upholds the letter of net neutrality; products or services aren’t blocked. However, in a world of data-capped plans - particularly on mobile - it certainly violates the spirit.</p>
-
-<p>Network access providers have been playing a very long game. They’ve diversified, going from being “dump pipes” to international media conglomerates. Comcast bought chunks of NBCUniveral from 2009 to 2013. Verizon bought AOL in 2015 (Huffington Post, Techcrunch, etc.), Yahoo in 2016, and its built its own Go90 exclusive. AT&amp;T is attempting to buy Time Warner and pair with its <a href="https://www.theverge.com/2016/11/29/13774648/fcc-att-zero-rating-directv-net-neutrality-vs-tmobile">previous DirecTV purchase</a>). Even with more modest players, like TMobile, bundle services like Spotify, Apple Music, and Pandora together in an “unlimited” package. You can still <em>roam</em> to other places… <em>but it will cost you</em>. Rather than compete on service or speed, content that doesn’t count against a datacap is the new competitive edge.</p>
-
-<p>So the rough-and-tumble of the early internet is gone, and today’s current category leaders (<a href="https://www.recode.net/2017/5/31/15720268/netflix-ceo-reed-hastings-net-neutrality-open-internet">Netflix</a>! <a href="https://www.theverge.com/2017/6/21/15816974/verizon-tumblr-net-neutrality-internet-politics-david-karp">Tumblr</a>!) are crowned with <a href="http://fortune.com/2017/02/03/trump-fcc-zero-rating-att-verizon/">the new administration</a>. And that’s a problem. <a href="https://www.newamerica.org/oti/blog/zero-rating-plans-are-a-serious-threat-to-the-open-internet/">A statement, made last year by the previous FCC chairman, points out that zero rating practices</a>:</p>
-
-<blockquote>
-  <p>“present a serious threat to the Open Internet: they distort competition, thwart innovation, threaten free speech, and restrict consumer choice — all harms the rules were meant to prevent. These harms tend to fall disproportionately on low-­income communities and communities of color, who tend to rely on mobile networks as their primary or exclusive means of access to the Internet.”</p>
-</blockquote>
-
-<p>Want to take on an incumbent? Now you not only have to provide a better service or site than they do; you also have to overcome the deals they have with network access providers. How many orders of magnitude does your offering need to be for someone to, knowingly, edge toward their data cap?</p>
-
-<p><figure><a href="/images/2017/07/logan.jpg" class="lightbox"><img src="/images/2017/07/logan.jpg" /></a><figcaption>A screenshot from the Logan movie. Kind of how I'm starting to feel about these net neutrality fights.</figcaption></figure></p>
-
-<p>People may not change, but the world’s frame of reference does. I recognized that my perception of what the internet is may be very different from someone who has always ever viewed it with an Instagram filter. Perhaps I am a relic from the old world that, having helped civilize it, now no longer has a home here. But maybe I have a fight or two left before I return to the wilderness.</p>
-
-<p>Logan is a great movie. It is about control: the struggle in seeking, maintaining, and relinquishing it. <a href="https://www.theguardian.com/technology/2017/jul/11/what-is-net-neutrality-threat-trump-administration">July 12 is a day of protest</a>. Given the political climate, there’s outrage fatigue. I get that. But if we don’t have a free and fair medium for expression, collaboration, organization, and the subsequent reporting thereof, then tackling those other challenges will be impossible.</p>
-
-<p>For more on the caustic effect of the current direction, <a href="https://www.theverge.com/2017/7/12/15715030/what-is-net-neutrality-fcc-ajit-pai-bill-rules-repealed">check out this piece from the Verge</a>. If you are interested in getting involved, check out <a href="https://www.battleforthenet.com/july12/">BattleForTheNet.com</a>. There’s more at the <a href="https://dearfcc.org/">Electronic Frontier Foundation (EFF)</a>. If you’d like to leave a comment on the current FCC net neutrality plan, try <a href="gofccyourself.com">GoFCCYourself.com</a> and mention you want to see strong oversite of ISPs (just don’t <a href="http://www.thedailybeast.com/fcc-radio-silent-on-stolen-identities-writing-love-letters-for-telecoms">use stolen customer identities to stuff the comment box</a>).</p>
-
-<p>Finally, if this all seems rather dull and boring, here’s what John Oliver had to say about Net Neutrality a few months ago:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/92vuuZt7wak" frameborder="0" allowfullscreen=""></iframe>
-
-<p>Update 7/12/17: Turns out, I’m not the first to make the connection between the internet and the physical American frontier. <a href="http://www.newyorker.com/tech/elements/net-neutrality-and-the-idea-of-america">Tim Wu, coiner of the term “net neutrality”, covered similar territory in his 2014 New Yorker piece.</a></p>
-
-<p>Update 7/19/17: Wired <a href="https://www.wired.com/story/keep-net-neutrality-fight-going/">has a great piece on how to keep the fight for net neutrality going</a>.</p>
-
-<p>Update 8/24/17: <a href="https://www.youtube.com/watch?v=K2Sn_wN2p44">The praise for Logan keeps coming.</a></p>
+<p>A comprehensive list of upcoming web events that I maintain can be found at <a href="http://webapi.events">webapi.events</a>.</p>
 
   </div>
 
