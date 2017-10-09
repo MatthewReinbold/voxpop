@@ -471,6 +471,9 @@ pre {
   font-style: italic;
   color: #828282; }
 
+.slide {
+  text-align: left; }
+
 figure {
   background-color: #e0e0e0;
   border: 0.1em solid #ccc;

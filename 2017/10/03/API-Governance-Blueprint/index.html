@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>API Governance Blueprint for IT Culture Change</title>
+  <meta name="description" content="Here is a copy of the presentation that I gave at API World 2017. I've had the fortune (or misfortune, as the case may be) to work on API platform governance...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2017/10/03/API-Governance-Blueprint/">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Matthew Reinbold, formerly of Vox Pop</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+  <div class="wrapper">
+    <h2><em>Development, Software or Otherwise</em></h2>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">API Governance Blueprint for IT Culture Change</h1>
+    <h2 class="post-subtitle">Presented at API World 2017</h2>
+    <p class="post-meta"><time datetime="2017-10-03T00:00:00-04:00" itemprop="datePublished">Oct 3, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Here is a copy of the presentation that I gave at API World 2017. I've had the fortune (or misfortune, as the case may be) to work on API platform governance programs for the past several years. This is a culmination of my lessons learned during this time.</p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide01.png" />
+<figcaption class="slide">
+Hello everyone, my name is Matthew Reinbold and I work for Capital One. My team, the API Center of Excellence, helps developers create great API experiences. We are big advocates for the power of <a href="/2016/06/02/ConsistencyAndCohesion/">consistency and cohesion</a> in API design. To be clear, my team doesn't write the APIs but we collaborate with the people that do.
+</figcaption>
+</figure></p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide02.png" />
+<figcaption class="slide">
+
+<p>I am curious - how do people learn about API practices? Where do you go for new tips and techniques?</p>
+
+<ul>
+<li>How many people (willingly) subscribe to two or more email newsletters? I happen to write one called <a href="https://tinyletter.com/RESTAPINotes">REST API Notes</a>.</li>
+
+<li>How many people (willingly) follow industry people on Twitter? I'm Twitter's <a href="https://twitter.com/libel_vox">@libel_vox</a>.</li>
+
+<li>How many people use an RSS reader to keep up with blogs? Occasionally I post long form stuff on <a href="https://matthewreinbold.com">https://matthewreinbold.com</a>.</li>
+</ul>
+
+<p>I happen to be engaged on many fronts. As we go along, you'll see my contact info at the bottom of almost every slide. Please, if anything in this preso here raises questions or you have different insights let's talk about it. Let's have the kind of dialog that should be happening within your companies. Why do we need to help each other figure things out?</p>
+
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide03.png" />
+<figcaption class="slide">
+	
+<p><strong>Because change is constant</strong>. And, in other news, the sky is blue and water is wet, right? We all accept this as being obvious. And yet, when it comes to managing software complexity, API or otherwise, within our organizations, we create rules, processes, and punishments for those things that deviate from our understanding of the world <em>today</em>. We readily acknowlege change and yet build governance as if things won't.</p>
+
+<p>We can change the narrative. Governance doesn't have have to be restrictive. Instead, I'm here to paint a different picture, one where governance is an enabler of positive change.</p>
+
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide04.png" />
+<figcaption class="slide">
+We have to. The toolsets that developers would <em>like</em> to use to solve their problems in the most efficient manner are expanding at an incredible rate. This is just a snapshot of things that my team has had to evaluate in some capacity in the past year.
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide05.png" />
+<figcaption class="slide">
+<p>And pick your physical metaphor, be it a radar, or a cycle, but these new approaches are going to continue to come. </p>
+
+<p>That's why we're here and why APIs have been so incredibly successful. APIs are a strategy for dealing with change, whether they are web-based, RESTful, or otherwise. </p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide06.png" />
+<figcaption class="slide">
+	
+<p>Modularity of systems is a successful approach to dealing with change. Writing to the interface, rather than the implementation, means that when a better persistent data store comes along, or when a better framework presents itself, we can take advantage of that with a minimum amount of disruption to the rest of the company. </p>
+
+<p>That said, this isn't about technology. Or at least that is not why it is valuable. </p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide07.png" />
+<figcaption class="slide">
+<p>Swapping out a data store under the covers is just intellectual noodling unless it delivers a tangible business value. At Capital One, the modularity that our API program delivers has allowed us to create <strong>value</strong> on platforms that didn't even exist three years ago.</p>
+
+<p>Here we have three very different customer experiences: a mobile native application, a voice assistant, and a chatbot. When we started our API journey several years ago, did we know that we needed APIs to be a launch day partner for the Amazon Echo Show, or that we needed to translate an emoji to a financial transaction? No, of course not.</p>
+
+<p>However, being able to execute on an API Strategy has meant being able to deliver the kind of customer experiences that <a href="https://www.consumeraffairs.com/news/capital-one-discover-win-honors-for-best-mobile-financial-apps-061917.html">we won a JD Power award</a> for a few months ago.</p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide08.png" />
+<figcaption class="slide">
+	
+However, one can't just say that you're adapting an API strategy to accommodate change and everything will magically work. The culture has to be has to be wired for change. Any strategic initiative that isn't aligned with the culture will, eventually, fail. 
+
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide09.png" />
+<figcaption class="slide">
+	
+<p>What does culture change look like? Well, if you're Jeff Bezos, <a href="https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/">it looks like this</a>. The story goes that sometime around 2002, 2003, he sent out an internal memo to the Amazon staff dictating that all functionality should be exposed via standard interfaces. Anyone that <em>didn't</em> do that would be fired. That <strong>culture change</strong> to support a <strong>strategic API plan</strong> is what lead to the eventual success of not only Amazon, but of Amazon Web Services.</p>
+
+<p>Now, you all seem like very lovely people. Even though we've just met, I can tell. But, I'm willing to bet you don't have the kind of executive authority to make these kinds of decrees in your own organizations.</p>
+
+<p>And that's how we end up with governance, or, <em>all too often</em> <strong>bad</strong> governance.</p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide10.png" />
+
+<figcaption class="slide">
+<p>Culture is those things that are important to the organization. It defines the personality of the company and how that company response in times of stress. It is the shared belief in how things are done, and what things are important. It is how a company responds to change.</p>
+
+<p>Unfortunately, <strong>bad</strong> governance attempts to eliminate, or at least restrict, the amount of change that can occur at any given time. This is why companies have "approved tech stacks" that everybody must build to. Developers can only use certain frameworks. Or write in specific languages. Or use only one brand of laptop. Governance, in these situations, is not about the enablement of strategic delivery. Or about positive cultural change. Governance, here, becomes about risk management in the face of change. It says "somebody screwed up, let's make sure they don't screw up again". Governance becomes a list of allowances that made sense in the moment in which they were drafted, and not easily changed for future considerations.</p>
+
+<p><strong>When all you have is a hammer, every problem to be solved becomes a nail</strong>. If you have standards that allow for web APIs, then all problems must be solved by APIs. If you're infrastructure requires protobufs, then a solution that gRPC is optimized for is off the table. </p>
+
+<p>Governance, rather than enabling, restricts the solution space. The culture either complies to this governance (thus lacking the capacity to innovate) <strong>or</strong>, more commonly, <em>circumvents</em> it. That's shadow IT and, by its very unaccounted-for nature, re-introduces the kind of risk this governance was meant to address in the first place.</p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide11.png" />
+<figcaption class="slide">
+
+<p>At Capital One, we had an opportunity. This is a small snapshot of our API footprint but it hints the challenges we faced in 2016. We had created a culture that incentivized the creation of APIs. But, as the CoE watched, we became increasingly concerned about whether teams were creating the <em>right</em> APIs. Were these good APIs? Easy to use? Readily available to be combined into new products and services to deliver business value? Or had we created a culture which prized poorly written, unintuitive point-to-point integrations, because that added to the overall count? Had our culture optimized for the quantity of APIs, rather than the quality of APIs?</p> 
+
+<p>More importantly, if that proved to be the case, how would we change the culture? </p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide12.png" />
+<figcaption class="slide">
+
+<p>As the CoE began to wrestle with the problem, a common question that I heard several times was "Why aren't the teams following the rules?" Among many in our leadership, the assumption was that if we just crafted the "write good APIs" rule, then our problems would be solved. </p>
+
+<p>That wasn't going to happen. What we needed, instead, was a systematic approach that incentivized desired outcomes and dynamically, holistically reacted to changes in the landscape.</p>
+</figcaption>
+</figure> 
+</p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide13.png" />
+<figcaption class="slide">
+	
+<p>The first part was defining a healthy ecosystem. Applying policy on an API-by-API basis meant we risked <em>not seeing the forest for the trees</em>. Stepping back, we recognized that we were entrusted with a complex ecosystem. And like a complex ecosystem, there were some actions that would help it flourish. There were also things that, like invasive species, could jeopardize the health.</p>
+
+<p>Once we felt we adequately understood the terrain, the second part was determining how to guide teams from where we were to where we needed to be. There are many ways to cross a chasms. To do so successfully means acknowledging the existing culture. At Capital One, we have a very heavy preference on powerpoint decks, for better or for worse. Engaging with people means meeting people where they are, on their terms, to start a dialog.</p>
+
+<p>The third piece is ensuring that we're measuring our performance. I'm excited to meet my governance peers from other industries. I'll ask them how they quantify success and they'll all too often refer to their published API Style Guide. And I'll ask them how they know that it is positively working. Unfortunately, many don't have a good answer.</p> 
+
+<p>Without some measurement of performance, a governance effort won't be able to determine progress toward a target state, the effectiveness of initiatives, or illustrate the journey for executive leadership. That is not an effective way to run a program or ensure business value is being created. </p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide14.png" />
+<figcaption class="slide">
+
+<p>Let's dig deeper into each of these parts. Having a healthy, reactive ecosystem does not mean that there are no rules. Reverting to the wild west, where freewheeling console cowboys fire off whenever (and whatever) they want is no more a guarantee of delivering on business value than bureaucratic, dictatorial, and centrally planned systems. </p>
+
+<p>Certain things still needed to be defined and enforced. But it isn't <em>all</em> the things. This is the principle of "<strong>selective standardization</strong>".</p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide15.png" />
+<figcaption class="slide">
+
+<p>Picking sides is necessary because REST APIs follow an architectural style, not pattern. It's not a specification and that's a big reason you'll find all manner of religious flame wars over <em>this</em> approach verses <em>that</em>. However, for the sake of getting work done, there's a need to identify those things that are important for efficient operations and ensure that their adopted uniformly across an organization.</p>
+
+<p>Take API versioning. I have two approaches presented here, but there are more. In this case, we want to ensure that a developer with API experience in Plano can leverage their experience and utilize their learned patterns when they attempt to use an API created by teams in northern Virginia. In this case, it is less about being "right", but selectively standardizing those things that add value in being consistently implemented across the organization.</p>
+
+<p>And then, of course, you also want to ensure that standards are protecting the long term health from detrimental practices. Like the pictured cough syrup, there's a lot of approaches that, in the short term, <em>appear</em> to get the job done. Alcohol, cannabis, chloroform, and morphine probably solve the problem in the short term (I'm guessing). But do that on a regular basis and a body will have some serious, long-term ramifications.</p>
+</figcaption>
+</figure>
+</p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide16.png" /><figcaption class="slide">
+<p>I illustrate the fallacy of best practices by talking about a different interface that we're all familiar with, the electrical outlet. Which one of these is the "best" way of conducting electrical current? Hopefully, you'll agree with me that it is contextual; where you are has a lot to do with the interface you're likely to see.</p> 
+
+<p>But imagine the pain it would be if every outlet in a house had a slightly different outlet. How difficult would it be just to plug something in and get on with work if every interface was seemingly at random? How cumbersome would having to manage all those adapters be?</p>
+
+<p>I try to refrain from using the phase "best practice" when it comes to the undefined, or subtle, nuance around API design. To say something is "best practice" strongly implies that everything else is "worst practice". Reality is that it may just be different, but - for the sake of consistency - we haven't adopted it in our house. Instead, I refer to "common practice". The documentation of this "common practice", or selective standardization isn't a bad thing.</p>
+
+<p>However, this is where I see many organizations stop. They write an API style guide, publish it, and then wonder why the haphazard adoption by well-meaning volunteers seems to have created more problems than it solved.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide17.png" /><figcaption class="slide">
+<p>At minimum, the standards must be a journey, not a destination. A key component to "selective standardization" is knowing what to select. It is one thing for us in our ivory tower to throw darts at market forces and team needs. It is entirely another to repeatedly engage with those doing the work.</p>
+
+<p>Our coaching effort identifies those passionate practitioners throughout our lines of business who have raised their hands and said, "getting this right is important to my teams and me". Coaches not only receive additional training that they then apply to their teams. They also earn access to evolving our standards.</p>
+
+<p>In this way, standards aren't something that are dictated to teams. Teams drive the standards. These aren't alien requirements from another planet. They see their own needs and concerns reflected back at them. That is an incredibly powerful motivator toward acceptance and buy-in.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide18.png" /><figcaption class="slide">
+<p>After identifying some aspects of a healthy ecosystem we now need to help teams traverse it. Each team is at a different point in their journey, and different points of an API lifecycle require different interactions. </p>
+
+<p>At Capital One, we have a four-phase lifecycle for API development: <em>planning</em>, <em>design</em>, <em>development</em>, and <em>deployment</em>. An OpenAPI description is the artifact that progresses through the process. Not only is it used to capture the team's intent, but approved, machine-readable descriptions are what enable automatic publishing to a service discovery portal and provisioning to our API gateway.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide19.png" /><figcaption class="slide">
+A piece of our lifecycle tooling may look familiar. After a team has provided some metadata during their planning stage, they proceed to design their API in a modified version of the Swagger Editor. 	
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide20.png" /><figcaption class="slide">
+<p>When they click on the 'eyeball', in the upper right, teams get a preview of what their documentation will look like in the service discovery portal. We had different needs in how we wanted our content organized so we provided a different rendering to the default Swagger UI. </p>
+
+<p>It is during this preview that any violations to those "selective standards" are called out. These are presented to teams so that they can fix the errors <em>prior</em> to engaging my team in design discussions. This is incredibly powerful. Rather than spending time pointing out that teams can't submit a body as part of an HTTP GET request, for example, reviewers are freed up to address higher level concerns (more on that in a moment).</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide21.png" /><figcaption class="slide">
+<p>Those discussions are captured and maintained alongside the API description. The history of how the API design evolved to be the way that it is can be seen by clicking on the word balloon. Previously, conversation would get lost in email threads or chat channels. Not only was that incredibly hard for people to track down if they had questions later, but that history became a black box for new team members. Without the history, they had no insight into what were highly contested aspects that made the API what it was, and which pieces were fair game to be changed.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide22.png" /><figcaption class="slide">
+<p>The lifecycle tool uses an enterprise instance of Github as the system of record. So, in addition to saving the conversational discussion, we can also easily do diffs between versions of an approved API design.</p>
+
+<p>Having an API design artifact that moves through a lifecycle, with transparent and maintained history, enables collaboration. But what is the direction we're moving teams toward?</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide23.png" /><figcaption class="slide">
+<p>When I need to illustrate web API design maturity, I've started to use a pyramid. At the bottom are those APIs that provide some functionality over HTTP and little else.</p>
+
+<p>The next level are those APIs which don't just expose functionality, but are also reliable. An APIs that is down Thursday nights from 3-5am because of backend batch processing may be functional, but not as reliable as we'd like. Likewise, if an API can't (or won't) scale to meet demand, it also isn't reliable.</p>
+
+<p>Intuitive APIs are where we begin to see thought put into the developer experience (or DX). At this level we're thinking outside-in, rather from the data record-out. Key traits are behaving in a predictable manner, and exhibiting the selective standardization that we previously defined. </p>
+
+<p>Moving a tier above that are empowering APIs. Beyond just having a good developer experience, these APIs also contribute direct, or nearly direct business value. In the case of our Bank Account Starter and Credit Offer external APIs, we can trace significant new revenue and accounts booked through affiliate usage. These APIs have grown the funnel, or empowered, our existing lines of business in meaningful ways.</p>
+
+<p>At the top of the pyramid are transformative APIs. These are rare, but powerful. These are APIs that don't just expand existing lines of business, but open up brand new opportunities. We're currently working on some ideas but, as I said, these are some of the hardest APIs to create successfully. </p>
+
+<p>Should all APIs that we product be transformative? No. That's why the pyramid is shaped the way it is, with more reliable APIs than intuitive, more intuitive than empowering, etc. What is important is that, during collaboration, we look for opportunities to advance the work; if a team only has a functional API, can we make it reliable? If it is functional and reliable, can we also make it intuitive?</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide24.png" /><figcaption class="slide">
+<p>The last point I'll make about helping teams navigate this landscape is that simply posting an API style guide, or sending out a firmly worded email is a poor substitute for rolling up one's sleeves and engaging directly with developers. Whether it is San Francisco, in the top picture, northern Virginia on the left, or in Plano, TX on the right building trust is still something done best face to face; trust that the API CoE has the developer's best interests at our heart, and trust in our developers to do the right thing. Believing that API stands for "assume positive intent" is much easier when you've seen eye to eye with someone. </p> 
+
+<p>After we've left, it is the responsibility of the coaches to continue being the approachable, friendly face devs work with on their questions and concerns. They are what turn a one-off training into an ongoing, living discussion in their respective areas.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide25.png" /><figcaption class="slide">
+	<p>Enough of this Kumbaya crap. It may sound like a great story. But how do we know it's working?</p>
+
+	<p>Whether it is because it is hard or because it is an afterthought, meaningful metrics at the API program level are hard to find. And that is unfortunate. Business leaders have invested years, and sometimes tens of millions of dollars, towards service development. When asked if these technology initiatives have been successful, these same leaders have little to point to other than statements like: "I've deployed 47 APIs this year, and my peer on the west coast has 30 in production, so my API folks must be better". Hearing it out loud, hopefully that sounds as ridiculous as it is. But, in the absence of any other KPI, they go with what they have. </p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide26.png" /><figcaption class="slide">
+	<p>As this quote by Tom Peters implies, metrics don't exist in a sterile clean room. They actually drive behavior. Metrics can drive culture change in an organization but they must be carefully monitored for unintended first (and second) order effects. </p>
+
+	<p>I want emphasize that the following metrics I'm about to cover are meant to address specific concerns that existed as we surveyed our landscape. Your company will be different. Attempting to implement these without consideration of your specific situation is likely to lead to disappointing results. </p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide27.png" /><figcaption class="slide">
+<p>As we stepped back and attempted to answer what makes a good API, we saw three categories of numbers emerge: <em>conformance</em>, <em>performance</em>, and <em>transformative</em> metrics. </p>
+
+<p><strong>Conformance</strong> is the adherence of an API design to our standards. These are the rules and usage patterns that can be checked for, automatically, in our lifecycle tooling.</p>
+
+<p><strong>Performance</strong> is how responsive an API is when called. These are easily quantifiable metrics and often the first numbers that people think of when reaching for numbers.</p>
+
+<p>Together, however, conformance and performance are not enough. Just meeting performance expectations without deviation from the rules doesn't make a great API. It is like typing away at a word processor with an expected words-per-minute without creating a spelling or grammatical mistake; while you might not have any squiggly lines anywhere on the page, it doesn't mean that you've written a compelling story. </p>
+
+<p>That is where the <strong>transformative</strong> metric comes in. This component, which I'll talk about in a moment, allows us to capture the <em>subjective</em> nature of the APIs in a way that can be tracked and acted upon.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide28.png" /><figcaption class="slide">
+<p>In this first slide, the number of APIs submitted to review without any deviations from our standards are broken out by LOB. For much of 2016, many of our producing devs were submitting things to collaboration that only were free from policy deviations only 15-20% of the time. My team, subsequently, had to spend precious consultation time pointing out discrepancies rather than on moving to transformative experiences. Given our desire to move teams up the quality pyramid, this was a problem.</p>
+
+<p>In January of this year, we introduced self-service validation into the tool that could be done <em>prior</em> to submitting for review. With this capability, development teams are able to correct their mistakes on their own time, and the CoE can devote more of the review to higher order tasks.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide29.png" /><figcaption class="slide">
+<p>A vast majority of the APIs that Capital One produces are for internal use only. And while our external work has clearly defined service level agreements (SLAs), in a weird quirk, many of our internal APIs do not. This concerned my team for awhile but when we'd ask for someone to define them, we'd never hear back.</p>
+
+<p>So we took the opportunity to define our own in order to create a culture change. We defined a three-pronged SLA: 99.95% of the responses should not have a status code in the five-hundreds, the mean response time needed to be under 500 milliseconds, and 95% of the calls served needed to be less than two seconds. </p>
+
+<p>We spent time deriving these values but, ultimately, they were a guess on our part. <em>But their very existence</em> means teams now have to begin considering whether their APIs meet this behavior. And, for teams that <em>have</em> considered their performance and published their own SLAs, we happily apply those numbers to the performance that we can see. </p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide30.png" /><figcaption class="slide">
+<p>Another example where we're using metrics to drive cultural change is with what we call "stalled" APIs. These are API descriptions that development teams begin but, six months after the design has been approved, still haven't made it to production.</p>
+
+<p>While we had a story here or there guessing what might be happening, this metric allowed us to capture the effects of this behavior at a LOB level, as well as identify whether it is getting better or worse. </p>
+
+<p>Is this the result in shifting product strategy? Frequent team disbandment and reorganization? Before we could start addressing those problems, we first had to identify that we had one.</p> 	
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide31.png" /><figcaption class="slide">
+<p>NPS stands for <em>net promoter score</em>. It encapsulates a variety of the subjective nuances comprising an experience. It is very handy in capturing the "goodness" of an API design.</p>
+
+<p>There was a couple of ways we could have approached this scoring. However, executive leadership was already well versed in what NPS is. We've used it forever to gauge the customer experience on a variety of our services and products. </p>
+
+<p>It is not enough to just ask a person scoring an API "is this good?". One of the subtly clever aspects of NPS is that it reframes the question to put a reviewer's professional reputation at stake. Rather than asking "Do you like this API?", NPS asks "Would <strong>you</strong> recommend this API to <strong>your peers</strong>?". Everyone likes to think the are arbiters of style and distinction. As such, they take great pains to not recommend sub-par experiences.</p>
+
+<p>The lowest possible score for NPS is -100 and our sample scores show we can do better. However, those scores aren't surprising given that we've been producing little more than functional and reliable APIs for years. The lack of higher-order, <em>transformative</em> APIs shows up in these scores. But now that we're measuring, we can track whether ongoing initiatives are making it better or whether we need to do something else.</p> 
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide34.png" /><figcaption class="slide">
+<p>There are some additional metrics that I won't mention here. The point is that these are an ongoing conversation. When a metric outlives its usefulness, or we find it is incentivizing the wrong behavior, we change.</p> 
+
+<p>We take all of that data and boil it into the single visualization you see here. These radar plots allow leadership to, at a glance, see their organization's API quality relative to their peers. As quality along an axis increases, the shape grows outward, like a balloon.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide35.png" /><figcaption class="slide">
+<p>The CoE packages these insights together once a month and sends them to the accountable executive over each line of business. Usually this report includes not only observations, but tactical items that can be done to positively impact a metric or metrics. The executive directs coaches within their area to implement those changes, if they deem them necessary. Finally, the coaches then work with their development teams.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide36.png" /><figcaption class="slide">
+	<p>That is a brief overview of how we've attempted to create a governance program that is change enablement while incentivizing culture change. We define healthy ecosystems, help teams navigate that terrain, and then measure our effectiveness along the way.</p>
+
+	<p>A common comment that I hear, at this point, is that "This sounds great, but we don't have the budget for this". Or "we need a bigger team". I'd agree; if we assume that making a massive change can only happen with a massive amount of resources, then we're likely to end up on the unpleasant end of a political tug-of-war.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide37.png" /><figcaption class="slide">
+<p>In regards to doing more with less, and seeding the cultures to make that approach viable, I highly recommend the book, Blue Ocean Strategy The <em>majority</em> of the book is about identifying new business markets and, while interesting, that's probably not what most people in this room do. However, the last third talks about creating successful culture change in order to compete in those markets. It is amazingly relevant to discussions on software governance. </p>
+
+<p>One of the techniques it discusses is the relationship of <em>kingpens</em>, <em>fishbowls</em>, and <em>horse-trading</em>. Going back to our API quality report work, we don't keep those numbers to ourselves. From the beginning, the distribution was about getting the report to the people, the kingpens, with the authority (and the responsibility) to act on the findings.</p>
+
+<p>Next, the report acts as a fishbowl where each of the kingpens can see how the other is doing. In my experience, executives didn't get to where they are without being a tad competitive. Publishing results and easing comparative analysis creates a natural driver for action; each of the leaders wants to be number one among their peers.</p>
+
+<p>The final element is horse-trading. Over time, sometimes by sheer inertia, certain areas accrue an abundance of resources despite requiring different resources. And my CoE doesn't have all the time or energy to produce everything that we feel would be impactful. In these cases, we can approach a LOB that is doing great work in a specific area and offer to share their story as an example for the wider org. In return, we ask for help producing those insights we may not have been able to do otherwise. We have an audience. They have manpower. A careful audit of what one has and the judicious application of horse trading can result in the kind of effects one might only associate with a "bigger budget".</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide38.png" /><figcaption class="slide">
+<p>In conclusion, change is constant. If the role of governance is to arrive at the <strong>perfectly optimized system</strong> for <em>today</em>, we will find ourselves perpetually frustrated <em>tomorrow</em>. Day after day, year after year, that theoretical perfection will seem more and more distant.</p>
+
+<p>Instead, if we look to governance not as a destination, but a journey we are on, then change is just part of the landscape.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide39.png" /><figcaption class="slide">
+<p>I'll end on one final Tom Peters quote: "Excellent firms don't believe in excellence - only in constant improvement and constant change."</p>
+
+<p>Build a culture whose governance processes are optimized for change.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide40.png" /><figcaption class="slide">
+<p>Thank you for your attention. My name is Matthew Reinbold. I am the Lead for the Capital One API Center of Excellence and, if you'd like to continue this discussion my contact information is listed here.</p>
+</figcaption></figure></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a href="mailto:hello@matthewreinbold.com">hello@matthewreinbold.com</a></li>
+        </ul>
+        <!--
+        -->
+          <div id="quote" class="triangle-isosceles left" >
+
+          </div>
+        <div id="image" style="float:left;">
+          <img src="/images/headshot-2013c.png" alt="Matthew's avatar" class="bottomImage"/>
+        </div>
+        <!--
+        style="font-size:0.9em; background-color:#4a0000; color:#ffffff; border: 1px solid #753500; border-radius:0.5em; width:115px;float:right;padding:0.5em;"
+        -->
+
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://tinyletter.com/restapinotes"><span class="icon icon--twitter"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="226 288.5 160 215" enable-background="new 226 288.5 160 215" xml:space="preserve">
+<g id="Logo_2_">
+	<path id="White_Envelope_1_" fill="#FFFFFF" d="M368.6,333.9H243.4c-6.2,0-11.1,5.1-11.1,11.1v102c0,6.2,5.1,11,11.1,11h45
+		l42.5,32.6V458h37.7c6.2,0,11-5.1,11-11V345C379.7,338.8,374.6,333.9,368.6,333.9z"/>
+	<path id="Red_Heart_2_" fill="#EC1C24" d="M301.2,302.8l4.8,4.8l4.8-4.8c8.8-8.8,22.9-8.8,31.7,0c8.8,8.8,8.8,22.9,0,31.7L306,364
+		l-36.6-29.5c-8.8-8.8-8.8-22.9,0-31.7C278.2,294,292.4,294,301.2,302.8z"/>
+	<path id="Black_Outline_1_" d="M368.6,328.9h-15.9c1.1-3.1,2-6.5,2-10.2c0-7.6-2.8-14.4-8.2-19.8s-12.5-8.2-19.8-8.2
+		c-7.6,0-14.4,2.8-19.8,8.2l-0.9,0.9l-0.9-0.9c-5.4-5.4-12.5-8.2-19.8-8.2c-7.6,0-14.4,2.8-19.8,8.2c-8.2,8.2-10.2,20.1-6.2,30
+		h-15.9c-9.4,0-17,7.6-17,17v100.3c0,9.4,7.6,17,17,17h40.5l52.7,40v-40h32c9.4,0,17-7.6,17-17V345.9
+		C385.6,336.5,378,328.9,368.6,328.9z M273.4,306.8c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8l8.8,8.8l8.8-8.8
+		c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8s4.8,7.4,4.8,11.9c0,4.2-1.7,8.5-4.8,11.6L306,356.6l-32.6-26.4
+		C266.9,323.8,267.2,313.3,273.4,306.8z M243.4,340.2h24.4l38.5,31.2l38.5-31.2h24.1c3.1,0,5.7,2.5,5.7,5.7v17.3L306,415l-68.3-51.8
+		v-17.3C237.7,342.7,240.3,340.2,243.4,340.2z M374.3,377.3v39.4l-25.8-19.8L374.3,377.3z M263.5,397.1L237.7,417v-39.4L263.5,397.1
+		z M368.6,451.8H325v28.3l-37.4-28.3h-44.2c-3.1,0-5.7-2.6-5.7-5.7v-15l35.4-26.9l33.1,25.2l33.1-25.2l35.4,26.9v15
+		C374.3,449.3,371.7,451.8,368.6,451.8z"/>
+</g>
+</svg>
+</span><span class="username">REST API Notes</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/libel_vox"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">Twitter</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://instagram.com/huxleymoc"><span class="icon icon--instagram"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="post-instagram">
+		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M255,153c56.1,0,102,45.9,102,102c0,56.1-45.9,102-102,102c-56.1,0-102-45.9-102-102C153,198.9,198.9,153,255,153z M63.75,459
+			C56.1,459,51,453.9,51,446.25V229.5h53.55C102,237.15,102,247.35,102,255c0,84.15,68.85,153,153,153c84.15,0,153-68.85,153-153
+			c0-7.65,0-17.85-2.55-25.5H459v216.75c0,7.65-5.1,12.75-12.75,12.75H63.75z M459,114.75c0,7.65-5.1,12.75-12.75,12.75h-51
+			c-7.65,0-12.75-5.1-12.75-12.75v-51c0-7.65,5.1-12.75,12.75-12.75h51C453.9,51,459,56.1,459,63.75V114.75z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span><span class="username">Instagram</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://youtube.com/user/libelvox/videos"><span class="icon icon--youtube"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#e62117" d="M94.98,28.84c0,0-0.94-6.6-3.81-9.5c-3.64-3.81-7.72-3.83-9.59-4.05c-13.4-0.97-33.52-0.85-33.52-0.85s-20.12-0.12-33.52,0.85c-1.87,0.22-5.95,0.24-9.59,4.05c-2.87,2.9-3.81,9.5-3.81,9.5S0.18,36.58,0,44.33v7.26c0.18,7.75,1.14,15.49,1.14,15.49s0.93,6.6,3.81,9.5c3.64,3.81,8.43,3.69,10.56,4.09c7.53,0.72,31.7,0.89,32.54,0.9c0.01,0,20.14,0.03,33.54-0.94c1.87-0.22,5.95-0.24,9.59-4.05c2.87-2.9,3.81-9.5,3.81-9.5s0.96-7.75,1.02-15.49v-7.26C95.94,36.58,94.98,28.84,94.98,28.84z M38.28,61.41v-27l25.74,13.5L38.28,61.41z"/></svg></span> <span class="username">YouTube</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://libelvox.tumblr.com"><span class="icon icon--tumblr"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="post-tumblr">
+		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M357,229.5h-76.5c0,0,0,96.9,0,99.45c0,17.85,2.55,28.05,28.05,28.05c22.95,0,48.45,0,48.45,0v76.5c0,0-25.5,2.55-53.55,2.55
+			c-66.3,0-99.45-40.8-99.45-86.7c0-30.6,0-119.85,0-119.85h-51v-71.4c61.2-5.1,66.3-51,71.4-81.6h56.1V153H357V229.5z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span><span class="username">Tumblr</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://pinterest.com/libelvox"><span class="icon icon--pinterest"><?xml version="1.0" ?><svg height="1792" viewBox="0 0 1792 1792" width="1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103q-111 0-218-32 59-93 78-164 9-34 54-211 20 39 73 67.5t114 28.5q121 0 216-68.5t147-188.5 52-270q0-114-59.5-214t-172.5-163-255-63q-105 0-196 29t-154.5 77-109 110.5-67 129.5-21.5 134q0 104 40 183t117 111q30 12 38-20 2-7 8-31t8-30q6-23-11-43-51-61-51-151 0-151 104.5-259.5t273.5-108.5q151 0 235.5 82t84.5 213q0 170-68.5 289t-175.5 119q-61 0-98-43.5t-23-104.5q8-35 26.5-93.5t30-103 11.5-75.5q0-50-27-83t-77-33q-62 0-105 57t-43 142q0 73 25 122l-99 418q-17 70-13 177-206-91-333-281t-127-423q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/></svg></span> <span class="username">Pinterest</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://soundcloud.com/matthew-reinbold/tracks"><span class="icon icon--soundcloud"><svg xmlns="http://www.w3.org/2000/svg" width="2500" height="1387" viewBox="0 208.952 1048.713 581.696"><path d="M0 686.216c0 13.014 4.718 22.854 14.152 29.524 9.435 6.669 19.52 9.027 30.256 7.076 10.085-1.952 17.161-5.531 21.229-10.736 4.066-5.205 6.1-13.827 6.1-25.864v-141.52c0-10.086-3.497-18.626-10.492-25.62-6.994-6.995-15.534-10.492-25.62-10.492-9.76 0-18.137 3.497-25.132 10.492C3.498 526.07 0 534.61 0 544.696v141.52zm112.24 60.512c0 9.436 3.335 16.511 10.004 21.229 6.67 4.718 15.21 7.076 25.62 7.076 10.736 0 19.438-2.359 26.108-7.076 6.669-4.717 10.004-11.793 10.004-21.229V416.84c0-9.76-3.498-18.138-10.492-25.132-6.995-6.994-15.535-10.492-25.62-10.492-9.76 0-18.138 3.498-25.132 10.492-6.995 6.995-10.492 15.372-10.492 25.132v329.888zm111.752 15.616c0 9.435 3.416 16.511 10.248 21.229 6.832 4.717 15.616 7.076 26.353 7.076 10.41 0 18.95-2.359 25.619-7.076 6.67-4.718 10.005-11.794 10.005-21.229V461.248c0-10.085-3.498-18.707-10.492-25.864-6.995-7.157-15.372-10.735-25.132-10.735-10.086 0-18.707 3.578-25.864 10.735s-10.736 15.779-10.736 25.864v301.096zm112.24 1.464c0 17.894 12.037 26.841 36.112 26.841 24.074 0 36.111-8.947 36.111-26.841v-488c0-27.328-8.296-42.781-24.888-46.36-10.736-2.603-21.31.488-31.72 9.272-10.411 8.784-15.616 21.146-15.616 37.088v488zm114.193 14.152V247.016c0-16.917 5.042-27.002 15.128-30.256 21.797-5.205 43.432-7.808 64.904-7.808 49.775 0 96.136 11.712 139.079 35.136 42.944 23.424 77.674 55.388 104.188 95.892 26.515 40.505 41.887 85.156 46.116 133.957 19.845-8.459 40.991-12.688 63.439-12.688 45.547 0 84.506 16.104 116.876 48.312 32.371 32.209 48.557 70.923 48.557 116.145 0 45.547-16.186 84.424-48.557 116.632-32.37 32.208-71.166 48.312-116.388 48.312l-424.56-.488c-2.929-.976-5.125-2.766-6.589-5.368s-2.193-4.882-2.193-6.834z"/></svg></span> <span class="username">SoundCloud</span></a>
+
+          </li>
+                    
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
+</p>
+      </div>
+
+      <div style="clear:both;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(
+    function() {
+     $.getJSON( '/quotes.json', 
+      function(data) {
+        // generate a random number between 0 and length-1
+        var index = Math.floor(Math.random() * (data.quotes.length - 1) ); 
+        //alert(data.quotes[index].quote);
+        $('#quote').text('"' + data.quotes[index].quote + '" - ' + data.quotes[index].attribution )
+      }
+    );
+   }
+  );
+</script>
+
+  </body>
+
+</html>
