@@ -6,12 +6,12 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Oct 2017 09:11:09 -0400</pubDate>
-    <lastBuildDate>Mon, 09 Oct 2017 09:11:09 -0400</lastBuildDate>
+    <pubDate>Mon, 09 Oct 2017 09:16:20 -0400</pubDate>
+    <lastBuildDate>Mon, 09 Oct 2017 09:16:20 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>API Governance Blueprint for IT Culture Change</title>
+        <title>API Governance for IT Culture Change</title>
         <description>&lt;p&gt;Here is a copy of the presentation that I gave at API World 2017. I've had the fortune (or misfortune, as the case may be) to work on API platform governance programs for the past several years. This is a culmination of my lessons learned during this time.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide01.png&quot; /&gt;
