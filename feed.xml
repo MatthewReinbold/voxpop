@@ -6,9 +6,90 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Oct 2017 09:16:20 -0400</pubDate>
-    <lastBuildDate>Mon, 09 Oct 2017 09:16:20 -0400</lastBuildDate>
+    <pubDate>Thu, 26 Oct 2017 23:00:33 -0400</pubDate>
+    <lastBuildDate>Thu, 26 Oct 2017 23:00:33 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Making IT Culture Change Work</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/apiworld.png&quot; /&gt;
+&lt;figcaption&gt;
+The main stage at the 2017 API World Conference.
+&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I &lt;a href=&quot;/2017/10/03/API-Governance-Blueprint/&quot;&gt;recently posted the talk I presented at API World 2017&lt;/a&gt;. I estimate that there were maybe sixty or seventy people in the audience and a fair number stuck around afterward to ask questions and share their experiences.&lt;/p&gt;
+
+&lt;p&gt;I’ve gone ahead and grouped the most commonly asked questions together here for other’s benefit. Also, if API Governance is your sort of thing, check out &lt;a href=&quot;https://apievangelist.com/2017/10/09/api-governance-in-the-capital-one-devexchange/&quot;&gt;the nice write up that Kin Lane, the API Evangelist, did on the process and approach that we’re trying at Capital One&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“While talking with Matt about their approach at Capital One, he asked if it was comparable to what else I’ve seen out there. I had to be honest. I’ve never come across someone who had established API design, deployment, and management practices. Were actively educating and training their staff. Then actually measuring the impact and performance of APIs, and the teams behind them. I know there are companies who are doing this, but since I tend to talk to more companies who are just getting started on their API journey, I’m not seeing anyone organization who is this advanced. Most companies I know do not even have an API design guide, let alone measuring the success of their API governance program. It is something I know a handful of companies would like to strive towards, but at the moment API governance is more talk than it is ever a reality.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We try - but I know we don’t have all the answers. If you’re working through these issues in your own org, please reach out; I’d love to compare notes. Studies show &lt;a href=&quot;https://hbr.org/2000/05/cracking-the-code-of-change&quot;&gt;&lt;strong&gt;70% of IT culture change efforts (DevOps, Cloud, Microservices, etc.) end in failure&lt;/strong&gt;&lt;/a&gt;. That’s a pretty depressing statistic. &lt;em&gt;Let’s work together to make things better.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now onto the questions.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-share-this-if-it-is-beneficial-isnt-it-in-your-companys-best-interest-in-keeping-it-all-bottled-up-for-yourselves&quot;&gt;Why share this? If it is beneficial, isn’t it in your company’s best interest in keeping it all bottled up for yourselves?&lt;/h2&gt;
+
+&lt;p&gt;No, for the same reason Netflix doesn’t worry that sharing its expertise on microservice design in infrastructure management will lead to a rival streaming service. As Adrian Cockcroft, former grand poobah for Netflix architecture, &lt;a href=&quot;https://twitter.com/adrianco/status/648541527078100993&quot;&gt;once said&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“People copy the process they see but that is an artifact of a system that is evolving fast.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That, subsequently, has been colloquialized as “People try and copy Netflix, but they can only copy what they see, which is copying the results, not the process”.&lt;/p&gt;
+
+&lt;p&gt;To explain it with a sports metaphor, the New England Patriots have been one of the most consistently dominant franchises for the past &lt;em&gt;fifteen years&lt;/em&gt;. If you gave any other team their playbook, is the same success guaranteed? Given the number of times assistants have left for other teams, &lt;a href=&quot;https://www.bostonglobe.com/sports/patriots/2017/09/20/bill-belichick-coaching-tree-remains-fruitless/e0QPZ8QouFIRLkoMmTdH8O/story.html&quot;&gt;the answer is no&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As, I hope, my presentation points out, employees’ sophistication, available infrastructure, company culture, and desired outcomes all play a part in defining the right path forward. What I showed is a guide, not a destination. Attempting to apply, whole cloth, without consideration for any of these factors is likely to result in an ill fit.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-tool-that-you-showed-for-lifecycle-management---is-it-open-source&quot;&gt;The tool that you showed for lifecycle management - is it open source?&lt;/h2&gt;
+
+&lt;p&gt;No, unfortunately not at the time of this writing. For teams looking to try using OpenAPI documents as artifacts that proceed through a governance process, I would recommend giving &lt;a href=&quot;https://swaggerhub.com&quot;&gt;Swaggerhub&lt;/a&gt; a look. Or possibly &lt;a href=&quot;http://stoplight.io&quot;&gt;Stoplight.io&lt;/a&gt;. Neither appears to support configuration of editorial and approval workflows. However, many of the other features (issue tracking, source control, style validation) are present.&lt;/p&gt;
+
+&lt;p&gt;I may be missing some alternatives. So many of the search results for “API lifecycle management” are about client credential issuance and request throttling. Or, if the tool does address design time considerations, the goal is for a single user, or team, to generate a mocks.&lt;/p&gt;
+
+&lt;p&gt;When ‘reality checking’ our lifecycle approach, I repeatedly referenced commercial web publishing workflows. In that space, an item from any number of creators (usually an article, but sometimes a video essay or listicle) proceeds through a series of checks. Along the way, revisions occur which may send the item back for re-evaluation. That model resonated strongly with our need to involve numerous stakeholder groups (product, security, risk, architecture, etc.) on a design.&lt;/p&gt;
+
+&lt;h2 id=&quot;much-of-your-talk-particularly-the-part-about-metrics-was-about-communication-to-executives-but-what-if-im-just-a-developer-what-if-my-software-governance-is-brokenhorriblepainfulno-good-how-do-i-change-that&quot;&gt;Much of your talk, particularly the part about metrics, was about communication to executives. But what if I’m just a developer? What if my software governance is broken/horrible/painful/no-good? How do I change that?&lt;/h2&gt;
+
+&lt;p&gt;Being on the receiving end of a bad (or badly executed) process can be demoralizing. The first step is to understand why; often the effects may be well known (we have to wait a full two weeks after making a request before we get production credentials on our VPC!) without the reason (round tripping to get finance’s approval for licensing requires sign off from, eventually, an accountable executive at the VP level, or whatever). In my experience, even the most egregious pain points in most companies started with the best of intentions (let’s make sure our costs don’t spiral out of control because of a unchecked, erroneous deployment script).&lt;/p&gt;
+
+&lt;p&gt;Next, identify those with the power to change the situation. Referring to techniques in &lt;a href=&quot;https://en.wikipedia.org/wiki/Blue_Ocean_Strategy&quot;&gt;Blue Ocean Strategy&lt;/a&gt;, it is not enough to articulate the problem (“It takes two weeks to get into production!”). Those with the power to change may, cognitively, understand why a change would be desirable. But they won’t be &lt;em&gt;motivated&lt;/em&gt; to change unless they have felt the pain themselves.&lt;/p&gt;
+
+&lt;p&gt;“Feeling the pain” is much easier when explaining questionable technical decisions to technical stakeholders. It is more challenging, though not impossible, if those with the power to change the situation are non-technical. When this challenge was posed to my peers, &lt;a href=&quot;https://medium.com/@harmophone&quot;&gt;Tyler Singletary,  SVP of Product at Tagboard&lt;/a&gt; stated the importance of quantifying what the &lt;em&gt;material effect&lt;/em&gt; was, either in cost or lost revenue.&lt;/p&gt;
+
+&lt;p&gt;Does the pain inherent in the process:
+* Cause a significant time increase (and cost-overrun) of implementation?
+* Hinder getting an integration with [target company X that has benefit Y that the company wants]?
+* Lose Sales?
+* Impede progress on Strategic Goal X?
+* Cost more to support?&lt;/p&gt;
+
+&lt;p&gt;Quantifying the pain makes it go from a geeky abstraction to a business reality. The similarly named (but totally different) &lt;a href=&quot;https://www.linkedin.com/in/taylorsingletary/&quot;&gt;Taylor Singletary, who does Slack Developer Relations&lt;/a&gt;, had this insight to share:
+&amp;gt; “I think if I wanted a &lt;em&gt;technical&lt;/em&gt; executive to feel the pain, ask them to document something you know has barby edges. To make the &lt;em&gt;non-technical executive&lt;/em&gt; feel some version of that pain, ask them to read that same document out loud.”&lt;/p&gt;
+
+&lt;h2 id=&quot;i-am-someone-now-in-charge-of-a-governance-program-what-do-i-do-to-get-started&quot;&gt;I am someone now in charge of a governance program. What do I do to get started?&lt;/h2&gt;
+
+&lt;p&gt;First, congratulations! Second, condolences!&lt;/p&gt;
+
+&lt;p&gt;IT governance is a challenging intersection of technical understanding, people management, business strategy, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Servant_leadership&quot;&gt;servant leadership&lt;/a&gt;. The first step is to recognize which one of those was the strength that resulted in your appointment to the position. In my experience, many that have been put in charge of their company’s API quality were picked because of their technical acumen; they have accrued a history of APIs that delivered meaningful business value and they’ve now been given authority to “fix” other APIs in the company. Having that, you’ll be in a better position to know what you’ll need to supplement, either with personal study or extra resources.&lt;/p&gt;
+
+&lt;p&gt;Next, &lt;em&gt;define the desired outcomes&lt;/em&gt;. It is tempting to immediately begin defining rules to counter any tiny annoyance that might be at the top of mind. However, jumping to define rules is rushing to employ &lt;em&gt;tactics&lt;/em&gt; when what you need is to define is a &lt;em&gt;strategy&lt;/em&gt;. If the business objective is to grow paying clients to your API product by 2x over the next year, &lt;em&gt;does it matter that a contractor insists his compound word enumerated values are represented with underscores, rather than camelcase&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;The purpose of a governance program is to &lt;em&gt;deliver business value&lt;/em&gt;, whether that is avoiding risk, creating efficiency, and/or maximizing return on investment. Make sure to have the long (and sometimes uncomfortable) conversations about expectations in order to define the desired outcomes. Then, work backwards to select the tactics necessary to support it.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Oct 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/10/26/API-Blueprint-Followup/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/26/API-Blueprint-Followup/</guid>
+        
+        <category>REST</category>
+        
+        <category>API</category>
+        
+        
+      </item>
     
       <item>
         <title>API Governance for IT Culture Change</title>
@@ -663,37 +744,6 @@ A piece of our lifecycle tooling may look familiar. After a team has provided so
         <category>Jeremy</category>
         
         <category>Hsu,Facebook,Amazon,YouTube,Google,Netflix,Tumblr,Yahoo,AOL,AT&amp;T,Comcast,NBC,Verizon</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>API Versioning, DevEx, and Microservice Design Canvas &amp;#x2709;</title>
-        <description>&lt;p&gt;There's an eclectic, yet powerful mix of stories this time in the REST API notes. First, I cover the API versioning strategy employed by Goolge, get into API developer experience requirements, and then end with Matt McLarty's newly published *microservice design canvas*. &lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-07-05&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-07-05&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 05 Jul 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/07/05/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/07/05/RESTAPINotes/</guid>
-        
-        <category>REST</category>
-        
-        <category>API</category>
-        
-        <category>Notes,microservices,Dan</category>
-        
-        <category>Ciruli,Google,Matt</category>
-        
-        <category>McLarty,IBM,Lorna</category>
-        
-        <category>Mitchell,Amanda</category>
-        
-        <category>Folson</category>
         
         
       </item>
