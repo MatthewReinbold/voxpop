@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Three Ways Conways Law Affects API Governance</title>
+  <meta name="description" content="When I presented ‘3 Ways Conway’s Law Affects API Governance’ at the 2016 API Strategy Conference, I had no idea that it would become my most requested talk....">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2017/12/07/ConwayAndAPIDesign/">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold, formerly of Vox Pop" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Matthew Reinbold, formerly of Vox Pop</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+  <div class="wrapper">
+    <h2><em>Development, Software or Otherwise</em></h2>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Three Ways Conways Law Affects API Governance</h1>
+    <h2 class="post-subtitle">Presented at API Strat 2016</h2>
+    <p class="post-meta"><time datetime="2017-12-07T00:00:00-05:00" itemprop="datePublished">Dec 7, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>When I presented ‘3 Ways Conway’s Law Affects API Governance’ at the 2016 API Strategy Conference, I had no idea that it would become my most requested talk. Even now, a year later, I still get the occasional email asking if the talk has been posted anywhere. What had started as a handful of observations in how organizational structure was showing up in API designs had struck a cord with those in other areas.</p>
+
+<p>So why haven’t I shared the deck before now? No good reason; there just always seemed to be some other more pressing need (or want). However, people persisted and made me realize that the content wasn’t just a blip in the conference milieu; rather, it was something that needed to be shared.</p>
+
+<p>So, without further ado, here’s “3 Ways Conway’s Law Affects API Governance”.</p>
+
+<p><figure><img src="/images/2017/12/Slide1.PNG" />
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide2.PNG" />
+<figcaption class="slide">
+<p>
+Before I start my slides, I'd like to start with someone else's presentation. Recently, Elon Musk presented his plan for how to make humans an <em>interplanetary species</em>. <a href="https://www.youtube.com/watch?v=H7Uyfqi_TE8" target="_blank">It is available online</a> and has a number of interesting ideas. What intrigued me most, however, was how Musk illustrated why going to Mars remains prohibitively expensive. 
+</p>
+<p>Musk argued that “full reusability” was vital to reducing the cost, thus making a trip to Mars viable. 
+</p>
+<p>
+How many of you flew on a plane to get to this conference? 
+</p>
+<p>
+Elon’s argument that if we built a 737 for one time use, a seat from LA to Las Vegas would cost $500,000. Of course, a plane is reused, lowering the price which makes air travel much more accessible for everyone. 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide3.PNG" />
+<figcaption class="slide">
+<p>
+Why is that? 
+</p>
+<p>
+Because the plane is used, day after day, year after year. The cost, prohibitively expensive when used once, is distributed over the life of the vehicle. Reusability is why a ticket from LA to Los Vegas can cost as little as $43 dollars. Reusability is a key cornerstone in Musk's plan to reduce costs to the point that going to Mars becomes viable. And reusability is a compelling feature for internal APIs.
+</p>
+<p>
+Building a plane for one use is crazy. <strong>And yet</strong> enterprise organizations are filled with point-to-point software, one time use API interfaces that the organization pays for. Then they do that again, again, and again. 
+</p>
+<p>
+Instead of creating consistent service architecture and demonstrating service re-use, teams inadvertently produce Just a Bunch of REST Services (JBORS): a spaghetti web of One-to-One connections between providers and consumers. As a result, an enterprise may find the REST effort <strong>doesn’t</strong> improve technical or business agility, but, instead, end ups in only swapping out IT toolsets, message formats, and protocols.
+</p>
+<p>
+<strong>The job of API governance is to identify and mitigate these problems.</strong> 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide4.PNG" />
+<figcaption class="slide">
+<p>Web APIs promise better business agility while, simultaneously, achieving better ROI on developer time. This is why I've seen an increasing number of APIs created within our organization. With sufficient volume, patterns begin to emerge. 
+</p>
+<p>
+Capital One, broadly speaking, has five lines of business. In the card business alone we have hundreds of sprint teams developing and deploying APIs.
+</p>
+<p>
+Our teams are API-First. They describe their API intent in an Swagger/OpenAPI description. They then submit this for collaboration. The graph shown here are API submissions for review to my area, the API Center of Excellence, grouped by week. In the first year there were over 2600 submissions for more than 650 unique APIs. 
+</p>
+<p>
+Sure, there’s a fair amount of poor resource design or misapplication of a status code in those designs. For those API design problems, the fix is straightforward. However, when you look at this many APIs, deeper, more challenging design issues begin to emerge. 
+</p>
+<p>
+At enterprise scale, reusability can be blocked by something deeper, something more institutional, than what can be handled simply by "lexicon police". 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide5.PNG" />
+<figcaption class="slide">
+<p>
+Harvard Business Review may not be where you'd expect to seek out your software architecture insight. However, they published <a href="http://www.hbs.edu/faculty/Publication%20Files/08-039_1861e507-1dc1-4602-85b8-90d71559d85b.pdf" target="_blank">a fantastic study attempting to measure the duality between product and organization architectures</a>. The conclusion was:
+</p>
+<p>
+<blockquote> "[software] products tend to 'mirror' the architectures of the organizations in which they are developed. This dynamic occurs because the organization’s governance structures, problem solving routines and communication patterns constrain the space in which it searches for new solutions"
+</blockquote>
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide6.PNG" />
+<figcaption class="slide">
+<p>
+Of course, anyone that has seen a microservices presentation will have heard of this phenomenon by a different name: <em>Conway's Law</em>. 
+</p>
+<p>
+Informally, <a href="http://www.design.caltech.edu/erik/Misc/Conway.html" target="_blank">Conway's law</a> has come to be known as:
+</p>
+<p>
+<blockquote>"Any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure."</blockquote>
+</p>
+<p>
+This isn't new, revelatory linkbait dominating social media at the moment. Conway made these observations about software development <em>in 1968</em>. The reason we're still talking about it today is because it continues to illustrate a fundamental piece of human behavior. 
+</p>
+<p>
+As Conway, more formally, stated:
+</p>
+<p>
+<blockquote> "Consider a large system S that the government wants to build. The government hires company X to build system S. Say company X has three engineering groups, E1, E2, and E3 that participate in the project. Conway's law suggests that it is likely that the resultant system will consist of 3 major subsystems (S1, S2, S3), each built by one of the engineering groups. More importantly, the resultant interfaces between the subsystems (S1-S2, S1-S3, etc) will reflect the quality and nature of the real-world interpersonal communications between the respective engineering groups (E1-E2, E1-E3, etc)."
+</blockquote>
+</p>
+<p>
+Let's discuss how this behavior affects API design.
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide7.PNG" />
+<figcaption class="slide">
+<p>
+Fred Brooks, in his seminal work, <em>The Mythical Man Month</em> observed that the more people that were added to the project, the more likely that software project would take <em>longer</em>. Just adding people to a project doesn't make it go faster. In fact, the increase in the amount of communication overhead is more likely to slow a project even after the initial 'drinking from the fire hose' phase has past. Simply put, the more people, the more communication that needs to occur. 
+</p>
+<p>
+That also applies to design. The more people contributing to a design, the more diverse the number of approaches, experiences, and desired outcomes a group is likely to have. The lack of cohesion result in an API design that is difficult to use. 
+</p>
+<p>
+<a href="https://dzone.com/articles/conways-law-v-software" target="_blank">From Conway’s Paper</a>: 
+</p>
+<p>
+<blockquote>
+"Ways must be found to reward design managers for keeping their organizations lean and flexible. There is need for a philosophy of system design management which is not based on the assumption that adding manpower simply adds to productivity."
+</blockquote>
+</p>
+<p>
+Businesses need to incentivize correct bounded context creations first, then apply manpower; not the other way around.  
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide8.PNG" />
+<figcaption class="slide">
+<p>
+But what does the really mean? How does a company's communication patterns inadvertently affect API production? An advantage of adopting the microservice architecture is that small capsules of functionality are independently deployable. Work can be partitioned out to separate teams.  
+</p>
+<p>
+When beginning an API interface design, the correct identification of logical bounded contexts is essential. When done incorrectly, the resource association, or lack thereof, are a signal of the communication patterns of the organization behind the scenes. 
+</p>
+<p>
+Let's start with a simple example. Suppose we need to create an API that does something with a company's users. We identify that we'll need two resources - the collection ("/users") and the instances within that collection ("/users/{userId}"). Given that we want this done ASAP, a natural mistake might be to divide the labor across two different development teams; Team A will be responsible for the endpoints against "/users", and Team B will create the design for the userId instance. Adding two development teams means that we'll have the work delivered in half the time, right? Isn't this 'division of labor' in action?
+</p>
+<p>
+Any time you have a collections and instance resource, they strongly imply that they should be in a single API. However, I see these separated into different work units all the time. The teams are assigned to produce code by resource. Subsequently, when a you, a potential consumer of these APIs, goes to the portal site for discovery, you find multiple APIs related to a single concept - "user stuff". Moreover, if the key provisioning requires separate keys in order to access each item, you've just doubled the problem on the part of the user.
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide9.PNG" />
+<figcaption class="slide">
+<p>
+Let's suppose that the teams <em>did</em> deliver their contributions in the expected amount of time. Chances are, if you have two teams, you're going to get two different approaches. Take the user object on the left; this is a simple set of fields to POST to the "/users" resource to create a new instance. We have things like "name", "street", "city", etc. Simple and straightforward; no room for misunderstanding, right?
+</p>
+<p>
+Actually, even with this simple example, there's plenty of places for discrepancies to appear. Look at the output by Team B on the left. They've taken the single "name" field and, instead, decided to represent it as two fields, "firstname" and "lastname". Rather than having a number of address elements as siblings of the other user fields, they've created an array structure. They start with "home", but the structure leaves room for alternative values, like "office" and "shipping". Even the "zip" has been modified to be "postal-code", assuming that they intend to support both US <em>and</em> Canadian customers. 
+</p>
+<p>
+This is a fairly trivial example. After quickly scanning the two objects, a consumer would be able to map values from one item to the other. However, imagine the kinds of internal jargon, abbreviations, and assumptions that may exist within one group that may not be obvious to another. By separating the design across multiple teams, the API consumer is forced to bridge these discrepancies, increasing their pain and sapping their productiveness. 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide10.PNG" />
+<figcaption class="slide">
+<p>	
+The solution for this is to define the bounded context first. Let it determine the units of work, and then assign a single team to own that. Don't start with the number of teams available and let that drive the division of labor. Otherwise, there are guaranteed to be inconsistencies in the API nuances that are invisible to teams, but friction to integrators.
+</p>
+<p>
+Having a single team working on a common concept means that objects used in both the creation and retrieval are guaranteed to look the same, because the team has clear communication among itself (or <em>should</em>). Further, when consumers go looking, what they find maps to their expected model, rather than APIs designs via division-of-labor convenience.
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide11.PNG" />
+<figcaption class="slide">
+<p>
+The second observation is a bit of a mouthful. However, how many have dealt with "not invented here" thinking? If so, you've seen this effect in action.
+</p>
+<p>
+If you're within the same line of business, or even same geographical location your development teams will be much more inclined to reach out, build a bridge, and ask a question. The faces are familiar. Those folks are "one of us". 
+</p>
+<p>
+Different line of business? Hell, different floor in the same building? The attitude is much more likely to default to "those people speak a different language - it would be easier to just do it ourselves". 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide12.PNG" />
+<figcaption class="slide">
+<p>
+Let's return to our 'users' resource example, only now the model has been included to include an instance of a user's <em>preferences</em>. <strong>Team A</strong> is put in charge of the code for this feature, including the API to retrieve and update these properties. These are common things that you would find on most accounts: <em>language preference</em>, <em>avatar image</em>, and so on. That works well and is used to populate a 'settings' UI in an app or on the web. Everyone is happy when the 1.0 ships. 
+</p>
+<p>
+A little while later, Team B is working on a new feature that allows users to customize the sort orders for their search pages. They've got the ordering down to a science, but it is now time to save the user's preference somewhere. Conceptually, it <em>should</em> be part of the 'preferences' resource. However, nobody on <strong>Team B</strong> knows anyone from <strong>Team A</strong>. In fact, <strong>Team A</strong> is in a different location. <strong>Team B</strong> <em>could</em> pick up the phone, make the introductions, relate the use case for the zillionth time, and argue with <strong>Team A</strong> over their existing backlog prioritization.
+</p>
+<p>
+Or <strong>Team B</strong> could create a new one-off resource: "/users/{userId}/preferences/sort", and avoid all that. After all, <strong>Team B</strong> knows how to create APIs - they don't need help there. And "preferences" already kinda implies a collection, of which "sort" or "sortOrder" would be one. So what's the problem? 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide13.PNG" />
+<figcaption class="slide">
+<p>
+The problem is that the lack of communication on the part of the teams will manifest as additional "chattiness" on the part of the consumers. Yes, adding "just one more" resource doesn't seem, in the moment, like that bad of thing. However, it is a slippery slope, as illustrated in this mockup on the left. 
+</p>
+<p>
+In this sample we see things like "out-of-office", manager, time zone, etc. If the previous strategy employed by <strong>Team B</strong> is allowed to proliferate, one could see how the resources would also explode into a host of one-off, fine-grained items. Imagine a consumer, like a mobile device, not only having to call each of these to populate a display, but track their dependencies on each of these. 
+</p>
+<p>
+Yuck.
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide14.PNG" />
+<figcaption class="slide">
+<p>
+The solution to this second item is identifying, and enforcing, that teams own a <strong>context</strong>, not a <strong>codebase</strong>. In our example, <strong>Team A</strong> <em>owns</em> the user preferences context (if not the user context itself). Any additions, updates, or removals from that context should be performed by the owning team. 
+</p>
+<p>
+If not, the conceptual debt incurred in order to convenience the API producers will be, subsequently, paid on every integration.
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide15.PNG" />
+<figcaption class="slide">
+<p>
+The 3rd Conway's Law Effect is that one's internal organization may not align to external perceptions. This can be extremely problematic when attempting to convert internal APIs to external products - things simply don’t map. Conversations are impeded and business value can't be derived, because the APIs on offer are from the perspective of internal hierarchy, rather than externally presumed functionality.
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide16.PNG" />
+<figcaption class="slide">
+<p>
+Suppose we are responsible for the APIs in a global consumer goods business called "Veridian Dynamics". There's the shampoo division and, somewhere upstate, the razors folks. Across the country lies the newly acquired "Big Pumpkin" division, responsible for the glut of seasonal products that one sees each fall- things like pumpkin spice candy, toothpaste, toilet paper, etc. They are the <em>weaponized pumpkin division</em>. 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide17.PNG" />
+<figcaption class="slide">
+<p>
+Let's look at our first attempt to articulate what our conglomerate does. This first mapping results in a resource design organized around the various divisions. We create three high level path concepts to begin grouping those things that are similar. Under an "api.veridian.com" domain, we put an identifier for "/shampoo", "/razor", and "/pumpkin". 
+</p>
+<p>
+Each line of business has its own set of needs, which they exposed as APIs in the appropriate area. These take the form of collection and instance resources under the appropriate areas. Shampoo has its formulas. Razors have their own innovative product strategies. So, too, does the weaponized pumpkin division. 
+</p>
+<p>
+While it might make the utmost sense in the moment, this first API resource attempt that Veridian made is problematic. Development teams have been organized around specific product divisions, and the resource produced reflect those organizational structures. 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide18.PNG" />
+<figcaption class="slide">
+<p>
+That may not be a problem if the codification of internal structure only remains available internally. But let's introduce another fictional conglomerate, <em>Buy 'n Large</em>, or BnL. They are a national big-box store and they are looking to carry Veridian Dynamics' products in their hundreds of stores. In order to do so, they want to integrate their purchasing and fulfillment systems with Veridian Dynamics' inventory levels. 
+</p>
+<p>
+Veridian Dynamics is ecstatic; they have APIs! The integration will be easy! The executives head off to the golf course while the developers send over the documentation for how to get their inventory levels. It takes awhile, as it has to be collected from each of the units and compiled into documentation for BnL.
+</p>
+<p>
+Shortly after that, BnL begins to grumble. They want inventories, they should be able to just call for Veridian Dynamics inventories. However, because Veridian has organized its resources by organization division, BnL has to make multiple calls. 
+</p>
+<p>
+Further, because each division was allowed to define its own approach, none of the calls behave the same. If one wants to retrieve inventories from the shampoo division, one would call the shampoo inventory collection. That seems straightforward until BnL's engineers try to do the same thing for razors and find (surprise!) that they need a product identifier before being able to get the stock; they're now in the business of keeping lists of razor productIds, or polling other APIs to make sure they have the latest information. And the pumpkin division? The division across the country that was recently acquired? That API is more than a little different: a caller not only needs to know the 'stock keeping unit' (or sku) but have an understanding of that division's regional warehousing. What should have been a simple task for an external entity becomes a prolonged and ongoing conversation about Veridian's internal organization.
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide19.PNG" />
+<figcaption class="slide">
+<p>
+And that is only the immediate problem. With an API resource design aligned to the organization, what happens when new initiatives <strong>cross</strong> those boundaries? For example, what if the shampoo and pumpkin divisions join forces to create pumpkin-spiced shampoo? Under the previous model, does that go under the 'pumpkin' or 'shampoo' top-level paths? How are external entities going to know where to find the self-lubricating razor product that comes out of a shampoo and razor team-up? Where do we send the congressional inquiry when Veridian announces its razor pumpkin home defense product? 
+</p>
+<p>
+Ultimately, if there is an external perception of a central concept, then the APIs - at least the external facing ones - should express that concept. In our BnL example, if they perceive Veridian's products as a single entity, then the resource design should reflect that. If being able to call for the inventories of individual products is important, we could create an API endpoint of a GET to '/products/{productId}/inventories'. If BnL still wanted all inventories, we could maintain path hierarchy by pass a wildcard, in this case the tilde ('~'), for the productId. There are several options. The point is, there API design would be aligned to the external expectation of the business function, not the internal organizational chart. 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/farley.gif" />
+<figcaption class="slide">
+<p style="text-align:center;"><em>#TFW Devs Realize These Problems Can't be Fixed with Tools, but by Changing People</em></p>
+<p>
+If we continue to treat API design is something that is just for developers, then developers will attempt to fix the problems with the developer tools on hand. But, as Conway’s Law implies, no amount of automation or framework selection will solve this problem.
+</p>
+<p>
+I've demonstrated three ways in which API Design is effected by the communication patterns in a company. But how do you change those patterns? 
+</p>
+<p>Ultimately, changing the communication patterns means changing the culture. That may sound daunting. But there are common sense, incremental ways of getting started.</p> 
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide21.PNG" />
+<figcaption class="slide">
+<p>The first step is recognizing that there may be a problem. Viewing API design through the lens of Conway's law allows us to find spots where an API's design may be suboptimal due to organizational factors. But once we've identified that there is a problem, what do we do about it? 
+</p>
+<p>
+Blue Ocean Strategy was written by W. Chan Kim and Renee Mauborgne in 2005. In it the authors articulated the challenges and possible approaches for creating meaningful organizational change. Much of the latter portion of the book includes impactful guidance for making culture change possible. 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide22.PNG" />
+<figcaption class="slide">
+<p>The book identifies for challenges to cultural change. The first is <strong>cognitive</strong> challenges. Going back to our Veridian and BnL example, the engineers that designed the first set of resources may not realize how difficult those APIs are for an external entity. 
+</p>
+<p>
+The second challenge is <strong>motivation</strong>. Once the inconsistencies is brought to the Veridian engineers' attention, they may <em>understand</em> why their initial design is suboptimal, but have very little financial or intellectual motivation for making a change. There may be a lack of urgency:
+</p>
+<p>
+<blockquote>
+"It's a pain, sure. But that is job security for their guys, am I right?"
+</blockquote>
+</p>
+<p>
+The incentives here may be intrinsic (why aren't we the API Twilio or SendGrid of retail giants?) or extrinsic (we have quantified the amount of lost sales the integration headaches are costing our business). Either way <em>understanding</em> there is a problem and wanting to <em>take action</em> are two different things. 
+</p>
+<p>
+The next challenge to cultural change are resources (or the lack thereof). Suppose that we've shown Veridian's engineers the problem. And they are motivated to solve it because they see how the current design is limiting new initiatives. However, they may question where the budget for this new centralized, product API comes from. Or state that redesigning the API needs to be put on a backlog, the prioritization to be fought over at the next planning iteration. 
+</p>
+<p>
+The final challenge may be the most difficult: the <strong>institutional politics</strong>. Teams within each one of Veridian's divisions may acknowledge there is a problem (but it is someone else's problem). They are motivated to change (if that change supports their already existing initiatives). They might be committed to helping the company get more business (as long as it doesn't come at the expense to what the divisions are doing). 
+</p>
+<p>
+The politics don't go away because we're talking about technology. If anything, they get <em>more complex</em>.  
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide23.PNG" />
+<figcaption class="slide">
+<p>
+That sounds daunting, because it is. Positive culture change within a company can be one of the most difficult professional things to do. However, not all is lost. There are ways of seeding change that don't involve wheelbarrows full of money or a vice president title. 
+</p>
+<p>
+To begin, start with disproportionate influencers. You know these people - the ones who are incredibly plugged in, always seem to get the regular raises, and who leadership turns to in meetings. Every company has these stars. Once these people are identified, determine how your agenda compliments, or even furthers theirs. Appealing to their better nature or a sense of duty will only get you so far. But if it can be demonstrated how your course of action actually gets them what they want, and things will begin to happen. 
+</p>
+<p>
+Once the disproportionate influencers are onboard, <em>shine a light</em> on their accomplishments. To change a culture, you have to paint a picture of what the destination will look like. Not only does that reward the influencer for their alliance, but it communicates to the rest of the org what behavior gets rewarded.
+</p>
+<p>
+One mistake that wordy people, like myself, make is assuming that a single presentation, or a well-reasoned argument, is all it takes. This may appeal to people's logic. However, action rarely takes root until the audience <em>feels the pain</em> of a certain situation. The realities of business-as-usual (BAU) don't become real until individuals are living it.
+</p>
+<p>
+Finally, resources should be redistributed from "coldspots" (high need but little impact) to "hotspots" (big impact for little investment). Can ongoing, in-person training be recorded and provided in self-service fashion? Constantly evaluating where time is being spent, and the impacts of that time, is critical for any effort. 
+</p>
+</figcaption>
+</figure></p>
+
+<p><figure><img src="/images/2017/12/Slide24.PNG" />
+<figcaption class="slide">
+<p>
+At this point, I've hopefully made the argument that an organization's structure can adversely affect API design. Any API design culture needs to:
+</p>
+<p>
+<ul>
+<li> Incentivize correct bounded context creation first, then apply manpower</li>
+<li> Overcome resistance to reuse inherent in the org chart</li>
+<li> Align bounded context for external APIs with external expectations</li>
+</ul>
+</p>
+<p>
+Thank you for your attention.
+</p>
+</figcaption>
+</figure></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a href="mailto:hello@matthewreinbold.com">hello@matthewreinbold.com</a></li>
+        </ul>
+        <!--
+        -->
+          <div id="quote" class="triangle-isosceles left" >
+
+          </div>
+        <div id="image" style="float:left;">
+          <img src="/images/headshot-2013c.png" alt="Matthew's avatar" class="bottomImage"/>
+        </div>
+        <!--
+        style="font-size:0.9em; background-color:#4a0000; color:#ffffff; border: 1px solid #753500; border-radius:0.5em; width:115px;float:right;padding:0.5em;"
+        -->
+
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://tinyletter.com/restapinotes"><span class="icon icon--twitter"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="226 288.5 160 215" enable-background="new 226 288.5 160 215" xml:space="preserve">
+<g id="Logo_2_">
+	<path id="White_Envelope_1_" fill="#FFFFFF" d="M368.6,333.9H243.4c-6.2,0-11.1,5.1-11.1,11.1v102c0,6.2,5.1,11,11.1,11h45
+		l42.5,32.6V458h37.7c6.2,0,11-5.1,11-11V345C379.7,338.8,374.6,333.9,368.6,333.9z"/>
+	<path id="Red_Heart_2_" fill="#EC1C24" d="M301.2,302.8l4.8,4.8l4.8-4.8c8.8-8.8,22.9-8.8,31.7,0c8.8,8.8,8.8,22.9,0,31.7L306,364
+		l-36.6-29.5c-8.8-8.8-8.8-22.9,0-31.7C278.2,294,292.4,294,301.2,302.8z"/>
+	<path id="Black_Outline_1_" d="M368.6,328.9h-15.9c1.1-3.1,2-6.5,2-10.2c0-7.6-2.8-14.4-8.2-19.8s-12.5-8.2-19.8-8.2
+		c-7.6,0-14.4,2.8-19.8,8.2l-0.9,0.9l-0.9-0.9c-5.4-5.4-12.5-8.2-19.8-8.2c-7.6,0-14.4,2.8-19.8,8.2c-8.2,8.2-10.2,20.1-6.2,30
+		h-15.9c-9.4,0-17,7.6-17,17v100.3c0,9.4,7.6,17,17,17h40.5l52.7,40v-40h32c9.4,0,17-7.6,17-17V345.9
+		C385.6,336.5,378,328.9,368.6,328.9z M273.4,306.8c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8l8.8,8.8l8.8-8.8
+		c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8s4.8,7.4,4.8,11.9c0,4.2-1.7,8.5-4.8,11.6L306,356.6l-32.6-26.4
+		C266.9,323.8,267.2,313.3,273.4,306.8z M243.4,340.2h24.4l38.5,31.2l38.5-31.2h24.1c3.1,0,5.7,2.5,5.7,5.7v17.3L306,415l-68.3-51.8
+		v-17.3C237.7,342.7,240.3,340.2,243.4,340.2z M374.3,377.3v39.4l-25.8-19.8L374.3,377.3z M263.5,397.1L237.7,417v-39.4L263.5,397.1
+		z M368.6,451.8H325v28.3l-37.4-28.3h-44.2c-3.1,0-5.7-2.6-5.7-5.7v-15l35.4-26.9l33.1,25.2l33.1-25.2l35.4,26.9v15
+		C374.3,449.3,371.7,451.8,368.6,451.8z"/>
+</g>
+</svg>
+</span><span class="username">REST API Notes</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/libel_vox"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">Twitter</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://instagram.com/huxleymoc"><span class="icon icon--instagram"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="post-instagram">
+		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M255,153c56.1,0,102,45.9,102,102c0,56.1-45.9,102-102,102c-56.1,0-102-45.9-102-102C153,198.9,198.9,153,255,153z M63.75,459
+			C56.1,459,51,453.9,51,446.25V229.5h53.55C102,237.15,102,247.35,102,255c0,84.15,68.85,153,153,153c84.15,0,153-68.85,153-153
+			c0-7.65,0-17.85-2.55-25.5H459v216.75c0,7.65-5.1,12.75-12.75,12.75H63.75z M459,114.75c0,7.65-5.1,12.75-12.75,12.75h-51
+			c-7.65,0-12.75-5.1-12.75-12.75v-51c0-7.65,5.1-12.75,12.75-12.75h51C453.9,51,459,56.1,459,63.75V114.75z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span><span class="username">Instagram</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://youtube.com/user/libelvox/videos"><span class="icon icon--youtube"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#e62117" d="M94.98,28.84c0,0-0.94-6.6-3.81-9.5c-3.64-3.81-7.72-3.83-9.59-4.05c-13.4-0.97-33.52-0.85-33.52-0.85s-20.12-0.12-33.52,0.85c-1.87,0.22-5.95,0.24-9.59,4.05c-2.87,2.9-3.81,9.5-3.81,9.5S0.18,36.58,0,44.33v7.26c0.18,7.75,1.14,15.49,1.14,15.49s0.93,6.6,3.81,9.5c3.64,3.81,8.43,3.69,10.56,4.09c7.53,0.72,31.7,0.89,32.54,0.9c0.01,0,20.14,0.03,33.54-0.94c1.87-0.22,5.95-0.24,9.59-4.05c2.87-2.9,3.81-9.5,3.81-9.5s0.96-7.75,1.02-15.49v-7.26C95.94,36.58,94.98,28.84,94.98,28.84z M38.28,61.41v-27l25.74,13.5L38.28,61.41z"/></svg></span> <span class="username">YouTube</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://libelvox.tumblr.com"><span class="icon icon--tumblr"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="post-tumblr">
+		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M357,229.5h-76.5c0,0,0,96.9,0,99.45c0,17.85,2.55,28.05,28.05,28.05c22.95,0,48.45,0,48.45,0v76.5c0,0-25.5,2.55-53.55,2.55
+			c-66.3,0-99.45-40.8-99.45-86.7c0-30.6,0-119.85,0-119.85h-51v-71.4c61.2-5.1,66.3-51,71.4-81.6h56.1V153H357V229.5z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span><span class="username">Tumblr</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://pinterest.com/libelvox"><span class="icon icon--pinterest"><?xml version="1.0" ?><svg height="1792" viewBox="0 0 1792 1792" width="1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103q-111 0-218-32 59-93 78-164 9-34 54-211 20 39 73 67.5t114 28.5q121 0 216-68.5t147-188.5 52-270q0-114-59.5-214t-172.5-163-255-63q-105 0-196 29t-154.5 77-109 110.5-67 129.5-21.5 134q0 104 40 183t117 111q30 12 38-20 2-7 8-31t8-30q6-23-11-43-51-61-51-151 0-151 104.5-259.5t273.5-108.5q151 0 235.5 82t84.5 213q0 170-68.5 289t-175.5 119q-61 0-98-43.5t-23-104.5q8-35 26.5-93.5t30-103 11.5-75.5q0-50-27-83t-77-33q-62 0-105 57t-43 142q0 73 25 122l-99 418q-17 70-13 177-206-91-333-281t-127-423q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/></svg></span> <span class="username">Pinterest</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://soundcloud.com/matthew-reinbold/tracks"><span class="icon icon--soundcloud"><svg xmlns="http://www.w3.org/2000/svg" width="2500" height="1387" viewBox="0 208.952 1048.713 581.696"><path d="M0 686.216c0 13.014 4.718 22.854 14.152 29.524 9.435 6.669 19.52 9.027 30.256 7.076 10.085-1.952 17.161-5.531 21.229-10.736 4.066-5.205 6.1-13.827 6.1-25.864v-141.52c0-10.086-3.497-18.626-10.492-25.62-6.994-6.995-15.534-10.492-25.62-10.492-9.76 0-18.137 3.497-25.132 10.492C3.498 526.07 0 534.61 0 544.696v141.52zm112.24 60.512c0 9.436 3.335 16.511 10.004 21.229 6.67 4.718 15.21 7.076 25.62 7.076 10.736 0 19.438-2.359 26.108-7.076 6.669-4.717 10.004-11.793 10.004-21.229V416.84c0-9.76-3.498-18.138-10.492-25.132-6.995-6.994-15.535-10.492-25.62-10.492-9.76 0-18.138 3.498-25.132 10.492-6.995 6.995-10.492 15.372-10.492 25.132v329.888zm111.752 15.616c0 9.435 3.416 16.511 10.248 21.229 6.832 4.717 15.616 7.076 26.353 7.076 10.41 0 18.95-2.359 25.619-7.076 6.67-4.718 10.005-11.794 10.005-21.229V461.248c0-10.085-3.498-18.707-10.492-25.864-6.995-7.157-15.372-10.735-25.132-10.735-10.086 0-18.707 3.578-25.864 10.735s-10.736 15.779-10.736 25.864v301.096zm112.24 1.464c0 17.894 12.037 26.841 36.112 26.841 24.074 0 36.111-8.947 36.111-26.841v-488c0-27.328-8.296-42.781-24.888-46.36-10.736-2.603-21.31.488-31.72 9.272-10.411 8.784-15.616 21.146-15.616 37.088v488zm114.193 14.152V247.016c0-16.917 5.042-27.002 15.128-30.256 21.797-5.205 43.432-7.808 64.904-7.808 49.775 0 96.136 11.712 139.079 35.136 42.944 23.424 77.674 55.388 104.188 95.892 26.515 40.505 41.887 85.156 46.116 133.957 19.845-8.459 40.991-12.688 63.439-12.688 45.547 0 84.506 16.104 116.876 48.312 32.371 32.209 48.557 70.923 48.557 116.145 0 45.547-16.186 84.424-48.557 116.632-32.37 32.208-71.166 48.312-116.388 48.312l-424.56-.488c-2.929-.976-5.125-2.766-6.589-5.368s-2.193-4.882-2.193-6.834z"/></svg></span> <span class="username">SoundCloud</span></a>
+
+          </li>
+                    
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
+</p>
+      </div>
+
+      <div style="clear:both;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(
+    function() {
+     $.getJSON( '/quotes.json', 
+      function(data) {
+        // generate a random number between 0 and length-1
+        var index = Math.floor(Math.random() * (data.quotes.length - 1) ); 
+        //alert(data.quotes[index].quote);
+        $('#quote').text('"' + data.quotes[index].quote + '" - ' + data.quotes[index].attribution )
+      }
+    );
+   }
+  );
+</script>
+
+  </body>
+
+</html>
