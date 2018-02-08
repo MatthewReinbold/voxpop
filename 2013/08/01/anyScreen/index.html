@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>the anyScreen Project</title>
+  <meta name="description" content="											Gathering together feedback on the existing mobile app.			">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2013/08/01/anyScreen/">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Matthew Reinbold</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+  <div class="wrapper">
+    <h2><em>Writing on Development, Software or Otherwise</em></h2>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">the anyScreen Project</h1>
+    <h2 class="post-subtitle">From a Decade of Vox Pop</h2>
+    <p class="post-meta"><time datetime="2013-08-01T00:00:00-04:00" itemprop="datePublished">Aug 1, 2013</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>
+	<figure>
+		<a href="/images/2013/12/anyscreen-screennotes.jpg" class="lightbox"><img src="/images/2013/12/anyscreen-screennotes-sm.jpg" alt="Putting together a collection of mobile usage patterns." /></a>			
+		<figcaption>
+			Gathering together feedback on the existing mobile app.
+		</figcaption>
+	</figure>
+</p>
+
+<p>I started working for Placewise Media in May of 2011. Initially my role was fluid, filling gaps where needed. Not being charged with a specific project, however, has it's benefits. With others busy, I was soon tasked with <a href="/go.cfm?article=An_Intro_to_an_API">figuring out how to get our content into an app</a>. The project manager for that project was Greg Hickman, <a href="http://mobilemixed.com/">founder of the Mobile Mixed podcast</a>. </p>
+
+<p>It took several late nights toward the end of 2011 but we shipped, as promised. As early 2012 arrived, we were tasked with creating not just an app or site, but a larger direction for the entire company. Management could tell that mobile was a transformative force. But it was hard to look past a platform (an app, a site) and determine the larger ramifications on how we approach development. What we needed wasn't a <em>mobile design refresh</em>; we needed a broader content syndication strategy for <em>any screen</em>.</p>
+
+<p><em>"The anyScreen Project"</em> was the result of our research done in early Q1 of 2012. Some of our recommendations were common sense. Others were purposely more "left field" in order to allow compromise. We presented to a handful of interested groups. We made the document available to decision makers. Then, like so often happens within a company, we started working on other things. Greg moved on and became the Mobile Marketing Manager at Cabela's. I became technical lead on the <a href="/2013/02/27/SoIAmMakingAnApp/">the Shoptopia App</a>. Ultimately, I also left.</p>
+
+<p>Up till that point none of the recommended courses of action had been seriously considered for assignment and implementation. That doesn't mean they weren't good. Despite some statements now seeming dated I stand by the work. What I regret is not making the strong <strong>financial</strong> case to justify the effort. With limited resources, illustrating a better consumer experience isn't enough to influence release schedules. We needed a clear path to X% growth in billings. We were arguing hearts and minds when we needed to understand the purse strings.</p>
+
+<p>So, without further ado, here is a public, slightly redacted, copy of the <em>anyScreen</em> report. Enjoy.</p>
+
+<hr />
+
+<p>
+	<figure>
+		<a href="/images/2013/12/anyscreen-responsive-experience.jpg" class="lightbox"><img src="/images/2013/12/anyscreen-responsive-experience-sm.jpg" alt="A collection of notes related to a responsive web experience." /></a>			
+		<figcaption>
+			Collected notes on the responsive web experience.
+		</figcaption>
+	</figure>
+</p>
+
+<p><strong>The anyScreen Initiative</strong></p>
+<p><em>Defining a Compelling and Comprehensive Placewise &ldquo;Multi-Screen&rdquo; Experience</em></p>
+
+<p><strong>Our Audience is Changing.</strong></p>
+<p>The trend in smart phone usage is clearly one direction:
+	<ul>
+		<li>70% of smartphone owners use their mobile phones to influence in-store purchases (  <a href="http://www.html5rocks.com/en/mobile/responsivedesign/">source</a> )</li>
+		<li>92% of retail volume still takes place in brick and mortar stores</li>
+		<li>42% of consumers are more likely to return to stores that have in-store mobile promotions</li>
+		<li>19% of U.S. consumers browse their mobile devices while shopping in-store</li>
+		<li>58% of consumers want to get product information in-store</li>
+		<li>31% of American adults who have cell phones use their phones for the majority of their Internet access (  <a href="http://www.niemanlab.org/2012/06/new-pew-data-theres-a-good-and-growing-chance-youre-reading-this-on-your-phone/">source</a> )</li>
+		<li>Among American adults (18-29) who use the Internet on their phones, 45% do most of their web surfing there. (  <a href="http://www.niemanlab.org/2012/06/new-pew-data-theres-a-good-and-growing-chance-youre-reading-this-on-your-phone/">source</a> )</li>
+		<li>More than 1 in 10 Americans have a smartphone, desktop/laptop, AND tablet device (13% - July, 2012)</li>
+		<li>52% of American desktop/laptop owners also own a smartphone</li>
+		<li>1 billion smartphones will be sold in 2014</li>
+	</ul>
+</p>
+
+<p>Facebook&rsquo;s numbers point where most audiences are going: 102 million accessed Facebook solely from mobile in June, 2012. That&rsquo;s a 23% increase over the 83 million mobile-only users in March. 18.7% of Facebook&rsquo;s 543 million monthly mobile users don&rsquo;t visit the desktop site (  <a href="http://techcrunch.com/2012/07/31/facebook-mobile-only/">source</a> ).</p>
+
+<p><strong>How do we satisfy changing site consumption?</strong></p>
+<p>In order to successfully engage audiences in the next year we need to:
+	<ul>
+		<li>Deliver targeted messages and offers - messages tailored not just to the person&#39;s interests but to the platform they&#39;re on</li>
+		<li>Improve response rates by detecting when a customer is ready to act (through user actions like store follows and deal bookmarking)</li>
+		<li>Improve customer loyalty through tailored and personalized experiences</li>
+	</ul>
+</p>
+
+<p>To succeed in these goals we must overcome the existing problems with our current website approaches. After study, five problem areas were identified:
+	<ul>
+		<li>Fragmented URL Strategy</li>
+		<li>Slow Performance</li>
+		<li>Little Sensitivity to User Intent</li>
+		<li>Poor Mobile Evangelism</li>
+		<li>Aging Login &amp; Registration Approaches</li>
+	</ul>
+</p>
+
+<p><strong>Fragmented URL Strategy</strong></p>
+<p>Consumers occupy an ecosystem of screens; a Placewise visitor is not a &ldquo;mobile user&rdquo; or &ldquo;laptop user&rdquo;. The same people interact in a multitude of formats and devices. It is this multi-screen consumption which causes inconsistent and/or problematic behavior with our current inclusion of URLs:
+	<ul>
+		<li>Do we use a &ldquo;traditional&rdquo; website link in an email template which may be read on a mobile device?</li>
+		<li>Do we use a mobile url in a push notification or SMS?</li>
+		<li>Does a website link posted to social media like twitter or facebook direct to the desktop or mobile experience?</li>
+		<li>If a user receives a bit.ly link on a mobile device but content is not mobile enabled what happens?</li>
+		<li>What happens if a user attempts to access a mobile-only contest via their desktop browser?</li>
+	</ul>
+</p>
+
+<p><strong>The proposed solution</strong> is to no longer have both &ldquo;m.*&rdquo; url subdomains and full urls exist simultaneously.  There  should  be one canonical link that  references where a location exists online . This link will default to the  mobile, responsive experience UNLESS the user is on a device with a screen greater than 1024x768. The purpose during a period of transition is to allow for full, &ldquo;traditional&rdquo;, experiences on larger screens while supporting the diversity of lower resolutions. </p>
+
+<p>It will be assumed that mobile links exist for all content; if that content is not available in the responsive template the request will &ldquo;default&rdquo; to content that is on the desktop site. This represents 180-degree change from the URL policy that currently exists.</p>
+
+<p>Proceeding in this manner not only provides better search engine optimization (SEO) (  <a href="http://searchengineland.com/one-url-to-rule-them-all-for-mobile-seo-115366">source</a> ). The bigger benefit is from an operations and development standpoint. Among staff there will never be any confusion as to which link to provide. All URLs included in code will be formatted one way. Finally, references to our content can be safely shared across a variety of platforms and services without the danger of the &ldquo;wrong&rdquo; link for the viewer&rsquo;s context causing a sub-optimal experience. </p>
+
+<p><strong>Slow Performance</strong></p>
+<p>Speed isn&rsquo;t only a mobile concern. Numbers from 2011 show that 47% of consumers expect a web page to load in two seconds or less. Further, 74% will abandon if a site takes more than 4 seconds to load (  <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.lukew.com%2Fff%2Fentry.asp%3F1601&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEIPRgvId9Tamm6jAhsnI4fZxMa9g">source</a> ).  When given the option of increasing site speed or adding an additional feature,  we should always error on the side of speed.</p>
+
+<p>Just making a site responsive doesn&rsquo;t make it fast. Unfortunately, 86% of responsive sites have the  same size or larger page sizes than their desktop counterparts (  <a href="http://www.slideshare.net/guypod/performance-implications-of-mobile-design">source</a> ). </p>
+
+<p>We need to develop with the mindset that <strong>if it wasn&rsquo;t instantaneous it didn&rsquo;t happen</strong>. Speed itself <em>is</em> the killer feature. Speed translates into more time spent on our sites, more return visitors, and more positive overall experiences - all positive outcomes that increase our desirability for brand sponsorship.</p>
+
+<p>Speed increases are possible with:
+	<ul>
+		<li> Asynchronous Processing &ndash; The client facing site or app responds to user interaction immediately while discretely synchronizing with the global server when possible, convenient, or bandwidth permitting. For inspiration on how this can be done review <a href="http://thenextweb.com/mobile/2012/05/01/instagrams-secret-to-super-quick-photo-uploads-send-fast-match-data-later/">the instagram model of processing images</a> (  <a href="http://thenextweb.com/mobile/2012/05/01/instagrams-secret-to-super-quick-photo-uploads-send-fast-match-data-later/">source 1</a> ) ( <a href="http://www.slideshare.net/guypod/performance-implications-of-mobile-design">source 2</a> ).</li>
+		<li> Caching - The fastest response is the one not made. Whether including most-likely pages device side via a multi-page jquery mobile template or saving extra database calls with built in ColdFusion caching, numerous opportunities exist to reduce backend transactional overhead.</li>
+		<li> Device Appropriate Images - Responsive images are difficult. However, the benefit is the best pixel-per-bandwidth ratio possible. Because so much of our layouts are graphically heavy savings are possible by a more responsible content serving strategy.</li>
+	</ul>
+</p>
+
+<p>Most people (71%) expect mobile sites to load as fast or faster than desktop sites (  <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.lukew.com%2Fff%2Fentry.asp%3F1601&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEIPRgvId9Tamm6jAhsnI4fZxMa9g">source</a> ). The benefit of all of these approaches, in addition to meeting audience expectation, is they also allow us to scale to a much larger degree on the hardware we already have.</p>
+
+<p><strong>Little Sensitivity to User Intent</strong></p>
+<p>While Responsive Web Design (RWD) has taken a significant portion of designer mindshare since being coined two years ago,  it is incomplete. A responsive approach only deals with the technical aspects of a user&rsquo;s experience. This is primarily thought of as the window size of the content display.  Adaptive Design (also referred to as progressive enhancement) is creating an experience  for the user&rsquo;s needs, desires, or situation.</p>
+
+<p> Users expect different experiences on different devices. Tablet and desktop shopping site experiences are both for discovery. In these cases the user is  planning a trip: reading articles, bookmarking deals, and making note of events. While the  intent is the same, however, the input means are drastically different: keyboard/mouse inputs verses touch interfaces.</p>
+
+<p>Mobile users are  action driven in  discrete bursts. Google Analytics shows that an overwhelming percentage of Placewise visitors are using mobile to find two things:
+	<ul>
+		<li>Specific Store Information</li>
+		<li>Mall Hours</li>
+	</ul>
+</p>
+
+<p>Our goal should be to encourage repeat visits,  not to snare as many clicks per visit as possible. This would better support the mobile user&#39;s goal of finding the desired information quickly. </p>
+
+<p>While adaptive design dictates the mobile approach, Responsive Design needs to define our email template creation. Mobile email clients on Android, iPhone, and iPad increased from 4% to 20% from 2009-2011 (  <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.campaignmonitor.com%2Fblog%2Fpost%2F3495%2Fthe-rise-of-mobile-email%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNExIK__0_C21zEjwC50_2Agv1hh2g">source</a> ). Our recommendation is that email  should be formatted to correctly fit their device wherever it is consumed. Resources for building responsive email templates are included in the BaseCamp project. </p>
+
+<p><strong>Poor Mobile Evangelism</strong></p>
+<p>Current sponsorship inclusion on mobile sites is a banner below-the-fold. This is unacceptable positioning for such a high percentage of our audience. This occurs because campaigns are created within the context of desktop experiences: Where does this fit in the sidebar? What IAB leaderboard would be appropriate? How can we do a takeover ad similar to Kay Jewelers?</p>
+
+<p>The problem with all of these approaches is that they assume a full sized site with unlimited technical restrictions. For example, the Kay Jewelers ad, while successful, used Flash that was impossible to duplicate for an iPad. Dealing with sponsors who only provide IAB assets can be problematic in a responsive context (  <a href="http://muledesign.com/2012/01/advertising-on-a-responsive-web/">source</a> ).</p>
+
+<p>One opportunity is with rich media advertising providers currently being evaluated. Early tests have been problematic. However, even when one is in place, creating a compelling sponsor experience on mobile needs to be done in conjunction with the desktop.</p>
+
+<p>Another question posed by our current approach is when a user arrives on a mobile website that has a corresponding Android/IOS app, why are we not politely direct a visitor to the corresponding store to download it? Failing to even  mention additional touch points with is a glaring failure. <strong>How are we expected to promote our sponsors interest when we can&rsquo;t even promote our own?</strong></p>
+
+<p><strong>Aging Login &amp; Registration Approaches</strong></p>
+<p>Typing anything on a mobile device is a pain, but login, in particular, can be difficult. Since mobile devices are user centric <em>why does a user&rsquo;s session still last only 20 minutes</em>? Expanding the session timeout for devices that are clearly mobile (and therefore personal and unshared) seems an obvious step. But is it possible to go further and emulate the &ldquo;login once and forget&rdquo; simplicity of a native app? </p>
+
+<p>Strong consideration needs to be given to the burgeoning &ldquo;no login&rdquo; design pattern (  <a href="http://notes.xoxco.com/post/27999787765/is-it-time-for-password-less-login">source 1</a> ) ( <a href="http://drupal.org/project/passwordless">source 2</a> ) (  <a href="https://github.com/harryf/thoughts/blob/master/mobile-killed-the-login.md">source 3</a> ). By eliminating (or reducing) desktop conventions of a username/password pair we would lower the bar to user engagement in non-desktop contexts. </p>
+
+<p>There also is an ongoing debate within Placewise about the correct way to do login. A number of desktop sites employ a shoptopia modal login. The mobile sites use a more federated identity system to provide access on platforms that aren&#39;t HTTP based (like the native apps). The discussions have centered around whether to simplify to one system and what that would be. If not a &ldquo;no login&rdquo; solution, consideration of an official, published, standard like Oauth 2 should be considered.</p>
+
+<p><strong>Challenges for Implementation</strong></p>
+<p>Moving to responsive email templates and site design will require changes to existing workflows. In a recent survey 56% of design teams reported workflow as a significant challenge when faced with responsive design (  <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.lukew.com%2Fff%2Fentry.asp%3F1599&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEINKOC60MzjTfzhPgUCHqphgujEw">source</a> ). Features should be wireframed and mocked mobile first as it forces refinement of the idea to its essential components. The feature can then be progressively enhanced for more capable browsers or available technologies.</p>
+
+<p>The idea of wireframing and interactive prototypes can be a shock to traditional creative design. For many studios design practices have been standardized around static, fixed Photoshop mockups. Those processes prove inadequate when having to deal with the realities of a living, breathing web (  <a href="http://blog.teamtreehouse.com/responsive-web-design-in-the-browser-part-1-kill-photoshop">source</a> 1 ) (  <a href="http://uxdesign.smashingmagazine.com/2012/05/30/design-process-responsive-age/">source 2</a> ) (  <a href="http://www.netmagazine.com/features/top-responsive-web-design-problems-and-how-avoid-them#2">source 3</a> ).</p>
+
+<p>But even more of a procedural challenge is the mental one. This plan requires a change in thinking. Different native platforms have distinct conventions. You can&rsquo;t simply port over one design to all native mobile platforms. Interactions and expectations differ. We need to be flexible enough to conceive solutions in terms of puzzle pieces that adapt to different devices instead of fixed canvas designs.</p>
+
+<p>As John Allsopp correctly pointed out in 2000, the flexibility of the web is a  feature, not a bug (  <a href="http://www.alistapart.com/articles/dao/">source</a> ). Treating creation of digital sites in the same way as a printed product is a mistake. However, while new design workflows are necessary to support any screen, they haven&rsquo;t yet been clearly identified.</p>
+
+<p><strong>The Way Forward, Now</strong></p>
+<p>The desktop site, as it currently exist, is a sacred cow. It is our client&#39;s approved vision. It is a weighty mass of everything that our clients believe a website to be; this includes glamour shots, press releases, and property management &ldquo;about us&rdquo; pages. Any overnight change to embrace fully visitor-centric adaptive design may be interpreted as butchering the mall&rsquo;s branding. There will be push back.</p>
+
+<p>Our opportunity for learning what works is on mobile. Despite approaching half of their overall traffic the mobile presence is a supplemental afterthought to many. <strong>Clients do not realize the speed at which mobile is becoming the primary means by which  people engage  their content</strong>. <em>It is essential that we figure out how to create engaging, adaptive experiences on this platform while still having the freedom to experiment</em>. Finding that  flexibility is an asset and future proofs our designs for consumption on new devices (the web on our fridge! In our car dashboard!). <strong>Once the centers are aware that mobile is their primary touch point they will be more more loath to allow us to make the necessary mistakes to refining our approach</strong>.</p>
+
+<p>
+	<figure>
+		<a href="/images/2013/12/anyscreen-challenges.jpg" class="lightbox"><img src="/images/2013/12/anyscreen-challenges-sm.jpg" alt="An illustration of the responsive challenges and how they differ from adaptive design." /></a>			
+		<figcaption>
+			Illustrating the challenges of responsive design and how it differs from adaptive.
+		</figcaption>
+	</figure>
+</p>
+
+  </div>
+
+</article>
+
+<div class="relatedPosts">
+
+
+
+
+
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+    		<h4>Related</h4>
+    		
+    	
+      <div>
+      <h5><a href="/2017/01/09/RESTAPINotes/">The iPhone Turns 10 &#x2709;</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2015/05/19/APIswillBeInvisible/">APIs will be Invisible</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2015/05/12/APIsandGovernance/">The Favela vs the Planned Community</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2015/04/20/HowAPIsDriveBusinessInnovation/">How APIs Drive Business Innovation</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2014/06/30/CoolingOnTheConnectedCar/">Cooling on the Connected Car</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2013/12/12/MobileIsDeadLongLiveMobile/">Mobile is Dead</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2013/11/06/JustFab-Onsite/">Looking Good, Working Fine</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2013/08/02/DecadeofPop-HollywoodModelforSoftware/">Exploring the Hollywood Model</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2013/07/02/DecadeofPop-MalleableOvernightDigitalFuture/">The Malleable, Overnight, Digitally Abundant Future</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2013/06/02/DecadeofPop-NewPioneersArticle/">Weaned on Wired Magazine</a></h5>
+      </div>
+      
+      
+        
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a href="mailto:hello@matthewreinbold.com">hello@matthewreinbold.com</a></li>
+        </ul>
+        <!--
+        -->
+          <div id="quote" class="triangle-isosceles left" >
+
+          </div>
+        <div id="image" style="float:left;">
+          <img src="/images/headshot-2013c.png" alt="Matthew's avatar" class="bottomImage"/>
+        </div>
+        <!--
+        style="font-size:0.9em; background-color:#4a0000; color:#ffffff; border: 1px solid #753500; border-radius:0.5em; width:115px;float:right;padding:0.5em;"
+        -->
+
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+          <li>
+            <a href="https://tinyletter.com/restapinotes"><span class="icon icon--twitter"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="226 288.5 160 215" enable-background="new 226 288.5 160 215" xml:space="preserve">
+<g id="Logo_2_">
+	<path id="White_Envelope_1_" fill="#FFFFFF" d="M368.6,333.9H243.4c-6.2,0-11.1,5.1-11.1,11.1v102c0,6.2,5.1,11,11.1,11h45
+		l42.5,32.6V458h37.7c6.2,0,11-5.1,11-11V345C379.7,338.8,374.6,333.9,368.6,333.9z"/>
+	<path id="Red_Heart_2_" fill="#EC1C24" d="M301.2,302.8l4.8,4.8l4.8-4.8c8.8-8.8,22.9-8.8,31.7,0c8.8,8.8,8.8,22.9,0,31.7L306,364
+		l-36.6-29.5c-8.8-8.8-8.8-22.9,0-31.7C278.2,294,292.4,294,301.2,302.8z"/>
+	<path id="Black_Outline_1_" d="M368.6,328.9h-15.9c1.1-3.1,2-6.5,2-10.2c0-7.6-2.8-14.4-8.2-19.8s-12.5-8.2-19.8-8.2
+		c-7.6,0-14.4,2.8-19.8,8.2l-0.9,0.9l-0.9-0.9c-5.4-5.4-12.5-8.2-19.8-8.2c-7.6,0-14.4,2.8-19.8,8.2c-8.2,8.2-10.2,20.1-6.2,30
+		h-15.9c-9.4,0-17,7.6-17,17v100.3c0,9.4,7.6,17,17,17h40.5l52.7,40v-40h32c9.4,0,17-7.6,17-17V345.9
+		C385.6,336.5,378,328.9,368.6,328.9z M273.4,306.8c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8l8.8,8.8l8.8-8.8
+		c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8s4.8,7.4,4.8,11.9c0,4.2-1.7,8.5-4.8,11.6L306,356.6l-32.6-26.4
+		C266.9,323.8,267.2,313.3,273.4,306.8z M243.4,340.2h24.4l38.5,31.2l38.5-31.2h24.1c3.1,0,5.7,2.5,5.7,5.7v17.3L306,415l-68.3-51.8
+		v-17.3C237.7,342.7,240.3,340.2,243.4,340.2z M374.3,377.3v39.4l-25.8-19.8L374.3,377.3z M263.5,397.1L237.7,417v-39.4L263.5,397.1
+		z M368.6,451.8H325v28.3l-37.4-28.3h-44.2c-3.1,0-5.7-2.6-5.7-5.7v-15l35.4-26.9l33.1,25.2l33.1-25.2l35.4,26.9v15
+		C374.3,449.3,371.7,451.8,368.6,451.8z"/>
+</g>
+</svg>
+</span><span class="username">REST API Notes</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/libel_vox"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">Twitter</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://instagram.com/huxleymoc"><span class="icon icon--instagram"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="post-instagram">
+		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M255,153c56.1,0,102,45.9,102,102c0,56.1-45.9,102-102,102c-56.1,0-102-45.9-102-102C153,198.9,198.9,153,255,153z M63.75,459
+			C56.1,459,51,453.9,51,446.25V229.5h53.55C102,237.15,102,247.35,102,255c0,84.15,68.85,153,153,153c84.15,0,153-68.85,153-153
+			c0-7.65,0-17.85-2.55-25.5H459v216.75c0,7.65-5.1,12.75-12.75,12.75H63.75z M459,114.75c0,7.65-5.1,12.75-12.75,12.75h-51
+			c-7.65,0-12.75-5.1-12.75-12.75v-51c0-7.65,5.1-12.75,12.75-12.75h51C453.9,51,459,56.1,459,63.75V114.75z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span><span class="username">Instagram</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://youtube.com/user/libelvox/videos"><span class="icon icon--youtube"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><path fill="#e62117" d="M94.98,28.84c0,0-0.94-6.6-3.81-9.5c-3.64-3.81-7.72-3.83-9.59-4.05c-13.4-0.97-33.52-0.85-33.52-0.85s-20.12-0.12-33.52,0.85c-1.87,0.22-5.95,0.24-9.59,4.05c-2.87,2.9-3.81,9.5-3.81,9.5S0.18,36.58,0,44.33v7.26c0.18,7.75,1.14,15.49,1.14,15.49s0.93,6.6,3.81,9.5c3.64,3.81,8.43,3.69,10.56,4.09c7.53,0.72,31.7,0.89,32.54,0.9c0.01,0,20.14,0.03,33.54-0.94c1.87-0.22,5.95-0.24,9.59-4.05c2.87-2.9,3.81-9.5,3.81-9.5s0.96-7.75,1.02-15.49v-7.26C95.94,36.58,94.98,28.84,94.98,28.84z M38.28,61.41v-27l25.74,13.5L38.28,61.41z"/></svg></span> <span class="username">YouTube</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://libelvox.tumblr.com"><span class="icon icon--tumblr"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="post-tumblr">
+		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M357,229.5h-76.5c0,0,0,96.9,0,99.45c0,17.85,2.55,28.05,28.05,28.05c22.95,0,48.45,0,48.45,0v76.5c0,0-25.5,2.55-53.55,2.55
+			c-66.3,0-99.45-40.8-99.45-86.7c0-30.6,0-119.85,0-119.85h-51v-71.4c61.2-5.1,66.3-51,71.4-81.6h56.1V153H357V229.5z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span><span class="username">Tumblr</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://pinterest.com/libelvox"><span class="icon icon--pinterest"><?xml version="1.0" ?><svg height="1792" viewBox="0 0 1792 1792" width="1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103q-111 0-218-32 59-93 78-164 9-34 54-211 20 39 73 67.5t114 28.5q121 0 216-68.5t147-188.5 52-270q0-114-59.5-214t-172.5-163-255-63q-105 0-196 29t-154.5 77-109 110.5-67 129.5-21.5 134q0 104 40 183t117 111q30 12 38-20 2-7 8-31t8-30q6-23-11-43-51-61-51-151 0-151 104.5-259.5t273.5-108.5q151 0 235.5 82t84.5 213q0 170-68.5 289t-175.5 119q-61 0-98-43.5t-23-104.5q8-35 26.5-93.5t30-103 11.5-75.5q0-50-27-83t-77-33q-62 0-105 57t-43 142q0 73 25 122l-99 418q-17 70-13 177-206-91-333-281t-127-423q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/></svg></span> <span class="username">Pinterest</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://soundcloud.com/matthew-reinbold/tracks"><span class="icon icon--soundcloud"><svg xmlns="http://www.w3.org/2000/svg" width="2500" height="1387" viewBox="0 208.952 1048.713 581.696"><path d="M0 686.216c0 13.014 4.718 22.854 14.152 29.524 9.435 6.669 19.52 9.027 30.256 7.076 10.085-1.952 17.161-5.531 21.229-10.736 4.066-5.205 6.1-13.827 6.1-25.864v-141.52c0-10.086-3.497-18.626-10.492-25.62-6.994-6.995-15.534-10.492-25.62-10.492-9.76 0-18.137 3.497-25.132 10.492C3.498 526.07 0 534.61 0 544.696v141.52zm112.24 60.512c0 9.436 3.335 16.511 10.004 21.229 6.67 4.718 15.21 7.076 25.62 7.076 10.736 0 19.438-2.359 26.108-7.076 6.669-4.717 10.004-11.793 10.004-21.229V416.84c0-9.76-3.498-18.138-10.492-25.132-6.995-6.994-15.535-10.492-25.62-10.492-9.76 0-18.138 3.498-25.132 10.492-6.995 6.995-10.492 15.372-10.492 25.132v329.888zm111.752 15.616c0 9.435 3.416 16.511 10.248 21.229 6.832 4.717 15.616 7.076 26.353 7.076 10.41 0 18.95-2.359 25.619-7.076 6.67-4.718 10.005-11.794 10.005-21.229V461.248c0-10.085-3.498-18.707-10.492-25.864-6.995-7.157-15.372-10.735-25.132-10.735-10.086 0-18.707 3.578-25.864 10.735s-10.736 15.779-10.736 25.864v301.096zm112.24 1.464c0 17.894 12.037 26.841 36.112 26.841 24.074 0 36.111-8.947 36.111-26.841v-488c0-27.328-8.296-42.781-24.888-46.36-10.736-2.603-21.31.488-31.72 9.272-10.411 8.784-15.616 21.146-15.616 37.088v488zm114.193 14.152V247.016c0-16.917 5.042-27.002 15.128-30.256 21.797-5.205 43.432-7.808 64.904-7.808 49.775 0 96.136 11.712 139.079 35.136 42.944 23.424 77.674 55.388 104.188 95.892 26.515 40.505 41.887 85.156 46.116 133.957 19.845-8.459 40.991-12.688 63.439-12.688 45.547 0 84.506 16.104 116.876 48.312 32.371 32.209 48.557 70.923 48.557 116.145 0 45.547-16.186 84.424-48.557 116.632-32.37 32.208-71.166 48.312-116.388 48.312l-424.56-.488c-2.929-.976-5.125-2.766-6.589-5.368s-2.193-4.882-2.193-6.834z"/></svg></span> <span class="username">SoundCloud</span></a>
+
+          </li>
+                    
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
+</p>
+      </div>
+
+      <div style="clear:both;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(
+    function() {
+     $.getJSON( '/quotes.json', 
+      function(data) {
+        // generate a random number between 0 and length-1
+        var index = Math.floor(Math.random() * (data.quotes.length - 1) ); 
+        //alert(data.quotes[index].quote);
+        $('#quote').text('"' + data.quotes[index].quote + '" - ' + data.quotes[index].attribution )
+      }
+    );
+   }
+  );
+</script>
+
+  </body>
+
+</html>

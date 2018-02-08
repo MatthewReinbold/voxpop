@@ -1,14 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matthew Reinbold, formerly of Vox Pop</title>
+    <title>Matthew Reinbold</title>
     <description>This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Dec 2017 22:51:22 -0500</pubDate>
-    <lastBuildDate>Mon, 25 Dec 2017 22:51:22 -0500</lastBuildDate>
+    <pubDate>Thu, 08 Feb 2018 01:00:42 -0500</pubDate>
+    <lastBuildDate>Thu, 08 Feb 2018 01:00:42 -0500</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>RIP John Perry Barlow</title>
+        <description>&lt;p&gt;John Perry Barlow did many amazing things. He was a Grateful Dead lyricist. He was a Wyoming rancher for more than a decade and a half, itself no small feat. Much too late in my professional career I contributed to the organization he founded dedicated to a free and open internet, the Electronic Frontier Foundation (EFF). However, JPB will most notable, for me, as the author of the “&lt;a href=&quot;https://www.eff.org/cyberspace-independence&quot;&gt;Declaration of Independence of Cyberspace&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;It starts:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind. On behalf of the future, I ask you of the past to leave us alone. You are not welcome among us. You have no sovereignty where we gather.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We have no elected government, nor are we likely to have one, so I address you with no greater authority than that with which liberty itself always speaks. I declare the global social space we are building to be naturally independent of the tyrannies you seek to impose on us. You have no moral right to rule us nor do you possess any methods of enforcement we have true reason to fear.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;JPB wrote the manifesto as an email in 1996. Even in the wide-eye days of the web’s infancy, it was controversial. It’s arrogant. Eye-roll inducing. In light of everything from sanctioned &lt;a href=&quot;https://spectrum.ieee.org/telecom/security/the-real-story-of-stuxnet&quot;&gt;cyber-warfare among nation states&lt;/a&gt; to &lt;a href=&quot;https://mashable.com/2014/06/05/edward-snowden-revelations/&quot;&gt;the Snowden revelations&lt;/a&gt;, from &lt;a href=&quot;https://www.axios.com/here-are-the-election-facebook-ads-russia-bought-1513306606-f8d07e39-085f-44e7-9958-975d35d3b4f0.html&quot;&gt;foreign powers using Facebook ads to swing elections&lt;/a&gt; to &lt;a href=&quot;https://www.cnn.com/2018/01/03/us/kansas-police-shooting-swatting/index.html&quot;&gt;swatting now having taken a life&lt;/a&gt;, it is hard not to choke on the naivety today.&lt;/p&gt;
+
+&lt;p&gt;And yet, the loss of that innocence, combined the visionary who articulated what the web &lt;em&gt;could&lt;/em&gt; be for so many of us that followed, &lt;strong&gt;hurts so much&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The same year that JPB declared cyberspace’s independence, I started my freshman year at college. His web became the web I aspired to. I was quickly introduced to the works of William Gibson, Bruce Sterling, Neal Stephenson, 90’s British Rave Culture, Hacking, Phreaking, IRC, Napster, Icecasting, Pseudo, and so much, much more. Instead of fiddling with index cards, report research was just an AltaVista search away. I learned HTML on a Geocities site so that I could share the same miserable poetry as others from exotic locations like Europe, or Australia, or Des Moine. And music; there was so much music. Music to study to, music to make-out to, and music to ring in a new millenium where anyone with an ounce of ambition and a newly minted degree in computers could save the world (while getting fabulously rich in the process).&lt;/p&gt;
+
+&lt;p&gt;The dot-com bust turned out to be a speed bump. In 2004-2005, I was a regular listener of the ‘podfather’ and ran a web forum for an MMORPG guild. By 2007, I was all in on ‘Web 2.0’, or ‘The Social Web’. Friends attending SXSW that year invited me to try something called ‘Twitter’. By the end of that year, I was producing (poorly attended) conferences extolling the virtues of blogging for businesses. Brands would be conversational, not unidirectional. Businesses would make better products because the wisdom of the crowds would lend themselves profound new insights. “If only,” I would argue, “we could get everyone to blog their experiences on the web, we’d see we aren’t really that different; we could come to a truer understanding of the human condition that will allow us to move forward.”  Sitting here, writing on a private VPN network, in a browser meticulously stripped of as much ad tracking as I can manage, with a sticker slapped over the webcam, I’m humbled. This isn’t the web we wanted.&lt;/p&gt;
+
+&lt;p&gt;JPB’s dream for cyberspace wasn’t an appeal for lawlessness; his streak of libertarianism wasn’t ‘do whatever you want’. It was an appeal to be something better than we’ve been. He saw &lt;a href=&quot;https://en.wikipedia.org/wiki/City_upon_a_Hill&quot;&gt;the city on the hill&lt;/a&gt; for what it was - a gated community of power and privilege that looked down on those different or unwanted with &lt;strong&gt;a very important cadveat&lt;/strong&gt;. The blackest backwaters of Reddit, or the white power movement, or malware opportunists were inevitable, but unwelcome. He was in a race to sow the seeds of something wonderful before the weeds of our worst nature could take root and choke it out. In JBP’s “new home of Mind”, we’d see a vision of a virtual place beyond the violence beget of physical judgement and maybe, just maybe, finally treat each other like human beings.&lt;/p&gt;
+
+&lt;p&gt;And now John Perry Barlow is dead. A mantle has been laid down and it’s owner put to rest. Cyberspace is dead. Long live cyberspace.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 08 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/02/08/RIPJohnPerryBarlow/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/02/08/RIPJohnPerryBarlow/</guid>
+        
+        <category>cyberspace</category>
+        
+        <category>john perry barlow</category>
+        
+        <category>twitter</category>
+        
+        <category>eff</category>
+        
+        <category>college</category>
+        
+        <category>Edward Snowden</category>
+        
+        <category>privacy</category>
+        
+        <category>William Gibson</category>
+        
+        <category>Bruce Sterling</category>
+        
+        <category>Neal Stephenson</category>
+        
+        <category>raves</category>
+        
+        <category>Hacking</category>
+        
+        <category>Phreaking</category>
+        
+        <category>IRC</category>
+        
+        <category>Napster</category>
+        
+        <category>Icecasting</category>
+        
+        <category>Pseudo</category>
+        
+        <category>AltaVista</category>
+        
+        <category>SXSW</category>
+        
+        <category>social web</category>
+        
+        
+      </item>
     
       <item>
         <title>Three Ways Conways Law Affects API Governance</title>
@@ -382,11 +456,21 @@ Thank you for your attention.
         <link>http://localhost:4000/2017/12/07/ConwayAndAPIDesign/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/07/ConwayAndAPIDesign/</guid>
         
-        <category>REST</category>
+        <category>REST API</category>
         
-        <category>API,Melvin</category>
+        <category>Melvin Conway</category>
         
-        <category>Conway</category>
+        <category>presos</category>
+        
+        <category>Elon Musk</category>
+        
+        <category>Harvard Business Review</category>
+        
+        <category>Fred Brooks</category>
+        
+        <category>Blue Ocean Strategy</category>
+        
+        <category>conferences</category>
         
         
       </item>
@@ -465,9 +549,41 @@ The main stage at the 2017 API World Conference.
         <link>http://localhost:4000/2017/10/26/API-Blueprint-Followup/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/26/API-Blueprint-Followup/</guid>
         
-        <category>REST</category>
+        <category>REST API</category>
         
-        <category>API</category>
+        <category>culture change</category>
+        
+        <category>API Governance</category>
+        
+        <category>API World</category>
+        
+        <category>Kin Lane</category>
+        
+        <category>Capital One</category>
+        
+        <category>Adrian Cockcroft</category>
+        
+        <category>Netflix</category>
+        
+        <category>OpenAPI</category>
+        
+        <category>SwaggerHub</category>
+        
+        <category>Spotlight.io</category>
+        
+        <category>metrics</category>
+        
+        <category>Blue Ocean Strategy</category>
+        
+        <category>Tyler Singletary</category>
+        
+        <category>Taylor Singletary</category>
+        
+        <category>servant leadership</category>
+        
+        <category>Blue Ocean Strategy</category>
+        
+        <category>conferences</category>
         
         
       </item>
@@ -486,21 +602,21 @@ The main stage at the 2017 API World Conference.
         <link>http://localhost:4000/2017/10/24/RESTAPINotes/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/24/RESTAPINotes/</guid>
         
-        <category>REST</category>
+        <category>REST API Notes</category>
         
-        <category>API</category>
+        <category>Roger Jin</category>
         
-        <category>Notes,Roger</category>
+        <category>microservices</category>
         
-        <category>Jin,microservices,Péter</category>
+        <category>Péter Márton</category>
         
-        <category>Márton,Bruno</category>
+        <category>Bruno Pedro</category>
         
-        <category>Pedro,James</category>
+        <category>James Higginbotham</category>
         
-        <category>Higginbotham,Phil</category>
+        <category>Phil Sturgeon</category>
         
-        <category>Sturgeon,HTTP2</category>
+        <category>HTTP2</category>
         
         
       </item>
@@ -519,23 +635,23 @@ The main stage at the 2017 API World Conference.
         <link>http://localhost:4000/2017/10/16/RESTAPINotes/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/16/RESTAPINotes/</guid>
         
-        <category>REST</category>
+        <category>REST API Notes</category>
         
-        <category>API</category>
+        <category>RESTfest</category>
         
-        <category>Notes,RESTfest,Nordic</category>
+        <category>Nordic APIs</category>
         
-        <category>APIs,Bill</category>
+        <category>Bill Doerrfeld</category>
         
-        <category>Doerrfeld,Oldrich</category>
+        <category>Oldrich Novak</category>
         
-        <category>Novak,Zdenek</category>
+        <category>Zdenek Nemec</category>
         
-        <category>Nemec,Kin</category>
+        <category>Kin Lane</category>
         
-        <category>Lane,Mark</category>
+        <category>Mark Boyd</category>
         
-        <category>Boyd,security</category>
+        <category>security</category>
         
         
       </item>
@@ -554,43 +670,41 @@ The main stage at the 2017 API World Conference.
         <link>http://localhost:4000/2017/10/10/RESTAPINotes/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/10/RESTAPINotes/</guid>
         
-        <category>REST</category>
+        <category>REST API Notes</category>
         
-        <category>API</category>
+        <category>Jonas Bonér</category>
         
-        <category>Notes,Jonas</category>
+        <category>Event Storming</category>
         
-        <category>Bonér,Event</category>
+        <category>Reactive Microservices</category>
         
-        <category>Storming,Reactive</category>
+        <category>Domain Driven Design</category>
         
-        <category>Microservices,Domain</category>
+        <category>Service Meshes</category>
         
-        <category>Driven</category>
+        <category>Phil Calcado</category>
         
-        <category>Design,Service</category>
+        <category>Christian Posta</category>
         
-        <category>Meshes,Phil</category>
+        <category>Kasun Indrasiri</category>
         
-        <category>Calcado,Christian</category>
+        <category>Daniel Bryant</category>
         
-        <category>Posta,Kasun</category>
+        <category>Toby Clemson</category>
         
-        <category>Indrasiri,Daniel</category>
+        <category>Mehdi Medjaoui</category>
         
-        <category>Bryant,Toby</category>
+        <category>Oauth.io</category>
         
-        <category>Clemson,Mehdi</category>
+        <category>API Academy</category>
         
-        <category>Medjaoui,Oauth.io,API</category>
+        <category>David Biesack</category>
         
-        <category>Academy,David</category>
+        <category>Apiture</category>
         
-        <category>Biesack,Apiture,Nordic</category>
+        <category>Nordic API</category>
         
-        <category>API,Kin</category>
-        
-        <category>Lane</category>
+        <category>Kin Lane</category>
         
         
       </item>
@@ -948,15 +1062,29 @@ A piece of our lifecycle tooling may look familiar. After a team has provided so
 &lt;p&gt;Thank you for your attention. My name is Matthew Reinbold. I am the Lead for the Capital One API Center of Excellence and, if you'd like to continue this discussion my contact information is listed here.&lt;/p&gt;
 &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;That's it for the presentation. But, if you're interested in more, check out [the most commonly asked questions (and answers)](/2017/10/26/API-Blueprint-Followup/).&lt;/p&gt;
+&lt;p&gt;That's it for the presentation. But, if you're interested in more, check out &lt;a href=&quot;/2017/10/26/API-Blueprint-Followup/&quot;&gt;the most commonly asked questions (and answers)&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Oct 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/10/03/API-Governance-Blueprint/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/03/API-Governance-Blueprint/</guid>
         
-        <category>REST</category>
+        <category>REST API</category>
         
-        <category>API</category>
+        <category>presos</category>
+        
+        <category>API World</category>
+        
+        <category>Capital One</category>
+        
+        <category>API Governance</category>
+        
+        <category>Jeff Bezos</category>
+        
+        <category>metrics</category>
+        
+        <category>NPS</category>
+        
+        <category>conferences</category>
         
         
       </item>
@@ -975,27 +1103,33 @@ A piece of our lifecycle tooling may look familiar. After a team has provided so
         <link>http://localhost:4000/2017/10/02/RESTAPINotes/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/02/RESTAPINotes/</guid>
         
-        <category>REST</category>
+        <category>REST API Notes</category>
         
-        <category>API</category>
+        <category>API World</category>
         
-        <category>Notes,API</category>
+        <category>Matt McLarty</category>
         
-        <category>World,Matt</category>
+        <category>microservices</category>
         
-        <category>McLarty,microservices,Erik</category>
+        <category>Erik Wilde</category>
         
-        <category>Wilde,API</category>
+        <category>API Days</category>
         
-        <category>Days,Nicolas</category>
+        <category>Nicolas Grenie</category>
         
-        <category>Grenie,Runscope,CA,John</category>
+        <category>Runscope</category>
         
-        <category>Sheehan,Facebook,GraphQL,Bruce</category>
+        <category>CA</category>
         
-        <category>Perens,Irakli</category>
+        <category>John Sheehan</category>
         
-        <category>Nadareishvili</category>
+        <category>Facebook</category>
+        
+        <category>GraphQL</category>
+        
+        <category>Bruce Perens</category>
+        
+        <category>Irakli Nadareishvili</category>
         
         
       </item>
@@ -1014,23 +1148,25 @@ A piece of our lifecycle tooling may look familiar. After a team has provided so
         <link>http://localhost:4000/2017/09/25/RESTAPINotes/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/09/25/RESTAPINotes/</guid>
         
-        <category>REST</category>
+        <category>REST API Notes</category>
         
-        <category>API</category>
+        <category>Gary Olliffe</category>
         
-        <category>Notes,Gary</category>
+        <category>Darrel Miller</category>
         
-        <category>Olliffe,Darrel</category>
+        <category>Nikhil Kolekar</category>
         
-        <category>Miller,Nikhil</category>
+        <category>API World</category>
         
-        <category>Kolekar,API</category>
+        <category>San Jose</category>
         
-        <category>World,San</category>
+        <category>Adobe</category>
         
-        <category>Jose,Adobe,PayPal,Azure,Dan</category>
+        <category>PayPal</category>
         
-        <category>Ciruli</category>
+        <category>Azure</category>
+        
+        <category>Dan Ciruli</category>
         
         
       </item>
@@ -1049,44 +1185,25 @@ A piece of our lifecycle tooling may look familiar. After a team has provided so
         <link>http://localhost:4000/2017/09/18/RESTAPINotes/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/09/18/RESTAPINotes/</guid>
         
-        <category>REST</category>
+        <category>REST API Notes</category>
         
-        <category>API</category>
+        <category>Erik Wilde</category>
         
-        <category>Notes,Erik</category>
+        <category>RESTfest</category>
         
-        <category>Wilde,RESTfest,linksets,hypermedia,Stephen</category>
+        <category>linksets</category>
         
-        <category>Mizell,Mark</category>
+        <category>hypermedia</category>
         
-        <category>Foster,microservices,GraphQL,Dennis</category>
+        <category>Stephen Mizell</category>
         
-        <category>Walsh</category>
+        <category>Mark Foster</category>
         
+        <category>microservices</category>
         
-      </item>
-    
-      <item>
-        <title>Fielding's Reflection on REST  &amp;#x2709;</title>
-        <description>&lt;p&gt;Roy T. Fielding was the author of the original paper outlining the REST architectural style. He recently revisited his work in a paper, and subsequent presentation that is covered in this week's REST API Notes. I also cover Equifax, and allegations that the breach was because of a REST exploit.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-11-roy-s-reflections&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-11-roy-s-reflections&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 11 Sep 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/09/11/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/11/RESTAPINotes/</guid>
+        <category>GraphQL</category>
         
-        <category>REST</category>
-        
-        <category>API</category>
-        
-        <category>Notes,Roy</category>
-        
-        <category>Fielding,Equifax,Java,Struts</category>
+        <category>Dennis Walsh</category>
         
         
       </item>
