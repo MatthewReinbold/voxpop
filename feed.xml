@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matthew Reinbold</title>
-    <description>This is the website for Matthew Reinbold, the Lead for the Capital One API  Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
+    <description>This is the website for Matthew Reinbold, the Director for Capital One's   Platform Services Center of Excellence. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Yes, I am the adult male that still plays with Lego. You should too.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Feb 2018 15:38:34 -0500</pubDate>
-    <lastBuildDate>Sat, 10 Feb 2018 15:38:34 -0500</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Thu, 08 Mar 2018 08:31:52 -0500</pubDate>
+    <lastBuildDate>Thu, 08 Mar 2018 08:31:52 -0500</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>RIP John Perry Barlow</title>
@@ -458,6 +458,13 @@ Thank you for your attention.
 &lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2&gt;Update:&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;For more thinking along these lines, check out James Lewis's 2015 GOTO Conference talk, &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=l1tyfb5we7I&quot;&gt;How I Finally Stopped Worrying and Learnt to Love Conway's Law&lt;/a&gt;&lt;/em&gt;. Concepts include John Boyd's OODA Loops and the microservice stability onion. Really.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 07 Dec 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2017/12/07/ConwayAndAPIDesign/</link>
@@ -478,6 +485,251 @@ Thank you for your attention.
         <category>Blue Ocean Strategy</category>
         
         <category>conferences</category>
+        
+        <category>James Lewis</category>
+        
+        <category>John Boyd</category>
+        
+        <category>microservices</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Kubernetes, Sidecars, and Service Meshes, Oh My &amp;#x2709;</title>
+        <description>&lt;p&gt;Two things happened, independently, that dovetailed into an industry movement worth talking about. Both the AWS re:Invent event and Thoughtworks Technology Radar were &lt;em&gt;heavy&lt;/em&gt; on service meshes; specifically, the kind delivered through Kubernetes. But what is Kubernetes, what does that have to do with a sidecar, and how does this effect API developers? I attempt to shed some light on this recent phenomena.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-2017-12-05&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-2017-12-05&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Dec 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2017/12/05/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/12/05/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>kubernetes</category>
+        
+        <category>service meshes</category>
+        
+        <category>AWS</category>
+        
+        <category>Ben Thompson</category>
+        
+        <category>strategy</category>
+        
+        <category>Kong</category>
+        
+        <category>API Gateways</category>
+        
+        <category>Facebook</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Thanksgiving Leftovers and Microservices &amp;#x2709;</title>
+        <description>&lt;p&gt;While I might be tripping on tryptophan, the authors in this edition of REST API notes were busy sharing insights. In addition to a higher-than-usual smattering of industry news (Sendgrid, RESTlet, Twitter, AirBnB, and Strip), I gather up numerous, recent pieces on microservices and put them in one single, easily digestible place. Give it a gander.  &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-28&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-28&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Nov 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2017/11/28/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/28/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Kostas Livieratos</category>
+        
+        <category>DX</category>
+        
+        <category>Kin Lane</category>
+        
+        <category>microservices</category>
+        
+        <category>InnoQ</category>
+        
+        <category>Stefan Tilkov</category>
+        
+        <category>Daniel Bryant</category>
+        
+        <category>Mike Amundsen</category>
+        
+        <category>Sendgrid</category>
+        
+        <category>Twilio</category>
+        
+        <category>RESTlet</category>
+        
+        <category>Talend</category>
+        
+        <category>Runscope</category>
+        
+        <category>Hitch</category>
+        
+        <category>New Relic</category>
+        
+        <category>Twitter</category>
+        
+        <category>AirBnB</category>
+        
+        <category>Stripe</category>
+        
+        <category>OpenAPI</category>
+        
+        <category>Romain Huet</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>An Interview with Kin Lane  &amp;#x2709;</title>
+        <description>&lt;p&gt;I recently had the opportunity to sit down to interview Kin Lane, the API Evangelist. Shot at Capital One, we discuss the past, present, and future of web-based APIs. &lt;/p&gt;
+
+&lt;p&gt;
+	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DbatBt_fPug&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-16&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-16&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Nov 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2017/11/16/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/16/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Kin Lane</category>
+        
+        <category>video</category>
+        
+        <category>Capital One</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Pitch Me at your Own Peril  &amp;#x2709;</title>
+        <description>&lt;p&gt;There was a tremendous amount of top-shelf content presented at the most recent API Strategy and Practice Conference (APIStrat). In this edition of the newsletter, I run down the best material that has, subsequently, surfaced online. But not before starting with a minor rant about vendor tools that conflate CRUD and RESTful API design.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-07&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-07&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Nov 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2017/11/07/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/07/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>API Design</category>
+        
+        <category>bots</category>
+        
+        <category>IoT</category>
+        
+        <category>James Higginbotham</category>
+        
+        <category>APIStrat</category>
+        
+        <category>Irakli Nadareishvili</category>
+        
+        <category>Capital One</category>
+        
+        <category>Chris Busse</category>
+        
+        <category>Hong Zhang</category>
+        
+        <category>Google</category>
+        
+        <category>Arnaud Lauret</category>
+        
+        <category>Taylor Barnett</category>
+        
+        <category>Jenny Wanger</category>
+        
+        <category>Ash Hathaway</category>
+        
+        <category>Kistof Van Tomme</category>
+        
+        <category>Bill Doerrfeld</category>
+        
+        <category>James Messinger</category>
+        
+        <category>Sandeep Dinesh</category>
+        
+        <category>Istio</category>
+        
+        <category>service mesh</category>
+        
+        <category>microservices</category>
+        
+        <category>Jeremy Whitlock</category>
+        
+        <category>JSON Schema</category>
+        
+        <category>Slack</category>
+        
+        <category>OpenAPI</category>
+        
+        <category>Taylor Singletarywebhooks</category>
+        
+        <category>IETF</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Back to the Beginning  &amp;#x2709;</title>
+        <description>&lt;p&gt;What is the best way to learn RESTful API design? Telling someone to &quot;fail a lot at companies of all sizes&quot; isn't very helpful. Likewise, I also am increasingly skeptical of throwing out book recommendations. There are some fantastic resources available if you have the time and tenacity to immerse yourself in deep study. If you already practice API design, adding an additional perspective is not that big of deal. But taking the enthusiasm of someone new and smothering it under a handful of titles for a &quot;complete&quot; perspective isn't right either (and, unfortunately, I do not believe there is a single book that encompasses everything; it is much more like a progression).&lt;/p&gt;
+
+&lt;p&gt;So what should someone do? I spelunk the problem in this issue of REST API Notes.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-31-back-to-the-beginning&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-31-back-to-the-beginning&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Oct 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/10/31/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/31/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Roy Fielding</category>
+        
+        <category>Martin Hawksey</category>
+        
+        <category>Google</category>
+        
+        <category>Flickr</category>
+        
+        <category>Todd Fredrich</category>
+        
+        <category>APIStrat</category>
+        
+        <category>Microsoft</category>
+        
+        <category>Outlook</category>
+        
+        <category>Oauth</category>
+        
+        <category>CodeCademy</category>
+        
+        <category>Udacity</category>
         
         
       </item>
@@ -532,15 +784,19 @@ The main stage at the 2017 API World Conference.
 
 &lt;p&gt;“Feeling the pain” is much easier when explaining questionable technical decisions to technical stakeholders. It is more challenging, though not impossible, if those with the power to change the situation are non-technical. When this challenge was posed to my peers, &lt;a href=&quot;https://medium.com/@harmophone&quot;&gt;Tyler Singletary,  SVP of Product at Tagboard&lt;/a&gt; stated the importance of quantifying what the &lt;em&gt;material effect&lt;/em&gt; was, either in cost or lost revenue.&lt;/p&gt;
 
-&lt;p&gt;Does the pain inherent in the process:
-* Cause a significant time increase (and cost-overrun) of implementation?
-* Hinder getting an integration with [target company X that has benefit Y that the company wants]?
-* Lose Sales?
-* Impede progress on Strategic Goal X?
-* Cost more to support?&lt;/p&gt;
+&lt;p&gt;Does the pain inherent in the process:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cause a significant time increase (and cost-overrun) of implementation?&lt;/li&gt;
+  &lt;li&gt;Hinder getting an integration with [target company X that has benefit Y that the company wants]?&lt;/li&gt;
+  &lt;li&gt;Lose Sales?&lt;/li&gt;
+  &lt;li&gt;Impede progress on Strategic Goal X?&lt;/li&gt;
+  &lt;li&gt;Cost more to support?&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Quantifying the pain makes it go from a geeky abstraction to a business reality. The similarly named (but totally different) &lt;a href=&quot;https://www.linkedin.com/in/taylorsingletary/&quot;&gt;Taylor Singletary, who does Slack Developer Relations&lt;/a&gt;, had this insight to share:
-&amp;gt; “I think if I wanted a &lt;em&gt;technical&lt;/em&gt; executive to feel the pain, ask them to document something you know has barby edges. To make the &lt;em&gt;non-technical executive&lt;/em&gt; feel some version of that pain, ask them to read that same document out loud.”&lt;/p&gt;
+&lt;p&gt;Quantifying the pain makes it go from a geeky abstraction to a business reality. The similarly named (but totally different) &lt;a href=&quot;https://www.linkedin.com/in/taylorsingletary/&quot;&gt;Taylor Singletary, who does Slack Developer Relations&lt;/a&gt;, had this insight to share:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“I think if I wanted a &lt;em&gt;technical&lt;/em&gt; executive to feel the pain, ask them to document something you know has barby edges. To make the &lt;em&gt;non-technical executive&lt;/em&gt; feel some version of that pain, ask them to read that same document out loud.”&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;i-am-someone-now-in-charge-of-a-governance-program-what-do-i-do-to-get-started&quot;&gt;I am someone now in charge of a governance program. What do I do to get started?&lt;/h2&gt;
 
@@ -659,558 +915,6 @@ The main stage at the 2017 API World Conference.
         <category>Mark Boyd</category>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Reactive Microservices and Service Meshes  &amp;#x2709;</title>
-        <description>&lt;p&gt;If there was a theme to much of 2017's RESTful API news, it has been strategies for dealing with microservice complexity. In this latest newsletter I, briefly, touch on two approaches: *reactive microservices* and *service meshes*. In addition to a handful of slide shows and a link to download a free book, I also cover **event storming**. Event storming is a promising technique for decomposing a problem space in a more approachable manner than domain driven design. Check it out!&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-10-reactive-microservices-and-service-meshes&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-10-reactive-microservices-and-service-meshes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Oct 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/10/10/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/10/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Jonas Bonér</category>
-        
-        <category>Event Storming</category>
-        
-        <category>Reactive Microservices</category>
-        
-        <category>Domain Driven Design</category>
-        
-        <category>Service Meshes</category>
-        
-        <category>Phil Calcado</category>
-        
-        <category>Christian Posta</category>
-        
-        <category>Kasun Indrasiri</category>
-        
-        <category>Daniel Bryant</category>
-        
-        <category>Toby Clemson</category>
-        
-        <category>Mehdi Medjaoui</category>
-        
-        <category>Oauth.io</category>
-        
-        <category>API Academy</category>
-        
-        <category>David Biesack</category>
-        
-        <category>Apiture</category>
-        
-        <category>Nordic API</category>
-        
-        <category>Kin Lane</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>API Governance for IT Culture Change</title>
-        <description>&lt;p&gt;Here is a copy of the presentation that I gave at API World 2017. I've had the fortune (or misfortune, as the case may be) to work on API platform governance programs for the past several years. This is a culmination of my lessons learned during this time.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide01.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-Hello everyone, my name is Matthew Reinbold and I work for Capital One. My team, the API Center of Excellence, helps developers create great API experiences. We are big advocates for the power of &lt;a href=&quot;/2016/06/02/ConsistencyAndCohesion/&quot;&gt;consistency and cohesion&lt;/a&gt; in API design. To be clear, my team doesn't write the APIs but we collaborate with the people that do.
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide02.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-
-&lt;p&gt;I am curious - how do people learn about API practices? Where do you go for new tips and techniques?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How many people (willingly) subscribe to two or more email newsletters? I happen to write one called &lt;a href=&quot;https://tinyletter.com/RESTAPINotes&quot;&gt;REST API Notes&lt;/a&gt;.&lt;/li&gt;
-
-&lt;li&gt;How many people (willingly) follow industry people on Twitter? I'm Twitter's &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;@libel_vox&lt;/a&gt;.&lt;/li&gt;
-
-&lt;li&gt;How many people use an RSS reader to keep up with blogs? Occasionally I post long form stuff on &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;https://matthewreinbold.com&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I happen to be engaged on many fronts. As we go along, you'll see my contact info at the bottom of almost every slide. Please, if anything in this preso here raises questions or you have different insights let's talk about it. Let's have the kind of dialog that should be happening within your companies. Why do we need to help each other figure things out?&lt;/p&gt;
-
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide03.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-	
-&lt;p&gt;&lt;strong&gt;Because change is constant&lt;/strong&gt;. And, in other news, the sky is blue and water is wet, right? We all accept this as being obvious. And yet, when it comes to managing software complexity, API or otherwise, within our organizations, we create rules, processes, and punishments for those things that deviate from our understanding of the world &lt;em&gt;today&lt;/em&gt;. We readily acknowlege change and yet build governance as if things won't.&lt;/p&gt;
-
-&lt;p&gt;We can change the narrative. Governance doesn't have have to be restrictive. Instead, I'm here to paint a different picture, one where governance is an enabler of positive change.&lt;/p&gt;
-
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide04.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-We have to. The toolsets that developers would &lt;em&gt;like&lt;/em&gt; to use to solve their problems in the most efficient manner are expanding at an incredible rate. This is just a snapshot of things that my team has had to evaluate in some capacity in the past year.
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide05.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;And pick your physical metaphor, be it a radar, or a cycle, but these new approaches are going to continue to come. &lt;/p&gt;
-
-&lt;p&gt;That's why we're here and why APIs have been so incredibly successful. APIs are a strategy for dealing with change, whether they are web-based, RESTful, or otherwise. &lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide06.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-	
-&lt;p&gt;Modularity of systems is a successful approach to dealing with change. Writing to the interface, rather than the implementation, means that when a better persistent data store comes along, or when a better framework presents itself, we can take advantage of that with a minimum amount of disruption to the rest of the company. &lt;/p&gt;
-
-&lt;p&gt;That said, this isn't about technology. Or at least that is not why it is valuable. &lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide07.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;Swapping out a data store under the covers is just intellectual noodling unless it delivers a tangible business value. At Capital One, the modularity that our API program delivers has allowed us to create &lt;strong&gt;value&lt;/strong&gt; on platforms that didn't even exist three years ago.&lt;/p&gt;
-
-&lt;p&gt;Here we have three very different customer experiences: a mobile native application, a voice assistant, and a chatbot. When we started our API journey several years ago, did we know that we needed APIs to be a launch day partner for the Amazon Echo Show, or that we needed to translate an emoji to a financial transaction? No, of course not.&lt;/p&gt;
-
-&lt;p&gt;However, being able to execute on an API Strategy has meant being able to deliver the kind of customer experiences that &lt;a href=&quot;https://www.consumeraffairs.com/news/capital-one-discover-win-honors-for-best-mobile-financial-apps-061917.html&quot;&gt;we won a JD Power award&lt;/a&gt; for a few months ago.&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide08.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-	
-However, one can't just say that you're adapting an API strategy to accommodate change and everything will magically work. The culture has to be has to be wired for change. Any strategic initiative that isn't aligned with the culture will, eventually, fail. 
-
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide09.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-	
-&lt;p&gt;What does culture change look like? Well, if you're Jeff Bezos, &lt;a href=&quot;https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/&quot;&gt;it looks like this&lt;/a&gt;. The story goes that sometime around 2002, 2003, he sent out an internal memo to the Amazon staff dictating that all functionality should be exposed via standard interfaces. Anyone that &lt;em&gt;didn't&lt;/em&gt; do that would be fired. That &lt;strong&gt;culture change&lt;/strong&gt; to support a &lt;strong&gt;strategic API plan&lt;/strong&gt; is what lead to the eventual success of not only Amazon, but of Amazon Web Services.&lt;/p&gt;
-
-&lt;p&gt;Now, you all seem like very lovely people. Even though we've just met, I can tell. But, I'm willing to bet you don't have the kind of executive authority to make these kinds of decrees in your own organizations.&lt;/p&gt;
-
-&lt;p&gt;And that's how we end up with governance, or, &lt;em&gt;all too often&lt;/em&gt; &lt;strong&gt;bad&lt;/strong&gt; governance.&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide10.png&quot; /&gt;
-
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;Culture is those things that are important to the organization. It defines the personality of the company and how that company response in times of stress. It is the shared belief in how things are done, and what things are important. It is how a company responds to change.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, &lt;strong&gt;bad&lt;/strong&gt; governance attempts to eliminate, or at least restrict, the amount of change that can occur at any given time. This is why companies have &quot;approved tech stacks&quot; that everybody must build to. Developers can only use certain frameworks. Or write in specific languages. Or use only one brand of laptop. Governance, in these situations, is not about the enablement of strategic delivery. Or about positive cultural change. Governance, here, becomes about risk management in the face of change. It says &quot;somebody screwed up, let's make sure they don't screw up again&quot;. Governance becomes a list of allowances that made sense in the moment in which they were drafted, and not easily changed for future considerations.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;When all you have is a hammer, every problem to be solved becomes a nail&lt;/strong&gt;. If you have standards that allow for web APIs, then all problems must be solved by APIs. If you're infrastructure requires protobufs, then a solution that gRPC is optimized for is off the table. &lt;/p&gt;
-
-&lt;p&gt;Governance, rather than enabling, restricts the solution space. The culture either complies to this governance (thus lacking the capacity to innovate) &lt;strong&gt;or&lt;/strong&gt;, more commonly, &lt;em&gt;circumvents&lt;/em&gt; it. That's shadow IT and, by its very unaccounted-for nature, re-introduces the kind of risk this governance was meant to address in the first place.&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide11.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-
-&lt;p&gt;At Capital One, we had an opportunity. This is a small snapshot of our API footprint but it hints the challenges we faced in 2016. We had created a culture that incentivized the creation of APIs. But, as the CoE watched, we became increasingly concerned about whether teams were creating the &lt;em&gt;right&lt;/em&gt; APIs. Were these good APIs? Easy to use? Readily available to be combined into new products and services to deliver business value? Or had we created a culture which prized poorly written, unintuitive point-to-point integrations, because that added to the overall count? Had our culture optimized for the quantity of APIs, rather than the quality of APIs?&lt;/p&gt; 
-
-&lt;p&gt;More importantly, if that proved to be the case, how would we change the culture? &lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;
-&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide12.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-
-&lt;p&gt;As the CoE began to wrestle with the problem, a common question that I heard several times was &quot;Why aren't the teams following the rules?&quot; Among many in our leadership, the assumption was that if we just crafted the &quot;write good APIs&quot; rule, then our problems would be solved. &lt;/p&gt;
-
-&lt;p&gt;That wasn't going to happen. What we needed, instead, was a systematic approach that incentivized desired outcomes and dynamically, holistically reacted to changes in the landscape.&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt; 
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide13.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-	
-&lt;p&gt;The first part was defining a healthy ecosystem. Applying policy on an API-by-API basis meant we risked &lt;em&gt;not seeing the forest for the trees&lt;/em&gt;. Stepping back, we recognized that we were entrusted with a complex ecosystem. And like a complex ecosystem, there were some actions that would help it flourish. There were also things that, like invasive species, could jeopardize the health.&lt;/p&gt;
-
-&lt;p&gt;Once we felt we adequately understood the terrain, the second part was determining how to guide teams from where we were to where we needed to be. There are many ways to cross a chasms. To do so successfully means acknowledging the existing culture. At Capital One, we have a very heavy preference on powerpoint decks, for better or for worse. Engaging with people means meeting people where they are, on their terms, to start a dialog.&lt;/p&gt;
-
-&lt;p&gt;The third piece is ensuring that we're measuring our performance. I'm excited to meet my governance peers from other industries. I'll ask them how they quantify success and they'll all too often refer to their published API Style Guide. And I'll ask them how they know that it is positively working. Unfortunately, many don't have a good answer.&lt;/p&gt; 
-
-&lt;p&gt;Without some measurement of performance, a governance effort won't be able to determine progress toward a target state, the effectiveness of initiatives, or illustrate the journey for executive leadership. That is not an effective way to run a program or ensure business value is being created. &lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide14.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-
-&lt;p&gt;Let's dig deeper into each of these parts. Having a healthy, reactive ecosystem does not mean that there are no rules. Reverting to the wild west, where freewheeling console cowboys fire off whenever (and whatever) they want is no more a guarantee of delivering on business value than bureaucratic, dictatorial, and centrally planned systems. &lt;/p&gt;
-
-&lt;p&gt;Certain things still needed to be defined and enforced. But it isn't &lt;em&gt;all&lt;/em&gt; the things. This is the principle of &quot;&lt;strong&gt;selective standardization&lt;/strong&gt;&quot;.&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide15.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-
-&lt;p&gt;Picking sides is necessary because REST APIs follow an architectural style, not pattern. It's not a specification and that's a big reason you'll find all manner of religious flame wars over &lt;em&gt;this&lt;/em&gt; approach verses &lt;em&gt;that&lt;/em&gt;. However, for the sake of getting work done, there's a need to identify those things that are important for efficient operations and ensure that their adopted uniformly across an organization.&lt;/p&gt;
-
-&lt;p&gt;Take API versioning. I have two approaches presented here, but there are more. In this case, we want to ensure that a developer with API experience in Plano can leverage their experience and utilize their learned patterns when they attempt to use an API created by teams in northern Virginia. In this case, it is less about being &quot;right&quot;, but selectively standardizing those things that add value in being consistently implemented across the organization.&lt;/p&gt;
-
-&lt;p&gt;And then, of course, you also want to ensure that standards are protecting the long term health from detrimental practices. Like the pictured cough syrup, there's a lot of approaches that, in the short term, &lt;em&gt;appear&lt;/em&gt; to get the job done. Alcohol, cannabis, chloroform, and morphine probably solve the problem in the short term (I'm guessing). But do that on a regular basis and a body will have some serious, long-term ramifications.&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide16.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;I illustrate the fallacy of best practices by talking about a different interface that we're all familiar with, the electrical outlet. Which one of these is the &quot;best&quot; way of conducting electrical current? Hopefully, you'll agree with me that it is contextual; where you are has a lot to do with the interface you're likely to see.&lt;/p&gt; 
-
-&lt;p&gt;But imagine the pain it would be if every outlet in a house had a slightly different outlet. How difficult would it be just to plug something in and get on with work if every interface was seemingly at random? How cumbersome would having to manage all those adapters be?&lt;/p&gt;
-
-&lt;p&gt;I try to refrain from using the phase &quot;best practice&quot; when it comes to the undefined, or subtle, nuance around API design. To say something is &quot;best practice&quot; strongly implies that everything else is &quot;worst practice&quot;. Reality is that it may just be different, but - for the sake of consistency - we haven't adopted it in our house. Instead, I refer to &quot;common practice&quot;. The documentation of this &quot;common practice&quot;, or selective standardization isn't a bad thing.&lt;/p&gt;
-
-&lt;p&gt;However, this is where I see many organizations stop. They write an API style guide, publish it, and then wonder why the haphazard adoption by well-meaning volunteers seems to have created more problems than it solved.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide17.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;At minimum, the standards must be a journey, not a destination. A key component to &quot;selective standardization&quot; is knowing what to select. It is one thing for us in our ivory tower to throw darts at market forces and team needs. It is entirely another to repeatedly engage with those doing the work.&lt;/p&gt;
-
-&lt;p&gt;Our coaching effort identifies those passionate practitioners throughout our lines of business who have raised their hands and said, &quot;getting this right is important to my teams and me&quot;. Coaches not only receive additional training that they then apply to their teams. They also earn access to evolving our standards.&lt;/p&gt;
-
-&lt;p&gt;In this way, standards aren't something that are dictated to teams. Teams drive the standards. These aren't alien requirements from another planet. They see their own needs and concerns reflected back at them. That is an incredibly powerful motivator toward acceptance and buy-in.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide18.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;After identifying some aspects of a healthy ecosystem we now need to help teams traverse it. Each team is at a different point in their journey, and different points of an API lifecycle require different interactions. &lt;/p&gt;
-
-&lt;p&gt;At Capital One, we have a four-phase lifecycle for API development: &lt;em&gt;planning&lt;/em&gt;, &lt;em&gt;design&lt;/em&gt;, &lt;em&gt;development&lt;/em&gt;, and &lt;em&gt;deployment&lt;/em&gt;. An OpenAPI description is the artifact that progresses through the process. Not only is it used to capture the team's intent, but approved, machine-readable descriptions are what enable automatic publishing to a service discovery portal and provisioning to our API gateway.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide19.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-A piece of our lifecycle tooling may look familiar. After a team has provided some metadata during their planning stage, they proceed to design their API in a modified version of the Swagger Editor. 	
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide20.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;When they click on the 'eyeball', in the upper right, teams get a preview of what their documentation will look like in the service discovery portal. We had different needs in how we wanted our content organized so we provided a different rendering to the default Swagger UI. &lt;/p&gt;
-
-&lt;p&gt;It is during this preview that any violations to those &quot;selective standards&quot; are called out. These are presented to teams so that they can fix the errors &lt;em&gt;prior&lt;/em&gt; to engaging my team in design discussions. This is incredibly powerful. Rather than spending time pointing out that teams can't submit a body as part of an HTTP GET request, for example, reviewers are freed up to address higher level concerns (more on that in a moment).&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide21.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;Those discussions are captured and maintained alongside the API description. The history of how the API design evolved to be the way that it is can be seen by clicking on the word balloon. Previously, conversation would get lost in email threads or chat channels. Not only was that incredibly hard for people to track down if they had questions later, but that history became a black box for new team members. Without the history, they had no insight into what were highly contested aspects that made the API what it was, and which pieces were fair game to be changed.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide22.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;The lifecycle tool uses an enterprise instance of Github as the system of record. So, in addition to saving the conversational discussion, we can also easily do diffs between versions of an approved API design.&lt;/p&gt;
-
-&lt;p&gt;Having an API design artifact that moves through a lifecycle, with transparent and maintained history, enables collaboration. But what is the direction we're moving teams toward?&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide23.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;When I need to illustrate web API design maturity, I've started to use a pyramid. At the bottom are those APIs that provide some functionality over HTTP and little else.&lt;/p&gt;
-
-&lt;p&gt;The next level are those APIs which don't just expose functionality, but are also reliable. An APIs that is down Thursday nights from 3-5am because of backend batch processing may be functional, but not as reliable as we'd like. Likewise, if an API can't (or won't) scale to meet demand, it also isn't reliable.&lt;/p&gt;
-
-&lt;p&gt;Intuitive APIs are where we begin to see thought put into the developer experience (or DX). At this level we're thinking outside-in, rather from the data record-out. Key traits are behaving in a predictable manner, and exhibiting the selective standardization that we previously defined. &lt;/p&gt;
-
-&lt;p&gt;Moving a tier above that are empowering APIs. Beyond just having a good developer experience, these APIs also contribute direct, or nearly direct business value. In the case of our Bank Account Starter and Credit Offer external APIs, we can trace significant new revenue and accounts booked through affiliate usage. These APIs have grown the funnel, or empowered, our existing lines of business in meaningful ways.&lt;/p&gt;
-
-&lt;p&gt;At the top of the pyramid are transformative APIs. These are rare, but powerful. These are APIs that don't just expand existing lines of business, but open up brand new opportunities. We're currently working on some ideas but, as I said, these are some of the hardest APIs to create successfully. &lt;/p&gt;
-
-&lt;p&gt;Should all APIs that we product be transformative? No. That's why the pyramid is shaped the way it is, with more reliable APIs than intuitive, more intuitive than empowering, etc. What is important is that, during collaboration, we look for opportunities to advance the work; if a team only has a functional API, can we make it reliable? If it is functional and reliable, can we also make it intuitive?&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide24.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;The last point I'll make about helping teams navigate this landscape is that simply posting an API style guide, or sending out a firmly worded email is a poor substitute for rolling up one's sleeves and engaging directly with developers. Whether it is San Francisco, in the top picture, northern Virginia on the left, or in Plano, TX on the right building trust is still something done best face to face; trust that the API CoE has the developer's best interests at our heart, and trust in our developers to do the right thing. Believing that API stands for &quot;assume positive intent&quot; is much easier when you've seen eye to eye with someone. &lt;/p&gt; 
-
-&lt;p&gt;After we've left, it is the responsibility of the coaches to continue being the approachable, friendly face devs work with on their questions and concerns. They are what turn a one-off training into an ongoing, living discussion in their respective areas.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide25.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-	&lt;p&gt;Enough of this Kumbaya crap. It may sound like a great story. But how do we know it's working?&lt;/p&gt;
-
-	&lt;p&gt;Whether it is because it is hard or because it is an afterthought, meaningful metrics at the API program level are hard to find. And that is unfortunate. Business leaders have invested years, and sometimes tens of millions of dollars, towards service development. When asked if these technology initiatives have been successful, these same leaders have little to point to other than statements like: &quot;I've deployed 47 APIs this year, and my peer on the west coast has 30 in production, so my API folks must be better&quot;. Hearing it out loud, hopefully that sounds as ridiculous as it is. But, in the absence of any other KPI, they go with what they have. &lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide26.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-	&lt;p&gt;As this quote by Tom Peters implies, metrics don't exist in a sterile clean room. They actually drive behavior. Metrics can drive culture change in an organization but they must be carefully monitored for unintended first (and second) order effects. &lt;/p&gt;
-
-	&lt;p&gt;I want emphasize that the following metrics I'm about to cover are meant to address specific concerns that existed as we surveyed our landscape. Your company will be different. Attempting to implement these without consideration of your specific situation is likely to lead to disappointing results. &lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide27.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;As we stepped back and attempted to answer what makes a good API, we saw three categories of numbers emerge: &lt;em&gt;conformance&lt;/em&gt;, &lt;em&gt;performance&lt;/em&gt;, and &lt;em&gt;transformative&lt;/em&gt; metrics. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conformance&lt;/strong&gt; is the adherence of an API design to our standards. These are the rules and usage patterns that can be checked for, automatically, in our lifecycle tooling.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt; is how responsive an API is when called. These are easily quantifiable metrics and often the first numbers that people think of when reaching for numbers.&lt;/p&gt;
-
-&lt;p&gt;Together, however, conformance and performance are not enough. Just meeting performance expectations without deviation from the rules doesn't make a great API. It is like typing away at a word processor with an expected words-per-minute without creating a spelling or grammatical mistake; while you might not have any squiggly lines anywhere on the page, it doesn't mean that you've written a compelling story. &lt;/p&gt;
-
-&lt;p&gt;That is where the &lt;strong&gt;transformative&lt;/strong&gt; metric comes in. This component, which I'll talk about in a moment, allows us to capture the &lt;em&gt;subjective&lt;/em&gt; nature of the APIs in a way that can be tracked and acted upon.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide28.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;In this first slide, the number of APIs submitted to review without any deviations from our standards are broken out by LOB. For much of 2016, many of our producing devs were submitting things to collaboration that only were free from policy deviations only 15-20% of the time. My team, subsequently, had to spend precious consultation time pointing out discrepancies rather than on moving to transformative experiences. Given our desire to move teams up the quality pyramid, this was a problem.&lt;/p&gt;
-
-&lt;p&gt;In January of this year, we introduced self-service validation into the tool that could be done &lt;em&gt;prior&lt;/em&gt; to submitting for review. With this capability, development teams are able to correct their mistakes on their own time, and the CoE can devote more of the review to higher order tasks.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide29.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;A vast majority of the APIs that Capital One produces are for internal use only. And while our external work has clearly defined service level agreements (SLAs), in a weird quirk, many of our internal APIs do not. This concerned my team for awhile but when we'd ask for someone to define them, we'd never hear back.&lt;/p&gt;
-
-&lt;p&gt;So we took the opportunity to define our own in order to create a culture change. We defined a three-pronged SLA: 99.95% of the responses should not have a status code in the five-hundreds, the mean response time needed to be under 500 milliseconds, and 95% of the calls served needed to be less than two seconds. &lt;/p&gt;
-
-&lt;p&gt;We spent time deriving these values but, ultimately, they were a guess on our part. &lt;em&gt;But their very existence&lt;/em&gt; means teams now have to begin considering whether their APIs meet this behavior. And, for teams that &lt;em&gt;have&lt;/em&gt; considered their performance and published their own SLAs, we happily apply those numbers to the performance that we can see. &lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide30.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;Another example where we're using metrics to drive cultural change is with what we call &quot;stalled&quot; APIs. These are API descriptions that development teams begin but, six months after the design has been approved, still haven't made it to production.&lt;/p&gt;
-
-&lt;p&gt;While we had a story here or there guessing what might be happening, this metric allowed us to capture the effects of this behavior at a LOB level, as well as identify whether it is getting better or worse. &lt;/p&gt;
-
-&lt;p&gt;Is this the result in shifting product strategy? Frequent team disbandment and reorganization? Before we could start addressing those problems, we first had to identify that we had one.&lt;/p&gt; 	
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide31.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;NPS stands for &lt;em&gt;net promoter score&lt;/em&gt;. It encapsulates a variety of the subjective nuances comprising an experience. It is very handy in capturing the &quot;goodness&quot; of an API design.&lt;/p&gt;
-
-&lt;p&gt;There was a couple of ways we could have approached this scoring. However, executive leadership was already well versed in what NPS is. We've used it forever to gauge the customer experience on a variety of our services and products. &lt;/p&gt;
-
-&lt;p&gt;It is not enough to just ask a person scoring an API &quot;is this good?&quot;. One of the subtly clever aspects of NPS is that it reframes the question to put a reviewer's professional reputation at stake. Rather than asking &quot;Do you like this API?&quot;, NPS asks &quot;Would &lt;strong&gt;you&lt;/strong&gt; recommend this API to &lt;strong&gt;your peers&lt;/strong&gt;?&quot;. Everyone likes to think the are arbiters of style and distinction. As such, they take great pains to not recommend sub-par experiences.&lt;/p&gt;
-
-&lt;p&gt;The lowest possible score for NPS is -100 and our sample scores show we can do better. However, those scores aren't surprising given that we've been producing little more than functional and reliable APIs for years. The lack of higher-order, &lt;em&gt;transformative&lt;/em&gt; APIs shows up in these scores. But now that we're measuring, we can track whether ongoing initiatives are making it better or whether we need to do something else.&lt;/p&gt; 
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide34.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;There are some additional metrics that I won't mention here. The point is that these are an ongoing conversation. When a metric outlives its usefulness, or we find it is incentivizing the wrong behavior, we change.&lt;/p&gt; 
-
-&lt;p&gt;We take all of that data and boil it into the single visualization you see here. These radar plots allow leadership to, at a glance, see their organization's API quality relative to their peers. As quality along an axis increases, the shape grows outward, like a balloon.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide35.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;The CoE packages these insights together once a month and sends them to the accountable executive over each line of business. Usually this report includes not only observations, but tactical items that can be done to positively impact a metric or metrics. The executive directs coaches within their area to implement those changes, if they deem them necessary. Finally, the coaches then work with their development teams.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide36.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-	&lt;p&gt;That is a brief overview of how we've attempted to create a governance program that is change enablement while incentivizing culture change. We define healthy ecosystems, help teams navigate that terrain, and then measure our effectiveness along the way.&lt;/p&gt;
-
-	&lt;p&gt;A common comment that I hear, at this point, is that &quot;This sounds great, but we don't have the budget for this&quot;. Or &quot;we need a bigger team&quot;. I'd agree; if we assume that making a massive change can only happen with a massive amount of resources, then we're likely to end up on the unpleasant end of a political tug-of-war.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide37.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;In regards to doing more with less, and seeding the cultures to make that approach viable, I highly recommend the book, Blue Ocean Strategy The &lt;em&gt;majority&lt;/em&gt; of the book is about identifying new business markets and, while interesting, that's probably not what most people in this room do. However, the last third talks about creating successful culture change in order to compete in those markets. It is amazingly relevant to discussions on software governance. &lt;/p&gt;
-
-&lt;p&gt;One of the techniques it discusses is the relationship of &lt;em&gt;kingpens&lt;/em&gt;, &lt;em&gt;fishbowls&lt;/em&gt;, and &lt;em&gt;horse-trading&lt;/em&gt;. Going back to our API quality report work, we don't keep those numbers to ourselves. From the beginning, the distribution was about getting the report to the people, the kingpens, with the authority (and the responsibility) to act on the findings.&lt;/p&gt;
-
-&lt;p&gt;Next, the report acts as a fishbowl where each of the kingpens can see how the other is doing. In my experience, executives didn't get to where they are without being a tad competitive. Publishing results and easing comparative analysis creates a natural driver for action; each of the leaders wants to be number one among their peers.&lt;/p&gt;
-
-&lt;p&gt;The final element is horse-trading. Over time, sometimes by sheer inertia, certain areas accrue an abundance of resources despite requiring different resources. And my CoE doesn't have all the time or energy to produce everything that we feel would be impactful. In these cases, we can approach a LOB that is doing great work in a specific area and offer to share their story as an example for the wider org. In return, we ask for help producing those insights we may not have been able to do otherwise. We have an audience. They have manpower. A careful audit of what one has and the judicious application of horse trading can result in the kind of effects one might only associate with a &quot;bigger budget&quot;.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide38.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;In conclusion, change is constant. If the role of governance is to arrive at the &lt;strong&gt;perfectly optimized system&lt;/strong&gt; for &lt;em&gt;today&lt;/em&gt;, we will find ourselves perpetually frustrated &lt;em&gt;tomorrow&lt;/em&gt;. Day after day, year after year, that theoretical perfection will seem more and more distant.&lt;/p&gt;
-
-&lt;p&gt;Instead, if we look to governance not as a destination, but a journey we are on, then change is just part of the landscape.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide39.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;I'll end on one final Tom Peters quote: &quot;Excellent firms don't believe in excellence - only in constant improvement and constant change.&quot;&lt;/p&gt;
-
-&lt;p&gt;Build a culture whose governance processes are optimized for change.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/10/api-governance-blueprint/Slide40.png&quot; /&gt;&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;Thank you for your attention. My name is Matthew Reinbold. I am the Lead for the Capital One API Center of Excellence and, if you'd like to continue this discussion my contact information is listed here.&lt;/p&gt;
-&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;That's it for the presentation. But, if you're interested in more, check out &lt;a href=&quot;/2017/10/26/API-Blueprint-Followup/&quot;&gt;the most commonly asked questions (and answers)&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Oct 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/10/03/API-Governance-Blueprint/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/03/API-Governance-Blueprint/</guid>
-        
-        <category>REST API</category>
-        
-        <category>presos</category>
-        
-        <category>API World</category>
-        
-        <category>Capital One</category>
-        
-        <category>API Governance</category>
-        
-        <category>Jeff Bezos</category>
-        
-        <category>metrics</category>
-        
-        <category>NPS</category>
-        
-        <category>conferences</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>New Frontier Same as the Old Frontier  &amp;#x2709;</title>
-        <description>&lt;p&gt;Runscope acquired by CA, GraphQL has been re-licensed, and making an API... escape room? All this and more in the latest edition of the REST API Notes email newsletter.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-02&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-18&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Oct 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/10/02/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/02/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>API World</category>
-        
-        <category>Matt McLarty</category>
-        
-        <category>microservices</category>
-        
-        <category>Erik Wilde</category>
-        
-        <category>API Days</category>
-        
-        <category>Nicolas Grenie</category>
-        
-        <category>Runscope</category>
-        
-        <category>CA</category>
-        
-        <category>John Sheehan</category>
-        
-        <category>Facebook</category>
-        
-        <category>GraphQL</category>
-        
-        <category>Bruce Perens</category>
-        
-        <category>Irakli Nadareishvili</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>API Style, Versioning, and Adoption  &amp;#x2709;</title>
-        <description>&lt;p&gt;It is with more than a little nostalgia that I'm speaking in San Jose, this week, for the API World Conference. I'm hear to gauge where the community is in their API journeys. Meanwhile, in the newsletter, I cover a great update to the PayPal API style guide, cover Darrel Miller's approach to versioning, and point to a great microservices rant by Gary Olliffe.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-25&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-18&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 Sep 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/09/25/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/25/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Gary Olliffe</category>
-        
-        <category>Darrel Miller</category>
-        
-        <category>Nikhil Kolekar</category>
-        
-        <category>API World</category>
-        
-        <category>San Jose</category>
-        
-        <category>Adobe</category>
-        
-        <category>PayPal</category>
-        
-        <category>Azure</category>
-        
-        <category>Dan Ciruli</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Recapping RESTfest  &amp;#x2709;</title>
-        <description>&lt;p&gt;RESTfest happens every year in Greenville, SC. Despite its small size, it always is a source notable REST events. In this edition of REST API notes, I cover a handful of announcements, including Erik Wilde's &lt;em&gt;linksets&lt;/em&gt; proposal. This, and more, in the newsletter.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-18&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-09-18&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 Sep 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/09/18/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/18/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Erik Wilde</category>
-        
-        <category>RESTfest</category>
-        
-        <category>linksets</category>
-        
-        <category>hypermedia</category>
-        
-        <category>Stephen Mizell</category>
-        
-        <category>Mark Foster</category>
-        
-        <category>microservices</category>
-        
-        <category>GraphQL</category>
-        
-        <category>Dennis Walsh</category>
         
         
       </item>
