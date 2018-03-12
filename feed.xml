@@ -6,9 +6,128 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Mar 2018 08:56:48 -0500</pubDate>
-    <lastBuildDate>Fri, 09 Mar 2018 08:56:48 -0500</lastBuildDate>
+    <pubDate>Mon, 12 Mar 2018 08:46:48 -0400</pubDate>
+    <lastBuildDate>Mon, 12 Mar 2018 08:46:48 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>The Role of Product Management in API Design</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“The handles of a craftman’s tools bespeak an absolute simplicity, the plainest forms affording the greatest range of possibilitites for the user’s hand.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“That which is overdesigned, too highly specific, anticipates outcome; the anticipation of the outcomes guarantees, if not failure, the absence of grace.” - William Gibson, &lt;em&gt;All Tomorrow’s Parties&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/03/management-books.png&quot; alt=&quot;a picture of product management books on a bookstore shelf, taken from Morguefile.com&quot; /&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Successful APIs, whether they are external products or internal glue, require strong product management. However, given an API’s ephemeral nature, product managers may have difficulty with how to proceed. Done poorly, poor API product management results in a product that doesn’t meet the needs of users. Adoption will be limited. Integrations, when they do happen, will be difficult. And correcting mistakes after development will remain a demoralizing and expensive proposition.&lt;/p&gt;
+
+&lt;p&gt;Martin Eriksson, &lt;a href=&quot;https://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/&quot;&gt;defines the Product Manager role as an expertise that lies at the intersection of tech, business, and UX&lt;/a&gt;. Martin then quotes the book, &lt;a href=&quot;https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/&quot;&gt;Inspired&lt;/a&gt;, that states a product manager should ‘discover a product that is valuable, usable and feasible’. What constitutes “valuable”, “usable”, and “feasible” for an API?&lt;/p&gt;
+
+&lt;h2 id=&quot;valuable&quot;&gt;Valuable&lt;/h2&gt;
+&lt;p&gt;At the most fundamental level, an API must provide a useful function. Determining what is useful and what is not is the first job for an API product manager.&lt;/p&gt;
+
+&lt;h3 id=&quot;building-for-the-correct-audience&quot;&gt;Building for the Correct Audience&lt;/h3&gt;
+&lt;p&gt;Product managers should understand the audience that will consume the API. That may be easier than it sounds, as there actually several different types of people evaluating an API, each with their own questions. As &lt;a href=&quot;https://bradfults.com/the-best-api-documentation-b9e46400379a&quot;&gt;Brad Fults mentions&lt;/a&gt;, these audiences may include, but are not limited to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Decision Makers&lt;/strong&gt; evaluating competing API products&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Developers&lt;/strong&gt; looking to get started&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Integrators&lt;/strong&gt; attempting to debug a specific issue in an existing client&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each audience has different needs. For the decision maker, is the functionality provided by an API the same, if not better, than other competitive offerings? Can a developer get started with an API easily, perhaps with nothing more than a CURL statement? Does the API return the type of error messages that, when things go wrong, make it easy for an integrator to fix?&lt;/p&gt;
+
+&lt;h3 id=&quot;api-design-that-is-outside-in-not-reflections-of-internal-implementations&quot;&gt;API Design that is ‘Outside In’, not Reflections of Internal Implementations&lt;/h3&gt;
+
+&lt;p&gt;An API design should align with the integrator’s understanding. Creating an interface constrained to the internal systems implementation is rarely a good idea. These systems, particularly those that have existed in legacy environments, are a complex aggregation of shifting business priorities, technical advancement, team experience, etc. Exposing years (if not decades) of ‘dirty laundry’ at once significantly increases the barriers to comprehension and adoption.&lt;/p&gt;
+
+&lt;h3 id=&quot;clear-ownership&quot;&gt;Clear Ownership&lt;/h3&gt;
+&lt;p&gt;Product management includes a degree of ownership. The part of ownership that integrators care about is the amount, and form, that ownership is exhibited in. Trust in an API is difficult to earn and can be easily fumbled away.&lt;/p&gt;
+
+&lt;p&gt;Ownership of an API translates to the following communication:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Uptime Dashboard/SLA&lt;/li&gt;
+  &lt;li&gt;Change Log/Release Notes&lt;/li&gt;
+  &lt;li&gt;Roadmaps&lt;/li&gt;
+  &lt;li&gt;Known and Communicated Support and Feedback Channels&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The individual forms may vary. But each of these is an attempt to convey stability and permanence - two crucial elements when wooing developers with other options. A product with a future and team behind it is orders of magnitude more desirable than unmaintained code deployed on a computer under someone’s desk. A product manager should ensure that the former is being communicated, not the latter.&lt;/p&gt;
+
+&lt;h2 id=&quot;usable&quot;&gt;Usable&lt;/h2&gt;
+&lt;p&gt;There are a variety of different approaches for web-based APIs. Whether using RPC, REST, or subsequent variations, an API design produced by one team may vary significantly in usage and &lt;a href=&quot;http://amundsen.com/blog/archives/1109&quot;&gt;affordances&lt;/a&gt; from another team’s product - even when both teams work for the same company! The number of design choices, and how they subsequently manifest in the design, require additional work to ensure the designs are usable.&lt;/p&gt;
+
+&lt;h3 id=&quot;documentation&quot;&gt;Documentation&lt;/h3&gt;
+&lt;p&gt;This collection of differences means that documentation is incredibly important. In fact, in John Musser’s talk, “&lt;a href=&quot;https://www.slideshare.net/jmusser/ten-reasons-developershateyourapi/&quot;&gt;Ten Reasons Developers Hate Your API&lt;/a&gt;”, “sucky” documentation was listed as the &lt;strong&gt;#1&lt;/strong&gt; API problem.&lt;/p&gt;
+
+&lt;p&gt;Reasons that documentation may suck include, but are not limited to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Being inaccurate/out-of-date/incomplete&lt;/li&gt;
+  &lt;li&gt;Lacking a getting started onramp&lt;/li&gt;
+  &lt;li&gt;Unprofessional and/or lacking clarity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The rise of various formats that capture API intent in structured ways, like the OpenAPI specification, are a start. These &lt;em&gt;integration contracts&lt;/em&gt; can be used to &lt;em&gt;render&lt;/em&gt; documentation in a manner similar to how annotations in a Java codebase can render Javadoc.&lt;/p&gt;
+
+&lt;p&gt;However, like Javadocs, this “documentation” is often the bare minimum that can be done towards effective communication and understanding. An API product manager should be closely involved in the creation of an API’s documentation. They should ensure that the business value of their product is clearly captured to the intended audience.&lt;/p&gt;
+
+&lt;h3 id=&quot;standards&quot;&gt;Standards&lt;/h3&gt;
+&lt;p&gt;A common design consideration is “&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Principle_of_least_astonishment&quot;&gt;the principle of least surprise&lt;/a&gt;&lt;/em&gt;”. Design works best when it reuses familiar interface concepts. With a user interface (UI), this allows end users to make successful educated guesses, resulting in better user experience (UX). This developer experience, or “DX” should be part of the consideration when creating an API design.&lt;/p&gt;
+
+&lt;p&gt;Common industry patterns for should be used. Where possible, data should adhere standards, and those standards explicitly referenced in the documentation. For example, why force a consumer to create their own parsing for your bespoke date and time format? Use ISO8601 instead, reference it in the documentation, and be done with it. Extra points if the API design takes advantage of the work on &lt;a href=&quot;http://schema.org/&quot;&gt;schema.org&lt;/a&gt; and properly uses &lt;a href=&quot;https://www.iana.org/assignments/media-types/media-types.xhtml&quot;&gt;media types&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;feasible&quot;&gt;Feasible&lt;/h2&gt;
+&lt;p&gt;Different integrations will have different consumptions needs. Some may be able to consume the entire payload as designed. Others, do to computational or bandwidth constraints, may want a refined perspective on the resource available. Working with potential consumers to build in rate controls from the beginning is important.&lt;/p&gt;
+
+&lt;h3 id=&quot;malleability&quot;&gt;Malleability&lt;/h3&gt;
+&lt;p&gt;Support for sort ordering and pagination on returned collections is important. Default return amounts, rather than to defaulting to the entire collection, should be explicitly stated in the documentation and modifiable (within reason - page size limits should also be explicitly called out). Filtering, depending on the collection size, may be important. A more advanced option, depending on the need, is to allow for selective parameter retrieval.&lt;/p&gt;
+
+&lt;h3 id=&quot;cacheability&quot;&gt;Cacheability&lt;/h3&gt;
+&lt;p&gt;APIs should take advantage of the idempotent and safe natures available on the appropriate endpoints. Services enhance cache-ability by setting headers on responses. These headers, at a minimum, include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Date&lt;/li&gt;
+  &lt;li&gt;Cache-Control&lt;/li&gt;
+  &lt;li&gt;Expires&lt;/li&gt;
+  &lt;li&gt;Pragma&lt;/li&gt;
+  &lt;li&gt;Last-Modified&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is also possible to use the ETag header for validating the freshness of cached representations, as well as helping with conditional read and update operations. Its value is an arbitrary string for the version of a representation, sometimes a simple hash of the underlying object.&lt;/p&gt;
+
+&lt;p&gt;A product manager may not understand the &lt;em&gt;exactly&lt;/em&gt; technical mechanisms behind how these headers work. However, they should desire the best customer experience possible, and - for many - that means zippy responses.&lt;/p&gt;
+
+&lt;p&gt;Phil Sturgeon has a couple of fantastic pieces on HTTP caching. The first is &lt;a href=&quot;https://blog.apisyouwonthate.com/speeding-up-apis-apps-smart-toasters-with-http-response-caching-a67becf829c6&quot;&gt;a blog post on how to speed up API performance with HTTP response caching&lt;/a&gt;. The second is &lt;a href=&quot;https://www.youtube.com/watch?v=OwoVFGnpqpM&quot;&gt;a presentation he recently gave that was posted to YouTube&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
+&lt;p&gt;If that sounds like a lot to manage, it’s because it is. Being a product manager for an API comes with all the research and testing of a normal product, but with an additional dash of technical acumen and developer savvy. But the reward - easier integrations, more developer happiness, and better expressions of business value - is worth it.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/02/08/ProductManagementInAPIDesign/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/02/08/ProductManagementInAPIDesign/</guid>
+        
+        <category>API Design</category>
+        
+        <category>product management</category>
+        
+        <category>REST API</category>
+        
+        <category>API Governance</category>
+        
+        <category>caching</category>
+        
+        <category>Martin Eriksson</category>
+        
+        <category>John Musser</category>
+        
+        <category>Phil Sturgeon</category>
+        
+        
+      </item>
     
       <item>
         <title>RIP John Perry Barlow</title>
@@ -848,49 +967,6 @@ Thank you for your attention.
         <category>Taylor Singletarywebhooks</category>
         
         <category>IETF</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Back to the Beginning  &amp;#x2709;</title>
-        <description>&lt;p&gt;What is the best way to learn RESTful API design? Telling someone to &quot;fail a lot at companies of all sizes&quot; isn't very helpful. Likewise, I also am increasingly skeptical of throwing out book recommendations. There are some fantastic resources available if you have the time and tenacity to immerse yourself in deep study. If you already practice API design, adding an additional perspective is not that big of deal. But taking the enthusiasm of someone new and smothering it under a handful of titles for a &quot;complete&quot; perspective isn't right either (and, unfortunately, I do not believe there is a single book that encompasses everything; it is much more like a progression).&lt;/p&gt;
-
-&lt;p&gt;So what should someone do? I spelunk the problem in this issue of REST API Notes.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-31-back-to-the-beginning&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-31-back-to-the-beginning&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Oct 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/10/31/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/31/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Roy Fielding</category>
-        
-        <category>Martin Hawksey</category>
-        
-        <category>Google</category>
-        
-        <category>Flickr</category>
-        
-        <category>Todd Fredrich</category>
-        
-        <category>APIStrat</category>
-        
-        <category>Microsoft</category>
-        
-        <category>Outlook</category>
-        
-        <category>Oauth</category>
-        
-        <category>CodeCademy</category>
-        
-        <category>Udacity</category>
         
         
       </item>
