@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>What if Developers Aren&#39;t Meant to Do API Design?</title>
-  <meta name="description" content="I've grown concerned after running an enterprise API governance program. I review dozens of API designs, presented in the OpenAPI format, each week. In the p...">
+  <title>The Role of Product Management in API Design</title>
+  <meta name="description" content="  “The handles of a craftman’s tools bespeak an absolute simplicity, the plainest forms affording the greatest range of possibilitites for the user’s hand.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/2016/09/06/DevsAsAPIDesigners/">
+  <link rel="canonical" href="http://localhost:4000/2018/03/12/ProductManagementInAPIDesign/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -61,25 +61,105 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">What if Developers Aren't Meant to Do API Design?</h1>
-    <h2 class="post-subtitle">Struggling with the Question</h2>
-    <p class="post-meta"><time datetime="2016-09-06T00:00:00-04:00" itemprop="datePublished">Sep 6, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">The Role of Product Management in API Design</h1>
+    <h2 class="post-subtitle">Curating Developer Success through Sound Product Management</h2>
+    <p class="post-meta"><time datetime="2018-03-12T00:00:00-04:00" itemprop="datePublished">Mar 12, 2018</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>I've grown concerned after running an enterprise API governance program. I review dozens of API designs, presented in the OpenAPI format, each week. In the past I've adamantly maintained that poor API design was a training issue; if we, as the enterprise, could better connect developers with the right resources at the right time then we'd see an increase in <a href="//2016/06/02/ConsistencyAndCohesion" rel="nofollow">consistency and cohesion</a>. Getting those materials created and distributed has been a point of emphasis. </p>
+    <blockquote>
+  <p>“The handles of a craftman’s tools bespeak an absolute simplicity, the plainest forms affording the greatest range of possibilitites for the user’s hand.</p>
+</blockquote>
 
-<p>But what if developers aren't meant to do API design? What if that is an entirely new, emergent skill set? </p>
+<blockquote>
+  <p>“That which is overdesigned, too highly specific, anticipates outcome; the anticipation of the outcomes guarantees, if not failure, the absence of grace.” - William Gibson, <em>All Tomorrow’s Parties</em></p>
+</blockquote>
 
-<p>Before "Devops", enterprise software shops had numerous professional specializations: quality assurance, software architecture, software development, systems administrator, database administrator, etc. Each of these was recognized has having specific, deep expertise in a narrow field. The downside of having these channels, however, was that they became isolated from each other. "<a href="http://www.netlingo.com/word/throw-it-over-the-wall.php" rel="nofollow">Tossing it over the wall</a>" substituted for end-to-end project management. In the worst cases, when budgets or headcounts were under duress, all out trench warfare erupted. </p>
+<p><figure><img src="/images/2018/03/management-books.png" alt="a picture of product management books on a bookstore shelf, taken from Morguefile.com" />
+</figure></p>
 
-<p>Devops, especially the frothy conference buzzword type, was supposed to bring peace to those software shops. If infrastructure could be reduced to code, the thinking goes, then <em>everything</em> could be handled by the developers. Rather than having separate disciplines that devolve to defending their turf in times of trial, you just have developers and (in a condescending acknowledgement of reality) those that support them. </p>
+<p>Successful APIs, whether they are external products or internal glue, require strong product management. However, given an API’s ephemeral nature, product managers may have difficulty with how to proceed. Done poorly, poor API product management results in a product that doesn’t meet the needs of users. Adoption will be limited. Integrations, when they do happen, will be difficult. And correcting mistakes after development will remain a demoralizing and expensive proposition.</p>
 
-<p>That extreme, all-is-devops viewpoint also is also problematic, however. In a previous job there was an impassioned embrace of devops. The existing sysadmins and database administrators were told, officially, that they were "legacy operations". Unofficially, management was telling seasoned, loyal professionals to pound sand. Perhaps unsurprisingly, six months later, production systems began falling over. The devops devotees didn't appreciate that Cassandra requires regular maintenance to avoid having its performance undermined by tombstones. Developers now had less time to do the things they enjoyed (developing) because they were relearning skills others had perfected (operations). Time to triage issues went through the roof because developers were relearning different skillsets. Couldn't those operations and database folks help out? Unfortunately not. They had sought jobs elsewhere; places where their experience was valued.</p>
+<p>Martin Eriksson, <a href="https://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/">defines the Product Manager role as an expertise that lies at the intersection of tech, business, and UX</a>. Martin then quotes the book, <a href="https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/">Inspired</a>, that states a product manager should ‘discover a product that is valuable, usable and feasible’. What constitutes “valuable”, “usable”, and “feasible” for an API?</p>
 
-<p>I was reminded of this from a recent API Evangelist post: <a href="http://apievangelist.com/2016/08/30/graphql-seems-like-we-do-not-want-to-do-the-hard-work-of-api-design/" rel="nofollow">GraphQL Seems Like We Do Not Want To Do The Hard Work Of API Design</a>. I want developers to view API design as a core part of their job. I want them to see the importance of designing the API first, rather than being something they auto-generate from an implementation. I think these are complimentary skills and I <strong>certainly</strong> disagree with those that regulate API design to "documentation". </p>
+<h2 id="valuable">Valuable</h2>
+<p>At the most fundamental level, an API must provide a useful function. Determining what is useful and what is not is the first job for an API product manager.</p>
 
-<p>However, is that too much to ask from a majority of our developers? Is API design its own thing, no different than systems administration or architecture? Is it time to recognize the API designer as its own unique profession, complete with its own career path? Should we stop expecting a hodgepodge of different disciplines (architecture, developers, product management) to do this important work <em>in-addition-to</em> what they currently do? </p>
+<h3 id="building-for-the-correct-audience">Building for the Correct Audience</h3>
+<p>Product managers should understand the audience that will consume the API. That may be easier than it sounds, as there actually several different types of people evaluating an API, each with their own questions. As <a href="https://bradfults.com/the-best-api-documentation-b9e46400379a">Brad Fults mentions</a>, these audiences may include, but are not limited to:</p>
+
+<ul>
+  <li><strong>Decision Makers</strong> evaluating competing API products</li>
+  <li><strong>Developers</strong> looking to get started</li>
+  <li><strong>Integrators</strong> attempting to debug a specific issue in an existing client</li>
+</ul>
+
+<p>Each audience has different needs. For the decision maker, is the functionality provided by an API the same, if not better, than other competitive offerings? Can a developer get started with an API easily, perhaps with nothing more than a CURL statement? Does the API return the type of error messages that, when things go wrong, make it easy for an integrator to fix?</p>
+
+<h3 id="api-design-that-is-outside-in-not-reflections-of-internal-implementations">API Design that is ‘Outside In’, not Reflections of Internal Implementations</h3>
+
+<p>An API design should align with the integrator’s understanding. Creating an interface constrained to the internal systems implementation is rarely a good idea. These systems, particularly those that have existed in legacy environments, are a complex aggregation of shifting business priorities, technical advancement, team experience, etc. Exposing years (if not decades) of ‘dirty laundry’ at once significantly increases the barriers to comprehension and adoption.</p>
+
+<h3 id="clear-ownership">Clear Ownership</h3>
+<p>Product management includes a degree of ownership. The part of ownership that integrators care about is the amount, and form, that ownership is exhibited in. Trust in an API is difficult to earn and can be easily fumbled away.</p>
+
+<p>Ownership of an API translates to the following communication:</p>
+<ul>
+  <li>Uptime Dashboard/SLA</li>
+  <li>Change Log/Release Notes</li>
+  <li>Roadmaps</li>
+  <li>Known and Communicated Support and Feedback Channels</li>
+</ul>
+
+<p>The individual forms may vary. But each of these is an attempt to convey stability and permanence - two crucial elements when wooing developers with other options. A product with a future and team behind it is orders of magnitude more desirable than unmaintained code deployed on a computer under someone’s desk. A product manager should ensure that the former is being communicated, not the latter.</p>
+
+<h2 id="usable">Usable</h2>
+<p>There are a variety of different approaches for web-based APIs. Whether using RPC, REST, or subsequent variations, an API design produced by one team may vary significantly in usage and <a href="http://amundsen.com/blog/archives/1109">affordances</a> from another team’s product - even when both teams work for the same company! The number of design choices, and how they subsequently manifest in the design, require additional work to ensure the designs are usable.</p>
+
+<h3 id="documentation">Documentation</h3>
+<p>This collection of differences means that documentation is incredibly important. In fact, in John Musser’s talk, “<a href="https://www.slideshare.net/jmusser/ten-reasons-developershateyourapi/">Ten Reasons Developers Hate Your API</a>”, “sucky” documentation was listed as the <strong>#1</strong> API problem.</p>
+
+<p>Reasons that documentation may suck include, but are not limited to:</p>
+<ul>
+  <li>Being inaccurate/out-of-date/incomplete</li>
+  <li>Lacking a getting started onramp</li>
+  <li>Unprofessional and/or lacking clarity</li>
+</ul>
+
+<p>The rise of various formats that capture API intent in structured ways, like the OpenAPI specification, are a start. These <em>integration contracts</em> can be used to <em>render</em> documentation in a manner similar to how annotations in a Java codebase can render Javadoc.</p>
+
+<p>However, like Javadocs, this “documentation” is often the bare minimum that can be done towards effective communication and understanding. An API product manager should be closely involved in the creation of an API’s documentation. They should ensure that the business value of their product is clearly captured to the intended audience.</p>
+
+<h3 id="standards">Standards</h3>
+<p>A common design consideration is “<em><a href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment">the principle of least surprise</a></em>”. Design works best when it reuses familiar interface concepts. With a user interface (UI), this allows end users to make successful educated guesses, resulting in better user experience (UX). This developer experience, or “DX” should be part of the consideration when creating an API design.</p>
+
+<p>Common industry patterns for should be used. Where possible, data should adhere standards, and those standards explicitly referenced in the documentation. For example, why force a consumer to create their own parsing for your bespoke date and time format? Use ISO8601 instead, reference it in the documentation, and be done with it. Extra points if the API design takes advantage of the work on <a href="http://schema.org/">schema.org</a> and properly uses <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">media types</a>.</p>
+
+<h2 id="feasible">Feasible</h2>
+<p>Different integrations will have different consumptions needs. Some may be able to consume the entire payload as designed. Others, do to computational or bandwidth constraints, may want a refined perspective on the resource available. Working with potential consumers to build in rate controls from the beginning is important.</p>
+
+<h3 id="malleability">Malleability</h3>
+<p>Support for sort ordering and pagination on returned collections is important. Default return amounts, rather than to defaulting to the entire collection, should be explicitly stated in the documentation and modifiable (within reason - page size limits should also be explicitly called out). Filtering, depending on the collection size, may be important. A more advanced option, depending on the need, is to allow for selective parameter retrieval.</p>
+
+<h3 id="cacheability">Cacheability</h3>
+<p>APIs should take advantage of the idempotent and safe natures available on the appropriate endpoints. Services enhance cache-ability by setting headers on responses. These headers, at a minimum, include:</p>
+
+<ul>
+  <li>Date</li>
+  <li>Cache-Control</li>
+  <li>Expires</li>
+  <li>Pragma</li>
+  <li>Last-Modified</li>
+</ul>
+
+<p>It is also possible to use the ETag header for validating the freshness of cached representations, as well as helping with conditional read and update operations. Its value is an arbitrary string for the version of a representation, sometimes a simple hash of the underlying object.</p>
+
+<p>A product manager may not understand the <em>exactly</em> technical mechanisms behind how these headers work. However, they should desire the best customer experience possible, and - for many - that means zippy responses.</p>
+
+<p>Phil Sturgeon has a couple of fantastic pieces on HTTP caching. The first is <a href="https://blog.apisyouwonthate.com/speeding-up-apis-apps-smart-toasters-with-http-response-caching-a67becf829c6">a blog post on how to speed up API performance with HTTP response caching</a>. The second is <a href="https://www.youtube.com/watch?v=OwoVFGnpqpM">a presentation he recently gave that was posted to YouTube</a>.</p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+<p>If that sounds like a lot to manage, it’s because it is. Being a product manager for an API comes with all the research and testing of a normal product, but with an additional dash of technical acumen and developer savvy. But the reward - easier integrations, more developer happiness, and better expressions of business value - is worth it.</p>
 
   </div>
 
@@ -100,129 +180,108 @@
     
 
     
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
     	
     		<h4>Related</h4>
     		
-    	
-      <div>
-      <h5><a href="/2018/03/12/ProductManagementInAPIDesign/">The Role of Product Management in API Design</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/2017/11/28/RESTAPINotes/">Thanksgiving Leftovers and Microservices &#x2709;</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/2017/11/07/RESTAPINotes/">Pitch Me at your Own Peril  &#x2709;</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
     	
       <div>
       <h5><a href="/2017/10/26/API-Blueprint-Followup/">Making IT Culture Change Work</a></h5>
@@ -266,41 +325,12 @@
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
+    	
+      <div>
+      <h5><a href="/2017/10/03/API-Governance-Blueprint/">API Governance for IT Culture Change</a></h5>
+      </div>
+      
+      
     
 
   
@@ -565,86 +595,7 @@
     
     	
       <div>
-      <h5><a href="/2016/06/02/ConsistencyAndCohesion/">Consistency AND Cohesion</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/2015/05/12/APIsandGovernance/">The Favela vs the Planned Community</a></h5>
+      <h5><a href="/2016/09/06/DevsAsAPIDesigners/">What if Developers Aren't Meant to Do API Design?</a></h5>
       </div>
       
       
@@ -757,13 +708,6 @@
     
 
     
-    	
-      <div>
-      <h5><a href="/2015/01/08/StoryTellingAsCommunication/">Storytelling and the Developer's Need to Communicate</a></h5>
-      </div>
-      
-      
-    
 
   
 
@@ -772,13 +716,6 @@
 
     
 
-    
-    	
-      <div>
-      <h5><a href="/2014/11/04/APIEconomyandtheAmenBreak/">The API Economy and the Amen Break</a></h5>
-      </div>
-      
-      
     
 
   
@@ -861,12 +798,113 @@
     
 
     
-    	
-      <div>
-      <h5><a href="/2014/04/02/amsterdamimpressions/">On Amsterdam &amp; APIs</a></h5>
-      </div>
-      
-      
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
     
 
   
