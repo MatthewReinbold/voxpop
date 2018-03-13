@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Mar 2018 08:51:39 -0400</pubDate>
-    <lastBuildDate>Mon, 12 Mar 2018 08:51:39 -0400</lastBuildDate>
+    <pubDate>Tue, 13 Mar 2018 08:22:44 -0400</pubDate>
+    <lastBuildDate>Tue, 13 Mar 2018 08:22:44 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -23,7 +23,7 @@
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/03/management-books.png&quot; alt=&quot;a picture of product management books on a bookstore shelf, taken from Morguefile.com&quot; /&gt;
 &lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;Successful APIs, whether they are external products or internal glue, require strong product management. However, given an API’s ephemeral nature, product managers may have difficulty with how to proceed. Done poorly, poor API product management results in a product that doesn’t meet the needs of users. Adoption will be limited. Integrations, when they do happen, will be difficult. And correcting mistakes after development will remain a demoralizing and expensive proposition.&lt;/p&gt;
+&lt;p&gt;Successful APIs, whether they are external products or internal glue, require strong product management. However, given an API’s ephemeral nature, product managers may have difficulty with how to proceed. This poor API product management results in a product that doesn’t meet the needs of users. Adoption will be limited. Integrations, when they do happen, will be difficult. And correcting mistakes after development will remain a demoralizing and expensive proposition.&lt;/p&gt;
 
 &lt;p&gt;Martin Eriksson, &lt;a href=&quot;https://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/&quot;&gt;defines the Product Manager role as an expertise that lies at the intersection of tech, business, and UX&lt;/a&gt;. Martin then quotes the book, &lt;a href=&quot;https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/&quot;&gt;Inspired&lt;/a&gt;, that states a product manager should ‘discover a product that is valuable, usable and feasible’. What constitutes “valuable”, “usable”, and “feasible” for an API?&lt;/p&gt;
 
