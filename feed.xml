@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Mar 2018 10:55:48 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Mar 2018 10:55:48 -0400</lastBuildDate>
+    <pubDate>Mon, 26 Mar 2018 11:21:13 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Mar 2018 11:21:13 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -42,7 +42,7 @@
 
 &lt;p&gt;Mark Zuckerberg &lt;a href=&quot;https://www.techdirt.com/articles/20180321/17312239474/mark-zuckerberg-finally-speaks-about-cambridge-analytica-it-wont-be-enough.shtml&quot;&gt;responded last Wednesday afternoon, outlining reactive steps to the situation&lt;/a&gt;: Facebook would &lt;em&gt;investigate old apps that used v1.0&lt;/em&gt;, &lt;em&gt;further restrict access to data&lt;/em&gt;, and &lt;em&gt;give more transparency and control to end users&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Meanwhile, Facebook and Cambridge Analytica have &lt;a href=&quot;https://www.techdirt.com/articles/20180318/00111439443/both-facebook-cambridge-analytica-threatened-to-sue-journalists-over-stories-cas-use-facebook-data.shtml&quot;&gt;threatened to sue&lt;/a&gt; the journalists that broke the original story. This seems, primarily, over the erroneous use of the word “breech” in the course of describing events; if determined to be a data breech (which this wasn’t), the company could face fines.&lt;/p&gt;
+&lt;p&gt;Meanwhile, Facebook and Cambridge Analytica have &lt;a href=&quot;https://www.techdirt.com/articles/20180318/00111439443/both-facebook-cambridge-analytica-threatened-to-sue-journalists-over-stories-cas-use-facebook-data.shtml&quot;&gt;threatened to sue&lt;/a&gt; the journalists that broke the original story. This seems, primarily, over the erroneous use of the word “breach” in the course of describing events; if determined to be a data breach (which this wasn’t), the company could face fines.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
 
