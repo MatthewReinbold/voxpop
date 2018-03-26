@@ -6,9 +6,123 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Mar 2018 22:49:00 -0400</pubDate>
-    <lastBuildDate>Sat, 17 Mar 2018 22:49:00 -0400</lastBuildDate>
+    <pubDate>Mon, 26 Mar 2018 10:47:22 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Mar 2018 10:47:22 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Facebook, Regulation, and the Kitchen Sink</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/03/facebook-apology.jpg&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Last week, concerns over Facebook’s data collection practices reached an all-time fever pitch. I had intended on sharing my thoughts, along with a handful of recommended takeaways for API providers, as part of my &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/archive&quot;&gt;REST API Notes&lt;/a&gt;. However, the longer I compiled breaking news, the longer the piece became. Eventually, it seemed warranted to break Facebook off into its own dedicated post.&lt;/p&gt;
+
+&lt;p&gt;I’ve tried to be thorough, but “uncritical” set sail awhile ago. I’m biased. People, like techno-sociologist Zeynep Tufekci, raised the alarm years ago, when meaningful action could have been taken.  &lt;a href=&quot;/2016/08/01/CodifiedCulturalBias/&quot;&gt;I left Facebook around the same time over concerns on the power uber data aggregators wield&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Despite those protestations, Facebook’s practices continued. It doesn’t appear that the internal conversations ever switch from “can we?” to “should we?” And now the mob, embittered and frustrated by the cultural malaise of the moment, are coming with this torches and regulatory pitchforks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About. Goddamn. Time.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Mid-March, The New York Times reported that Cambridge Analytica &lt;a href=&quot;https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html&quot;&gt;improperly acquired the private data&lt;/a&gt; of approximately 50 million Facebook users. It then, subsequently, used the psychological profiles it created with the data to target voters on behalf of the Trump campaign during the 2016 presidential election. The Obama campaign, in 2012, &lt;a href=&quot;https://www.youtube.com/watch?time_continue=1189&amp;amp;v=LGiiQUMaShw&quot;&gt;also ingested Facebook relationship data&lt;/a&gt;. However, while the Obama campaign was transparent that people were giving their information (and their friends’ information) to the cause of re-electing Obama, the Trump campaign used data culled from a personality quiz app.&lt;/p&gt;
+
+&lt;p&gt;This app used the 1.0 version of the Facebook’s Graph API. That version launched in April, 2010 and allowed developers to “not only see the social connection between people, &lt;a href=&quot;https://techcrunch.com/2010/04/21/zuckerbergs-buildin-web-default-social/&quot;&gt;but see and create the connections people have with their interests - things, places, brands, and other sites&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Very &lt;em&gt;little&lt;/em&gt; information is needed before profound insights can be inferred about a person. &lt;a href=&quot;https://web.archive.org/web/20090328103238/http://privacy.cs.cmu.edu/dataprivacy/HIPAA/HIPAAcomments.html&quot;&gt;A Carnegie Mellon study has shown&lt;/a&gt;, 87% of Americans can be positively identified using only a 5-digit postal code, gender, and date of birth. Full name, postal code, and date of birth equate to voter rolls, which themselves are sold by many states. Using nothing but likes, &lt;a href=&quot;http://www.pnas.org/content/early/2013/03/06/1218772110&quot;&gt;researchers Michal Kosinski, David Stillwell, and Thore Graepel have successfully shown they can predict a wide range of sensitive personal attributes&lt;/a&gt; including “sexual orientation, ethnicity, religious and political views, personality traits, intelligence, happiness, use of addictive substances, parental separation, age, and gender”.&lt;/p&gt;
+
+&lt;p&gt;Further, version 1.0 of the Graph API didn’t just make information about a specific user available; it allowed “extended permissions”. This feature allowed approved apps to request a range of users’ &lt;em&gt;friends&lt;/em&gt;, along with their information. This additional information &lt;em&gt;did not require the consent of those friends before it was shared&lt;/em&gt;. In addition to PII (more on that in a minute), this friend information included education, groups, hometown, interests, location, relationships, religion, work history, etc. Having understanding of information flow is powerful; according to one study, &lt;a href=&quot;https://blog.acolyer.org/2018/03/26/information-flow-reveals-prediction-limits-in-online-social-activity/&quot;&gt;‘95% of the potential predictive accuracy attainable for an individual is available within the social ties of that individual only, without requiring the individual’s data’&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A University of Cambridge professor, Aleksadr Kogan, created an app called &lt;em&gt;thisisyourdigitallife&lt;/em&gt;. Built using Facebook’s Graph API, he seeded the initial userbase with people paid through Amazon’s “Mechanical Turk”. Subsequently, &lt;a href=&quot;https://www.nytimes.com/2018/03/19/opinion/facebook-cambridge-analytica.html&quot;&gt;around 270,000 people were paid between $1 and $2 to download and use the personality quiz app&lt;/a&gt;. Through the use of ‘extended permissions’ the initial 270,000 users resulted in 50 million populated profiles; profiles containing the names, dates of birth, employment history, likes, and more. Aleksadr then gave the information he collected to Cambridge Analytica. &lt;em&gt;Technically&lt;/em&gt;, only the last step violated Facebook’s rules, which prohibit selling or giving away data collected by a third-party app.&lt;/p&gt;
+
+&lt;p&gt;Graph 1.0 was deprecated on April 2014 (and access ended entirely in 2015). The second version of the Graph API, while providing information for the conscenting user, &lt;a href=&quot;https://stackoverflow.com/questions/23417356/facebook-graph-api-v2-0-me-friends-returns-empty-or-only-friends-who-also-u&quot;&gt;no longer has extended permissions&lt;/a&gt;. However, the data collected by external entities during this time cannot be expunged; revoking access does nothing to the apps that might have had access and saved themselves a copy. The data is out there, on who-knows-how-many private servers, with the potential to be purchased, aggregated with other datasets, and weaponized for future scenarios.&lt;/p&gt;
+
+&lt;p&gt;In fact, &lt;a href=&quot;https://www.theatlantic.com/technology/archive/2018/03/my-cow-game-extracted-your-facebook-data/556214/&quot;&gt;as the author of the Facebook game ‘Cow Clicker’ stated&lt;/a&gt;, “all the publicity around Facebook’s Cambridge Analytica crisis might be sending lots of old app developers, like me, back to old code and dusty databases, wondering what they’ve even got stored and what it might yet be worth”.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the abuses didn’t stop when Graph 1.0 was fully shutdown in 2015. Other Facebook products, like Instagram’s API, &lt;a href=&quot;https://business.instagram.com/blog/new-instagram-api-features&quot;&gt;still exhibit similar behavior&lt;/a&gt;. In March, 2016, &lt;a href=&quot;https://promarket.org/roger-mcnamee-think-can-make-legitimate-case-facebook-become-parasitic/&quot;&gt;Facebook expelled a group that was using its API to scrape data about people who expressed interest in Black Lives Matter&lt;/a&gt;. The group had been selling the data to police departments. At the end of the same year, &lt;a href=&quot;https://www.propublica.org/article/hud-has-serious-concerns-about-facebooks-ethnic-targeting&quot;&gt;the Department of Housing and Urban Development launched an investigation following concerns that Facebook’s advertising tools allow real estate advertisers to discriminate users according to race&lt;/a&gt;. Facebook &lt;a href=&quot;http://time.com/5215274/facebook-messenger-android-call-text-message-data/&quot;&gt;has also admitted to collecting call and text message history of users who own Android phones&lt;/a&gt; (while users were asked if they wanted to import their phone contacts, it was not obvious to many users that they were agreeing to have their cell phone activity recorded).&lt;/p&gt;
+
+&lt;p&gt;Mark Zuckerberg &lt;a href=&quot;https://www.techdirt.com/articles/20180321/17312239474/mark-zuckerberg-finally-speaks-about-cambridge-analytica-it-wont-be-enough.shtml&quot;&gt;responded last Wednesday afternoon, outlining reactive steps to the situation&lt;/a&gt;: Facebook would &lt;em&gt;investigate old apps that used v1.0&lt;/em&gt;, &lt;em&gt;further restrict access to data&lt;/em&gt;, and &lt;em&gt;give more transparency and control to end users&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, Facebook and Cambridge Analytica have &lt;a href=&quot;https://www.techdirt.com/articles/20180318/00111439443/both-facebook-cambridge-analytica-threatened-to-sue-journalists-over-stories-cas-use-facebook-data.shtml&quot;&gt;threatened to sue&lt;/a&gt; the journalists that broke the original story. This seems, primarily, over the erroneous use of the word “breech” in the course of describing events; if determined to be a data breech (which this wasn’t), the company could face fines.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Frustratingly, Facebook seems to be taking the wrong lessons from the incident (or, if I’m cynical, they’re skewing in a direction that cements their market dominance). They are correct that the loss of trust is so much bigger than whatever terms of service Cambridge Analytica violated. However, the stated conclusion that there is a binary relationship between data portability and privacy - that either everything must be shared or Facebook controls everything - is &lt;em&gt;wrong&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.techdirt.com/articles/20180321/17312239474/mark-zuckerberg-finally-speaks-about-cambridge-analytica-it-wont-be-enough.shtml&quot;&gt;Techdirt summarized the round of media interviews that Mark Zuckerberg did, where he said&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I was maybe too idealistic on the side of data portability, that it would create more good experiences — and it created some — but I think what the clear feedback from our community was that people value privacy a lot more.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Later, he bemoans having to make these kinds of tradeoffs:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I guess I have to, because of [where we are] now, but I’d rather not.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If consumers &lt;em&gt;had&lt;/em&gt; control, it would take Mark out of the leadership role that he is, apparently, uncomfortable playing.  Why &lt;em&gt;can’t&lt;/em&gt; someone easily be able to bulk-delete “likes” older than a year? Why is it necessary for Facebook to retain work history older than the last employer? Sexual orientation, race, and religious affiliation can get someone killed - so why can’t people indicate that these should never be stored, or even &lt;em&gt;inferred&lt;/em&gt; - as part of their profile?&lt;/p&gt;
+
+&lt;p&gt;The most valuable part of Facebook, for an individual, is not the status updates, or the images uploaded - it is the network of connections they’ve built. This is why so many apps, unable to get the social graph from Facebook, resort to the kludge of the “access your contacts” email workaround. If the individual chose, why couldn’t they take those relationships (sans ‘extended permissions’ data) with them somewhere else?&lt;/p&gt;
+
+&lt;p&gt;Rather than allow apps to hoover up the kind of information useful for psyops, why not allow developers to create 3rd party tools for permissions configuration, &lt;a href=&quot;https://www.eff.org/deeplinks/2018/03/why-we-didnt-make-fix-my-facebook-privacy-settings-tool&quot;&gt;the kind Cory Doctorow wrote about&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, because there is little market incentive for Facebook to do so. Till now, the profitable thing has not aligned with the right thing. As Doc Searls has written, &lt;a href=&quot;http://blogs.harvard.edu/doc/2018/03/23/nothing/&quot;&gt;this is a problem not just for Facebook, but for an entire online publishing industry dependent on building advertising panopticons for revenue growth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Regulation, above and beyond what currently exists, is coming. It &lt;em&gt;could&lt;/em&gt; make a difference. However, ideas currently swirling entrench Facebook as the market leader, with little likelihood of alternatives arising. An example is the European ‘&lt;a href=&quot;https://pagefair.com/blog/2017/gdpr_risk_to_the_duopoly/&quot;&gt;General Data Protection Regulation&lt;/a&gt;’ (GDPR). It goes into effect May, 2018. Some have hailed it as progress toward defining when user consent is necessary. It also has provisions for data portability. However, &lt;a href=&quot;https://medium.com/mydata/gdpr-data-portability-is-a-false-promise-af460d35a629&quot;&gt;there are already workarounds devised, with the social graph considered a “legitimate interest” of the social network&lt;/a&gt;. As a ‘legitimate interest’ of the business, it is not privy to export.&lt;/p&gt;
+
+&lt;p&gt;As Techdirt summarized:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Solving” the problem isn’t going to be solving the problem for real – and it’s just going to end up giving Facebook greater power over our data. That’s an unfortunate result.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What we need is thoughtful, not knee-jerk, regulation. We need consumer-friendly policies that promote the principles of the open web and eschew monopolies. We need to treat personal data with the kind of care and responsibility that we do with powerful, potentially dangerous, things in the real world. And we need to look for answers outside of Facebook, because there’s few incentives to drive the necessary change from within.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Mar 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2018/03/26/Facebook/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/26/Facebook/</guid>
+        
+        <category>Facebook</category>
+        
+        <category>Zeynep Tufekci</category>
+        
+        <category>regulation</category>
+        
+        <category>governance</category>
+        
+        <category>Trump</category>
+        
+        <category>Obama</category>
+        
+        <category>Graph API</category>
+        
+        <category>Carnegie Mellon</category>
+        
+        <category>Michal Kosinski</category>
+        
+        <category>David Stillwell</category>
+        
+        <category>Thore Graepel</category>
+        
+        <category>Aleksadr Kogan</category>
+        
+        <category>Cambridge Analytica</category>
+        
+        <category>Mechanical Turk</category>
+        
+        <category>Instagram</category>
+        
+        <category>Mark Zuckerberg</category>
+        
+        <category>open web</category>
+        
+        <category>Cory Doctorow</category>
+        
+        <category>Doc Searls</category>
+        
+        <category>GDPR</category>
+        
+        
+      </item>
     
       <item>
         <title>The Role of Product Management in API Design</title>
@@ -894,79 +1008,6 @@ Thank you for your attention.
         <category>video</category>
         
         <category>Capital One</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pitch Me at your Own Peril  &amp;#x2709;</title>
-        <description>&lt;p&gt;There was a tremendous amount of top-shelf content presented at the most recent API Strategy and Practice Conference (APIStrat). In this edition of the newsletter, I run down the best material that has, subsequently, surfaced online. But not before starting with a minor rant about vendor tools that conflate CRUD and RESTful API design.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-10-07&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-07&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Nov 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/11/07/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/07/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>API Design</category>
-        
-        <category>bots</category>
-        
-        <category>IoT</category>
-        
-        <category>James Higginbotham</category>
-        
-        <category>APIStrat</category>
-        
-        <category>Irakli Nadareishvili</category>
-        
-        <category>Capital One</category>
-        
-        <category>Chris Busse</category>
-        
-        <category>Hong Zhang</category>
-        
-        <category>Google</category>
-        
-        <category>Arnaud Lauret</category>
-        
-        <category>Taylor Barnett</category>
-        
-        <category>Jenny Wanger</category>
-        
-        <category>Ash Hathaway</category>
-        
-        <category>Kistof Van Tomme</category>
-        
-        <category>Bill Doerrfeld</category>
-        
-        <category>James Messinger</category>
-        
-        <category>Sandeep Dinesh</category>
-        
-        <category>Istio</category>
-        
-        <category>service mesh</category>
-        
-        <category>microservices</category>
-        
-        <category>Jeremy Whitlock</category>
-        
-        <category>JSON Schema</category>
-        
-        <category>Slack</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>Taylor Singletarywebhooks</category>
-        
-        <category>IETF</category>
         
         
       </item>
