@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Mar 2018 11:42:44 -0400</pubDate>
-    <lastBuildDate>Mon, 26 Mar 2018 11:42:44 -0400</lastBuildDate>
+    <pubDate>Tue, 08 May 2018 23:26:04 -0400</pubDate>
+    <lastBuildDate>Tue, 08 May 2018 23:26:04 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -246,6 +246,148 @@
       </item>
     
       <item>
+        <title>Securing APIs and Microservice Mashups &amp;#x2709;</title>
+        <description>&lt;p&gt;Only the thorniest of thorny topics in this week's REST API Notes. First, Kristopher Sandoval talks about securing APIs. Next, Patrick Lee Scott identifies and articulates a number of microservice design patterns. &lt;/p&gt;
+
+&lt;p&gt;Oh, and jet-setting security guy, Troy Hunt, has dropped a new version of his Pwnded Password service. That alone would be news. However, he did it in conjunction with a brand-spanking &lt;strong&gt;new&lt;/strong&gt; API.
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-21&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-21&lt;/a&gt;&lt;/p&gt;
+ 
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/newsletter/2018/02/27/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/02/27/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Kristopher Sandoval</category>
+        
+        <category>security</category>
+        
+        <category>microservices</category>
+        
+        <category>Patrick Lee Scott</category>
+        
+        <category>Michael Nygard</category>
+        
+        <category>reactive microservices</category>
+        
+        <category>reactive APIs</category>
+        
+        <category>Ben Hale</category>
+        
+        <category>Paul Harris</category>
+        
+        <category>Troy Hunt</category>
+        
+        <category>Stephen Mizell</category>
+        
+        <category>RESTful JSON</category>
+        
+        <category>James Higginbotham</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
+        <title>Model Actions, Not Data &amp;#x2709;</title>
+        <description>&lt;p&gt;It is 2018, and far too many API designs still start with their data model. This inward focus, turned external, aligns poorly with integrator expectations. Mike Amundsen breaks a blog silence to remind folks of that modeling &lt;em&gt;actions&lt;/em&gt;, not data, is a fundamental design necessity.&lt;/p&gt;
+
+&lt;p&gt;In other news, Tom Wilkie provides a compelling methodology for microservice performance metrics. Jimmy Bogard covers acres of ground in his &lt;em&gt;Microservices FAQ&lt;/em&gt;. Finally there's a heaping ton of free, downloadable resources for those looking for long-form reading.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-21&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-21&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/newsletter/2018/02/21/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/02/21/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Mike Amundsen</category>
+        
+        <category>microservices</category>
+        
+        <category>monitoring</category>
+        
+        <category>Tom Wilkie</category>
+        
+        <category>Jimmy Bogard</category>
+        
+        <category>O'Reily</category>
+        
+        <category>Brendan Burns</category>
+        
+        <category>Maarten van Steen</category>
+        
+        <category>Andrew S. Tanenbaum</category>
+        
+        <category>Matt McLarty</category>
+        
+        <category>Rob Wilson</category>
+        
+        <category>Scott Morrison</category>
+        
+        <category>security</category>
+        
+        <category>ebooks</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
+        <title>REST is the new SOAP? &amp;#x2709;</title>
+        <description>&lt;p&gt;REST can be difficult. I get it. But throwing one's hands up in the air, and coining a thinkpiece of all the ways an architectural approach has personally wronged your sensibilitites is... tiresome. In this edition of the RESTful API notes, Mark Little and Phil Sturgeon deconstruct the straw men. There's also a nice preso on &quot;Surviving microservices&quot;. For bonus points, there's a theoretical model for determining the cost of API versioniong. &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-12-14&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-14&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/newsletter/2018/02/14/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/02/14/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>SOAP</category>
+        
+        <category>Pakal De Bonchamp</category>
+        
+        <category>Mark Little</category>
+        
+        <category>INFOQ</category>
+        
+        <category>Phil Sturgeon</category>
+        
+        <category>microservices</category>
+        
+        <category>Michele Leroux Bustamante</category>
+        
+        <category>Arnaud Lauret</category>
+        
+        <category>Tim Bray</category>
+        
+        <category>XML</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
         <title>RIP John Perry Barlow</title>
         <description>&lt;p&gt;John Perry Barlow did many amazing things. He was a Grateful Dead lyricist. He was a Wyoming rancher for more than a decade and a half, itself no small feat. Much too late in my professional career I contributed to the Electronic Frontier Foundation (EFF), an organization he founded to fight for a free and open internet. However, JPB will be most notable, for me, as the author of the “&lt;a href=&quot;https://www.eff.org/cyberspace-independence&quot;&gt;Declaration of Independence of Cyberspace&lt;/a&gt;”.&lt;/p&gt;
 
@@ -327,6 +469,49 @@
       </item>
     
       <item>
+        <title>API Days 2018 &amp;#x2709;</title>
+        <description>&lt;p&gt;API Days 2018 was held in Paris. Thankfully, for those of us who were unable to attend, many of the best slides were shared online.&lt;/p&gt;
+
+&lt;p&gt;I also take a few moments to mark John Perry Barlow's passing.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-07&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-07&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/newsletter/2018/02/07/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/02/07/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>API Days</category>
+        
+        <category>Erik Wilde</category>
+        
+        <category>web concepts</category>
+        
+        <category>Ronnie Mitra</category>
+        
+        <category>API Academy</category>
+        
+        <category>Zdenek Nemec</category>
+        
+        <category>IFTTT</category>
+        
+        <category>Ben Thompson</category>
+        
+        <category>Pauline Pham</category>
+        
+        <category>John Perry Barlow</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
         <title>Hypermedia, Swagger, and More &amp;#x2709;</title>
         <description>&lt;p&gt;This edition of the REST API notes starts with a review of a tool review (very meta). Not to be outdone, I then move to hypermedia extractions and end with a look at JSON Hyper-Schema. Before I begin loving a post professing to loving love or hating on the haters who ever hated I call it an update with some interesting industry milestones.&lt;/p&gt;
 
@@ -337,8 +522,8 @@
 &lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 31 Jan 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/01/31/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/31/RESTAPINotes/</guid>
+        <link>http://localhost:4000/newsletter/2018/01/31/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/01/31/RESTAPINotes/</guid>
         
         <category>REST API Notes</category>
         
@@ -383,6 +568,8 @@
         <category>Aaron Hedges</category>
         
         
+        <category>newsletter</category>
+        
       </item>
     
       <item>
@@ -398,8 +585,8 @@
 &lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Jan 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/01/24/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/24/RESTAPINotes/</guid>
+        <link>http://localhost:4000/newsletter/2018/01/24/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/01/24/RESTAPINotes/</guid>
         
         <category>REST API Notes</category>
         
@@ -450,6 +637,8 @@
         <category>Pace Layers</category>
         
         
+        <category>newsletter</category>
+        
       </item>
     
       <item>
@@ -463,8 +652,8 @@
 &lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Dec 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/12/19/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/12/19/RESTAPINotes/</guid>
+        <link>http://localhost:4000/newsletter/2017/12/19/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2017/12/19/RESTAPINotes/</guid>
         
         <category>REST API Notes</category>
         
@@ -485,532 +674,7 @@
         <category>Auth0</category>
         
         
-      </item>
-    
-      <item>
-        <title>Three Ways Conways Law Affects API Governance</title>
-        <description>&lt;p&gt;When I presented ‘3 Ways Conway’s Law Affects API Governance’ at the 2016 API Strategy Conference, I had no idea that it would become my most requested talk. Even now, a year later, I still get the occasional email asking if the talk has been posted anywhere. What had started as a handful of observations in how organizational structure was showing up in API designs had struck a cord with those in other areas.&lt;/p&gt;
-
-&lt;p&gt;So why haven’t I shared the deck before now? No good reason; there just always seemed to be some other more pressing need (or want). However, people persisted and made me realize that the content wasn’t just a blip in the conference milieu; rather, it was something that needed to be shared.&lt;/p&gt;
-
-&lt;p&gt;So, without further ado, here’s “3 Ways Conway’s Law Affects API Governance”.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide1.PNG&quot; /&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide2.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Before I start my slides, I'd like to start with someone else's presentation. Recently, Elon Musk presented his plan for how to make humans an &lt;em&gt;interplanetary species&lt;/em&gt;. &lt;a href=&quot;https://www.youtube.com/watch?v=H7Uyfqi_TE8&quot; target=&quot;_blank&quot;&gt;It is available online&lt;/a&gt; and has a number of interesting ideas. What intrigued me most, however, was how Musk illustrated why going to Mars remains prohibitively expensive. 
-&lt;/p&gt;
-&lt;p&gt;Musk argued that “full reusability” was vital to reducing the cost, thus making a trip to Mars viable. 
-&lt;/p&gt;
-&lt;p&gt;
-How many of you flew on a plane to get to this conference? 
-&lt;/p&gt;
-&lt;p&gt;
-Elon’s argument that if we built a 737 for one time use, a seat from LA to Las Vegas would cost $500,000. Of course, a plane is reused, lowering the price which makes air travel much more accessible for everyone. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide3.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Why is that? 
-&lt;/p&gt;
-&lt;p&gt;
-Because the plane is used, day after day, year after year. The cost, prohibitively expensive when used once, is distributed over the life of the vehicle. Reusability is why a ticket from LA to Los Vegas can cost as little as $43 dollars. Reusability is a key cornerstone in Musk's plan to reduce costs to the point that going to Mars becomes viable. And reusability is a compelling feature for internal APIs.
-&lt;/p&gt;
-&lt;p&gt;
-Building a plane for one use is crazy. &lt;strong&gt;And yet&lt;/strong&gt; enterprise organizations are filled with point-to-point software, one time use API interfaces that the organization pays for. Then they do that again, again, and again. 
-&lt;/p&gt;
-&lt;p&gt;
-Instead of creating consistent service architecture and demonstrating service re-use, teams inadvertently produce Just a Bunch of REST Services (JBORS): a spaghetti web of One-to-One connections between providers and consumers. As a result, an enterprise may find the REST effort &lt;strong&gt;doesn’t&lt;/strong&gt; improve technical or business agility, but, instead, end ups in only swapping out IT toolsets, message formats, and protocols.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;strong&gt;The job of API governance is to identify and mitigate these problems.&lt;/strong&gt; 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide4.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;Web APIs promise better business agility while, simultaneously, achieving better ROI on developer time. This is why I've seen an increasing number of APIs created within our organization. With sufficient volume, patterns begin to emerge. 
-&lt;/p&gt;
-&lt;p&gt;
-Capital One, broadly speaking, has five lines of business. In the card business alone we have hundreds of sprint teams developing and deploying APIs.
-&lt;/p&gt;
-&lt;p&gt;
-Our teams are API-First. They describe their API intent in an Swagger/OpenAPI description. They then submit this for collaboration. The graph shown here are API submissions for review to my area, the API Center of Excellence, grouped by week. In the first year there were over 2600 submissions for more than 650 unique APIs. 
-&lt;/p&gt;
-&lt;p&gt;
-Sure, there’s a fair amount of poor resource design or misapplication of a status code in those designs. For those API design problems, the fix is straightforward. However, when you look at this many APIs, deeper, more challenging design issues begin to emerge. 
-&lt;/p&gt;
-&lt;p&gt;
-At enterprise scale, reusability can be blocked by something deeper, something more institutional, than what can be handled simply by &quot;lexicon police&quot;. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide5.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Harvard Business Review may not be where you'd expect to seek out your software architecture insight. However, they published &lt;a href=&quot;http://www.hbs.edu/faculty/Publication%20Files/08-039_1861e507-1dc1-4602-85b8-90d71559d85b.pdf&quot; target=&quot;_blank&quot;&gt;a fantastic study attempting to measure the duality between product and organization architectures&lt;/a&gt;. The conclusion was:
-&lt;/p&gt;
-&lt;p&gt;
-&lt;blockquote&gt; &quot;[software] products tend to 'mirror' the architectures of the organizations in which they are developed. This dynamic occurs because the organization’s governance structures, problem solving routines and communication patterns constrain the space in which it searches for new solutions&quot;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide6.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Of course, anyone that has seen a microservices presentation will have heard of this phenomenon by a different name: &lt;em&gt;Conway's Law&lt;/em&gt;. 
-&lt;/p&gt;
-&lt;p&gt;
-Informally, &lt;a href=&quot;http://www.design.caltech.edu/erik/Misc/Conway.html&quot; target=&quot;_blank&quot;&gt;Conway's law&lt;/a&gt; has come to be known as:
-&lt;/p&gt;
-&lt;p&gt;
-&lt;blockquote&gt;&quot;Any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure.&quot;&lt;/blockquote&gt;
-&lt;/p&gt;
-&lt;p&gt;
-This isn't new, revelatory linkbait dominating social media at the moment. Conway made these observations about software development &lt;em&gt;in 1968&lt;/em&gt;. The reason we're still talking about it today is because it continues to illustrate a fundamental piece of human behavior. 
-&lt;/p&gt;
-&lt;p&gt;
-As Conway, more formally, stated:
-&lt;/p&gt;
-&lt;p&gt;
-&lt;blockquote&gt; &quot;Consider a large system S that the government wants to build. The government hires company X to build system S. Say company X has three engineering groups, E1, E2, and E3 that participate in the project. Conway's law suggests that it is likely that the resultant system will consist of 3 major subsystems (S1, S2, S3), each built by one of the engineering groups. More importantly, the resultant interfaces between the subsystems (S1-S2, S1-S3, etc) will reflect the quality and nature of the real-world interpersonal communications between the respective engineering groups (E1-E2, E1-E3, etc).&quot;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Let's discuss how this behavior affects API design.
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide7.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Fred Brooks, in his seminal work, &lt;em&gt;The Mythical Man Month&lt;/em&gt; observed that the more people that were added to the project, the more likely that software project would take &lt;em&gt;longer&lt;/em&gt;. Just adding people to a project doesn't make it go faster. In fact, the increase in the amount of communication overhead is more likely to slow a project even after the initial 'drinking from the fire hose' phase has past. Simply put, the more people, the more communication that needs to occur. 
-&lt;/p&gt;
-&lt;p&gt;
-That also applies to design. The more people contributing to a design, the more diverse the number of approaches, experiences, and desired outcomes a group is likely to have. The lack of cohesion result in an API design that is difficult to use. 
-&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&quot;https://dzone.com/articles/conways-law-v-software&quot; target=&quot;_blank&quot;&gt;From Conway’s Paper&lt;/a&gt;: 
-&lt;/p&gt;
-&lt;p&gt;
-&lt;blockquote&gt;
-&quot;Ways must be found to reward design managers for keeping their organizations lean and flexible. There is need for a philosophy of system design management which is not based on the assumption that adding manpower simply adds to productivity.&quot;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Businesses need to incentivize correct bounded context creations first, then apply manpower; not the other way around.  
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide8.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-But what does the really mean? How does a company's communication patterns inadvertently affect API production? An advantage of adopting the microservice architecture is that small capsules of functionality are independently deployable. Work can be partitioned out to separate teams.  
-&lt;/p&gt;
-&lt;p&gt;
-When beginning an API interface design, the correct identification of logical bounded contexts is essential. When done incorrectly, the resource association, or lack thereof, are a signal of the communication patterns of the organization behind the scenes. 
-&lt;/p&gt;
-&lt;p&gt;
-Let's start with a simple example. Suppose we need to create an API that does something with a company's users. We identify that we'll need two resources - the collection (&quot;/users&quot;) and the instances within that collection (&quot;/users/{userId}&quot;). Given that we want this done ASAP, a natural mistake might be to divide the labor across two different development teams; Team A will be responsible for the endpoints against &quot;/users&quot;, and Team B will create the design for the userId instance. Adding two development teams means that we'll have the work delivered in half the time, right? Isn't this 'division of labor' in action?
-&lt;/p&gt;
-&lt;p&gt;
-Any time you have a collections and instance resource, they strongly imply that they should be in a single API. However, I see these separated into different work units all the time. The teams are assigned to produce code by resource. Subsequently, when a you, a potential consumer of these APIs, goes to the portal site for discovery, you find multiple APIs related to a single concept - &quot;user stuff&quot;. Moreover, if the key provisioning requires separate keys in order to access each item, you've just doubled the problem on the part of the user.
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide9.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Let's suppose that the teams &lt;em&gt;did&lt;/em&gt; deliver their contributions in the expected amount of time. Chances are, if you have two teams, you're going to get two different approaches. Take the user object on the left; this is a simple set of fields to POST to the &quot;/users&quot; resource to create a new instance. We have things like &quot;name&quot;, &quot;street&quot;, &quot;city&quot;, etc. Simple and straightforward; no room for misunderstanding, right?
-&lt;/p&gt;
-&lt;p&gt;
-Actually, even with this simple example, there's plenty of places for discrepancies to appear. Look at the output by Team B on the left. They've taken the single &quot;name&quot; field and, instead, decided to represent it as two fields, &quot;firstname&quot; and &quot;lastname&quot;. Rather than having a number of address elements as siblings of the other user fields, they've created an array structure. They start with &quot;home&quot;, but the structure leaves room for alternative values, like &quot;office&quot; and &quot;shipping&quot;. Even the &quot;zip&quot; has been modified to be &quot;postal-code&quot;, assuming that they intend to support both US &lt;em&gt;and&lt;/em&gt; Canadian customers. 
-&lt;/p&gt;
-&lt;p&gt;
-This is a fairly trivial example. After quickly scanning the two objects, a consumer would be able to map values from one item to the other. However, imagine the kinds of internal jargon, abbreviations, and assumptions that may exist within one group that may not be obvious to another. By separating the design across multiple teams, the API consumer is forced to bridge these discrepancies, increasing their pain and sapping their productiveness. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide10.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;	
-The solution for this is to define the bounded context first. Let it determine the units of work, and then assign a single team to own that. Don't start with the number of teams available and let that drive the division of labor. Otherwise, there are guaranteed to be inconsistencies in the API nuances that are invisible to teams, but friction to integrators.
-&lt;/p&gt;
-&lt;p&gt;
-Having a single team working on a common concept means that objects used in both the creation and retrieval are guaranteed to look the same, because the team has clear communication among itself (or &lt;em&gt;should&lt;/em&gt;). Further, when consumers go looking, what they find maps to their expected model, rather than APIs designs via division-of-labor convenience.
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide11.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-The second observation is a bit of a mouthful. However, how many have dealt with &quot;not invented here&quot; thinking? If so, you've seen this effect in action.
-&lt;/p&gt;
-&lt;p&gt;
-If you're within the same line of business, or even same geographical location your development teams will be much more inclined to reach out, build a bridge, and ask a question. The faces are familiar. Those folks are &quot;one of us&quot;. 
-&lt;/p&gt;
-&lt;p&gt;
-Different line of business? Hell, different floor in the same building? The attitude is much more likely to default to &quot;those people speak a different language - it would be easier to just do it ourselves&quot;. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide12.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Let's return to our 'users' resource example, only now the model has been included to include an instance of a user's &lt;em&gt;preferences&lt;/em&gt;. &lt;strong&gt;Team A&lt;/strong&gt; is put in charge of the code for this feature, including the API to retrieve and update these properties. These are common things that you would find on most accounts: &lt;em&gt;language preference&lt;/em&gt;, &lt;em&gt;avatar image&lt;/em&gt;, and so on. That works well and is used to populate a 'settings' UI in an app or on the web. Everyone is happy when the 1.0 ships. 
-&lt;/p&gt;
-&lt;p&gt;
-A little while later, Team B is working on a new feature that allows users to customize the sort orders for their search pages. They've got the ordering down to a science, but it is now time to save the user's preference somewhere. Conceptually, it &lt;em&gt;should&lt;/em&gt; be part of the 'preferences' resource. However, nobody on &lt;strong&gt;Team B&lt;/strong&gt; knows anyone from &lt;strong&gt;Team A&lt;/strong&gt;. In fact, &lt;strong&gt;Team A&lt;/strong&gt; is in a different location. &lt;strong&gt;Team B&lt;/strong&gt; &lt;em&gt;could&lt;/em&gt; pick up the phone, make the introductions, relate the use case for the zillionth time, and argue with &lt;strong&gt;Team A&lt;/strong&gt; over their existing backlog prioritization.
-&lt;/p&gt;
-&lt;p&gt;
-Or &lt;strong&gt;Team B&lt;/strong&gt; could create a new one-off resource: &quot;/users/{userId}/preferences/sort&quot;, and avoid all that. After all, &lt;strong&gt;Team B&lt;/strong&gt; knows how to create APIs - they don't need help there. And &quot;preferences&quot; already kinda implies a collection, of which &quot;sort&quot; or &quot;sortOrder&quot; would be one. So what's the problem? 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide13.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-The problem is that the lack of communication on the part of the teams will manifest as additional &quot;chattiness&quot; on the part of the consumers. Yes, adding &quot;just one more&quot; resource doesn't seem, in the moment, like that bad of thing. However, it is a slippery slope, as illustrated in this mockup on the left. 
-&lt;/p&gt;
-&lt;p&gt;
-In this sample we see things like &quot;out-of-office&quot;, manager, time zone, etc. If the previous strategy employed by &lt;strong&gt;Team B&lt;/strong&gt; is allowed to proliferate, one could see how the resources would also explode into a host of one-off, fine-grained items. Imagine a consumer, like a mobile device, not only having to call each of these to populate a display, but track their dependencies on each of these. 
-&lt;/p&gt;
-&lt;p&gt;
-Yuck.
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide14.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-The solution to this second item is identifying, and enforcing, that teams own a &lt;strong&gt;context&lt;/strong&gt;, not a &lt;strong&gt;codebase&lt;/strong&gt;. In our example, &lt;strong&gt;Team A&lt;/strong&gt; &lt;em&gt;owns&lt;/em&gt; the user preferences context (if not the user context itself). Any additions, updates, or removals from that context should be performed by the owning team. 
-&lt;/p&gt;
-&lt;p&gt;
-If not, the conceptual debt incurred in order to convenience the API producers will be, subsequently, paid on every integration.
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide15.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-The 3rd Conway's Law Effect is that one's internal organization may not align to external perceptions. This can be extremely problematic when attempting to convert internal APIs to external products - things simply don’t map. Conversations are impeded and business value can't be derived, because the APIs on offer are from the perspective of internal hierarchy, rather than externally presumed functionality.
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide16.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Suppose we are responsible for the APIs in a global consumer goods business called &quot;Veridian Dynamics&quot;. There's the shampoo division and, somewhere upstate, the razors folks. Across the country lies the newly acquired &quot;Big Pumpkin&quot; division, responsible for the glut of seasonal products that one sees each fall- things like pumpkin spice candy, toothpaste, toilet paper, etc. They are the &lt;em&gt;weaponized pumpkin division&lt;/em&gt;. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide17.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-Let's look at our first attempt to articulate what our conglomerate does. This first mapping results in a resource design organized around the various divisions. We create three high level path concepts to begin grouping those things that are similar. Under an &quot;api.veridian.com&quot; domain, we put an identifier for &quot;/shampoo&quot;, &quot;/razor&quot;, and &quot;/pumpkin&quot;. 
-&lt;/p&gt;
-&lt;p&gt;
-Each line of business has its own set of needs, which they exposed as APIs in the appropriate area. These take the form of collection and instance resources under the appropriate areas. Shampoo has its formulas. Razors have their own innovative product strategies. So, too, does the weaponized pumpkin division. 
-&lt;/p&gt;
-&lt;p&gt;
-While it might make the utmost sense in the moment, this first API resource attempt that Veridian made is problematic. Development teams have been organized around specific product divisions, and the resource produced reflect those organizational structures. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide18.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-That may not be a problem if the codification of internal structure only remains available internally. But let's introduce another fictional conglomerate, &lt;em&gt;Buy 'n Large&lt;/em&gt;, or BnL. They are a national big-box store and they are looking to carry Veridian Dynamics' products in their hundreds of stores. In order to do so, they want to integrate their purchasing and fulfillment systems with Veridian Dynamics' inventory levels. 
-&lt;/p&gt;
-&lt;p&gt;
-Veridian Dynamics is ecstatic; they have APIs! The integration will be easy! The executives head off to the golf course while the developers send over the documentation for how to get their inventory levels. It takes awhile, as it has to be collected from each of the units and compiled into documentation for BnL.
-&lt;/p&gt;
-&lt;p&gt;
-Shortly after that, BnL begins to grumble. They want inventories, they should be able to just call for Veridian Dynamics inventories. However, because Veridian has organized its resources by organization division, BnL has to make multiple calls. 
-&lt;/p&gt;
-&lt;p&gt;
-Further, because each division was allowed to define its own approach, none of the calls behave the same. If one wants to retrieve inventories from the shampoo division, one would call the shampoo inventory collection. That seems straightforward until BnL's engineers try to do the same thing for razors and find (surprise!) that they need a product identifier before being able to get the stock; they're now in the business of keeping lists of razor productIds, or polling other APIs to make sure they have the latest information. And the pumpkin division? The division across the country that was recently acquired? That API is more than a little different: a caller not only needs to know the 'stock keeping unit' (or sku) but have an understanding of that division's regional warehousing. What should have been a simple task for an external entity becomes a prolonged and ongoing conversation about Veridian's internal organization.
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide19.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-And that is only the immediate problem. With an API resource design aligned to the organization, what happens when new initiatives &lt;strong&gt;cross&lt;/strong&gt; those boundaries? For example, what if the shampoo and pumpkin divisions join forces to create pumpkin-spiced shampoo? Under the previous model, does that go under the 'pumpkin' or 'shampoo' top-level paths? How are external entities going to know where to find the self-lubricating razor product that comes out of a shampoo and razor team-up? Where do we send the congressional inquiry when Veridian announces its razor pumpkin home defense product? 
-&lt;/p&gt;
-&lt;p&gt;
-Ultimately, if there is an external perception of a central concept, then the APIs - at least the external facing ones - should express that concept. In our BnL example, if they perceive Veridian's products as a single entity, then the resource design should reflect that. If being able to call for the inventories of individual products is important, we could create an API endpoint of a GET to '/products/{productId}/inventories'. If BnL still wanted all inventories, we could maintain path hierarchy by pass a wildcard, in this case the tilde ('~'), for the productId. There are several options. The point is, there API design would be aligned to the external expectation of the business function, not the internal organizational chart. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/farley.gif&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;&lt;em&gt;#TFW Devs Realize These Problems Can't be Fixed with Tools, but by Changing People&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;
-If we continue to treat API design is something that is just for developers, then developers will attempt to fix the problems with the developer tools on hand. But, as Conway’s Law implies, no amount of automation or framework selection will solve this problem.
-&lt;/p&gt;
-&lt;p&gt;
-I've demonstrated three ways in which API Design is effected by the communication patterns in a company. But how do you change those patterns? 
-&lt;/p&gt;
-&lt;p&gt;Ultimately, changing the communication patterns means changing the culture. That may sound daunting. But there are common sense, incremental ways of getting started.&lt;/p&gt; 
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide21.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;The first step is recognizing that there may be a problem. Viewing API design through the lens of Conway's law allows us to find spots where an API's design may be suboptimal due to organizational factors. But once we've identified that there is a problem, what do we do about it? 
-&lt;/p&gt;
-&lt;p&gt;
-Blue Ocean Strategy was written by W. Chan Kim and Renee Mauborgne in 2005. In it the authors articulated the challenges and possible approaches for creating meaningful organizational change. Much of the latter portion of the book includes impactful guidance for making culture change possible. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide22.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;The book identifies for challenges to cultural change. The first is &lt;strong&gt;cognitive&lt;/strong&gt; challenges. Going back to our Veridian and BnL example, the engineers that designed the first set of resources may not realize how difficult those APIs are for an external entity. 
-&lt;/p&gt;
-&lt;p&gt;
-The second challenge is &lt;strong&gt;motivation&lt;/strong&gt;. Once the inconsistencies is brought to the Veridian engineers' attention, they may &lt;em&gt;understand&lt;/em&gt; why their initial design is suboptimal, but have very little financial or intellectual motivation for making a change. There may be a lack of urgency:
-&lt;/p&gt;
-&lt;p&gt;
-&lt;blockquote&gt;
-&quot;It's a pain, sure. But that is job security for their guys, am I right?&quot;
-&lt;/blockquote&gt;
-&lt;/p&gt;
-&lt;p&gt;
-The incentives here may be intrinsic (why aren't we the API Twilio or SendGrid of retail giants?) or extrinsic (we have quantified the amount of lost sales the integration headaches are costing our business). Either way &lt;em&gt;understanding&lt;/em&gt; there is a problem and wanting to &lt;em&gt;take action&lt;/em&gt; are two different things. 
-&lt;/p&gt;
-&lt;p&gt;
-The next challenge to cultural change are resources (or the lack thereof). Suppose that we've shown Veridian's engineers the problem. And they are motivated to solve it because they see how the current design is limiting new initiatives. However, they may question where the budget for this new centralized, product API comes from. Or state that redesigning the API needs to be put on a backlog, the prioritization to be fought over at the next planning iteration. 
-&lt;/p&gt;
-&lt;p&gt;
-The final challenge may be the most difficult: the &lt;strong&gt;institutional politics&lt;/strong&gt;. Teams within each one of Veridian's divisions may acknowledge there is a problem (but it is someone else's problem). They are motivated to change (if that change supports their already existing initiatives). They might be committed to helping the company get more business (as long as it doesn't come at the expense to what the divisions are doing). 
-&lt;/p&gt;
-&lt;p&gt;
-The politics don't go away because we're talking about technology. If anything, they get &lt;em&gt;more complex&lt;/em&gt;.  
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide23.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-That sounds daunting, because it is. Positive culture change within a company can be one of the most difficult professional things to do. However, not all is lost. There are ways of seeding change that don't involve wheelbarrows full of money or a vice president title. 
-&lt;/p&gt;
-&lt;p&gt;
-To begin, start with disproportionate influencers. You know these people - the ones who are incredibly plugged in, always seem to get the regular raises, and who leadership turns to in meetings. Every company has these stars. Once these people are identified, determine how your agenda compliments, or even furthers theirs. Appealing to their better nature or a sense of duty will only get you so far. But if it can be demonstrated how your course of action actually gets them what they want, and things will begin to happen. 
-&lt;/p&gt;
-&lt;p&gt;
-Once the disproportionate influencers are onboard, &lt;em&gt;shine a light&lt;/em&gt; on their accomplishments. To change a culture, you have to paint a picture of what the destination will look like. Not only does that reward the influencer for their alliance, but it communicates to the rest of the org what behavior gets rewarded.
-&lt;/p&gt;
-&lt;p&gt;
-One mistake that wordy people, like myself, make is assuming that a single presentation, or a well-reasoned argument, is all it takes. This may appeal to people's logic. However, action rarely takes root until the audience &lt;em&gt;feels the pain&lt;/em&gt; of a certain situation. The realities of business-as-usual (BAU) don't become real until individuals are living it.
-&lt;/p&gt;
-&lt;p&gt;
-Finally, resources should be redistributed from &quot;coldspots&quot; (high need but little impact) to &quot;hotspots&quot; (big impact for little investment). Can ongoing, in-person training be recorded and provided in self-service fashion? Constantly evaluating where time is being spent, and the impacts of that time, is critical for any effort. 
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2017/12/Slide24.PNG&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-&lt;p&gt;
-At this point, I've hopefully made the argument that an organization's structure can adversely affect API design. Any API design culture needs to:
-&lt;/p&gt;
-&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt; Incentivize correct bounded context creation first, then apply manpower&lt;/li&gt;
-&lt;li&gt; Overcome resistance to reuse inherent in the org chart&lt;/li&gt;
-&lt;li&gt; Align bounded context for external APIs with external expectations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;p&gt;
-Thank you for your attention.
-&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2&gt;Update:&lt;/h2&gt;
-&lt;ul&gt;
-	&lt;li&gt;For more thinking along these lines, check out James Lewis's 2015 GOTO Conference talk, &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=l1tyfb5we7I&quot;&gt;How I Finally Stopped Worrying and Learnt to Love Conway's Law&lt;/a&gt;&lt;/em&gt;. Concepts include John Boyd's OODA Loops and the microservice stability onion. Really.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 07 Dec 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/12/07/ConwayAndAPIDesign/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/12/07/ConwayAndAPIDesign/</guid>
-        
-        <category>REST API</category>
-        
-        <category>Melvin Conway</category>
-        
-        <category>presos</category>
-        
-        <category>Elon Musk</category>
-        
-        <category>Harvard Business Review</category>
-        
-        <category>Fred Brooks</category>
-        
-        <category>Blue Ocean Strategy</category>
-        
-        <category>conferences</category>
-        
-        <category>James Lewis</category>
-        
-        <category>John Boyd</category>
-        
-        <category>microservices</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kubernetes, Sidecars, and Service Meshes, Oh My &amp;#x2709;</title>
-        <description>&lt;p&gt;Two things happened, independently, that dovetailed into an industry movement worth talking about. Both the AWS re:Invent event and Thoughtworks Technology Radar were &lt;em&gt;heavy&lt;/em&gt; on service meshes; specifically, the kind delivered through Kubernetes. But what is Kubernetes, what does that have to do with a sidecar, and how does this effect API developers? I attempt to shed some light on this recent phenomena.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-2017-12-05&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-2017-12-05&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Dec 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/12/05/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/12/05/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>kubernetes</category>
-        
-        <category>service meshes</category>
-        
-        <category>AWS</category>
-        
-        <category>Ben Thompson</category>
-        
-        <category>strategy</category>
-        
-        <category>Kong</category>
-        
-        <category>API Gateways</category>
-        
-        <category>Facebook</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Thanksgiving Leftovers and Microservices &amp;#x2709;</title>
-        <description>&lt;p&gt;While I might be tripping on tryptophan, the authors in this edition of REST API notes were busy sharing insights. In addition to a higher-than-usual smattering of industry news (Sendgrid, RESTlet, Twitter, AirBnB, and Strip), I gather up numerous, recent pieces on microservices and put them in one single, easily digestible place. Give it a gander.  &lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-28&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-28&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Nov 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/11/28/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/28/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Kostas Livieratos</category>
-        
-        <category>DX</category>
-        
-        <category>Kin Lane</category>
-        
-        <category>microservices</category>
-        
-        <category>InnoQ</category>
-        
-        <category>Stefan Tilkov</category>
-        
-        <category>Daniel Bryant</category>
-        
-        <category>Mike Amundsen</category>
-        
-        <category>Sendgrid</category>
-        
-        <category>Twilio</category>
-        
-        <category>RESTlet</category>
-        
-        <category>Talend</category>
-        
-        <category>Runscope</category>
-        
-        <category>Hitch</category>
-        
-        <category>New Relic</category>
-        
-        <category>Twitter</category>
-        
-        <category>AirBnB</category>
-        
-        <category>Stripe</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>Romain Huet</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>An Interview with Kin Lane  &amp;#x2709;</title>
-        <description>&lt;p&gt;I recently had the opportunity to sit down to interview Kin Lane, the API Evangelist. Shot at Capital One, we discuss the past, present, and future of web-based APIs. &lt;/p&gt;
-
-&lt;p&gt;
-	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DbatBt_fPug&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-16&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2017-11-16&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Nov 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/11/16/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/16/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Kin Lane</category>
-        
-        <category>video</category>
-        
-        <category>Capital One</category>
-        
+        <category>newsletter</category>
         
       </item>
     
