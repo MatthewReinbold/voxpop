@@ -455,19 +455,14 @@ pre {
   .highlight .il {
     color: #099; }
 
-.home-image {
-  float: left;
-  border: 0.1em solid #ccc;
-  -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
-  margin-right: 1em; }
-
 .post-content {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-size: 1.2em; }
 
 .post-list li:nth-child(odd) {
-  background: #f0f0f0; }
+  background: #f0f0f0;
+  border-radius: 5px;
+  padding-left: 3px; }
 
 .post-subtitle {
   font-style: italic;
@@ -532,6 +527,9 @@ footer a:active {
   font-variant: small-caps;
   letter-spacing: 1px;
   font-size: 2em; }
+
+.post-title {
+  text-shadow: 1px 1px 1px #000; }
 
 .slide {
   text-align: left; }
