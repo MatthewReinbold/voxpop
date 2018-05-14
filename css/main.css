@@ -464,6 +464,10 @@ pre {
   border-radius: 5px;
   padding-left: 3px; }
 
+.post-list p {
+  padding-left: 2em;
+  padding-right: 2em; }
+
 .post-subtitle {
   font-style: italic;
   color: #828282; }
@@ -533,6 +537,9 @@ footer a:active {
 
 .slide {
   text-align: left; }
+
+.teaser_more {
+  text-align: right; }
 
 figure {
   background-color: #e0e0e0;
