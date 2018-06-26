@@ -6,9 +6,121 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jun 2018 12:45:11 -0400</pubDate>
-    <lastBuildDate>Sun, 03 Jun 2018 12:45:11 -0400</lastBuildDate>
+    <pubDate>Tue, 26 Jun 2018 08:45:55 -0400</pubDate>
+    <lastBuildDate>Tue, 26 Jun 2018 08:45:55 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Google, Oracle, and Copyrightable APIs &amp;#x2709;</title>
+        <description>&lt;p&gt;What does the prospect of a $9 billion payout get you? Apparently, one long legal challenge that, despite various twists and turns, has come out in Oracle's favor. I've been dubious that an API design could be copyrighted. But I'm also not a lawyer. A federal court has ruled the Google has done damage to Oracle by copying the Java interface. It is a ridiculous claim; I would argue that Java is as popular as ever largely &lt;em&gt;because of&lt;/em&gt; Google's Android operating system. But here we are.&lt;/p&gt;
+
+&lt;p&gt;But that isn't all. I also cover an interesting hypermedia manifesto and four common misconceptions of REST. There's also a whirlwind recap of API fallout after the Facebook fiasco.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-04-03&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-04-03&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Apr 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/newsletter/2018/04/03/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/04/03/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Google</category>
+        
+        <category>Oracle</category>
+        
+        <category>Java</category>
+        
+        <category>Peter Williams</category>
+        
+        <category>hypermedia</category>
+        
+        <category>Asbjorn Ulsberg</category>
+        
+        <category>Facebook</category>
+        
+        <category>Instagram</category>
+        
+        <category>Cloud Elements</category>
+        
+        <category>microservices</category>
+        
+        <category>Aadhaar</category>
+        
+        <category>Keith Casey</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
+        <title>Facebook, Mulesoft Acquired, and More &amp;#x2709;</title>
+        <description>&lt;p&gt;This edition of the REST API Notes is double stuffed. For starters, I've got loads to say about Facebook (I try to keep it more on the technologist side here, but &lt;a href=&quot;/2018/03/26/Facebook/&quot;&gt;I have additional, policy-related, thoughts too&lt;/a&gt;). Next up, we need to spend some time talking about Salesforce's &lt;strong&gt;$6.5 billion&lt;/strong&gt; bid for Mulesoft. Oh, and there's some top shelf microservice thought leadership from the recently concluded microXchg conference.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-27-facebook-salesforce-and-more&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-27-facebook-salesforce-and-more&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Mar 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/newsletter/2018/03/27/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/03/27/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Facebook</category>
+        
+        <category>Salesforce</category>
+        
+        <category>Mulesoft</category>
+        
+        <category>microXchg</category>
+        
+        <category>Graph API</category>
+        
+        <category>Kin Lane</category>
+        
+        <category>OAuth</category>
+        
+        <category>Zeynep Tufekci</category>
+        
+        <category>PII</category>
+        
+        <category>Equifax</category>
+        
+        <category>GDPR</category>
+        
+        <category>Stefan Tilkov</category>
+        
+        <category>Uwe Friedrichsen</category>
+        
+        <category>RapidAPI</category>
+        
+        <category>Andreessen Horowitz</category>
+        
+        <category>A16Z</category>
+        
+        <category>Mashape</category>
+        
+        <category>Kong</category>
+        
+        <category>Algorithmia</category>
+        
+        <category>Apigee</category>
+        
+        <category>Runscope</category>
+        
+        <category>microservices</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
     
       <item>
         <title>Facebook, Regulation, and Who Controls the Kitchen Sink</title>
@@ -131,6 +243,61 @@
       </item>
     
       <item>
+        <title>Design-First APIs and API Academy Presos &amp;#x2709;</title>
+        <description>&lt;p&gt;Document, or design-first, approaches to API design are increasing in adoption. Or at least that's what I'm lead to believe with this latest batch of pieces in the REST API notes. Keith Casey shares a numbe of different documentation styles. There's also a number of related pieces which further flesh out the role API descriptions play in a modern production workflow.&lt;/p&gt;
+
+&lt;p&gt;I also share a number of recent presentations from the API Academy. This early spring, the team was out in force, educating about APIs in a variety of forums around the world. *Per usual*, they've shared their work, and we're the better for it.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-13&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-13&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Mar 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/newsletter/2018/03/13/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/03/13/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Keith Casey</category>
+        
+        <category>Design-First</category>
+        
+        <category>Phil Sturgeon</category>
+        
+        <category>Shekhar Banerjee</category>
+        
+        <category>eBay</category>
+        
+        <category>Faria Rehman</category>
+        
+        <category>APIMatic</category>
+        
+        <category>OpenAPI</category>
+        
+        <category>Erik Wilde</category>
+        
+        <category>Mike Amundsen</category>
+        
+        <category>Matt McLarty</category>
+        
+        <category>Irakli Nadareishvili</category>
+        
+        <category>IANA</category>
+        
+        <category>Speccy</category>
+        
+        <category>Hootsuite</category>
+        
+        <category>microservices</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
         <title>The Role of Product Management in API Design</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;“The handles of a craftman’s tools bespeak an absolute simplicity, the plainest forms affording the greatest range of possibilitites for the user’s hand.&lt;/p&gt;
@@ -246,6 +413,49 @@
         
         <category>Phil Sturgeon</category>
         
+        
+      </item>
+    
+      <item>
+        <title>HTTP Caching and Machine-Readable APIs &amp;#x2709;</title>
+        <description>&lt;p&gt;In this edition there's some insight into Netflix's architecture and Phil Sturgeon has a banger about HTTP caching. I spend most of the time, however, pivoting a Kin Lane argument about machine-readible (more like machine-*parsable*) API descriptions into an examination of &quot;open&quot; API developer programs. &lt;/p&gt;
+
+&lt;blockquote&gt;&quot;Companies' who create public API programs because they can, whose additional bandwidth and compute costs accrue faster than the revenue/mindshare they gain, who aren't content to be plumbing for someone else's storefront... they are not long for this world.&quot;&lt;/blockquote&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-06&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-06&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Mar 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/newsletter/2018/03/06/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/03/06/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Netflix</category>
+        
+        <category>Suudhan Rangarajan</category>
+        
+        <category>Mike Amundsen</category>
+        
+        <category>Roy Fielding</category>
+        
+        <category>Phil Sturgeon</category>
+        
+        <category>Kin Lane</category>
+        
+        <category>Edmunds</category>
+        
+        <category>ESPN</category>
+        
+        <category>Ashley Hathaway</category>
+        
+        <category>Hyrum's Law</category>
+        
+        
+        <category>newsletter</category>
         
       </item>
     
@@ -469,216 +679,6 @@
         
         <category>Enclosure</category>
         
-        
-      </item>
-    
-      <item>
-        <title>API Days 2018 &amp;#x2709;</title>
-        <description>&lt;p&gt;API Days 2018 was held in Paris. Thankfully, for those of us who were unable to attend, many of the best slides were shared online.&lt;/p&gt;
-
-&lt;p&gt;I also take a few moments to mark John Perry Barlow's passing.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-07&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-02-07&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 07 Feb 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/newsletter/2018/02/07/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/02/07/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>API Days</category>
-        
-        <category>Erik Wilde</category>
-        
-        <category>web concepts</category>
-        
-        <category>Ronnie Mitra</category>
-        
-        <category>API Academy</category>
-        
-        <category>Zdenek Nemec</category>
-        
-        <category>IFTTT</category>
-        
-        <category>Ben Thompson</category>
-        
-        <category>Pauline Pham</category>
-        
-        <category>John Perry Barlow</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Hypermedia, Swagger, and More &amp;#x2709;</title>
-        <description>&lt;p&gt;This edition of the REST API notes starts with a review of a tool review (very meta). Not to be outdone, I then move to hypermedia extractions and end with a look at JSON Hyper-Schema. Before I begin loving a post professing to loving love or hating on the haters who ever hated I call it an update with some interesting industry milestones.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-01-31&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-01-31&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 31 Jan 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/newsletter/2018/01/31/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/01/31/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Stewart Brand</category>
-        
-        <category>Pace Layers</category>
-        
-        <category>Gartner</category>
-        
-        <category>Frank Duffy</category>
-        
-        <category>SmartBear</category>
-        
-        <category>Swagger</category>
-        
-        <category>David Berlin</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>Mike Hibay</category>
-        
-        <category>hypermedia</category>
-        
-        <category>JSON</category>
-        
-        <category>JSON Hyper-Schema</category>
-        
-        <category>Keith Casey</category>
-        
-        <category>OAuth</category>
-        
-        <category>OpenId</category>
-        
-        <category>Okta</category>
-        
-        <category>Keen.io</category>
-        
-        <category>Scaleworks</category>
-        
-        <category>Joyce Stack</category>
-        
-        <category>Aaron Hedges</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Web APIs: 2018 and Beyond &amp;#x2709;</title>
-        <description>&lt;p&gt;Have we reached &lt;strong&gt;peak microservices&lt;/strong&gt;? Sure, the architectural pattern is powerful. But have we gone round the bend and arrived at hypetown? Now that stories of actual implementations are being shared, will the cost of increased complexity hijack the primary narrative?&lt;/p&gt;
-
-&lt;p&gt;While pondering the ramifications for the coming year, I also talk about numerous other trends: service meshes, reactive microservices, webhooks/pubsub, and more. It's an accessment of the horizon. While we may not make it everywhere, there's a fair amount of ground we'll cover in 2018.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-2018-and-beyond&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-2018-and-beyond&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 24 Jan 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/newsletter/2018/01/24/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/01/24/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>microservices</category>
-        
-        <category>Simon Brown</category>
-        
-        <category>Diogo Lucas</category>
-        
-        <category>Nicolo Pignatelli</category>
-        
-        <category>Dave Kerr</category>
-        
-        <category>Sam Newman</category>
-        
-        <category>Gartner</category>
-        
-        <category>hype cycl</category>
-        
-        <category>Mark O'Neill</category>
-        
-        <category>Kelsey Hightower</category>
-        
-        <category>service meshes</category>
-        
-        <category>reactive microservices</category>
-        
-        <category>webhooks</category>
-        
-        <category>pubsub</category>
-        
-        <category>Phil Sturgeon</category>
-        
-        <category>Irakli nadareishvili</category>
-        
-        <category>Pedro Felix</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>AsynchAPI</category>
-        
-        <category>Matthew Trask</category>
-        
-        <category>Roy Fielding</category>
-        
-        <category>Stewart Brand</category>
-        
-        <category>Pace Layers</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>2017 Laid to REST &amp;#x2709;</title>
-        <description>&lt;p&gt;At year's end, there's a handful of notable articles to highlight before heading out for the holidays. In this edition of the REST API notes, it is worth covering a bit of API Design thinking, revisiting the benefits semi-structured representations, and why microservice contracts are so useful. If the term &quot;&lt;em&gt;evolutionary compatibility&lt;/em&gt;&quot; isn't top of mind, read on for more.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-2017-12-19&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-2017-12-19&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Dec 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/newsletter/2017/12/19/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2017/12/19/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Flavia Sequeira</category>
-        
-        <category>Pat Helland</category>
-        
-        <category>XML</category>
-        
-        <category>JSON</category>
-        
-        <category>microservices</category>
-        
-        <category>Stefano Rocco</category>
-        
-        <category>Postman</category>
-        
-        <category>Auth0</category>
-        
-        
-        <category>newsletter</category>
         
       </item>
     
