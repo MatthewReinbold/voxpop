@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Lego Store on This Old Moc ▶</title>
-  <meta name="description" content="If one builds enough for long enough, they inevitably end up with designs they'd like to revisit. I've had a Lego store facade in my Lego city for some time....">
+  <title>Rethinking NPS for API Quality</title>
+  <meta name="description" content="Previously, I shared my team’s 2017 blueprint for API Governance. A component was measuring API quality using a “management tool” called Net Promoter Score, ...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://matthewreinbold.com/video/2016/10/01/LegoStore/">
+  <link rel="canonical" href="https://matthewreinbold.com/2018/07/10/Update-on-NPS/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
 </head>
 
@@ -75,17 +75,83 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Lego Store on This Old Moc ▶</h1>
-    <h2 class="post-subtitle">Finding Huxley, Episode 06</h2>
-    <p class="post-meta"><time datetime="2016-10-01T00:00:00-04:00" itemprop="datePublished">Oct 1, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">Rethinking NPS for API Quality</h1>
+    <h2 class="post-subtitle">An Update to the API Governance Blueprint</h2>
+    <p class="post-meta"><time datetime="2018-07-10T00:00:00-04:00" itemprop="datePublished">Jul 10, 2018</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>If one builds enough for long enough, they inevitably end up with designs they'd like to revisit. I've had a Lego store <em>facade</em> in my Lego city for some time. However, I couldn't bring myself to finish it; there was just something off enough that I couldn't muster the enthusiasm to push through. </p>
+    <p>Previously, <a href="/2017/10/03/API-Governance-Blueprint/">I shared my team’s 2017 blueprint for API Governance</a>. A component was measuring API quality using a “management tool” called <em>Net Promoter Score</em>, or NPS. While NPS is usually used to quantify customer loyalty, I had hoped to repurpose it. As I explained in my previous work, NPS shortcutted much of the hand-wringing and tedious defense of any methodology we derived ourselves; when measuring “quality of experience”, NPS was already lingua franca among leadership.</p>
 
-<p>In this episode of Finding Huxley, I tear things down to the bare minimum, take a queue (of five) from New York City's "wedding-cake style", and come up with something new.</p>
+<p>You are probably familiar with NPS, even if you don’t know it by name. Ever been asked to rank your experience between a 0 and 10? Most likely your answer is being compiled into an NPS score.</p>
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/5iC3nOdMVio" frameborder="0" allowfullscreen=""></iframe></p>
+<p>After a year of experimenting with NPS, however, we’ve moved on. This is a update on the why, what we’ve done in the first half of 2018, and where I see continuing challenges in measuring API quality.</p>
+
+<p>There are many repudiations of NPS. However, none encapsulated as many of the problems we were experiencing as Jared Spool’s “<a href="https://articles.uie.com/net-promoter-score-considered-harmful-and-what-ux-professionals-can-do-about-it/">Net Promoter Score Considered Harmful (and What UX Professionals Can Do About It)</a>”.</p>
+
+<h2 id="problems-with-nps">Problems with NPS</h2>
+<h3 id="it-skews-negative">It Skews Negative</h3>
+<p>As Jared points out, NPS is <strong>not</strong> a mean/average of all the scores collected. Rather, values “0-6” are considered <em>detractors</em>, or people who are unlikely to recommend something to others. Based on how my team used it, this was whether my API team would recommend the API design for emulation by others within the org. A “7” or “8” is passable; neither so offensive that we have a clear call to action, but not the best of what we hope to see. Anything rated “9” or “10” we shout about from the roof tops.</p>
+
+<p>Framing scores int his way doesn’t match with people’s expectations. A ‘middle of the pack’ rating of 5 <em>seems</em> as though it should be neutral, neither good or bad, halfway between either pole. Yet, when computing NPS (the % of promoter scores minus the % of detractors), this value negatively impacts the rating.</p>
+
+<p>It became a training issue for reviewers. And if it was non-obvious for the people doing the scoring, it certainly was a challenge for the development teams reviewed (who are different than executive leadership).</p>
+
+<p>When meeting with busy folks outside your normal sphere of influence, you only get a few, fleeting minutes to hook them with “an ask”. Arguing over methodology minutia was <em>not</em> a good use of precious time.</p>
+
+<h3 id="quality-improvement-on-individual-apis-or-otherwise-is-washed-out">Quality Improvement, on Individual APIs or Otherwise, is Washed Out</h3>
+<p>Let’s suppose a team has done the bare minimum for an API and, for various reasons, it exhibits intention that is neither <a href="/2016/06/02/ConsistencyAndCohesion/">consistent or cohesive with what has come before</a>. My team would give this design a low score in an effort to incentivize improvement. Let’s say that score is “1” (a detractor). There’s no promoters, so the NPS results in a value of <strong>-100</strong>, or the worst score a design can get.</p>
+
+<p>Shocked by “-100”, the group sets out to improve the design: perhaps they improve the documentation, address some of the unintuitive RPC patterns, etc. The prioritize this work against a backlog of competing features, resubmit for review, the reviewer acknowledges their effort by scoring them a “6” and…</p>
+
+<p>…<em>the team still gets -100 NPS</em>. The team has made huge strides; their design is now above average! Yet, in the number reported to leadership, that effort was invisible. Imagine how demoralizing that would be on the part of the team, and how unlikely they’ll prioritize effort on new work in the future.</p>
+
+<p>There’s also a scenario, as Jared points out, where a team improves a design previously rated “8”. That “neutral” score results in an NPS of 0. But, with a bit of polish, the design is re-reviewed at “9”. The result is an NPS of 100: <strong>a perfect score</strong>!</p>
+
+<p>What is more valuable for future integrations? A team that improves a design from “1” to “6”, or a team that moves from “8” to a “9”? With NPS, the former is ignored. In the latter, it is overemphasized.</p>
+
+<p>The purpose of that my team produces these metrics is to incentivize positive behavior. If the correct behavior is happening, but it isn’t reflected in the metrics, then we need to change things.</p>
+
+<h2 id="what-were-doing-now">What We’re Doing Now</h2>
+<p><figure><img src="/images/2018/07/sample-chart.png" />
+<figcaption class="slide">
+A sample chart of what we're currently reporting out, grouped by business division.
+</figcaption>
+</figure></p>
+
+<p>Since moving away from NPS, we’ve gone to a much more straightforward average of reviewer scores. While each of these have a high degree of nuance, at a high level APIs are scored on:</p>
+
+<ul>
+  <li>Standards Adherence</li>
+  <li>Completeness of the Documentation</li>
+  <li>Consistency and Cohesion with Previously Published Work</li>
+  <li>Viability to Exist as an API Product</li>
+</ul>
+
+<p>The average score remains useful for leadership to know where they are in their API design maturity. But what is much more <em>actionable</em> for teams is directed feedback. A team that learns that their design averaged a score of “6” could cast about for changes to make on their next version. Or they could address a detailed list of concerns.</p>
+
+<h2 id="whats-next">What’s Next</h2>
+
+<h3 id="stop-converting-noise-into-science">Stop Converting Noise into Science</h3>
+<p>After moving away from computing NPS, we still had a considerable amount of scoring activity that was useful. But it was based on the 11-point (0-10) scale used by NPS. So, when we continued with more straightforward averages, we maintained the previous scale so that we could blend the old and new scores.</p>
+
+<p>Unfortunately, I’d be hard pressed to define the specific difference between an API design where one is rated a “4” and another is rated “5” on an 11-point scale. The distinction isn’t clear and leads to situations where one person’s “7” may be another person’s “5”.</p>
+
+<p>A 3-point scale is very straightforward: if an API design is “bad”, give it a “1”, just ok APIs get a “2”, and awesome API designs get a “3”. However, that doesn’t leave a whole lot of nuance. Something akin to a 5-point scale seems to be a better fit. However, retrofitting the past year of scoring activity, <a href="https://www.linkedin.com/pulse/amazons-rating-system-broken-might-your-fault-samuel-carter/">along with avoiding polarization tendencies</a> remains a challenge.</p>
+
+<h3 id="conflicts-of-interest-when-judge-jury-and-executioner">Conflicts of Interest when Judge, Jury, and Executioner</h3>
+<p>Presenting a picture of where leadership is at in their journey is one thing. We create the expectations and measure how well we meet those expectations. A conflict of interest arises when leadership, subsequently, sets specific scoring targets that they expect my reviewing team, working with software development teams, to deliver.</p>
+
+<p>That could be a problem. The USDA food inspector isn’t required to show improvement in the produce they’re reviewing. The engineers that inspect bridges aren’t expected to have their defects detected trend downward overtime. Putting those who review a thing with a well intentioned, but misplaced, incentive can result in <a href="https://money.cnn.com/2016/09/26/investing/wells-fargo-fake-accounts-before-2011/index.html">some troubling outcomes</a>. There’s tremendous pressure to pull a punch here, or turn a blind eye there.</p>
+
+<p>The team and I need to define a better way forward here, with clear accountability and laser focus on driving the correct outcomes.</p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>Ultimately, this is part of a healthy process. We tried something, learned a ton in the process, and are iterating to get to something better. We have a ways to go. But I think it’s a sign of maturity to be able to take on new information and evolve to something better because of it.</p>
+
+<p>Do you have an API quality metrics story? Are you wrestling with accountability and socialization of organizational improvements? Shoot me a line. I’d love to compare notes.</p>
+
 
   </div>
 
@@ -187,414 +253,13 @@
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
     	
         <hr />
     		<h4>Related</h4>
     		
     	
       <div>
-      <h5><a href="/video/2017/04/09/MarchLegoCityUpdate/">March Lego City Update ▶</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/video/2017/02/19/TheLegoBatmanMovieReview/">The Lego Batman Movie Review ▶</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/video/2016/10/22/MrKimsThaiFoodFlyingBoat/">Mr Kim's Thai Food Flying Boat ▶</a></h5>
+      <h5><a href="/2018/03/12/ProductManagementInAPIDesign/">The Role of Product Management in API Design</a></h5>
       </div>
       
       
@@ -662,12 +327,50 @@
     
 
     
-    	
-      <div>
-      <h5><a href="/video/2016/09/05/SeptemberLegoCityUpdate/">September Lego City Update ▶</a></h5>
-      </div>
-      
-      
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
     
 
   
@@ -707,7 +410,50 @@
     
     	
       <div>
-      <h5><a href="/video/2016/05/29/FindingHuxley01/">Introducing Huxley</a></h5>
+      <h5><a href="/2017/10/26/API-Blueprint-Followup/">Making IT Culture Change Work</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2017/10/03/API-Governance-Blueprint/">API Governance for IT Culture Change</a></h5>
       </div>
       
       
@@ -774,6 +520,319 @@
 
     
 
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2015/05/12/APIsandGovernance/">The Favela vs the Planned Community</a></h5>
+      </div>
+      
+      
     
 
   
