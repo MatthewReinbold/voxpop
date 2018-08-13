@@ -6,9 +6,93 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Jul 2018 13:36:16 -0400</pubDate>
-    <lastBuildDate>Tue, 10 Jul 2018 13:36:16 -0400</lastBuildDate>
+    <pubDate>Mon, 13 Aug 2018 09:55:50 -0400</pubDate>
+    <lastBuildDate>Mon, 13 Aug 2018 09:55:50 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Adding SSL to WebAPI.events</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/08/screenshot.png&quot; /&gt;&lt;figcaption&gt;A screenshot of the previous WebAPI.events desktop experience.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-original-architecture---spreadsheets--3rd-parties--captive-portals-oh-my&quot;&gt;The Original Architecture - Spreadsheets &amp;amp; 3rd Parties &amp;amp; Captive Portals, Oh My!&lt;/h2&gt;
+&lt;p&gt;Years ago, in an effort to support the API community, I started a website called “&lt;a href=&quot;https://webapi.events&quot;&gt;WebAPI.events&lt;/a&gt;”. It listed a collection of upcoming, in-person conferences and meetups for those interested in service design.&lt;/p&gt;
+
+&lt;p&gt;I used the original site as an opportunity to play with several ideas converging in my head. The first was using a Google spreadsheet as the data store. Setting up, securing, hosting, and maintaining traditional database software seemed like overkill for a little project like this. A spreadsheet also, significantly, broadens the audience able to follow with a similar approach.&lt;/p&gt;
+
+&lt;p&gt;I also didn’t think a little “tool” site warranted a paid hosting account. Github pages are a simple, free means of hosting “static” sites - those comprised of CSS, HTML, and JavaScript. The “trick” was to get the information from the spreadsheet to Javascript uploaded to Github. For that, I used APISpark, from Restlet. After some configuration, it converted a Google spreadsheet into an API.&lt;/p&gt;
+
+&lt;p&gt;That worked for many years. It never occurred to me, however, that SSL was something that this kind of site needed. Even when free certs became available, from sources like &lt;a href=&quot;https://letsencrypt.org/&quot;&gt;LetsEncyrpt&lt;/a&gt;, it seemed silly. I wasn’t storing sensitive information!&lt;/p&gt;
+
+&lt;p&gt;Besides, not having SSL made WebAPI.events my go-to on “&lt;a href=&quot;https://en.wikipedia.org/wiki/Captive_portal&quot;&gt;captive portals&lt;/a&gt;”. Encrypted sites, like Google or Twitter, usually just timed out if I attempted to open them before agreeing to the captive portal terms. A quick browse attempt to WebAPI.events, however, and the hotel sign-in page appeared immediately.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-need-for-change&quot;&gt;The Need for Change&lt;/h2&gt;
+&lt;p&gt;Today, however, there are several reasons to change. The first was the &lt;a href=&quot;https://www.theverge.com/2018/2/8/16991254/chrome-not-secure-marked-http-encryption-ssl&quot;&gt;announcement that Chrome would begin marking ‘http-only’ sites as insecure&lt;/a&gt;. It was a move copied by other browsers, like Firefox. Some, like RSS co-creator David Winer, &lt;a href=&quot;https://www.wired.com/story/google-chrome-https-not-secure-label/&quot;&gt;felt the move was a gross overreach, and that it painted sites that don’t collect info, like webapi.events, with too broad a brush&lt;/a&gt;. However, I was convinced that my site needed SSL &lt;a href=&quot;https://www.troyhunt.com/heres-why-your-static-website-needs-https/&quot;&gt;after watching security expert Troy Hunt demonstrate the importance for static sites&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This happened about the same time that &lt;a href=&quot;https://blog.github.com/2018-05-01-github-pages-custom-domains-https/&quot;&gt;Github announced SSL support for custom domain names&lt;/a&gt;. It was the right thing to do, it was free, and it &lt;em&gt;should&lt;/em&gt; have been easy. With little other excuse, it was time to get to work.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-work&quot;&gt;The Work&lt;/h2&gt;
+&lt;p&gt;The first bit was some light rework on the software architecture. Out went the Google Form fronting the spreadsheet, the spreadsheet itself, and RESTlet. I’d just edit JSON data, directly. It would be stored in a file alongside the site code. The GUI, rather than calling an API, would instead load JSON from the same site. That part of the plan went pretty much as intended.&lt;/p&gt;
+
+&lt;p&gt;I &lt;a href=&quot;https://twitter.com/libel_vox/status/1022282428172316672&quot;&gt;live tweeted the challenge of updating the site within the runtime of the latest Mission Impossible movie&lt;/a&gt;. The part that tripped me up was the application of Github’s cert on a custom domain name. &lt;a href=&quot;https://twitter.com/codinghorror/status/1022647165246529536&quot;&gt;I was in good company&lt;/a&gt;. I ended that tweet-storm, and the evening, on a sour note.&lt;/p&gt;
+
+&lt;p&gt;After a few more fruitless attempts, I resorted to &lt;a href=&quot;https://matthewreinbold.com/2017/07/04/SiteUpdate/&quot;&gt;the CloudFoundry solution that had worked so well for my personal site&lt;/a&gt;. A few minutes referring to my notes from last time, some time to let the new d33ts propagate, and &lt;a href=&quot;https://webapi.events/&quot;&gt;webAPI.events&lt;/a&gt; was back!&lt;/p&gt;
+
+&lt;h2 id=&quot;yet-to-do&quot;&gt;Yet to Do&lt;/h2&gt;
+&lt;p&gt;At the time I was pulling this piece together, designer Eric Meyer &lt;a href=&quot;https://meyerweb.com/eric/thoughts/2018/08/07/securing-sites-made-them-less-accessible/&quot;&gt;shared a different perspective&lt;/a&gt;. He described how certain parts of the world, like rural Uganda, are dependent on geosynchronous-satellite internet. Because of the slow speeds and rampant packet loss, &lt;em&gt;local caching servers&lt;/em&gt; are a popular thing.&lt;/p&gt;
+
+&lt;p&gt;HTTPS is meant to prevent “man-in-the-middle” manipulations of a page. However, caching content also happens to require a “man-in-the-middle”. The move to SSL everywhere has rendered these important services unusable.&lt;/p&gt;
+
+&lt;p&gt;A possible solution is the usage of “&lt;a href=&quot;https://developers.google.com/web/fundamentals/primers/service-workers/&quot;&gt;service workers&lt;/a&gt;”. I don’t know much about them, right now, but it seems important in order to enable reasonable access to the widest audience possible.&lt;/p&gt;
+
+&lt;p&gt;As Eric points out, it doesn’t completely solve the problem. There is still the issue of older browsers and operating systems. And it is not just in far flung locations; libraries are another location where those dependent on access are limited to whatever older installations are available. Service workers won’t address that situation.&lt;/p&gt;
+
+&lt;p&gt;The design could also use some twiddling. What is there, now, is serviceable (although the table is a bit small on mobile devices). There are templates available, but the thousands of CSS boilerplate to support many responsive designs is shocking. Given the normalized complexity in everything from cloud deployment pipelines to front-end JavaScript frameworks, I probably shouldn’t be surprised. But damn.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/08/screenshot-2.png&quot; /&gt;&lt;figcaption&gt;A screenshot of the new WebAPI.events desktop experience.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So webapi.events is refreshed. It has a simplified workflow, reduced dependencies on 3rd parties, a simplified design, and is only ever served up with SSL.&lt;/p&gt;
+
+&lt;p&gt;And those “captive portals” at airport and hotel wifi spots? Rather than pinging my own stuff, I’ve started using “&lt;a href=&quot;http://neverssl.com/&quot;&gt;NeverSSL.com&lt;/a&gt;”. Simple, easy-to-remember, and perfect for man-in-the-middle hijacking.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Aug 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2018/08/13/UpdatingWebAPIEvents/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/13/UpdatingWebAPIEvents/</guid>
+        
+        <category>webapi.events</category>
+        
+        <category>Google</category>
+        
+        <category>Github</category>
+        
+        <category>APISpark</category>
+        
+        <category>RESTlet</category>
+        
+        <category>LetsEncrypt</category>
+        
+        <category>SSL</category>
+        
+        <category>David Winer</category>
+        
+        <category>Misson Impossible</category>
+        
+        <category>CloudFoundry</category>
+        
+        <category>Eric Meyer</category>
+        
+        <category>Uganda</category>
+        
+        <category>service workers</category>
+        
+        <category>captive portals</category>
+        
+        <category>responsive design</category>
+        
+        <category>NeverSSL</category>
+        
+        
+      </item>
     
       <item>
         <title>Rethinking NPS for API Quality</title>
@@ -595,125 +679,6 @@ A sample chart of what we're currently reporting out, grouped by business divisi
         
         
         <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>The Role of Product Management in API Design</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“The handles of a craftman’s tools bespeak an absolute simplicity, the plainest forms affording the greatest range of possibilitites for the user’s hand.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“That which is overdesigned, too highly specific, anticipates outcome; the anticipation of the outcomes guarantees, if not failure, the absence of grace.” - William Gibson, &lt;em&gt;All Tomorrow’s Parties&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/03/management-books.png&quot; alt=&quot;a picture of product management books on a bookstore shelf, taken from Morguefile.com&quot; /&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Successful APIs, whether they are external products or internal glue, require strong product management. However, given an API’s ephemeral nature, product managers may have difficulty with how to proceed. This poor API product management results in a product that doesn’t meet the needs of users. Adoption will be limited. Integrations, when they do happen, will be difficult. And correcting mistakes after development will remain a demoralizing and expensive proposition.&lt;/p&gt;
-
-&lt;p&gt;Martin Eriksson, &lt;a href=&quot;https://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/&quot;&gt;defines the Product Manager role as an expertise that lies at the intersection of tech, business, and UX&lt;/a&gt;. Martin then quotes the book, &lt;a href=&quot;https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/&quot;&gt;Inspired&lt;/a&gt;, that states a product manager should ‘discover a product that is valuable, usable and feasible’. What constitutes “valuable”, “usable”, and “feasible” for an API?&lt;/p&gt;
-
-&lt;h2 id=&quot;valuable&quot;&gt;Valuable&lt;/h2&gt;
-&lt;p&gt;At the most fundamental level, an API must provide a useful function. Determining what is useful and what is not is the first job for an API product manager.&lt;/p&gt;
-
-&lt;h3 id=&quot;building-for-the-correct-audience&quot;&gt;Building for the Correct Audience&lt;/h3&gt;
-&lt;p&gt;Product managers should understand the audience that will consume the API. That may be easier than it sounds, as there actually several different types of people evaluating an API, each with their own questions. As &lt;a href=&quot;https://bradfults.com/the-best-api-documentation-b9e46400379a&quot;&gt;Brad Fults mentions&lt;/a&gt;, these audiences may include, but are not limited to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Decision Makers&lt;/strong&gt; evaluating competing API products&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Developers&lt;/strong&gt; looking to get started&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Integrators&lt;/strong&gt; attempting to debug a specific issue in an existing client&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Each audience has different needs. For the decision maker, is the functionality provided by an API the same, if not better, than other competitive offerings? Can a developer get started with an API easily, perhaps with nothing more than a CURL statement? Does the API return the type of error messages that, when things go wrong, make it easy for an integrator to fix?&lt;/p&gt;
-
-&lt;h3 id=&quot;api-design-that-is-outside-in-not-reflections-of-internal-implementations&quot;&gt;API Design that is ‘Outside In’, not Reflections of Internal Implementations&lt;/h3&gt;
-
-&lt;p&gt;An API design should align with the integrator’s understanding. Creating an interface constrained to the internal systems implementation is rarely a good idea. These systems, particularly those that have existed in legacy environments, are a complex aggregation of shifting business priorities, technical advancement, team experience, etc. Exposing years (if not decades) of ‘dirty laundry’ at once significantly increases the barriers to comprehension and adoption.&lt;/p&gt;
-
-&lt;h3 id=&quot;clear-ownership&quot;&gt;Clear Ownership&lt;/h3&gt;
-&lt;p&gt;Product management includes a degree of ownership. The part of ownership that integrators care about is the amount, and form, that ownership is exhibited in. Trust in an API is difficult to earn and can be easily fumbled away.&lt;/p&gt;
-
-&lt;p&gt;Ownership of an API translates to the following communication:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Uptime Dashboard/SLA&lt;/li&gt;
-  &lt;li&gt;Change Log/Release Notes&lt;/li&gt;
-  &lt;li&gt;Roadmaps&lt;/li&gt;
-  &lt;li&gt;Known and Communicated Support and Feedback Channels&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The individual forms may vary. But each of these is an attempt to convey stability and permanence - two crucial elements when wooing developers with other options. A product with a future and team behind it is orders of magnitude more desirable than unmaintained code deployed on a computer under someone’s desk. A product manager should ensure that the former is being communicated, not the latter.&lt;/p&gt;
-
-&lt;h2 id=&quot;usable&quot;&gt;Usable&lt;/h2&gt;
-&lt;p&gt;There are a variety of different approaches for web-based APIs. Whether using RPC, REST, or subsequent variations, an API design produced by one team may vary significantly in usage and &lt;a href=&quot;http://amundsen.com/blog/archives/1109&quot;&gt;affordances&lt;/a&gt; from another team’s product - even when both teams work for the same company! The number of design choices, and how they subsequently manifest in the design, require additional work to ensure the designs are usable.&lt;/p&gt;
-
-&lt;h3 id=&quot;documentation&quot;&gt;Documentation&lt;/h3&gt;
-&lt;p&gt;This collection of differences means that documentation is incredibly important. In fact, in John Musser’s talk, “&lt;a href=&quot;https://www.slideshare.net/jmusser/ten-reasons-developershateyourapi/&quot;&gt;Ten Reasons Developers Hate Your API&lt;/a&gt;”, “sucky” documentation was listed as the &lt;strong&gt;#1&lt;/strong&gt; API problem.&lt;/p&gt;
-
-&lt;p&gt;Reasons that documentation may suck include, but are not limited to:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Being inaccurate/out-of-date/incomplete&lt;/li&gt;
-  &lt;li&gt;Lacking a getting started onramp&lt;/li&gt;
-  &lt;li&gt;Unprofessional and/or lacking clarity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The rise of various formats that capture API intent in structured ways, like the OpenAPI specification, are a start. These &lt;em&gt;integration contracts&lt;/em&gt; can be used to &lt;em&gt;render&lt;/em&gt; documentation in a manner similar to how annotations in a Java codebase can render Javadoc.&lt;/p&gt;
-
-&lt;p&gt;However, like Javadocs, this “documentation” is often the bare minimum that can be done towards effective communication and understanding. An API product manager should be closely involved in the creation of an API’s documentation. They should ensure that the business value of their product is clearly captured to the intended audience.&lt;/p&gt;
-
-&lt;h3 id=&quot;standards&quot;&gt;Standards&lt;/h3&gt;
-&lt;p&gt;A common design consideration is “&lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Principle_of_least_astonishment&quot;&gt;the principle of least surprise&lt;/a&gt;&lt;/em&gt;”. Design works best when it reuses familiar interface concepts. With a user interface (UI), this allows end users to make successful educated guesses, resulting in better user experience (UX). This developer experience, or “DX” should be part of the consideration when creating an API design.&lt;/p&gt;
-
-&lt;p&gt;Common industry patterns for should be used. Where possible, data should adhere standards, and those standards explicitly referenced in the documentation. For example, why force a consumer to create their own parsing for your bespoke date and time format? Use ISO8601 instead, reference it in the documentation, and be done with it. Extra points if the API design takes advantage of the work on &lt;a href=&quot;http://schema.org/&quot;&gt;schema.org&lt;/a&gt; and properly uses &lt;a href=&quot;https://www.iana.org/assignments/media-types/media-types.xhtml&quot;&gt;media types&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;feasible&quot;&gt;Feasible&lt;/h2&gt;
-&lt;p&gt;Different integrations will have different consumptions needs. Some may be able to consume the entire payload as designed. Others, do to computational or bandwidth constraints, may want a refined perspective on the resource available. Working with potential consumers to build in rate controls from the beginning is important.&lt;/p&gt;
-
-&lt;h3 id=&quot;malleability&quot;&gt;Malleability&lt;/h3&gt;
-&lt;p&gt;Support for sort ordering and pagination on returned collections is important. Default return amounts, rather than to defaulting to the entire collection, should be explicitly stated in the documentation and modifiable (within reason - page size limits should also be explicitly called out). Filtering, depending on the collection size, may be important. A more advanced option, depending on the need, is to allow for selective parameter retrieval.&lt;/p&gt;
-
-&lt;h3 id=&quot;cacheability&quot;&gt;Cacheability&lt;/h3&gt;
-&lt;p&gt;APIs should take advantage of the idempotent and safe natures available on the appropriate endpoints. Services enhance cache-ability by setting headers on responses. These headers, at a minimum, include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Date&lt;/li&gt;
-  &lt;li&gt;Cache-Control&lt;/li&gt;
-  &lt;li&gt;Expires&lt;/li&gt;
-  &lt;li&gt;Pragma&lt;/li&gt;
-  &lt;li&gt;Last-Modified&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It is also possible to use the ETag header for validating the freshness of cached representations, as well as helping with conditional read and update operations. Its value is an arbitrary string for the version of a representation, sometimes a simple hash of the underlying object.&lt;/p&gt;
-
-&lt;p&gt;A product manager may not understand the &lt;em&gt;exactly&lt;/em&gt; technical mechanisms behind how these headers work. However, they should desire the best customer experience possible, and - for many - that means zippy responses.&lt;/p&gt;
-
-&lt;p&gt;Phil Sturgeon has a couple of fantastic pieces on HTTP caching. The first is &lt;a href=&quot;https://blog.apisyouwonthate.com/speeding-up-apis-apps-smart-toasters-with-http-response-caching-a67becf829c6&quot;&gt;a blog post on how to speed up API performance with HTTP response caching&lt;/a&gt;. The second is &lt;a href=&quot;https://www.youtube.com/watch?v=OwoVFGnpqpM&quot;&gt;a presentation he recently gave that was posted to YouTube&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
-&lt;p&gt;If that sounds like a lot to manage, it’s because it is. Being a product manager for an API comes with all the research and testing of a normal product, but with an additional dash of technical acumen and developer savvy. But the reward - easier integrations, more developer happiness, and better expressions of business value - is worth it.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Mar 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2018/03/12/ProductManagementInAPIDesign/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/03/12/ProductManagementInAPIDesign/</guid>
-        
-        <category>API Design</category>
-        
-        <category>product management</category>
-        
-        <category>REST API</category>
-        
-        <category>API Governance</category>
-        
-        <category>caching</category>
-        
-        <category>Martin Eriksson</category>
-        
-        <category>John Musser</category>
-        
-        <category>Phil Sturgeon</category>
-        
         
       </item>
     

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Tomorrowland is Necessary</title>
-  <meta name="description" content="">
+  <title>Adding SSL to WebAPI.events</title>
+  <meta name="description" content="A screenshot of the previous WebAPI.events desktop experience.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://matthewreinbold.com/2015/06/09/TomorrowlandReview/">
+  <link rel="canonical" href="https://matthewreinbold.com/2018/08/13/UpdatingWebAPIEvents/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
 </head>
 
@@ -75,47 +75,54 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Tomorrowland is Necessary</h1>
-    <h2 class="post-subtitle">A Review</h2>
-    <p class="post-meta"><time datetime="2015-06-09T00:00:00-04:00" itemprop="datePublished">Jun 9, 2015</time></p>
+    <h1 class="post-title" itemprop="name headline">Adding SSL to WebAPI.events</h1>
+    <h2 class="post-subtitle">Updating a Personal Project to Do the Right Thing</h2>
+    <p class="post-meta"><time datetime="2018-08-13T00:00:00-04:00" itemprop="datePublished">Aug 13, 2018</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><iframe width="560" height="315" src="//www.youtube.com/embed/lNzukD8pS_s" frameborder="0" allowfullscreen=""></iframe></p>
+    <p><figure><img src="/images/2018/08/screenshot.png" /><figcaption>A screenshot of the previous WebAPI.events desktop experience.</figcaption></figure></p>
 
-<p><strong>Tomorrowland</strong> (2015), staring George Clooney and Britt Robertson, is not a great movie. But it is a <em>necessary</em> one. (While not necessarily a review, there are spoilers ahead. If you enjoy your cinematic experiences unburdened by expectation, now is the time to find some cat gifs.)</p>
+<h2 id="the-original-architecture---spreadsheets--3rd-parties--captive-portals-oh-my">The Original Architecture - Spreadsheets &amp; 3rd Parties &amp; Captive Portals, Oh My!</h2>
+<p>Years ago, in an effort to support the API community, I started a website called “<a href="https://webapi.events">WebAPI.events</a>”. It listed a collection of upcoming, in-person conferences and meetups for those interested in service design.</p>
 
-<p>I have a hard time with <strong>Black Mirror</strong>, the outstanding BBC television series, for exactly the <em>opposite</em> reasons. The dark, near future dramas unspool less like speculative fiction and more like factual accounts we'll wake up to. In this show there is no hope in what technology hath wrought. There is no joy. There is only a grim resilience in a world where selfies increasingly are able to capture the monsters inside. </p>
+<p>I used the original site as an opportunity to play with several ideas converging in my head. The first was using a Google spreadsheet as the data store. Setting up, securing, hosting, and maintaining traditional database software seemed like overkill for a little project like this. A spreadsheet also, significantly, broadens the audience able to follow with a similar approach.</p>
 
-<p>It is excellent. But we live in an era of assembly line soothsayers.  You can't click on the Internet without landing on a garbage spewing misanthrope, bargaining their latest shock-and-awe disaster for eyeballs. In that reality is Black Mirror <em>necessary</em>?</p>
+<p>I also didn’t think a little “tool” site warranted a paid hosting account. Github pages are a simple, free means of hosting “static” sites - those comprised of CSS, HTML, and JavaScript. The “trick” was to get the information from the spreadsheet to Javascript uploaded to Github. For that, I used APISpark, from Restlet. After some configuration, it converted a Google spreadsheet into an API.</p>
 
-<p>Tomorrowland isn't subtle. There's as much nuance in the plot as a typical tween-targeted episode of Disney Channel schlock. Clooney and Robertson are, tonally, in different movies. The retro-futurism is only a token gold leaf running along the movie's trim. And somebody owes Daniel Suarez a royalty for some similar parallels to his book <strong>Influx</strong> (2014) and its <em>Bureau of Technology Control</em>.</p>
+<p>That worked for many years. It never occurred to me, however, that SSL was something that this kind of site needed. Even when free certs became available, from sources like <a href="https://letsencrypt.org/">LetsEncyrpt</a>, it seemed silly. I wasn’t storing sensitive information!</p>
 
-<p>And yet the villain's monologue, delivered by a wonderfully glowering Hugh Laurie, <em>got me choked up</em> in a way that few media experiences have yet this year.</p>
+<p>Besides, not having SSL made WebAPI.events my go-to on “<a href="https://en.wikipedia.org/wiki/Captive_portal">captive portals</a>”. Encrypted sites, like Google or Twitter, usually just timed out if I attempted to open them before agreeing to the captive portal terms. A quick browse attempt to WebAPI.events, however, and the hotel sign-in page appeared immediately.</p>
 
-<p>His character, Governor Nix, admits to having beamed dour and cataclysmic visions of the future into decision maker's brains. He was attempting to scare them straight; to warn them of the future that would happen without action. The population didn't recoil. Instead, he watched in dismay as the populace lapped up the visions of dystopia. They then perpetuated and mutated the stories, seeding them into the cultural firmament of our time. Rather than being a warning, the visions of modern collapse blossomed and begat subsequent nightmares. Nix concludes his failure was due to a misunderstanding of the human condition. Building things is hard and does not guarantee success. But doing nothing is easy. It asks <em>nothing of you</em>.</p>
+<h2 id="the-need-for-change">The Need for Change</h2>
+<p>Today, however, there are several reasons to change. The first was the <a href="https://www.theverge.com/2018/2/8/16991254/chrome-not-secure-marked-http-encryption-ssl">announcement that Chrome would begin marking ‘http-only’ sites as insecure</a>. It was a move copied by other browsers, like Firefox. Some, like RSS co-creator David Winer, <a href="https://www.wired.com/story/google-chrome-https-not-secure-label/">felt the move was a gross overreach, and that it painted sites that don’t collect info, like webapi.events, with too broad a brush</a>. However, I was convinced that my site needed SSL <a href="https://www.troyhunt.com/heres-why-your-static-website-needs-https/">after watching security expert Troy Hunt demonstrate the importance for static sites</a>.</p>
 
-<p>So we subsequently take the easy route. We wallow in worst-cases and blockbuster spectacle; anything to distract ourselves from tomorrows that are incrementally worse than today.</p>
+<p>This happened about the same time that <a href="https://blog.github.com/2018-05-01-github-pages-custom-domains-https/">Github announced SSL support for custom domain names</a>. It was the right thing to do, it was free, and it <em>should</em> have been easy. With little other excuse, it was time to get to work.</p>
 
-<blockquote>
-  <p>"The sky above the port was the color of television, tuned to a dead channel." - William Gibson, <strong>Neuromancer</strong> (1984)</p>
-</blockquote>
+<h2 id="the-work">The Work</h2>
+<p>The first bit was some light rework on the software architecture. Out went the Google Form fronting the spreadsheet, the spreadsheet itself, and RESTlet. I’d just edit JSON data, directly. It would be stored in a file alongside the site code. The GUI, rather than calling an API, would instead load JSON from the same site. That part of the plan went pretty much as intended.</p>
 
-<p>I loved last year's <strong>Big Hero 6</strong> (2014). It had over-the-top superhero action and a beautiful amalgamation of concepts in the rendered "San Fransokyo". But most of all, the character's love for science and technology was <em>joyous</em>. Yes, it gave the bad guy his powers. But it was also the means for our heroes' journeys and (spoiler) eventual triumph.</p>
+<p>I <a href="https://twitter.com/libel_vox/status/1022282428172316672">live tweeted the challenge of updating the site within the runtime of the latest Mission Impossible movie</a>. The part that tripped me up was the application of Github’s cert on a custom domain name. <a href="https://twitter.com/codinghorror/status/1022647165246529536">I was in good company</a>. I ended that tweet-storm, and the evening, on a sour note.</p>
 
-<p>I love science. I love making things. But where are the tales of triumph? Of the human spirit elevated through the tools of its own design? Good grief, <strong>Apollo 13</strong> (1995) was released <em>twenty years ago</em> (and probably should be considered historical drama rather than a work of science fiction). I love a incredibly realized dystopia like that seen in <strong>Mad Max: Fury Road</strong> (2015) but where are the counter-points? Not tales of utopia, but the stories about the best of us for the rest of us?</p>
+<p>After a few more fruitless attempts, I resorted to <a href="https://matthewreinbold.com/2017/07/04/SiteUpdate/">the CloudFoundry solution that had worked so well for my personal site</a>. A few minutes referring to my notes from last time, some time to let the new d33ts propagate, and <a href="https://webapi.events/">webAPI.events</a> was back!</p>
 
-<p>The trailer for <strong>The Martian</strong> (2015) was released today. </p>
+<h2 id="yet-to-do">Yet to Do</h2>
+<p>At the time I was pulling this piece together, designer Eric Meyer <a href="https://meyerweb.com/eric/thoughts/2018/08/07/securing-sites-made-them-less-accessible/">shared a different perspective</a>. He described how certain parts of the world, like rural Uganda, are dependent on geosynchronous-satellite internet. Because of the slow speeds and rampant packet loss, <em>local caching servers</em> are a popular thing.</p>
 
-<p><iframe width="560" height="315" src="//www.youtube.com/embed/Ue4PCI0NamI" frameborder="0" allowfullscreen=""></iframe></p>
+<p>HTTPS is meant to prevent “man-in-the-middle” manipulations of a page. However, caching content also happens to require a “man-in-the-middle”. The move to SSL everywhere has rendered these important services unusable.</p>
 
-<blockquote>
-  <p>"I'm gonna hafta science the shit outta this." - Mark Whatney, played by Matt Damon</p>
-</blockquote>
+<p>A possible solution is the usage of “<a href="https://developers.google.com/web/fundamentals/primers/service-workers/">service workers</a>”. I don’t know much about them, right now, but it seems important in order to enable reasonable access to the widest audience possible.</p>
 
-<p>This is <em>necessary</em>.</p>
+<p>As Eric points out, it doesn’t completely solve the problem. There is still the issue of older browsers and operating systems. And it is not just in far flung locations; libraries are another location where those dependent on access are limited to whatever older installations are available. Service workers won’t address that situation.</p>
 
-<p><em>Extra credit</em>: <a href="http://motherboard.vice.com/read/the-martian-is-the-first-realistic-movie-about-martian-colonization">Same day, same dystopian sentiment. No coordination needed.</a></p>
+<p>The design could also use some twiddling. What is there, now, is serviceable (although the table is a bit small on mobile devices). There are templates available, but the thousands of CSS boilerplate to support many responsive designs is shocking. Given the normalized complexity in everything from cloud deployment pipelines to front-end JavaScript frameworks, I probably shouldn’t be surprised. But damn.</p>
+
+<p><figure><img src="/images/2018/08/screenshot-2.png" /><figcaption>A screenshot of the new WebAPI.events desktop experience.</figcaption></figure></p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>So webapi.events is refreshed. It has a simplified workflow, reduced dependencies on 3rd parties, a simplified design, and is only ever served up with SSL.</p>
+
+<p>And those “captive portals” at airport and hotel wifi spots? Rather than pinging my own stuff, I’ve started using “<a href="http://neverssl.com/">NeverSSL.com</a>”. Simple, easy-to-remember, and perfect for man-in-the-middle hijacking.</p>
 
   </div>
 
@@ -478,173 +485,517 @@
     
 
     
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
     	
         <hr />
     		<h4>Related</h4>
     		
     	
       <div>
-      <h5><a href="/2017/07/12/Logan/">Logan, Westerns, and a Civilized Internet</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/2016/10/12/ExMachina/">Ex Machina</a></h5>
+      <h5><a href="/2014/03/24/WhyBuildSomeoneElsesCathedral/">On Content</a></h5>
       </div>
       
       
@@ -820,13 +1171,6 @@
     
 
     
-    	
-      <div>
-      <h5><a href="/2015/03/23/UndertheSkinReview/">Under the Skin (2014)</a></h5>
-      </div>
-      
-      
-    
 
   
 
@@ -836,13 +1180,6 @@
     
 
     
-    	
-      <div>
-      <h5><a href="/2015/03/17/TravelingSalesmanReview/">The Traveling Salesman (2012)</a></h5>
-      </div>
-      
-      
-    
 
   
 
@@ -851,77 +1188,6 @@
 
     
 
-    
-    	
-      <div>
-      <h5><a href="/2015/03/07/ChappieReview/">Chappie (2015)</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/2015/03/04/CoherenceReview/">Coherence (2014)</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/2015/03/04/RobocopRebootReview/">Robocop (2014)</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/2015/02/19/JupiterAscendingReview/">Jupiter Ascending (2015)</a></h5>
-      </div>
-      
-      
-    
-
-  
-
-    
-    
-
-    
-
-    
-    	
-      <div>
-      <h5><a href="/2015/02/18/TheZeroTheoremReview/">The Zero Theorem (2014)</a></h5>
-      </div>
-      
-      
     
 
   
@@ -941,13 +1207,134 @@
     
 
     
-    	
-      <div>
-      <h5><a href="/2015/02/02/TheCongressReview/">The Congress (2014)</a></h5>
-      </div>
-      
-      
-        
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
 
 </div>
       </div>
