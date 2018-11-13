@@ -6,9 +6,69 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Sep 2018 21:50:03 -0400</pubDate>
-    <lastBuildDate>Wed, 12 Sep 2018 21:50:03 -0400</lastBuildDate>
+    <pubDate>Tue, 13 Nov 2018 15:05:57 -0500</pubDate>
+    <lastBuildDate>Tue, 13 Nov 2018 15:05:57 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Soft and Hard Power in Software Governance</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/11/lights.png&quot; /&gt;&lt;figcaption&gt;An complex image of power at play across a ceiling.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve had the privilege (or curse, depending on your predilection) of working in a software governance role for the last several years. What started as a simple API design advisory job has scaled into something that is equal parts technical acumen, developer empathy, business strategy, process psychology, and cultural anthropology. In growing, I’ve had to learn some new things.&lt;/p&gt;
+
+&lt;p&gt;One of those things is the power within systems, and how it is wielded.  I’ve seen top-down, “do as your told”, initiatives flounder, despite the impressive titles of those declaring the mandate. This is because applying linear thinking in blunt ways to dynamic systems often fails.&lt;/p&gt;
+
+&lt;p&gt;But it doesn’t have to be that way. If you have a technical leadership position within your organization, &lt;em&gt;you have more at your disposal than ‘my way or the highway’&lt;/em&gt;. Success in a non-linear system requires an appreciation of different governance power: soft power and hard power.&lt;/p&gt;
+
+&lt;h2 id=&quot;soft-power&quot;&gt;SOFT POWER&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Soft_power&quot;&gt;Soft power&lt;/a&gt; is a political concept developed by Harvard University’s Joseph Nye. Nye defined soft power as the ability to achieve objectives through appeal and attraction, rather than force or coercion. He clarified that it is in opposition to “command power”, or a nation “ordering others to do what it wants.”&lt;/p&gt;
+
+&lt;p&gt;Soft power applies to change agents within a company who may have the &lt;em&gt;responsibility&lt;/em&gt; of achieving technology initiative outcomes, but lack the authority over all the participants. They cannot command people to comply. Instead, they have to rely on a different set of actions: &lt;strong&gt;diplomacy&lt;/strong&gt;, &lt;strong&gt;strategic communication&lt;/strong&gt;, &lt;strong&gt;assistance&lt;/strong&gt;, &lt;strong&gt;negotiation&lt;/strong&gt;, and &lt;strong&gt;community building&lt;/strong&gt;. These actions share an inclusive vision for the future that others embrace without being told.&lt;/p&gt;
+
+&lt;p&gt;Creating standards or processes with a soft power approach may be as simple as stating a new expectation for teams to aspire to in a public forum. Or it might be a mutual agreement between parties on how to move forward on a particular issue.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Soft power excels when the situation is new and/or evolving rapidly.&lt;/strong&gt; During this phase of an initiative, it is beneficial to adapt to new information while experience is gathered. Needs, some of which could not have been anticipated ahead of time, can be rapidly responded to. In cases where governance does not know what the final outcome should be, where flexibility and experimentation are most important, soft power should be the preferred approach until a desirable tenable solution is discovered.&lt;/p&gt;
+
+&lt;h2 id=&quot;hard-power&quot;&gt;Hard Power&lt;/h2&gt;
+&lt;p&gt;Hard power is the ability to command (or restrict) a person or group to a specific set of behaviors. &lt;em&gt;Usually&lt;/em&gt;, it describes the recognized authority for one individual (or organization) to direct another. But &lt;strong&gt;hard power can also be described as the set of allowances that a software system exposes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lawrence Lessig, in his books &lt;a href=&quot;https://en.wikipedia.org/wiki/Code_and_Other_Laws_of_Cyberspace&quot;&gt;Code and Other Laws of Cyberspace&lt;/a&gt; (1999), and &lt;a href=&quot;https://en.wikipedia.org/wiki/Code:_Version_2.0&quot;&gt;Code v2&lt;/a&gt; (2006) proposed that software regulates behavior the same way laws do, albeit within the confines of a program. Software commands (or restricts) the user’s actions in a way that coercive, soft power methods do not.&lt;/p&gt;
+
+&lt;p&gt;Soft power may be a suggestion to do something a particular way via a persuasive argument. Hard power, as delivered via software tooling, is the encoded set of things a user is allowed to do. There is less malleability to a specific context. But the outcomes are stable and predictable. Also, because it is delivered via software, hard power can scale more efficiently than soft power.&lt;/p&gt;
+
+&lt;p&gt;A change to hard power, however, &lt;em&gt;means changing code&lt;/em&gt;. Hard power’s capability to react and adapt is only as fast as a team’s deployment cycle. That cycle may include creation of a backlog item, gathering of stories, prioritization in a sprint, coding, functional testing, integration testing, user-acceptance testing, and final deployment. For stable, mature environments that don’t change often, that round-tripping may be an acceptible trade off for hard-power’s benefits.&lt;/p&gt;
+
+&lt;h2 id=&quot;two-recent-examples&quot;&gt;Two Recent Examples&lt;/h2&gt;
+&lt;p&gt;Two recent work examples illustrate how I employ soft and hard power to support developers delivering business value.&lt;/p&gt;
+
+&lt;p&gt;In one case, we were tasked with creating a collaboration process on a newly launched technology platform. It was so new, in fact, that what success looked like was tbd. With so many things like developer maturity, throughput, expectations, etc., yet to be determined, we needed to have the flexibility to experiment and change over time. Few things warranted dedicated tooling, or a ‘hard’ power approach, in this situation. Ignore the delivery lag; nothing kills developer moral like telling them to throw out what they just proudly delivered because “the situation is fluid”.&lt;/p&gt;
+
+&lt;p&gt;In the second situation, we recognized an opportunity to express hard power through our lifecycle tooling. The process flow was mature, with clear parameters and desired outcomes. However, we had an immediate problem that stalled a team. In that case, we defined a soft power agreement (“we will proceed with things in this way, and manually track what comes through during this intermediate phase”) until the hard power updated could be applied. It allowed us to solve issues today while we waited for backlog priority could align.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Being a change agent managing a software process across thousands of developers is no simple task. Moving from a simple linear system to a complex ecosystem requires a different set of approaches. I came from a development background; “applying power” talk still makes me  uncomfortable. But, in order to be effective in my role, it is essential understand the nuance and how it can be applied.&lt;/p&gt;
+
+&lt;p&gt;This framework for how I classify approaches has been helpful to me, and hopefully it will be helpful for you, too.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/13/SoftPowerVHardPower/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/13/SoftPowerVHardPower/</guid>
+        
+        <category>API Governance</category>
+        
+        <category>soft power</category>
+        
+        <category>hard power</category>
+        
+        <category>Joseph Nye</category>
+        
+        <category>management</category>
+        
+        <category>Lawrence Lessig</category>
+        
+        
+      </item>
     
       <item>
         <title>Adding SSL to WebAPI.events</title>
@@ -624,61 +684,6 @@ A sample chart of what we're currently reporting out, grouped by business divisi
         
         <category>GDPR</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Design-First APIs and API Academy Presos &amp;#x2709;</title>
-        <description>&lt;p&gt;Document, or design-first, approaches to API design are increasing in adoption. Or at least that's what I'm lead to believe with this latest batch of pieces in the REST API notes. Keith Casey shares a numbe of different documentation styles. There's also a number of related pieces which further flesh out the role API descriptions play in a modern production workflow.&lt;/p&gt;
-
-&lt;p&gt;I also share a number of recent presentations from the API Academy. This early spring, the team was out in force, educating about APIs in a variety of forums around the world. *Per usual*, they've shared their work, and we're the better for it.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-13&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-13&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Mar 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/newsletter/2018/03/13/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/03/13/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Keith Casey</category>
-        
-        <category>Design-First</category>
-        
-        <category>Phil Sturgeon</category>
-        
-        <category>Shekhar Banerjee</category>
-        
-        <category>eBay</category>
-        
-        <category>Faria Rehman</category>
-        
-        <category>APIMatic</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>Erik Wilde</category>
-        
-        <category>Mike Amundsen</category>
-        
-        <category>Matt McLarty</category>
-        
-        <category>Irakli Nadareishvili</category>
-        
-        <category>IANA</category>
-        
-        <category>Speccy</category>
-        
-        <category>Hootsuite</category>
-        
-        <category>microservices</category>
-        
-        
-        <category>newsletter</category>
         
       </item>
     
