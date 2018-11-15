@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Nov 2018 15:05:57 -0500</pubDate>
-    <lastBuildDate>Tue, 13 Nov 2018 15:05:57 -0500</lastBuildDate>
+    <pubDate>Thu, 15 Nov 2018 10:58:10 -0500</pubDate>
+    <lastBuildDate>Thu, 15 Nov 2018 10:58:10 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -66,6 +66,336 @@
         <category>management</category>
         
         <category>Lawrence Lessig</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Gardener's Approach to Growing an API Culture</title>
+        <description>&lt;p&gt;My work on pragmatic software governance has evolved. It started with a focus scaling good API design across a modern enterprise company. Increasingly, I'm interested in how culture impacts technology adoption. Why are do some approaches become deeply embedded within an org, while others disappear after a hot minute? &lt;/p&gt;
+
+&lt;p&gt;I gave this talk several times this past fall - most notably at APIStrat (Nashville) and API City (Bremerton, outside Seattle). For many, the content may have been unrelatable; what's all this talk about ecosystems when one is only submitting pull requests to a single branch? For a select subset of enterprise folks, however, these issues of scale and co-habitation loom large. There's also few resources available. Hopefully, this post will provide some insight into what they're seeing based on my own experiences.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/01.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+&lt;p&gt;Hello everyone. My name is Matthew Reinbold and the title for this talk is &quot;A Gardener's Approach to Growing an API Culture&quot;. If that topic sounds a bit different, that's because I hope it is. And I'm guessing that it might have attracted an audience in search of something a bit different. &lt;/p&gt;
+
+&lt;p&gt;What this talk is about is APIs at scale. What considerations occur when you go from managing &quot;a few APIs&quot; to being a gardener of an ecosystem?&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/02.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;I don't know how big your organizations are but, no doubt, you seen an increase in the level of software complexity. Also, our industry, collectively, has adopted some very nasty habits; everything from move fast and break things to resume-driven development. How do we cultivate software design that, as Fielding described, has a &quot;scale of decades&quot; when &lt;a href=&quot;https://insights.stackoverflow.com/survey/2018/&quot;&gt;the average developer tenure at a company is a year and a half&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;What I hope to do in this talk is share some of what I have found to be resilient about an API culture, make it relatable through the use of a garden analogy, and share some techniques for those grappling with ongoing technological change within their own organizations. &lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/03.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;For the last several years I've been the Director of the Capital One Platform Services Center of Excellence.&lt;/p&gt;
+
+&lt;p&gt;My team and I are responsible for gardening a complex, distributed-systems ecosystem. Capital One has around 9000 developers that we work with on API and event streaming designs, standards, and lifecycle management. These developers are spread across numerous North American locations and multiple lines of business. They've produced thousands of APIs that we manage with our own infrastructure, resulting in more than two billion request/responses a day. And our messaging infrastructure is on pace to surpass the historical adoption trends we experienced for internal APIs. &lt;/p&gt;
+
+&lt;p&gt;My team and I are responsible for software process management. We build shared communities of practice and federated responsibility.  We've used centralized design mangaement to best cross-pollinate the best ideas and multiply infrastructure across the organization. &lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/04.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;In addition to powerful internal functionality, our investments into distributed architectures have allowed us to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Be the first company to offer Amazon Echo access to their financial accounts, &lt;/li&gt;
+&lt;li&gt;Win multiple JD Power Awards for our mobile experience&lt;/li&gt;
+&lt;li&gt;Sign partnership portfolios worth tens-of-billions-of-dollars&lt;/li&gt;
+&lt;li&gt;Hover just outside the top Fortune 100 companies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Distributed systems aren't a theoretical gamble for us. It's who we've become as a culture. It's how we win in the competitive marketplace.&lt;/p&gt;
+
+&lt;p&gt;We are reaping the fruits of our labor. And increasingly, I'm not just interested in the harvest that we have, but how we keep it healthy and prosperous going forward. &lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/05.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;I like this image – it takes many of the components of a healthy garden and breaks them up into their individual components. We can have a greater appreciation for all interplay that occurs within one of these systems.&lt;/p&gt;
+
+&lt;p&gt;I'm guessing most people here would be familiar with a garden ecosystem. There's the ground, which includes the mineral composition, the producer plant life, and the consumers - both the animals attracted by the plants - the worms, the bees - and the second order consumers - the snakes, the spiders, etc. I glossing over a tremendous amount, and probably doing a disservice in the process, but an ecosystem can be complex. &lt;/p&gt;
+
+&lt;p&gt;But ecosystems don't just happen. Throwing seeds on the ground and coming back months later expecting something to harvest isn't statistically likely. And micro-managing the interplay between the numerous participants in such a complex environment doesn't scale.&lt;/p&gt;
+
+&lt;p&gt;[Image taken from &lt;a href=&quot;https://blog.grovegrown.com/what-grove-does-differently-to-get-people-growing-cd6a71f39864&quot;&gt;https://blog.grovegrown.com/what-grove-does-differently-to-get-people-growing-cd6a71f39864&lt;/a&gt;]&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/06.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;Likewise, technology ecosystems have numerous components. Attempting to address only one of them, while ignoring all the other factors, is like attempting to make a garden flourish while only being able control the flow of water. What is adequate during times of drought or flooding does little to deal with insect infestation, or an invasive species.&lt;/p&gt;
+
+&lt;p&gt;[Breakdown of elements taken from Matt McLarty's presentation, &quot;&lt;a href=&quot;https://www.slideshare.net/MattMcLarty/designbased-microservices-aka-planes-trains-automobiles&quot;&gt;Design-based Microservices, AKA Planes, Trains, and Automobiles&lt;/a&gt;&quot;, slide 42]&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/07.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;Kudzu is a Chinese vine introduced by way of Japan to the United States. It was a perfect match for the climate of the southeastern United States. In the right conditions, a Kudzu vine can grow almost a foot a day (or between 19 to 30 centimeters). During the dust bowl of the 1930's, planting Kudzu was encouraged as a way of preventing soil erosion; it's addition to the ecosystem was a desirable thing. &lt;/p&gt;
+
+&lt;p&gt;And then the ecosystem changed. Rain returned and these places where Kudzu had taken root suddenly themselves with a problem. It grows so fast it smothers native plants and trees, drastically reducing access to sunlight and water. It eventually kills them and will devastate ecosystems dependent on native plant and wildlife. In the US it does not have any natural predators.&lt;/p&gt;
+
+&lt;p&gt;[Photo by Eli Christman and shared under a Creative Commons 2.0 license. Original photo here: &lt;a href=&quot;https://flic.kr/p/abgksv&quot;&gt;https://flic.kr/p/abgksv&lt;/a&gt;]&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/08.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;The modern software development environment has also been one of increasing complexity. On this page are a variety of processes, techniques, frameworks, technologies, and styles.&lt;/p&gt; 
+
+&lt;p&gt;The last decade has been marked by creating incrementally smaller deployable units. The tradeoff of increasingly granular executables is a non-linear increase in configuration and communication management. Today's modern development environment includes:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Microservices, functions, SaaS-all-the-things&lt;/li&gt;
+&lt;li&gt;Polyglot languages (at least in theory)&lt;/li&gt;
+&lt;li&gt;Cloud and Containers&lt;/li&gt;
+&lt;li&gt;Software-Defined Everything&lt;/li&gt;
+&lt;li&gt;Everything Optimized for Replacement&lt;/li&gt;
+&lt;li&gt;Existence of Platform Teams&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This trend results in complexity, and complexity leads to emergent behaviors, or behaviors that may not be easily addressed with linear thinking. It is an &lt;em&gt;ecosystem&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;How does one go about determining the right fit? Which of these things will be around two years from now? Five? Is there a way of identifying those things, like Kudzu, which seem to have short term benefits and long term ramifications? How do we identify complimentary species to our ecosystems and those that will unbalance it?&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/09.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;Think about the complex ecosystem of the forest and how it handles change. There is a size hierarchy: pine needle, tree crown, patch, stand, forest, and biome. But those differences in scale are also a time hierarchy; said differently, as we increase in scope, we also increase in time frames of reference:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The needle changes within a year&lt;/li&gt;
+&lt;li&gt;the tree crown over several years&lt;/li&gt;
+&lt;li&gt;the patch over many decades&lt;/li&gt;
+&lt;li&gt;the stand over a couple centuries&lt;/li&gt;
+&lt;li&gt;the forest over a thousand years&lt;/li&gt;
+&lt;li&gt;and the biome over ten thousand years&lt;/li&gt; 
+&lt;/ul&gt;
+
+&lt;p&gt;What can happen in the short term is &lt;em&gt;constrained&lt;/em&gt; by the larger, slower moving concepts. The range of what the needle may do is constrained by the tree crown, which is constrained by the patch and stand, which are controlled by the forest, which is controlled by the biome.&lt;/p&gt;
+
+&lt;p&gt;It is a complex ecosystem. &lt;strong&gt;But it is not static&lt;/strong&gt;. Innovation happens throughout the system via evolutionary competition among individual trees dealing with the stresses of crowding, parasites, predators, and weather.&lt;/p&gt;
+
+
+&lt;p&gt;[Photo by Julien R on Unsplash]&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/10.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;&lt;strong&gt;Stewart Brand's Pace Layer model is an attempt to capture this layering&lt;/strong&gt;. &quot;Pace Layers&quot; appeared in Stewart's 1999 book, The Clock of the Long Now, and was an extension of the architectural concept of &quot;shearing layers&quot;. Shearing Layers, a concept coined by architect Frank Duffy, was elaborated on by Stewart in his 1995 book, How Buildings Learn. It describes how buildings are a set of components that evolve in different timescales. The book was, subsequently, &lt;a href=&quot;https://www.youtube.com/user/brandst/videos&quot;&gt;turned into a BBC television series that can be viewed online&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Different parts of a society, or industry, move at different rates. Concepts at the top of the graph change at a rapid clip. The further down one goes, the slower change occurs.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take, for example, a conference center.  It is a complex ecosystem necessary to produce a given outcome: an event. The chairs are reconfigured as need dictates. They'll be swapped out according to fashion. They have rates of change much greater than the carpet or the visual facade, which changes faster than the street ordinances. All of which changes faster than our cultural tendency getting together face to face. &lt;/p&gt;
+
+&lt;p&gt;It is the combination of fast and slow moving parts that gives a system its resiliency. The layers are not independent. As each moves at its own speed, there is tension at the edges where they layers touch, something called &quot;slip zones&quot;.&lt;/p&gt; 
+
+&lt;p&gt;Consider any recent emerging technology. Those electric scooters you've probably seen around are in a slip zone. Will they decend beyond a fad, becoming part of a city's transportation &lt;strong&gt;infrastructure&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://www.theverge.com/platform/amp/2018/10/24/18016486/oakland-scooter-meeting-skip-lime-bird-helmet-safety-responsibility&quot;&gt;perhaps even requiring governance&lt;/a&gt;&lt;/strong&gt;, to become part of culture? Or is it a fad, resulting in some commerce but disappearing after the VC money runs out? &lt;/p&gt;
+
+&lt;p&gt;Fidget spinners were a fad, that caused changes to commerce to sell product. But they never became part of people's routines (their habitual infrastructure). There was no need for governance, and they never embedded themselves in cultural identity. As a result, the ubiquitous thing one summer is easily disposed of and replaced by the next. 
+&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/11.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;This is such a beautiful summary, it is worth repeating.&lt;/p&gt;
+
+&lt;p&gt;&quot;The fast parts learn. The slow parts remember. The fast parts propose things, the slow parts dispose things. The fast and small instruct the slow and big with accrued innovations and occasional revolutions. At the same time, and we don't respect this as much as we should, the big and the slow control the fast and the small with constraints and with constancy. All the attention is paid to the fast parts. But all the power is in the slow parts.&quot;&lt;/p&gt;
+
+&lt;p&gt;&quot;Each layer needs to respect each other's pace. If commerce is too dominate in a society, it can jerk governance around harmfully. Or it can reach down and disrupt culture and nature by going too fast while not having the patience to deal with infrastructure problems. The flip side is where the Soviet Union tried to run everything at governance pace (five year plans, for example) and they destroyed other layers.&quot;&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/12.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;So let's start to bring this together. &lt;/p&gt;
+
+&lt;p&gt;The web as a platform is a result of its architectural simplicity, the use of a widely implemented and agreed-upon protocol (HTTP), and the pervasiveness of common representation formats (JSON). Fashion (gRPC, GraphQL, RPC, SOA, etc.) will come and go. However, creating distributed systems with web-based APIs in the same manner of the web will continue because of foundation in something deeper, more substantial. This is because of web principles like:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Independent Deployment and Evolution&lt;/li&gt;
+&lt;li&gt;Independent Scalability&lt;/li&gt;
+&lt;li&gt;Resiliency/Isolation &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The key for distributed systems success is &lt;strong&gt;a few well-known actions and the application-specific interpretation of resource representations.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/13.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;According to the book, ‘&lt;a href=&quot;https://global.oup.com/academic/product/the-modern-firm-9780198293750?cc=us&amp;amp;lang=en&amp;amp;&quot;&gt;The Modern Firm&lt;/a&gt;', by John Roberts, culture is three things: &lt;strong&gt;people, architectures,&lt;/strong&gt; and &lt;strong&gt;routines&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;A software development culture is not ping pong tables and keg stand Fridays. Culture is not open floor plans or the glowing adjectives used in press releases. Culture is how a company behaves when stressed.&lt;/p&gt;
+
+&lt;p&gt;By mimicking the web, and embracing people, architectures, and routines that promote &lt;strong&gt;loose coupling&lt;/strong&gt;, &lt;strong&gt;individual scaling&lt;/strong&gt;, and &lt;strong&gt;resiliency&lt;/strong&gt; between individual elements, the company I work for has embraced an API culture for sustaining innovation. How successful would a garden be if every plant had to grow at the same rate? If the entire ecosystem was comprised of a single flower? We nurture an ecosystem that is diverse, has a degree of independence, but is &lt;strong&gt;mutually responsible to the whole&lt;/strong&gt;. More importantly, knock on wood, that firmament will remain stable while we evaluate new technology fashions that arise.&lt;/p&gt;
+
+&lt;p&gt;The faster layers propose things. But we're not beholden to try everything. The slower-moving, cultural layer &lt;em&gt;constrains&lt;/em&gt; the faster moving layers for the stability of the entire system. That said, how do we use this when evaluating change? &lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/14.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;Let's look at two comparable, but different, API-related items.&lt;/p&gt; 
+
+&lt;p&gt;On the surface, we might lump things like hypermedia and microservices together. They are both popular topics on the API speaking circuit over the last half decade and, in a rush, we can hand-wave at them as &quot;web-API&quot; things. &lt;/p&gt;
+
+&lt;p&gt;I've written my email newsletter, &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/archive&quot;&gt;REST API Notes&lt;/a&gt;, for the last several years. I consume numerous blog posts, slide decks, and video recordings every week in an attempt to share only the best, most salient information with my busy audience. In parsing all that material, it has become clear that microservices has taken root across software development shops in a way that hypermedia hasn't. It doesn't mean that hypermedia is a bad idea - far from it. And yet, time and time again, these hypermedia seeds cast don't seem to flourish. &lt;/p&gt;
+
+&lt;p&gt;The Pace Layer model provides a theory.&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/15.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;Microservices are implementation details. They are supposed to be the smallest possible cohesive unit in a system.&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href=&quot;http://shop.oreilly.com/product/0636920050308.do&quot;&gt;Irakli Nadareishvili&lt;/a&gt; likes to say, &quot;microservices are not about reuse!&quot; They are about reducing the coordination overhead costs among teams. They are not &quot;little APIs&quot;, although they use all of the infrastructure (the protocols, networking frameworks, etc.) that already exists within a company. They lack exposure (remember, they're not about reuse) in order to maximize their ephemeraility.&lt;/p&gt;
+
+&lt;p&gt;They are like the chairs in this building. Or the pine needles in the forest. Their rate of change combined mean that they were primed for taking off. The rate of change is within the infrastructure layer.&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/16.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;Hypermedia is more than just providing links to related information, although it might be pitched that way.&lt;/p&gt;
+
+&lt;p&gt;At a previous e-commerce job, I was an backend developer and architect for a product &lt;em&gt;perfect&lt;/em&gt; for hypermedia. On checkout, the business wanted to dynamically A/B test various upsell offers based on the contents of the cart. Because of the rate at which they wanted to test offers, combined with the dynamic nature of the cart contents, trying to bake every possible upsell paramutation into an executable that went through an app store approval process (itself which might take two weeks) was impossible.&lt;/p&gt;
+
+&lt;p&gt;Hypermedia is a great solution for &quot;workflow&quot; like events, which the checkout flow primarily was. Each state returned by the server would provide links to the next step. That next step may change, depending on what is being tested. The mobile application would navigate the path presented it, and the business case would be fulfilled.&lt;/p&gt;
+
+&lt;p&gt;Despite the natural fit, however, the work floundered. Hypermedia is more than just links. Its an inversion of communication flow. Rather than the mobile developer being able to look at the totality of exposed functionality and call their shot, they where now expected to respond to a bread trail they were given. It was a different &lt;em&gt;architecture&lt;/em&gt; resulting in a different calling &lt;em&gt;routine&lt;/em&gt; for the &lt;em&gt;people&lt;/em&gt; involved. As we mentioned from John Robert's definition, people, routines, and architecture are aspects of &lt;strong&gt;culture&lt;/strong&gt;.&lt;/p&gt; 
+
+&lt;p&gt;Hypermedia, done correctly, challenges conventional development paradigms. It requires the appropriate supporting culture, something that moves more slowly to support new forms. It doesn't mean that hypermedia will never happen. What it does mean, however, is that adoption is on the order of a &lt;strong&gt;culture&lt;/strong&gt; change, not an &lt;strong&gt;infrastructure&lt;/strong&gt; one. Successful culture change requires a different set of approaches to pull off successfully.&lt;/p&gt;
+
+&lt;p&gt;Note: this is a model. Anyone using a model should be quick to share the George Box quote, &quot;all models are wrong, but some are useful&quot;. But despite the fact they are an oversimplified version of reality, a good model let's us see a situation in a new light, and makes us ask different questions in the pursuit of new and/or different insights.&lt;/p&gt;
+
+&lt;p&gt;Using Stewart Brand's Pace Layering model, I conclude that there haven't been many compelling cases of hypermedia because the layer that needs to change, an organization's people and routines representing its culture, move at a much slower rate. Culture change is much more challenging than changing infrastructure. &lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/17.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;I'll leave the exercise of walking through GraphQL, what change layer it is most likely to come to rest in, and the ramifications that will have for future IT environments to the reader. However, if you do that, make sure to key the following questions in mind:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Of the problems that GraphQL claims to solve, out of which layers in the pace layer did those problems emerge?&lt;/li&gt;
+&lt;li&gt;In which layer are those problems most felt?&lt;/li&gt;
+&lt;li&gt;From which layer is a solution most likely to merge?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, consider a company where GraphQL is being considered. Perhaps previously created REST-ish APIs have had poor bounded contexts, ill fitting with desired business experiences. But if the culture of a company (the people, routines, and architectures) can't accruately articulate well isolated, composed pieces of business functionality, what happens if the culture stays the same and we swap infrastructure, instead?&lt;/p&gt;
+
+&lt;p&gt;Your mileage may vary. But I'd argue that, in the above example, you've conceded defeat and pushed the hard work of creating well-understood business interactions onto the integrating client. Is that a sustainable decision for your ecosystem? Or, over time, will we look back on this as a moment where Kudzu was encouraged?&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/18.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;We work in an industry proficient in eating its young, of chasing the dragon of the ‘next big thing', of disposing perfectly workable solutions in the pursuit of the next silver bullet. &lt;/p&gt;
+
+&lt;p&gt;We can't (or want to) stop the growth of our ecosystems. Excellence within our software development circles will remain an ongoing, evolving conversation with constant change. But we also don't have to accept a binge-purge cycle of architectural violence as a given. We can break that pattern. We can stand on the shoulders of giants, rather than repeatedly attempting to chop them off at the knees. &lt;/p&gt;
+
+&lt;p&gt;Like attentive gardeners, we can carefully cultivate dynamic, complex environments where innovation can happen, while being wary to threats that might jeopardize the balance. &lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/19.png&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+
+&lt;p&gt;Thank you for your attention.&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 Oct 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2018/10/31/Gardeners-Approach/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/31/Gardeners-Approach/</guid>
+        
+        <category>REST API</category>
+        
+        <category>presos</category>
+        
+        <category>APIStrat</category>
+        
+        <category>Capital One</category>
+        
+        <category>API Governance</category>
+        
+        <category>conferences</category>
         
         
       </item>
@@ -564,126 +894,6 @@ A sample chart of what we're currently reporting out, grouped by business divisi
         
         
         <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Facebook, Regulation, and Who Controls the Kitchen Sink</title>
-        <description>&lt;p&gt;In the wake of Cambridge-Analytica, Facebook seems to be taking the wrong lessons from the incident (or, if I’m cynical, they’re skewing in a direction that cements their market dominance). They are correct that the loss of trust is so much bigger than whatever terms of service Cambridge Analytica violated. However, the stated conclusion that there is a binary relationship between data portability and privacy - that either everything must be shared or Facebook controls everything - is &lt;em&gt;wrong&lt;/em&gt;.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/03/facebook-apology.jpg&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;Last week, concerns over Facebook’s data collection practices reached an all-time fever pitch. I had intended on sharing my thoughts, along with a handful of recommended takeaways for API providers, as part of my &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/archive&quot;&gt;REST API Notes&lt;/a&gt;. However, the longer I compiled breaking news, the longer the piece became. Eventually, it seemed warranted to break Facebook off into its own dedicated post.&lt;/p&gt;
-
-&lt;p&gt;I’ve tried to be thorough, but “uncritical” set sail awhile ago. I’m biased. People, like techno-sociologist Zeynep Tufekci, raised the alarm years ago, when meaningful action could have been taken.  &lt;a href=&quot;/2016/08/01/CodifiedCulturalBias/&quot;&gt;I left Facebook around the same time over concerns on the power uber data aggregators wield&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Despite those protestations, Facebook’s practices continued. It doesn’t appear that the internal conversations ever switched from “can we?” to “should we?” And now the mob, embittered and frustrated by the cultural malaise of the moment, are coming with torches and regulatory pitchforks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;About. Goddamn. Time.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
-&lt;p&gt;Mid-March, The New York Times reported that Cambridge Analytica &lt;a href=&quot;https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html&quot;&gt;improperly acquired the private data&lt;/a&gt; of approximately 50 million Facebook users. It then, subsequently, used the psychological profiles it created with the data to target voters on behalf of the Trump campaign during the 2016 presidential election. The Obama campaign, in 2012, &lt;a href=&quot;https://www.youtube.com/watch?time_continue=1189&amp;amp;v=LGiiQUMaShw&quot;&gt;also ingested Facebook relationship data&lt;/a&gt;. However, while the Obama campaign was transparent that people were giving their information (and their friends’ information) to the cause of re-electing Obama, the Trump campaign used data culled from a personality quiz app.&lt;/p&gt;
-
-&lt;p&gt;This app used the 1.0 version of the Facebook’s Graph API. That version launched in April, 2010 and allowed developers to “not only see the social connection between people, &lt;a href=&quot;https://techcrunch.com/2010/04/21/zuckerbergs-buildin-web-default-social/&quot;&gt;but see and create the connections people have with their interests - things, places, brands, and other sites&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;p&gt;Very &lt;em&gt;little&lt;/em&gt; information is needed before profound insights can be inferred about a person. &lt;a href=&quot;https://web.archive.org/web/20090328103238/http://privacy.cs.cmu.edu/dataprivacy/HIPAA/HIPAAcomments.html&quot;&gt;A Carnegie Mellon study has shown&lt;/a&gt;, 87% of Americans can be positively identified using only a 5-digit postal code, gender, and date of birth. Full name, postal code, and date of birth equate to voter rolls, which themselves are sold by many states. Using nothing but likes, &lt;a href=&quot;http://www.pnas.org/content/early/2013/03/06/1218772110&quot;&gt;researchers Michal Kosinski, David Stillwell, and Thore Graepel have successfully shown they can predict a wide range of sensitive personal attributes&lt;/a&gt; including “sexual orientation, ethnicity, religious and political views, personality traits, intelligence, happiness, use of addictive substances, parental separation, age, and gender”.&lt;/p&gt;
-
-&lt;p&gt;Further, version 1.0 of the Graph API didn’t just make information about a specific user available; it allowed “extended permissions”. This feature allowed approved apps to request a range of users’ &lt;em&gt;friends&lt;/em&gt;, along with their information. This additional information &lt;em&gt;did not require the consent of those friends before it was shared&lt;/em&gt;. In addition to Personally Identifiable Information (or PII), this friend information included education, groups, hometown, interests, location, relationships, religion, work history, etc. Having understanding of information flow is powerful; according to one study, &lt;a href=&quot;https://blog.acolyer.org/2018/03/26/information-flow-reveals-prediction-limits-in-online-social-activity/&quot;&gt;‘95% of the potential predictive accuracy attainable for an individual is available within the social ties of that individual only, without requiring the individual’s data’&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A University of Cambridge professor, Aleksadr Kogan, created an app called &lt;em&gt;thisisyourdigitallife&lt;/em&gt;. Built using Facebook’s Graph API, he seeded the initial userbase with people paid through Amazon’s “Mechanical Turk”. Subsequently, &lt;a href=&quot;https://www.nytimes.com/2018/03/19/opinion/facebook-cambridge-analytica.html&quot;&gt;around 270,000 people were paid between $1 and $2 to download and use the personality quiz app&lt;/a&gt;. Through the use of ‘extended permissions’ the initial 270,000 users resulted in 50 million populated profiles; profiles containing the names, dates of birth, employment history, likes, and more. Aleksadr then gave the information he collected to Cambridge Analytica. &lt;em&gt;Technically&lt;/em&gt;, only the last step violated Facebook’s rules, which prohibit selling or giving away data collected by a third-party app.&lt;/p&gt;
-
-&lt;p&gt;Graph 1.0 was deprecated on April 2014 (and access ended entirely in 2015). The second version of the Graph API, while providing information for the conscenting user, &lt;a href=&quot;https://stackoverflow.com/questions/23417356/facebook-graph-api-v2-0-me-friends-returns-empty-or-only-friends-who-also-u&quot;&gt;no longer has extended permissions&lt;/a&gt;. However, the data collected by external entities during this time cannot be expunged; revoking access does nothing to the apps that might have had access and saved themselves a copy. The data is out there, on who-knows-how-many private servers, with the potential to be purchased, aggregated with other datasets, and weaponized for future scenarios.&lt;/p&gt;
-
-&lt;p&gt;In fact, &lt;a href=&quot;https://www.theatlantic.com/technology/archive/2018/03/my-cow-game-extracted-your-facebook-data/556214/&quot;&gt;as the author of the Facebook game ‘Cow Clicker’ stated&lt;/a&gt;, “all the publicity around Facebook’s Cambridge Analytica crisis might be sending lots of old app developers, like me, back to old code and dusty databases, wondering what they’ve even got stored and what it might yet be worth”.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, the abuses didn’t stop when Graph 1.0 was fully shutdown in 2015. Other Facebook products, like Instagram’s API, &lt;a href=&quot;https://business.instagram.com/blog/new-instagram-api-features&quot;&gt;still exhibit similar behavior&lt;/a&gt;. In March, 2016, &lt;a href=&quot;https://promarket.org/roger-mcnamee-think-can-make-legitimate-case-facebook-become-parasitic/&quot;&gt;Facebook expelled a group that was using its API to scrape data about people who expressed interest in Black Lives Matter&lt;/a&gt;. The group had been selling the data to police departments. At the end of the same year, &lt;a href=&quot;https://www.propublica.org/article/hud-has-serious-concerns-about-facebooks-ethnic-targeting&quot;&gt;the Department of Housing and Urban Development launched an investigation following concerns that Facebook’s advertising tools allow real estate advertisers to discriminate users according to race&lt;/a&gt;. Facebook &lt;a href=&quot;http://time.com/5215274/facebook-messenger-android-call-text-message-data/&quot;&gt;has also admitted to collecting call and text message history of users who own Android phones&lt;/a&gt; (while users were asked if they wanted to import their phone contacts, it was not obvious to many users that they were agreeing to have their cell phone activity recorded).&lt;/p&gt;
-
-&lt;p&gt;Mark Zuckerberg &lt;a href=&quot;https://www.techdirt.com/articles/20180321/17312239474/mark-zuckerberg-finally-speaks-about-cambridge-analytica-it-wont-be-enough.shtml&quot;&gt;responded last Wednesday afternoon, outlining reactive steps to the situation&lt;/a&gt;: Facebook would &lt;em&gt;investigate old apps that used v1.0&lt;/em&gt;, &lt;em&gt;further restrict access to data&lt;/em&gt;, and &lt;em&gt;give more transparency and control to end users&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, Facebook and Cambridge Analytica have &lt;a href=&quot;https://www.techdirt.com/articles/20180318/00111439443/both-facebook-cambridge-analytica-threatened-to-sue-journalists-over-stories-cas-use-facebook-data.shtml&quot;&gt;threatened to sue&lt;/a&gt; the journalists that broke the original story. This seems, primarily, over the erroneous use of the word “breach” in the course of describing events; if determined to be a data breach (which this wasn’t), the company could face fines.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
-
-&lt;p&gt;Frustratingly, Facebook seems to be taking the wrong lessons from the incident (or, if I’m cynical, they’re skewing in a direction that cements their market dominance). They are correct that the loss of trust is so much bigger than whatever terms of service Cambridge Analytica violated. However, the stated conclusion that there is a binary relationship between data portability and privacy - that either everything must be shared or Facebook controls everything - is &lt;em&gt;wrong&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.techdirt.com/articles/20180321/17312239474/mark-zuckerberg-finally-speaks-about-cambridge-analytica-it-wont-be-enough.shtml&quot;&gt;Techdirt summarized the round of media interviews that Mark Zuckerberg did, where he said&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I was maybe too idealistic on the side of data portability, that it would create more good experiences — and it created some — but I think what the clear feedback from our community was that people value privacy a lot more.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Later, he bemoans having to make these kinds of tradeoffs:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“I guess I have to, because of [where we are] now, but I’d rather not.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If consumers &lt;em&gt;had&lt;/em&gt; control, it would take Mark out of the leadership role that he is, apparently, uncomfortable playing.  Why &lt;em&gt;can’t&lt;/em&gt; someone easily be able to bulk-delete “likes” older than a year? Why is it necessary for Facebook to retain work history older than the last employer? Sexual orientation, race, and religious affiliation can get someone killed - so why can’t people indicate that these should never be stored, or even &lt;em&gt;inferred&lt;/em&gt; - as part of their profile?&lt;/p&gt;
-
-&lt;p&gt;The most valuable part of Facebook, for an individual, is not the status updates, or the images uploaded - it is the network of connections they’ve built. This is why so many apps, unable to get the social graph from Facebook, resort to the kludge of the “access your contacts” email workaround. If the individual chose, why couldn’t they take those relationships (sans ‘extended permissions’ data) with them somewhere else?&lt;/p&gt;
-
-&lt;p&gt;Rather than allow apps to hoover up the kind of information useful for psyops, why not allow developers to create 3rd party tools for permissions configuration, &lt;a href=&quot;https://www.eff.org/deeplinks/2018/03/why-we-didnt-make-fix-my-facebook-privacy-settings-tool&quot;&gt;the kind Cory Doctorow wrote about&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, because there is little market incentive for Facebook to do so. Till now, the profitable thing has not aligned with the right thing. As Doc Searls has written, &lt;a href=&quot;http://blogs.harvard.edu/doc/2018/03/23/nothing/&quot;&gt;this is a problem not just for Facebook, but for an entire online publishing industry dependent on building advertising panopticons for revenue growth&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Regulation, above and beyond what currently exists, is coming. It &lt;em&gt;could&lt;/em&gt; make a difference. However, ideas currently swirling entrench Facebook as the market leader, with little likelihood of alternatives arising. An example is the European ‘&lt;a href=&quot;https://pagefair.com/blog/2017/gdpr_risk_to_the_duopoly/&quot;&gt;General Data Protection Regulation&lt;/a&gt;’ (GDPR). It goes into effect May, 2018. Some have hailed it as progress toward defining when user consent is necessary. It also has provisions for data portability. However, &lt;a href=&quot;https://medium.com/mydata/gdpr-data-portability-is-a-false-promise-af460d35a629&quot;&gt;there are already workarounds devised, with the social graph considered a “legitimate interest” of the social network&lt;/a&gt;. As a ‘legitimate interest’ of the business, it is not privy to export.&lt;/p&gt;
-
-&lt;p&gt;As Techdirt summarized:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Solving” the problem isn’t going to be solving the problem for real – and it’s just going to end up giving Facebook greater power over our data. That’s an unfortunate result.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;What we need is thoughtful, not knee-jerk, regulation. We need consumer-friendly policies that promote the principles of the open web and eschew monopolies. We need to treat personal data with the kind of care and responsibility that we do with powerful, and potentially dangerous, things in the real world. And we need to look for answers outside of Facebook, because there’s few incentives to drive the necessary change from within.&lt;/p&gt;
-
-&lt;div style=&quot;max-width:854px&quot;&gt;&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%&quot;&gt;&lt;iframe src=&quot;https://embed.ted.com/talks/zeynep_tufekci_we_re_building_a_dystopia_just_to_make_people_click_on_ads&quot; width=&quot;854&quot; height=&quot;480&quot; style=&quot;position:absolute;left:0;top:0;width:100%;height:100%&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Mon, 26 Mar 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2018/03/26/Facebook/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/03/26/Facebook/</guid>
-        
-        <category>Facebook</category>
-        
-        <category>Zeynep Tufekci</category>
-        
-        <category>regulation</category>
-        
-        <category>governance</category>
-        
-        <category>Trump</category>
-        
-        <category>Obama</category>
-        
-        <category>Graph API</category>
-        
-        <category>Carnegie Mellon</category>
-        
-        <category>Michal Kosinski</category>
-        
-        <category>David Stillwell</category>
-        
-        <category>Thore Graepel</category>
-        
-        <category>Aleksadr Kogan</category>
-        
-        <category>Cambridge Analytica</category>
-        
-        <category>Mechanical Turk</category>
-        
-        <category>Instagram</category>
-        
-        <category>Mark Zuckerberg</category>
-        
-        <category>open web</category>
-        
-        <category>Cory Doctorow</category>
-        
-        <category>Doc Searls</category>
-        
-        <category>GDPR</category>
-        
         
       </item>
     
