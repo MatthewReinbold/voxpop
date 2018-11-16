@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Nov 2018 10:04:04 -0500</pubDate>
-    <lastBuildDate>Fri, 16 Nov 2018 10:04:04 -0500</lastBuildDate>
+    <pubDate>Fri, 16 Nov 2018 10:14:34 -0500</pubDate>
+    <lastBuildDate>Fri, 16 Nov 2018 10:14:34 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -308,9 +308,9 @@
 
 &lt;p&gt;Microservices are implementation details. They are supposed to be the smallest possible cohesive unit in a system.&lt;/p&gt;
 
-&lt;p&gt;As &lt;a href=&quot;http://shop.oreilly.com/product/0636920050308.do&quot;&gt;Irakli Nadareishvili&lt;/a&gt; likes to say, &quot;microservices are not about reuse!&quot; They are about reducing the coordination overhead costs among teams. They are not &quot;little APIs&quot;, although they use all of the infrastructure (the protocols, networking frameworks, etc.) that already exists within a company. They lack exposure (remember, they're not about reuse) in order to maximize their ephemeraility.&lt;/p&gt;
+&lt;p&gt;As &lt;a href=&quot;http://shop.oreilly.com/product/0636920050308.do&quot;&gt;Irakli Nadareishvili&lt;/a&gt; likes to say, &quot;microservices are not about reuse!&quot; They are about reducing the coordination overhead costs among teams. They are not &quot;little APIs&quot;, although they use all of the API infrastructure (the protocols, networking frameworks, etc.) that already exists within a company. They lack exposure (remember, they're not about reuse) in order to maximize their ephemeraility.&lt;/p&gt;
 
-&lt;p&gt;They are like the chairs in this building. Or the pine needles in the forest. Their rate of change combined mean that they were primed for taking off. The rate of change is within the infrastructure layer.&lt;/p&gt;
+&lt;p&gt;They are like the chairs in this building. Or the pine needles in the forest. The rate of change is within the infrastructure layer.&lt;/p&gt;
 
 &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -328,11 +328,11 @@
 
 &lt;p&gt;Despite the natural fit, however, the work floundered. Hypermedia is more than just links. Its an inversion of communication flow. Rather than the mobile developer being able to look at the totality of exposed functionality and call their shot, they where now expected to respond to a bread trail they were given. It was a different &lt;em&gt;architecture&lt;/em&gt; resulting in a different calling &lt;em&gt;routine&lt;/em&gt; for the &lt;em&gt;people&lt;/em&gt; involved. As we mentioned from John Robert's definition, people, routines, and architecture are aspects of &lt;strong&gt;culture&lt;/strong&gt;.&lt;/p&gt; 
 
-&lt;p&gt;Hypermedia, done correctly, challenges conventional development paradigms. It requires the appropriate supporting culture, something that moves more slowly to support new forms. It doesn't mean that hypermedia will never happen. What it does mean, however, is that adoption is on the order of a &lt;strong&gt;culture&lt;/strong&gt; change, not an &lt;strong&gt;infrastructure&lt;/strong&gt; one. Successful culture change requires a different set of approaches to pull off successfully.&lt;/p&gt;
+&lt;p&gt;Hypermedia, done correctly, challenges conventional development paradigms. It requires the appropriate supporting culture, something that moves more slowly to support new forms. It doesn't mean that hypermedia will never happen. What it does mean, however, is that adoption is on the order of a &lt;strong&gt;culture&lt;/strong&gt; change, not &lt;strong&gt;infrastructure&lt;/strong&gt;. Not only does it take longer, but successful culture change also requires a different set of approaches.&lt;/p&gt;
 
 &lt;p&gt;Note: this is a model. Anyone using a model should be quick to share the George Box quote, &quot;all models are wrong, but some are useful&quot;. But despite the fact they are an oversimplified version of reality, a good model let's us see a situation in a new light, and makes us ask different questions in the pursuit of new and/or different insights.&lt;/p&gt;
 
-&lt;p&gt;Using Stewart Brand's Pace Layering model, I conclude that there haven't been many compelling cases of hypermedia because the layer that needs to change, an organization's people and routines representing its culture, move at a much slower rate. Culture change is much more challenging than changing infrastructure. &lt;/p&gt;
+&lt;p&gt;Using Stewart Brand's Pace Layering model, I conclude that there haven't been many compelling cases of hypermedia because the layer that needs to change, an organization's culture, moves at a much slower rate in adopting new things. Changing culture is more challenging than changing infrastructure. &lt;/p&gt;
 
 &lt;/figcaption&gt;
 &lt;/figure&gt;
