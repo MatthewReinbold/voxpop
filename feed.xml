@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Nov 2018 10:58:10 -0500</pubDate>
-    <lastBuildDate>Thu, 15 Nov 2018 10:58:10 -0500</lastBuildDate>
+    <pubDate>Fri, 16 Nov 2018 08:40:07 -0500</pubDate>
+    <lastBuildDate>Fri, 16 Nov 2018 08:40:07 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -90,7 +90,7 @@
 &lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/02.png&quot; /&gt;
 &lt;figcaption class=&quot;slide&quot;&gt;
 
-&lt;p&gt;I don't know how big your organizations are but, no doubt, you seen an increase in the level of software complexity. Also, our industry, collectively, has adopted some very nasty habits; everything from move fast and break things to resume-driven development. How do we cultivate software design that, as Fielding described, has a &quot;scale of decades&quot; when &lt;a href=&quot;https://insights.stackoverflow.com/survey/2018/&quot;&gt;the average developer tenure at a company is a year and a half&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;I don't know how big your organizations are but, no doubt, you've seen an increase in the level of software complexity. Also,  our collective industry  has adopted some very nasty habits; everything from move fast and break things to resume-driven development. How do we cultivate software design that, as Fielding described, has a &quot;scale of decades&quot; when &lt;a href=&quot;https://insights.stackoverflow.com/survey/2018/&quot;&gt;the average developer tenure at a company is a year and a half&lt;/a&gt;?&lt;/p&gt;
 
 &lt;p&gt;What I hope to do in this talk is share some of what I have found to be resilient about an API culture, make it relatable through the use of a garden analogy, and share some techniques for those grappling with ongoing technological change within their own organizations. &lt;/p&gt;
 &lt;/figcaption&gt;
@@ -105,7 +105,7 @@
 
 &lt;p&gt;My team and I are responsible for gardening a complex, distributed-systems ecosystem. Capital One has around 9000 developers that we work with on API and event streaming designs, standards, and lifecycle management. These developers are spread across numerous North American locations and multiple lines of business. They've produced thousands of APIs that we manage with our own infrastructure, resulting in more than two billion request/responses a day. And our messaging infrastructure is on pace to surpass the historical adoption trends we experienced for internal APIs. &lt;/p&gt;
 
-&lt;p&gt;My team and I are responsible for software process management. We build shared communities of practice and federated responsibility.  We've used centralized design mangaement to best cross-pollinate the best ideas and multiply infrastructure across the organization. &lt;/p&gt;
+&lt;p&gt;My team and I are responsible for software process management. We build shared communities of practice and federated responsibility.  We've used centralized design management to cross-pollinate the best ideas and multiply infrastructure impact across the organization. &lt;/p&gt;
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
@@ -115,10 +115,10 @@
 &lt;figcaption class=&quot;slide&quot;&gt;
 
 &lt;p&gt;In addition to powerful internal functionality, our investments into distributed architectures have allowed us to:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Be the first company to offer Amazon Echo access to their financial accounts, &lt;/li&gt;
-&lt;li&gt;Win multiple JD Power Awards for our mobile experience&lt;/li&gt;
-&lt;li&gt;Sign partnership portfolios worth tens-of-billions-of-dollars&lt;/li&gt;
-&lt;li&gt;Hover just outside the top Fortune 100 companies&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Be &lt;a href=&quot;https://developer.amazon.com/blogs/alexa/post/c70e3a9b-405c-4fe1-bc20-bc0519d48c97/the-story-of-the-capital-one-alexa-skill&quot;&gt;the first company to offer Amazon Echo access to their financial accounts&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Win multiple &lt;a href=&quot;https://www.jdpower.com/business/press-releases/jd-power-2018-us-banking-and-credit-card-app-satisfaction-studies&quot;&gt;JD Power Awards&lt;/a&gt; for our mobile experience&lt;/li&gt;
+&lt;li&gt;Sign &lt;a href=&quot;https://www.wsj.com/articles/walmart-taps-capital-one-for-store-cards-dealing-major-blow-to-synchrony-1532626208&quot;&gt;partnership portfolios worth tens-of-billions-of-dollars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hover just outside &lt;a href=&quot;http://fortune.com/fortune500/capital-one-financial/&quot;&gt;the top Fortune 100 companies&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Distributed systems aren't a theoretical gamble for us. It's who we've become as a culture. It's how we win in the competitive marketplace.&lt;/p&gt;
@@ -163,7 +163,7 @@
 
 &lt;p&gt;Kudzu is a Chinese vine introduced by way of Japan to the United States. It was a perfect match for the climate of the southeastern United States. In the right conditions, a Kudzu vine can grow almost a foot a day (or between 19 to 30 centimeters). During the dust bowl of the 1930's, planting Kudzu was encouraged as a way of preventing soil erosion; it's addition to the ecosystem was a desirable thing. &lt;/p&gt;
 
-&lt;p&gt;And then the ecosystem changed. Rain returned and these places where Kudzu had taken root suddenly themselves with a problem. It grows so fast it smothers native plants and trees, drastically reducing access to sunlight and water. It eventually kills them and will devastate ecosystems dependent on native plant and wildlife. In the US it does not have any natural predators.&lt;/p&gt;
+&lt;p&gt;And then the ecosystem changed. Rain returned and the places where Kudzu had taken root suddenly themselves with a problem. It grows so fast it smothers native plants and trees, drastically reducing their access to sunlight and water. Left unchecked, Kudzu will devastate ecosystems that are dependent on native plant and wildlife. In the US it does not have any natural predators.&lt;/p&gt;
 
 &lt;p&gt;[Photo by Eli Christman and shared under a Creative Commons 2.0 license. Original photo here: &lt;a href=&quot;https://flic.kr/p/abgksv&quot;&gt;https://flic.kr/p/abgksv&lt;/a&gt;]&lt;/p&gt;
 
@@ -198,18 +198,18 @@
 &lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/09.png&quot; /&gt;
 &lt;figcaption class=&quot;slide&quot;&gt;
 
-&lt;p&gt;Think about the complex ecosystem of the forest and how it handles change. There is a size hierarchy: pine needle, tree crown, patch, stand, forest, and biome. But those differences in scale are also a time hierarchy; said differently, as we increase in scope, we also increase in time frames of reference:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;The needle changes within a year&lt;/li&gt;
-&lt;li&gt;the tree crown over several years&lt;/li&gt;
-&lt;li&gt;the patch over many decades&lt;/li&gt;
-&lt;li&gt;the stand over a couple centuries&lt;/li&gt;
-&lt;li&gt;the forest over a thousand years&lt;/li&gt;
+&lt;p&gt;A forest is a complex ecosystem. Think about how it handles change. There is a size hierarchy: pine needle, tree crown, patch, stand, forest, and biome. Those differences in scale also form a time hierarchy; said differently, as we increase in scope, we also increase in time frames of reference:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;The needle changes within a year -&lt;/li&gt;
+&lt;li&gt;the tree crown over several years -&lt;/li&gt;
+&lt;li&gt;the patch over many decades -&lt;/li&gt;
+&lt;li&gt;the stand over a couple centuries -&lt;/li&gt;
+&lt;li&gt;the forest over a thousand years -&lt;/li&gt;
 &lt;li&gt;and the biome over ten thousand years&lt;/li&gt; 
 &lt;/ul&gt;
 
 &lt;p&gt;What can happen in the short term is &lt;em&gt;constrained&lt;/em&gt; by the larger, slower moving concepts. The range of what the needle may do is constrained by the tree crown, which is constrained by the patch and stand, which are controlled by the forest, which is controlled by the biome.&lt;/p&gt;
 
-&lt;p&gt;It is a complex ecosystem. &lt;strong&gt;But it is not static&lt;/strong&gt;. Innovation happens throughout the system via evolutionary competition among individual trees dealing with the stresses of crowding, parasites, predators, and weather.&lt;/p&gt;
+&lt;p&gt;It is a complex ecosystem. &lt;strong&gt;But it is not static&lt;/strong&gt;. Innovation happens throughout the system via evolutionary competition among individual trees. Each tree survives or dies dealing with the stresses of crowding, parasites, predators, and weather.&lt;/p&gt;
 
 
 &lt;p&gt;[Photo by Julien R on Unsplash]&lt;/p&gt;
@@ -225,13 +225,13 @@
 
 &lt;p&gt;&lt;strong&gt;Different parts of a society, or industry, move at different rates. Concepts at the top of the graph change at a rapid clip. The further down one goes, the slower change occurs.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Take, for example, a conference center.  It is a complex ecosystem necessary to produce a given outcome: an event. The chairs are reconfigured as need dictates. They'll be swapped out according to fashion. They have rates of change much greater than the carpet or the visual facade, which changes faster than the street ordinances. All of which changes faster than our cultural tendency getting together face to face. &lt;/p&gt;
+&lt;p&gt;Take, for example, a conference center.  It is a complex ecosystem necessary to produce a given outcome: an event. The chairs are reconfigured as need dictates. They'll be swapped out according to fashion. They have rates of change much greater than the carpet or the visual facade, which changes faster than the street ordinances or hospitality laws. All of which changes faster than our cultural tendency of getting together face to face. &lt;/p&gt;
 
 &lt;p&gt;It is the combination of fast and slow moving parts that gives a system its resiliency. The layers are not independent. As each moves at its own speed, there is tension at the edges where they layers touch, something called &quot;slip zones&quot;.&lt;/p&gt; 
 
-&lt;p&gt;Consider any recent emerging technology. Those electric scooters you've probably seen around are in a slip zone. Will they decend beyond a fad, becoming part of a city's transportation &lt;strong&gt;infrastructure&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://www.theverge.com/platform/amp/2018/10/24/18016486/oakland-scooter-meeting-skip-lime-bird-helmet-safety-responsibility&quot;&gt;perhaps even requiring governance&lt;/a&gt;&lt;/strong&gt;, to become part of culture? Or is it a fad, resulting in some commerce but disappearing after the VC money runs out? &lt;/p&gt;
+&lt;p&gt;Consider any recent emerging technology. Those electric scooters you've probably seen around are in a slip zone. Will they decend beyond a fad, becoming part of a city's transportation &lt;strong&gt;infrastructure&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://www.theverge.com/platform/amp/2018/10/24/18016486/oakland-scooter-meeting-skip-lime-bird-helmet-safety-responsibility&quot;&gt;perhaps even requiring governance&lt;/a&gt;&lt;/strong&gt;, on the way to becoming a cultural touchstone? Or is it a fad, resulting in some commerce but disappearing after the VC money runs out? &lt;/p&gt;
 
-&lt;p&gt;Fidget spinners were a fad, that caused changes to commerce to sell product. But they never became part of people's routines (their habitual infrastructure). There was no need for governance, and they never embedded themselves in cultural identity. As a result, the ubiquitous thing one summer is easily disposed of and replaced by the next. 
+&lt;p&gt;Fidget spinners were a fad. They decended to the commerace layer as everyone sought to sell some product. But they never became part of people's routines (their habitual infrastructure). There was no need for governance, and they never embedded themselves in cultural identity. As a result, the ubiquitous thing one summer is easily disposed of and replaced by the next. 
 &lt;/p&gt;
 
 &lt;/figcaption&gt;
@@ -342,7 +342,7 @@
 &lt;figure&gt;&lt;img src=&quot;/images/2018/10/gardeners-slides/17.png&quot; /&gt;
 &lt;figcaption class=&quot;slide&quot;&gt;
 
-&lt;p&gt;I'll leave the exercise of walking through GraphQL, what change layer it is most likely to come to rest in, and the ramifications that will have for future IT environments to the reader. However, if you do that, make sure to key the following questions in mind:&lt;/p&gt;
+&lt;p&gt;I'll leave the exercise of walking through GraphQL, what change layer it is most likely to be, and the future ramifications to the reader. However, if you do that, keep the following questions in mind:&lt;/p&gt;
 
 &lt;ul&gt;&lt;li&gt;Of the problems that GraphQL claims to solve, out of which layers in the pace layer did those problems emerge?&lt;/li&gt;
 &lt;li&gt;In which layer are those problems most felt?&lt;/li&gt;

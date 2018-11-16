@@ -99,7 +99,7 @@
 <figure><img src="/images/2018/10/gardeners-slides/02.png" />
 <figcaption class="slide">
 
-<p>I don't know how big your organizations are but, no doubt, you seen an increase in the level of software complexity. Also, our industry, collectively, has adopted some very nasty habits; everything from move fast and break things to resume-driven development. How do we cultivate software design that, as Fielding described, has a "scale of decades" when <a href="https://insights.stackoverflow.com/survey/2018/">the average developer tenure at a company is a year and a half</a>?</p>
+<p>I don't know how big your organizations are but, no doubt, you've seen an increase in the level of software complexity. Also,  our collective industry  has adopted some very nasty habits; everything from move fast and break things to resume-driven development. How do we cultivate software design that, as Fielding described, has a "scale of decades" when <a href="https://insights.stackoverflow.com/survey/2018/">the average developer tenure at a company is a year and a half</a>?</p>
 
 <p>What I hope to do in this talk is share some of what I have found to be resilient about an API culture, make it relatable through the use of a garden analogy, and share some techniques for those grappling with ongoing technological change within their own organizations. </p>
 </figcaption>
@@ -114,7 +114,7 @@
 
 <p>My team and I are responsible for gardening a complex, distributed-systems ecosystem. Capital One has around 9000 developers that we work with on API and event streaming designs, standards, and lifecycle management. These developers are spread across numerous North American locations and multiple lines of business. They've produced thousands of APIs that we manage with our own infrastructure, resulting in more than two billion request/responses a day. And our messaging infrastructure is on pace to surpass the historical adoption trends we experienced for internal APIs. </p>
 
-<p>My team and I are responsible for software process management. We build shared communities of practice and federated responsibility.  We've used centralized design mangaement to best cross-pollinate the best ideas and multiply infrastructure across the organization. </p>
+<p>My team and I are responsible for software process management. We build shared communities of practice and federated responsibility.  We've used centralized design management to cross-pollinate the best ideas and multiply infrastructure impact across the organization. </p>
 </figcaption>
 </figure>
 </p>
@@ -124,10 +124,10 @@
 <figcaption class="slide">
 
 <p>In addition to powerful internal functionality, our investments into distributed architectures have allowed us to:</p>
-<ul><li>Be the first company to offer Amazon Echo access to their financial accounts, </li>
-<li>Win multiple JD Power Awards for our mobile experience</li>
-<li>Sign partnership portfolios worth tens-of-billions-of-dollars</li>
-<li>Hover just outside the top Fortune 100 companies</li>
+<ul><li>Be <a href="https://developer.amazon.com/blogs/alexa/post/c70e3a9b-405c-4fe1-bc20-bc0519d48c97/the-story-of-the-capital-one-alexa-skill">the first company to offer Amazon Echo access to their financial accounts</a> </li>
+<li>Win multiple <a href="https://www.jdpower.com/business/press-releases/jd-power-2018-us-banking-and-credit-card-app-satisfaction-studies">JD Power Awards</a> for our mobile experience</li>
+<li>Sign <a href="https://www.wsj.com/articles/walmart-taps-capital-one-for-store-cards-dealing-major-blow-to-synchrony-1532626208">partnership portfolios worth tens-of-billions-of-dollars</a></li>
+<li>Hover just outside <a href="http://fortune.com/fortune500/capital-one-financial/">the top Fortune 100 companies</a></li>
 </ul>
 
 <p>Distributed systems aren't a theoretical gamble for us. It's who we've become as a culture. It's how we win in the competitive marketplace.</p>
@@ -172,7 +172,7 @@
 
 <p>Kudzu is a Chinese vine introduced by way of Japan to the United States. It was a perfect match for the climate of the southeastern United States. In the right conditions, a Kudzu vine can grow almost a foot a day (or between 19 to 30 centimeters). During the dust bowl of the 1930's, planting Kudzu was encouraged as a way of preventing soil erosion; it's addition to the ecosystem was a desirable thing. </p>
 
-<p>And then the ecosystem changed. Rain returned and these places where Kudzu had taken root suddenly themselves with a problem. It grows so fast it smothers native plants and trees, drastically reducing access to sunlight and water. It eventually kills them and will devastate ecosystems dependent on native plant and wildlife. In the US it does not have any natural predators.</p>
+<p>And then the ecosystem changed. Rain returned and the places where Kudzu had taken root suddenly themselves with a problem. It grows so fast it smothers native plants and trees, drastically reducing their access to sunlight and water. Left unchecked, Kudzu will devastate ecosystems that are dependent on native plant and wildlife. In the US it does not have any natural predators.</p>
 
 <p>[Photo by Eli Christman and shared under a Creative Commons 2.0 license. Original photo here: <a href="https://flic.kr/p/abgksv">https://flic.kr/p/abgksv</a>]</p>
 
@@ -207,18 +207,18 @@
 <figure><img src="/images/2018/10/gardeners-slides/09.png" />
 <figcaption class="slide">
 
-<p>Think about the complex ecosystem of the forest and how it handles change. There is a size hierarchy: pine needle, tree crown, patch, stand, forest, and biome. But those differences in scale are also a time hierarchy; said differently, as we increase in scope, we also increase in time frames of reference:</p>
-<ul><li>The needle changes within a year</li>
-<li>the tree crown over several years</li>
-<li>the patch over many decades</li>
-<li>the stand over a couple centuries</li>
-<li>the forest over a thousand years</li>
+<p>A forest is a complex ecosystem. Think about how it handles change. There is a size hierarchy: pine needle, tree crown, patch, stand, forest, and biome. Those differences in scale also form a time hierarchy; said differently, as we increase in scope, we also increase in time frames of reference:</p>
+<ul><li>The needle changes within a year -</li>
+<li>the tree crown over several years -</li>
+<li>the patch over many decades -</li>
+<li>the stand over a couple centuries -</li>
+<li>the forest over a thousand years -</li>
 <li>and the biome over ten thousand years</li> 
 </ul>
 
 <p>What can happen in the short term is <em>constrained</em> by the larger, slower moving concepts. The range of what the needle may do is constrained by the tree crown, which is constrained by the patch and stand, which are controlled by the forest, which is controlled by the biome.</p>
 
-<p>It is a complex ecosystem. <strong>But it is not static</strong>. Innovation happens throughout the system via evolutionary competition among individual trees dealing with the stresses of crowding, parasites, predators, and weather.</p>
+<p>It is a complex ecosystem. <strong>But it is not static</strong>. Innovation happens throughout the system via evolutionary competition among individual trees. Each tree survives or dies dealing with the stresses of crowding, parasites, predators, and weather.</p>
 
 
 <p>[Photo by Julien R on Unsplash]</p>
@@ -234,13 +234,13 @@
 
 <p><strong>Different parts of a society, or industry, move at different rates. Concepts at the top of the graph change at a rapid clip. The further down one goes, the slower change occurs.</strong></p>
 
-<p>Take, for example, a conference center.  It is a complex ecosystem necessary to produce a given outcome: an event. The chairs are reconfigured as need dictates. They'll be swapped out according to fashion. They have rates of change much greater than the carpet or the visual facade, which changes faster than the street ordinances. All of which changes faster than our cultural tendency getting together face to face. </p>
+<p>Take, for example, a conference center.  It is a complex ecosystem necessary to produce a given outcome: an event. The chairs are reconfigured as need dictates. They'll be swapped out according to fashion. They have rates of change much greater than the carpet or the visual facade, which changes faster than the street ordinances or hospitality laws. All of which changes faster than our cultural tendency of getting together face to face. </p>
 
 <p>It is the combination of fast and slow moving parts that gives a system its resiliency. The layers are not independent. As each moves at its own speed, there is tension at the edges where they layers touch, something called "slip zones".</p> 
 
-<p>Consider any recent emerging technology. Those electric scooters you've probably seen around are in a slip zone. Will they decend beyond a fad, becoming part of a city's transportation <strong>infrastructure</strong>, <strong><a href="https://www.theverge.com/platform/amp/2018/10/24/18016486/oakland-scooter-meeting-skip-lime-bird-helmet-safety-responsibility">perhaps even requiring governance</a></strong>, to become part of culture? Or is it a fad, resulting in some commerce but disappearing after the VC money runs out? </p>
+<p>Consider any recent emerging technology. Those electric scooters you've probably seen around are in a slip zone. Will they decend beyond a fad, becoming part of a city's transportation <strong>infrastructure</strong>, <strong><a href="https://www.theverge.com/platform/amp/2018/10/24/18016486/oakland-scooter-meeting-skip-lime-bird-helmet-safety-responsibility">perhaps even requiring governance</a></strong>, on the way to becoming a cultural touchstone? Or is it a fad, resulting in some commerce but disappearing after the VC money runs out? </p>
 
-<p>Fidget spinners were a fad, that caused changes to commerce to sell product. But they never became part of people's routines (their habitual infrastructure). There was no need for governance, and they never embedded themselves in cultural identity. As a result, the ubiquitous thing one summer is easily disposed of and replaced by the next. 
+<p>Fidget spinners were a fad. They decended to the commerace layer as everyone sought to sell some product. But they never became part of people's routines (their habitual infrastructure). There was no need for governance, and they never embedded themselves in cultural identity. As a result, the ubiquitous thing one summer is easily disposed of and replaced by the next. 
 </p>
 
 </figcaption>
@@ -351,7 +351,7 @@
 <figure><img src="/images/2018/10/gardeners-slides/17.png" />
 <figcaption class="slide">
 
-<p>I'll leave the exercise of walking through GraphQL, what change layer it is most likely to come to rest in, and the ramifications that will have for future IT environments to the reader. However, if you do that, make sure to key the following questions in mind:</p>
+<p>I'll leave the exercise of walking through GraphQL, what change layer it is most likely to be, and the future ramifications to the reader. However, if you do that, keep the following questions in mind:</p>
 
 <ul><li>Of the problems that GraphQL claims to solve, out of which layers in the pace layer did those problems emerge?</li>
 <li>In which layer are those problems most felt?</li>
