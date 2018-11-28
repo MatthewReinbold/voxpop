@@ -6,9 +6,75 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Nov 2018 10:14:34 -0500</pubDate>
-    <lastBuildDate>Fri, 16 Nov 2018 10:14:34 -0500</lastBuildDate>
+    <pubDate>Wed, 28 Nov 2018 10:26:14 -0500</pubDate>
+    <lastBuildDate>Wed, 28 Nov 2018 10:26:14 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Newsletter Thanksgiving Special! &amp;#x2709;</title>
+        <description>&lt;p&gt;There's plenty of API hoot and nanny to cover. However, I take a moment to highlight not only some recent accomplishments, but thank readers for their time and attention. And there is also a colorful summation of Thanksgiving:&lt;/p&gt;
+
+&lt;blockquote&gt;If you're in the United States, this email probably finds you either in transit or in preparation (or both!) for the Thanksgiving holiday. It is a time that is associated with indulgent shopping, strained family conversations, and overeating while the Detroit Lions find less entertaining ways to lose.&lt;/blockquote&gt;
+
+&lt;p&gt;Happy holidays!&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-thanksgiving-special-2018-11-21&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-thanksgiving-special-2018-11-21&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/newsletter/2018/11/21/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/11/21/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>thanksgiving</category>
+        
+        <category>NFL</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
+        <title>GraphQL, Landscaping, and API Discovery &amp;#x2709;</title>
+        <description>&lt;p&gt;Zdenek &quot;Z&quot; Nemec settles the GraphQL/REST debate (or does he?) and Postman (the tool) has a developer survey out. Erik Wilde also defines a new concept, &quot;API landscapes&quot;. It is an interesting concept, and seems similar to what I refer to as &quot;&lt;a href=&quot;/2018/10/31/Gardeners-Approach/&quot;&gt;API Ecosystems&lt;/a&gt;&quot;. &lt;/p&gt;
+
+&lt;p&gt;All this and more in the latest note.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-11-13&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-11-13&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/newsletter/2018/11/21/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/11/21/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Zdenek Nemec</category>
+        
+        <category>GraphQL</category>
+        
+        <category>Erik Wilde</category>
+        
+        <category>API Management</category>
+        
+        <category>Bruno Pedro</category>
+        
+        <category>Postman</category>
+        
+        <category>API landscapes</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
     
       <item>
         <title>Soft and Hard Power in Software Governance</title>
@@ -401,6 +467,198 @@
       </item>
     
       <item>
+        <title>IBM Buys Red Hat With All the Moneys &amp;#x2709;</title>
+        <description>&lt;p&gt;This week's REST API Notes is big. Chris Wood discusses API design-first creation, Daniel Lindau talks OAuth flows, and Marjukka Niinioja recaps the Nordic APIs Platform Summit. In particular, she emphasizes the importance of API documentation. &lt;/p&gt;
+
+&lt;p&gt;Oh, and &lt;em&gt;34 billion somethings happened between IBM &amp;amp; Red Hat&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-10-29&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-10-29&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Oct 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/newsletter/2018/10/29/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/10/29/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Chris Wood</category>
+        
+        <category>Daniel Lindau</category>
+        
+        <category>OAuth</category>
+        
+        <category>Marjukka Niinioja</category>
+        
+        <category>API Design First</category>
+        
+        <category>Nordic APIs</category>
+        
+        <category>API Documentation</category>
+        
+        <category>IBM</category>
+        
+        <category>Red Hat</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
+        <title>Recapping the API City Conference&amp;#x2709;</title>
+        <description>&lt;p&gt;In this newsletter, Phil Sturgeon covers the importance of schemas, Michael Hibay shares a nuanced take on the relationship maturity model, and Mike Amundsen tweets up a storm. This, and a thank you to Tessa Mero and the APICity2018 conference.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-10-16&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-10-16&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Oct 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/newsletter/2018/10/16/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/10/16/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Phil Sturgeon</category>
+        
+        <category>Michael Hibay</category>
+        
+        <category>Mike Amundsen</category>
+        
+        <category>Tessa Mero</category>
+        
+        <category>APICity2018</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
+        <title>Recapping APIStrat 2018&amp;#x2709;</title>
+        <description>&lt;p&gt;The October 1st REST API Notes is all about APIStrat, with highlights of the presentations by the API Handyman, Arnaud Lauret, James Higginbotham, Shaun Gallagher, and Lou Powell.&lt;/p&gt;
+
+&lt;p&gt;Of course, just because I'm at a conference doesn't mean the rest of the world stands still. There's also contributions by Ben Nadel and Phil Calçado so impactful, they couldn't wait until a different week. This and more.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-10-01-apistrat-recap&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-10-01-apistrat-recap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Oct 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/newsletter/2018/10/16/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/10/16/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>APIStrat</category>
+        
+        <category>Arnaud Lauret</category>
+        
+        <category>James Higginbotham</category>
+        
+        <category>Shaun Gallagher</category>
+        
+        <category>Lou Powell</category>
+        
+        <category>Ben Nadel</category>
+        
+        <category>Phil Calçado</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
+        <title>API Labeling and Grindr Security Flaw&amp;#x2709;</title>
+        <description>&lt;p&gt;In this newsletter, I cover API World presentations from Irakli Nadareishvili and Christian Posta. I also suggest a deep read of Kristopher Sandoval's safety and idempotence piece; a thorough coverage of some core REST principles. There's also an API Labeling proposal by Erik Wilde and Cesare Pautasso that gives pause.&lt;/p&gt;
+
+&lt;p&gt;Finally, I end with yet &lt;em&gt;another&lt;/em&gt; Grindr's API security problem.&lt;/p&gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-09-20&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-09-20&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Sep 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/newsletter/2018/09/20/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/09/20/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>API World</category>
+        
+        <category>Irakli Nadareishvili</category>
+        
+        <category>Christian Posta</category>
+        
+        <category>Kristopher Sandoval</category>
+        
+        <category>Erik Wilde</category>
+        
+        <category>Cesare Pautasso</category>
+        
+        <category>API Labeling</category>
+        
+        <category>Grindr</category>
+        
+        <category>apis.fail</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
+        <title>API History, Service Meshes, and GraphQL Realities&amp;#x2709;</title>
+        <description>&lt;p&gt;After an August rest, there's a new edition of the REST API Notes out! In this compilation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chelsea Troy drops historical API knowledge bombs&lt;/li&gt;
+&lt;li&gt;Daniel Bryant clears his ridiculously high infodump bar with service meshes&lt;/li&gt;
+&lt;li&gt;Matthew Weier O'Phinney illuminates hashtag#GraphQL realities&lt;/li&gt;
+&lt;li&gt;Ericka Chickowski talks API security&lt;/li&gt;
+&amp;lt;/p&amp;gt;
+
+&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-09-11&quot;&gt;http://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-09-11&lt;/a&gt;&lt;/p&gt;
+ 
+&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 11 Sep 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/newsletter/2018/09/11/RESTAPINotes/</link>
+        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/09/11/RESTAPINotes/</guid>
+        
+        <category>REST API Notes</category>
+        
+        <category>Chelsea Troy</category>
+        
+        <category>Daniel Bryant</category>
+        
+        <category>service mesh</category>
+        
+        <category>Matthew Weier O'Phinney</category>
+        
+        <category>GraphQL</category>
+        
+        <category>Ericka Chickowski</category>
+        
+        <category>apis.fail</category>
+        
+        
+        <category>newsletter</category>
+        
+      </item>
+    
+      <item>
         <title>Adding SSL to WebAPI.events</title>
         <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/08/screenshot.png&quot; /&gt;&lt;figcaption&gt;A screenshot of the previous WebAPI.events desktop experience.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -481,419 +739,6 @@
         
         <category>NeverSSL</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Rethinking NPS for API Quality</title>
-        <description>&lt;p&gt;Previously, &lt;a href=&quot;/2017/10/03/API-Governance-Blueprint/&quot;&gt;I shared my team’s 2017 blueprint for API Governance&lt;/a&gt;. A component was measuring API quality using a “management tool” called &lt;em&gt;Net Promoter Score&lt;/em&gt;, or NPS. While NPS is usually used to quantify customer loyalty, I had hoped to repurpose it. As I explained in my previous work, NPS shortcutted much of the hand-wringing and tedious defense of any methodology we derived ourselves; when measuring “quality of experience”, NPS was already lingua franca among leadership.&lt;/p&gt;
-
-&lt;p&gt;You are probably familiar with NPS, even if you don’t know it by name. Ever been asked to rank your experience between a 0 and 10? Most likely your answer is being compiled into an NPS score.&lt;/p&gt;
-
-&lt;p&gt;After a year of experimenting with NPS, however, we’ve moved on. This is a update on the why, what we’ve done in the first half of 2018, and where I see continuing challenges in measuring API quality.&lt;/p&gt;
-
-&lt;p&gt;There are many repudiations of NPS. However, none encapsulated as many of the problems we were experiencing as Jared Spool’s “&lt;a href=&quot;https://articles.uie.com/net-promoter-score-considered-harmful-and-what-ux-professionals-can-do-about-it/&quot;&gt;Net Promoter Score Considered Harmful (and What UX Professionals Can Do About It)&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;h2 id=&quot;problems-with-nps&quot;&gt;Problems with NPS&lt;/h2&gt;
-&lt;h3 id=&quot;it-skews-negative&quot;&gt;It Skews Negative&lt;/h3&gt;
-&lt;p&gt;As Jared points out, NPS is &lt;strong&gt;not&lt;/strong&gt; a mean/average of all the scores collected. Rather, values “0-6” are considered &lt;em&gt;detractors&lt;/em&gt;, or people who are unlikely to recommend something to others. Based on how my team used it, this was whether my API team would recommend the API design for emulation by others within the org. A “7” or “8” is passable; neither so offensive that we have a clear call to action, but not the best of what we hope to see. Anything rated “9” or “10” we shout about from the roof tops.&lt;/p&gt;
-
-&lt;p&gt;Framing scores int his way doesn’t match with people’s expectations. A ‘middle of the pack’ rating of 5 &lt;em&gt;seems&lt;/em&gt; as though it should be neutral, neither good or bad, halfway between either pole. Yet, when computing NPS (the % of promoter scores minus the % of detractors), this value negatively impacts the rating.&lt;/p&gt;
-
-&lt;p&gt;It became a training issue for reviewers. And if it was non-obvious for the people doing the scoring, it certainly was a challenge for the development teams reviewed (who are different than executive leadership).&lt;/p&gt;
-
-&lt;p&gt;When meeting with busy folks outside your normal sphere of influence, you only get a few, fleeting minutes to hook them with “an ask”. Arguing over methodology minutia was &lt;em&gt;not&lt;/em&gt; a good use of precious time.&lt;/p&gt;
-
-&lt;h3 id=&quot;quality-improvement-on-individual-apis-or-otherwise-is-washed-out&quot;&gt;Quality Improvement, on Individual APIs or Otherwise, is Washed Out&lt;/h3&gt;
-&lt;p&gt;Let’s suppose a team has done the bare minimum for an API and, for various reasons, it exhibits intention that is neither &lt;a href=&quot;/2016/06/02/ConsistencyAndCohesion/&quot;&gt;consistent or cohesive with what has come before&lt;/a&gt;. My team would give this design a low score in an effort to incentivize improvement. Let’s say that score is “1” (a detractor). There’s no promoters, so the NPS results in a value of &lt;strong&gt;-100&lt;/strong&gt;, or the worst score a design can get.&lt;/p&gt;
-
-&lt;p&gt;Shocked by “-100”, the group sets out to improve the design: perhaps they improve the documentation, address some of the unintuitive RPC patterns, etc. The prioritize this work against a backlog of competing features, resubmit for review, the reviewer acknowledges their effort by scoring them a “6” and…&lt;/p&gt;
-
-&lt;p&gt;…&lt;em&gt;the team still gets -100 NPS&lt;/em&gt;. The team has made huge strides; their design is now above average! Yet, in the number reported to leadership, that effort was invisible. Imagine how demoralizing that would be on the part of the team, and how unlikely they’ll prioritize effort on new work in the future.&lt;/p&gt;
-
-&lt;p&gt;There’s also a scenario, as Jared points out, where a team improves a design previously rated “8”. That “neutral” score results in an NPS of 0. But, with a bit of polish, the design is re-reviewed at “9”. The result is an NPS of 100: &lt;strong&gt;a perfect score&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;p&gt;What is more valuable for future integrations? A team that improves a design from “1” to “6”, or a team that moves from “8” to a “9”? With NPS, the former is ignored. In the latter, it is overemphasized.&lt;/p&gt;
-
-&lt;p&gt;The purpose of that my team produces these metrics is to incentivize positive behavior. If the correct behavior is happening, but it isn’t reflected in the metrics, then we need to change things.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-were-doing-now&quot;&gt;What We’re Doing Now&lt;/h2&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/07/sample-chart.png&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-A sample chart of what we're currently reporting out, grouped by business division.
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Since moving away from NPS, we’ve gone to a much more straightforward average of reviewer scores. While each of these have a high degree of nuance, at a high level APIs are scored on:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Standards Adherence&lt;/li&gt;
-  &lt;li&gt;Completeness of the Documentation&lt;/li&gt;
-  &lt;li&gt;Consistency and Cohesion with Previously Published Work&lt;/li&gt;
-  &lt;li&gt;Viability to Exist as an API Product&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The average score remains useful for leadership to know where they are in their API design maturity. But what is much more &lt;em&gt;actionable&lt;/em&gt; for teams is directed feedback. A team that learns that their design averaged a score of “6” could cast about for changes to make on their next version. Or they could address a detailed list of concerns.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-next&quot;&gt;What’s Next&lt;/h2&gt;
-
-&lt;h3 id=&quot;stop-converting-noise-into-science&quot;&gt;Stop Converting Noise into Science&lt;/h3&gt;
-&lt;p&gt;After moving away from computing NPS, we still had a considerable amount of scoring activity that was useful. But it was based on the 11-point (0-10) scale used by NPS. So, when we continued with more straightforward averages, we maintained the previous scale so that we could blend the old and new scores.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, I’d be hard pressed to define the specific difference between an API design where one is rated a “4” and another is rated “5” on an 11-point scale. The distinction isn’t clear and leads to situations where one person’s “7” may be another person’s “5”.&lt;/p&gt;
-
-&lt;p&gt;A 3-point scale is very straightforward: if an API design is “bad”, give it a “1”, just ok APIs get a “2”, and awesome API designs get a “3”. However, that doesn’t leave a whole lot of nuance. Something akin to a 5-point scale seems to be a better fit. However, retrofitting the past year of scoring activity, &lt;a href=&quot;https://www.linkedin.com/pulse/amazons-rating-system-broken-might-your-fault-samuel-carter/&quot;&gt;along with avoiding polarization tendencies&lt;/a&gt; remains a challenge.&lt;/p&gt;
-
-&lt;h3 id=&quot;conflicts-of-interest-when-judge-jury-and-executioner&quot;&gt;Conflicts of Interest when Judge, Jury, and Executioner&lt;/h3&gt;
-&lt;p&gt;Presenting a picture of where leadership is at in their journey is one thing. We create the expectations and measure how well we meet those expectations. A conflict of interest arises when leadership, subsequently, sets specific scoring targets that they expect my reviewing team, working with software development teams, to deliver.&lt;/p&gt;
-
-&lt;p&gt;That could be a problem. The USDA food inspector isn’t required to show improvement in the produce they’re reviewing. The engineers that inspect bridges aren’t expected to have their defects detected trend downward overtime. Putting those who review a thing with a well intentioned, but misplaced, incentive can result in &lt;a href=&quot;https://money.cnn.com/2016/09/26/investing/wells-fargo-fake-accounts-before-2011/index.html&quot;&gt;some troubling outcomes&lt;/a&gt;. There’s tremendous pressure to pull a punch here, or turn a blind eye there.&lt;/p&gt;
-
-&lt;p&gt;The team and I need to define a better way forward here, with clear accountability and laser focus on driving the correct outcomes.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
-
-&lt;p&gt;Ultimately, this is part of a healthy process. We tried something, learned a ton in the process, and are iterating to get to something better. We have a ways to go. But I think it’s a sign of maturity to be able to take on new information and evolve to something better because of it.&lt;/p&gt;
-
-&lt;p&gt;Do you have an API quality metrics story? Are you wrestling with accountability and socialization of organizational improvements? Shoot me a line. I’d love to compare notes.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 10 Jul 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2018/07/10/Update-on-NPS/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/07/10/Update-on-NPS/</guid>
-        
-        <category>REST API</category>
-        
-        <category>Capital One</category>
-        
-        <category>API Governance</category>
-        
-        <category>metrics</category>
-        
-        <category>NPS</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Evolving APIs without Breaking &amp;#x2709;</title>
-        <description>&lt;p&gt;The lead story in this edition of the newsletter is Phil Sturgeon's piece on how to evolve an API design without breaking. &lt;em&gt;Usually&lt;/em&gt;, people resort to versioning in these cases. Phil does an excellent job of illustrating an alternative way.&lt;/p&gt;
-
-&lt;p&gt;There's also a bit from Matt McLarty on the future of microservices, and more from Sarah Elson on testing. Good, fundamental stuff on tap.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-05-09&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-05-09&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 09 May 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/newsletter/2018/05/09/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/05/09/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Phil Sturgeon</category>
-        
-        <category>microservices</category>
-        
-        <category>Matt McLarty</category>
-        
-        <category>Sarah Elson</category>
-        
-        <category>testing</category>
-        
-        <category>API City Conference</category>
-        
-        <category>Gartner</category>
-        
-        <category>Kai Todter</category>
-        
-        <category>HAL</category>
-        
-        <category>Facebook</category>
-        
-        <category>Google</category>
-        
-        <category>Sam Newman</category>
-        
-        <category>Erik Wilde</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>microxchng 2018 Recap &amp;#x2709;</title>
-        <description>&lt;p&gt;It's a celebration of all things microservice related in this edition of the REST API Notes. The microxchng conference, this year in Berlin, is one of the best out there. And thanks to video being posted to YouTube, all technologists can enjoy! I highlight some of my favorite pieces, through in a counter argument here and there to keep it spicy, and share a couple of notable milestones.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-05-01&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-05-01&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 May 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/newsletter/2018/05/01/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/05/01/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>microservices</category>
-        
-        <category>Michael Plod</category>
-        
-        <category>Zhamak Dehghani</category>
-        
-        <category>Stefan Tilkov</category>
-        
-        <category>Tareq Abedrabbo</category>
-        
-        <category>Eberhard Wolff</category>
-        
-        <category>microxchng</category>
-        
-        <category>API Transformer</category>
-        
-        <category>IFTTT</category>
-        
-        <category>Salesforce</category>
-        
-        <category>YouTube</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Contrasting API Maturity Models &amp;#x2709;</title>
-        <description>&lt;p&gt;For years, the Richardson Maturity Model has been the standard by which an API design has been gauged. Awhile later, Mike Amundsen proposed his own Maturity Model. In this edition of the REST API Notes newsletter, Zdenek Nemec summarizes and contrasts the two models. It's a thoughtful decomposition that leads to additional insights.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-04-19&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-04-19&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Apr 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/newsletter/2018/04/11/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/04/11/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Zdenek Nemec</category>
-        
-        <category>Richardson Maturity Model</category>
-        
-        <category>Amundsen Maturity Model</category>
-        
-        <category>Jose Montoya</category>
-        
-        <category>Kristopher Sandoval</category>
-        
-        <category>auth0</category>
-        
-        <category>microservices</category>
-        
-        <category>Fran Mendez</category>
-        
-        <category>Kafka</category>
-        
-        <category>RabbitMQ</category>
-        
-        <category>Red Hat</category>
-        
-        <category>Istio</category>
-        
-        <category>service mesh</category>
-        
-        <category>Christian Posta</category>
-        
-        <category>Burr Sutter</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Facebook, Twitter and Understanding API Business Models &amp;#x2709;</title>
-        <description>&lt;p&gt;In light of recent scandal, Facebook (along with its child company, Instagram) has clamped down on usage of its API. The move resulted in numerous parties questioning whether Facebook is even in the platform business. In this edition of the REST API Notes, I give the cliff note version of SaaS v PaaS v IaaS:&lt;/p&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;Software-as-a-service&lt;/strong&gt; (SaaS) is where the software is already built. Think the original incarnation of Salesforce, where it was an entire customer relationship management (or CRM) system that could be integrated with. You &lt;em&gt;integrate with&lt;/em&gt; a SaaS.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Platform-as-a-service&lt;/strong&gt; (PaaS), where all of the pieces to build software are readily accessible but the integrator brings their own logic. Twilio or Sendgrid, in my mental model, are here. You &lt;em&gt;program for&lt;/em&gt; a PaaS.&lt;/li&gt;
-	&lt;li&gt;&lt;strong&gt;Infrastructure-as-a-service&lt;/strong&gt; (IaaS) is where virtual servers and related raw-compute services are sold. AWS, Azure, etc are here. You &lt;em&gt;deploy to&lt;/em&gt; an IaaS.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Where does Facebook sit? And was a misalignment between its geeky ambition and what made it money the reason they're in the trouble they're in? That in the latest newsletter, and more.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-04-11&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-04-11&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Apr 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/newsletter/2018/04/11/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/04/11/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Facebook</category>
-        
-        <category>Zynga</category>
-        
-        <category>Cambridge-Analytica</category>
-        
-        <category>Instagram</category>
-        
-        <category>AWS</category>
-        
-        <category>Twilio</category>
-        
-        <category>Sendgrid</category>
-        
-        <category>Azure</category>
-        
-        <category>ESPN</category>
-        
-        <category>Twitter</category>
-        
-        <category>Talon</category>
-        
-        <category>Tweetbot</category>
-        
-        <category>Tweetings</category>
-        
-        <category>Twitterrific</category>
-        
-        <category>Oracle</category>
-        
-        <category>Google</category>
-        
-        <category>Talend</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>Restlet</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Google, Oracle, and Copyrightable APIs &amp;#x2709;</title>
-        <description>&lt;p&gt;What does the prospect of a $9 billion payout get you? Apparently, one long legal challenge that, despite various twists and turns, has come out in Oracle's favor. I've been dubious that an API design could be copyrighted. But I'm also not a lawyer. A federal court has ruled the Google has done damage to Oracle by copying the Java interface. It is a ridiculous claim; I would argue that Java is as popular as ever largely &lt;em&gt;because of&lt;/em&gt; Google's Android operating system. But here we are.&lt;/p&gt;
-
-&lt;p&gt;But that isn't all. I also cover an interesting hypermedia manifesto and four common misconceptions of REST. There's also a whirlwind recap of API fallout after the Facebook fiasco.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-04-03&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-04-03&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Apr 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/newsletter/2018/04/03/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/04/03/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Google</category>
-        
-        <category>Oracle</category>
-        
-        <category>Java</category>
-        
-        <category>Peter Williams</category>
-        
-        <category>hypermedia</category>
-        
-        <category>Asbjorn Ulsberg</category>
-        
-        <category>Facebook</category>
-        
-        <category>Instagram</category>
-        
-        <category>Cloud Elements</category>
-        
-        <category>microservices</category>
-        
-        <category>Aadhaar</category>
-        
-        <category>Keith Casey</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Facebook, Mulesoft Acquired, and More &amp;#x2709;</title>
-        <description>&lt;p&gt;This edition of the REST API Notes is double stuffed. For starters, I've got loads to say about Facebook (I try to keep it more on the technologist side here, but &lt;a href=&quot;/2018/03/26/Facebook/&quot;&gt;I have additional, policy-related, thoughts too&lt;/a&gt;). Next up, we need to spend some time talking about Salesforce's &lt;strong&gt;$6.5 billion&lt;/strong&gt; bid for Mulesoft. Oh, and there's some top shelf microservice thought leadership from the recently concluded microXchg conference.&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-27-facebook-salesforce-and-more&quot;&gt;https://tinyletter.com/RESTAPINotes/letters/rest-api-notes-for-2018-03-27-facebook-salesforce-and-more&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;http://tinyletter.com/RESTAPINotes/archive﻿&quot;&gt;http://tinyletter.com/RESTAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 27 Mar 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/newsletter/2018/03/27/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/03/27/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Facebook</category>
-        
-        <category>Salesforce</category>
-        
-        <category>Mulesoft</category>
-        
-        <category>microXchg</category>
-        
-        <category>Graph API</category>
-        
-        <category>Kin Lane</category>
-        
-        <category>OAuth</category>
-        
-        <category>Zeynep Tufekci</category>
-        
-        <category>PII</category>
-        
-        <category>Equifax</category>
-        
-        <category>GDPR</category>
-        
-        <category>Stefan Tilkov</category>
-        
-        <category>Uwe Friedrichsen</category>
-        
-        <category>RapidAPI</category>
-        
-        <category>Andreessen Horowitz</category>
-        
-        <category>A16Z</category>
-        
-        <category>Mashape</category>
-        
-        <category>Kong</category>
-        
-        <category>Algorithmia</category>
-        
-        <category>Apigee</category>
-        
-        <category>Runscope</category>
-        
-        <category>microservices</category>
-        
-        
-        <category>newsletter</category>
         
       </item>
     
