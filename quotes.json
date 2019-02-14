@@ -365,6 +365,7 @@
 {"quote":"There can be no expertise in innovation unless there is also expertise in demolishing the ensconced.","attribution":"Kevin Kelly"},
 {"quote":"You are precisely as big as what you love and precisely as small as what you allow to annoy you.","attribution":"Robert Anton"},
 {"quote":"Although data can make a compelling case for something, data rarely create the emotions needed to spur people into action.","attribution":"John Maeda"},
+{"quote":"To harmonize the whole is the task of art.","attribution":"Wassily Kandinsky"},
 {"quote":"Everyone likes to write reusable code, no-one likes to reuse someone else's code.","attribution":"Eryn O'Neil"},
 {"quote":"We are as a culture moving on to a future with more people and more voices and more possibilities. Some people are being left behind, not because the future is intolerant of them but because they are intolerant of this future.","attribution":"David Roberts"},
 {"quote":"I want to work in revelations, not spin silly tales for money.","attribution":"Jack Kerouac"},
@@ -447,5 +448,9 @@
 {"quote":"Programs must be written for people to read, and only incidentally for machines to execute.","attribution":"Harold Abelson"},
 {"quote":"While 'losing control' is one of the biggest fears in management, 'having control' is one of the biggest illusions.","attribution":"Bjarte Bogsnes"},
 {"quote":"Each epoch dreams the one to follow.","attribution":"Jules Michelet"},
+{"quote":"'If it weren't for the people, the god-damn people' said Finnerty, 'always getting tangled up in the machinery. If it weren’t for them, the world would be an engineer's paradise.'","attribution":"Kurt Vonnegut (Player Piano,1952)"},
+{"quote":"Programming is not a zero-sum game. Teaching something to a fellow programmer doesn’t take it away from you.'","attribution":"John Carmack"},
+{"quote":"Whenever you write, whatever you write, never make the mistake of assuming the audience is any less intelligent than you are.'","attribution":"Rod Serling"},
+{"quote":"What one programmer can do in one month, two programmers can do in two months.","attribution":"Fred Brooks"},
 {"quote":"There is only one corner of the universe we can be certain of improving, and that's our own selves.","attribution":"Aldous Huxley"}
 ] }
