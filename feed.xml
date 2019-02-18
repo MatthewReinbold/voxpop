@@ -6,28 +6,28 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Feb 2019 14:13:09 -0500</pubDate>
-    <lastBuildDate>Thu, 14 Feb 2019 14:13:09 -0500</lastBuildDate>
+    <pubDate>Mon, 18 Feb 2019 09:35:12 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Feb 2019 09:35:12 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>A Manager README for Me</title>
         <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/02/jigsaw.png&quot; /&gt;&lt;figcaption&gt;Management is, to some degree, figuring out how all the pieces fit.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;On &lt;a href=&quot;https://www.screaminginthecloud.com/episodes/2019/1/2/episode-43-heres-a-document-on-how-to-best-deal-with-my-foibles&quot;&gt;a recent episode of the Screaming in the Cloud podcast&lt;/a&gt;, host Cory Quinn interviewed Etsy’s Matt Newkirk. They discussed the value of a &lt;strong&gt;‘Manager README’&lt;/strong&gt; document. There has been a long tradition of README documents in software development. But typically those files contain information about a program. This podcast was the first time I had ever heard about one for &lt;em&gt;managers&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;On &lt;a href=&quot;https://www.screaminginthecloud.com/episodes/2019/1/2/episode-43-heres-a-document-on-how-to-best-deal-with-my-foibles&quot;&gt;a recent episode of the Screaming in the Cloud podcast&lt;/a&gt;, host Cory Quinn interviewed Etsy’s Matt Newkirk. They discussed the value of a &lt;strong&gt;‘Manager README’&lt;/strong&gt; document. There has been a long tradition of README documents in software development. However, typically those files contain information about a program. This podcast was the first time I had ever heard about one for &lt;em&gt;managers&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;The longer they discussed the usefulness, the more I realized that I needed to create one for my team. Since becoming a people manager at Capital One (and having gone through several rounds of hiring folks), I know there’s valuable information that isn’t always shared during on-boarding. I also know that just commenting on these things in passing, during the fire-hose of other new-hire information, only adds to the stress and anxiety of a delicate period.&lt;/p&gt;
+&lt;p&gt;The longer they discussed the usefulness, the more I realized that I needed to create one for my team. Since becoming a people manager at Capital One (and having gone through several rounds of hiring folks), I know valuable information isn’t always shared during on-boarding. I also know that just commenting on these things in passing, during the fire-hose of other new-hire information, only adds to the stress and anxiety of a delicate period.&lt;/p&gt;
 
-&lt;p&gt;Done well, a Manager README can be a helpful and proactive piece of content. It prompts conversations, sets context, and serves as a “living reference” for team cultural norms. Here’s what I put together for my first attempt. Did I miss anything? Is there something that is unclear?&lt;/p&gt;
+&lt;p&gt;Done well, a Manager README can be a helpful and proactive piece of content. It prompts conversations, sets the context, and serves as a “living reference” for team cultural norms. Here’s what I put together for my first attempt. Did I miss anything? Is there something that is unclear?&lt;/p&gt;
 
 &lt;p&gt;Also, is this something that you do within your organization? Let me know.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;h2 id=&quot;hello-and-welcome-to-my-team&quot;&gt;Hello, and Welcome to My Team&lt;/h2&gt;
 
-&lt;p&gt;Howdy! My name is Matthew and I’m thrilled to have you on the team!&lt;/p&gt;
+&lt;p&gt;Howdy! My name is Matthew, and I’m thrilled to have you on the team!&lt;/p&gt;
 
-&lt;p&gt;You are going to be presented with a tremendous amount of information in the coming months. This is a big place, with a lot going on &lt;em&gt;at tremendous speed&lt;/em&gt;. It may feel overwhelming. Know that (1) that is completely normal, (2) it can several months (or more!) to feel on top of things, and (3) your newness can be a superpower!&lt;/p&gt;
+&lt;p&gt;You’ll get a tremendous amount of information in the coming months. This is a big place, with a lot going on &lt;em&gt;at tremendous speed&lt;/em&gt;. It may feel overwhelming. Know that (1) that is entirely normal, (2) it may take several months (or more!) to feel on top of things, and (3) your newness can be a superpower!&lt;/p&gt;
 
 &lt;h3 id=&quot;what-is-this-a-manager-readme&quot;&gt;What is this? A ‘Manager README’?&lt;/h3&gt;
 &lt;p&gt;This Manager README is a way to:&lt;/p&gt;
@@ -40,12 +40,12 @@
 &lt;p&gt;I don’t expect you to memorize this document. I don’t even expect you to read it given the vast amount of other onboarding things currently happening. But it is here when you need it.&lt;/p&gt;
 
 &lt;h3 id=&quot;what-this-document-isnt&quot;&gt;What this document &lt;em&gt;isn’t&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;This isn’t a list of my personality quirks. Or the cliff notes guide to getting a promotion. Or where to find the free food. There is a time and a place for each of those things. But not here.&lt;/p&gt;
+&lt;p&gt;This document isn’t a list of my personality quirks. Or the cliff notes guide to getting a promotion. Or where to find the free food. There is a time and a place for each of those things. But not here.&lt;/p&gt;
 
 &lt;h2 id=&quot;who-am-i&quot;&gt;Who Am I?&lt;/h2&gt;
-&lt;p&gt;My name is Matthew Reinbold. I have a &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://twitter.com&quot;&gt;Twitter stream&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/matthewreinbold&quot;&gt;LinkedIn profile&lt;/a&gt; and &lt;a href=&quot;https://tinyletter.com/netapinotes/archive&quot;&gt;API newsletter&lt;/a&gt;, among other things. Since starting my professional career in 1999, I’ve worked as a software developer, tester, architect, community builder, and product manager. That work has included everything from small startups to companies including IBM, Microsoft, and Adobe.&lt;/p&gt;
+&lt;p&gt;My name is Matthew Reinbold. I have a &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://twitter.com&quot;&gt;Twitter stream&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/matthewreinbold&quot;&gt;LinkedIn profile&lt;/a&gt;, and &lt;a href=&quot;https://tinyletter.com/netapinotes/archive&quot;&gt;API newsletter&lt;/a&gt;, among other things. Since starting my professional career in 1999, I’ve worked as a software developer, tester, architect, community builder, and product manager. That work has included everything from small startups to companies including IBM, Microsoft, and Adobe.&lt;/p&gt;
 
-&lt;p&gt;I love well-crafted storytelling and have a passion for business strategy. I am a visual learner. I do not drink but don’t mind hanging out with those that do. While I can be comfortable in social situations I may prefer to be alone when I need to re-energize.&lt;/p&gt;
+&lt;p&gt;I love well-crafted storytelling and have a passion for business strategy. I am a visual learner. I do not drink but don’t mind hanging out with those that do. While I can be comfortable in social situations, I may prefer to be alone when I need to re-energize.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-approach-to-managing-you&quot;&gt;My Approach to Managing You&lt;/h2&gt;
 
@@ -54,29 +54,29 @@
 
 &lt;p&gt;If I do something that negatively impacts my ability to retain you, you would be doing me a huge favor if you let me know about it, as soon as possible. Likewise, if I do something that feels more like telling you how to do your job than setting context, also let me know.&lt;/p&gt;
 
-&lt;p&gt;I believe everyone has things they can get better at. You were hired because you already have a number of positive traits. I’m excited to work with you to continue grow those traits, as well as help you discover and refine new ones in the course of working together. In the process, I hope to become your biggest advocate to the rest of the company!&lt;/p&gt;
+&lt;p&gt;I believe everyone has things they can get better at. We hired you because of your positive traits. I’m excited to work with you to continue to grow those traits, as well as help you discover and refine new ones in the course of working together. In the process, I hope to become your biggest advocate to the rest of the company!&lt;/p&gt;
 
 &lt;h3 id=&quot;how-we-communicate&quot;&gt;How We Communicate&lt;/h3&gt;
-&lt;p&gt;There are numerous conversation channels at our disposal: Skype, Slack, Hangouts, Trello, etc. However, I treat those as ephemeral; because of the volume of commentary, I don’t tend to go back and read any missed history. If you send an email it will get seen, &lt;em&gt;eventually&lt;/em&gt;. If you want to ensure that I see what you have to say, send it to me in an email.&lt;/p&gt;
+&lt;p&gt;There are numerous conversation channels at our disposal: Skype, Slack, Hangouts, Trello, etc. However, I treat those as ephemeral; because of the volume of commentary, I don’t tend to go back and read any missed history. If you send an email, it will be seen (&lt;em&gt;eventually&lt;/em&gt;). If you want to ensure that I see what you have to say, send it to me in an email.&lt;/p&gt;
 
-&lt;p&gt;If you have an issue which requires my immediate attention and I’m not immediately available, the best channel to reach me is via text message. I will do my best to respond in a timely manner.&lt;/p&gt;
+&lt;p&gt;If you have an issue which requires my immediate attention and I’m not immediately available, the best channel to reach me is via text message. I will do my best to respond promptly.&lt;/p&gt;
 
-&lt;p&gt;I promise to do my best to avoid emailing or texting over the weekend or in the evenings. If I do contact you, it is either to convey breaking, important information or a pressing thought has just occurred to me. I &lt;strong&gt;do not expect that you should work outside of normal work hours&lt;/strong&gt;. Unless I say that things are URGENT, it can always wait until we’re back in the office on Monday.&lt;/p&gt;
+&lt;p&gt;I promise to do my best to avoid emailing or texting over the weekend or in the evenings. If I do contact you, it is either to convey breaking, important information or a pressing thought has just occurred to me. I &lt;strong&gt;do not expect that you should work outside of regular work hours&lt;/strong&gt;. Unless I say that things are URGENT, it can always wait until we’re back in the office on Monday.&lt;/p&gt;
 
 &lt;h3 id=&quot;my-availability&quot;&gt;My Availability&lt;/h3&gt;
-&lt;p&gt;Meetings can seem like a way of life and my calendar is no exception. It may seem intimidating to schedule something. However, my direct reports come first. If there is an urgent need and there doesn’t appear to be an available upcoming time, send me a text message (see above). I will do my best to accommodate at the first available moment.&lt;/p&gt;
+&lt;p&gt;Meetings can seem like a way of life. My calendar is no exception. It may seem intimidating to schedule something with me. However, my direct reports come first. If there is an urgent need and there doesn’t appear to be an available upcoming time, send me a text message (see above). I do my best to accommodate you at the first available moment.&lt;/p&gt;
 
 &lt;h3 id=&quot;how-i-follow-up&quot;&gt;How I Follow Up&lt;/h3&gt;
-&lt;p&gt;Working in software governance, we are called on to make difficult calls on a regular basis. I have 100% faith and confidence that you will make the best decision given your professional experience, your expectations, and the information available in that moment. That is why I hired you.&lt;/p&gt;
+&lt;p&gt;Working in software governance, we are called on to make difficult calls on regularly. I have 100% faith and confidence that you will make the best decision given your professional experience, your expectations, and the information available at that moment. That is why I hired you.&lt;/p&gt;
 
-&lt;p&gt;There may be times when I will contact you to revisit that decision. I may have questions. I may ask for additional nuance. When this happens, it isn’t because I am second guessing your judgement. Rather, what is much more likely happening is that I am attempting to gather the necessary context to explain the action to others.&lt;/p&gt;
+&lt;p&gt;There may be times when I will contact you to revisit that decision. I may have questions. I may ask for additional nuance. When this happens, it isn’t because I am second guessing your judgment. Rather, what is much more likely happening is that I am attempting to gather the necessary context to explain the action to others.&lt;/p&gt;
 
 &lt;p&gt;Reviewing past work and ensuring that it holds up under inspection is a healthy thing. It is how I learn from you. Do not mistake this as looking to assign blame.&lt;/p&gt;
 
 &lt;h3 id=&quot;11s&quot;&gt;1:1s&lt;/h3&gt;
-&lt;p&gt;I will schedule a dedicated, bi-monthly meeting for a half hour between us. This is &lt;em&gt;your&lt;/em&gt; time to ask questions about what you’ve seen/heard/read and talk about your concerns. &lt;strong&gt;You set the agenda&lt;/strong&gt;. It is &lt;em&gt;not&lt;/em&gt; to deliver a status update to me, unless you want to update status.&lt;/p&gt;
+&lt;p&gt;I will schedule a dedicated, bi-monthly meeting for a half hour between us. This is &lt;em&gt;your&lt;/em&gt; time to ask questions about what you’ve seen/heard/read and talk about your concerns. &lt;strong&gt;You set the agenda&lt;/strong&gt;. It is &lt;em&gt;not&lt;/em&gt; to deliver a status update to me unless you want to update status.&lt;/p&gt;
 
-&lt;p&gt;The point of these meetings is to give you a chance to be heard. I am a big believer of &lt;a href=&quot;http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/&quot;&gt;Michael Lopp’s approach to this time&lt;/a&gt;. When I ask “How are you?” you can take that whichever direction you feel is appropriate. I’m still learning how to be better at this and thank you in advance for your patience.&lt;/p&gt;
+&lt;p&gt;The point of these meetings is to give you a chance to be heard. I am a big believer in &lt;a href=&quot;http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/&quot;&gt;Michael Lopp’s approach to this time&lt;/a&gt;. When I ask “How are you?” you can take that whichever direction you feel is appropriate. I’m still learning how to be better at this and thank you in advance for your patience.&lt;/p&gt;
 
 &lt;p&gt;I will, to the best of my ability, try to maintain the same time for this meeting so that it becomes habitual. However, there may be times when there’s a conflict that can’t be avoided. When those situations arise, I (or my admin) will do our best to reschedule within the same week.&lt;/p&gt;
 
@@ -84,13 +84,13 @@
 &lt;h3 id=&quot;worklife-balance&quot;&gt;Work/Life Balance&lt;/h3&gt;
 &lt;p&gt;I do not track hours in the office. I, also, do not believe that “clocking-in” at a specific hour is the key to productivity. I don’t hand out kudos just because you are in before I am. Likewise, I don’t keep points on who is still in the office when I leave. I trust you will put in the necessary time to do a good job. I also believe you are an adult capable of balancing your professional and private obligations. If you have an outside commitment during the workday, however, I ask that you let the team, including me, know.&lt;/p&gt;
 
-&lt;p&gt;Likewise, if you take time off (illness, vacation, etc.), I ask that you give the entire team as much heads-up as possible. We do this by sending a calendar to the team inviting them to your ‘OOO’ (out of office) event. The first few times it may feel odd inviting your teammates to your time off. But, I’ve found, it is a lightweight way of keeping folks in the loop.&lt;/p&gt;
+&lt;p&gt;Likewise, if you take time off (illness, vacation, etc.), I ask that you give the entire team as much heads-up as possible. We do this by sending a calendar to the team inviting them to your ‘OOO’ (out of office) event. The first few times it may feel odd inviting your teammates to your time off. However, I’ve found, it is a lightweight way of keeping folks in the loop.&lt;/p&gt;
 
-&lt;p&gt;There may be cases, like associates in California, where time off needs to be accurately tracked. In those cases I expect that you accurately record your hours worked.&lt;/p&gt;
+&lt;p&gt;There may be cases, like associates in California, where time off needs to be accurately tracked. In those cases, I expect that you accurately record your hours worked.&lt;/p&gt;
 
-&lt;p&gt;It is understood that Fridays are work-from-home days. You are free to come into the office on these days. However, most on my team take advantage of this perk to avoid lengthy commutes and concentrate their “deep focus” work. On these days I maintain a weekly team meeting where we discuss collective challenges and share information.&lt;/p&gt;
+&lt;p&gt;Fridays are work-from-home days. You are free to come into the office these days. However, most on my team take advantage of this perk to avoid lengthy commutes and concentrate their “deep focus” work. On these days I maintain a weekly team meeting where we discuss common challenges and share information.&lt;/p&gt;
 
-&lt;p&gt;If I feel that this approach is being abused and is negatively impacting the teams ability to deliver, I will talk to you about it. Together, we’ll figure out how to arrive at the appropriate balance.&lt;/p&gt;
+&lt;p&gt;If I feel that this approach is being abused and is negatively impacting the team’s ability to deliver, I will talk to you about it. Together, we’ll figure out how to arrive at the appropriate balance.&lt;/p&gt;
 
 &lt;h3 id=&quot;disagreements-are-valuable-arguments-are-not&quot;&gt;Disagreements are Valuable. Arguments are Not&lt;/h3&gt;
 &lt;p&gt;I’ve hired you, in part, because you are a different person than I am. You have your own values, experience, education, and ambition that is different than mine. Your uniqueness reinforces in some spots, and supplement gaps in others. When combined together, our productive sum can be greater than the sum of the parts.&lt;/p&gt;
@@ -99,41 +99,41 @@
 
 &lt;p&gt;Because of those differences, there may be times when we disagree. Some even might be substantive and ongoing. That is completely normal. What can’t happen is for an argument to occur. This is when discussions get emotional, even heated and feelings can be hurt. When that happens, either one of us can ask for each other to take a step back, with a promise to circle back.&lt;/p&gt;
 
-&lt;p&gt;There may be times when consensus is not possible in the moment. Despite the lack of alignment, a way forward is needed. In those times I will rely on my best judgement given all available information. If I make a call counter to your recommended guidance, it is not personal.&lt;/p&gt;
+&lt;p&gt;There may be times when consensus is not possible at the moment. Despite the lack of alignment, a way forward is needed. In those times I will rely on my best judgment given all available information. If I make a call counter to your recommended guidance, it is not personal.&lt;/p&gt;
 
 &lt;h3 id=&quot;putting-your-feedback-to-work&quot;&gt;Putting Your Feedback to Work&lt;/h3&gt;
-&lt;p&gt;Feedback is critical for anyone to get better. If you provide feedback for me during our time together, I will do my best to do the following:&lt;/p&gt;
+&lt;p&gt;Feedback is critical for anyone to get better. If you provide feedback for me during our time together, I do my best to:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Provide a safe environment&lt;/li&gt;
-  &lt;li&gt;Make Sharing Easy&lt;/li&gt;
-  &lt;li&gt;Strive to Make a Positive Result Happen from What is Shared&lt;/li&gt;
+  &lt;li&gt;Make sharing easy&lt;/li&gt;
+  &lt;li&gt;Create a positive outcome from what is shared&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If I could do any of these things better, let me know.&lt;/p&gt;
 
 &lt;h3 id=&quot;transparency-candor-and-discretion&quot;&gt;Transparency, Candor, and Discretion&lt;/h3&gt;
 
-&lt;p&gt;I have a high bias toward authenticity and candor.  However, they may be situations (for example, an ongoing strategic discussion or pending external opportunity) that I may not be able to discuss. I may be limited in what I can share in situations where you are not in a position to influence the outcome. If things have not yet been decided, I may defer the conversation rather than conjecturing. I may say that I can’t talk about something in the moment.&lt;/p&gt;
+&lt;p&gt;I have a high bias toward authenticity and candor.  However, there may be situations (for example, an ongoing strategic discussion or pending external opportunity) that I may not be able to discuss. I may be limited in what I can share in situations where you are not in a position to influence the outcome. If things have not yet been decided, I may defer the conversation rather than conjecturing. I may say that I can’t talk about something at the moment.&lt;/p&gt;
 
-&lt;p&gt;There will be times when I will tell you “I don’t know”. I guarantee that I don’t have all the answers. But if it matters to you, I promise to work with you to find one.&lt;/p&gt;
+&lt;p&gt;There will be times when I say “I don’t know.” I guarantee that I don’t have all the answers. But if it matters to you, I promise to work with you to find one.&lt;/p&gt;
 
 &lt;h3 id=&quot;what-i-value&quot;&gt;What I Value&lt;/h3&gt;
-&lt;p&gt;Minding the details can be the difference between incredible success and &lt;a href=&quot;https://en.wikipedia.org/wiki/Mars_Climate_Orbiter&quot;&gt;a $327 million dollar failure&lt;/a&gt;. Solving the immediate problem is the most important thing, whether that is putting together a persuasive presentation, responding to an email question, or consulting with a team. But &lt;em&gt;how&lt;/em&gt; the problem is solved is where the attention to detail can pay dividends.&lt;/p&gt;
+&lt;p&gt;Minding the details can be the difference between incredible success and &lt;a href=&quot;https://en.wikipedia.org/wiki/Mars_Climate_Orbiter&quot;&gt;a 327 million dollar failure&lt;/a&gt;. Solving the immediate problem is the most important thing, whether that is putting together a persuasive presentation, responding to an email question, or consulting with a team. However, &lt;em&gt;how&lt;/em&gt; the problem is solved is where the attention to detail can pay dividends.&lt;/p&gt;
 
 &lt;h4 id=&quot;aggregation-of-marginal-gains&quot;&gt;Aggregation of Marginal Gains&lt;/h4&gt;
-&lt;p&gt;I believe in the compounding benefit of continually fixing small things; if you say something more than once, write it down, share it, and point to it later. Over time, those references add up to a significant amount of saved time. Furthermore, at the end of the year you’ll have a body of work to point to.&lt;/p&gt;
+&lt;p&gt;I believe in the compounding benefit of continually fixing small things; if you say something more than once, write it down, share it, and point to it later. Over time, those references add up to a significant amount of saved time. Furthermore, at the end of the year, you’ll have a body of work to point to.&lt;/p&gt;
 
-&lt;p&gt;Likewise, your job security is not dependent on how busy we are (or appear to be). We should constantly be looking for ways (processes, tools, collaborations with other groups) that will make us more efficient. Reducing the tedium from our activities without harming outcomes means we free ourselves for more professionally rewarding opportunities.&lt;/p&gt;
+&lt;p&gt;Likewise, your job security is not dependent on how busy we are (or appear to be). We should continuously be looking for ways (processes, tools, collaborations with other groups) that make us more efficient. Reducing the tedium from our activities without harming outcomes means we free ourselves for more professionally rewarding opportunities.&lt;/p&gt;
 
 &lt;p&gt;For more on this, read the &lt;a href=&quot;https://hbr.org/2015/10/how-1-performance-improvements-led-to-olympic-gold&quot;&gt;Aggregation of Marginal Gains Theory&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;meeting-acumen&quot;&gt;Meeting Acumen&lt;/h4&gt;
-&lt;p&gt;Be courteous to your fellow associates. Show respect by being on time to meetings. If possible, schedule meetings so that they end five minutes before the top (or bottom) of the hour to allow people to start their following sessions on time. Figure out the best configuration for your remote meeting software and practice it. State what the explicit outcome is for any meeting being scheduled. &lt;a href=&quot;https://www.mindtools.com/CommSkll/RunningMeetings.htm&quot;&gt;There’s lots more useful tips for running successful meetings&lt;/a&gt;; while applying every tool every single time is a bit much, being adept with the basics will carry you far.&lt;/p&gt;
+&lt;p&gt;Be courteous to your fellow associates. Show respect by being on time for meetings. If possible, schedule meetings so that they end five minutes before the top (or bottom) of the hour to allow people to start their following sessions on time. Figure out the best configuration for your remote meeting software and practice it. State what the specific outcome is for any meeting scheduled. &lt;a href=&quot;https://www.mindtools.com/CommSkll/RunningMeetings.htm&quot;&gt;There are lots more useful tips for running successful meetings&lt;/a&gt;; while applying every tool every single time is a bit much, being adept with the basics will carry you far.&lt;/p&gt;
 
 &lt;h4 id=&quot;presentation-skills&quot;&gt;Presentation Skills&lt;/h4&gt;
-&lt;p&gt;Slide presentations (or “decks”) are a critical part of Capital One culture. They are the primary means of socializing ideas. Some assume that slides are inferior to other ways of sharing information. It &lt;strong&gt;is&lt;/strong&gt; possible to create powerful and persuasive arguments. The problem is that many reach a basic level of proficiency and never advance beyond it.&lt;/p&gt;
+&lt;p&gt;Slide presentations (or “decks”) are a critical part of Capital One culture. They are the primary means of socializing ideas. Some assume that slides are inferior to other ways of sharing information. Creating powerful and persuasive arguments is possible. The problem is that many reach a basic level of proficiency and never advance beyond it.&lt;/p&gt;
 
-&lt;p&gt;You may feel as though you’ve got this talking thing down cold; you were hired, in part, for your communication skills. But, in the same way a skilled craftsman selects and applies the specific tool to a job, you should also see this as an opportunity to attune your skill set for this particular audience.&lt;/p&gt;
+&lt;p&gt;You may feel as though you’ve got this talking thing down cold; you were hired, in part, for your communication skills. In the same way a skilled craftsman selects and applies the specific tool to a job, however, you should also see this as an opportunity to attune your skill set for this particular audience.&lt;/p&gt;
 
 &lt;p&gt;The creation of a successful deck, particularly accounting for ‘Capital One style’, is beyond the scope of this document.&lt;/p&gt;
 
