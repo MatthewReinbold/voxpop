@@ -6,9 +6,78 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Feb 2019 09:35:12 -0500</pubDate>
-    <lastBuildDate>Mon, 18 Feb 2019 09:35:12 -0500</lastBuildDate>
+    <pubDate>Wed, 27 Feb 2019 12:13:14 -0500</pubDate>
+    <lastBuildDate>Wed, 27 Feb 2019 12:13:14 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>APIs, Specifications, and Pedantry</title>
+        <description>&lt;p&gt;In a recent edition of my newsletter, &lt;a href=&quot;http://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2019-02-25-1&quot;&gt;Net API Notes&lt;/a&gt;, I finished with an off-the-cuff remark about hating how one term was used interchangeably for another. If I said chaos ensued, I would be making a gross overstatement. However, it was, despite the numerous pointed and carefully crafted statements that I make on an ongoing basis, the thing that people responded to the most to in a long time.&lt;/p&gt;
+
+&lt;p&gt;Ludwig Wittgenstein was an Austrian-British philosopher. His is, perhaps, most famous for inspiring the phrase “&lt;strong&gt;language is use&lt;/strong&gt;”. To explain what that means, &lt;a href=&quot;http://existentialcomics.com/comic/268&quot;&gt;here is a snippet from everyone’s favorite technical companion, &lt;em&gt;Existential Comics&lt;/em&gt;, explaining why a hot dog is not a sandwich&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/02/hotdog.png&quot; /&gt;&lt;figcaption&gt;Finally, an answer to whether a hotdog is a sandwich (&lt;a href=&quot;http://existentialcomics.com/comic/268&quot;&gt;be sure to read the whole thing, too&lt;/a&gt;).&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;As the comic explains, we can pick apart the semantics of a term any of a thousand ways. We can debate the taxonomy, history, and context. We can make inferences and wring our hands over future outcomes, both seen and unseen. And, as Wittgenstein argued, all of that is irrelevant if it isn’t how &lt;em&gt;people use the language&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In my time doing API governance, I’ve seen thousands of what I’ve come to call “&lt;em&gt;API descriptions&lt;/em&gt;”. I use this term to disambiguate between many things that get mushed together. If a team says they “need help with &lt;strong&gt;their API&lt;/strong&gt;,” they could be referring to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the code that implements some business functionality, exposed through a standardized interface (usually over HTTP)&lt;/li&gt;
+  &lt;li&gt;an endpoint (the unique combination of URI and method [as wrong as it is to refer to a single endpoint as an API, it does happen])&lt;/li&gt;
+  &lt;li&gt;the collection of endpoints that comprise the bounded context as defined by the team&lt;/li&gt;
+  &lt;li&gt;the affordances made possible by their work, and the work itself&lt;/li&gt;
+  &lt;li&gt;the file or artifact that articulates the business intent provided by that interface (written to a specified standard like OpenAPI, AsyncAPI, etc.)&lt;/li&gt;
+  &lt;li&gt;the documentation of all of the above, and source code, mock data, CI/CD pipeline, and key registration shenanigans necessary to create a pleasurable Time-to-Hello-World (or TTHW) experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What is the right terminology for all this stuff? Unfortunately, Wittgenstein can’t help us settle this debate. The way people use language is all over the place. The way they use ‘API’ (and related terms) is not the way we talk about hotdogs. There isn’t one, singular cultural understanding that we could point to and say “this is the one way”.&lt;/p&gt;
+
+&lt;p&gt;To aid comprehension, I’ve adopted the following language model. It doesn’t mean that this is the right way. As the famous George Box quote goes, “all models are wrong, but some are useful”. When somebody says they have a problem with their API, I ask questions to clarify which of the following things, in my mental model, they are referring to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;API Specification&lt;/strong&gt; - A technical standard, like OpenAPI 3.0, that defines how to describe an API’s interface in a general, broadly applicable way that is both a machine-parsable and human-readable.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;API Description&lt;/strong&gt; - A file articulating a single API’s interface that fulfills the requirements and expectations of an API specification.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;API Interface&lt;/strong&gt; - The obvious or described (and, according to &lt;a href=&quot;http://www.hyrumslaw.com/&quot;&gt;Hyrum’s law&lt;/a&gt;, not so obvious) means to communicate with a set of functionality within a system.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;API Implementation/Code&lt;/strong&gt; - The gobbledygook created by software developers necessary to accomplish a business function to be exposed via an interface.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;API Executable/Deployable&lt;/strong&gt; - The version of code that is promoted to a live environment and responding to production requests.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;API Documentation&lt;/strong&gt; - The collection of things necessary to convey sufficient meaning so that clients can successfully use the deployed API through the interface. This includes, but is not limited to, the API Description.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is my model. It works for me but if you’re comfortable with a different set of terms, great! As long as those that interact with you regularly share the same model, communication is happening with the least amount of cognitive overhead as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/02/thug-life.jpg&quot; /&gt;&lt;figcaption&gt;I wake up every day with a mission to be this baller.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;After reading that, I know what you’re thinking.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If this is your model, and people having different models is ok, why did you say ‘it drives me &lt;em&gt;crazy&lt;/em&gt; that they refer to these documents as “specifications”’?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My problem, particularly with vendors, is when the language is imprecise. I chafe when words are used interchangeably, often without disregard. Sometimes it is even on purpose, a targeted erosion of discourse in order to make a sale. I hate when words become less about clear communication and more about memetic highjacking, attempting to associate, expand, and/or co-opt organic phenomena in the pursuit of shipping product. That’s how a useful term is rendered all but meaningless (see ‘AJAX’, circa 2005 to 2008, or what is happening to ‘microservices’ now).&lt;/p&gt;
+
+&lt;p&gt;Having a model, and using it consistently, implies there is a certain amount of thought and rigor put into coexisting with your fellow folks. Words mean things, dammit, and the time you invest in your words is time invested in helping communicate meaning to other people.&lt;/p&gt;
+
+&lt;p&gt;The other way, best case, is lazy. Worst case, its calculated obfuscation.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Feb 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019/02/27/APIsandPedantry/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/27/APIsandPedantry/</guid>
+        
+        <category>Ludwig Wittgenstein</category>
+        
+        <category>language</category>
+        
+        <category>hotdogs</category>
+        
+        <category>Hyrum's law</category>
+        
+        <category>ajax</category>
+        
+        <category>microservices</category>
+        
+        
+      </item>
     
       <item>
         <title>A Manager README for Me</title>
@@ -756,48 +825,6 @@
         <category>API Labeling</category>
         
         <category>Grindr</category>
-        
-        <category>apis.fail</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>API History, Service Meshes, and GraphQL Realities&amp;#x2709;</title>
-        <description>&lt;p&gt;After an August rest, there's a new edition of the REST API Notes out! In this compilation:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chelsea Troy drops historical API knowledge bombs&lt;/li&gt;
-&lt;li&gt;Daniel Bryant clears his ridiculously high infodump bar with service meshes&lt;/li&gt;
-&lt;li&gt;Matthew Weier O'Phinney illuminates hashtag#GraphQL realities&lt;/li&gt;
-&lt;li&gt;Ericka Chickowski talks API security&lt;/li&gt;
-&amp;lt;/p&amp;gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;http://tinyletter.com/NetAPINotes/letters/rest-api-notes-for-2018-09-11&quot;&gt;http://tinyletter.com/NetAPINotes/letters/rest-api-notes-for-2018-09-11&lt;/a&gt;&lt;/p&gt;
- 
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;https://tinyletter.com/NetAPINotes/archive&quot;&gt;http://tinyletter.com/NetAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 11 Sep 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/newsletter/2018/09/11/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/09/11/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Chelsea Troy</category>
-        
-        <category>Daniel Bryant</category>
-        
-        <category>service mesh</category>
-        
-        <category>Matthew Weier O'Phinney</category>
-        
-        <category>GraphQL</category>
-        
-        <category>Ericka Chickowski</category>
         
         <category>apis.fail</category>
         
