@@ -6,12 +6,12 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Apr 2019 10:20:08 -0400</pubDate>
-    <lastBuildDate>Thu, 18 Apr 2019 10:20:08 -0400</lastBuildDate>
+    <pubDate>Thu, 18 Apr 2019 12:18:52 -0400</pubDate>
+    <lastBuildDate>Thu, 18 Apr 2019 12:18:52 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
-        <title>Other Lessons to Learn From</title>
+        <title>Diffusion of Innovation, Digital Transformation, and Dynamic Systems Theory</title>
         <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/04/foggy-bridge.png&quot; /&gt;&lt;figcaption&gt;A bridge through the fog.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Despite the crudeness of the phrase, I consume a &lt;em&gt;lot&lt;/em&gt; of online content. The internet is awash in things to pass the time. Most of it is crap, the mental equivalent of cotton candy. However, there are a handful of talks that I continue to return to. They are the ones that, even after years, I highlight in presentations and compare and contrast with new information.&lt;/p&gt;
@@ -88,6 +88,8 @@
         <category>Joshua Block</category>
         
         <category>API Design</category>
+        
+        <category>digital transformation</category>
         
         
       </item>
