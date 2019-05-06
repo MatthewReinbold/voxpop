@@ -78,8 +78,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #595352;
-  border-left: 4px solid #bebab9;
+  color: #d3cccb;
+  border-left: 4px solid white;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -93,7 +93,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #bebab9;
+  border: 1px solid white;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -142,14 +142,14 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #595352; }
+    fill: #d3cccb; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #171515;
-  border-bottom: 1px solid #bebab9;
+  border-top: 5px solid #998886;
+  border-bottom: 1px solid white;
   position: relative; }
 
 .site-title {
@@ -160,7 +160,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #171515; }
+    color: #998886; }
 
 .site-nav {
   float: right;
@@ -178,7 +178,7 @@ pre {
       top: 9px;
       right: 15px;
       background-color: #fdfdfd;
-      border: 1px solid #bebab9;
+      border: 1px solid white;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -193,7 +193,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #171515; }
+            fill: #998886; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -224,7 +224,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #595352;
+  color: #d3cccb;
   margin-left: -15px; }
 
 .footer-col {
@@ -275,7 +275,7 @@ pre {
 
 .post-meta {
   font-size: 14px;
-  color: #595352; }
+  color: #d3cccb; }
 
 .post-link {
   /* display: block; */
@@ -474,14 +474,12 @@ pre {
 
 .site-header {
   background-color: #000;
-  border-bottom: 5px solid #CFB53B;
   min-height: 15em;
   position: relative;
   z-index: 3; }
 
 .site-header #overlay {
   color: #fcfbf7;
-  text-shadow: 0 0 5px #3c3c3c;
   letter-spacing: 2px;
   background: url(/images/layer.png) repeat scroll left top;
   height: 100%;
@@ -506,7 +504,7 @@ pre {
   margin-top: 5em; }
 
 a:visited {
-  color: #595352; }
+  color: #d3cccb; }
 
 a,
 a:link,
@@ -516,7 +514,7 @@ a:active {
 footer a,
 footer a:link,
 footer a:active {
-  color: #595352; }
+  color: #d3cccb; }
 
 .site-header a,
 .site-header a:visited,
@@ -527,13 +525,8 @@ footer a:active {
 .site-header a:hover {
   color: #f0f0f0; }
 
-.site-title, .post-title {
-  font-variant: small-caps;
-  letter-spacing: 1px;
-  font-size: 2em; }
-
 .post-title {
-  text-shadow: 1px 1px 1px #000; }
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; }
 
 .slide {
   text-align: left; }
@@ -650,7 +643,6 @@ object {
   height: 226px; }
 
 footer {
-  border-top: 5px solid #CFB53B;
   background-color: #000; }
 
 hr {

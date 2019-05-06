@@ -6,9 +6,57 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Apr 2019 23:03:25 -0400</pubDate>
-    <lastBuildDate>Tue, 30 Apr 2019 23:03:25 -0400</lastBuildDate>
+    <pubDate>Mon, 06 May 2019 13:55:53 -0400</pubDate>
+    <lastBuildDate>Mon, 06 May 2019 13:55:53 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>A Plan for Continuous Learning and Win Sharing</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/05/open-notebook.png&quot; /&gt;&lt;figcaption&gt;&quot;Laptop and notepad&quot; by Nick Morrison on &lt;a href=&quot;https://unsplash.com/photos/FHnnjk1Yj7Y&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Like most at Capital One, my team is currently busy with &lt;em&gt;talent management&lt;/em&gt; activities. Rather than being a backward-looking review of work previous done, talent management is forward looking. When done correctly, it produces honest conversations about each’s professional ambitions. Those ambitions, subsequently, are then &lt;a href=&quot;https://matthewreinbold.com/2014/01/23/SystemsNotGoals/&quot;&gt;deconstructed into the repeatable systems necessary to produce accumulating wins&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A significant component of &lt;em&gt;any&lt;/em&gt; talent management plan is &lt;strong&gt;continuous learning&lt;/strong&gt;. That learning could be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Online coursework&lt;/li&gt;
+  &lt;li&gt;Grokking Books&lt;/li&gt;
+  &lt;li&gt;Professional Organization Participation&lt;/li&gt;
+  &lt;li&gt;Experimenting with new technologies and techniques&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While there’s no shortage of resources, what is in short supply is time to make it happen. A challenge, for all too many managers, is supporting ongoing learning goals not just in lip service, but with meaningful scheduling. It’s great to say you’re investing in team development. It is another thing to foist the raised expectations on an employee’s outside-of-work time.&lt;/p&gt;
+
+&lt;p&gt;With that in mind, I instituted a new, dedicated “continuous learning’ plan with my team. Every &lt;em&gt;other&lt;/em&gt; Friday is reserved for team members to focus on their learning objectives. (I created two cohorts, each of which is staggered with each other’s Fridays so that there’s still a subset engaged with our stakeholder communities.)&lt;/p&gt;
+
+&lt;p&gt;Members track their progress via a card in our Trello system stating how their work:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Contributes to the company’s mission&lt;/li&gt;
+  &lt;li&gt;Progresses them toward their talent management objective&lt;/li&gt;
+  &lt;li&gt;Will be shared with a larger group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;“Win sharing” is a critical component of continuous learning&lt;/strong&gt;. Once a month, the team will get together to discuss what worked and what didn’t. I expect there to be surprises. There will be those pursuits that don’t pan out as expected. However, it remains a “win” if the team member not only discovers that new insight but shares it for the benefit of the larger group.&lt;/p&gt;
+
+&lt;p&gt;We’re all busy. I anticipate the biggest criticism of this proposal is whether the Center of Excellence can take 10% of our time and devote it to something other than processing team submissions for review. In my perspective, however, I don’t know how we can afford &lt;em&gt;not to&lt;/em&gt;. Technology moves fast. Things that were prudent even only a year ago may be persnickety today. One of the core pillars of the CoE activity is to &lt;em&gt;&lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;define healthy ecosystems&lt;/a&gt;&lt;/em&gt;. Understanding the technology landscape to guide others across it requires a continuous investment in ourselves.&lt;/p&gt;
+
+&lt;p&gt;Rather than being a tax on our time, I view this as a calculated investment our talent growth, relevance, and retention. In setting this continuous learning plan, we’ve also created a forcing function. We create the habit by reserving the space and observing the ritual. If that means we need to be more efficient in our other work to meet current expectations, then so be it.&lt;/p&gt;
+
+&lt;p&gt;Finally, this is subject to change. We may try this for a few months and, with some initial learning, reformat our whole approach. Much like the individual experiments, using the experience to inform refinement our approach is a win. The only way we lose is if we never bother to try.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 May 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/05/06/ContinuousLearningAndWinSharing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/06/ContinuousLearningAndWinSharing/</guid>
+        
+        <category>continuous learning</category>
+        
+        <category>win sharing</category>
+        
+        <category>management</category>
+        
+        <category>talent management</category>
+        
+        
+      </item>
     
       <item>
         <title>Diffusion of Innovation, Digital Transformation, and Dynamic Systems Theory</title>
@@ -627,66 +675,6 @@ and 21,571 words written&lt;/p&gt;
         
         
         <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Soft and Hard Power in Software Governance</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2018/11/lights.png&quot; /&gt;&lt;figcaption&gt;An complex image of power at play across a ceiling.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve had the privilege (or curse, depending on your predilection) of working in a software governance role for the last several years. What started as a simple API design advisory job has scaled into something that is equal parts technical acumen, developer empathy, business strategy, process psychology, and cultural anthropology. In growing, I’ve had to learn some new things.&lt;/p&gt;
-
-&lt;p&gt;One of those things is the power within systems, and how it is wielded.  I’ve seen top-down, “do as your told”, initiatives flounder, despite the impressive titles of those declaring the mandate. This is because applying linear thinking in blunt ways to dynamic systems often fails.&lt;/p&gt;
-
-&lt;p&gt;But it doesn’t have to be that way. If you have a technical leadership position within your organization, &lt;em&gt;you have more at your disposal than ‘my way or the highway’&lt;/em&gt;. Success in a non-linear system requires an appreciation of different governance power: soft power and hard power.&lt;/p&gt;
-
-&lt;h2 id=&quot;soft-power&quot;&gt;SOFT POWER&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Soft_power&quot;&gt;Soft power&lt;/a&gt; is a political concept developed by Harvard University’s Joseph Nye. Nye defined soft power as the ability to achieve objectives through appeal and attraction, rather than force or coercion. He clarified that it is in opposition to “command power”, or a nation “ordering others to do what it wants.”&lt;/p&gt;
-
-&lt;p&gt;Soft power applies to change agents within a company who may have the &lt;em&gt;responsibility&lt;/em&gt; of achieving technology initiative outcomes, but lack the authority over all the participants. They cannot command people to comply. Instead, they have to rely on a different set of actions: &lt;strong&gt;diplomacy&lt;/strong&gt;, &lt;strong&gt;strategic communication&lt;/strong&gt;, &lt;strong&gt;assistance&lt;/strong&gt;, &lt;strong&gt;negotiation&lt;/strong&gt;, and &lt;strong&gt;community building&lt;/strong&gt;. These actions share an inclusive vision for the future that others embrace without being told.&lt;/p&gt;
-
-&lt;p&gt;Creating standards or processes with a soft power approach may be as simple as stating a new expectation for teams to aspire to in a public forum. Or it might be a mutual agreement between parties on how to move forward on a particular issue.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Soft power excels when the situation is new and/or evolving rapidly.&lt;/strong&gt; During this phase of an initiative, it is beneficial to adapt to new information while experience is gathered. Needs, some of which could not have been anticipated ahead of time, can be rapidly responded to. In cases where governance does not know what the final outcome should be, where flexibility and experimentation are most important, soft power should be the preferred approach until a desirable tenable solution is discovered.&lt;/p&gt;
-
-&lt;h2 id=&quot;hard-power&quot;&gt;Hard Power&lt;/h2&gt;
-&lt;p&gt;Hard power is the ability to command (or restrict) a person or group to a specific set of behaviors. &lt;em&gt;Usually&lt;/em&gt;, it describes the recognized authority for one individual (or organization) to direct another. But &lt;strong&gt;hard power can also be described as the set of allowances that a software system exposes&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Lawrence Lessig, in his books &lt;a href=&quot;https://en.wikipedia.org/wiki/Code_and_Other_Laws_of_Cyberspace&quot;&gt;Code and Other Laws of Cyberspace&lt;/a&gt; (1999), and &lt;a href=&quot;https://en.wikipedia.org/wiki/Code:_Version_2.0&quot;&gt;Code v2&lt;/a&gt; (2006) proposed that software regulates behavior the same way laws do, albeit within the confines of a program. Software commands (or restricts) the user’s actions in a way that coercive, soft power methods do not.&lt;/p&gt;
-
-&lt;p&gt;Soft power may be a suggestion to do something a particular way via a persuasive argument. Hard power, as delivered via software tooling, is the encoded set of things a user is allowed to do. There is less malleability to a specific context. But the outcomes are stable and predictable. Also, because it is delivered via software, hard power can scale more efficiently than soft power.&lt;/p&gt;
-
-&lt;p&gt;A change to hard power, however, &lt;em&gt;means changing code&lt;/em&gt;. Hard power’s capability to react and adapt is only as fast as a team’s deployment cycle. That cycle may include creation of a backlog item, gathering of stories, prioritization in a sprint, coding, functional testing, integration testing, user-acceptance testing, and final deployment. For stable, mature environments that don’t change often, that round-tripping may be an acceptible trade off for hard-power’s benefits.&lt;/p&gt;
-
-&lt;h2 id=&quot;two-recent-examples&quot;&gt;Two Recent Examples&lt;/h2&gt;
-&lt;p&gt;Two recent work examples illustrate how I employ soft and hard power to support developers delivering business value.&lt;/p&gt;
-
-&lt;p&gt;In one case, we were tasked with creating a collaboration process on a newly launched technology platform. It was so new, in fact, that what success looked like was tbd. With so many things like developer maturity, throughput, expectations, etc., yet to be determined, we needed to have the flexibility to experiment and change over time. Few things warranted dedicated tooling, or a ‘hard’ power approach, in this situation. Ignore the delivery lag; nothing kills developer moral like telling them to throw out what they just proudly delivered because “the situation is fluid”.&lt;/p&gt;
-
-&lt;p&gt;In the second situation, we recognized an opportunity to express hard power through our lifecycle tooling. The process flow was mature, with clear parameters and desired outcomes. However, we had an immediate problem that stalled a team. In that case, we defined a soft power agreement (“we will proceed with things in this way, and manually track what comes through during this intermediate phase”) until the hard power updated could be applied. It allowed us to solve issues today while we waited for backlog priority could align.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Being a change agent managing a software process across thousands of developers is no simple task. Moving from a simple linear system to a complex ecosystem requires a different set of approaches. I came from a development background; “applying power” talk still makes me  uncomfortable. But, in order to be effective in my role, it is essential understand the nuance and how it can be applied.&lt;/p&gt;
-
-&lt;p&gt;This framework for how I classify approaches has been helpful to me, and hopefully it will be helpful for you, too.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Nov 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/11/13/SoftPowerVHardPower/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/13/SoftPowerVHardPower/</guid>
-        
-        <category>API Governance</category>
-        
-        <category>soft power</category>
-        
-        <category>hard power</category>
-        
-        <category>Joseph Nye</category>
-        
-        <category>management</category>
-        
-        <category>Lawrence Lessig</category>
-        
         
       </item>
     
