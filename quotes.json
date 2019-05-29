@@ -469,5 +469,14 @@
 {"quote":"We are called to be architects of the future, not its victims.","attribution":"Buckminster Fuller"},
 {"quote":"Unrealistic beliefs on scope - often hidden and undiscussed - kill high standards. To achieve high standards yourself or as part of a team, you need to form and proactively communicate realistic beliefs about how hard something is going to be.","attribution":"Jeff Bezos"},
 {"quote":"Storing information means increasing the complexity of the mechanism.","attribution":"Ramon Margalef"},
+{"quote":"We aren't trying to ship software as fast as possible, we are trying to add value as fast as possible.","attribution":"Donovan Brown"},
+{"quote":"Lord, grant me the skill to recognize and critique bad design, the humility to not criticize opinionated design that differs from my opinions, and the wisdom to know the difference.","attribution":"Larry Garfield"},
+{"quote":"The key to writing less code and causing less rework is to write better abstractions. Get better at identifying and avoiding repetative code.","attribution":"Eric Elliott"},
+{"quote":"Being a professional is the willingness to put oneself in the position of a novice, over and over, so we can continue to learn, improve, and apply.","attribution":"Venkat Subramaniam"},
+{"quote":"Building the wrong thing is the biggest waste in software development.","attribution":"Mary Poppendieck"},
+{"quote":"Reliable systems don't have to be perfect - they have to have sensible tradeoffs.","attribution":"Mary Poppendieck"},
+{"quote":"Code is not self-documenting. Anyone who tells you otherwise is lying as they mint technical debt.","attribution":"Jessy Irwin"},
+{"quote":"When on teaches, two learn.","attribution":"Robert Heinlein"},
+{"quote":"Any sufficiently advanced incompetence is indistinguishable from malice.","attribution":"Lana Nana"},
 {"quote":"There is only one corner of the universe we can be certain of improving, and that's our own selves.","attribution":"Aldous Huxley"}
 ] }

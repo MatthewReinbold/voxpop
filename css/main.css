@@ -78,7 +78,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #d3cccb;
+  color: #93aaa9;
   border-left: 4px solid white;
   padding-left: 15px;
   font-size: 18px;
@@ -142,13 +142,13 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #d3cccb; }
+    fill: #93aaa9; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #998886;
+  border-top: 5px solid #536a69;
   border-bottom: 1px solid white;
   position: relative; }
 
@@ -160,7 +160,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #998886; }
+    color: #536a69; }
 
 .site-nav {
   float: right;
@@ -193,7 +193,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #998886; }
+            fill: #536a69; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -224,7 +224,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #d3cccb;
+  color: #93aaa9;
   margin-left: -15px; }
 
 .footer-col {
@@ -275,7 +275,7 @@ pre {
 
 .post-meta {
   font-size: 14px;
-  color: #d3cccb; }
+  color: #93aaa9; }
 
 .post-link {
   /* display: block; */
@@ -474,7 +474,7 @@ pre {
 
 .site-header {
   background-color: #000;
-  min-height: 15em;
+  min-height: 10em;
   position: relative;
   z-index: 3; }
 
@@ -501,10 +501,10 @@ pre {
   z-index: 1; }
 
 .site-header-content {
-  margin-top: 5em; }
+  margin-top: 0em; }
 
 a:visited {
-  color: #d3cccb; }
+  color: #93aaa9; }
 
 a,
 a:link,
@@ -514,7 +514,7 @@ a:active {
 footer a,
 footer a:link,
 footer a:active {
-  color: #d3cccb; }
+  color: #93aaa9; }
 
 .site-header a,
 .site-header a:visited,
