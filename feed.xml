@@ -6,9 +6,85 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 May 2019 08:25:45 -0400</pubDate>
-    <lastBuildDate>Wed, 29 May 2019 08:25:45 -0400</lastBuildDate>
+    <pubDate>Fri, 21 Jun 2019 10:05:34 -0400</pubDate>
+    <lastBuildDate>Fri, 21 Jun 2019 10:05:34 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>On Travel</title>
+        <description>&lt;p&gt;For a variety of reasons, I’ve been rethinking my approach to physical travel - particularly for conferences. Don’t get me wrong; there are few things in life more thrilling for me &lt;a href=&quot;https://matthewreinbold.com/2014/05/20/magiccircle/&quot;&gt;than discovering a magic circle&lt;/a&gt;, particularly when reconnecting with online friends. However, the unrecoverable time there and back, &lt;a href=&quot;https://www.sciencemag.org/careers/2019/05/why-some-climate-scientists-are-saying-no-flying&quot;&gt;the carbon footprint accrued&lt;/a&gt;, and the time away from my family looms ever larger.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/gretathunberg/status/1119308213722275840?lang=en&quot;&gt;To paraphrase climate activist Greta Thunberg&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“What we need are role models who practice what they preach and live within sustainable planetary norms. Otherwise we just normalize the high carbon lifestyles of jet-setting ‘thinkfluencers’.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/06/plane.png&quot; /&gt;&lt;figcaption&gt;High above the clouds the problems all look so small.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Before going further, I emphatically recognize that choice for me to change my behavior is a privileged decision. For new professionals, the networking opportunities created by regular travel may be exactly what is needed to propel them forward. Others may not enjoy their company’s support and encouragement to attend events, thus making the rare opportunities that much more precious. I get it and hold no judgment.&lt;/p&gt;
+
+&lt;p&gt;I get a lot out of attending conferences. Just &lt;em&gt;stopping&lt;/em&gt; means replacing those imagination catalysts and peer feedback loops with something else. Here’s what I’m trying.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Expose your mental models to the open air… Get your model out there where it can be shot at. Invite others to challenge your assumptions and add their own. Instead of becoming a champion for one possible explanation or hypothesis or model, collect as many as possible.” - Donella Meadows&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;building-local-communities-of-practice&quot;&gt;Building Local Communities of Practice&lt;/h2&gt;
+
+&lt;p&gt;If running &lt;a href=&quot;https://netapi.events&quot;&gt;NetAPI.events&lt;/a&gt;, a list of worldwide, in-person API events has taught me anything, it’s that there’s always lots of local meetups and gatherings happening every week for most metropolitan areas. In the past, these events were something I would drop-by if there was nothing else going on (an increasingly rare occurrence these days).&lt;/p&gt;
+
+&lt;p&gt;This year I’m making local events like the &lt;a href=&quot;https://www.meetup.com/DC-Web-API-User-Group/&quot;&gt;DC Web API&lt;/a&gt; and &lt;a href=&quot;https://www.meetup.com/Technical-Product-Management-Community-of-Greater-DC&quot;&gt;Technical Product Manager&lt;/a&gt; meetups more of a priority. There’s also a host of other noteworthy things happening just up and down the I-95 corridor. Often these events are free, have interesting things to say, and need the participating from folks like you and me to make them successful.&lt;/p&gt;
+
+&lt;h2 id=&quot;reapplying-travel-time-to-connecting-with-new-audiences&quot;&gt;Reapplying Travel Time to Connecting with New Audiences&lt;/h2&gt;
+&lt;p&gt;Speaking of participating, the time I put into a user group presentation is about the same as the preparation I do for a conference talk. And yet, as has happened in the past, that investment has little return beyond a single delivery.&lt;/p&gt;
+
+&lt;p&gt;I’ve tried to be more diligent about blogging talks in detail (like about ‘&lt;a href=&quot;https://matthewreinbold.com/2018/10/31/Gardeners-Approach/&quot;&gt;Growing Software Culture&lt;/a&gt;’, ‘&lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;API Governance&lt;/a&gt;’, or ‘&lt;a href=&quot;https://matthewreinbold.com/2017/12/07/ConwayAndAPIDesign/&quot;&gt;noodling on Conway’s Law&lt;/a&gt;’). However, this is a golden age of web-enabled audio and video. I want to put out more mixed media for those that don’t cherish chunks of text.&lt;/p&gt;
+
+&lt;p&gt;And rather than create a single deck for the year and try and reuse it at a handful of events, what I’d instead do is use the time saved not traveling and create &lt;em&gt;more&lt;/em&gt; conversation starters. For 2019, I have a goal to create &lt;strong&gt;six &lt;em&gt;different&lt;/em&gt; presentations in six months&lt;/strong&gt;. Thus far I have:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;May - ‘Getting Started with API Governance’&lt;/li&gt;
+  &lt;li&gt;June - ‘Planning Tetris, Feature Factories, and Success Theater - Agile Anti-Patterns and How to Avoid Them’ (illustrated using techniques taken from the Lego Serious Play method)&lt;/li&gt;
+  &lt;li&gt;July - Layers, API Governance, and Innovating through the Principle of Least Power&lt;/li&gt;
+  &lt;li&gt;August - Unnamed Preso on Creating and Sustaining Resilient Knowledge Communities&lt;/li&gt;
+  &lt;li&gt;September - ??&lt;/li&gt;
+  &lt;li&gt;October - ??&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;salon-cohort&quot;&gt;Salon Cohort&lt;/h2&gt;
+&lt;p&gt;I admire &lt;a href=&quot;https://www.annmarie-thomas.com/&quot;&gt;AnnMarie Thomas&lt;/a&gt;. She is a STEM educator and author of the Making Makers. For the past several years, &lt;a href=&quot;https://annmariethomas.typepad.com/annmarie-thomas/2016/06/salon.html&quot;&gt;she has curated a monthly “Play Date” across time zones called the “Salon”&lt;/a&gt;. It is a way, using video conferencing technology, of regularly connecting exciting people for lively conversation, regardless of where they are.&lt;/p&gt;
+
+&lt;p&gt;I hoped to emulate the pattern and approached several folks to do something similar for the latter half of 2019. However, my initial call ran into issues; a number of people (justifiably) were unavailable, confused by my pitch, or didn’t respond.&lt;/p&gt;
+
+&lt;p&gt;I think there’s still an opportunity to create a regular online hangout that folks look forward to with the same enthusiasm and joy as they do meeting in physical space. Given everything else going on, I’ll rethink on how better to present this and try again in 2020.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-i-do-have-to-travel&quot;&gt;When I do Have to Travel&lt;/h2&gt;
+&lt;p&gt;As I’m quick to point out, the point isn’t a draconian ban on &lt;em&gt;all&lt;/em&gt; travel; it’s to make smarter decisions when I &lt;em&gt;do&lt;/em&gt;. And sometimes there isn’t a choice, like when I am required to travel for work-related reasons.&lt;/p&gt;
+
+&lt;p&gt;In those cases, there are sites like &lt;a href=&quot;https://co2.myclimate.org/en/flight_calculators/new&quot;&gt;the carbon footprint calculator&lt;/a&gt;. It helps visualize the impact of air travel. More importantly, it provides options to support numerous programs for offsetting the impact of those trips. &lt;a href=&quot;https://www.youtube.com/watch?v=I-HCMbTDWVo&quot;&gt;I don’t have the carbon footprint of Elon Musk&lt;/a&gt;. However, every little bit helps and, when I &lt;em&gt;do&lt;/em&gt; travel in the future I will be sure to contribute to activities that mitigate the impact.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
+&lt;p&gt;The last several years (or the last decade, tbh) have been a strange time, filled with all sorts of grim portends. However, I think its important to remember the power of our agency among the uncertainty. No one person is going to solve everything. However, people feeling empowered to make purposeful, informed actions can be aggregated into profound change. We are not bound to the status quo until a change is forced on us; this is precisely the time to be running millions of little experiments, all incrementing toward something better.&lt;/p&gt;
+
+&lt;p&gt;Are you trying something different? Got something that isn’t on the list? I’d love to hear about it.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Jun 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/06/21/On-Travel/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/06/21/On-Travel/</guid>
+        
+        <category>travel</category>
+        
+        <category>conferences</category>
+        
+        <category>Donella Meadows</category>
+        
+        <category>Greta Thunberg</category>
+        
+        <category>climate</category>
+        
+        <category>carbon footprint</category>
+        
+        
+      </item>
     
       <item>
         <title>APIs and Digital Transformation</title>
@@ -656,35 +732,6 @@ and 21,571 words written&lt;/p&gt;
         <category>Conjure</category>
         
         <category>Sebastian Caceres</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>Newsletter Thanksgiving Special! &amp;#x2709;</title>
-        <description>&lt;p&gt;There's plenty of API hoot and nanny to cover. However, I take a moment to highlight not only some recent accomplishments, but thank readers for their time and attention. And there is also a colorful summation of Thanksgiving:&lt;/p&gt;
-
-&lt;blockquote&gt;If you're in the United States, this email probably finds you either in transit or in preparation (or both!) for the Thanksgiving holiday. It is a time that is associated with indulgent shopping, strained family conversations, and overeating while the Detroit Lions find less entertaining ways to lose.&lt;/blockquote&gt;
-
-&lt;p&gt;Happy holidays!&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/rest-api-notes-thanksgiving-special-2018-11-21&quot;&gt;https://tinyletter.com/NetAPINotes/letters/rest-api-notes-thanksgiving-special-2018-11-21&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;https://tinyletter.com/NetAPINotes/archive&quot;&gt;http://tinyletter.com/NetAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Nov 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/newsletter/2018/11/21/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/11/21/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>thanksgiving</category>
-        
-        <category>NFL</category>
         
         
         <category>newsletter</category>
