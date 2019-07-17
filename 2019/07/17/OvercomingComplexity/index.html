@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Overcoming Complexity through the Principle of Least Power</title>
+  <meta name="description" content="Here are the slides and script for the presentation I made on July 17th at the San Francisco APIDays Conference. The theme for the event was ‘The New API Sta...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://matthewreinbold.com/2019/07/17/OvercomingComplexity/">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<div id="overlay">
+
+    <div class="wrapper">
+      <nav class="site-nav">
+        <a href="#" class="menu-icon">
+          <svg viewBox="0 0 18 15">
+            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+          </svg>
+        </a>
+
+        <div class="trigger">
+          
+            
+            <a class="page-link" href="/about/">About</a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+            <a class="page-link" href="/category/newsletter/">Newsletters</a>
+            
+          
+        </div>
+      </nav>
+    </div>
+  
+  <div class="site-header-content">
+    <div class="wrapper">
+
+      <a class="site-title" href="/">Matthew Reinbold</a>
+
+
+    </div>
+
+    <div class="wrapper">
+      <h2><em>Sociotechnical Electroblabagaborasm</em></h2>
+    </div>
+  </div>
+
+</div>
+<div id="background"></div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Overcoming Complexity through the Principle of Least Power</h1>
+    <h2 class="post-subtitle">Defining an Principled Approach to API Innovation With Layers</h2>
+    <p class="post-meta"><time datetime="2019-07-17T00:00:00-04:00" itemprop="datePublished">Jul 17, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Here are the slides and script for the presentation I made on July 17th at the San Francisco APIDays Conference. The theme for the event was ‘The New API Stack’. Without further ado, here is the talk.</p>
+
+<hr />
+
+<p><figure><img src="/images/2019/07/Slide1.PNG" /><figcaption>An innocuous introduction slide.</figcaption></figure></p>
+
+<p>Welcome, everyone. My name is Matthew Reinbold, and my talk this morning is how to overcome <em>complexity</em> with the <em>principle of least power</em>.</p>
+
+<p><em>Photo by <a href="https://unsplash.com/@shemul?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shahadat Shemul</a> on <a href="https://unsplash.com/search/photos/complexity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></em></p>
+
+<p><figure><img src="/images/2019/07/Slide2.PNG" /><figcaption>Defining software complexity.</figcaption></figure></p>
+
+<p>Modern software architecture <em>is <strong>complex</strong></em>. John Ousterhout, in his book “A Philosophy of Software Design”, defines complexity
+as:</p>
+<blockquote>
+  <p>“anything related to the structure of a software system that makes it hard to
+understand and modify the system.”</p>
+</blockquote>
+
+<p>In other words, a barrier to the kind of business agility that we crave, that is desired to win in competitive marketplaces, is how hard our architectures are to grok.</p>
+
+<p><figure><img src="/images/2019/07/Slide3.PNG" /><figcaption>Complexity grows. For everyone.</figcaption></figure></p>
+
+<p>Complexity is a problem that we all share. Clear back in the innocent, carefree days of 2011 Marc Andreessen quipped that “software was eating the world”. That same year <a href="https://www.forbes.com/sites/techonomy/2011/11/30/now-everycompany-is-a-software-company/#42438fbdf3b1">Forbes declared that “every company is a software company</a>”. Sometime around the middle of this decade, our community began talking about how “<a href="https://techcrunch.com/2015/05/06/apis-fuel-the-software-thats-eatingthe-world/">APIs were eating software</a>”.</p>
+
+<p>As the Director for the Capital One Center of Excellence, I lead the team that sets the API and event streaming standards for 9,000 geographically disbursed developers. A vast majority contribute to the thousands of in-production, internal APIs that our company uses to deliver new products and experiences. My team and I oversee an internal ecosystem that delivers 3.5 billion API requests a day.</p>
+
+<p>In addition to that “day job”, I also write an email newsletter called “<a href="https://tinyletter.com/netapinotes/archive">Net API Notes</a>”. There, I love to highlight stories of how other companies are managing their API journeys. While many are at different points along the road, all of us eventually run into same problem: complexity.</p>
+
+<p><figure><img src="/images/2019/07/Slide4.PNG" /><figcaption>APIs offer the greatest leverage point in a dynamic system.</figcaption></figure></p>
+
+<p>Why APIs? Because the API is the greatest leverage point in a complex system. An API is a means of abstracting complexity and hiding it behind an interface.</p>
+
+<p>That abstraction allows programmers to work on a system without being exposed to all a system’s complexity at once. An API is a simplified view which omits unimportant details. It makes it easier for us to think about and manipulate complex things.</p>
+
+<p>It’s why APIs have exploded, both internally and externally. In our organization, we might have started with APIs - either our own or 3rd parties - for critical functionality. However, in time, patterns emerged to deal with the <em>complexity</em> of the environment. If you’re Netflix’s Daniel Jacobson, you call these “<a href="http://www.danieljacobson.com/blog/306">experience APIs</a>” (2014). If you’re Phil Calçado, director at Meetup, <a href="https://philcalcado.com/2015/09/18/the_back_end_for_front_end_pattern_bff.html">this is the Backend-for-Frontend (or BFF) pattern</a> (2015).</p>
+
+<p>At the same time that this orchestration API layering was taking place, <a href="https://martinfowler.com/articles/microservices.html">James Lewis and Martin Fowler were talking about an abstraction they saw called <em>microservices</em></a> (2014).</p>
+
+<p><figure><img src="/images/2019/07/Slide5.PNG" /><figcaption>Even these abstractions meant to hide complexity birth their own complexity when done in mass.</figcaption></figure></p>
+
+<p>Thing is, complexity is neither creator or destroyed, is just changes shape. Not only are there more services, resulting in the infamous “microservice death star” style graphs, but the complexity introduced to try and manage these services – deployment pipelines, service meshes, monitoring tools, auditing, dependency managements also introduce their own emergent behavior.</p>
+
+<p>In fact, over the past several years, through the writing on Net API Notes, I’ve seen a number of pieces where companies retreat back to a monolith exactly because they were more comfortable with the complexity that they had known rather than the new form it had taken.</p>
+
+<p>With enough abstractions, we begin to see that layers change at different rates.</p>
+
+<p><em>Images from “<a href="https://blog.acolyer.org/2019/05/13/an-open-source-benchmark-suite-formicroservices-and-their-hardware-software-implications-for-cloud-edge-systems/">An Open Source Benchmark Suite for Microservices</a>”</em></p>
+
+<p><figure><img src="/images/2019/07/Slide6.PNG" /><figcaption>Layering of abstractions move at different rates.</figcaption></figure></p>
+
+<p>Abstractions changing at different rates doesn’t just happen in software. Wherever there are people, we see a stratification among abstractions.</p>
+
+<p>In his book, “The Clock of the Long Now”, Stewart Brand described “Pace Layers”. He identified layers with each layer building upon slower-moving layers beneath it.</p>
+
+<p>At the bottom are those things that are the slowest to change. These are things of <strong>nature</strong>. As far as we know, the laws of physics haven’t changed. For example, the speed of light is constant.</p>
+
+<p>Next up is the <strong>cultural</strong> layer. People are people. It’s why the stories of the Greeks and Romans still resonate with us today.</p>
+
+<p>Above that is <strong>governance</strong>. Note that this is not <em>governments</em> (think democracy or populism).</p>
+
+<p>Above that, moving at a faster clip, is <strong>infrastructure</strong>. These are things like our road systems, or the electrical or plumbing networks in this building.</p>
+
+<p>Moving even faster that that is <strong>commerce</strong> or the rate at which new products, services, and experiences can be brought to a market.</p>
+
+<p>Finally, at the top and moving with the greatest speed, is fashion.</p>
+
+<p><figure><img src="/images/2019/07/Slide7.PNG" /><figcaption>Fast layers innovate, slow layers stabilize.</figcaption></figure></p>
+
+<p>One layer isn’t more important than another. It turns out that <em>all</em> layers are important for a well-functioning system. Each has its place. Imagine if something as important as foreign policy was being run on a whim? Or if innovation was only allowed to happen at the speed of bureaucratic consensus.</p>
+
+<p>As Stewart says in his book:</p>
+<blockquote>
+  <p>“Fast learns, slow remembers. Fast proposes. Slow disposes. Fast is discontinuous and slow is continuous. Fast and slow informs slow and big by accrued innovation and occasional revolution and slow and big control slow and fast by constraint and constancy. Fast gets all our attention but slow has all the power.”</p>
+</blockquote>
+
+<p><figure><img src="/images/2019/07/Slide8.PNG" /><figcaption>An API Pace Layer begins with unchanging natural laws.</figcaption></figure></p>
+
+<p>When it comes to web, or ‘net’, APIs I see similar stack that changes at different rates. I’ll insert my usual model disclaimer here: “all models are wrong, but some are useful”. I acknowledge this is incomplete, but this API Pace Layering model we’re about to walk through is useful for raising topics for discussion and illustrating insights about complexity (and where we attempt to hide it).</p>
+
+<p>At the bottom, again, are the laws of <strong>nature</strong>. The speed of light sent between distributed systems is constant. Not a whole lot there likely to change soon.</p>
+
+<p><figure><img src="/images/2019/07/Slide9.PNG" /><figcaption>TCP is foundational, constant and unchanging.</figcaption></figure></p>
+
+<p>The next is the TCP layer. That protocol has been around since the 70s. That’s probably a good thing, as something as necessary as packet transmission needs to be stable; considering the amount of physical hardware, languages, and frameworks that have it “baked in”, you wouldn’t want it changing often.</p>
+
+<p><figure><img src="/images/2019/07/Slide10.PNG" /><figcaption>HTTP is the next layer.</figcaption></figure></p>
+
+<p>As we go up, remember that we’re beginning to pick up the rate of change. There are lots of protocols, like FTP or email. However, most of us in this room are probably familiar with HTTP. HTTP 1.1, which a guy named Roy Fielding worked on, <a href="https://tools.ietf.org/html/rfc2616">was ratified in 1999</a>. HTTP/2, which many haven’t implemented yet, was approved in 2015. It’s not whipsawing speed, by any stretch of the imagination. However, compared to TCP, it’s changing faster.</p>
+
+<p><figure><img src="/images/2019/07/Slide11.PNG" /><figcaption>HTTP can be thought of as additional, addative layers.</figcaption></figure></p>
+
+<p>Here’s where I purposely made it interesting. HTTP, <em>itself</em>, is layered. There’s the verbs or methods. Everybody is familiar with “GET”, “PUT”, “POST”, and “DELETE”. Some might even use “PATCH”. There are others, like “OPTIONS” and “HEAD”, which are useful in other circumstances. There’s a couple more, but that’s mostly it; under ten items to recall that have been stable since the last millennium.</p>
+
+<p>There are <em>status codes</em>; while, officially, <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">there are 50-60 status codes</a> the ones we care about can be broken into three broad groups. Any 2xx responses tell me, as a client, my request succeeded. Any 4xx tells me, as a client, that I need to modify my request before doing it again. Also, 5xx tells client me that the API provider is having a very bad moment. Again, stable, consistent, and doesn’t require me to introspect the payload for the high-level gist of what is going on.</p>
+
+<p>The last layer of the HTTP protocol worth highlighting is <em>headers</em>. <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">There are about a hundred of these</a>. Some of them get into a fair amount of subtlety and nuance. Not all are that useful. However, this is where we get a wonderful set of tools to shape requests. The fastest request is the one you never have to make. If an API provides thoughtful clues through caching headers to a client, it is a beautiful, highly-performant, thing. Headers also where we can perform content negotiation, allowing the same API to return the JSON representation, a CVS file, a PDF, a binary image, or <em>more</em> all from the same resource.</p>
+<p><figure><img src="/images/2019/07/Slide12.PNG" /><figcaption>RFCs offer lots of opportunities for experimentation.</figcaption></figure></p>
+
+<p>Above HTTP, evolving at a greater clip, are the IETF’s <em>Requests for Comment</em>, or RFCs. There are <strong>thousands</strong> of these notes which capture proposed ways communication on the internet might work. That’s a lot and there are new ones all the time.</p>
+
+<p>There is some excellent work here that can powerfully aid comprehension and intuitiveness of a design. When things go wrong, <a href="https://tools.ietf.org/html/rfc7807">RFC7807 defines a common error object</a>. By using a standard, clients aren’t left having to figure out where in the payload to look for information to help solve their issues. A standard might also suggest information, or representations of information, that you might not otherwise have considered.</p>
+
+<p>There’s also <a href="https://tools.ietf.org/html/rfc8594">RFC 8594, the sunset HTTP header</a>. It is a way of telling someone that requests a URI that it may become unresponsive in the future. This one was fun to watch being born, on Twitter and through email, by this extended community. A common need for better lifecycle management was identified folks online and they swarmed together to discuss merits of different approaches. From their efforts, we now have a abstraction: the complexity of having to come up with how to do this was handled by someone else.</p>
+
+<p><figure><img src="/images/2019/07/Slide13.PNG" /><figcaption>Patterns are numerous, and quick to evolve.</figcaption></figure></p>
+
+<p>Finally, at the top of this layering, are patterns. There are some patterns, like the backend-for-frontend or experience API pattern, that become popular - possibly even so popular that they end up generating dedicated RFCs to support them. Remote Procedure Call (or RPC) is a pattern. Webhooks are a pattern. Hypermedia is also a pattern. These can are multitudinous, and a new one can be introduced as quickly as the Netflix engineering or Hacker News forums publish a new post. These are constantly changing. Some become quite fashionable.</p>
+
+<p><figure><img src="/images/2019/07/Slide14.PNG" /><figcaption>A layered architectural approach gracefully degrades.</figcaption></figure></p>
+
+<p>The wonderful thing about how these layers perform in a complex system is how they gracefully degrade. Suppose, for example, that I provide an API that implements an RFC, like the common error object. What if the client isn’t expecting, or doesn’t care that I’m following a prescribed standard. Do we fail to exchange meaningful information?</p>
+
+<p><em>Of course not</em>. A client unaware of RFC 7807 would only see a JSON response returned to them, and they would parse it anyway, the same as they would if my response was something that I came up with off the top of my head. The advantage are those complex ecosystems featured in the microservice death stars – when all services express information in the same way, it opens opportunities for tooling; tooling which takes the cognitive burden from developers, freeing them to focus on the business problem.</p>
+
+<p>Let’s take another example and go a layer deeper. As an API provider, I have the best understanding of when the underlying data changes. As a result, I provide cachecontrol and ETag headers to the client, allowing them to make smart decisions about when to request an object. After all, the fastest API call is the one that didn’t have to happen in the first place. If a client is savvy and picks up on it, great! If not, <strong>things still work</strong>; maybe not as efficiently, maybe not as elegantly. However, building in layers that can gracefully degrade means that communication is still possible.</p>
+
+<p><figure><img src="/images/2019/07/Slide15.PNG" /><figcaption>GraphQL cuts across layers, connecting an interaction pattern to TCP.</figcaption></figure></p>
+
+<p>Now, for a brief moment, let’s talk about GraphQL (going through a similar exercise for gRPC is left to the reader). GraphQL is a query language for data retrieval and updating via HTTP. I put it in the “pattern” layer, as it is a different API interaction pattern between client and server.</p>
+
+<p>Unlike the other patterns that I had previously mentioned, however, GraphQL is <em>not</em> built upon the same layered approach. All requests, be it data retrieval or mutations to update, are submitted via POST. The only status code ever returned is a 200, requiring introspection of the payload <em>of every response</em> in case there is an error embedded in it. Headers aren’t encouraged, as they’re not displayed in tooling like the explorer from GraphQLHub.com. There’s no equivalent RFC-like error response for GraphQL, although vendors like Apollo are promoting their approach.</p>
+
+<p>There’s a paradox here. I can hear it. “Matthew,” you might say, “by freeing us from having to think about verbs or codes or headers or RFCs – by getting rid of the layers, aren’t we abstracting complexity behind a single abstraction?”</p>
+
+<p>Remember, <strong>complexity is neither creator or destroyed</strong>, is just changes shape.</p>
+
+<p>GraphQL is not a layered approach; everything from the pattern to the TCP/IP layer is either strictly specified by GraphQL or left for developers to recreate in their own, bespoke way. Eschewing layers, as GraphQL gives developers tremendous power to solve problems exactly how they imagine a problem to be solved; both from the consumer’s point of view, where they can tailor the response to their needs. The API provider also can implement their own approaches to common distributed systems problems. But that power comes with <em>great</em> <strong>complexity</strong>. The layers that abstracted the complexity of things like caching, of error handling, content negotiation are all left to the developer. And having each GraphQL solve those things in their own fashion will increase the complexity of comprehension on the part of clients and tool makers.</p>
+
+<p><figure><img src="/images/2019/07/Slide16.PNG" /><figcaption>To combat complexity, the principle of least power suggests keeping things simple and within layers.</figcaption></figure></p>
+
+<p><a href="https://www.w3.org/2001/tag/doc/leastPower.html">The principle, or rule, of least power states that one should</a>:</p>
+<blockquote>
+  <p>“Choose the least powerful language suitable for a given purpose.”</p>
+</blockquote>
+
+<p>That seems incredibly counter-intuitive. Don’t we want <strong>more</strong> power to solve problems? Shouldn’t we deserve the newest tools? The most flexible frameworks? Who in their right mind is a fan of the least among us?</p>
+
+<p>We can apply this to our layers. When I call an API, I can include instructions as to whether I’m reading or updating information in the payload; that is a payload the server will have to introspect and act on. Or I can use the humble verb at the lowest layer, and signal the same thing via a GET or PATCH. It seems like a simple thing but it drastically affects where the complexity of our tracing, monitoring, entitling, securing, rate-limiting, framework-ing, and supporting goes.</p>
+
+<p><figure><img src="/images/2019/07/Slide17.PNG" /><figcaption>Ultimately, there is nothing wrong with fasion. Just make choice based on principle. </figcaption></figure></p>
+
+<p>So do I hate GraphQL? Am I advocating that we should only use “boring” technology? That the old stuff is better?</p>
+
+<p>While I am a fan of <a href="http://boringtechnology.club">The Boring Technology Club</a>, that is not the message. I’ve grown to appreciate what happens within the fashionable layers. The chaotic experimentation is exciting. The vigor for overturning assumptions and pursuing new avenues is how we discover new, potentially powerful ideas. In a healthy stack, the best ideas go from being fashionable, to products sold via commerce, to essential pieces of infrastructure eventually requiring governance and important pieces of business culture.</p>
+
+<p>What I do advocate for, however, is conscious, decision being made when pursuing new patterns. Eschewing layers comes with trade-offs. Enter into those decisions with eyes wide open.</p>
+
+<p>As Mythical Man Month author Fred Brooks said:</p>
+<blockquote>
+  <p>“There are no silver bullets.””</p>
+</blockquote>
+
+<p><em>Photo by <a href="https://unsplash.com/@mariyageorgieva?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mariya Georgieva</a> on <a href="https://unsplash.com/search/photos/fashion?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></em></p>
+
+<p><figure><img src="/images/2019/07/Slide18.PNG" /><figcaption>An innocuous conclusion slide.</figcaption></figure></p>
+
+<p>In conclusion, every company is a software company which means every company is wrestling with growing complexity.</p>
+
+<p>One approach to dealing with complexity to create abstractions. The abstractions at the different layers in any system evolve at different rates, which is a good thing. Fast layers accrue innovation and occasionally incite a revolution while the slow provide stability and filtering.</p>
+
+<p>Net APIs have evolved into different layers. Each layer provides a host of solutions to common problems that gracefully degrade if not used. The principle of least power suggests choosing simple, layered solutions to layer-spanning solutions.</p>
+
+<p>Only by making more informed decisions, fully aware of the trade-offs at hand, will those responsible for API governance be able to overcome the complexity of our current API stacks.</p>
+
+<p><figure><img src="/images/2019/07/Slide19.PNG" /><figcaption>Thank you for your attention.</figcaption></figure></p>
+
+<p>I’ll have the slides, along with some additional color and links to sources, at my website, <a href="https://matthewreinbold.com">matthewreinbold.com</a>. I’ll announce when its ready on my Twitter stream and in my newsletter, ‘Net API Notes’.</p>
+
+<p>I am <a href="https://twitter.com/libel_vox">Twitter’s @libel_vox</a>, and you can follow me and continue the conversation there. Thank you for the precious gift of your attention. Enjoy the rest of the conference!</p>
+
+  </div>
+
+</article>
+
+<div class="relatedPosts">
+
+
+
+
+
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+        <hr />
+    		<h4>Related</h4>
+    		
+    	
+      <div>
+      <h5><a href="/2018/10/31/Gardeners-Approach/">A Gardener's Approach to Growing an API Culture</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2017/12/07/ConwayAndAPIDesign/">Three Ways Conways Law Affects API Governance</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2017/10/03/API-Governance-Blueprint/">API Governance for IT Culture Change</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2014/04/02/amsterdamimpressions/">On Amsterdam &amp; APIs</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+          <div id="quote" class="triangle-isosceles left" >
+
+          </div>
+        <div id="image" style="float:left;">
+          <img src="/images/headshot-2013c.png" alt="Matthew's avatar" class="bottomImage"/>
+        </div>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="mailto:hello@matthewreinbold.com"><span class="icon icon--email"><?xml version="1.0" encoding="utf-8"?>
+<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+<g><path d="M990,232.8c0-61.5-49.9-111.4-111.4-111.4H121.4C59.9,121.4,10,171.3,10,232.8v534.4c0,61.5,49.9,111.4,111.4,111.4h757.3c61.5,0,111.4-49.9,111.4-111.4V232.8z M920.3,236.4c1.6,5.8,2.5,11.8,2.5,18.1v490c0,6.7-0.7,13.1-2.5,19.2c-1.6-3.5-3.7-6.8-6.6-9.7L637.8,499.3L920.3,236.4z M143.9,187.1h712.7c6.3,0,12.3,1.4,18.1,3.1L555,487.8c-1.2,1.2-1.7,3-2.7,4.4l-7.5,7.8h-6.2c-7.7,12.9-21.9,22.3-38.4,22.3c-16.4,0-30.7-9.4-38.4-22.3h-6.2l-5.5-5.7c-1.3-2.1-2.3-4.4-4.1-6.2L126.3,190.1C131.9,188.6,137.7,187.1,143.9,187.1 M77.1,254.5c0-6.5,1.2-12.7,2.9-18.6l283.1,263.4L87.3,753.9c-3.2,3.2-5.5,6.8-7.1,10.7c-2-6.3-3-13.1-3-20.1L77.1,254.5L77.1,254.5z M143.9,811.4c-7,0-13.7-1.1-20.1-3.1c3.9-1.6,7.5-4,10.7-7.2L411.9,545c20.3,26.5,52.3,43.6,88.3,43.6c36.2,0,68.3-17.3,88.6-44l277.8,256.5c3.1,3.1,6.6,5.5,10.4,7.1c-6.5,2.1-13.3,3.3-20.5,3.3H143.9z"/></g>
+</svg></span> <span class="username">Email</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="/feed.xml"><span class="icon icon--rss"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M3.428,31.085c6.19,0,12.009,2.418,16.382,6.816c4.381,4.398,6.793,10.256,6.793,16.492h9.539  c0-18.113-14.676-32.848-32.714-32.848V31.085z M3.443,14.174c22.061,0,40.01,18.047,40.01,40.231h9.539  c0-27.445-22.229-49.77-49.549-49.77V14.174z M16.634,47.741c0,3.648-2.959,6.607-6.607,6.607S3.42,51.39,3.42,47.741  c0-3.65,2.958-6.607,6.606-6.607S16.634,44.091,16.634,47.741z"/></svg></span> <span class="username">Site RSS</span></a>
+
+          </li>
+          
+
+          
+
+          
+          <li>
+            <a href="https://tinyletter.com/netapinotes"><span class="icon icon--twitter"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="226 288.5 160 215" enable-background="new 226 288.5 160 215" xml:space="preserve">
+<g id="Logo_2_">
+	<path id="White_Envelope_1_" fill="#FFFFFF" d="M368.6,333.9H243.4c-6.2,0-11.1,5.1-11.1,11.1v102c0,6.2,5.1,11,11.1,11h45
+		l42.5,32.6V458h37.7c6.2,0,11-5.1,11-11V345C379.7,338.8,374.6,333.9,368.6,333.9z"/>
+	<path id="Red_Heart_2_" fill="#EC1C24" d="M301.2,302.8l4.8,4.8l4.8-4.8c8.8-8.8,22.9-8.8,31.7,0c8.8,8.8,8.8,22.9,0,31.7L306,364
+		l-36.6-29.5c-8.8-8.8-8.8-22.9,0-31.7C278.2,294,292.4,294,301.2,302.8z"/>
+	<path id="Black_Outline_1_" d="M368.6,328.9h-15.9c1.1-3.1,2-6.5,2-10.2c0-7.6-2.8-14.4-8.2-19.8s-12.5-8.2-19.8-8.2
+		c-7.6,0-14.4,2.8-19.8,8.2l-0.9,0.9l-0.9-0.9c-5.4-5.4-12.5-8.2-19.8-8.2c-7.6,0-14.4,2.8-19.8,8.2c-8.2,8.2-10.2,20.1-6.2,30
+		h-15.9c-9.4,0-17,7.6-17,17v100.3c0,9.4,7.6,17,17,17h40.5l52.7,40v-40h32c9.4,0,17-7.6,17-17V345.9
+		C385.6,336.5,378,328.9,368.6,328.9z M273.4,306.8c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8l8.8,8.8l8.8-8.8
+		c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8s4.8,7.4,4.8,11.9c0,4.2-1.7,8.5-4.8,11.6L306,356.6l-32.6-26.4
+		C266.9,323.8,267.2,313.3,273.4,306.8z M243.4,340.2h24.4l38.5,31.2l38.5-31.2h24.1c3.1,0,5.7,2.5,5.7,5.7v17.3L306,415l-68.3-51.8
+		v-17.3C237.7,342.7,240.3,340.2,243.4,340.2z M374.3,377.3v39.4l-25.8-19.8L374.3,377.3z M263.5,397.1L237.7,417v-39.4L263.5,397.1
+		z M368.6,451.8H325v28.3l-37.4-28.3h-44.2c-3.1,0-5.7-2.6-5.7-5.7v-15l35.4-26.9l33.1,25.2l33.1-25.2l35.4,26.9v15
+		C374.3,449.3,371.7,451.8,368.6,451.8z"/>
+</g>
+</svg>
+</span><span class="username">Net API Notes</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/libel_vox"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">Twitter</span></a>
+
+          </li>
+          
+
+          
+
+
+          
+
+          
+
+             
+
+          
+          <li>
+            <a href="https://www.linkedin.com/in/matthewreinbold/"><span class="icon icon--linkedin"><?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="256.000000pt" height="256.000000pt" viewBox="0 0 256.000000 256.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+</metadata>
+<g transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M410 2297 c-49 -15 -136 -104 -149 -153 -7 -27 -11 -305 -11 -875 l0
+-835 26 -52 c14 -29 42 -66 62 -82 75 -62 56 -61 968 -58 l829 3 41 22 c59 31
+110 93 128 154 23 77 24 1639 1 1715 -19 65 -63 116 -127 148 l-52 26 -840 -1
+c-583 -1 -852 -4 -876 -12z m416 -356 c49 -22 80 -60 95 -114 14 -52 -8 -114
+-56 -156 -63 -55 -141 -53 -205 5 -67 61 -74 148 -18 220 23 28 90 64 123 64
+11 0 38 -9 61 -19z m960 -446 c64 -31 126 -99 150 -163 16 -41 19 -91 22 -389
+l3 -343 -135 0 -136 0 -1 273 c0 232 -3 279 -17 317 -24 61 -68 90 -140 90
+-74 0 -125 -29 -154 -89 -22 -44 -23 -60 -26 -318 l-4 -273 -129 0 -129 0 0
+450 0 450 130 0 130 0 0 -60 c0 -33 3 -60 8 -60 4 0 20 16 35 35 88 110 260
+145 393 80z m-886 -445 l0 -450 -135 0 -135 0 0 450 0 450 135 0 135 0 0 -450z"/>
+</g>
+</svg>
+</span> <span class="username">LinkedIn</span></a>
+
+          </li>
+                    
+
+          
+
+
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is the website for Matthew Reinbold, the Director for Capital One's   Platform Services Center of Excellence. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Adult fan of Lego. And trying to make Dakota Gothic a thing. 
+</p>
+      </div>
+
+      <div style="clear:both;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(
+    function() {
+     $.getJSON( '/quotes.json', 
+      function(data) {
+        // generate a random number between 0 and length-1
+        var index = Math.floor(Math.random() * (data.quotes.length - 1) ); 
+        //alert(data.quotes[index].quote);
+        $('#quote').text('"' + data.quotes[index].quote + '" - ' + data.quotes[index].attribution )
+      }
+    );
+   }
+  );
+</script>
+
+  </body>
+
+</html>

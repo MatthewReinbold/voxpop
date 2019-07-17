@@ -6,9 +6,201 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Jun 2019 10:05:34 -0400</pubDate>
-    <lastBuildDate>Fri, 21 Jun 2019 10:05:34 -0400</lastBuildDate>
+    <pubDate>Wed, 17 Jul 2019 15:34:00 -0400</pubDate>
+    <lastBuildDate>Wed, 17 Jul 2019 15:34:00 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Overcoming Complexity through the Principle of Least Power</title>
+        <description>&lt;p&gt;Here are the slides and script for the presentation I made on July 17th at the San Francisco APIDays Conference. The theme for the event was ‘The New API Stack’. Without further ado, here is the talk.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide1.PNG&quot; /&gt;&lt;figcaption&gt;An innocuous introduction slide.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome, everyone. My name is Matthew Reinbold, and my talk this morning is how to overcome &lt;em&gt;complexity&lt;/em&gt; with the &lt;em&gt;principle of least power&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@shemul?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Shahadat Shemul&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/search/photos/complexity?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide2.PNG&quot; /&gt;&lt;figcaption&gt;Defining software complexity.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Modern software architecture &lt;em&gt;is &lt;strong&gt;complex&lt;/strong&gt;&lt;/em&gt;. John Ousterhout, in his book “A Philosophy of Software Design”, defines complexity
+as:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“anything related to the structure of a software system that makes it hard to
+understand and modify the system.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In other words, a barrier to the kind of business agility that we crave, that is desired to win in competitive marketplaces, is how hard our architectures are to grok.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide3.PNG&quot; /&gt;&lt;figcaption&gt;Complexity grows. For everyone.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Complexity is a problem that we all share. Clear back in the innocent, carefree days of 2011 Marc Andreessen quipped that “software was eating the world”. That same year &lt;a href=&quot;https://www.forbes.com/sites/techonomy/2011/11/30/now-everycompany-is-a-software-company/#42438fbdf3b1&quot;&gt;Forbes declared that “every company is a software company&lt;/a&gt;”. Sometime around the middle of this decade, our community began talking about how “&lt;a href=&quot;https://techcrunch.com/2015/05/06/apis-fuel-the-software-thats-eatingthe-world/&quot;&gt;APIs were eating software&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;As the Director for the Capital One Center of Excellence, I lead the team that sets the API and event streaming standards for 9,000 geographically disbursed developers. A vast majority contribute to the thousands of in-production, internal APIs that our company uses to deliver new products and experiences. My team and I oversee an internal ecosystem that delivers 3.5 billion API requests a day.&lt;/p&gt;
+
+&lt;p&gt;In addition to that “day job”, I also write an email newsletter called “&lt;a href=&quot;https://tinyletter.com/netapinotes/archive&quot;&gt;Net API Notes&lt;/a&gt;”. There, I love to highlight stories of how other companies are managing their API journeys. While many are at different points along the road, all of us eventually run into same problem: complexity.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide4.PNG&quot; /&gt;&lt;figcaption&gt;APIs offer the greatest leverage point in a dynamic system.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Why APIs? Because the API is the greatest leverage point in a complex system. An API is a means of abstracting complexity and hiding it behind an interface.&lt;/p&gt;
+
+&lt;p&gt;That abstraction allows programmers to work on a system without being exposed to all a system’s complexity at once. An API is a simplified view which omits unimportant details. It makes it easier for us to think about and manipulate complex things.&lt;/p&gt;
+
+&lt;p&gt;It’s why APIs have exploded, both internally and externally. In our organization, we might have started with APIs - either our own or 3rd parties - for critical functionality. However, in time, patterns emerged to deal with the &lt;em&gt;complexity&lt;/em&gt; of the environment. If you’re Netflix’s Daniel Jacobson, you call these “&lt;a href=&quot;http://www.danieljacobson.com/blog/306&quot;&gt;experience APIs&lt;/a&gt;” (2014). If you’re Phil Calçado, director at Meetup, &lt;a href=&quot;https://philcalcado.com/2015/09/18/the_back_end_for_front_end_pattern_bff.html&quot;&gt;this is the Backend-for-Frontend (or BFF) pattern&lt;/a&gt; (2015).&lt;/p&gt;
+
+&lt;p&gt;At the same time that this orchestration API layering was taking place, &lt;a href=&quot;https://martinfowler.com/articles/microservices.html&quot;&gt;James Lewis and Martin Fowler were talking about an abstraction they saw called &lt;em&gt;microservices&lt;/em&gt;&lt;/a&gt; (2014).&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide5.PNG&quot; /&gt;&lt;figcaption&gt;Even these abstractions meant to hide complexity birth their own complexity when done in mass.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Thing is, complexity is neither creator or destroyed, is just changes shape. Not only are there more services, resulting in the infamous “microservice death star” style graphs, but the complexity introduced to try and manage these services – deployment pipelines, service meshes, monitoring tools, auditing, dependency managements also introduce their own emergent behavior.&lt;/p&gt;
+
+&lt;p&gt;In fact, over the past several years, through the writing on Net API Notes, I’ve seen a number of pieces where companies retreat back to a monolith exactly because they were more comfortable with the complexity that they had known rather than the new form it had taken.&lt;/p&gt;
+
+&lt;p&gt;With enough abstractions, we begin to see that layers change at different rates.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Images from “&lt;a href=&quot;https://blog.acolyer.org/2019/05/13/an-open-source-benchmark-suite-formicroservices-and-their-hardware-software-implications-for-cloud-edge-systems/&quot;&gt;An Open Source Benchmark Suite for Microservices&lt;/a&gt;”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide6.PNG&quot; /&gt;&lt;figcaption&gt;Layering of abstractions move at different rates.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstractions changing at different rates doesn’t just happen in software. Wherever there are people, we see a stratification among abstractions.&lt;/p&gt;
+
+&lt;p&gt;In his book, “The Clock of the Long Now”, Stewart Brand described “Pace Layers”. He identified layers with each layer building upon slower-moving layers beneath it.&lt;/p&gt;
+
+&lt;p&gt;At the bottom are those things that are the slowest to change. These are things of &lt;strong&gt;nature&lt;/strong&gt;. As far as we know, the laws of physics haven’t changed. For example, the speed of light is constant.&lt;/p&gt;
+
+&lt;p&gt;Next up is the &lt;strong&gt;cultural&lt;/strong&gt; layer. People are people. It’s why the stories of the Greeks and Romans still resonate with us today.&lt;/p&gt;
+
+&lt;p&gt;Above that is &lt;strong&gt;governance&lt;/strong&gt;. Note that this is not &lt;em&gt;governments&lt;/em&gt; (think democracy or populism).&lt;/p&gt;
+
+&lt;p&gt;Above that, moving at a faster clip, is &lt;strong&gt;infrastructure&lt;/strong&gt;. These are things like our road systems, or the electrical or plumbing networks in this building.&lt;/p&gt;
+
+&lt;p&gt;Moving even faster that that is &lt;strong&gt;commerce&lt;/strong&gt; or the rate at which new products, services, and experiences can be brought to a market.&lt;/p&gt;
+
+&lt;p&gt;Finally, at the top and moving with the greatest speed, is fashion.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide7.PNG&quot; /&gt;&lt;figcaption&gt;Fast layers innovate, slow layers stabilize.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;One layer isn’t more important than another. It turns out that &lt;em&gt;all&lt;/em&gt; layers are important for a well-functioning system. Each has its place. Imagine if something as important as foreign policy was being run on a whim? Or if innovation was only allowed to happen at the speed of bureaucratic consensus.&lt;/p&gt;
+
+&lt;p&gt;As Stewart says in his book:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Fast learns, slow remembers. Fast proposes. Slow disposes. Fast is discontinuous and slow is continuous. Fast and slow informs slow and big by accrued innovation and occasional revolution and slow and big control slow and fast by constraint and constancy. Fast gets all our attention but slow has all the power.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide8.PNG&quot; /&gt;&lt;figcaption&gt;An API Pace Layer begins with unchanging natural laws.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;When it comes to web, or ‘net’, APIs I see similar stack that changes at different rates. I’ll insert my usual model disclaimer here: “all models are wrong, but some are useful”. I acknowledge this is incomplete, but this API Pace Layering model we’re about to walk through is useful for raising topics for discussion and illustrating insights about complexity (and where we attempt to hide it).&lt;/p&gt;
+
+&lt;p&gt;At the bottom, again, are the laws of &lt;strong&gt;nature&lt;/strong&gt;. The speed of light sent between distributed systems is constant. Not a whole lot there likely to change soon.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide9.PNG&quot; /&gt;&lt;figcaption&gt;TCP is foundational, constant and unchanging.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The next is the TCP layer. That protocol has been around since the 70s. That’s probably a good thing, as something as necessary as packet transmission needs to be stable; considering the amount of physical hardware, languages, and frameworks that have it “baked in”, you wouldn’t want it changing often.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide10.PNG&quot; /&gt;&lt;figcaption&gt;HTTP is the next layer.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;As we go up, remember that we’re beginning to pick up the rate of change. There are lots of protocols, like FTP or email. However, most of us in this room are probably familiar with HTTP. HTTP 1.1, which a guy named Roy Fielding worked on, &lt;a href=&quot;https://tools.ietf.org/html/rfc2616&quot;&gt;was ratified in 1999&lt;/a&gt;. HTTP/2, which many haven’t implemented yet, was approved in 2015. It’s not whipsawing speed, by any stretch of the imagination. However, compared to TCP, it’s changing faster.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide11.PNG&quot; /&gt;&lt;figcaption&gt;HTTP can be thought of as additional, addative layers.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s where I purposely made it interesting. HTTP, &lt;em&gt;itself&lt;/em&gt;, is layered. There’s the verbs or methods. Everybody is familiar with “GET”, “PUT”, “POST”, and “DELETE”. Some might even use “PATCH”. There are others, like “OPTIONS” and “HEAD”, which are useful in other circumstances. There’s a couple more, but that’s mostly it; under ten items to recall that have been stable since the last millennium.&lt;/p&gt;
+
+&lt;p&gt;There are &lt;em&gt;status codes&lt;/em&gt;; while, officially, &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status&quot;&gt;there are 50-60 status codes&lt;/a&gt; the ones we care about can be broken into three broad groups. Any 2xx responses tell me, as a client, my request succeeded. Any 4xx tells me, as a client, that I need to modify my request before doing it again. Also, 5xx tells client me that the API provider is having a very bad moment. Again, stable, consistent, and doesn’t require me to introspect the payload for the high-level gist of what is going on.&lt;/p&gt;
+
+&lt;p&gt;The last layer of the HTTP protocol worth highlighting is &lt;em&gt;headers&lt;/em&gt;. &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status&quot;&gt;There are about a hundred of these&lt;/a&gt;. Some of them get into a fair amount of subtlety and nuance. Not all are that useful. However, this is where we get a wonderful set of tools to shape requests. The fastest request is the one you never have to make. If an API provides thoughtful clues through caching headers to a client, it is a beautiful, highly-performant, thing. Headers also where we can perform content negotiation, allowing the same API to return the JSON representation, a CVS file, a PDF, a binary image, or &lt;em&gt;more&lt;/em&gt; all from the same resource.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide12.PNG&quot; /&gt;&lt;figcaption&gt;RFCs offer lots of opportunities for experimentation.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Above HTTP, evolving at a greater clip, are the IETF’s &lt;em&gt;Requests for Comment&lt;/em&gt;, or RFCs. There are &lt;strong&gt;thousands&lt;/strong&gt; of these notes which capture proposed ways communication on the internet might work. That’s a lot and there are new ones all the time.&lt;/p&gt;
+
+&lt;p&gt;There is some excellent work here that can powerfully aid comprehension and intuitiveness of a design. When things go wrong, &lt;a href=&quot;https://tools.ietf.org/html/rfc7807&quot;&gt;RFC7807 defines a common error object&lt;/a&gt;. By using a standard, clients aren’t left having to figure out where in the payload to look for information to help solve their issues. A standard might also suggest information, or representations of information, that you might not otherwise have considered.&lt;/p&gt;
+
+&lt;p&gt;There’s also &lt;a href=&quot;https://tools.ietf.org/html/rfc8594&quot;&gt;RFC 8594, the sunset HTTP header&lt;/a&gt;. It is a way of telling someone that requests a URI that it may become unresponsive in the future. This one was fun to watch being born, on Twitter and through email, by this extended community. A common need for better lifecycle management was identified folks online and they swarmed together to discuss merits of different approaches. From their efforts, we now have a abstraction: the complexity of having to come up with how to do this was handled by someone else.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide13.PNG&quot; /&gt;&lt;figcaption&gt;Patterns are numerous, and quick to evolve.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, at the top of this layering, are patterns. There are some patterns, like the backend-for-frontend or experience API pattern, that become popular - possibly even so popular that they end up generating dedicated RFCs to support them. Remote Procedure Call (or RPC) is a pattern. Webhooks are a pattern. Hypermedia is also a pattern. These can are multitudinous, and a new one can be introduced as quickly as the Netflix engineering or Hacker News forums publish a new post. These are constantly changing. Some become quite fashionable.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide14.PNG&quot; /&gt;&lt;figcaption&gt;A layered architectural approach gracefully degrades.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The wonderful thing about how these layers perform in a complex system is how they gracefully degrade. Suppose, for example, that I provide an API that implements an RFC, like the common error object. What if the client isn’t expecting, or doesn’t care that I’m following a prescribed standard. Do we fail to exchange meaningful information?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Of course not&lt;/em&gt;. A client unaware of RFC 7807 would only see a JSON response returned to them, and they would parse it anyway, the same as they would if my response was something that I came up with off the top of my head. The advantage are those complex ecosystems featured in the microservice death stars – when all services express information in the same way, it opens opportunities for tooling; tooling which takes the cognitive burden from developers, freeing them to focus on the business problem.&lt;/p&gt;
+
+&lt;p&gt;Let’s take another example and go a layer deeper. As an API provider, I have the best understanding of when the underlying data changes. As a result, I provide cachecontrol and ETag headers to the client, allowing them to make smart decisions about when to request an object. After all, the fastest API call is the one that didn’t have to happen in the first place. If a client is savvy and picks up on it, great! If not, &lt;strong&gt;things still work&lt;/strong&gt;; maybe not as efficiently, maybe not as elegantly. However, building in layers that can gracefully degrade means that communication is still possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide15.PNG&quot; /&gt;&lt;figcaption&gt;GraphQL cuts across layers, connecting an interaction pattern to TCP.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, for a brief moment, let’s talk about GraphQL (going through a similar exercise for gRPC is left to the reader). GraphQL is a query language for data retrieval and updating via HTTP. I put it in the “pattern” layer, as it is a different API interaction pattern between client and server.&lt;/p&gt;
+
+&lt;p&gt;Unlike the other patterns that I had previously mentioned, however, GraphQL is &lt;em&gt;not&lt;/em&gt; built upon the same layered approach. All requests, be it data retrieval or mutations to update, are submitted via POST. The only status code ever returned is a 200, requiring introspection of the payload &lt;em&gt;of every response&lt;/em&gt; in case there is an error embedded in it. Headers aren’t encouraged, as they’re not displayed in tooling like the explorer from GraphQLHub.com. There’s no equivalent RFC-like error response for GraphQL, although vendors like Apollo are promoting their approach.&lt;/p&gt;
+
+&lt;p&gt;There’s a paradox here. I can hear it. “Matthew,” you might say, “by freeing us from having to think about verbs or codes or headers or RFCs – by getting rid of the layers, aren’t we abstracting complexity behind a single abstraction?”&lt;/p&gt;
+
+&lt;p&gt;Remember, &lt;strong&gt;complexity is neither creator or destroyed&lt;/strong&gt;, is just changes shape.&lt;/p&gt;
+
+&lt;p&gt;GraphQL is not a layered approach; everything from the pattern to the TCP/IP layer is either strictly specified by GraphQL or left for developers to recreate in their own, bespoke way. Eschewing layers, as GraphQL gives developers tremendous power to solve problems exactly how they imagine a problem to be solved; both from the consumer’s point of view, where they can tailor the response to their needs. The API provider also can implement their own approaches to common distributed systems problems. But that power comes with &lt;em&gt;great&lt;/em&gt; &lt;strong&gt;complexity&lt;/strong&gt;. The layers that abstracted the complexity of things like caching, of error handling, content negotiation are all left to the developer. And having each GraphQL solve those things in their own fashion will increase the complexity of comprehension on the part of clients and tool makers.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide16.PNG&quot; /&gt;&lt;figcaption&gt;To combat complexity, the principle of least power suggests keeping things simple and within layers.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/2001/tag/doc/leastPower.html&quot;&gt;The principle, or rule, of least power states that one should&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Choose the least powerful language suitable for a given purpose.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That seems incredibly counter-intuitive. Don’t we want &lt;strong&gt;more&lt;/strong&gt; power to solve problems? Shouldn’t we deserve the newest tools? The most flexible frameworks? Who in their right mind is a fan of the least among us?&lt;/p&gt;
+
+&lt;p&gt;We can apply this to our layers. When I call an API, I can include instructions as to whether I’m reading or updating information in the payload; that is a payload the server will have to introspect and act on. Or I can use the humble verb at the lowest layer, and signal the same thing via a GET or PATCH. It seems like a simple thing but it drastically affects where the complexity of our tracing, monitoring, entitling, securing, rate-limiting, framework-ing, and supporting goes.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide17.PNG&quot; /&gt;&lt;figcaption&gt;Ultimately, there is nothing wrong with fasion. Just make choice based on principle. &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;So do I hate GraphQL? Am I advocating that we should only use “boring” technology? That the old stuff is better?&lt;/p&gt;
+
+&lt;p&gt;While I am a fan of &lt;a href=&quot;http://boringtechnology.club&quot;&gt;The Boring Technology Club&lt;/a&gt;, that is not the message. I’ve grown to appreciate what happens within the fashionable layers. The chaotic experimentation is exciting. The vigor for overturning assumptions and pursuing new avenues is how we discover new, potentially powerful ideas. In a healthy stack, the best ideas go from being fashionable, to products sold via commerce, to essential pieces of infrastructure eventually requiring governance and important pieces of business culture.&lt;/p&gt;
+
+&lt;p&gt;What I do advocate for, however, is conscious, decision being made when pursuing new patterns. Eschewing layers comes with trade-offs. Enter into those decisions with eyes wide open.&lt;/p&gt;
+
+&lt;p&gt;As Mythical Man Month author Fred Brooks said:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“There are no silver bullets.””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@mariyageorgieva?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Mariya Georgieva&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/search/photos/fashion?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide18.PNG&quot; /&gt;&lt;figcaption&gt;An innocuous conclusion slide.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;In conclusion, every company is a software company which means every company is wrestling with growing complexity.&lt;/p&gt;
+
+&lt;p&gt;One approach to dealing with complexity to create abstractions. The abstractions at the different layers in any system evolve at different rates, which is a good thing. Fast layers accrue innovation and occasionally incite a revolution while the slow provide stability and filtering.&lt;/p&gt;
+
+&lt;p&gt;Net APIs have evolved into different layers. Each layer provides a host of solutions to common problems that gracefully degrade if not used. The principle of least power suggests choosing simple, layered solutions to layer-spanning solutions.&lt;/p&gt;
+
+&lt;p&gt;Only by making more informed decisions, fully aware of the trade-offs at hand, will those responsible for API governance be able to overcome the complexity of our current API stacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide19.PNG&quot; /&gt;&lt;figcaption&gt;Thank you for your attention.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll have the slides, along with some additional color and links to sources, at my website, &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;matthewreinbold.com&lt;/a&gt;. I’ll announce when its ready on my Twitter stream and in my newsletter, ‘Net API Notes’.&lt;/p&gt;
+
+&lt;p&gt;I am &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;Twitter’s @libel_vox&lt;/a&gt;, and you can follow me and continue the conversation there. Thank you for the precious gift of your attention. Enjoy the rest of the conference!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/07/17/OvercomingComplexity/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/17/OvercomingComplexity/</guid>
+        
+        <category>presos</category>
+        
+        <category>conferences</category>
+        
+        <category>APIDays</category>
+        
+        <category>GraphQL</category>
+        
+        <category>Pace Layers</category>
+        
+        <category>APIs</category>
+        
+        
+      </item>
     
       <item>
         <title>On Travel</title>
@@ -669,69 +861,6 @@ and 21,571 words written&lt;/p&gt;
         <category>Google+</category>
         
         <category>REST Fest</category>
-        
-        
-        <category>newsletter</category>
-        
-      </item>
-    
-      <item>
-        <title>! &amp;#x2709;</title>
-        <description>&lt;p&gt;In this edition, I look at “Consumer-Driven APIs” with a talk by Mark W. Foster, cover that “Post-#REST” piece that made the rounds in the past few months, and sprint through a whole heap of notes. That and more!&lt;/p&gt;
-
-&lt;p&gt;There's plenty of API hoot and nanny to cover. However, I take a moment to highlight not only some recent accomplishments, but thank readers for their time and attention. And there is also a colorful summation of Thanksgiving:&lt;/p&gt;
-
-&lt;blockquote&gt;If you're in the United States, this email probably finds you either in transit or in preparation (or both!) for the Thanksgiving holiday. It is a time that is associated with indulgent shopping, strained family conversations, and overeating while the Detroit Lions find less entertaining ways to lose.&lt;/blockquote&gt;
-
-&lt;p&gt;Happy holidays!&lt;/p&gt;
-
-&lt;p&gt;You can find the web version of the newsletter email here: &lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/rest-api-notes-for-2018-12-03&quot;&gt;https://tinyletter.com/NetAPINotes/letters/rest-api-notes-for-2018-12-03&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Past editions of the newsletter can be found here: &lt;a href=&quot;https://tinyletter.com/NetAPINotes/archive&quot;&gt;http://tinyletter.com/NetAPINotes/archive﻿&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 03 Dec 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/newsletter/2018/12/03/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/12/03/RESTAPINotes/</guid>
-        
-        <category>REST API Notes</category>
-        
-        <category>Mark Foster</category>
-        
-        <category>Consumer-Driven</category>
-        
-        <category>Tim Bray</category>
-        
-        <category>GraphQL</category>
-        
-        <category>gRPC</category>
-        
-        <category>eventing</category>
-        
-        <category>ThoughtWorks</category>
-        
-        <category>Technology Radar</category>
-        
-        <category>ESB</category>
-        
-        <category>Kafka</category>
-        
-        <category>microservices</category>
-        
-        <category>API Gateway</category>
-        
-        <category>USPS</category>
-        
-        <category>POSTMan</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>Palantir</category>
-        
-        <category>Conjure</category>
-        
-        <category>Sebastian Caceres</category>
         
         
         <category>newsletter</category>
