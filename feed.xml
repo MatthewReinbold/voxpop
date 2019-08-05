@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Aug 2019 09:41:28 -0400</pubDate>
-    <lastBuildDate>Mon, 05 Aug 2019 09:41:28 -0400</lastBuildDate>
+    <pubDate>Mon, 05 Aug 2019 14:45:00 -0400</pubDate>
+    <lastBuildDate>Mon, 05 Aug 2019 14:45:00 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -107,7 +107,7 @@
 
 &lt;p&gt;The goal is to avoid gaps in the board by cramming as much together in as tight of space as possible as fast as possible.&lt;/p&gt;
 
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/08/Slide11.PNG&quot; /&gt;&lt;figcaption&gt;Illustration of Tetris Playing.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/08/planning-tetris.gif&quot; /&gt;&lt;figcaption&gt;Illustration of Tetris Playing.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;What does this have to do with product management?&lt;/p&gt;
 
@@ -118,6 +118,16 @@
 &lt;p&gt;The first problem is getting the master queue prioritized for the business. Typically, there are rules for how to do this. Putting together the ‘master list’ isn’t the problem, however.&lt;/p&gt;
 
 &lt;p&gt;The second part, and where people get into trouble, is assigning that work. These are two separate problems, but people begin playing Tetris (optimizing for the peak number of items “done”) rather than maximizing the flow of business values.&lt;/p&gt;
+
+&lt;p&gt;In this animation, there are several parts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First, the business creates the “master queue” of priorities across many competing concerns.&lt;/li&gt;
+  &lt;li&gt;Next, teams are assigned, with the highest priority (or ‘Priority 1’) items assigned, then ‘Priority 2’, and so on. In this case, we have a UX “shared team” that will work with Team 2 on Priority 3.&lt;/li&gt;
+  &lt;li&gt;However, ‘Priority 2’ is a big item that requires two teams. Team 2 can’t start work without Team 1. Despite the fact that ‘Priority 1’ is the highest priority, it is shuffled so that teams 1 and 2 can start at the same time.&lt;/li&gt;
+  &lt;li&gt;Meanwhile, the UX team is encouraged to “work ahead” or “get a jump on” their work, despite being dependent on Team 2’s input.&lt;/li&gt;
+  &lt;li&gt;And then executive leadership comes along with their own work-to-be-done, immediately rending the previous prioritization irrelevant.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/08/Slide12.PNG&quot; /&gt;&lt;figcaption&gt;Properties of Planning Tetris&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
