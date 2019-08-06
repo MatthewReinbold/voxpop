@@ -4,10 +4,10 @@
     <title>Matthew Reinbold</title>
     <description>This is the website for Matthew Reinbold, the Director for Capital One's   Platform Services Center of Excellence. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Adult fan of Lego. And trying to make Dakota Gothic a thing. 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Aug 2019 16:27:10 -0400</pubDate>
-    <lastBuildDate>Tue, 06 Aug 2019 16:27:10 -0400</lastBuildDate>
+    <link>https://matthewreinbold.com0/</link>
+    <atom:link href="https://matthewreinbold.com0/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Aug 2019 16:39:55 -0400</pubDate>
+    <lastBuildDate>Tue, 06 Aug 2019 16:39:55 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -328,8 +328,8 @@ the mess (and are blamed for not “pushing back”).&lt;/li&gt;
 &lt;p&gt;Thank you and good night.&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Aug 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/08/02/AgileAntipatterns/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/08/02/AgileAntipatterns/</guid>
+        <link>https://matthewreinbold.com0/2019/08/02/AgileAntipatterns/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/2019/08/02/AgileAntipatterns/</guid>
         
         <category>presos</category>
         
@@ -520,8 +520,8 @@ understand and modify the system.”&lt;/p&gt;
 &lt;p&gt;I am &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;Twitter’s @libel_vox&lt;/a&gt;, and you can follow me and continue the conversation there. Thank you for the precious gift of your attention. Enjoy the rest of the conference!&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/07/17/OvercomingComplexity/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/07/17/OvercomingComplexity/</guid>
+        <link>https://matthewreinbold.com0/2019/07/17/OvercomingComplexity/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/2019/07/17/OvercomingComplexity/</guid>
         
         <category>presos</category>
         
@@ -595,14 +595,24 @@ understand and modify the system.”&lt;/p&gt;
 
 &lt;p&gt;In those cases, there are sites like &lt;a href=&quot;https://co2.myclimate.org/en/flight_calculators/new&quot;&gt;the carbon footprint calculator&lt;/a&gt;. It helps visualize the impact of air travel. More importantly, it provides options to support numerous programs for offsetting the impact of those trips. &lt;a href=&quot;https://www.youtube.com/watch?v=I-HCMbTDWVo&quot;&gt;I don’t have the carbon footprint of Elon Musk&lt;/a&gt;. However, every little bit helps and, when I &lt;em&gt;do&lt;/em&gt; travel in the future I will be sure to contribute to activities that mitigate the impact.&lt;/p&gt;
 
+&lt;p&gt;&lt;em&gt;Update: 2019-08-05&lt;/em&gt;
+To date, I have set up monthly, recurring donations to each of the following organizations to offset my travel footprint (and then some):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://projectwren.com/&quot;&gt;Project Wren&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://offset.earth/&quot;&gt;Offset Earth&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://edenprojects.org/&quot;&gt;Eden Reforestation Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Phil Sturgeon and his &lt;a href=&quot;https://phil.bike/trees/&quot;&gt;campaign to raise awareness for carbon offsets by cycling across Europe&lt;/a&gt; remains an inspriation.&lt;/p&gt;
+
 &lt;h2 id=&quot;wrapping-up&quot;&gt;&lt;a name=&quot;wrapup&quot;&gt;Wrapping Up&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The last several years (or the last decade, tbh) have been a strange time, filled with all sorts of grim portends. However, I think its important to remember the power of our agency among the uncertainty. No one person is going to solve everything. However, people feeling empowered to make purposeful, informed actions can be aggregated into profound change. We are not bound to the status quo until a change is forced on us; this is precisely the time to be running millions of little experiments, all incrementing toward something better.&lt;/p&gt;
 
 &lt;p&gt;Are you trying something different? Got something that isn’t on the list? I’d love to hear about it.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Jun 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/06/21/On-Travel/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/06/21/On-Travel/</guid>
+        <link>https://matthewreinbold.com0/2019/06/21/On-Travel/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/2019/06/21/On-Travel/</guid>
         
         <category>travel</category>
         
@@ -651,8 +661,8 @@ understand and modify the system.”&lt;/p&gt;
 &lt;p&gt;Technical leadership is experiencing pressure from all directions. To one side, they are expected to deliver impactful digital transformation to compete in the future marketplace. Simultaneously, they have to meet new (and growing) data governance expectations. APIs, with their standardization of message exchange and centralized points of control, can play an essential role in both objectives.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 May 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/05/06/APIs-and-Digital-Transformation/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/05/06/APIs-and-Digital-Transformation/</guid>
+        <link>https://matthewreinbold.com0/2019/05/06/APIs-and-Digital-Transformation/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/2019/05/06/APIs-and-Digital-Transformation/</guid>
         
         <category>digital transformation</category>
         
@@ -701,8 +711,8 @@ understand and modify the system.”&lt;/p&gt;
 &lt;p&gt;Finally, this is subject to change. We may try this for a few months and, with some initial learning, reformat our whole approach. Much like the individual experiments, using the experience to inform refinement our approach is a win. The only way we lose is if we never bother to try.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 May 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/05/06/ContinuousLearningAndWinSharing/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/05/06/ContinuousLearningAndWinSharing/</guid>
+        <link>https://matthewreinbold.com0/2019/05/06/ContinuousLearningAndWinSharing/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/2019/05/06/ContinuousLearningAndWinSharing/</guid>
         
         <category>continuous learning</category>
         
@@ -777,8 +787,8 @@ understand and modify the system.”&lt;/p&gt;
 &lt;p&gt;That’s a brief, first list of references that I return to regularly. If folks find this useful or know of related material I should check out, let me know.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Apr 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/04/18/OtherLessonsToLearnFrom01/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/18/OtherLessonsToLearnFrom01/</guid>
+        <link>https://matthewreinbold.com0/2019/04/18/OtherLessonsToLearnFrom01/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/2019/04/18/OtherLessonsToLearnFrom01/</guid>
         
         <category>API Governance</category>
         
@@ -852,8 +862,8 @@ understand and modify the system.”&lt;/p&gt;
 &lt;p&gt;The other way, best case, is lazy. Worst case, its calculated obfuscation.&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Feb 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2019/02/27/APIsandPedantry/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/02/27/APIsandPedantry/</guid>
+        <link>https://matthewreinbold.com0/2019/02/27/APIsandPedantry/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/2019/02/27/APIsandPedantry/</guid>
         
         <category>Ludwig Wittgenstein</category>
         
@@ -1002,8 +1012,8 @@ understand and modify the system.”&lt;/p&gt;
 &lt;p&gt;And it just kind of stops… so far. I envision this being a work in process. If you were working for me, what kinds of things about having me as your manager would you want to know? What things are missing? I’d love to get your opinions.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Feb 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2019/02/14/AManagerREADME/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/02/14/AManagerREADME/</guid>
+        <link>https://matthewreinbold.com0/2019/02/14/AManagerREADME/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/2019/02/14/AManagerREADME/</guid>
         
         <category>management</category>
         
@@ -1033,8 +1043,8 @@ understand and modify the system.”&lt;/p&gt;
 &lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Jan 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/newsletter/2019/01/24/NetAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2019/01/24/NetAPINotes/</guid>
+        <link>https://matthewreinbold.com0/newsletter/2019/01/24/NetAPINotes/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/newsletter/2019/01/24/NetAPINotes/</guid>
         
         <category>Net API Notes</category>
         
@@ -1121,8 +1131,8 @@ and 21,571 words written&lt;/p&gt;
 &lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Dec 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/newsletter/2018/12/28/RESTAPINotes/</link>
-        <guid isPermaLink="true">http://localhost:4000/newsletter/2018/12/28/RESTAPINotes/</guid>
+        <link>https://matthewreinbold.com0/newsletter/2018/12/28/RESTAPINotes/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com0/newsletter/2018/12/28/RESTAPINotes/</guid>
         
         <category>REST API Notes</category>
         
