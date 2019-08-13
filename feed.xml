@@ -4,17 +4,17 @@
     <title>Matthew Reinbold</title>
     <description>This is the website for Matthew Reinbold, the Director for Capital One's   Platform Services Center of Excellence. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Adult fan of Lego. And trying to make Dakota Gothic a thing. 
 </description>
-    <link>https://matthewreinbold.com0/</link>
-    <atom:link href="https://matthewreinbold.com0/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Aug 2019 16:39:55 -0400</pubDate>
-    <lastBuildDate>Tue, 06 Aug 2019 16:39:55 -0400</lastBuildDate>
+    <link>https://matthewreinbold.com/</link>
+    <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Aug 2019 08:19:14 -0400</pubDate>
+    <lastBuildDate>Tue, 13 Aug 2019 08:19:14 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Agile Antipatterns</title>
         <description>&lt;p&gt;“Agile Antipatterns” was a June workshop I lead for the DC Technical Product Management Community. The purpose was, through techniques borrowed from Lego Serious Play, to take the audience through a journey discovery about their own software development challenges. It was different from the lecture style I usually do but, despite this, the quality and depth of the ensuing conversation exceeded my expectations.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This presentation is part of my goal to produce six original works in six months. For more information see &lt;a href=&quot;https://matthewreinbold.com/2019/06/21/On-Travel/&quot;&gt;the post about my conversion of travel time to productive time in 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This presentation is part of my goal to produce six original works in six months. For more information see &lt;a href=&quot;https://matthewreinbold.com//2019/06/21/On-Travel/&quot;&gt;the post about my conversion of travel time to productive time in 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The slides and script are below.&lt;/p&gt;
 
@@ -59,7 +59,7 @@
 
 &lt;p&gt;Lego Serious Play, or LSP, is a technique that uses Lego blocks in directed exercises to build structures that metaphorically represent business models. In the 1990s, under the direction of then president and CEO, Kjeld Kirk Kristiansen (grandson of the original Lego founder), Lego began looking for new techniques leadership teams could use when developing their strategies. The first version and trained facilitators began appearing in 2001. By 2010, Lego created the “community model” of sharing the technique, akin to open sourcing the ideas behind Lego Serious Play.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://matthewreinbold.com/2014/10/29/TechnicalLiteracyForAll/&quot;&gt;I’ve used Lego, previously, engage kids in computer science exploration&lt;/a&gt;. However, tonight I’m using a less structured version of a Lego Serious Play experience, while still heavily leaning into the model creation for discussion and discovery.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://matthewreinbold.com//2014/10/29/TechnicalLiteracyForAll/&quot;&gt;I’ve used Lego, previously, engage kids in computer science exploration&lt;/a&gt;. However, tonight I’m using a less structured version of a Lego Serious Play experience, while still heavily leaning into the model creation for discussion and discovery.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/08/Slide6.PNG&quot; /&gt;&lt;figcaption&gt;Complex Stories Can Start with Simple Models&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -323,13 +323,13 @@ the mess (and are blamed for not “pushing back”).&lt;/li&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/08/Slide29.PNG&quot; /&gt;&lt;figcaption&gt;Contact Information&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;My name is Matthew Reinbold. If you are interested in my thoughts on the evolving API industry, &lt;a href=&quot;https://tinyletter.com/netapinotes/archive&quot;&gt;I write an email newsletter called ‘Net API Notes’&lt;/a&gt;. I am Twitter’s &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;libel_vox&lt;/a&gt; and write at &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;MatthewReinbold.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My name is Matthew Reinbold. If you are interested in my thoughts on the evolving API industry, &lt;a href=&quot;https://tinyletter.com/netapinotes/archive&quot;&gt;I write an email newsletter called ‘Net API Notes’&lt;/a&gt;. I am Twitter’s &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;libel_vox&lt;/a&gt; and write at &lt;a href=&quot;https://matthewreinbold.com/&quot;&gt;MatthewReinbold.com&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thank you and good night.&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Aug 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com0/2019/08/02/AgileAntipatterns/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/2019/08/02/AgileAntipatterns/</guid>
+        <link>https://matthewreinbold.com/2019/08/02/AgileAntipatterns/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/08/02/AgileAntipatterns/</guid>
         
         <category>presos</category>
         
@@ -346,9 +346,13 @@ the mess (and are blamed for not “pushing back”).&lt;/li&gt;
         <title>Overcoming Complexity through the Principle of Least Power</title>
         <description>&lt;p&gt;Here are the slides and script for the presentation I made on July 17th at the San Francisco APIDays Conference. The theme for the event was ‘The New API Stack’.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This presentation is part of my goal to produce six original works in six months. For more information see &lt;a href=&quot;https://matthewreinbold.com/2019/06/21/On-Travel/&quot;&gt;the post about my conversion of travel time to productive time in 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This presentation is part of my goal to produce six original works in six months. For more information see &lt;a href=&quot;https://matthewreinbold.com//2019/06/21/On-Travel/&quot;&gt;the post about my conversion of travel time to productive time in 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Without further ado, here is the talk.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update 2019-08-13&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The video recording for the talk has been released. If you’d prefer to watch rather than read, &lt;a href=&quot;#video&quot;&gt;I’ve embedded it below&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -515,13 +519,20 @@ understand and modify the system.”&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide19.PNG&quot; /&gt;&lt;figcaption&gt;Thank you for your attention.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ll have the slides, along with some additional color and links to sources, at my website, &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;matthewreinbold.com&lt;/a&gt;. I’ll announce when its ready on my Twitter stream and in my newsletter, ‘Net API Notes’.&lt;/p&gt;
+&lt;p&gt;I’ll have the slides, along with some additional color and links to sources, at my website, &lt;a href=&quot;https://matthewreinbold.com/&quot;&gt;matthewreinbold.com&lt;/a&gt;. I’ll announce when its ready on my Twitter stream and in my newsletter, ‘Net API Notes’.&lt;/p&gt;
 
 &lt;p&gt;I am &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;Twitter’s @libel_vox&lt;/a&gt;, and you can follow me and continue the conversation there. Thank you for the precious gift of your attention. Enjoy the rest of the conference!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a name=&quot;video&quot;&gt;Video recorded on July 17, 2019&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q4wUmKX8ZQU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
 </description>
         <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com0/2019/07/17/OvercomingComplexity/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/2019/07/17/OvercomingComplexity/</guid>
+        <link>https://matthewreinbold.com/2019/07/17/OvercomingComplexity/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/07/17/OvercomingComplexity/</guid>
         
         <category>presos</category>
         
@@ -540,7 +551,7 @@ understand and modify the system.”&lt;/p&gt;
     
       <item>
         <title>On Travel</title>
-        <description>&lt;p&gt;For a variety of reasons, I’ve been rethinking my approach to physical travel - particularly for conferences. Don’t get me wrong; there are few things in life more thrilling for me &lt;a href=&quot;https://matthewreinbold.com/2014/05/20/magiccircle/&quot;&gt;than discovering a magic circle&lt;/a&gt;, particularly when reconnecting with online friends. However, the unrecoverable time there and back, &lt;a href=&quot;https://www.sciencemag.org/careers/2019/05/why-some-climate-scientists-are-saying-no-flying&quot;&gt;the carbon footprint accrued&lt;/a&gt;, and the time away from my family looms ever larger.&lt;/p&gt;
+        <description>&lt;p&gt;For a variety of reasons, I’ve been rethinking my approach to physical travel - particularly for conferences. Don’t get me wrong; there are few things in life more thrilling for me &lt;a href=&quot;https://matthewreinbold.com//2014/05/20/magiccircle/&quot;&gt;than discovering a magic circle&lt;/a&gt;, particularly when reconnecting with online friends. However, the unrecoverable time there and back, &lt;a href=&quot;https://www.sciencemag.org/careers/2019/05/why-some-climate-scientists-are-saying-no-flying&quot;&gt;the carbon footprint accrued&lt;/a&gt;, and the time away from my family looms ever larger.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/gretathunberg/status/1119308213722275840?lang=en&quot;&gt;To paraphrase climate activist Greta Thunberg&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -566,13 +577,13 @@ understand and modify the system.”&lt;/p&gt;
 &lt;h2 id=&quot;reapplying-travel-time-to-connecting-with-new-audiences&quot;&gt;&lt;a name=&quot;travel&quot;&gt;Reapplying Travel Time to Connecting with New Audiences&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Speaking of participating, the time I put into a user group presentation is about the same as the preparation I do for a conference talk. And yet, as has happened in the past, that investment has little return beyond a single delivery.&lt;/p&gt;
 
-&lt;p&gt;I’ve tried to be more diligent about blogging talks in detail (like about ‘&lt;a href=&quot;https://matthewreinbold.com/2018/10/31/Gardeners-Approach/&quot;&gt;Growing Software Culture&lt;/a&gt;’, ‘&lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;API Governance&lt;/a&gt;’, or ‘&lt;a href=&quot;https://matthewreinbold.com/2017/12/07/ConwayAndAPIDesign/&quot;&gt;noodling on Conway’s Law&lt;/a&gt;’). However, this is a golden age of web-enabled audio and video. I want to put out more mixed media for those that don’t cherish chunks of text.&lt;/p&gt;
+&lt;p&gt;I’ve tried to be more diligent about blogging talks in detail (like about ‘&lt;a href=&quot;https://matthewreinbold.com//2018/10/31/Gardeners-Approach/&quot;&gt;Growing Software Culture&lt;/a&gt;’, ‘&lt;a href=&quot;https://matthewreinbold.com//2017/10/03/API-Governance-Blueprint/&quot;&gt;API Governance&lt;/a&gt;’, or ‘&lt;a href=&quot;https://matthewreinbold.com//2017/12/07/ConwayAndAPIDesign/&quot;&gt;noodling on Conway’s Law&lt;/a&gt;’). However, this is a golden age of web-enabled audio and video. I want to put out more mixed media for those that don’t cherish chunks of text.&lt;/p&gt;
 
 &lt;p&gt;And rather than create a single deck for the year and try and reuse it at a handful of events, what I’d instead do is use the time saved not traveling and create &lt;em&gt;more&lt;/em&gt; conversation starters. For 2019, I have a goal to create &lt;strong&gt;six &lt;em&gt;different&lt;/em&gt; presentations in six months&lt;/strong&gt;. Thus far I have:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;May - ‘Getting Started with API Governance’&lt;/li&gt;
-  &lt;li&gt;June - ‘&lt;a href=&quot;https://matthewreinbold.com/2019/08/02/AgileAntipatterns/&quot;&gt;Planning Tetris, Feature Factories, and Success Theater - Agile Anti-Patterns and How to Avoid Them’ (illustrated using techniques taken from the Lego Serious Play method&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;July - &lt;a href=&quot;https://matthewreinbold.com/2019/07/17/OvercomingComplexity/&quot;&gt;Overcoming Complexity through the Principle of Least Power&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;June - ‘&lt;a href=&quot;https://matthewreinbold.com//2019/08/02/AgileAntipatterns/&quot;&gt;Planning Tetris, Feature Factories, and Success Theater - Agile Anti-Patterns and How to Avoid Them’ (illustrated using techniques taken from the Lego Serious Play method&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;July - &lt;a href=&quot;https://matthewreinbold.com//2019/07/17/OvercomingComplexity/&quot;&gt;Overcoming Complexity through the Principle of Least Power&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;August - WIP - Successful Storytelling with Executive Leadership&lt;/li&gt;
   &lt;li&gt;September - Unnamed Preso on Creating and Sustaining Resilient Knowledge Communities&lt;/li&gt;
   &lt;li&gt;
@@ -611,8 +622,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;Are you trying something different? Got something that isn’t on the list? I’d love to hear about it.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Jun 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com0/2019/06/21/On-Travel/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/2019/06/21/On-Travel/</guid>
+        <link>https://matthewreinbold.com/2019/06/21/On-Travel/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/06/21/On-Travel/</guid>
         
         <category>travel</category>
         
@@ -648,7 +659,7 @@ To date, I have set up monthly, recurring donations to each of the following org
 
 &lt;h3 id=&quot;how-have-apis-historically-disrupted-digital-business-how-will-platform-platform-integrations-continue-to-evolve&quot;&gt;How have APIs historically disrupted digital business? How will platform-platform integrations continue to evolve?&lt;/h3&gt;
 
-&lt;p&gt;APIs have had, and will continue to have, an out-sized effect on reshaping the cultures of the companies that truly adopt them. Whether it is adoption of the “infrastructure as code” and CI/CD pipelines necessary to efficiently deploy them, or the rearrangement of teams to support bounded context modularity (the “reverse Conway maneuver”), APIs challenge existing organizational and operational structures. (For more information exploring the cultural implecations of APIs, please see the writeup of my conference talk, “&lt;a href=&quot;https://matthewreinbold.com/2018/10/31/Gardeners-Approach/&quot;&gt;A Gardner’s Approach to Growing an API Culture&lt;/a&gt;”).&lt;/p&gt;
+&lt;p&gt;APIs have had, and will continue to have, an out-sized effect on reshaping the cultures of the companies that truly adopt them. Whether it is adoption of the “infrastructure as code” and CI/CD pipelines necessary to efficiently deploy them, or the rearrangement of teams to support bounded context modularity (the “reverse Conway maneuver”), APIs challenge existing organizational and operational structures. (For more information exploring the cultural implecations of APIs, please see the writeup of my conference talk, “&lt;a href=&quot;https://matthewreinbold.com//2018/10/31/Gardeners-Approach/&quot;&gt;A Gardner’s Approach to Growing an API Culture&lt;/a&gt;”).&lt;/p&gt;
 
 &lt;p&gt;What we’ll see is a continued diversification of useful interactions patterns beyond HTTP’s traditional request/response model. The need for real-time workflows will necessitate investment in, and understanding of things like webhooks (also referred to as callbacks or subscriptions), websockets, and more. The interest in machine learning, along with a greater emphasis on storing and leveraging data, will necessitate more ‘algorithms-as-a-service’ APIs.&lt;/p&gt;
 
@@ -661,8 +672,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;Technical leadership is experiencing pressure from all directions. To one side, they are expected to deliver impactful digital transformation to compete in the future marketplace. Simultaneously, they have to meet new (and growing) data governance expectations. APIs, with their standardization of message exchange and centralized points of control, can play an essential role in both objectives.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 May 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com0/2019/05/06/APIs-and-Digital-Transformation/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/2019/05/06/APIs-and-Digital-Transformation/</guid>
+        <link>https://matthewreinbold.com/2019/05/06/APIs-and-Digital-Transformation/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/05/06/APIs-and-Digital-Transformation/</guid>
         
         <category>digital transformation</category>
         
@@ -681,7 +692,7 @@ To date, I have set up monthly, recurring donations to each of the following org
         <title>A Plan for Continuous Learning and Win Sharing</title>
         <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/05/open-notebook.png&quot; /&gt;&lt;figcaption&gt;&quot;Laptop and notepad&quot; by Nick Morrison on &lt;a href=&quot;https://unsplash.com/photos/FHnnjk1Yj7Y&quot;&gt;Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;Like most at Capital One, my team is currently busy with &lt;em&gt;talent management&lt;/em&gt; activities. Rather than being a backward-looking review of work previous done, talent management is forward looking. When done correctly, it produces honest conversations about each’s professional ambitions. Those ambitions, subsequently, are then &lt;a href=&quot;https://matthewreinbold.com/2014/01/23/SystemsNotGoals/&quot;&gt;deconstructed into the repeatable systems necessary to produce accumulating wins&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Like most at Capital One, my team is currently busy with &lt;em&gt;talent management&lt;/em&gt; activities. Rather than being a backward-looking review of work previous done, talent management is forward looking. When done correctly, it produces honest conversations about each’s professional ambitions. Those ambitions, subsequently, are then &lt;a href=&quot;https://matthewreinbold.com//2014/01/23/SystemsNotGoals/&quot;&gt;deconstructed into the repeatable systems necessary to produce accumulating wins&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;A significant component of &lt;em&gt;any&lt;/em&gt; talent management plan is &lt;strong&gt;continuous learning&lt;/strong&gt;. That learning could be:&lt;/p&gt;
 &lt;ul&gt;
@@ -704,15 +715,15 @@ To date, I have set up monthly, recurring donations to each of the following org
 
 &lt;p&gt;&lt;strong&gt;“Win sharing” is a critical component of continuous learning&lt;/strong&gt;. Once a month, the team will get together to discuss what worked and what didn’t. I expect there to be surprises. There will be those pursuits that don’t pan out as expected. However, it remains a “win” if the team member not only discovers that new insight but shares it for the benefit of the larger group.&lt;/p&gt;
 
-&lt;p&gt;We’re all busy. I anticipate the biggest criticism of this proposal is whether the Center of Excellence can take 10% of our time and devote it to something other than processing team submissions for review. In my perspective, however, I don’t know how we can afford &lt;em&gt;not to&lt;/em&gt;. Technology moves fast. Things that were prudent even only a year ago may be persnickety today. One of the core pillars of the CoE activity is to &lt;em&gt;&lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;define healthy ecosystems&lt;/a&gt;&lt;/em&gt;. Understanding the technology landscape to guide others across it requires a continuous investment in ourselves.&lt;/p&gt;
+&lt;p&gt;We’re all busy. I anticipate the biggest criticism of this proposal is whether the Center of Excellence can take 10% of our time and devote it to something other than processing team submissions for review. In my perspective, however, I don’t know how we can afford &lt;em&gt;not to&lt;/em&gt;. Technology moves fast. Things that were prudent even only a year ago may be persnickety today. One of the core pillars of the CoE activity is to &lt;em&gt;&lt;a href=&quot;https://matthewreinbold.com//2017/10/03/API-Governance-Blueprint/&quot;&gt;define healthy ecosystems&lt;/a&gt;&lt;/em&gt;. Understanding the technology landscape to guide others across it requires a continuous investment in ourselves.&lt;/p&gt;
 
 &lt;p&gt;Rather than being a tax on our time, I view this as a calculated investment our talent growth, relevance, and retention. In setting this continuous learning plan, we’ve also created a forcing function. We create the habit by reserving the space and observing the ritual. If that means we need to be more efficient in our other work to meet current expectations, then so be it.&lt;/p&gt;
 
 &lt;p&gt;Finally, this is subject to change. We may try this for a few months and, with some initial learning, reformat our whole approach. Much like the individual experiments, using the experience to inform refinement our approach is a win. The only way we lose is if we never bother to try.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 May 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com0/2019/05/06/ContinuousLearningAndWinSharing/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/2019/05/06/ContinuousLearningAndWinSharing/</guid>
+        <link>https://matthewreinbold.com/2019/05/06/ContinuousLearningAndWinSharing/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/05/06/ContinuousLearningAndWinSharing/</guid>
         
         <category>continuous learning</category>
         
@@ -768,7 +779,7 @@ To date, I have set up monthly, recurring donations to each of the following org
   &lt;li&gt;Laggards (16%): Those who actively resist change, and will actively work to thwart an innovation for no other reason that it is new&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Be warned: the opening five-ten minutes to Linda Rising’s talk is rambling and referential to the events at the time; &lt;a href=&quot;https://matthewreinbold.com/2016/12/27/EmpathyForAll/&quot;&gt;many were still attempting to process the results of the 2016 presidential election&lt;/a&gt;. However, when you scrub past that, you get a wonderful insight into people’s relationship with technology. Any change agent attempting big things, &lt;em&gt;at scale&lt;/em&gt;, needs this foundational awareness before developing their strategy.&lt;/p&gt;
+&lt;p&gt;Be warned: the opening five-ten minutes to Linda Rising’s talk is rambling and referential to the events at the time; &lt;a href=&quot;https://matthewreinbold.com//2016/12/27/EmpathyForAll/&quot;&gt;many were still attempting to process the results of the 2016 presidential election&lt;/a&gt;. However, when you scrub past that, you get a wonderful insight into people’s relationship with technology. Any change agent attempting big things, &lt;em&gt;at scale&lt;/em&gt;, needs this foundational awareness before developing their strategy.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DrCD1wmK9oM&quot;&gt;Meeting Resistance and Moving Forward&lt;/a&gt;&lt;/p&gt;
 
@@ -787,8 +798,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;That’s a brief, first list of references that I return to regularly. If folks find this useful or know of related material I should check out, let me know.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Apr 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com0/2019/04/18/OtherLessonsToLearnFrom01/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/2019/04/18/OtherLessonsToLearnFrom01/</guid>
+        <link>https://matthewreinbold.com/2019/04/18/OtherLessonsToLearnFrom01/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/04/18/OtherLessonsToLearnFrom01/</guid>
         
         <category>API Governance</category>
         
@@ -862,8 +873,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;The other way, best case, is lazy. Worst case, its calculated obfuscation.&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Feb 2019 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com0/2019/02/27/APIsandPedantry/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/2019/02/27/APIsandPedantry/</guid>
+        <link>https://matthewreinbold.com/2019/02/27/APIsandPedantry/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/02/27/APIsandPedantry/</guid>
         
         <category>Ludwig Wittgenstein</category>
         
@@ -913,7 +924,7 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;This document isn’t a list of my personality quirks. Or the cliff notes guide to getting a promotion. Or where to find the free food. There is a time and a place for each of those things. But not here.&lt;/p&gt;
 
 &lt;h2 id=&quot;who-am-i&quot;&gt;Who Am I?&lt;/h2&gt;
-&lt;p&gt;My name is Matthew Reinbold. I have a &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://twitter.com&quot;&gt;Twitter stream&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/matthewreinbold&quot;&gt;LinkedIn profile&lt;/a&gt;, and &lt;a href=&quot;https://tinyletter.com/netapinotes/archive&quot;&gt;API newsletter&lt;/a&gt;, among other things. Since starting my professional career in 1999, I’ve worked as a software developer, tester, architect, community builder, and product manager. That work has included everything from small startups to companies including IBM, Microsoft, and Adobe.&lt;/p&gt;
+&lt;p&gt;My name is Matthew Reinbold. I have a &lt;a href=&quot;https://matthewreinbold.com/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://twitter.com&quot;&gt;Twitter stream&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/matthewreinbold&quot;&gt;LinkedIn profile&lt;/a&gt;, and &lt;a href=&quot;https://tinyletter.com/netapinotes/archive&quot;&gt;API newsletter&lt;/a&gt;, among other things. Since starting my professional career in 1999, I’ve worked as a software developer, tester, architect, community builder, and product manager. That work has included everything from small startups to companies including IBM, Microsoft, and Adobe.&lt;/p&gt;
 
 &lt;p&gt;I love well-crafted storytelling and have a passion for business strategy. I am a visual learner. I do not drink but don’t mind hanging out with those that do. While I can be comfortable in social situations, I may prefer to be alone when I need to re-energize.&lt;/p&gt;
 
@@ -1012,8 +1023,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;And it just kind of stops… so far. I envision this being a work in process. If you were working for me, what kinds of things about having me as your manager would you want to know? What things are missing? I’d love to get your opinions.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Feb 2019 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com0/2019/02/14/AManagerREADME/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/2019/02/14/AManagerREADME/</guid>
+        <link>https://matthewreinbold.com/2019/02/14/AManagerREADME/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/02/14/AManagerREADME/</guid>
         
         <category>management</category>
         
@@ -1043,8 +1054,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Jan 2019 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com0/newsletter/2019/01/24/NetAPINotes/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/newsletter/2019/01/24/NetAPINotes/</guid>
+        <link>https://matthewreinbold.com/newsletter/2019/01/24/NetAPINotes/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/newsletter/2019/01/24/NetAPINotes/</guid>
         
         <category>Net API Notes</category>
         
@@ -1131,8 +1142,8 @@ and 21,571 words written&lt;/p&gt;
 &lt;p&gt;A comprehensive list of upcoming web events that I maintain can be found at &lt;a href=&quot;http://webapi.events&quot;&gt;webapi.events&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Dec 2018 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com0/newsletter/2018/12/28/RESTAPINotes/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com0/newsletter/2018/12/28/RESTAPINotes/</guid>
+        <link>https://matthewreinbold.com/newsletter/2018/12/28/RESTAPINotes/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/newsletter/2018/12/28/RESTAPINotes/</guid>
         
         <category>REST API Notes</category>
         
