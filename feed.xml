@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Aug 2019 15:20:34 -0400</pubDate>
-    <lastBuildDate>Tue, 27 Aug 2019 15:20:34 -0400</lastBuildDate>
+    <pubDate>Tue, 03 Sep 2019 13:56:31 -0400</pubDate>
+    <lastBuildDate>Tue, 03 Sep 2019 13:56:31 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -559,6 +559,10 @@ understand and modify the system.”&lt;/p&gt;
 &lt;p&gt;That seems incredibly counter-intuitive. Don’t we want &lt;strong&gt;more&lt;/strong&gt; power to solve problems? Shouldn’t we deserve the newest tools? The most flexible frameworks? Who in their right mind is a fan of the least among us?&lt;/p&gt;
 
 &lt;p&gt;We can apply this to our layers. When I call an API, I can include instructions as to whether I’m reading or updating information in the payload; that is a payload the server will have to introspect and act on. Or I can use the humble verb at the lowest layer, and signal the same thing via a GET or PATCH. It seems like a simple thing but it drastically affects where the complexity of our tracing, monitoring, entitling, securing, rate-limiting, framework-ing, and supporting goes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update: 2019-09-03&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;For a robust list of useful, defined elements that apply to a number of common use cases, check out &lt;a href=&quot;http://standards.rest/&quot;&gt;Standards.REST&lt;/a&gt;. Why re-invent the wheel?&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide17.PNG&quot; /&gt;&lt;figcaption&gt;Ultimately, there is nothing wrong with fasion. Just make choice based on principle. &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -1139,6 +1143,10 @@ To date, I have set up monthly, recurring donations to each of the following org
 
 &lt;p&gt;A change to hard power, however, &lt;em&gt;means changing code&lt;/em&gt;. Hard power’s capability to react and adapt is only as fast as a team’s deployment cycle. That cycle may include creation of a backlog item, gathering of stories, prioritization in a sprint, coding, functional testing, integration testing, user-acceptance testing, and final deployment. For stable, mature environments that don’t change often, that round-tripping may be an acceptible trade off for hard-power’s benefits.&lt;/p&gt;
 
+&lt;p&gt;&lt;em&gt;Update: 2019-09-03&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Related is the field of &lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Choice_architecture&quot;&gt;Choice Architecture&lt;/a&gt;&lt;/strong&gt;. Choice architecture is the creation of desired outcomes through purposeful interface design.&lt;/em&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;two-recent-examples&quot;&gt;Two Recent Examples&lt;/h2&gt;
 &lt;p&gt;Two recent work examples illustrate how I employ soft and hard power to support developers delivering business value.&lt;/p&gt;
 
@@ -1167,6 +1175,8 @@ To date, I have set up monthly, recurring donations to each of the following org
         <category>management</category>
         
         <category>Lawrence Lessig</category>
+        
+        <category>choice architecture</category>
         
         
       </item>
