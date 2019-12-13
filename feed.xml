@@ -4,10 +4,10 @@
     <title>Matthew Reinbold</title>
     <description>This is the website for Matthew Reinbold, the Director for Capital One's   Platform Services Center of Excellence. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Adult fan of Lego. And trying to make Dakota Gothic a thing. 
 </description>
-    <link>https://matthewreinbold.com</link>
-    <atom:link href="https://matthewreinbold.comfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Dec 2019 12:18:54 -0500</pubDate>
-    <lastBuildDate>Fri, 06 Dec 2019 12:18:54 -0500</lastBuildDate>
+    <link>https://matthewreinbold.com/</link>
+    <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 Dec 2019 17:09:02 -0500</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2019 17:09:02 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -247,6 +247,9 @@
 
 &lt;p&gt;If a simple linear regression has slightly less performance, could it still be more desirable than an energy-intensive model generation? Who makes the call with whether melting the polar ice caps is an acceptable use of energy?&lt;/p&gt;
 
+&lt;p&gt;&lt;em&gt;Update 2019-12-13&lt;/em&gt;
+&lt;em&gt;&lt;a href=&quot;https://arxiv.org/pdf/1911.08354.pdf&quot;&gt;This recent NeurIPSConf paper makes the case for energy use accounting be a standard part of AI accontability&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
 &lt;h3 id=&quot;defining-creepy&quot;&gt;Defining Creepy&lt;/h3&gt;
 
 &lt;p&gt;Yes, it is necessary to analyze data and machine learning for impropriety. However, that’s not the only factor at play. Designing AI-driven experiences require an understanding of where people accept machine intervention, and where people perceive a line is crossed.&lt;/p&gt;
@@ -302,8 +305,8 @@
 &lt;p&gt;&lt;em&gt;Photo by Zac Ong on Unsplash&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 Nov 2019 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com2019/11/25/ARoadMapForAIGovernance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/11/25/ARoadMapForAIGovernance/</guid>
+        <link>https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/</guid>
         
         <category>AI</category>
         
@@ -391,8 +394,8 @@
 &lt;p&gt;And, if you’re so inclined, check out the &lt;a href=&quot;https://digital.globalclimatestrike.net&quot;&gt;Global #ClimateStrike&lt;/a&gt;. Let’s turn the &lt;em&gt;climate crisis&lt;/em&gt; into &lt;em&gt;climate action&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Sep 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/09/18/ComparingCarbonOffsetSites/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/09/18/ComparingCarbonOffsetSites/</guid>
+        <link>https://matthewreinbold.com/2019/09/18/ComparingCarbonOffsetSites/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/09/18/ComparingCarbonOffsetSites/</guid>
         
         <category>climate change</category>
         
@@ -459,8 +462,8 @@
 &lt;p&gt;There are numerous, self-proclaimed, lifestyle gurus online. However, I keep referring to these videos because I’ve found the information to be useful. If you know of similar productivity lifestyle enhancements, not just hacks, let me know.&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/08/27/OtherLessonsToLearnFrom02/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/08/27/OtherLessonsToLearnFrom02/</guid>
+        <link>https://matthewreinbold.com/2019/08/27/OtherLessonsToLearnFrom02/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/08/27/OtherLessonsToLearnFrom02/</guid>
         
         <category>video</category>
         
@@ -801,8 +804,8 @@ the mess (and are blamed for not “pushing back”).&lt;/li&gt;
 &lt;p&gt;Thank you and good night.&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Aug 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/08/02/AgileAntipatterns/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/08/02/AgileAntipatterns/</guid>
+        <link>https://matthewreinbold.com/2019/08/02/AgileAntipatterns/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/08/02/AgileAntipatterns/</guid>
         
         <category>presos</category>
         
@@ -1008,8 +1011,8 @@ understand and modify the system.”&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/07/17/OvercomingComplexity/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/07/17/OvercomingComplexity/</guid>
+        <link>https://matthewreinbold.com/2019/07/17/OvercomingComplexity/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/07/17/OvercomingComplexity/</guid>
         
         <category>presos</category>
         
@@ -1099,8 +1102,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;Are you trying something different? Got something that isn’t on the list? I’d love to hear about it.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Jun 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/06/21/On-Travel/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/06/21/On-Travel/</guid>
+        <link>https://matthewreinbold.com/2019/06/21/On-Travel/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/06/21/On-Travel/</guid>
         
         <category>travel</category>
         
@@ -1149,8 +1152,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;Technical leadership is experiencing pressure from all directions. To one side, they are expected to deliver impactful digital transformation to compete in the future marketplace. Simultaneously, they have to meet new (and growing) data governance expectations. APIs, with their standardization of message exchange and centralized points of control, can play an essential role in both objectives.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 May 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/05/06/APIs-and-Digital-Transformation/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/05/06/APIs-and-Digital-Transformation/</guid>
+        <link>https://matthewreinbold.com/2019/05/06/APIs-and-Digital-Transformation/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/05/06/APIs-and-Digital-Transformation/</guid>
         
         <category>digital transformation</category>
         
@@ -1199,8 +1202,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;Finally, this is subject to change. We may try this for a few months and, with some initial learning, reformat our whole approach. Much like the individual experiments, using the experience to inform refinement our approach is a win. The only way we lose is if we never bother to try.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 May 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/05/06/ContinuousLearningAndWinSharing/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/05/06/ContinuousLearningAndWinSharing/</guid>
+        <link>https://matthewreinbold.com/2019/05/06/ContinuousLearningAndWinSharing/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/05/06/ContinuousLearningAndWinSharing/</guid>
         
         <category>continuous learning</category>
         
@@ -1275,8 +1278,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;That’s a brief, first list of references that I return to regularly. If folks find this useful or know of related material I should check out, let me know.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Apr 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/04/18/OtherLessonsToLearnFrom01/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/04/18/OtherLessonsToLearnFrom01/</guid>
+        <link>https://matthewreinbold.com/2019/04/18/OtherLessonsToLearnFrom01/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/04/18/OtherLessonsToLearnFrom01/</guid>
         
         <category>API Governance</category>
         
@@ -1354,8 +1357,8 @@ To date, I have set up monthly, recurring donations to each of the following org
 &lt;p&gt;The other way, best case, is lazy. Worst case, its calculated obfuscation.&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Feb 2019 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com2019/02/27/APIsandPedantry/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/02/27/APIsandPedantry/</guid>
+        <link>https://matthewreinbold.com/2019/02/27/APIsandPedantry/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/02/27/APIsandPedantry/</guid>
         
         <category>Ludwig Wittgenstein</category>
         
