@@ -95,13 +95,13 @@
 
 <p>Successful APIs, whether they are external products or internal glue, require strong product management. However, given an API’s ephemeral nature, product managers may have difficulty with how to proceed. This poor API product management results in a product that doesn’t meet the needs of users. Adoption will be limited. Integrations, when they do happen, will be difficult. And correcting mistakes after development will remain a demoralizing and expensive proposition.</p>
 
-<p>Martin Eriksson, <a href="https://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/">defines the Product Manager role as an expertise that lies at the intersection of tech, business, and UX</a>. Martin then quotes the book, <a href="https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/">Inspired</a>, that states a product manager should ‘discover a product that is valuable, usable and feasible’. What constitutes “valuable”, “usable”, and “feasible” for an API?</p>
+<p>Martin Eriksson <a href="https://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/">defines the Product Manager role as an expertise that lies at the intersection of tech, business, and UX</a>. Martin then quotes the book, <a href="https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/">Inspired</a>, that states a product manager should ‘discover a product that is valuable, usable and feasible’. What constitutes “valuable”, “usable”, and “feasible” for an API?</p>
 
 <h2 id="valuable">Valuable</h2>
 <p>At the most fundamental level, an API must provide a useful function. Determining what is useful and what is not is the first job for an API product manager.</p>
 
 <h3 id="building-for-the-correct-audience">Building for the Correct Audience</h3>
-<p>Product managers should understand the audience that will consume the API. That may be easier than it sounds, as there actually several different types of people evaluating an API, each with their own questions. As <a href="https://bradfults.com/the-best-api-documentation-b9e46400379a">Brad Fults mentions</a>, these audiences may include, but are not limited to:</p>
+<p>Product managers should understand the audience that will consume the API. That may be harder than it sounds, as there are several different types of people evaluating an API, each with their own questions. As <a href="https://bradfults.com/the-best-api-documentation-b9e46400379a">Brad Fults mentions</a>, these audiences may include, but are not limited to:</p>
 
 <ul>
   <li><strong>Decision Makers</strong> evaluating competing API products</li>
@@ -113,10 +113,10 @@
 
 <h3 id="api-design-that-is-outside-in-not-reflections-of-internal-implementations">API Design that is ‘Outside In’, not Reflections of Internal Implementations</h3>
 
-<p>An API design should align with the integrator’s understanding. Creating an interface constrained to the internal systems implementation is rarely a good idea. These systems, particularly those that have existed in legacy environments, are a complex aggregation of shifting business priorities, technical advancement, team experience, etc. Exposing years (if not decades) of ‘dirty laundry’ at once significantly increases the barriers to comprehension and adoption.</p>
+<p>An API design should align with the integrator’s understanding. Creating an interface constrained to the internal system implementation is rarely a good idea. These systems, particularly those that have existed in legacy environments, are a complex aggregation of shifting business priorities, technical advancement, team experience, etc. Exposing years (if not decades) of ‘dirty laundry’, at once, significantly increases the barriers to comprehension and adoption.</p>
 
 <h3 id="clear-ownership">Clear Ownership</h3>
-<p>Product management includes a degree of ownership. The part of ownership that integrators care about is the amount, and form, that ownership is exhibited in. Trust in an API is difficult to earn and can be easily fumbled away.</p>
+<p>Product management includes a degree of ownership. The part of ownership that integrators care about is the amount, and form, that ownership is exhibited in. Trust in an API is difficult to earn and can be easily frittered away.</p>
 
 <p>Ownership of an API translates to the following communication:</p>
 <ul>
@@ -126,7 +126,7 @@
   <li>Known and Communicated Support and Feedback Channels</li>
 </ul>
 
-<p>The individual forms may vary. But each of these is an attempt to convey stability and permanence - two crucial elements when wooing developers with other options. A product with a future and team behind it is orders of magnitude more desirable than unmaintained code deployed on a computer under someone’s desk. A product manager should ensure that the former is being communicated, not the latter.</p>
+<p>The individual forms by which each manifest may vary. However, each of these attempts to convey stability and permanence; two crucial elements when wooing developers with other options. A product with a future and team behind it is orders of magnitude more desirable than unmaintained code deployed on a computer under someone’s desk. A product manager should ensure that the former is being communicated, not the latter.</p>
 
 <h2 id="usable">Usable</h2>
 <p>There are a variety of different approaches for web-based APIs. Whether using RPC, REST, or subsequent variations, an API design produced by one team may vary significantly in usage and <a href="http://amundsen.com/blog/archives/1109">affordances</a> from another team’s product - even when both teams work for the same company! The number of design choices, and how they subsequently manifest in the design, require additional work to ensure the designs are usable.</p>
@@ -141,17 +141,17 @@
   <li>Unprofessional and/or lacking clarity</li>
 </ul>
 
-<p>The rise of various formats that capture API intent in structured ways, like the OpenAPI specification, are a start. These <em>integration contracts</em> can be used to <em>render</em> documentation in a manner similar to how annotations in a Java codebase can render Javadoc.</p>
+<p>Formats that capture an API’s intent, like the OpenAPI specification, are a start. These <em>integration contracts</em> can be used to <em>render</em> documentation in a manner similar to how annotations in a Java codebase can render Javadoc.</p>
 
-<p>However, like Javadocs, this “documentation” is often the bare minimum that can be done towards effective communication and understanding. An API product manager should be closely involved in the creation of an API’s documentation. They should ensure that the business value of their product is clearly captured to the intended audience.</p>
+<p>However, like Javadocs, this “documentation” is often the bare minimum that can be done towards effective communication and understanding. An API product manager should be closely involved in creating an API’s documentation. They should ensure that the business value of their product is clearly captured and expressed to the intended audience.</p>
 
 <h3 id="standards">Standards</h3>
-<p>A common design consideration is “<em><a href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment">the principle of least surprise</a></em>”. Design works best when it reuses familiar interface concepts. With a user interface (UI), this allows end users to make successful educated guesses, resulting in better user experience (UX). This developer experience, or “DX” should be part of the consideration when creating an API design.</p>
+<p>A common design consideration is “<em><a href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment">the principle of least surprise</a></em>”. Design works best when it reuses familiar interface concepts. With a user interface (or <em>UI</em>), this allows end users to successfully make educated guesses. This results in better user experience (UX). A corollary developer experience, or “DX”, should be part of the consideration when creating an API design.</p>
 
-<p>Common industry patterns for should be used. Where possible, data should adhere standards, and those standards explicitly referenced in the documentation. For example, why force a consumer to create their own parsing for your bespoke date and time format? Use ISO8601 instead, reference it in the documentation, and be done with it. Extra points if the API design takes advantage of the work on <a href="http://schema.org/">schema.org</a> and properly uses <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">media types</a>.</p>
+<p>Common industry patterns should be used. Where possible, data should adhere standards, and those standards should be explicitly referenced in the documentation. For example, why force a consumer to parse your bespoke date format? Use ISO8601 instead, reference it in the documentation, and be done with it. Extra points if the API design takes advantage of the work on <a href="http://schema.org/">schema.org</a> and properly uses <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">media types</a>.</p>
 
 <h2 id="feasible">Feasible</h2>
-<p>Different integrations will have different consumptions needs. Some may be able to consume the entire payload as designed. Others, do to computational or bandwidth constraints, may want a refined perspective on the resource available. Working with potential consumers to build in rate controls from the beginning is important.</p>
+<p>Different integrations will have different consumptions needs. Some may be able to consume the entire payload as designed. Others, due to computational or bandwidth constraints, may want a refined perspective on the resource available. Working with potential consumers to build in rate controls from the beginning is important.</p>
 
 <h3 id="malleability">Malleability</h3>
 <p>Support for sort ordering and pagination on returned collections is important. Default return amounts, rather than to defaulting to the entire collection, should be explicitly stated in the documentation and modifiable (within reason - page size limits should also be explicitly called out). Filtering, depending on the collection size, may be important. A more advanced option, depending on the need, is to allow for selective parameter retrieval.</p>
