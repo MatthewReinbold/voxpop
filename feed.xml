@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Jan 2020 13:05:35 -0500</pubDate>
-    <lastBuildDate>Fri, 17 Jan 2020 13:05:35 -0500</lastBuildDate>
+    <pubDate>Tue, 28 Jan 2020 11:40:38 -0500</pubDate>
+    <lastBuildDate>Tue, 28 Jan 2020 11:40:38 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -249,6 +249,16 @@
 
 &lt;p&gt;&lt;em&gt;Update 2019-12-13&lt;/em&gt;
 &lt;em&gt;&lt;a href=&quot;https://arxiv.org/pdf/1911.08354.pdf&quot;&gt;This recent NeurIPSConf paper makes the case for energy use accounting be a standard part of AI accontability&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update 2020-01-28&lt;/em&gt;
+&lt;em&gt;Actionable steps for machine learning researchers should take to reduce carbon emissions include:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.09700&quot;&gt;Quantifying current output&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Choosing cloud providers and data center locations wisely&lt;/li&gt;
+  &lt;li&gt;Reduce wasted resources through effecient algorithms, good tests, and early debugging&lt;/li&gt;
+  &lt;li&gt;Choosing more effecient hardware&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;defining-creepy&quot;&gt;Defining Creepy&lt;/h3&gt;
 
