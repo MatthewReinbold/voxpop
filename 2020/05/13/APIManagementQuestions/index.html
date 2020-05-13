@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>On Technical Debt</title>
-  <meta name="description" content="Every developer with a project under their belt understands that technical debt is a bad thing. But since it is an abstract concept &mdash; like love, or the...">
+  <title>API Management Questions</title>
+  <meta name="description" content="Organization of digital assets is as important as physical ones.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://matthewreinbold.com/2013/06/01/BoxesAndTechnicalDebt/">
+  <link rel="canonical" href="https://matthewreinbold.com/2020/05/13/APIManagementQuestions/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
 </head>
 
@@ -76,47 +76,66 @@
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">On Technical Debt</h1>
-    <h2 class="post-subtitle">The Physical Weight of Poor Decisions</h2>
-    <p class="post-meta"><time datetime="2013-06-01T00:00:00-04:00" itemprop="datePublished">Jun 1, 2013</time></p>
+    <h1 class="post-title" itemprop="name headline">API Management Questions</h1>
+    <h2 class="post-subtitle">Answering Questions on API Discovery, Design Consistency, and Dealing with Legacy APIs</h2>
+    <p class="post-meta"><time datetime="2020-05-13T00:00:00-04:00" itemprop="datePublished">May 13, 2020</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Every developer with a project under their belt understands that technical debt is a bad thing. But since it is an abstract concept &mdash; like love, or the reasons for Pitbull's career &mdash; <em>it can be hard to conceptualize</em>. You may not realize how bad a situation has gotten until your new development is stymied because of the seemingly innocent decisions made a week, month, or year ago.</p>
+    <p><figure><img src="/images/2020/05/library.jpg" alt="Media organized at a local thrift store." /><figcaption>Organization of digital assets is as important as physical ones.</figcaption></figure></p>
 
-<p>That decision making process was sharply illustrated while moving from my current house. I rarely see our kitchen counter tops since I'm married with three kids. Flat surfaces in communal areas have a knack for accumulating the detritus of life: graded homework, mail that should probably be filed but not immediately important, random toys, my passive-aggressive crayon artwork, etc. A scene like this is a pretty common occurrence:</p>
+<h2 id="background-introduction">Background Introduction</h2>
+<p>Adam DuVander, a Portland raconteur and all-around good fellow reached out several months ago. He was writing an article and hoped I could answer a few questions on enterprise API management. A few of my quotes, along with insight from a handful of others, have since been posted in a piece entitled “<a href="https://stoplight.io/blog/api-experts-share-how-to-organize-thousands-of-apis-and-microservices/">API Experts Share How They Organize Thousands of APIs and Microservices</a>”.</p>
 
-<p>
-	<figure>
-		<a href="/images/2013/06/messycountertop.jpg" class="lightbox"><img src="/images/2013/06/messycountertop.jpg" alt="A typical countertop in our typical lives." /></a>
-		<figcaption>
-			"Sure honey, I know exactly where that dental statement is. It's on the counter. Somewhere."
-		</figcaption>
-	</figure>
-</p>
+<p>The choicest bits made it into the piece. However, behind the scenes, I bloviated enough to populate a standalone piece. Here’s the entirety of my replies, tweaked and updated for clarification.</p>
 
-<p>This causes problems. Sometimes family will pass through Denver and want to stop. Or we'll host a kid's birthday party. <em>OR</em> we may really get our bindle in a fix and decide to clean something fierce. When that happens do we carefully proceed like seasoned archaeologists, peeling back the layers of our own history, making careful notes and cataloging the relevant items to their long-term homes?</p>
+<p>The questions have to do with how companies manage their <em>internal</em> API portfolios. These are collections that, particularly in the age of microservices, grow at exponential rates.</p>
 
-<p><strong>Nope. Not even close.</strong> When rushed, a developer will copy and paste code in multiple places. They will leave out error and edge case handling. They will introduce high coupling and low cohesion throughout modules. In our case, <em>we put everything in a box.</em></p>
+<h2 id="q1-how-does-an-engineer-discover-what-internal-apis-already-exist">Q1: How does an engineer discover what internal APIs already exist?</h2>
 
-<p>In either case the <strong>immediate</strong> problem gets solved. A developer ships their code to production. We ship that box to the crawlspace. The next time something happens we do it again, because it worked so well the first time. And again, and again, and again because <em>we're busy people</em>. But each time things get more difficult. Maybe maintenance time increases. Or things are starting to mysteriously fail. Or the server load is becoming uncomfortably high.</p>
+<h3 id="the-problem">The Problem</h3>
+<p>API architectures are useful for several reasons. Benefits include organizing the complexity of an enterprise environment, allowing for independent deployment, dividing labor, and achieving faster times to market. Despite these advantages, however, moving from monolithic software deployment does cause discovery problems. Where there was once a single mass to inspect, there are now many homunculi to track down and interview. This is a problem, regardless of the development shop size.</p>
 
-<p>Or maybe the crawl space is filling up.</p>
+<p>A centralized API registry for service discovery should be the source of truth. This single catalog not only benefits integrators looking to kickstart new experiences; it also is vital for data and regulatory appeasement (<a href="https://gdpr-info.eu/">GDPR</a>, <a href="https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act">CCPA</a>).</p>
 
-<p>And then comes the hushed discussions of the <em>Epic Rewrite</em>&trade;; that silver bullet that will magically fix everything. It's that moment when we have to get our house in order. It's that moment when I go down into my crawlspace and I find... this:</p>
+<p>As Luis Weir points out in his book, “<a href="https://www.amazon.com/Enterprise-Management-Luis-Augusto-Weir/dp/1787284433">Enterprise API Management</a>”, many companies, unfortunately, don’t have this single portal discovery experience. The discovery process, in these orgs, relies on tribal knowledge and shared spreadsheets.</p>
 
-<p>
-	<figure>
-		<a href="/images/2013/06/boxesoftechdebt.jpg" class="lightbox"><img src="/images/2013/06/boxesoftechdebt.jpg" alt="Boxes of bad decision making." /></a>
-		<figcaption>
-			"Well, there's probably important stuff in here. Somewhere."
-		</figcaption>
-	</figure>
-</p>
+<p>One needs to design the discovery experience, not just for external APIs, but for internal ones, as well. There are many examples, often retold, for excellent external experiences. What isn’t covered nearly as much is the <em>internal</em> discovery experience. Whether this is a dedicated portal meticulously maintained by a dedicated platform team or a list (or list of lists) of APIs in a spreadsheet, this discovery experience should be managed. Knowledge management is an undervalued discipline; if you have access to talent in this area, <em>use them in creating this experience</em>!</p>
 
-<p>All those decisions made for the sake of expediency have now come due. Instead of having everything neatly in its place the boxes, once a means of convenience, are a hinderance. Things are at a standstill because instead of taking the five minutes when a problem arose I have to take the five days to deal with the problems <em>all at once</em>.</p>
+<h3 id="automation-can-take-multiple-forms">Automation Can Take Multiple Forms</h3>
+<p>Whether it is one portal or many, relying on “good faith” efforts aren’t scalable. Pleading for harried developers to “do the right thing” and “create some docs” doesn’t work. It, at best, results in the same stale documentation that plagues so many company content management systems. The process for data entry to the registry must be as automated as possible. Thankfully, automation is possible through standardized lifecycle management and process enforcement through uniform API descriptions, like OpenAPI.</p>
 
-<p>Technical debt is a tradeoff. Perhaps if we had a massive visual reminder of the ramifications we wouldn't be so willing to agree to the faustian bargain in the moment. It certainly would have saved me some backbreaking labor to spend the time up front.</p>
+<p>Another approach is to have the runtime gateway environments “phoning home” to a centralized registry. The description of the business intent would be more abstract. However, identifying highly trafficked or critical infrastructure would be a place to start building out more robust management rigor.</p>
+
+<h3 id="duplication-of-work-will-happen-the-degree-to-which-this-is-a-problem-is-debatable">Duplication of Work Will Happen; The Degree to Which this is a Problem is Debatable</h3>
+<p>The Continuous API Management (CAM) book, <a href="http://tinyletter.com/NetAPINotes/letters/api-academy-and-new-beginnings-net-api-notes-for-2019-01-31">by the dearly departed API Academy</a>, fingers internal API duplication on poor discovery ability. However, in my experience, <em>this is an oversimplification</em>. Even with a comprehensive catalog of APIs, development teams may seek to minimize their dependencies. This includes other people’s APIs (<a href="https://matthewreinbold.com/2017/12/07/ConwayAndAPIDesign/">see point #2 in my talk, “Three Ways Conway’s Law Affects API Governance</a>”). Internal APIs do not have the same market-force natural selection to pick winners and losers. Other sociotechnical systems engineering approaches need to be brought to bear.</p>
+
+<h2 id="how-do-you-ensure-new-apis-are-consistent-and-meet-guidelines">How do you ensure new APIs are consistent and meet guidelines?</h2>
+<h3 id="consistency-of-design-starts-with-consistency-of-language">Consistency of Design Starts with Consistency of Language</h3>
+<p>Before consistency can happen, we have to have a clear medium of exchange. The consistency of design starts with the consistency of language. Are the words “policy”, “guidance”, and “standards” all used interchangeably? What about “resources” and “endpoints”? Are “methods”, “actions”, and “verbs” all the same thing? Or do they have different meanings? Observe the language the business uses and create consensus where there is none. This is a foundational activity before guidelines can be built. It is also ongoing.</p>
+
+<h3 id="pair-design-requirements-to-organizational-outcomes">Pair Design Requirements to Organizational Outcomes</h3>
+<p>The next step is to understand the organization’s goals. Guidelines are a means of driving teams a particular direction, <em>but to where</em>? Guidelines without a destination, that don’t drive an organization to a better place, will be ignored. Are new integrations taking too long because of incomplete (or even contradictory) affordances in the interface? If so, we now have an outcome (or perhaps even KPIs) to shape guidance.</p>
+
+<h3 id="enforcement-is-not-an-all-or-nothing-matter">Enforcement is Not an All or Nothing Matter</h3>
+<p>With guidelines matched to outcomes, we can start enforcement. There is a spectrum. One extreme is gatekeeping. This is where an API is not allowed into an environment (development, QA, production, etc.) without ‘approval’ by a company-sanctioned group. This group is responsible for ensuring that guidelines are met.</p>
+
+<p>Automation can help here, as well. Tools like Spectral can detect <em>deterministic</em> rules. These are cases where a team’s design attempts to submit a body as part of a GET operation. However, more subjective criteria, like whether “chAccPwChangeId” is self-descriptive and easily understood to the target audience, may still require human judgment.</p>
+
+<p>The gatekeeping approach is the simplest to implement and the easiest to understand, particularly in highly regulated industries (to prevent the bad outcomes from happening a sanctioned party reviews all the things). However, this approach introduces an organizational dependency on software development. It also can be discouraging, particularly for those that self-identify as highly-skilled, empowered individuals.</p>
+
+<p>The book, “<a href="https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819">Team Topologies</a>”, presents an alternative approach. Rather than mandating a gate, the intent is to create a desire for mastery across all constituents and then help them get there (this pursuit of mastery better aligns with the self-image mentioned above, and thus, is more empowering). Skewing on this this side means the emphasis goes from up-front prevention to ongoing internal evangelism and a service interaction models by a supporting API team. Successfully deploying, maintaining, and demonstrating effectiveness of this model is incredibly challenging, however. It is why, I believe, I haven’t seen it implemented nearly as much.</p>
+
+<h3 id="guidelines-are-a-process-not-a-stable-end-state">Guidelines are a Process, Not a Stable End-State</h3>
+<p>Finally, any guideline program needs a well-established and continuously practiced feedback mechanism. The market changes, developer maturity changes, and the organization’s goals change. So too should the guidelines change to reflect that reality. The process for continual co-evolution of the guidelines is so much more important than the given guidelines at any one specific point in time.</p>
+
+<h2 id="how-should-legacy-apis-be-treated-differently">How should “legacy” APIs be treated differently?</h2>
+
+<p>It is highly unlikely that any guideline or standards process is starting greenfield. Organizational leadership may be surprised by the number of interfaces, and the data exchanged through them, that already exist at the onset of a cataloging effort.</p>
+
+<p>When it comes to building a catalog, the <strong>first</strong> priority, even above adherence to standards, is being listed. Once listed, an API governance team can begin a process of ‘eventual consistency’ to guidelines. This is where the API is discoverable but listed as out of compliance. When the team begins work on the next <em>breaking</em> version, reconciling incompatibilities can also happen since the client will have to modify their code to accommodate the new version <em>anyway</em>.</p>
+
+<p>I’m not fond of “burn the boats”, all-or-nothing transformation initiatives. Even if these “legacy” APIs are not the way we’d do them now, they are still providing business value to <em>someone</em> (hence their continued existence). Cataloging, with an understood path forward, enables that quirky part of the corporate ecosystem to be studied and understood. As stewards of these complex systems, we’d do well to learn from the complex accretions that occurred. This is opposed to ignoring a company’s legacy to declare a fleeting ideological victory.</p>
 
   </div>
 
@@ -308,23 +327,16 @@
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
+    	
+        <hr />
+    		<h4>Related</h4>
+    		
+    	
+      <div>
+      <h5><a href="/2017/12/07/ConwayAndAPIDesign/">Three Ways Conways Law Affects API Governance</a></h5>
+      </div>
+      
+      
     
 
   
@@ -487,6 +499,31 @@
 
     
 
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2015/05/12/APIsandGovernance/">The Favela vs the Planned Community</a></h5>
+      </div>
+      
+      
     
 
   
