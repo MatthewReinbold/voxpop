@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jul 2020 13:22:59 -0400</pubDate>
-    <lastBuildDate>Fri, 10 Jul 2020 13:22:59 -0400</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2020 20:22:22 -0400</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2020 20:22:22 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -174,10 +174,12 @@ Products really do end up looking like the teams that create them&lt;/p&gt;
 
 &lt;p&gt;Instead, shrink the change and, in the process, you’ll shrink the likelihood that people will say no.&lt;/p&gt;
 
-&lt;p&gt;Can’t change an organization? Start with your line of business. 
-Can’t change your line of business? Start with your program.
-Can’t change your program? Start with your team.
-Can’t change your team arrangement? Start with how (and whom) you communicate.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Can’t change an organization? Start with your line of business.&lt;/li&gt;
+  &lt;li&gt;Can’t change your line of business? Start with your program.&lt;/li&gt;
+  &lt;li&gt;Can’t change your program? Start with your team.&lt;/li&gt;
+  &lt;li&gt;Can’t change your team arrangement? Start with how (and whom) you communicate.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;So much of this is about the complexity of our daily communication. How regularly do the API implementation teams talk with the primary stakeholders? Are their intermediaries involved? Do groups talk past each other while emailing attachments? Are the same people always at the table? Or are new pathways being forged by the purposeful and ongoing discovery on your part? Are you building relationships in places where none existed before, are new opportunities presenting themselves?&lt;/p&gt;
 
