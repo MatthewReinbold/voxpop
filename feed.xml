@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jul 2020 20:22:22 -0400</pubDate>
-    <lastBuildDate>Fri, 10 Jul 2020 20:22:22 -0400</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2020 20:32:57 -0400</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2020 20:32:57 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -183,21 +183,21 @@ Products really do end up looking like the teams that create them&lt;/p&gt;
 
 &lt;p&gt;So much of this is about the complexity of our daily communication. How regularly do the API implementation teams talk with the primary stakeholders? Are their intermediaries involved? Do groups talk past each other while emailing attachments? Are the same people always at the table? Or are new pathways being forged by the purposeful and ongoing discovery on your part? Are you building relationships in places where none existed before, are new opportunities presenting themselves?&lt;/p&gt;
 
-&lt;p&gt;Even if through informal conversations, changing access to information is a precursor to those affordances being codified in an interface. It is also the first step to organizational change. It can also be as simple as buying someone a coffee or (these days) having a video meet-n-greet.&lt;/p&gt;
+&lt;p&gt;Even if through informal conversations, &lt;strong&gt;changing access to information is a precursor to those affordances being codified in an interface&lt;/strong&gt;. It is also the first step to organizational change. It can also be as simple as buying someone a coffee or (these days) having a video meet-n-greet.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2020/07/power-19.png&quot; /&gt;&lt;figcaption&gt;Script the Critical Moves&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Another idea is to script the critical moves.&lt;/p&gt;
 
-&lt;p&gt;Many people, especially during a global pandemic, don’t have a tremendous amount of bandwidth for the unknown. We are dealing with the kind of low-level, yet persistent, stresses we have experienced before. The ambiguity of the unknown saps our energy and lessens the likelihood of pursuing research. The desire to jump into something new isn’t there right now.&lt;/p&gt;
+&lt;p&gt;Many people, especially during a global pandemic, don’t have a tremendous amount of bandwidth for the unknown. We are dealing with unprecedented, low-level, and persistent stresses. The ambiguity of the unknown saps our energy and lessens the likelihood of new pursuits. The appetite for the potentially ambiguous just isn’t there right now.&lt;/p&gt;
 
-&lt;p&gt;What you can do if you intend to make change happen is providing the incremental steps for them. This kind of prescriptive detail removes some of the ambiguity.&lt;/p&gt;
+&lt;p&gt;In this environment, providing the explicit, incremental steps for change may be necessary. A level of prescriptive detail lightens the lift for, otherwise, distracted, distraught, and disengaged teams.&lt;/p&gt;
 
 &lt;p&gt;One of the things I’m currently working on with James Higginbotham is a prescriptive process for teams to design bounded contexts. There is an ocean of tips and techniques out there for how to do this already. However, right now, for our audience,  telling people to boil that body of water to find something pure that works for them is too much. We need to script the critical moves.&lt;/p&gt;
 
-&lt;p&gt;Maybe there are alternatives. Perhaps some of those might be better in given contexts. However, for those that don’t have the bandwidth for that exploration, we’re providing a roadmap with one way highlighted to get them moving to a better place. If change is going to happen in how teams communicate with their stakeholders, we need to make getting started as easy as possible. We’re scripting the critical moves.&lt;/p&gt;
+&lt;p&gt;Maybe there are alternatives to what is in the prescriptive plan. Perhaps some of those alternatives might be better in certain contexts. For those that don’t have the bandwidth for that exploration, however, we’re providing a roadmap to get them moving. We’re attempting to make getting started as easy as possible. We’re scripting the critical moves.&lt;/p&gt;
 
-&lt;p&gt;I also mentioned the Team Topology book earlier. I appreciated this book because it takes an infinite number of team arrangements and asserts four specific, followable team types. There may be other arrangements. Your mileage may vary. However, for those looking for an example of scripted critical organizational moves, the Team Topology book is a great source.&lt;/p&gt;
+&lt;p&gt;I also mentioned the Team Topology book earlier. I appreciated this book because it takes an infinite number of team arrangements and asserts four specific, followable team types. There may be other arrangements. Your mileage may vary. However, for those looking for an example organizational structures, the Team Topology book is also an example of scripted critical moves.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2020/07/power-20.png&quot; /&gt;&lt;figcaption&gt;Git Gud at the Peoples&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -205,13 +205,13 @@ Products really do end up looking like the teams that create them&lt;/p&gt;
 
 &lt;p&gt;I know changing organizations may not have been what you signed up for when you assumed responsibility for your APIs. I suspect that the reason you chose software development was the hard certainty of 1s and 0s, rather than swishy, unpredictable nature of the people around you.&lt;/p&gt;
 
-&lt;p&gt;However, there is a problem. We spend thousands of dollars on ongoing training. We accumulate hours and hours of precious time getting certified and accredited. Back when it was still a thing, we even traveled across continents to learn the esoteric ins and outs from others. Yet, when it comes to interpersonal communication, the &lt;strong&gt;thing that we do every day&lt;/strong&gt;, we can’t be bothered to Google?&lt;/p&gt;
+&lt;p&gt;However, there is a problem. We spend thousands of dollars on ongoing training. We accumulate hours and hours of precious time getting certified and accredited. Back when it was still a thing, we even traveled across continents to learn the esoteric ins and outs from others. Yet, when it comes to interpersonal communication, the &lt;strong&gt;thing that we do every day&lt;/strong&gt;, we can’t be bothered to Google improvements?&lt;/p&gt;
 
 &lt;p&gt;That’s wrong.&lt;/p&gt;
 
 &lt;p&gt;We deal with people. We spend our time and budget optimizing machines, but it is the people that matter. It is the people that determine the success or failure of our efforts.&lt;/p&gt;
 
-&lt;p&gt;Working with people to build a better organizational structure is a skill like any other. It can be learned, but only when our API designers and architects stop ending at the interface and start sociotechnical entrepreneurship. Your organization’s ability to deliver business value reliably, scalably, in the face of accelerating change depends on it.&lt;/p&gt;
+&lt;p&gt;Working with people to build a better organizational structure &lt;em&gt;is a skill like any other&lt;/em&gt;. It can be learned, but only when our API designers and architects stop ending at the interface and start sociotechnical entrepreneurship. Your organization’s ability to deliver business value reliably, scalably, in the face of accelerating change depends on it.&lt;/p&gt;
 
 &lt;p&gt;Change is not Kubernetes. Change is not a service mesh. Change happens with people. That is why it is time to git gud on the peoples.&lt;/p&gt;
 
