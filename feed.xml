@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jul 2020 20:32:57 -0400</pubDate>
-    <lastBuildDate>Fri, 10 Jul 2020 20:32:57 -0400</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2020 10:32:14 -0400</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2020 10:32:14 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -229,7 +229,7 @@ Products really do end up looking like the teams that create them&lt;/p&gt;
 
 &lt;p&gt;The book “Platform Ecosystems: Aligning Architecture, Governance, and Strategy” has a number of profound statements on this area. The chief one is:&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;“The architecture of a platform is inseparable from how it out to be governed.”&lt;/p&gt;
+  &lt;p&gt;“The architecture of a platform is inseparable from how it ought to be governed.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;That is the real power of API governance.&lt;/p&gt;
