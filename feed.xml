@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Aug 2020 11:29:00 -0400</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2020 11:29:00 -0400</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2020 11:34:06 -0400</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2020 11:34:06 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -26,6 +26,7 @@
   &lt;li&gt;&lt;a href=&quot;#balks-law&quot;&gt;Balk’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#betteridges-law-of-headlines&quot;&gt;Betteridge’s Law of Headlines&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#bike-shedding&quot;&gt;Bike Shedding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#brandolinis-law&quot;&gt;Brandolini’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#brookss-law&quot;&gt;Brook’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#clarkes-third-law&quot;&gt;Clarke’s Third Law&lt;/a&gt;&lt;/li&gt;
@@ -81,6 +82,8 @@
 &lt;p&gt;Any article with a headline or title that ends in a question mark can be summarized by ‘no’. &lt;a href=&quot;https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines&quot;&gt;Attributed to British technology journalist Ian Betteridge&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;bike-shedding&quot;&gt;Bike Shedding&lt;/h3&gt;
 &lt;p&gt;The act of wasting time on trivial details while important matters are inadequately attended to. See also &lt;a href=&quot;#parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;brandolinis-law&quot;&gt;Brandolini’s Law&lt;/h3&gt;
+&lt;p&gt;Says “the amount of energy needed to refute bullshit is an order of magnitude bigger than to produce it.” Named for Alberto Brandolini, an Italian programmer.&lt;/p&gt;
 &lt;h3 id=&quot;brookss-law&quot;&gt;Brooks’s Law&lt;/h3&gt;
 &lt;p&gt;Adding people to a late software project makes it later. &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Mythical_Man-Month&quot;&gt;Attributed to Fred Brooks, author of the book Mythical Man Month&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&quot;cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/h4&gt;
@@ -251,6 +254,8 @@
         <category>Yak Shaving</category>
         
         <category>Jamie Zawinski</category>
+        
+        <category>Alberto Brandolini</category>
         
         
       </item>
