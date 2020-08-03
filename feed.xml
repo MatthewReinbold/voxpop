@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Aug 2020 11:34:06 -0400</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2020 11:34:06 -0400</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2020 13:47:49 -0400</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2020 13:47:49 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -86,7 +86,7 @@
 &lt;p&gt;Says “the amount of energy needed to refute bullshit is an order of magnitude bigger than to produce it.” Named for Alberto Brandolini, an Italian programmer.&lt;/p&gt;
 &lt;h3 id=&quot;brookss-law&quot;&gt;Brooks’s Law&lt;/h3&gt;
 &lt;p&gt;Adding people to a late software project makes it later. &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Mythical_Man-Month&quot;&gt;Attributed to Fred Brooks, author of the book Mythical Man Month&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id=&quot;cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/h4&gt;
+&lt;h3 id=&quot;cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/h3&gt;
 &lt;p&gt;You can either explain quantum computing so that it’s understandable or factually correct, but never both simultaneously. Attributed to Rory Cellan-Jones.&lt;/p&gt;
 &lt;h3 id=&quot;clarkes-third-law&quot;&gt;Clarke’s Third Law&lt;/h3&gt;
 &lt;p&gt;Any sufficiently advanced technology is indistinguishable from magic. Attributed to British science fiction writer Arthur C. Clarke.&lt;/p&gt;
