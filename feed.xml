@@ -6,9 +6,254 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Jul 2020 12:55:36 -0400</pubDate>
-    <lastBuildDate>Fri, 24 Jul 2020 12:55:36 -0400</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2020 11:29:00 -0400</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2020 11:29:00 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Technology Aphorisms</title>
+        <description>&lt;p&gt;Recently I was talking to another professional with decades of technology experience. When I dropped a reference to &lt;em&gt;&lt;a href=&quot;#bike-shedding&quot;&gt;bike-shedding&lt;/a&gt;&lt;/em&gt;, I was met with a blank stare. Given he had never heard of the reference, much less know the difference between that and &lt;em&gt;&lt;a href=&quot;#yak-shaving&quot;&gt;yak shaving&lt;/a&gt;&lt;/em&gt;, I decided something had to be done.&lt;/p&gt;
+
+&lt;p&gt;Over my professional career, I’ve collected numerous pithy statements about technology. Some of these aphorisms are serious; others, not so much. &lt;a href=&quot;https://daverupert.com/2018/04/eponymous-laws-of-tech/&quot;&gt;But folks seem to find these things useful&lt;/a&gt;. Internalizing may not make you a better technologist. However, the next time you’re stuck, you’ll know you’re not alone.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2020/08/yak-shaving.png&quot; alt=&quot;A parody O'Reilly book cover for Yak Shaving.&quot; /&gt;&lt;figcaption&gt;Yak Shaving. The definitive guide.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, onto the aphorisms!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#ashbys-law&quot;&gt;Ashby’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#baader-meinhof-effect&quot;&gt;Baader-Meinhof Effect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#balks-law&quot;&gt;Balk’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#betteridges-law-of-headlines&quot;&gt;Betteridge’s Law of Headlines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#bike-shedding&quot;&gt;Bike Shedding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#brookss-law&quot;&gt;Brook’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#clarkes-third-law&quot;&gt;Clarke’s Third Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conways-law&quot;&gt;Conway’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cunninghams-law&quot;&gt;Cunningham’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dunbars-number&quot;&gt;Dunbar’s Number&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dunning-kruger-effect&quot;&gt;Dunning-Kruger Effect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#eaglesons-law&quot;&gt;Eagleson’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#finagles-law&quot;&gt;Finagle’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#galls-law&quot;&gt;Gall’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#gilders-law&quot;&gt;Gilder’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#godwins-law&quot;&gt;Godwin’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#goodharts-law&quot;&gt;Goodhart’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#hanlons-razor&quot;&gt;Hanlon’s Razor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#hofstadters-law&quot;&gt;Hofstadter’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#hyrums-law&quot;&gt;Hyrum’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#jevons-paradox&quot;&gt;Jevons Paradox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#kernighans-law&quot;&gt;Kernighan’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#kiss-principle&quot;&gt;KISS Principle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#law-of-the-second-floor&quot;&gt;Law of the Second Floor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#least-power-rule-of&quot;&gt;Least Power (Rule of)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lindbloms-razor&quot;&gt;Lindblom’s Razor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#linuss-law&quot;&gt;Linus’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#listers-law&quot;&gt;Lister’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#moores-law&quot;&gt;Moore’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#murphys-law&quot;&gt;Murphy’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ninety-ninety-rule&quot;&gt;Ninety-Ninety Rule&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#nivens-third-law&quot;&gt;Niven’s Third Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#occams-razor&quot;&gt;Occam’s Razor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#peter-principle&quot;&gt;Peter Principle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#rule-34&quot;&gt;Rule 34&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#singhs-inevitable-avoidance&quot;&gt;Singh’s Inevitable Avoidance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#socratic-paradox&quot;&gt;Socratic Paradox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#sturgeons-law&quot;&gt;Sturgeon’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#sunnyvale-principle&quot;&gt;Sunnyvale Principle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#teslers-law&quot;&gt;Tesler’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#wirths-law&quot;&gt;Wirth’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#yak-shaving&quot;&gt;Yak Shaving&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#zawinskis-law&quot;&gt;Zawinski’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#zenos-paradox&quot;&gt;Zeno’s Paradox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technology-aphorisms&quot;&gt;Technology Aphorisms&lt;/h2&gt;
+
+&lt;h3 id=&quot;ashbys-law&quot;&gt;Ashby’s Law&lt;/h3&gt;
+&lt;p&gt;For a system to be stable, the number of states that its control mechanism is capable of attaining must be greater than or equal to the number of states in the controlled system. Or, &lt;a href=&quot;https://twitter.com/ruthmalan/status/1158820721184903175?s=09&quot;&gt;in Jade Bloom’s words&lt;/a&gt;, “complex environments (and wicked problems) require complex organizations”. Attributed to British cybernetician W. Ross Ashby.&lt;/p&gt;
+&lt;h3 id=&quot;baader-meinhof-effect&quot;&gt;Baader-Meinhof Effect&lt;/h3&gt;
+&lt;p&gt;The name given to a frequency or recency illusion where once something has been noticed, then every instance of that thing is noticed, leading to the belief it has a high rate of occurrence.&lt;/p&gt;
+&lt;h3 id=&quot;balks-law&quot;&gt;Balk’s Law&lt;/h3&gt;
+&lt;p&gt;Everything you hate about the Internet is actually everything you hate about people. &lt;a href=&quot;http://www.theawl.com/2014/06/stop-blaming-the-internet-for-how-horrible-we-all-are&quot;&gt;Attributed to Awl co-founder Alex Balk&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;betteridges-law-of-headlines&quot;&gt;Betteridge’s Law of Headlines&lt;/h3&gt;
+&lt;p&gt;Any article with a headline or title that ends in a question mark can be summarized by ‘no’. &lt;a href=&quot;https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines&quot;&gt;Attributed to British technology journalist Ian Betteridge&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;bike-shedding&quot;&gt;Bike Shedding&lt;/h3&gt;
+&lt;p&gt;The act of wasting time on trivial details while important matters are inadequately attended to. See also &lt;a href=&quot;#parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;brookss-law&quot;&gt;Brooks’s Law&lt;/h3&gt;
+&lt;p&gt;Adding people to a late software project makes it later. &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Mythical_Man-Month&quot;&gt;Attributed to Fred Brooks, author of the book Mythical Man Month&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/h4&gt;
+&lt;p&gt;You can either explain quantum computing so that it’s understandable or factually correct, but never both simultaneously. Attributed to Rory Cellan-Jones.&lt;/p&gt;
+&lt;h3 id=&quot;clarkes-third-law&quot;&gt;Clarke’s Third Law&lt;/h3&gt;
+&lt;p&gt;Any sufficiently advanced technology is indistinguishable from magic. Attributed to British science fiction writer Arthur C. Clarke.&lt;/p&gt;
+&lt;h3 id=&quot;conways-law&quot;&gt;Conway’s Law&lt;/h3&gt;
+&lt;p&gt;Any piece of software reflects the organizational structure that produced it. Attributed to computer scientist Melvin Conway.&lt;/p&gt;
+&lt;h3 id=&quot;cunninghams-law&quot;&gt;Cunningham’s Law&lt;/h3&gt;
+&lt;p&gt;The best way to get the right answer is not to ask questions; it’s to post the wrong answer. Attributed to the wiki creator, Ward Cunningham.&lt;/p&gt;
+&lt;h3 id=&quot;dunbars-number&quot;&gt;Dunbar’s Number&lt;/h3&gt;
+&lt;p&gt;The theory an individual can only maintain stable relationships with &lt;em&gt;up to&lt;/em&gt; 150 people. &lt;a href=&quot;https://en.wikipedia.org/wiki/Dunbar%27s_number&quot;&gt;Attributed to British anthropologist Robin Dunbar&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;dunningkruger-effect&quot;&gt;Dunning–Kruger Effect&lt;/h3&gt;
+&lt;p&gt;A cognitive bias in which unskilled individuals suffer from illusory superiority, mistakenly rating their ability much higher than average.  Described by social psychologists David Dunning and Justin Kruger.&lt;/p&gt;
+&lt;h3 id=&quot;eaglesons-law&quot;&gt;Eagleson’s Law&lt;/h3&gt;
+&lt;p&gt;Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.&lt;/p&gt;
+&lt;h3 id=&quot;finagles-law&quot;&gt;Finagle’s Law&lt;/h3&gt;
+&lt;p&gt;Anything that can go wrong will and at the worst possible moment.&lt;/p&gt;
+&lt;h3 id=&quot;galls-law&quot;&gt;Gall’s Law&lt;/h3&gt;
+&lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked.&lt;/p&gt;
+&lt;h3 id=&quot;gilders-law&quot;&gt;Gilder’s Law&lt;/h3&gt;
+&lt;p&gt;Bandwidth grows at least three times faster than computer power. &lt;a href=&quot;https://www.netlingo.com/word/gilders-law.php&quot;&gt;Attributed to author George Gilder&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;godwins-law&quot;&gt;Godwin’s Law&lt;/h3&gt;
+&lt;p&gt;An adage that asserts that the longer an online discussion goes on, the probability of a comparison involving Nazis or Hitler approaches 1. &lt;a href=&quot;http://en.wikipedia.org/wiki/Godwin%27s_law&quot;&gt;Promulgated by the American attorney and author Mike Godwin&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;goodharts-law&quot;&gt;Goodhart’s Law&lt;/h3&gt;
+&lt;p&gt;Turning a metric into a target makes it a bad metric. &lt;a href=&quot;https://en.wikipedia.org/wiki/Goodhart%27s_law&quot;&gt;Attributed to economist Charles Goodhart&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;hanlons-razor&quot;&gt;Hanlon’s Razor&lt;/h3&gt;
+&lt;p&gt;Never attribute to malice that which is adequately explained by stupidity. Coined by Robert J. Hanlon. See also &lt;a href=&quot;#occams-razor&quot;&gt;Occam’s Razor&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;hofstadters-law&quot;&gt;Hofstadter’s Law&lt;/h3&gt;
+&lt;p&gt;It always takes longer than you expect, even when you take into account Hofstadter’s Law.&lt;/p&gt;
+&lt;h3 id=&quot;hyrums-law&quot;&gt;Hyrum’s Law&lt;/h3&gt;
+&lt;p&gt;With a sufficient number of users of an API, it does not matter what you promised in the contract. All observable behaviors of your interface will be depended upon by somebody. Attributed to Hyrum Wright, a Google software engineer.&lt;/p&gt;
+&lt;h3 id=&quot;jevons-paradox&quot;&gt;Jevons Paradox&lt;/h3&gt;
+&lt;p&gt;An economic phenomenon that says when technological process increases the efficiency with which something is used, the rate of consumption exceeds previous consumption due to increasing demand. Named for English economist William Stanley Jevons.&lt;/p&gt;
+&lt;h3 id=&quot;kernighans-law&quot;&gt;Kernighan’s Law&lt;/h3&gt;
+&lt;p&gt;Debugging is twice as hard as writing code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. &lt;a href=&quot;https://www.makeuseof.com/tag/weird-programming-principles/&quot;&gt;Attributed to author and C Programmer Brian Kernighan&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;kiss-principle&quot;&gt;KISS Principle&lt;/h3&gt;
+&lt;p&gt;‘KISS’ is an acronym that stands for “Keep It Simple, Stupid”. Associated with aircraft engineer Kelly Johnson and noted by the U.S. Navy in 1960. See &lt;a href=&quot;#occams-razor&quot;&gt;Occam’s razor&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;law-of-the-second-floor&quot;&gt;Law of the Second Floor&lt;/h3&gt;
+&lt;p&gt;Built upon &lt;a href=&quot;#dunbars-number&quot;&gt;Dunbar’s Number&lt;/a&gt;, the law of the 2nd-floor states that no person two levels above or below you on an org chart really understands what you do for a living.&lt;/p&gt;
+&lt;h3 id=&quot;least-power-rule-of&quot;&gt;Least Power (Rule of)&lt;/h3&gt;
+&lt;p&gt;A design principle that suggests &lt;a href=&quot;https://en.wikipedia.org/wiki/Rule_of_least_power&quot;&gt;choosing the least powerful [computer] language suitable for a given purpose&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;lindbloms-razor&quot;&gt;Lindblom’s Razor&lt;/h3&gt;
+&lt;p&gt;Never attribute to incompetence that which can be adequately explained by systemic issues. See also &lt;a href=&quot;#hanlons-razor&quot;&gt;Hanlon’s Razor&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;linuss-law&quot;&gt;Linus’s Law&lt;/h3&gt;
+&lt;p&gt;Given enough eyeballs, all bugs are shallow. Formulated by Eric S. Raymond in his essay and book &lt;em&gt;The Cathedral and the Bazaar&lt;/em&gt; in honor of Linus Torvalds.&lt;/p&gt;
+&lt;h3 id=&quot;listers-law&quot;&gt;Lister’s Law&lt;/h3&gt;
+&lt;p&gt;People under time pressure don’t think faster. Attributed to Timothy Lister.&lt;/p&gt;
+&lt;h3 id=&quot;moores-law&quot;&gt;Moore’s Law&lt;/h3&gt;
+&lt;p&gt;The observation that the number of transistors in an integrated circuit doubles approximately every two years. Attributed to Gordon Moore, the co-founder of Fairchild Semiconductor and CEO and co-founder of Intel.&lt;/p&gt;
+&lt;h3 id=&quot;murphys-law&quot;&gt;Murphy’s Law&lt;/h3&gt;
+&lt;p&gt;Anything that can go wrong will go wrong. Named for Edward Murphy.&lt;/p&gt;
+&lt;h3 id=&quot;ninety-ninety-rule&quot;&gt;Ninety-Ninety Rule&lt;/h3&gt;
+&lt;p&gt;The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development. Yes, that is supposed to add up to 180%. The rule is attributed to Tom Cargill of Bell Labs and popularized by Jon Bentley.&lt;/p&gt;
+&lt;h3 id=&quot;nivens-third-law&quot;&gt;Niven’s Third Law&lt;/h3&gt;
+&lt;p&gt;It is easier to destroy than to create. Part of a series of laws named for science fiction author Larry Niven.&lt;/p&gt;
+&lt;h3 id=&quot;occams-razor&quot;&gt;Occam’s Razor&lt;/h3&gt;
+&lt;p&gt;A problem-solving principle that is paraphrased as “the simplest explanation is most likely the right one”. Attributed to English Franciscan friar William of Ockham.&lt;/p&gt;
+&lt;h3 id=&quot;parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/h3&gt;
+&lt;p&gt;At any board meeting the amount of time devoted to an item on the agenda will be the inverse proportion to the issue’s difficulty. Said another way, “The time spent on any item of the agenda will be inverse proportion to the sum [of money] involved.” Named for C. Northcote Parkinson. &lt;a href=&quot;#bike-shedding&quot;&gt;See also Bike Shedding&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;peter-principle&quot;&gt;Peter Principle&lt;/h3&gt;
+&lt;p&gt;Employees tend to rise to their level of incompetence. A management concept developed by Laurence J. Peter.&lt;/p&gt;
+&lt;h3 id=&quot;rule-34&quot;&gt;Rule 34&lt;/h3&gt;
+&lt;p&gt;Rule 34 is an internet meme which states, “If it exists, there is porn of it. No exceptions.” Thought to have originated from a comic drawn by Peter Morley-Souter.&lt;/p&gt;
+&lt;h3 id=&quot;singhs-inevitable-avoidance&quot;&gt;Singh’s Inevitable Avoidance&lt;/h3&gt;
+&lt;p&gt;When organizations don’t know how to solve their problems, they will tweak their process to accommodate their dysfunctions. &lt;a href=&quot;https://agileotter.blogspot.com/2015/10/principles-for-large-organizations.html&quot;&gt;Spotted by Tim Ottinger&lt;/a&gt; and attributed to Asshok Singh.&lt;/p&gt;
+&lt;h3 id=&quot;socratic-paradox&quot;&gt;Socratic Paradox&lt;/h3&gt;
+&lt;p&gt;A saying, attributed to Greek philosopher Socrates, stating, “I know that I know nothing”. &lt;a href=&quot;http://en.wikipedia.org/wiki/I_know_that_I_know_nothing&quot;&gt;It is derived from Plato’s account but not one that Socrates ever recorded as saying.&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;sturgeons-law&quot;&gt;Sturgeon’s Law&lt;/h3&gt;
+&lt;p&gt;Ninety percent of anything is crap. Coined by Theodore Sturgeon, an American science fiction author and critic.&lt;/p&gt;
+&lt;h3 id=&quot;sunnyvale-principle&quot;&gt;Sunnyvale Principle&lt;/h3&gt;
+&lt;p&gt;There’s never time to do it right, but always time to do it over. Attributed to Jack Bergman.&lt;/p&gt;
+&lt;h3 id=&quot;teslers-law&quot;&gt;Tesler’s Law&lt;/h3&gt;
+&lt;p&gt;Every app has an inherent amount of irreducible complexity. The challenge is how to deal with it. On the surface, spending a development week to save a minute on a common task may seem unjustifiable. &lt;a href=&quot;http://www.programmersparadox.com/2008/08/17/teslers-law/&quot;&gt;However, if there are a million users, the consumer is penalized for making the engineer’s job easier&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;wirths-law&quot;&gt;Wirth’s Law&lt;/h3&gt;
+&lt;p&gt;Software is getting slower more rapidly than hardware becomes faster. Named after Niklaus Wirth who discussed it in his 1995 article, “A Plea for Lean Software”.&lt;/p&gt;
+&lt;h3 id=&quot;yak-shaving&quot;&gt;Yak Shaving&lt;/h3&gt;
+&lt;p&gt;Refers to a task that leads you to perform another related task and so on, with each subsequent task leading one further from their original goal. This continues until, eventually, you find yourself shaving a yak. Coined by Carlin Vieri after viewing an episode of &lt;em&gt;The Ren and Stimpy Show&lt;/em&gt; featuring “Yak Shaving Day”.&lt;/p&gt;
+&lt;h3 id=&quot;zawinskis-law&quot;&gt;Zawinski’s Law&lt;/h3&gt;
+&lt;p&gt;Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can. Named for American computer programmer Jamie Zawinski.&lt;/p&gt;
+&lt;h3 id=&quot;zenos-paradox&quot;&gt;Zeno’s Paradox&lt;/h3&gt;
+&lt;p&gt;The belief in change actually occurring is a mistake, and that any motion forward is nothing but an illusion. Thought to be devised by Greek philosopher Zeno of Elea.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 -0400</pubDate>
+        <link>https://matthewreinbold.com/2020/08/03/Technology-Aphorisms/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2020/08/03/Technology-Aphorisms/</guid>
+        
+        <category>Jade Bloom</category>
+        
+        <category>W. Ross Ashby</category>
+        
+        <category>Alex Balk</category>
+        
+        <category>Ian Betteridge</category>
+        
+        <category>Fred Brooks</category>
+        
+        <category>Rory Cellan-Jones</category>
+        
+        <category>Arthur C. Clarke</category>
+        
+        <category>Conway's Law</category>
+        
+        <category>Melvin Conway</category>
+        
+        <category>Ward Cunningham</category>
+        
+        <category>Robin Dunbar</category>
+        
+        <category>David Dunning</category>
+        
+        <category>Justin Kruger</category>
+        
+        <category>George Gilder</category>
+        
+        <category>Mike Godwin</category>
+        
+        <category>Charles Goodhart</category>
+        
+        <category>Charles Goodhart</category>
+        
+        <category>Hyrum Wright</category>
+        
+        <category>William Stanley Jevons</category>
+        
+        <category>Brian Kernighan</category>
+        
+        <category>Kelly Johnson</category>
+        
+        <category>Linus Torvalds</category>
+        
+        <category>Eric S. Raymond</category>
+        
+        <category>Timothy Lister</category>
+        
+        <category>Gordon Moore</category>
+        
+        <category>Tom Cargill</category>
+        
+        <category>Jon Bentley</category>
+        
+        <category>Larry Niven</category>
+        
+        <category>William of Ockham</category>
+        
+        <category>C. Northcote Parkinson</category>
+        
+        <category>Laurence J. Peter</category>
+        
+        <category>Peter Morley-Souter</category>
+        
+        <category>Tim Ottinger</category>
+        
+        <category>Socrates</category>
+        
+        <category>Theodore Sturgeon</category>
+        
+        <category>Jack Bergman</category>
+        
+        <category>Niklaus Wirth</category>
+        
+        <category>Carlin Vieri</category>
+        
+        <category>The Ren and Stimpy Show</category>
+        
+        <category>Bike Shedding</category>
+        
+        <category>Yak Shaving</category>
+        
+        <category>Jamie Zawinski</category>
+        
+        
+      </item>
     
       <item>
         <title>Leading People in Crisis</title>
@@ -157,9 +402,12 @@
 
 &lt;p&gt;In 1968, Melvin Conway published a paper entitled “How do Committees Invent?”. He proposed that the way that an organization was arranged directly and dramatically affects how software is made.&lt;/p&gt;
 
-&lt;p&gt;That early anecdotal observation was later supported by quantitative research. It stated that: 
-Organizational distribution and product modularity are correlated
-Products really do end up looking like the teams that create them&lt;/p&gt;
+&lt;p&gt;That early anecdotal observation was later supported by quantitative research. It stated that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Organizational distribution and product modularity are correlated&lt;/li&gt;
+  &lt;li&gt;Products really do end up looking like the teams that create them&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Suppose that a company has two development teams that rarely talked with one another: one supporting the warehouse and another supporting the back office. If you set out on an API journey, Conway’s Law predicts that the resulting architecture from those teams would consist of two APIs: one for the warehouse, one for the back office. This despite the fact an external 3rd party wishes to integrate with your single company, not your org chart parts.&lt;/p&gt;
 
@@ -322,7 +570,7 @@ Products really do end up looking like the teams that create them&lt;/p&gt;
 
 &lt;p&gt;We deal with people. We spend our time and budget optimizing machines, but it is the people that matter. It is the people that determine the success or failure of our efforts.&lt;/p&gt;
 
-&lt;p&gt;Working with people to build a better organizational structure &lt;em&gt;is a skill like any other&lt;/em&gt;. It can be learned, but only when our API designers and architects stop ending at the interface and start sociotechnical entrepreneurship. Your organization’s ability to deliver business value reliably, scalably, in the face of accelerating change depends on it.&lt;/p&gt;
+&lt;p&gt;Working with people to build a better organizational structure &lt;em&gt;is a skill like any other&lt;/em&gt;. It can be learned, but only when our API designers and architects stop ending at the interface and start entrepreneuring sociotechnical relationships. Your organization’s ability to deliver business value reliably, scalably, in the face of accelerating change depends on it.&lt;/p&gt;
 
 &lt;p&gt;Change is not Kubernetes. Change is not a service mesh. Change happens with people. That is why it is time to git gud on the peoples.&lt;/p&gt;
 
@@ -334,7 +582,7 @@ Products really do end up looking like the teams that create them&lt;/p&gt;
 
 &lt;p&gt;When it comes to software systems, many conclude that API governance is a checklist, or a set of rules that must be applied. While the enforcement of common practice on something like an OpenAPI description of intent might be a tactic of governance, it is not a strategy.&lt;/p&gt;
 
-&lt;p&gt;Governance broadly refers to who decides what is in a platform’s ecosystem. Said more generally, &lt;strong&gt;governance is a framework for how we choose to co-exist&lt;/strong&gt;. Checking for naming inconsistencies and implementation detail leakage out through the interface is one thing. I’m challenging you to get to a higher level. That level is to be a conscientious creator of organizational arrangements.&lt;/p&gt;
+&lt;p&gt;Governance broadly refers to who decides what is in a platform’s ecosystem. Said more generally, &lt;strong&gt;governance is a framework for how we choose to co-exist&lt;/strong&gt;. Checking for naming inconsistencies and implementation detail leakage out through the interface is one thing. I’m challenging you to get to a higher level. That level is to be a organizational designer.&lt;/p&gt;
 
 &lt;p&gt;The invitation to co-create these arrangements changes the way information flows in a company. Changing the way communication flows is a precursor for changing behavior, and changing behavior is a precursor for changing the organization itself.&lt;/p&gt;
 
@@ -1632,54 +1880,6 @@ To date, I have set up monthly, recurring donations to each of the following org
         <category>climate</category>
         
         <category>carbon footprint</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>APIs and Digital Transformation</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/05/digital-midi-controller.png&quot; /&gt;&lt;figcaption&gt;&quot;Digital Midi Controller&quot;, Photo by &lt;a href=&quot;https://unsplash.com/photos/jUwvjOmCTWc&quot;&gt;Luca Bravo on Unsplash&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Recently, Bill Doerrfeld interviewed me for a piece that appeared on the Adobe CMO blog entitled “&lt;a href=&quot;https://www.cmo.com/features/articles/2019/5/13/entering-the-platform-economy-why-apis-and-integrations-are-crucial.html&quot;&gt;The Platform Economy: Why APIs And Integrations Are Crucial&lt;/a&gt;”. As usual, I ended up preparing &lt;em&gt;way&lt;/em&gt; more than what eneded up on the final piece. An sampling of my expanded responses is below.&lt;/p&gt;
-
-&lt;p&gt;In my Net API Notes email newsletter, &lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/api-academy-and-new-beginnings-net-api-notes-for-2019-01-31&quot;&gt;I talked about the changing API space&lt;/a&gt; earlier this year. Hopefully that, as well as the answers below, provide some clarity for executive leadership on how the landscape is evolving.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-the-current-state-of-the-api-economy&quot;&gt;What the current state of the API economy?&lt;/h3&gt;
-&lt;p&gt;The API economy, however it is defined, is in a state of transition. For the last several years companies have limited, or even shuttered, their “open” developer in favor of explicit partner-to-partner relationships. From, most recently, Lyft, to Venmo, Facebook, and Twitter, companies that aren’t perusing an explicit platform strategy have significantly changed how they think about the strategic potential for APIs.&lt;/p&gt;
-
-&lt;p&gt;A number of factors have driven this. On the one hand, I see an end to companies who released public APIs with a “build it, and they will come” philosophy. Without a vision of how corralling 3rd party developers would bolster a company’s strategic execution, these developer portals were cost centers primed for elimination as soon as the platform fervor passed. (For some comprehensive thinking on the role of software platforms, I’ve been enjoying “&lt;a href=&quot;https://www.amazon.com/Platform-Ecosystems-Aligning-Architecture-Governance/dp/0124080669/ref=sr_1_3&quot;&gt;Platform Ecosystems: Aligning Architecture, Governance, and Strategy&lt;/a&gt;” by Amrit Tiwana.)&lt;/p&gt;
-
-&lt;p&gt;More recently, I see companies increasingly aware of their expanded risk profile due to public API access. Even with robust security, and the API is behaving as intended, &lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/rest-api-notes-for-2018-04-11&quot;&gt;the Cambridge-Analytica scandal awakened many&lt;/a&gt;. We now see how the seemingly benign exchange and aggregation of information can have huge ramifications. Simply “putting something out there” not only can be expensive, but it has consequences.&lt;/p&gt;
-
-&lt;p&gt;However, that’s a footnote in the larger story. The more significant economic impact of APIs is how companies are using them to achieve greater marketplace agility. It’s the internal decomposition - the reduction coupling and coordination overhead - where the real digital transformation lies. The economic benefit from Netflix’s API approach is not from the developer program (something they ended in 2014). Highly modular architecture allows experiences, powered by APIs, everywhere on everything.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-have-apis-historically-disrupted-digital-business-how-will-platform-platform-integrations-continue-to-evolve&quot;&gt;How have APIs historically disrupted digital business? How will platform-platform integrations continue to evolve?&lt;/h3&gt;
-
-&lt;p&gt;APIs have had, and will continue to have, an out-sized effect on reshaping the cultures of the companies that truly adopt them. Whether it is adoption of the “infrastructure as code” and CI/CD pipelines necessary to efficiently deploy them, or the rearrangement of teams to support bounded context modularity (the “reverse Conway maneuver”), APIs challenge existing organizational and operational structures. (For more information exploring the cultural implecations of APIs, please see the writeup of my conference talk, “&lt;a href=&quot;https://matthewreinbold.com/2018/10/31/Gardeners-Approach/&quot;&gt;A Gardner’s Approach to Growing an API Culture&lt;/a&gt;”).&lt;/p&gt;
-
-&lt;p&gt;What we’ll see is a continued diversification of useful interactions patterns beyond HTTP’s traditional request/response model. The need for real-time workflows will necessitate investment in, and understanding of things like webhooks (also referred to as callbacks or subscriptions), websockets, and more. The interest in machine learning, along with a greater emphasis on storing and leveraging data, will necessitate more ‘algorithms-as-a-service’ APIs.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-can-apis-be-used-in-b2b-partner-strategies&quot;&gt;How can APIs be used in B2B partner strategies?&lt;/h3&gt;
-
-&lt;p&gt;More businesses realize the impact data, not only theirs but others, can have on their operations. The responsible exchange of this data is critical. APIs make organizing and managing these partnerships more easily possible due to the wide variety of proven technologies. Everything “speaks” HTTP, securing and monitoring API gateways have vetted playbooks and standards (like OAuth), and there’s a mature talent pool available.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-are-the-major-takeaways-for-cmos--ctos&quot;&gt;What are the major takeaways for CMOs &amp;amp; CTOs?&lt;/h3&gt;
-
-&lt;p&gt;Technical leadership is experiencing pressure from all directions. To one side, they are expected to deliver impactful digital transformation to compete in the future marketplace. Simultaneously, they have to meet new (and growing) data governance expectations. APIs, with their standardization of message exchange and centralized points of control, can play an essential role in both objectives.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 06 May 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2019/05/06/APIs-and-Digital-Transformation/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2019/05/06/APIs-and-Digital-Transformation/</guid>
-        
-        <category>digital transformation</category>
-        
-        <category>APIs</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>AsyncAPI</category>
-        
-        <category>OAuth</category>
         
         
       </item>
