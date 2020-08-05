@@ -6,9 +6,96 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Aug 2020 13:47:49 -0400</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2020 13:47:49 -0400</lastBuildDate>
+    <pubDate>Wed, 05 Aug 2020 14:26:19 -0400</pubDate>
+    <lastBuildDate>Wed, 05 Aug 2020 14:26:19 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Our Shared Road</title>
+        <description>&lt;p&gt;From an individual API producer’s perspective, adherence to an enterprise company’s design style guide may seem puzzling. “Why do we have to learn these naming conventions?” they’ll ask. Other questions include, “What difference does our style of versioning make?” or “Why can’t we use the authentication scheme that worked at my previous company?”&lt;/p&gt;
+
+&lt;p&gt;At the end of 2019, I did a series of “Back to Basics” roadshows for my day job. According to various surveys, &lt;a href=&quot;https://hackerlife.co/blog/san-francisco-large-corporation-employee-tenure&quot;&gt;the average developer tenure at any company is between one and two years&lt;/a&gt;. My goal, through the roadshows, was to re-establish the principles that have guided our five-year-old program. I’ve used urban planning stories before, whether that is &lt;a href=&quot;https://matthewreinbold.com/2015/05/12/APIsandGovernance/&quot;&gt;Brazillian Favelas&lt;/a&gt; or &lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2020-01-24-mailbag-issue-119&quot;&gt;Paris’s tree-lined boulevards&lt;/a&gt;. To justify the need for enterprise standards for a degree of design consistency, I used a traffic regulation analogy.&lt;/p&gt;
+
+&lt;p&gt;I was reminded of it because of the most recent Postlight podcast, “&lt;a href=&quot;https://postlight.com/podcast/restricting-freedom-for-more-freedom-on-the-parallels-between-wearing-a-mask-and-regulating-tech&quot;&gt;Restricting Freedom for More Freedom: On The Parallels Between Wearing a Mask and Regulating Tech&lt;/a&gt;”. In that show, hosts Paul Ford and Rich Ziade discuss people treating mask requirements during Covid-19 as a violation of constitutional rights (spoiler: &lt;em&gt;they’re not&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Sometimes inconveniencing the individual is the best for the larger group. That goes for whether we’re talking about masks, software governance, or traffic. Below a snippet of my argument from that “Back to Basics” deck.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2020/08/road.png&quot; /&gt;&lt;figcaption&gt;The Road Forward&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;modern-software-architecture-is-complex&quot;&gt;Modern software architecture is complex&lt;/h2&gt;
+
+&lt;p&gt;John Ousterhout, in his book “A Philosophy of Software Design”, defines complexity as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“-anything related to the structure of a software system that makes it hard to understand and modify the system.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In other words, a barrier to the kind of business agility that we crave, that is needed to win in competitive marketplaces, is how hard our architectures are to grok.&lt;/p&gt;
+
+&lt;h2 id=&quot;message-passing-hides-complexity-behind-an-interface&quot;&gt;Message Passing Hides Complexity Behind an Interface&lt;/h2&gt;
+
+&lt;p&gt;Message passing is a means of abstracting complexity and hiding behind an interface.&lt;/p&gt;
+
+&lt;p&gt;That abstraction allows programmers to work on a system without being exposed to all a system’s complexity at once. An API is a simplified view that omits unimportant details (or at least those details unimportant to the API’s consumer). It makes it easier for us to think about and get stuff done in complex environments.&lt;/p&gt;
+
+&lt;h2 id=&quot;going-faster-and-high-quality-are-not-diametrically-opposed&quot;&gt;“Going Faster” and “High Quality” Are Not Diametrically Opposed&lt;/h2&gt;
+
+&lt;p&gt;“Going faster” is &lt;strong&gt;not&lt;/strong&gt; a matter of getting rid of the rules. Martin Fowler,  elegantly states to the contrary, that this is a false trade-off. In his piece, “&lt;a href=&quot;https://martinfowler.com/articles/is-quality-worth-cost.html&quot;&gt;Is High Quality Software Worth the Cost?&lt;/a&gt;” he outlines how quality efforts, over time, translate to great speed for the entire system over any individual’s speed.&lt;/p&gt;
+
+&lt;h2 id=&quot;quality-design-is-a-financial-imperative&quot;&gt;Quality Design is a Financial Imperative&lt;/h2&gt;
+
+&lt;p&gt;Low-quality design, while quick to make, incurs a lifetime tax. Maintenance is harder, requires additional overhead, and compares less favorably in the marketplace. Quality is not a moral argument, something that makes our inner artisan feel good. Quality design is a financial imperative to increase our software return on investment.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The Key to Writing Less code and causing less rework is to write better abstractions” - Eric Elliot, &lt;em&gt;distributed systems expert and author&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;we-need-continual-renewal-and-reflection-on-what-quality-means-for-us&quot;&gt;We Need Continual Renewal and Reflection on What Quality Means for Us&lt;/h2&gt;
+
+&lt;p&gt;That is why it is essential that each of us, whether we are product managers, architects, or engineering leads, continually renew our understanding and application of basic core principles.&lt;/p&gt;
+
+&lt;p&gt;A garden is not something that you plant in the spring and wander away from. The ability to reap what was sown requires constant attention and care. We have to rededicate ourselves to executing on the fundamental, basic things before overcoming complexity is possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-road-is-shared&quot;&gt;Our Road is Shared&lt;/h2&gt;
+
+&lt;p&gt;And the most basic thing, the first principle - the one to remember if you remember nothing else - is that we’re in this together.&lt;/p&gt;
+
+&lt;p&gt;When there is only one car on the road, then the fastest way to get from point A to B is to ignore all speed limits, go whichever way they want on one-way roads, and view all traffic signage as optional. From their perspective, an individual team will wail and gnash their teeth at how much faster they could get to production if they were only allowed to do whatever they want. Imagine the freedom(!!!)… for them.&lt;/p&gt;
+
+&lt;p&gt;However, there is not a single team. There are hundreds on their journeys, crisscrossing each other and going to and fro. Things like speed limits, lane markings, stop signs, and traffic signals are all there to move the most people to the greatest number of places, safely. We exist within a system. The road we travel is shared between us. If we are going to arrive, it will be through minor, in-the-moment, inconveniences made for the larger, more-long-lasting, good of all.&lt;/p&gt;
+
+&lt;p&gt;~fin~&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Aug 2020 00:00:00 -0400</pubDate>
+        <link>https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</guid>
+        
+        <category>covid-19</category>
+        
+        <category>favelas</category>
+        
+        <category>Paris</category>
+        
+        <category>Brazil</category>
+        
+        <category>Paul Ford</category>
+        
+        <category>Rich Ziade</category>
+        
+        <category>API governance</category>
+        
+        <category>presos</category>
+        
+        <category>postlight</category>
+        
+        <category>Martin Fowler</category>
+        
+        <category>Eric Elliot</category>
+        
+        <category>John Ousterhout</category>
+        
+        
+      </item>
     
       <item>
         <title>Technology Aphorisms</title>
@@ -1794,97 +1881,6 @@ understand and modify the system.”&lt;/p&gt;
         <category>Pace Layers</category>
         
         <category>APIs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>On Travel</title>
-        <description>&lt;p&gt;For a variety of reasons, I’ve been rethinking my approach to physical travel - particularly for conferences. Don’t get me wrong; there are few things in life more thrilling for me &lt;a href=&quot;https://matthewreinbold.com/2014/05/20/magiccircle/&quot;&gt;than discovering a magic circle&lt;/a&gt;, particularly when reconnecting with online friends. However, the unrecoverable time there and back, &lt;a href=&quot;https://www.sciencemag.org/careers/2019/05/why-some-climate-scientists-are-saying-no-flying&quot;&gt;the carbon footprint accrued&lt;/a&gt;, and the time away from my family looms ever larger.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/gretathunberg/status/1119308213722275840?lang=en&quot;&gt;To paraphrase climate activist Greta Thunberg&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“What we need are role models who practice what they preach and live within sustainable planetary norms. Otherwise we just normalize the high carbon lifestyles of jet-setting ‘thinkfluencers’.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/06/plane.png&quot; /&gt;&lt;figcaption&gt;High above the clouds the problems all look so small.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Before going further, I emphatically recognize that choice for me to change my behavior is a privileged decision. For new professionals, the networking opportunities created by regular travel may be exactly what is needed to propel them forward. Others may not enjoy their company’s support and encouragement to attend events, thus making the rare opportunities that much more precious. I get it and hold no judgment.&lt;/p&gt;
-
-&lt;p&gt;I get a lot out of attending conferences. Just &lt;em&gt;stopping&lt;/em&gt; means replacing those imagination catalysts and peer feedback loops with something else. Here’s what I’m trying.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Expose your mental models to the open air… Get your model out there where it can be shot at. Invite others to challenge your assumptions and add their own. Instead of becoming a champion for one possible explanation or hypothesis or model, collect as many as possible.” - Donella Meadows&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;building-local-communities-of-practice&quot;&gt;&lt;a name=&quot;community&quot;&gt;Building Local Communities of Practice&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;If running &lt;a href=&quot;https://netapi.events&quot;&gt;NetAPI.events&lt;/a&gt;, a list of worldwide, in-person API events has taught me anything, it’s that there’s always lots of local meetups and gatherings happening every week for most metropolitan areas. In the past, these events were something I would drop-by if there was nothing else going on (an increasingly rare occurrence these days).&lt;/p&gt;
-
-&lt;p&gt;This year I’m making local events like the &lt;a href=&quot;https://www.meetup.com/DC-Web-API-User-Group/&quot;&gt;DC Web API&lt;/a&gt; and &lt;a href=&quot;https://www.meetup.com/Technical-Product-Management-Community-of-Greater-DC&quot;&gt;Technical Product Manager&lt;/a&gt; meetups more of a priority. There’s also a host of other noteworthy things happening just up and down the I-95 corridor. Often these events are free, have interesting things to say, and need the participating from folks like you and me to make them successful.&lt;/p&gt;
-
-&lt;h2 id=&quot;reapplying-travel-time-to-connecting-with-new-audiences&quot;&gt;&lt;a name=&quot;travel&quot;&gt;Reapplying Travel Time to Connecting with New Audiences&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Speaking of participating, the time I put into a user group presentation is about the same as the preparation I do for a conference talk. And yet, as has happened in the past, that investment has little return beyond a single delivery.&lt;/p&gt;
-
-&lt;p&gt;I’ve tried to be more diligent about blogging talks in detail (like about ‘&lt;a href=&quot;https://matthewreinbold.com/2018/10/31/Gardeners-Approach/&quot;&gt;Growing Software Culture&lt;/a&gt;’, ‘&lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;API Governance&lt;/a&gt;’, or ‘&lt;a href=&quot;https://matthewreinbold.com/2017/12/07/ConwayAndAPIDesign/&quot;&gt;noodling on Conway’s Law&lt;/a&gt;’). However, this is a golden age of web-enabled audio and video. I want to put out more mixed media for those that don’t cherish chunks of text.&lt;/p&gt;
-
-&lt;p&gt;And rather than create a single deck for the year and try and reuse it at a handful of events, what I’d instead do is use the time saved not traveling and create &lt;em&gt;more&lt;/em&gt; conversation starters. For 2019, I have a goal to create &lt;strong&gt;six &lt;em&gt;different&lt;/em&gt; presentations in six months&lt;/strong&gt;. Thus far I have:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;May - ‘Getting Started with API Governance’&lt;/li&gt;
-  &lt;li&gt;June - ‘&lt;a href=&quot;https://matthewreinbold.com/2019/08/02/AgileAntipatterns/&quot;&gt;Planning Tetris, Feature Factories, and Success Theater - Agile Anti-Patterns and How to Avoid Them’ (illustrated using techniques taken from the Lego Serious Play method&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;July - ‘&lt;a href=&quot;https://matthewreinbold.com/2019/07/17/OvercomingComplexity/&quot;&gt;Overcoming Complexity through the Principle of Least Power&lt;/a&gt;’&lt;/li&gt;
-  &lt;li&gt;August - Successful Storytelling with Executive Leadership&lt;/li&gt;
-  &lt;li&gt;October - Internal ‘Back to API Basics’ Roadshow&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;October - ‘&lt;a href=&quot;https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/&quot;&gt;A Roadmap for AI Governance&lt;/a&gt;’&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;(I’ll add links to the presentations as I get them posted online) *&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further, there are all sorts of online outlets that I could be writing for. I wrestle with this. I am a big believer in not only owning one’s words, but publishing them on one’s own site. There are lots of places happy to abscond with one’s thought juice in exchange for “exposure”. However, there are still good people out there who, through hard work and passion to craft, have attracted audiences where I would feel at home. It is a matter of finding the right outlet.&lt;/p&gt;
-
-&lt;h2 id=&quot;salon-cohort&quot;&gt;&lt;a name=&quot;salon&quot;&gt;Salon Cohort&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I admire &lt;a href=&quot;https://www.annmarie-thomas.com/&quot;&gt;AnnMarie Thomas&lt;/a&gt;. She is a STEM educator and author of the Making Makers. For the past several years, &lt;a href=&quot;https://annmariethomas.typepad.com/annmarie-thomas/2016/06/salon.html&quot;&gt;she has curated a monthly “Play Date” across time zones called the “Salon”&lt;/a&gt;. It is a way, using video conferencing technology, of regularly connecting exciting people for lively conversation, regardless of where they are.&lt;/p&gt;
-
-&lt;p&gt;I hoped to emulate the pattern and approached several folks to do something similar for the latter half of 2019. However, my initial call ran into issues; a number of people (justifiably) were unavailable, confused by my pitch, or didn’t respond.&lt;/p&gt;
-
-&lt;p&gt;I think there’s still an opportunity to create a regular online hangout that folks look forward to with the same enthusiasm and joy as they do meeting in physical space. Given everything else going on, I’ll rethink on how better to present this and try again in 2020.&lt;/p&gt;
-
-&lt;h2 id=&quot;when-i-do-have-to-travel&quot;&gt;&lt;a name=&quot;offset&quot;&gt;When I do Have to Travel&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;As I’m quick to point out, the point isn’t a draconian ban on &lt;em&gt;all&lt;/em&gt; travel; it’s to make smarter decisions when I &lt;em&gt;do&lt;/em&gt;. And sometimes there isn’t a choice, like when I am required to travel for work-related reasons.&lt;/p&gt;
-
-&lt;p&gt;In those cases, there are sites like &lt;a href=&quot;https://co2.myclimate.org/en/flight_calculators/new&quot;&gt;the carbon footprint calculator&lt;/a&gt;. It helps visualize the impact of air travel. More importantly, it provides options to support numerous programs for offsetting the impact of those trips. &lt;a href=&quot;https://www.youtube.com/watch?v=I-HCMbTDWVo&quot;&gt;I don’t have the carbon footprint of Elon Musk&lt;/a&gt;. However, every little bit helps and, when I &lt;em&gt;do&lt;/em&gt; travel in the future I will be sure to contribute to activities that mitigate the impact.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update: 2019-08-05&lt;/em&gt;
-To date, I have set up monthly, recurring donations to each of the following organizations to offset my travel footprint (and then some):&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://projectwren.com/&quot;&gt;Project Wren&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://offset.earth/&quot;&gt;Offset Earth&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://edenprojects.org/&quot;&gt;Eden Reforestation Project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Phil Sturgeon and his &lt;a href=&quot;https://phil.bike/trees/&quot;&gt;campaign to raise awareness for carbon offsets by cycling across Europe&lt;/a&gt; remains an inspriation.&lt;/p&gt;
-
-&lt;h2 id=&quot;wrapping-up&quot;&gt;&lt;a name=&quot;wrapup&quot;&gt;Wrapping Up&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The last several years (or the last decade, tbh) have been a strange time, filled with all sorts of grim portends. However, I think its important to remember the power of our agency among the uncertainty. No one person is going to solve everything. However, people feeling empowered to make purposeful, informed actions can be aggregated into profound change. We are not bound to the status quo until a change is forced on us; this is precisely the time to be running millions of little experiments, all incrementing toward something better.&lt;/p&gt;
-
-&lt;p&gt;Are you trying something different? Got something that isn’t on the list? I’d love to hear about it.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Jun 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2019/06/21/On-Travel/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2019/06/21/On-Travel/</guid>
-        
-        <category>travel</category>
-        
-        <category>conferences</category>
-        
-        <category>Donella Meadows</category>
-        
-        <category>Greta Thunberg</category>
-        
-        <category>climate</category>
-        
-        <category>carbon footprint</category>
         
         
       </item>

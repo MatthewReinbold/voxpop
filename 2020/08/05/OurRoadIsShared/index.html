@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>On Technical Debt</title>
-  <meta name="description" content="Every developer with a project under their belt understands that technical debt is a bad thing. But since it is an abstract concept &mdash; like love, or the...">
+  <title>Our Shared Road</title>
+  <meta name="description" content="From an individual API producer’s perspective, adherence to an enterprise company’s design style guide may seem puzzling. “Why do we have to learn these nami...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://matthewreinbold.com/2013/06/01/BoxesAndTechnicalDebt/">
+  <link rel="canonical" href="https://matthewreinbold.com/2020/08/05/OurRoadIsShared/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
 </head>
 
@@ -76,47 +76,65 @@
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">On Technical Debt</h1>
-    <h2 class="post-subtitle">The Physical Weight of Poor Decisions</h2>
-    <p class="post-meta"><time datetime="2013-06-01T00:00:00-04:00" itemprop="datePublished">Jun 1, 2013</time></p>
+    <h1 class="post-title" itemprop="name headline">Our Shared Road</h1>
+    <h2 class="post-subtitle">Masks, Software Governance, and Traffic Regulation</h2>
+    <p class="post-meta"><time datetime="2020-08-05T00:00:00-04:00" itemprop="datePublished">Aug 5, 2020</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Every developer with a project under their belt understands that technical debt is a bad thing. But since it is an abstract concept &mdash; like love, or the reasons for Pitbull's career &mdash; <em>it can be hard to conceptualize</em>. You may not realize how bad a situation has gotten until your new development is stymied because of the seemingly innocent decisions made a week, month, or year ago.</p>
+    <p>From an individual API producer’s perspective, adherence to an enterprise company’s design style guide may seem puzzling. “Why do we have to learn these naming conventions?” they’ll ask. Other questions include, “What difference does our style of versioning make?” or “Why can’t we use the authentication scheme that worked at my previous company?”</p>
 
-<p>That decision making process was sharply illustrated while moving from my current house. I rarely see our kitchen counter tops since I'm married with three kids. Flat surfaces in communal areas have a knack for accumulating the detritus of life: graded homework, mail that should probably be filed but not immediately important, random toys, my passive-aggressive crayon artwork, etc. A scene like this is a pretty common occurrence:</p>
+<p>At the end of 2019, I did a series of “Back to Basics” roadshows for my day job. According to various surveys, <a href="https://hackerlife.co/blog/san-francisco-large-corporation-employee-tenure">the average developer tenure at any company is between one and two years</a>. My goal, through the roadshows, was to re-establish the principles that have guided our five-year-old program. I’ve used urban planning stories before, whether that is <a href="https://matthewreinbold.com/2015/05/12/APIsandGovernance/">Brazillian Favelas</a> or <a href="https://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2020-01-24-mailbag-issue-119">Paris’s tree-lined boulevards</a>. To justify the need for enterprise standards for a degree of design consistency, I used a traffic regulation analogy.</p>
 
-<p>
-	<figure>
-		<a href="/images/2013/06/messycountertop.jpg" class="lightbox"><img src="/images/2013/06/messycountertop.jpg" alt="A typical countertop in our typical lives." /></a>
-		<figcaption>
-			"Sure honey, I know exactly where that dental statement is. It's on the counter. Somewhere."
-		</figcaption>
-	</figure>
-</p>
+<p>I was reminded of it because of the most recent Postlight podcast, “<a href="https://postlight.com/podcast/restricting-freedom-for-more-freedom-on-the-parallels-between-wearing-a-mask-and-regulating-tech">Restricting Freedom for More Freedom: On The Parallels Between Wearing a Mask and Regulating Tech</a>”. In that show, hosts Paul Ford and Rich Ziade discuss people treating mask requirements during Covid-19 as a violation of constitutional rights (spoiler: <em>they’re not</em>).</p>
 
-<p>This causes problems. Sometimes family will pass through Denver and want to stop. Or we'll host a kid's birthday party. <em>OR</em> we may really get our bindle in a fix and decide to clean something fierce. When that happens do we carefully proceed like seasoned archaeologists, peeling back the layers of our own history, making careful notes and cataloging the relevant items to their long-term homes?</p>
+<p>Sometimes inconveniencing the individual is the best for the larger group. That goes for whether we’re talking about masks, software governance, or traffic. Below a snippet of my argument from that “Back to Basics” deck.</p>
 
-<p><strong>Nope. Not even close.</strong> When rushed, a developer will copy and paste code in multiple places. They will leave out error and edge case handling. They will introduce high coupling and low cohesion throughout modules. In our case, <em>we put everything in a box.</em></p>
+<p><figure><img src="/images/2020/08/road.png" /><figcaption>The Road Forward</figcaption></figure></p>
 
-<p>In either case the <strong>immediate</strong> problem gets solved. A developer ships their code to production. We ship that box to the crawlspace. The next time something happens we do it again, because it worked so well the first time. And again, and again, and again because <em>we're busy people</em>. But each time things get more difficult. Maybe maintenance time increases. Or things are starting to mysteriously fail. Or the server load is becoming uncomfortably high.</p>
+<h2 id="modern-software-architecture-is-complex">Modern software architecture is complex</h2>
 
-<p>Or maybe the crawl space is filling up.</p>
+<p>John Ousterhout, in his book “A Philosophy of Software Design”, defines complexity as:</p>
 
-<p>And then comes the hushed discussions of the <em>Epic Rewrite</em>&trade;; that silver bullet that will magically fix everything. It's that moment when we have to get our house in order. It's that moment when I go down into my crawlspace and I find... this:</p>
+<blockquote>
+  <p>“-anything related to the structure of a software system that makes it hard to understand and modify the system.”</p>
+</blockquote>
 
-<p>
-	<figure>
-		<a href="/images/2013/06/boxesoftechdebt.jpg" class="lightbox"><img src="/images/2013/06/boxesoftechdebt.jpg" alt="Boxes of bad decision making." /></a>
-		<figcaption>
-			"Well, there's probably important stuff in here. Somewhere."
-		</figcaption>
-	</figure>
-</p>
+<p>In other words, a barrier to the kind of business agility that we crave, that is needed to win in competitive marketplaces, is how hard our architectures are to grok.</p>
 
-<p>All those decisions made for the sake of expediency have now come due. Instead of having everything neatly in its place the boxes, once a means of convenience, are a hinderance. Things are at a standstill because instead of taking the five minutes when a problem arose I have to take the five days to deal with the problems <em>all at once</em>.</p>
+<h2 id="message-passing-hides-complexity-behind-an-interface">Message Passing Hides Complexity Behind an Interface</h2>
 
-<p>Technical debt is a tradeoff. Perhaps if we had a massive visual reminder of the ramifications we wouldn't be so willing to agree to the faustian bargain in the moment. It certainly would have saved me some backbreaking labor to spend the time up front.</p>
+<p>Message passing is a means of abstracting complexity and hiding behind an interface.</p>
+
+<p>That abstraction allows programmers to work on a system without being exposed to all a system’s complexity at once. An API is a simplified view that omits unimportant details (or at least those details unimportant to the API’s consumer). It makes it easier for us to think about and get stuff done in complex environments.</p>
+
+<h2 id="going-faster-and-high-quality-are-not-diametrically-opposed">“Going Faster” and “High Quality” Are Not Diametrically Opposed</h2>
+
+<p>“Going faster” is <strong>not</strong> a matter of getting rid of the rules. Martin Fowler,  elegantly states to the contrary, that this is a false trade-off. In his piece, “<a href="https://martinfowler.com/articles/is-quality-worth-cost.html">Is High Quality Software Worth the Cost?</a>” he outlines how quality efforts, over time, translate to great speed for the entire system over any individual’s speed.</p>
+
+<h2 id="quality-design-is-a-financial-imperative">Quality Design is a Financial Imperative</h2>
+
+<p>Low-quality design, while quick to make, incurs a lifetime tax. Maintenance is harder, requires additional overhead, and compares less favorably in the marketplace. Quality is not a moral argument, something that makes our inner artisan feel good. Quality design is a financial imperative to increase our software return on investment.</p>
+
+<blockquote>
+  <p>“The Key to Writing Less code and causing less rework is to write better abstractions” - Eric Elliot, <em>distributed systems expert and author</em></p>
+</blockquote>
+
+<h2 id="we-need-continual-renewal-and-reflection-on-what-quality-means-for-us">We Need Continual Renewal and Reflection on What Quality Means for Us</h2>
+
+<p>That is why it is essential that each of us, whether we are product managers, architects, or engineering leads, continually renew our understanding and application of basic core principles.</p>
+
+<p>A garden is not something that you plant in the spring and wander away from. The ability to reap what was sown requires constant attention and care. We have to rededicate ourselves to executing on the fundamental, basic things before overcoming complexity is possible.</p>
+
+<h2 id="our-road-is-shared">Our Road is Shared</h2>
+
+<p>And the most basic thing, the first principle - the one to remember if you remember nothing else - is that we’re in this together.</p>
+
+<p>When there is only one car on the road, then the fastest way to get from point A to B is to ignore all speed limits, go whichever way they want on one-way roads, and view all traffic signage as optional. From their perspective, an individual team will wail and gnash their teeth at how much faster they could get to production if they were only allowed to do whatever they want. Imagine the freedom(!!!)… for them.</p>
+
+<p>However, there is not a single team. There are hundreds on their journeys, crisscrossing each other and going to and fro. Things like speed limits, lane markings, stop signs, and traffic signals are all there to move the most people to the greatest number of places, safely. We exist within a system. The road we travel is shared between us. If we are going to arrive, it will be through minor, in-the-moment, inconveniences made for the larger, more-long-lasting, good of all.</p>
+
+<p>~fin~</p>
 
   </div>
 
