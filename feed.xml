@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Aug 2020 14:26:19 -0400</pubDate>
-    <lastBuildDate>Wed, 05 Aug 2020 14:26:19 -0400</lastBuildDate>
+    <pubDate>Wed, 26 Aug 2020 09:29:46 -0400</pubDate>
+    <lastBuildDate>Wed, 26 Aug 2020 09:29:46 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -118,6 +118,7 @@
   &lt;li&gt;&lt;a href=&quot;#cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#clarkes-third-law&quot;&gt;Clarke’s Third Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#conways-law&quot;&gt;Conway’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#correlation-principle&quot;&gt;Correlation Principle&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#cunninghams-law&quot;&gt;Cunningham’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dunbars-number&quot;&gt;Dunbar’s Number&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dunning-kruger-effect&quot;&gt;Dunning-Kruger Effect&lt;/a&gt;&lt;/li&gt;
@@ -145,6 +146,7 @@
   &lt;li&gt;&lt;a href=&quot;#occams-razor&quot;&gt;Occam’s Razor&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#peter-principle&quot;&gt;Peter Principle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#postels-law&quot;&gt;Postel’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#rule-34&quot;&gt;Rule 34&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#singhs-inevitable-avoidance&quot;&gt;Singh’s Inevitable Avoidance&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#socratic-paradox&quot;&gt;Socratic Paradox&lt;/a&gt;&lt;/li&gt;
@@ -179,6 +181,8 @@
 &lt;p&gt;Any sufficiently advanced technology is indistinguishable from magic. Attributed to British science fiction writer Arthur C. Clarke.&lt;/p&gt;
 &lt;h3 id=&quot;conways-law&quot;&gt;Conway’s Law&lt;/h3&gt;
 &lt;p&gt;Any piece of software reflects the organizational structure that produced it. Attributed to computer scientist Melvin Conway.&lt;/p&gt;
+&lt;h3 id=&quot;correlation-principle&quot;&gt;Correlation Principle&lt;/h3&gt;
+&lt;p&gt;As &lt;a href=&quot;https://www.geepawhill.org/2020/08/21/the-correlation-principle/&quot;&gt;defined by software development coach Geepaw Hill&lt;/a&gt;, the Correlation Principle says that our productivity is tightly correlated with the internal quality of software.&lt;/p&gt;
 &lt;h3 id=&quot;cunninghams-law&quot;&gt;Cunningham’s Law&lt;/h3&gt;
 &lt;p&gt;The best way to get the right answer is not to ask questions; it’s to post the wrong answer. Attributed to the wiki creator, Ward Cunningham.&lt;/p&gt;
 &lt;h3 id=&quot;dunbars-number&quot;&gt;Dunbar’s Number&lt;/h3&gt;
@@ -233,6 +237,8 @@
 &lt;p&gt;At any board meeting the amount of time devoted to an item on the agenda will be the inverse proportion to the issue’s difficulty. Said another way, “The time spent on any item of the agenda will be inverse proportion to the sum [of money] involved.” Named for C. Northcote Parkinson. &lt;a href=&quot;#bike-shedding&quot;&gt;See also Bike Shedding&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;peter-principle&quot;&gt;Peter Principle&lt;/h3&gt;
 &lt;p&gt;Employees tend to rise to their level of incompetence. A management concept developed by Laurence J. Peter.&lt;/p&gt;
+&lt;h3 id=&quot;postels-law&quot;&gt;Postel’s Law&lt;/h3&gt;
+&lt;p&gt;Named after Jon Postel from his work on TCP/IP, the Postel law says computer protocols should be strict in what is sent and forgiving in what they accept from others. &lt;em&gt;Also known as the Robustness Principle&lt;/em&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;rule-34&quot;&gt;Rule 34&lt;/h3&gt;
 &lt;p&gt;Rule 34 is an internet meme which states, “If it exists, there is porn of it. No exceptions.” Thought to have originated from a comic drawn by Peter Morley-Souter.&lt;/p&gt;
 &lt;h3 id=&quot;singhs-inevitable-avoidance&quot;&gt;Singh’s Inevitable Avoidance&lt;/h3&gt;
