@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Aug 2020 09:29:46 -0400</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2020 09:29:46 -0400</lastBuildDate>
+    <pubDate>Tue, 01 Sep 2020 16:04:08 -0400</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2020 16:04:08 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -134,6 +134,7 @@
   &lt;li&gt;&lt;a href=&quot;#jevons-paradox&quot;&gt;Jevons Paradox&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#kernighans-law&quot;&gt;Kernighan’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#kiss-principle&quot;&gt;KISS Principle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#law-of-leaky-abstractions&quot;&gt;Law of Leaky Abstractions&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#law-of-the-second-floor&quot;&gt;Law of the Second Floor&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#least-power-rule-of&quot;&gt;Least Power (Rule of)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#lindbloms-razor&quot;&gt;Lindblom’s Razor&lt;/a&gt;&lt;/li&gt;
@@ -206,13 +207,15 @@
 &lt;h3 id=&quot;hofstadters-law&quot;&gt;Hofstadter’s Law&lt;/h3&gt;
 &lt;p&gt;It always takes longer than you expect, even when you take into account Hofstadter’s Law.&lt;/p&gt;
 &lt;h3 id=&quot;hyrums-law&quot;&gt;Hyrum’s Law&lt;/h3&gt;
-&lt;p&gt;With a sufficient number of users of an API, it does not matter what you promised in the contract. All observable behaviors of your interface will be depended upon by somebody. Attributed to Hyrum Wright, a Google software engineer.&lt;/p&gt;
+&lt;p&gt;With a sufficient number of users of an API, it does not matter what you promised in the contract. All observable behaviors of your interface will be depended upon by somebody. Attributed to Hyrum Wright, a Google software engineer. See also the &lt;a href=&quot;#law-of-leaky-abstractions&quot;&gt;Law of Leaky Abstractions&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;jevons-paradox&quot;&gt;Jevons Paradox&lt;/h3&gt;
 &lt;p&gt;An economic phenomenon that says when technological process increases the efficiency with which something is used, the rate of consumption exceeds previous consumption due to increasing demand. Named for English economist William Stanley Jevons.&lt;/p&gt;
 &lt;h3 id=&quot;kernighans-law&quot;&gt;Kernighan’s Law&lt;/h3&gt;
 &lt;p&gt;Debugging is twice as hard as writing code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. &lt;a href=&quot;https://www.makeuseof.com/tag/weird-programming-principles/&quot;&gt;Attributed to author and C Programmer Brian Kernighan&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;kiss-principle&quot;&gt;KISS Principle&lt;/h3&gt;
 &lt;p&gt;‘KISS’ is an acronym that stands for “Keep It Simple, Stupid”. Associated with aircraft engineer Kelly Johnson and noted by the U.S. Navy in 1960. See &lt;a href=&quot;#occams-razor&quot;&gt;Occam’s razor&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;law-of-leaky-abstractions&quot;&gt;Law of Leaky Abstractions&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/&quot;&gt;Coined by software developer Joel Spolsky&lt;/a&gt;, the Law of Leaky Abstractions states that all non-trivial abstractions are, to some degree, leaky. See also &lt;a href=&quot;#hyrums-law&quot;&gt;Hyrum’s Law&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;law-of-the-second-floor&quot;&gt;Law of the Second Floor&lt;/h3&gt;
 &lt;p&gt;Built upon &lt;a href=&quot;#dunbars-number&quot;&gt;Dunbar’s Number&lt;/a&gt;, the law of the 2nd-floor states that no person two levels above or below you on an org chart really understands what you do for a living.&lt;/p&gt;
 &lt;h3 id=&quot;least-power-rule-of&quot;&gt;Least Power (Rule of)&lt;/h3&gt;
@@ -349,6 +352,8 @@
         <category>Jamie Zawinski</category>
         
         <category>Alberto Brandolini</category>
+        
+        <category>Joel Spolsky</category>
         
         
       </item>
