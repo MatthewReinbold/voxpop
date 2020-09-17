@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Sep 2020 16:04:08 -0400</pubDate>
-    <lastBuildDate>Tue, 01 Sep 2020 16:04:08 -0400</lastBuildDate>
+    <pubDate>Thu, 17 Sep 2020 10:52:10 -0400</pubDate>
+    <lastBuildDate>Thu, 17 Sep 2020 10:52:10 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -140,6 +140,7 @@
   &lt;li&gt;&lt;a href=&quot;#lindbloms-razor&quot;&gt;Lindblom’s Razor&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#linuss-law&quot;&gt;Linus’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#listers-law&quot;&gt;Lister’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#metcalfes-law&quot;&gt;Metcalfe’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#moores-law&quot;&gt;Moore’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#murphys-law&quot;&gt;Murphy’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#ninety-ninety-rule&quot;&gt;Ninety-Ninety Rule&lt;/a&gt;&lt;/li&gt;
@@ -226,6 +227,8 @@
 &lt;p&gt;Given enough eyeballs, all bugs are shallow. Formulated by Eric S. Raymond in his essay and book &lt;em&gt;The Cathedral and the Bazaar&lt;/em&gt; in honor of Linus Torvalds.&lt;/p&gt;
 &lt;h3 id=&quot;listers-law&quot;&gt;Lister’s Law&lt;/h3&gt;
 &lt;p&gt;People under time pressure don’t think faster. Attributed to Timothy Lister.&lt;/p&gt;
+&lt;h3 id=&quot;metcalfes-law&quot;&gt;Metcalfe’s Law&lt;/h3&gt;
+&lt;p&gt;Originally attributed to Robert Metcalfe, Metcalfe’s Law states the effect of a network is proportional to the square of the number of connected users in the systems. While coined to describe the value in connecting compatibile communication devices in the era of the Ethernet, it has carried over and applied to describe users within a social media system.&lt;/p&gt;
 &lt;h3 id=&quot;moores-law&quot;&gt;Moore’s Law&lt;/h3&gt;
 &lt;p&gt;The observation that the number of transistors in an integrated circuit doubles approximately every two years. Attributed to Gordon Moore, the co-founder of Fairchild Semiconductor and CEO and co-founder of Intel.&lt;/p&gt;
 &lt;h3 id=&quot;murphys-law&quot;&gt;Murphy’s Law&lt;/h3&gt;
@@ -354,6 +357,8 @@
         <category>Alberto Brandolini</category>
         
         <category>Joel Spolsky</category>
+        
+        <category>Robert Metcalfe</category>
         
         
       </item>
