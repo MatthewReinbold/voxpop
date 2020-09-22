@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Sep 2020 10:52:10 -0400</pubDate>
-    <lastBuildDate>Thu, 17 Sep 2020 10:52:10 -0400</lastBuildDate>
+    <pubDate>Mon, 21 Sep 2020 21:51:19 -0400</pubDate>
+    <lastBuildDate>Mon, 21 Sep 2020 21:51:19 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -130,6 +130,7 @@
   &lt;li&gt;&lt;a href=&quot;#goodharts-law&quot;&gt;Goodhart’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#hanlons-razor&quot;&gt;Hanlon’s Razor&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#hofstadters-law&quot;&gt;Hofstadter’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#huangs-law&quot;&gt;Huang’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#hyrums-law&quot;&gt;Hyrum’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#jevons-paradox&quot;&gt;Jevons Paradox&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#kernighans-law&quot;&gt;Kernighan’s Law&lt;/a&gt;&lt;/li&gt;
@@ -207,6 +208,8 @@
 &lt;p&gt;Never attribute to malice that which is adequately explained by stupidity. Coined by Robert J. Hanlon. See also &lt;a href=&quot;#occams-razor&quot;&gt;Occam’s Razor&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;hofstadters-law&quot;&gt;Hofstadter’s Law&lt;/h3&gt;
 &lt;p&gt;It always takes longer than you expect, even when you take into account Hofstadter’s Law.&lt;/p&gt;
+&lt;h3 id=&quot;huangs-law&quot;&gt;Huang’s Law&lt;/h3&gt;
+&lt;p&gt;Huang’s Law is named for Nvidia’s chief executive and co-founder Jensen Huang. It was coined by Chrisopher Mims. It says the performance of GPU chips (which excel at parallel processing) will double every year. This is compared to &lt;a href=&quot;#moores-law&quot;&gt;Moore’s Law&lt;/a&gt;, which described performance of a single-threaded CPU.&lt;/p&gt;
 &lt;h3 id=&quot;hyrums-law&quot;&gt;Hyrum’s Law&lt;/h3&gt;
 &lt;p&gt;With a sufficient number of users of an API, it does not matter what you promised in the contract. All observable behaviors of your interface will be depended upon by somebody. Attributed to Hyrum Wright, a Google software engineer. See also the &lt;a href=&quot;#law-of-leaky-abstractions&quot;&gt;Law of Leaky Abstractions&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;jevons-paradox&quot;&gt;Jevons Paradox&lt;/h3&gt;
@@ -230,7 +233,7 @@
 &lt;h3 id=&quot;metcalfes-law&quot;&gt;Metcalfe’s Law&lt;/h3&gt;
 &lt;p&gt;Originally attributed to Robert Metcalfe, Metcalfe’s Law states the effect of a network is proportional to the square of the number of connected users in the systems. While coined to describe the value in connecting compatibile communication devices in the era of the Ethernet, it has carried over and applied to describe users within a social media system.&lt;/p&gt;
 &lt;h3 id=&quot;moores-law&quot;&gt;Moore’s Law&lt;/h3&gt;
-&lt;p&gt;The observation that the number of transistors in an integrated circuit doubles approximately every two years. Attributed to Gordon Moore, the co-founder of Fairchild Semiconductor and CEO and co-founder of Intel.&lt;/p&gt;
+&lt;p&gt;The observation that the number of transistors in an integrated circuit, or CPU, doubles approximately every two years. Attributed to Gordon Moore, the co-founder of Fairchild Semiconductor and CEO and co-founder of Intel. See also &lt;a href=&quot;#huangs-law&quot;&gt;Huang’s Law&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;murphys-law&quot;&gt;Murphy’s Law&lt;/h3&gt;
 &lt;p&gt;Anything that can go wrong will go wrong. Named for Edward Murphy.&lt;/p&gt;
 &lt;h3 id=&quot;ninety-ninety-rule&quot;&gt;Ninety-Ninety Rule&lt;/h3&gt;
