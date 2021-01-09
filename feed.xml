@@ -6,9 +6,317 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2020 23:12:07 -0500</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2020 23:12:07 -0500</lastBuildDate>
+    <pubDate>Fri, 08 Jan 2021 14:34:17 -0500</pubDate>
+    <lastBuildDate>Fri, 08 Jan 2021 14:34:17 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Why AI Success is API Built</title>
+        <description>&lt;p&gt;Last year, I created two major public presentation. I previously posted ‘&lt;a href=&quot;https://matthewreinbold.com/2020/07/09/APIsAreArrangementsOfPower/&quot;&gt;APIs are Arrangements of Power&lt;/a&gt;’. The clean-up on the second, presented early in the year when in-person gatherings were still possible, has languished at the bottom of my to-do list. However, I had time over the holidays to pull everything together.&lt;/p&gt;
+
+&lt;p&gt;A recording of an abridged version of the talk is embedded at the bottom. A portion of the talk was mentioned in the book, Accelerating Software Quality, by Eran Kinsbruner.&lt;/p&gt;
+
+&lt;p&gt;Without further ado, here is ‘Why AI Success is API Built’.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide1.PNG&quot; /&gt;&lt;figcaption&gt;Welcome!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hello everyone!&lt;/strong&gt; My name is Matthew Reinbold, and tonight, I will be talking about &lt;em&gt;Why AI Success is Built on APIs&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide2.PNG&quot; /&gt;&lt;figcaption&gt;Agenda&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re briefly going to go over:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Why AI is such a big deal &lt;em&gt;right now&lt;/em&gt; just to level set&lt;/li&gt;
+  &lt;li&gt;Talk about the challenges of creating AI models&lt;/li&gt;
+  &lt;li&gt;Why some of those challenges lead to APIs to deliver AI functionality&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide3.PNG&quot; /&gt;&lt;figcaption&gt;Why is Matthew giving this talk?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m passionate about these issues because they impact my work. I am the Director of the Capital One API and Event Streaming Center of Excellence. It is a unique position that requires me to be part enterprise architect, part business analyst, and part internal developer evangelist.&lt;/p&gt;
+
+&lt;p&gt;My team and I work with our 9000+ developer community to ensure that the message-passing systems built exhibit consistency and cohesion. We provide training, collaborate on API descriptions, evolve oversight processes, and facilitate co-creation on our design standards.&lt;/p&gt;
+
+&lt;p&gt;I also do a fair amount in the broader API community. I write a newsletter called &lt;a href=&quot;http://netapinotes.com/&quot;&gt;Net API Notes&lt;/a&gt;. I curate &lt;a href=&quot;https://webapi.events/&quot;&gt;Net API Events&lt;/a&gt;, a list of in-person events for API professionals worldwide. I also &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;tweet a fair amount, mostly about APIs but sometimes, occasionally, Lego&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I also make some legally dubious laptop sticker parodies &lt;a href=&quot;https://www.patreon.com/matthewreinbold&quot;&gt;for my Patreons&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide4.PNG&quot; /&gt;&lt;figcaption&gt;Getting on the Same AI Page&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;It is important that I first establish what I’m talking about when I talk about when I say ‘AI’.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide5.PNG&quot; /&gt;&lt;figcaption&gt;Clarifying AI&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;While I could talk, for some length, about the challenges and rewards of building communities of practice around API, tonight, we need to discuss &lt;strong&gt;AI&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;AI has generated almost as much excitement as clickbait headlines. You would be forgiven to think that we’re all one errant compile away from Skynet. I mean, even the Pope is talking with Microsoft. When something crosses over into popular awareness, it is significant; even if that awareness is imperfect.&lt;/p&gt;
+
+&lt;p&gt;Before going further, we should be on the same page. AI is a broad brush that paints many things. Usually, when you see these alarmist articles about Skynet and Terminator death robots, the authors are postulating about “&lt;strong&gt;Artificial General Intelligence&lt;/strong&gt;”. This is software that can “think” in a manner we associate with people.&lt;/p&gt;
+
+&lt;p&gt;We still quite far from that future. What I will be talking about tonight is much more narrowly focused. So narrow, in fact, that practitioners refer to it as “&lt;strong&gt;narrow AI&lt;/strong&gt;”. Even more specifically, I will discuss a popular technique, often conflated as AI, called “&lt;strong&gt;machine learning&lt;/strong&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Machine learning has real, tangible benefits for companies. It also solves interesting challenges. As an additional plus, it &lt;em&gt;probably&lt;/em&gt; won’t end human life as we know it.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide6.PNG&quot; /&gt;&lt;figcaption&gt;Machine Learning is Growing at a Tremendous Rate&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;If you were trying to follow every single new paper released in the machine learning space, you’d now be trying to absorb 100 machine learning papers &lt;em&gt;every single day&lt;/em&gt;. While the concepts behind machine learning have been around for some time, the current Cambrian explosion of published work has many factors.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Moore’s Law&lt;/strong&gt; - The &lt;em&gt;speed&lt;/em&gt; of compute is faster than it has ever been, particularly in GPUs&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cloud Compute&lt;/strong&gt; - Everyone can get access to these fast processors&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;More Data&lt;/strong&gt; - For better or for worse, we are better about to scale both data collection, storage, and analysis&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Greater Ease in Model Creation&lt;/strong&gt; - More people are trying more stuff more of the time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;(Chart from the blog post ‘&lt;a href=&quot;http://data-mining.philippe-fournier-viger.com/too-many-machine-learning-papers/&quot;&gt;Too Many Machine Learning Papers&lt;/a&gt;’)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide7.PNG&quot; /&gt;&lt;figcaption&gt;What is Machine Learning?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;A full explanation of how machine learning, and its various permutations work is beyond this presentation’s scope. However, as we begin to discuss why these things take so much compute or why they’re so energy expensive, we need some theoretical model in how they’re composed.&lt;/p&gt;
+
+&lt;p&gt;Suppose, for example, we had to create a service that could determine whether a provided picture was of a chihuahua or not. The output is either “yes” if a chihuahua is present or “no” if not.&lt;/p&gt;
+
+&lt;p&gt;Using machine learning, we would create several &lt;em&gt;nodes&lt;/em&gt; for our &lt;em&gt;input layer&lt;/em&gt;. Each of these nodes corresponds with an individual pixel of the image provided. A &lt;em&gt;weight&lt;/em&gt; is assigned to each of the nodes. The value of this weight is based on how important that node, or individual pixel, is to determining whether a chihuahua is present. Pixels framing the outside might have a low weighted value, while those around the inverted triangle comprising the two eyes and snout would be worth more.&lt;/p&gt;
+
+&lt;p&gt;Before going further, I think it is important to note we’re already dealing with some large numbers with only our input layer. My first digital camera was a Sony Mavica in 1999. The &lt;em&gt;max&lt;/em&gt; resolution of a picture saved to the floppy drive was 640x480. If we were processing images in that resolution, we’d have &lt;strong&gt;an input layer of 307,200 nodes&lt;/strong&gt;. Those are 307,200 weights that need to be tuned to develop a model. And as you might imagine, pictures taken with modern mobile devices have millions of pixels.&lt;/p&gt;
+
+&lt;p&gt;However, we’re only getting started. We take the RGB values in a given node, compute a result with the weight for that node, and then pass that value &lt;em&gt;to every other node in the subsequent layer to be processed&lt;/em&gt;. There may be many of these “hidden layers” between the input and the output. Each node in each layer mathematically computes its result. This continues until all the results are recombined into a value in the &lt;em&gt;output layer&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This output layer contains the probability of whether the input meets our criteria. If it is above a particular percentage, we might say, “yes” the image did contain a dog. We continue to iterate on our weights until we are satisfied with how often our machine learning model successfully matches our labeled sample data used for training.&lt;/p&gt;
+
+&lt;p&gt;We’ve used machine learning to create a model to detect if our picture features a chihuahua…&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(For more explanation, see the YouTube video course, &lt;a href=&quot;https://www.youtube.com/watch?v=oV3ZY6tJiA0&quot;&gt;Crash Course: AI&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(&lt;a href=&quot;https://unsplash.com/photos/LHeDYF6az38&quot;&gt;Chihuahua Photo by Alvan Nee on Unsplash&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(&lt;a href=&quot;https://unsplash.com/photos/WQ8CHKHHzK8&quot;&gt;Photo by Reproductive Health Supplies Coalition on Unsplash&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide8.PNG&quot; /&gt;&lt;figcaption&gt;Finding Patterns in Data is Not the Same as Understanding Data&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;…or a muffin. It is essential to point out that through all those mathematical calculations, machine learning doesn’t understand what it is looking at; at least not the way we do. It has only identified &lt;em&gt;patterns&lt;/em&gt; where two darker dots consistently appear above one other dot (eyes above the snout).&lt;/p&gt;
+
+&lt;p&gt;In her book &lt;em&gt;&lt;a href=&quot;https://www.amazon.com/You-Look-Like-Thing-Love/dp/0316525243&quot;&gt;You Look Like a Thing and I Love You&lt;/a&gt;&lt;/em&gt; Janelle Shane described a similar problem. Microsoft has an image recognition product that works similar to our example: it takes an image and suggests what might be in it. One day, while using this product, Janelle noticed that it was finding sheep in photos that definitely did not have sheep.&lt;/p&gt;
+
+&lt;p&gt;After experimentation, Janelle hypothesized that the machine learning model was trained with lots and lots of pictures of sheep in green, grassy countrysides. The model did not “learn” the sheep’s visual properties, but mistakenly correlated the landscape with the sheep label. Subsequently, when Janelle gave the model pictures of sheep in cars or livings rooms, the model labeled the animals as dogs and cats.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Image from the ‘&lt;a href=&quot;https://www.freecodecamp.org/news/chihuahua-or-muffin-my-search-for-the-best-computer-vision-api-cbda4d6b425d/&quot;&gt;Chihuahua or Muffin?&lt;/a&gt;’ tutorial.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide9.PNG&quot; /&gt;&lt;figcaption&gt;Machine Learning is Strategically Important to Companies&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite this, machine learning is still &lt;strong&gt;a very big deal™&lt;/strong&gt; for companies. &lt;a href=&quot;https://www.accenture.com/us-en/insights/artificial-intelligence/ai-governance-support-innovation&quot;&gt;According to an Accenture global research survey&lt;/a&gt;, 85% of business leaders expect AI to open up new products, services, business models, and markets. Another 78% expect AI to disrupt their industry in the next ten years.&lt;/p&gt;
+
+&lt;p&gt;Further, a report from market research firm Tractica &lt;a href=&quot;https://www.top500.org/news/market-for-artificial-intelligence-projected-to-hit-36-billion-by-2025/&quot;&gt;forecasts that the annual global revenue for artificial intelligence products and services will grow from $643.7 million, in 2016, to $36.8 &lt;em&gt;billion&lt;/em&gt; by 2025&lt;/a&gt;. That’s a 57-fold increase and makes AI the fastest-growing segment in the IT sector.&lt;/p&gt;
+
+&lt;p&gt;And no, AI &lt;em&gt;is not coming to take our jobs&lt;/em&gt;. As the quote from Mary Gray says, automation doesn’t eliminate jobs; it changes the form those jobs take.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide10.PNG&quot; /&gt;&lt;figcaption&gt;Machine Learning is Good at Specific Things&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Machine learning promises to lower costs and produce better outcomes. It’s because AI can recognize subtle patterns in vast volumes of data.&lt;/p&gt;
+
+&lt;p&gt;Princeton professor Arvind Narayan created an excellent presentation late last year, entitled “&lt;a href=&quot;https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf&quot;&gt;How to Recognize AI Snake Oil&lt;/a&gt;”. He identifies where machine learning techniques are practical, where they have problems, and where they may be ethically dubious.&lt;/p&gt;
+
+&lt;p&gt;Enhancing or scaling perception is a great application of machine learning. These have clear success criteria; either the model successfully does a thing or needs additional training. Automating judgment, or asking a machine to call balls and strikes when there is some gray area, is more complicated.&lt;/p&gt;
+
+&lt;p&gt;Then there’s predicting the future. You may use a machine learning algorithm to review someone’s social media feed and identify how often a beer bottle is pictured. That is perception. Assuming that a high percentage of beer bottle appearances makes an individual unfit for employment is predicting an outcome. That is problematic, &lt;a href=&quot;https://venturebeat.com/2020/03/30/ai-is-bad-at-predicting-gpa-grit-eviction-job-training-layoffs-and-material-hardship/&quot;&gt;as research has shown&lt;/a&gt;. &lt;strong&gt;Machine learning, despite its promise, cannot tell the future.&lt;/strong&gt; It can only find correlations in the past.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide11.PNG&quot; /&gt;&lt;figcaption&gt;However, Machine Learning is Not a Silver Bullet&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;It is also essential to use common sense when considering machine learning. Martin Zinkevich is a research scientist at Google and author of “&lt;a href=&quot;http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf&quot;&gt;Rules of Machine Learning: Best Practices for ML Engineering&lt;/a&gt;”. He urges several useful heuristics when evaluating whether machine learning is appropriate for a task, like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If your system has more than 100 nested if-else [statements], it’s time to switch to machine learning.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For example, imagine you’re a smartphone developer, and you’re tasked with recommending the next application someone should use. You could consider the time of day, the weather, user movement, sentiment of their social media accounts, their text and call volume, the proximity of that communication in a social graph, etc. Those could all be inputs to a complex model.&lt;/p&gt;
+
+&lt;p&gt;Or you could recommend the most frequently used apps. If a simple heuristic, like “recommend the most recently used items”, is successful 70% of the time, any model built has to significantly outperform it to justify the increased complexity.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide12.PNG&quot; /&gt;&lt;figcaption&gt;Challenges Title Screen&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;What form does that complexity take? Let’s talk about the challenges to developing machine learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide13.PNG&quot; /&gt;&lt;figcaption&gt;There are Challenges&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;There are four big challenges to creating successful machine learning models. They are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The volume of data to collect and refine&lt;/li&gt;
+  &lt;li&gt;The compute cost to process&lt;/li&gt;
+  &lt;li&gt;Regulatory, privacy and/or ethical concerns&lt;/li&gt;
+  &lt;li&gt;Operationalization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To illustrate this, let’s talk about Google’s Meena chatbot. A sample conversation between Meena and a human is shown in the slide. Google used &lt;strong&gt;341GB&lt;/strong&gt; of text to train the model. In doing so, &lt;strong&gt;they consumed $1.4 million in cloud computation&lt;/strong&gt;. That’s a lot of money. It is also a lot of power. For comparison, it would take the average American household  &lt;em&gt;28 years&lt;/em&gt; to burn the same 292,912 kWh of power. I might argue that the conversation is not noticeably better than Eliza, a program crafted at MIT in the 1960s. As such, there is an ethical question of whether the results warrants that level of energy expenditure (and subsequent carbon footprint).&lt;/p&gt;
+
+&lt;p&gt;And that’s before we even get to operationalization and the challenges of doing &lt;a href=&quot;https://martinfowler.com/articles/cd4ml.html&quot;&gt;Continuous Delivery for Machine Learning&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(More on Meena from a &lt;a href=&quot;https://www.zdnet.com/article/googles-meena-advances-the-exquisite-banality-of-chat-bots/&quot;&gt;ZDNet article&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide14.PNG&quot; /&gt;&lt;figcaption&gt;Building Your Own AI Models Can Be Expensive&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Please consider where the compute for your models is being run. If the training can be done anywhere, research which AWS regions carbon offset, for example. For reference, that is &lt;strong&gt;not US-EAST-1&lt;/strong&gt;. If the training is geographically agnostic, take a few minutes and click the necessary boxes to a configuration more carbon friendly.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Articles pictured in this slide include &lt;a href=&quot;https://www.technologyreview.co m/s/613630/training-a-single-aimodel-can-emit-as-much-carbonas-five-cars-in-their-lifetimes/&quot;&gt;Training a single AI model can emit as much carbon as five cars in their lifetimes&lt;/a&gt; and &lt;a href=&quot;https://www.technologyreview.com/s/614700/the-computing-power-needed-to-train-ai-is-now-rising-seven-times-faster-than-ever-before/&quot;&gt;Computer power needed is rising seven times faster than ever before&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide15.PNG&quot; /&gt;&lt;figcaption&gt;Building on Other's Work Is Important&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, consider building upon others work. It may be hard to remember, but there was a time when the idea of having a picture of every single inch along every single street in every single place was a problem of seemingly infinite scale. Imagine if every application with a street view had to stand-up and operate their own fleet of vehicles and cameras. Yet today, anyone can call a Google Maps API.&lt;/p&gt;
+
+&lt;p&gt;Similarly, we aren’t that far removed when small and mid-sized businesses maintained their server closets. Handling things like seasonal traffic or DDS attacks was an individual challenge. Now we have APIs on cloud-providers, like AWS, to call.&lt;/p&gt;
+
+&lt;p&gt;Finally, imagine if every application that wanted to send a text message had to negotiate individual deals with each and every telco provider? The barriers to innovation would be horrible. Better to let someone like Twilio do that once, and then we build upon the abstraction.&lt;/p&gt;
+
+&lt;p&gt;In the same way that these companies have exposed services via APIs, the future very much looks like leaving the big, precarious, and expensive data collection and model building to the experts. Then we consume that model through an API.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide16.PNG&quot; /&gt;&lt;figcaption&gt;Enter APIs&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;APIs are an &lt;em&gt;enabling technology&lt;/em&gt;. AI doesn’t reduce or eliminate the need for APIs. &lt;strong&gt;More AI use demands more sensible and well-designed APIs&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide17.PNG&quot; /&gt;&lt;figcaption&gt;APIs Provide an Abstraction to Technical Complexity&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;A web API (or Net API) provides a &lt;em&gt;separation of concerns&lt;/em&gt;. You have your code. You focus on uniquely solving your business problem. Then, through an API, you consume someone else’s generated model.&lt;/p&gt;
+
+&lt;p&gt;The AI provider handles the tricky issues of:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Collecting and Refining the Data&lt;/li&gt;
+  &lt;li&gt;Paying the electricity bill&lt;/li&gt;
+  &lt;li&gt;Fielding regulatory inquiries around privacy and security&lt;/li&gt;
+  &lt;li&gt;Managing the operationalization of data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide18.PNG&quot; /&gt;&lt;figcaption&gt;Language is the Most Used AI Accessed Through APIs&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I see the industry already moving in this direction. The chart shown was created from a survey of which types of functionality were consumed via API. Things like natural language processing are highest on the list, for the reasons that Princeton’s Arvind Narayan pointed out: these are all perception related. Scaling perception is where AI has proven its usefulness and we’re moving toward a commodification of the feature.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Chart from &lt;a href=&quot;https://www.statista.com/statistic
+s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide19.PNG&quot; /&gt;&lt;figcaption&gt;AI API Claims Require Data Questioning&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;When choosing between AI offerings via an API, it will be necessary for consumers to evaluate their claims via intelligent questions.&lt;/p&gt;
+
+&lt;p&gt;Vicki Boykis is a data scientist and writer out of Philadelphia. In her essay, “&lt;a href=&quot;https://vicki.substack.com/p/neural-nets-are-just-people-all-the&quot;&gt;Neural nets are just people all the way down&lt;/a&gt;”, Vicki highlights some important revelations on one highly-touted AI use case:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“if you’re doing image recognition in 2019, it’s highly likely you’re using an image recognition systems built by images tagged by people using Mechanical Turk in 2007 that sit on top of language classification systems built by graduate students prowling newspaper clippings in the 1960s.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There’s so much we should be asking about our AI providers. However, briefly, consider the incentives. Be wary if there are financial incentives to be less than transparent about how the model is generated or where the data is collected from. Also, be skeptical if an AI product also happens to use the latest blockchain-enabled, agile-Kubernetes, nano-service hype salad. Leverage others’ work, like this article comparing cloud providers; not all pieces are this comprehensive, but there are folks out there that are sharing their results for the community’s benefit. And, finally, interrogate the data. In general, we’re not good at this, in general, but, going-forward it will increasingly be more important.&lt;/p&gt;
+
+&lt;p&gt;Articles pictured in this slide include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://spectrum.ieee.org/tech-talk/artificial-intelligence/machine-learning/learn-the-red-flags-ofoverhyped-ai-claims&quot;&gt;Three easy ways to evaluate AI Claims&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.altexsoft.com/blog/datascience/comparing-machine-learning-as-a-service-amazon-microsoft-azure-google-cloud-ai-ibm-watson/&quot;&gt;Comparing Machine Learning as a Service&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide20.PNG&quot; /&gt;&lt;figcaption&gt;Dataset Nutrition Labels Need Our Support&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;A survey was done asking folks whether they had practices in place to determine whether their data was good. Unfortunately, 44% said ‘no’.&lt;/p&gt;
+
+&lt;p&gt;Increasingly, that is not going to be an acceptable answer. We need to figure out best practices to interrogate the data. This is especially true of APIs since we may not have our hands on that data.&lt;/p&gt;
+
+&lt;p&gt;From the same survey, a majority of respondents reported that their ability to analyze data was self-taught. Going forward, we will need standardized, reusable approaches to create standardized, predictable results. As proposed in the linked white paper, one idea is using a nutritional label-like representation to compare and contrast datasets used in AI products.&lt;/p&gt;
+
+&lt;p&gt;Adopting a dataset nutrition label &lt;em&gt;could&lt;/em&gt; help. However, keep in mind that having a robust understanding of the data is only one part of the process necessary to create a working model. 
+(Charts from &lt;a href=&quot;https://arxiv.org/ftp/arxiv/papers/1805/1805.03677.pdf&quot;&gt;The Dataset Nutrition Label Whitepaper&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide21.PNG&quot; /&gt;&lt;figcaption&gt;Conclusions&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;That was a lot and, again, I’m only showing the tip of the iceberg.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide22.PNG&quot; /&gt;&lt;figcaption&gt;Where to Learn More&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are interested in learning more, there are numerous placed to get started. In addition to the many papers, presentations, and courses that I’ve linked to throughout this talk, I would also recommend the following books:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/you-look-like-a-thing-and-i-love-you-how-artificial-intelligence-works-and-why-it-s-making-the-world-a-weirder-place/9780316525244&quot;&gt;You Look Like a Thing and I Love You&lt;/a&gt; by Janelle Shane&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/rebooting-ai-building-artificial-intelligence-we-can-trust/9781524748258&quot;&gt;A Human’s Guide to Machine Intelligence&lt;/a&gt; by Kartik Hosanagar&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/rebooting-ai-building-artificial-intelligence-we-can-trust/9781524748258&quot;&gt;Rebooting AI&lt;/a&gt; by Gary Marcus and Ernest Davies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, I would highly encourage those working in the space to have a firm grasp of how these algorithmic approaches can cause harm. For that, I would suggest:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy/9780553418835&quot;&gt;Weapons of Math Destruction&lt;/a&gt; by Cathy O’Neil&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789&quot;&gt;Automating Inequality&lt;/a&gt; by Virginia Eubanks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It also surprises me that there aren’t more sights that allow prospective AI users do “comparison shopping” across the major providers. Algorithmia &lt;em&gt;used&lt;/em&gt; to be an online marketplace for algorithms. Similarly, Inten.to &lt;em&gt;used&lt;/em&gt; to allow running sample queries across cloud algorithms. Both appear to have since pivoted. Certain AI APIs can still be found within the Programmable Web directory, however.&lt;/p&gt;
+
+&lt;p&gt;There are also a couple good sources for data, if people are looking for raw ingredients to get started. If you are aware of other sites that provide a similar service, let me know.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide23.PNG&quot; /&gt;&lt;figcaption&gt;How to Contact Me&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you for your time and attention. My name is Matthew Reinbold and you can find me online at these fine establishments.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DAm6o9LULts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 08 Jan 2021 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</guid>
+        
+        <category>AI</category>
+        
+        <category>API design</category>
+        
+        <category>APIs</category>
+        
+        <category>presos</category>
+        
+        <category>skynet</category>
+        
+        <category>Microsoft</category>
+        
+        <category>machine learning</category>
+        
+        <category>Sony</category>
+        
+        <category>Janelle Shane</category>
+        
+        <category>Accenture</category>
+        
+        <category>Tractica</category>
+        
+        <category>Mary Gray</category>
+        
+        <category>Arvind Narayan</category>
+        
+        <category>Martin Zinkevich</category>
+        
+        <category>Google</category>
+        
+        <category>Meena</category>
+        
+        <category>Eliza</category>
+        
+        <category>MIT</category>
+        
+        <category>AWS</category>
+        
+        <category>carbon offsets</category>
+        
+        <category>Google Maps</category>
+        
+        <category>Twilio</category>
+        
+        <category>Vicki Boykis</category>
+        
+        <category>Kartik Hosanagar</category>
+        
+        <category>Gary Marcus</category>
+        
+        <category>Ernest Davies</category>
+        
+        <category>Cathy O'Neil</category>
+        
+        <category>Virginia Eubanks</category>
+        
+        <category>Eran Kinsbruner</category>
+        
+        
+      </item>
     
       <item>
         <title>Our Shared Road</title>
@@ -1689,217 +1997,6 @@ the mess (and are blamed for not “pushing back”).&lt;/li&gt;
         <category>agile</category>
         
         <category>management</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Overcoming Complexity through the Principle of Least Power</title>
-        <description>&lt;p&gt;Here are the slides and script for the presentation I made on July 17th at the San Francisco APIDays Conference. The theme for the event was ‘The New API Stack’.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This presentation is part of my goal to produce six original works in six months. For more information see &lt;a href=&quot;https://matthewreinbold.com/2019/06/21/On-Travel/&quot;&gt;the post about my conversion of travel time to productive time in 2019&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Without further ado, here is the talk.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update 2019-08-13&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The video recording for the talk has been released. If you’d prefer to watch rather than read, &lt;a href=&quot;#video&quot;&gt;I’ve embedded it below&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide1.PNG&quot; /&gt;&lt;figcaption&gt;An innocuous introduction slide.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Welcome, everyone. My name is Matthew Reinbold, and my talk this morning is how to overcome &lt;em&gt;complexity&lt;/em&gt; with the &lt;em&gt;principle of least power&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@shemul?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Shahadat Shemul&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/search/photos/complexity?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide2.PNG&quot; /&gt;&lt;figcaption&gt;Defining software complexity.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Modern software architecture &lt;em&gt;is &lt;strong&gt;complex&lt;/strong&gt;&lt;/em&gt;. John Ousterhout, in his book “A Philosophy of Software Design”, defines complexity
-as:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“anything related to the structure of a software system that makes it hard to
-understand and modify the system.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In other words, a barrier to the kind of business agility that we crave, that is desired to win in competitive marketplaces, is how hard our architectures are to grok.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide3.PNG&quot; /&gt;&lt;figcaption&gt;Complexity grows. For everyone.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Complexity is a problem that we all share. Clear back in the innocent, carefree days of 2011 Marc Andreessen quipped that “software was eating the world”. That same year &lt;a href=&quot;https://www.forbes.com/sites/techonomy/2011/11/30/now-everycompany-is-a-software-company/#42438fbdf3b1&quot;&gt;Forbes declared that “every company is a software company&lt;/a&gt;”. Sometime around the middle of this decade, our community began talking about how “&lt;a href=&quot;https://techcrunch.com/2015/05/06/apis-fuel-the-software-thats-eatingthe-world/&quot;&gt;APIs were eating software&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;p&gt;As the Director for the Capital One Center of Excellence, I lead the team that sets the API and event streaming standards for 9,000 geographically disbursed developers. A vast majority contribute to the thousands of in-production, internal APIs that our company uses to deliver new products and experiences. My team and I oversee an internal ecosystem that delivers 3.5 billion API requests a day.&lt;/p&gt;
-
-&lt;p&gt;In addition to that “day job”, I also write an email newsletter called “&lt;a href=&quot;https://tinyletter.com/netapinotes/archive&quot;&gt;Net API Notes&lt;/a&gt;”. There, I love to highlight stories of how other companies are managing their API journeys. While many are at different points along the road, all of us eventually run into same problem: complexity.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide4.PNG&quot; /&gt;&lt;figcaption&gt;APIs offer the greatest leverage point in a dynamic system.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Why APIs? Because the API is the greatest leverage point in a complex system. An API is a means of abstracting complexity and hiding it behind an interface.&lt;/p&gt;
-
-&lt;p&gt;That abstraction allows programmers to work on a system without being exposed to all a system’s complexity at once. An API is a simplified view which omits unimportant details. It makes it easier for us to think about and manipulate complex things.&lt;/p&gt;
-
-&lt;p&gt;It’s why APIs have exploded, both internally and externally. In our organization, we might have started with APIs - either our own or 3rd parties - for critical functionality. However, in time, patterns emerged to deal with the &lt;em&gt;complexity&lt;/em&gt; of the environment. If you’re Netflix’s Daniel Jacobson, you call these “&lt;a href=&quot;http://www.danieljacobson.com/blog/306&quot;&gt;experience APIs&lt;/a&gt;” (2014). If you’re Phil Calçado, director at Meetup, &lt;a href=&quot;https://philcalcado.com/2015/09/18/the_back_end_for_front_end_pattern_bff.html&quot;&gt;this is the Backend-for-Frontend (or BFF) pattern&lt;/a&gt; (2015).&lt;/p&gt;
-
-&lt;p&gt;At the same time that this orchestration API layering was taking place, &lt;a href=&quot;https://martinfowler.com/articles/microservices.html&quot;&gt;James Lewis and Martin Fowler were talking about an abstraction they saw called &lt;em&gt;microservices&lt;/em&gt;&lt;/a&gt; (2014).&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide5.PNG&quot; /&gt;&lt;figcaption&gt;Even these abstractions meant to hide complexity birth their own complexity when done in mass.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Thing is, complexity is neither creator or destroyed, is just changes shape. Not only are there more services, resulting in the infamous “microservice death star” style graphs, but the complexity introduced to try and manage these services – deployment pipelines, service meshes, monitoring tools, auditing, dependency managements also introduce their own emergent behavior.&lt;/p&gt;
-
-&lt;p&gt;In fact, over the past several years, through the writing on Net API Notes, I’ve seen a number of pieces where companies retreat back to a monolith exactly because they were more comfortable with the complexity that they had known rather than the new form it had taken.&lt;/p&gt;
-
-&lt;p&gt;With enough abstractions, we begin to see that layers change at different rates.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Images from “&lt;a href=&quot;https://blog.acolyer.org/2019/05/13/an-open-source-benchmark-suite-formicroservices-and-their-hardware-software-implications-for-cloud-edge-systems/&quot;&gt;An Open Source Benchmark Suite for Microservices&lt;/a&gt;”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide6.PNG&quot; /&gt;&lt;figcaption&gt;Layering of abstractions move at different rates.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Abstractions changing at different rates doesn’t just happen in software. Wherever there are people, we see a stratification among abstractions.&lt;/p&gt;
-
-&lt;p&gt;In his book, “The Clock of the Long Now”, Stewart Brand described “Pace Layers”. He identified layers with each layer building upon slower-moving layers beneath it.&lt;/p&gt;
-
-&lt;p&gt;At the bottom are those things that are the slowest to change. These are things of &lt;strong&gt;nature&lt;/strong&gt;. As far as we know, the laws of physics haven’t changed. For example, the speed of light is constant.&lt;/p&gt;
-
-&lt;p&gt;Next up is the &lt;strong&gt;cultural&lt;/strong&gt; layer. People are people. It’s why the stories of the Greeks and Romans still resonate with us today.&lt;/p&gt;
-
-&lt;p&gt;Above that is &lt;strong&gt;governance&lt;/strong&gt;. Note that this is not &lt;em&gt;governments&lt;/em&gt; (think democracy or populism).&lt;/p&gt;
-
-&lt;p&gt;Above that, moving at a faster clip, is &lt;strong&gt;infrastructure&lt;/strong&gt;. These are things like our road systems, or the electrical or plumbing networks in this building.&lt;/p&gt;
-
-&lt;p&gt;Moving even faster that that is &lt;strong&gt;commerce&lt;/strong&gt; or the rate at which new products, services, and experiences can be brought to a market.&lt;/p&gt;
-
-&lt;p&gt;Finally, at the top and moving with the greatest speed, is fashion.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide7.PNG&quot; /&gt;&lt;figcaption&gt;Fast layers innovate, slow layers stabilize.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;One layer isn’t more important than another. It turns out that &lt;em&gt;all&lt;/em&gt; layers are important for a well-functioning system. Each has its place. Imagine if something as important as foreign policy was being run on a whim? Or if innovation was only allowed to happen at the speed of bureaucratic consensus.&lt;/p&gt;
-
-&lt;p&gt;As Stewart says in his book:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Fast learns, slow remembers. Fast proposes. Slow disposes. Fast is discontinuous and slow is continuous. Fast and slow informs slow and big by accrued innovation and occasional revolution and slow and big control slow and fast by constraint and constancy. Fast gets all our attention but slow has all the power.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide8.PNG&quot; /&gt;&lt;figcaption&gt;An API Pace Layer begins with unchanging natural laws.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;When it comes to web, or ‘net’, APIs I see similar stack that changes at different rates. I’ll insert my usual model disclaimer here: “all models are wrong, but some are useful”. I acknowledge this is incomplete, but this API Pace Layering model we’re about to walk through is useful for raising topics for discussion and illustrating insights about complexity (and where we attempt to hide it).&lt;/p&gt;
-
-&lt;p&gt;At the bottom, again, are the laws of &lt;strong&gt;nature&lt;/strong&gt;. The speed of light sent between distributed systems is constant. Not a whole lot there likely to change soon.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide9.PNG&quot; /&gt;&lt;figcaption&gt;TCP is foundational, constant and unchanging.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;The next is the TCP layer. That protocol has been around since the 70s. That’s probably a good thing, as something as necessary as packet transmission needs to be stable; considering the amount of physical hardware, languages, and frameworks that have it “baked in”, you wouldn’t want it changing often.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide10.PNG&quot; /&gt;&lt;figcaption&gt;HTTP is the next layer.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;As we go up, remember that we’re beginning to pick up the rate of change. There are lots of protocols, like FTP or email. However, most of us in this room are probably familiar with HTTP. HTTP 1.1, which a guy named Roy Fielding worked on, &lt;a href=&quot;https://tools.ietf.org/html/rfc2616&quot;&gt;was ratified in 1999&lt;/a&gt;. HTTP/2, which many haven’t implemented yet, was approved in 2015. It’s not whipsawing speed, by any stretch of the imagination. However, compared to TCP, it’s changing faster.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide11.PNG&quot; /&gt;&lt;figcaption&gt;HTTP can be thought of as additional, addative layers.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Here’s where I purposely made it interesting. HTTP, &lt;em&gt;itself&lt;/em&gt;, is layered. There’s the verbs or methods. Everybody is familiar with “GET”, “PUT”, “POST”, and “DELETE”. Some might even use “PATCH”. There are others, like “OPTIONS” and “HEAD”, which are useful in other circumstances. There’s a couple more, but that’s mostly it; under ten items to recall that have been stable since the last millennium.&lt;/p&gt;
-
-&lt;p&gt;There are &lt;em&gt;status codes&lt;/em&gt;; while, officially, &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status&quot;&gt;there are 50-60 status codes&lt;/a&gt; the ones we care about can be broken into three broad groups. Any 2xx responses tell me, as a client, my request succeeded. Any 4xx tells me, as a client, that I need to modify my request before doing it again. Also, 5xx tells client me that the API provider is having a very bad moment. Again, stable, consistent, and doesn’t require me to introspect the payload for the high-level gist of what is going on.&lt;/p&gt;
-
-&lt;p&gt;The last layer of the HTTP protocol worth highlighting is &lt;em&gt;headers&lt;/em&gt;. &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status&quot;&gt;There are about a hundred of these&lt;/a&gt;. Some of them get into a fair amount of subtlety and nuance. Not all are that useful. However, this is where we get a wonderful set of tools to shape requests. The fastest request is the one you never have to make. If an API provides thoughtful clues through caching headers to a client, it is a beautiful, highly-performant, thing. Headers also where we can perform content negotiation, allowing the same API to return the JSON representation, a CVS file, a PDF, a binary image, or &lt;em&gt;more&lt;/em&gt; all from the same resource.&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide12.PNG&quot; /&gt;&lt;figcaption&gt;RFCs offer lots of opportunities for experimentation.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Above HTTP, evolving at a greater clip, are the IETF’s &lt;em&gt;Requests for Comment&lt;/em&gt;, or RFCs. There are &lt;strong&gt;thousands&lt;/strong&gt; of these notes which capture proposed ways communication on the internet might work. That’s a lot and there are new ones all the time.&lt;/p&gt;
-
-&lt;p&gt;There is some excellent work here that can powerfully aid comprehension and intuitiveness of a design. When things go wrong, &lt;a href=&quot;https://tools.ietf.org/html/rfc7807&quot;&gt;RFC7807 defines a common error object&lt;/a&gt;. By using a standard, clients aren’t left having to figure out where in the payload to look for information to help solve their issues. A standard might also suggest information, or representations of information, that you might not otherwise have considered.&lt;/p&gt;
-
-&lt;p&gt;There’s also &lt;a href=&quot;https://tools.ietf.org/html/rfc8594&quot;&gt;RFC 8594, the sunset HTTP header&lt;/a&gt;. It is a way of telling someone that requests a URI that it may become unresponsive in the future. This one was fun to watch being born, on Twitter and through email, by this extended community. A common need for better lifecycle management was identified folks online and they swarmed together to discuss merits of different approaches. From their efforts, we now have a abstraction: the complexity of having to come up with how to do this was handled by someone else.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide13.PNG&quot; /&gt;&lt;figcaption&gt;Patterns are numerous, and quick to evolve.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, at the top of this layering, are patterns. There are some patterns, like the backend-for-frontend or experience API pattern, that become popular - possibly even so popular that they end up generating dedicated RFCs to support them. Remote Procedure Call (or RPC) is a pattern. Webhooks are a pattern. Hypermedia is also a pattern. These can are multitudinous, and a new one can be introduced as quickly as the Netflix engineering or Hacker News forums publish a new post. These are constantly changing. Some become quite fashionable.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide14.PNG&quot; /&gt;&lt;figcaption&gt;A layered architectural approach gracefully degrades.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;The wonderful thing about how these layers perform in a complex system is how they gracefully degrade. Suppose, for example, that I provide an API that implements an RFC, like the common error object. What if the client isn’t expecting, or doesn’t care that I’m following a prescribed standard. Do we fail to exchange meaningful information?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Of course not&lt;/em&gt;. A client unaware of RFC 7807 would only see a JSON response returned to them, and they would parse it anyway, the same as they would if my response was something that I came up with off the top of my head. The advantage are those complex ecosystems featured in the microservice death stars – when all services express information in the same way, it opens opportunities for tooling; tooling which takes the cognitive burden from developers, freeing them to focus on the business problem.&lt;/p&gt;
-
-&lt;p&gt;Let’s take another example and go a layer deeper. As an API provider, I have the best understanding of when the underlying data changes. As a result, I provide cachecontrol and ETag headers to the client, allowing them to make smart decisions about when to request an object. After all, the fastest API call is the one that didn’t have to happen in the first place. If a client is savvy and picks up on it, great! If not, &lt;strong&gt;things still work&lt;/strong&gt;; maybe not as efficiently, maybe not as elegantly. However, building in layers that can gracefully degrade means that communication is still possible.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide15.PNG&quot; /&gt;&lt;figcaption&gt;GraphQL cuts across layers, connecting an interaction pattern to TCP.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, for a brief moment, let’s talk about GraphQL (going through a similar exercise for gRPC is left to the reader). GraphQL is a query language for data retrieval and updating via HTTP. I put it in the “pattern” layer, as it is a different API interaction pattern between client and server.&lt;/p&gt;
-
-&lt;p&gt;Unlike the other patterns that I had previously mentioned, however, GraphQL is &lt;em&gt;not&lt;/em&gt; built upon the same layered approach. All requests, be it data retrieval or mutations to update, are submitted via POST. The only status code ever returned is a 200, requiring introspection of the payload &lt;em&gt;of every response&lt;/em&gt; in case there is an error embedded in it. Headers aren’t encouraged, as they’re not displayed in tooling like the explorer from GraphQLHub.com. There’s no equivalent RFC-like error response for GraphQL, although vendors like Apollo are promoting their approach.&lt;/p&gt;
-
-&lt;p&gt;There’s a paradox here. I can hear it. “Matthew,” you might say, “by freeing us from having to think about verbs or codes or headers or RFCs – by getting rid of the layers, aren’t we abstracting complexity behind a single abstraction?”&lt;/p&gt;
-
-&lt;p&gt;Remember, &lt;strong&gt;complexity is neither creator or destroyed&lt;/strong&gt;, is just changes shape.&lt;/p&gt;
-
-&lt;p&gt;GraphQL is not a layered approach; everything from the pattern to the TCP/IP layer is either strictly specified by GraphQL or left for developers to recreate in their own, bespoke way. Eschewing layers, as GraphQL gives developers tremendous power to solve problems exactly how they imagine a problem to be solved; both from the consumer’s point of view, where they can tailor the response to their needs. The API provider also can implement their own approaches to common distributed systems problems. But that power comes with &lt;em&gt;great&lt;/em&gt; &lt;strong&gt;complexity&lt;/strong&gt;. The layers that abstracted the complexity of things like caching, of error handling, content negotiation are all left to the developer. And having each GraphQL solve those things in their own fashion will increase the complexity of comprehension on the part of clients and tool makers.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide16.PNG&quot; /&gt;&lt;figcaption&gt;To combat complexity, the principle of least power suggests keeping things simple and within layers.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.w3.org/2001/tag/doc/leastPower.html&quot;&gt;The principle, or rule, of least power states that one should&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Choose the least powerful language suitable for a given purpose.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That seems incredibly counter-intuitive. Don’t we want &lt;strong&gt;more&lt;/strong&gt; power to solve problems? Shouldn’t we deserve the newest tools? The most flexible frameworks? Who in their right mind is a fan of the least among us?&lt;/p&gt;
-
-&lt;p&gt;We can apply this to our layers. When I call an API, I can include instructions as to whether I’m reading or updating information in the payload; that is a payload the server will have to introspect and act on. Or I can use the humble verb at the lowest layer, and signal the same thing via a GET or PATCH. It seems like a simple thing but it drastically affects where the complexity of our tracing, monitoring, entitling, securing, rate-limiting, framework-ing, and supporting goes.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update: 2019-09-03&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;For a robust list of useful, defined elements that apply to a number of common use cases, check out &lt;a href=&quot;http://standards.rest/&quot;&gt;Standards.REST&lt;/a&gt;. Why re-invent the wheel?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide17.PNG&quot; /&gt;&lt;figcaption&gt;Ultimately, there is nothing wrong with fasion. Just make choice based on principle. &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;So do I hate GraphQL? Am I advocating that we should only use “boring” technology? That the old stuff is better?&lt;/p&gt;
-
-&lt;p&gt;While I am a fan of &lt;a href=&quot;http://boringtechnology.club&quot;&gt;The Boring Technology Club&lt;/a&gt;, that is not the message. I’ve grown to appreciate what happens within the fashionable layers. The chaotic experimentation is exciting. The vigor for overturning assumptions and pursuing new avenues is how we discover new, potentially powerful ideas. In a healthy stack, the best ideas go from being fashionable, to products sold via commerce, to essential pieces of infrastructure eventually requiring governance and important pieces of business culture.&lt;/p&gt;
-
-&lt;p&gt;What I do advocate for, however, is conscious, decision being made when pursuing new patterns. Eschewing layers comes with trade-offs. Enter into those decisions with eyes wide open.&lt;/p&gt;
-
-&lt;p&gt;As Mythical Man Month author Fred Brooks said:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“There are no silver bullets.””&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@mariyageorgieva?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Mariya Georgieva&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/search/photos/fashion?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide18.PNG&quot; /&gt;&lt;figcaption&gt;An innocuous conclusion slide.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;In conclusion, every company is a software company which means every company is wrestling with growing complexity.&lt;/p&gt;
-
-&lt;p&gt;One approach to dealing with complexity to create abstractions. The abstractions at the different layers in any system evolve at different rates, which is a good thing. Fast layers accrue innovation and occasionally incite a revolution while the slow provide stability and filtering.&lt;/p&gt;
-
-&lt;p&gt;Net APIs have evolved into different layers. Each layer provides a host of solutions to common problems that gracefully degrade if not used. The principle of least power suggests choosing simple, layered solutions to layer-spanning solutions.&lt;/p&gt;
-
-&lt;p&gt;Only by making more informed decisions, fully aware of the trade-offs at hand, will those responsible for API governance be able to overcome the complexity of our current API stacks.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/07/Slide19.PNG&quot; /&gt;&lt;figcaption&gt;Thank you for your attention.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ll have the slides, along with some additional color and links to sources, at my website, &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;matthewreinbold.com&lt;/a&gt;. I’ll announce when its ready on my Twitter stream and in my newsletter, ‘Net API Notes’.&lt;/p&gt;
-
-&lt;p&gt;I am &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;Twitter’s @libel_vox&lt;/a&gt;, and you can follow me and continue the conversation there. Thank you for the precious gift of your attention. Enjoy the rest of the conference!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&quot;video&quot;&gt;Video recorded on July 17, 2019&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Q4wUmKX8ZQU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-</description>
-        <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2019/07/17/OvercomingComplexity/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2019/07/17/OvercomingComplexity/</guid>
-        
-        <category>presos</category>
-        
-        <category>conferences</category>
-        
-        <category>APIDays</category>
-        
-        <category>GraphQL</category>
-        
-        <category>Pace Layers</category>
-        
-        <category>APIs</category>
         
         
       </item>

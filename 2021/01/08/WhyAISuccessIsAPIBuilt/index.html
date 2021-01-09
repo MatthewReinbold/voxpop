@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Why AI Success is API Built</title>
+  <meta name="description" content="Last year, I created two major public presentation. I previously posted ‘APIs are Arrangements of Power’. The clean-up on the second, presented early in the ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
+</head>
+
+
+  <body>
+    <div id="page">
+
+      <header class="site-header">
+
+<div id="overlay">
+
+    <div class="wrapper">
+      <nav class="site-nav">
+        <a href="#" class="menu-icon">
+          <svg viewBox="0 0 18 15">
+            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+          </svg>
+        </a>
+
+        <div class="trigger">
+          
+            
+            <a class="page-link" href="/about/">About</a>
+            
+          
+            
+            <a class="page-link" href="/disclosure/">Disclosure</a>
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+      </nav>
+    </div>
+  
+  <div class="site-header-content">
+    <div class="wrapper">
+
+      
+      <a class="site-title" href="/"><img src="/images/header-name.png" alt="A handwritten version of the name 'Matthew Reinbold'." style="max-width:572;" /></a>
+      <!--
+
+        <a class="site-title" href="/">Matthew Reinbold</a> 
+      -->
+
+    </div>
+
+    <div class="wrapper">
+      <p>I write about Sociotechnological Electroblaborgaborasm. Like below.<p>
+    </div>
+  </div>
+
+</div>
+<div id="background"></div>
+
+</header>
+
+      
+      <div class="page-content">
+        <div class="wrapper">
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Why AI Success is API Built</h1>
+    <h2 class="post-subtitle">The API Imperative for Successful AI Integrations</h2>
+    <p class="post-meta"><time datetime="2021-01-08T00:00:00-05:00" itemprop="datePublished">Jan 8, 2021</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Last year, I created two major public presentation. I previously posted ‘<a href="https://matthewreinbold.com/2020/07/09/APIsAreArrangementsOfPower/">APIs are Arrangements of Power</a>’. The clean-up on the second, presented early in the year when in-person gatherings were still possible, has languished at the bottom of my to-do list. However, I had time over the holidays to pull everything together.</p>
+
+<p>A recording of an abridged version of the talk is embedded at the bottom. A portion of the talk was mentioned in the book, Accelerating Software Quality, by Eran Kinsbruner.</p>
+
+<p>Without further ado, here is ‘Why AI Success is API Built’.</p>
+
+<hr />
+<p><figure><img src="/images/2021/01/Slide1.PNG" /><figcaption>Welcome!</figcaption></figure></p>
+
+<p><strong>Hello everyone!</strong> My name is Matthew Reinbold, and tonight, I will be talking about <em>Why AI Success is Built on APIs</em>.</p>
+
+<p><figure><img src="/images/2021/01/Slide2.PNG" /><figcaption>Agenda</figcaption></figure></p>
+
+<p>We’re briefly going to go over:</p>
+
+<ol>
+  <li>Why AI is such a big deal <em>right now</em> just to level set</li>
+  <li>Talk about the challenges of creating AI models</li>
+  <li>Why some of those challenges lead to APIs to deliver AI functionality</li>
+</ol>
+
+<p><figure><img src="/images/2021/01/Slide3.PNG" /><figcaption>Why is Matthew giving this talk?</figcaption></figure></p>
+
+<p>I’m passionate about these issues because they impact my work. I am the Director of the Capital One API and Event Streaming Center of Excellence. It is a unique position that requires me to be part enterprise architect, part business analyst, and part internal developer evangelist.</p>
+
+<p>My team and I work with our 9000+ developer community to ensure that the message-passing systems built exhibit consistency and cohesion. We provide training, collaborate on API descriptions, evolve oversight processes, and facilitate co-creation on our design standards.</p>
+
+<p>I also do a fair amount in the broader API community. I write a newsletter called <a href="http://netapinotes.com/">Net API Notes</a>. I curate <a href="https://webapi.events/">Net API Events</a>, a list of in-person events for API professionals worldwide. I also <a href="https://twitter.com/libel_vox">tweet a fair amount, mostly about APIs but sometimes, occasionally, Lego</a>.</p>
+
+<p>I also make some legally dubious laptop sticker parodies <a href="https://www.patreon.com/matthewreinbold">for my Patreons</a>.</p>
+
+<p><figure><img src="/images/2021/01/Slide4.PNG" /><figcaption>Getting on the Same AI Page</figcaption></figure></p>
+
+<p>It is important that I first establish what I’m talking about when I talk about when I say ‘AI’.</p>
+
+<p><figure><img src="/images/2021/01/Slide5.PNG" /><figcaption>Clarifying AI</figcaption></figure></p>
+
+<p>While I could talk, for some length, about the challenges and rewards of building communities of practice around API, tonight, we need to discuss <strong>AI</strong>.</p>
+
+<p>AI has generated almost as much excitement as clickbait headlines. You would be forgiven to think that we’re all one errant compile away from Skynet. I mean, even the Pope is talking with Microsoft. When something crosses over into popular awareness, it is significant; even if that awareness is imperfect.</p>
+
+<p>Before going further, we should be on the same page. AI is a broad brush that paints many things. Usually, when you see these alarmist articles about Skynet and Terminator death robots, the authors are postulating about “<strong>Artificial General Intelligence</strong>”. This is software that can “think” in a manner we associate with people.</p>
+
+<p>We still quite far from that future. What I will be talking about tonight is much more narrowly focused. So narrow, in fact, that practitioners refer to it as “<strong>narrow AI</strong>”. Even more specifically, I will discuss a popular technique, often conflated as AI, called “<strong>machine learning</strong>”.</p>
+
+<p>Machine learning has real, tangible benefits for companies. It also solves interesting challenges. As an additional plus, it <em>probably</em> won’t end human life as we know it.</p>
+
+<p><figure><img src="/images/2021/01/Slide6.PNG" /><figcaption>Machine Learning is Growing at a Tremendous Rate</figcaption></figure></p>
+
+<p>If you were trying to follow every single new paper released in the machine learning space, you’d now be trying to absorb 100 machine learning papers <em>every single day</em>. While the concepts behind machine learning have been around for some time, the current Cambrian explosion of published work has many factors.</p>
+
+<ul>
+  <li><strong>Moore’s Law</strong> - The <em>speed</em> of compute is faster than it has ever been, particularly in GPUs</li>
+  <li><strong>Cloud Compute</strong> - Everyone can get access to these fast processors</li>
+  <li><strong>More Data</strong> - For better or for worse, we are better about to scale both data collection, storage, and analysis</li>
+  <li><strong>Greater Ease in Model Creation</strong> - More people are trying more stuff more of the time</li>
+</ul>
+
+<p><em>(Chart from the blog post ‘<a href="http://data-mining.philippe-fournier-viger.com/too-many-machine-learning-papers/">Too Many Machine Learning Papers</a>’)</em></p>
+
+<p><figure><img src="/images/2021/01/Slide7.PNG" /><figcaption>What is Machine Learning?</figcaption></figure></p>
+
+<p>A full explanation of how machine learning, and its various permutations work is beyond this presentation’s scope. However, as we begin to discuss why these things take so much compute or why they’re so energy expensive, we need some theoretical model in how they’re composed.</p>
+
+<p>Suppose, for example, we had to create a service that could determine whether a provided picture was of a chihuahua or not. The output is either “yes” if a chihuahua is present or “no” if not.</p>
+
+<p>Using machine learning, we would create several <em>nodes</em> for our <em>input layer</em>. Each of these nodes corresponds with an individual pixel of the image provided. A <em>weight</em> is assigned to each of the nodes. The value of this weight is based on how important that node, or individual pixel, is to determining whether a chihuahua is present. Pixels framing the outside might have a low weighted value, while those around the inverted triangle comprising the two eyes and snout would be worth more.</p>
+
+<p>Before going further, I think it is important to note we’re already dealing with some large numbers with only our input layer. My first digital camera was a Sony Mavica in 1999. The <em>max</em> resolution of a picture saved to the floppy drive was 640x480. If we were processing images in that resolution, we’d have <strong>an input layer of 307,200 nodes</strong>. Those are 307,200 weights that need to be tuned to develop a model. And as you might imagine, pictures taken with modern mobile devices have millions of pixels.</p>
+
+<p>However, we’re only getting started. We take the RGB values in a given node, compute a result with the weight for that node, and then pass that value <em>to every other node in the subsequent layer to be processed</em>. There may be many of these “hidden layers” between the input and the output. Each node in each layer mathematically computes its result. This continues until all the results are recombined into a value in the <em>output layer</em>.</p>
+
+<p>This output layer contains the probability of whether the input meets our criteria. If it is above a particular percentage, we might say, “yes” the image did contain a dog. We continue to iterate on our weights until we are satisfied with how often our machine learning model successfully matches our labeled sample data used for training.</p>
+
+<p>We’ve used machine learning to create a model to detect if our picture features a chihuahua…</p>
+
+<p><em>(For more explanation, see the YouTube video course, <a href="https://www.youtube.com/watch?v=oV3ZY6tJiA0">Crash Course: AI</a>)</em></p>
+
+<p><em>(<a href="https://unsplash.com/photos/LHeDYF6az38">Chihuahua Photo by Alvan Nee on Unsplash</a>)</em></p>
+
+<p><em>(<a href="https://unsplash.com/photos/WQ8CHKHHzK8">Photo by Reproductive Health Supplies Coalition on Unsplash</a>)</em></p>
+
+<p><figure><img src="/images/2021/01/Slide8.PNG" /><figcaption>Finding Patterns in Data is Not the Same as Understanding Data</figcaption></figure></p>
+
+<p>…or a muffin. It is essential to point out that through all those mathematical calculations, machine learning doesn’t understand what it is looking at; at least not the way we do. It has only identified <em>patterns</em> where two darker dots consistently appear above one other dot (eyes above the snout).</p>
+
+<p>In her book <em><a href="https://www.amazon.com/You-Look-Like-Thing-Love/dp/0316525243">You Look Like a Thing and I Love You</a></em> Janelle Shane described a similar problem. Microsoft has an image recognition product that works similar to our example: it takes an image and suggests what might be in it. One day, while using this product, Janelle noticed that it was finding sheep in photos that definitely did not have sheep.</p>
+
+<p>After experimentation, Janelle hypothesized that the machine learning model was trained with lots and lots of pictures of sheep in green, grassy countrysides. The model did not “learn” the sheep’s visual properties, but mistakenly correlated the landscape with the sheep label. Subsequently, when Janelle gave the model pictures of sheep in cars or livings rooms, the model labeled the animals as dogs and cats.</p>
+
+<p><em>(Image from the ‘<a href="https://www.freecodecamp.org/news/chihuahua-or-muffin-my-search-for-the-best-computer-vision-api-cbda4d6b425d/">Chihuahua or Muffin?</a>’ tutorial.)</em></p>
+
+<p><figure><img src="/images/2021/01/Slide9.PNG" /><figcaption>Machine Learning is Strategically Important to Companies</figcaption></figure></p>
+
+<p>Despite this, machine learning is still <strong>a very big deal™</strong> for companies. <a href="https://www.accenture.com/us-en/insights/artificial-intelligence/ai-governance-support-innovation">According to an Accenture global research survey</a>, 85% of business leaders expect AI to open up new products, services, business models, and markets. Another 78% expect AI to disrupt their industry in the next ten years.</p>
+
+<p>Further, a report from market research firm Tractica <a href="https://www.top500.org/news/market-for-artificial-intelligence-projected-to-hit-36-billion-by-2025/">forecasts that the annual global revenue for artificial intelligence products and services will grow from $643.7 million, in 2016, to $36.8 <em>billion</em> by 2025</a>. That’s a 57-fold increase and makes AI the fastest-growing segment in the IT sector.</p>
+
+<p>And no, AI <em>is not coming to take our jobs</em>. As the quote from Mary Gray says, automation doesn’t eliminate jobs; it changes the form those jobs take.</p>
+
+<p><figure><img src="/images/2021/01/Slide10.PNG" /><figcaption>Machine Learning is Good at Specific Things</figcaption></figure></p>
+
+<p>Machine learning promises to lower costs and produce better outcomes. It’s because AI can recognize subtle patterns in vast volumes of data.</p>
+
+<p>Princeton professor Arvind Narayan created an excellent presentation late last year, entitled “<a href="https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf">How to Recognize AI Snake Oil</a>”. He identifies where machine learning techniques are practical, where they have problems, and where they may be ethically dubious.</p>
+
+<p>Enhancing or scaling perception is a great application of machine learning. These have clear success criteria; either the model successfully does a thing or needs additional training. Automating judgment, or asking a machine to call balls and strikes when there is some gray area, is more complicated.</p>
+
+<p>Then there’s predicting the future. You may use a machine learning algorithm to review someone’s social media feed and identify how often a beer bottle is pictured. That is perception. Assuming that a high percentage of beer bottle appearances makes an individual unfit for employment is predicting an outcome. That is problematic, <a href="https://venturebeat.com/2020/03/30/ai-is-bad-at-predicting-gpa-grit-eviction-job-training-layoffs-and-material-hardship/">as research has shown</a>. <strong>Machine learning, despite its promise, cannot tell the future.</strong> It can only find correlations in the past.</p>
+
+<p><figure><img src="/images/2021/01/Slide11.PNG" /><figcaption>However, Machine Learning is Not a Silver Bullet</figcaption></figure></p>
+
+<p>It is also essential to use common sense when considering machine learning. Martin Zinkevich is a research scientist at Google and author of “<a href="http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf">Rules of Machine Learning: Best Practices for ML Engineering</a>”. He urges several useful heuristics when evaluating whether machine learning is appropriate for a task, like:</p>
+
+<blockquote>
+  <p>“If your system has more than 100 nested if-else [statements], it’s time to switch to machine learning.”</p>
+</blockquote>
+
+<p>For example, imagine you’re a smartphone developer, and you’re tasked with recommending the next application someone should use. You could consider the time of day, the weather, user movement, sentiment of their social media accounts, their text and call volume, the proximity of that communication in a social graph, etc. Those could all be inputs to a complex model.</p>
+
+<p>Or you could recommend the most frequently used apps. If a simple heuristic, like “recommend the most recently used items”, is successful 70% of the time, any model built has to significantly outperform it to justify the increased complexity.</p>
+
+<p><figure><img src="/images/2021/01/Slide12.PNG" /><figcaption>Challenges Title Screen</figcaption></figure></p>
+
+<p>What form does that complexity take? Let’s talk about the challenges to developing machine learning.</p>
+
+<p><figure><img src="/images/2021/01/Slide13.PNG" /><figcaption>There are Challenges</figcaption></figure></p>
+
+<p>There are four big challenges to creating successful machine learning models. They are:</p>
+
+<ul>
+  <li>The volume of data to collect and refine</li>
+  <li>The compute cost to process</li>
+  <li>Regulatory, privacy and/or ethical concerns</li>
+  <li>Operationalization.</li>
+</ul>
+
+<p>To illustrate this, let’s talk about Google’s Meena chatbot. A sample conversation between Meena and a human is shown in the slide. Google used <strong>341GB</strong> of text to train the model. In doing so, <strong>they consumed $1.4 million in cloud computation</strong>. That’s a lot of money. It is also a lot of power. For comparison, it would take the average American household  <em>28 years</em> to burn the same 292,912 kWh of power. I might argue that the conversation is not noticeably better than Eliza, a program crafted at MIT in the 1960s. As such, there is an ethical question of whether the results warrants that level of energy expenditure (and subsequent carbon footprint).</p>
+
+<p>And that’s before we even get to operationalization and the challenges of doing <a href="https://martinfowler.com/articles/cd4ml.html">Continuous Delivery for Machine Learning</a>.</p>
+
+<p><em>(More on Meena from a <a href="https://www.zdnet.com/article/googles-meena-advances-the-exquisite-banality-of-chat-bots/">ZDNet article</a>)</em></p>
+
+<p><figure><img src="/images/2021/01/Slide14.PNG" /><figcaption>Building Your Own AI Models Can Be Expensive</figcaption></figure></p>
+
+<p>Please consider where the compute for your models is being run. If the training can be done anywhere, research which AWS regions carbon offset, for example. For reference, that is <strong>not US-EAST-1</strong>. If the training is geographically agnostic, take a few minutes and click the necessary boxes to a configuration more carbon friendly.</p>
+
+<p><em>(Articles pictured in this slide include <a href="https://www.technologyreview.co m/s/613630/training-a-single-aimodel-can-emit-as-much-carbonas-five-cars-in-their-lifetimes/">Training a single AI model can emit as much carbon as five cars in their lifetimes</a> and <a href="https://www.technologyreview.com/s/614700/the-computing-power-needed-to-train-ai-is-now-rising-seven-times-faster-than-ever-before/">Computer power needed is rising seven times faster than ever before</a>)</em></p>
+
+<p><figure><img src="/images/2021/01/Slide15.PNG" /><figcaption>Building on Other's Work Is Important</figcaption></figure></p>
+
+<p>Also, consider building upon others work. It may be hard to remember, but there was a time when the idea of having a picture of every single inch along every single street in every single place was a problem of seemingly infinite scale. Imagine if every application with a street view had to stand-up and operate their own fleet of vehicles and cameras. Yet today, anyone can call a Google Maps API.</p>
+
+<p>Similarly, we aren’t that far removed when small and mid-sized businesses maintained their server closets. Handling things like seasonal traffic or DDS attacks was an individual challenge. Now we have APIs on cloud-providers, like AWS, to call.</p>
+
+<p>Finally, imagine if every application that wanted to send a text message had to negotiate individual deals with each and every telco provider? The barriers to innovation would be horrible. Better to let someone like Twilio do that once, and then we build upon the abstraction.</p>
+
+<p>In the same way that these companies have exposed services via APIs, the future very much looks like leaving the big, precarious, and expensive data collection and model building to the experts. Then we consume that model through an API.</p>
+
+<p><figure><img src="/images/2021/01/Slide16.PNG" /><figcaption>Enter APIs</figcaption></figure></p>
+
+<p>APIs are an <em>enabling technology</em>. AI doesn’t reduce or eliminate the need for APIs. <strong>More AI use demands more sensible and well-designed APIs</strong>.</p>
+
+<p><figure><img src="/images/2021/01/Slide17.PNG" /><figcaption>APIs Provide an Abstraction to Technical Complexity</figcaption></figure></p>
+
+<p>A web API (or Net API) provides a <em>separation of concerns</em>. You have your code. You focus on uniquely solving your business problem. Then, through an API, you consume someone else’s generated model.</p>
+
+<p>The AI provider handles the tricky issues of:</p>
+<ul>
+  <li>Collecting and Refining the Data</li>
+  <li>Paying the electricity bill</li>
+  <li>Fielding regulatory inquiries around privacy and security</li>
+  <li>Managing the operationalization of data</li>
+</ul>
+
+<p><figure><img src="/images/2021/01/Slide18.PNG" /><figcaption>Language is the Most Used AI Accessed Through APIs</figcaption></figure></p>
+
+<p>I see the industry already moving in this direction. The chart shown was created from a survey of which types of functionality were consumed via API. Things like natural language processing are highest on the list, for the reasons that Princeton’s Arvind Narayan pointed out: these are all perception related. Scaling perception is where AI has proven its usefulness and we’re moving toward a commodification of the feature.</p>
+
+<p><em>(Chart from <a href="https://www.statista.com/statistic
+s/1069198/worldwide-ai-machine-learning-api/">Statista.com</a>)</em></p>
+
+<p><figure><img src="/images/2021/01/Slide19.PNG" /><figcaption>AI API Claims Require Data Questioning</figcaption></figure></p>
+
+<p>When choosing between AI offerings via an API, it will be necessary for consumers to evaluate their claims via intelligent questions.</p>
+
+<p>Vicki Boykis is a data scientist and writer out of Philadelphia. In her essay, “<a href="https://vicki.substack.com/p/neural-nets-are-just-people-all-the">Neural nets are just people all the way down</a>”, Vicki highlights some important revelations on one highly-touted AI use case:</p>
+<blockquote>
+  <p>“if you’re doing image recognition in 2019, it’s highly likely you’re using an image recognition systems built by images tagged by people using Mechanical Turk in 2007 that sit on top of language classification systems built by graduate students prowling newspaper clippings in the 1960s.”</p>
+</blockquote>
+
+<p>There’s so much we should be asking about our AI providers. However, briefly, consider the incentives. Be wary if there are financial incentives to be less than transparent about how the model is generated or where the data is collected from. Also, be skeptical if an AI product also happens to use the latest blockchain-enabled, agile-Kubernetes, nano-service hype salad. Leverage others’ work, like this article comparing cloud providers; not all pieces are this comprehensive, but there are folks out there that are sharing their results for the community’s benefit. And, finally, interrogate the data. In general, we’re not good at this, in general, but, going-forward it will increasingly be more important.</p>
+
+<p>Articles pictured in this slide include:</p>
+<ul>
+  <li><a href="https://spectrum.ieee.org/tech-talk/artificial-intelligence/machine-learning/learn-the-red-flags-ofoverhyped-ai-claims">Three easy ways to evaluate AI Claims</a></li>
+  <li><a href="https://www.altexsoft.com/blog/datascience/comparing-machine-learning-as-a-service-amazon-microsoft-azure-google-cloud-ai-ibm-watson/">Comparing Machine Learning as a Service</a></li>
+</ul>
+
+<p><figure><img src="/images/2021/01/Slide20.PNG" /><figcaption>Dataset Nutrition Labels Need Our Support</figcaption></figure></p>
+
+<p>A survey was done asking folks whether they had practices in place to determine whether their data was good. Unfortunately, 44% said ‘no’.</p>
+
+<p>Increasingly, that is not going to be an acceptable answer. We need to figure out best practices to interrogate the data. This is especially true of APIs since we may not have our hands on that data.</p>
+
+<p>From the same survey, a majority of respondents reported that their ability to analyze data was self-taught. Going forward, we will need standardized, reusable approaches to create standardized, predictable results. As proposed in the linked white paper, one idea is using a nutritional label-like representation to compare and contrast datasets used in AI products.</p>
+
+<p>Adopting a dataset nutrition label <em>could</em> help. However, keep in mind that having a robust understanding of the data is only one part of the process necessary to create a working model. 
+(Charts from <a href="https://arxiv.org/ftp/arxiv/papers/1805/1805.03677.pdf">The Dataset Nutrition Label Whitepaper</a>)</p>
+
+<p><figure><img src="/images/2021/01/Slide21.PNG" /><figcaption>Conclusions</figcaption></figure></p>
+
+<p>That was a lot and, again, I’m only showing the tip of the iceberg.</p>
+
+<p><figure><img src="/images/2021/01/Slide22.PNG" /><figcaption>Where to Learn More</figcaption></figure></p>
+
+<p>If you are interested in learning more, there are numerous placed to get started. In addition to the many papers, presentations, and courses that I’ve linked to throughout this talk, I would also recommend the following books:</p>
+
+<ul>
+  <li><a href="https://bookshop.org/books/you-look-like-a-thing-and-i-love-you-how-artificial-intelligence-works-and-why-it-s-making-the-world-a-weirder-place/9780316525244">You Look Like a Thing and I Love You</a> by Janelle Shane</li>
+  <li><a href="https://bookshop.org/books/rebooting-ai-building-artificial-intelligence-we-can-trust/9781524748258">A Human’s Guide to Machine Intelligence</a> by Kartik Hosanagar</li>
+  <li><a href="https://bookshop.org/books/rebooting-ai-building-artificial-intelligence-we-can-trust/9781524748258">Rebooting AI</a> by Gary Marcus and Ernest Davies</li>
+</ul>
+
+<p>In addition, I would highly encourage those working in the space to have a firm grasp of how these algorithmic approaches can cause harm. For that, I would suggest:</p>
+
+<ul>
+  <li><a href="https://bookshop.org/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy/9780553418835">Weapons of Math Destruction</a> by Cathy O’Neil</li>
+  <li><a href="https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789">Automating Inequality</a> by Virginia Eubanks</li>
+</ul>
+
+<p>It also surprises me that there aren’t more sights that allow prospective AI users do “comparison shopping” across the major providers. Algorithmia <em>used</em> to be an online marketplace for algorithms. Similarly, Inten.to <em>used</em> to allow running sample queries across cloud algorithms. Both appear to have since pivoted. Certain AI APIs can still be found within the Programmable Web directory, however.</p>
+
+<p>There are also a couple good sources for data, if people are looking for raw ingredients to get started. If you are aware of other sites that provide a similar service, let me know.</p>
+
+<p><figure><img src="/images/2021/01/Slide23.PNG" /><figcaption>How to Contact Me</figcaption></figure></p>
+
+<p>Thank you for your time and attention. My name is Matthew Reinbold and you can find me online at these fine establishments.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DAm6o9LULts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  </div>
+
+</article>
+
+<div class="relatedPosts">
+
+
+
+
+
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+        <hr />
+    		<h4>Related</h4>
+    		
+    	
+      <div>
+      <h5><a href="/2020/07/09/APIsAreArrangementsOfPower/">APIs are Arrangements of Power</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2019/11/25/ARoadMapForAIGovernance/">A Roadmap for AI Governance</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2019/07/17/OvercomingComplexity/">Overcoming Complexity through the Principle of Least Power</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2016/08/01/CodifiedCulturalBias/">Codified Cultural Bias</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+</div>
+        </div>
+      </div>
+      
+      <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+          <div id="quote">
+
+          </div>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="mailto:hello@matthewreinbold.com"><span class="icon icon--email"><?xml version="1.0" encoding="utf-8"?>
+<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+<g><path d="M990,232.8c0-61.5-49.9-111.4-111.4-111.4H121.4C59.9,121.4,10,171.3,10,232.8v534.4c0,61.5,49.9,111.4,111.4,111.4h757.3c61.5,0,111.4-49.9,111.4-111.4V232.8z M920.3,236.4c1.6,5.8,2.5,11.8,2.5,18.1v490c0,6.7-0.7,13.1-2.5,19.2c-1.6-3.5-3.7-6.8-6.6-9.7L637.8,499.3L920.3,236.4z M143.9,187.1h712.7c6.3,0,12.3,1.4,18.1,3.1L555,487.8c-1.2,1.2-1.7,3-2.7,4.4l-7.5,7.8h-6.2c-7.7,12.9-21.9,22.3-38.4,22.3c-16.4,0-30.7-9.4-38.4-22.3h-6.2l-5.5-5.7c-1.3-2.1-2.3-4.4-4.1-6.2L126.3,190.1C131.9,188.6,137.7,187.1,143.9,187.1 M77.1,254.5c0-6.5,1.2-12.7,2.9-18.6l283.1,263.4L87.3,753.9c-3.2,3.2-5.5,6.8-7.1,10.7c-2-6.3-3-13.1-3-20.1L77.1,254.5L77.1,254.5z M143.9,811.4c-7,0-13.7-1.1-20.1-3.1c3.9-1.6,7.5-4,10.7-7.2L411.9,545c20.3,26.5,52.3,43.6,88.3,43.6c36.2,0,68.3-17.3,88.6-44l277.8,256.5c3.1,3.1,6.6,5.5,10.4,7.1c-6.5,2.1-13.3,3.3-20.5,3.3H143.9z"/></g>
+</svg></span> <span class="username">Email</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="/feed.xml"><span class="icon icon--rss"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M3.428,31.085c6.19,0,12.009,2.418,16.382,6.816c4.381,4.398,6.793,10.256,6.793,16.492h9.539  c0-18.113-14.676-32.848-32.714-32.848V31.085z M3.443,14.174c22.061,0,40.01,18.047,40.01,40.231h9.539  c0-27.445-22.229-49.77-49.549-49.77V14.174z M16.634,47.741c0,3.648-2.959,6.607-6.607,6.607S3.42,51.39,3.42,47.741  c0-3.65,2.958-6.607,6.606-6.607S16.634,44.091,16.634,47.741z"/></svg></span> <span class="username">Site RSS</span></a>
+
+          </li>
+          
+
+          
+
+          
+          <li>
+            <a href="https://tinyletter.com/netapinotes"><span class="icon icon--twitter"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="226 288.5 160 215" enable-background="new 226 288.5 160 215" xml:space="preserve">
+<g id="Logo_2_">
+	<path id="White_Envelope_1_" fill="#FFFFFF" d="M368.6,333.9H243.4c-6.2,0-11.1,5.1-11.1,11.1v102c0,6.2,5.1,11,11.1,11h45
+		l42.5,32.6V458h37.7c6.2,0,11-5.1,11-11V345C379.7,338.8,374.6,333.9,368.6,333.9z"/>
+	<path id="Red_Heart_2_" fill="#EC1C24" d="M301.2,302.8l4.8,4.8l4.8-4.8c8.8-8.8,22.9-8.8,31.7,0c8.8,8.8,8.8,22.9,0,31.7L306,364
+		l-36.6-29.5c-8.8-8.8-8.8-22.9,0-31.7C278.2,294,292.4,294,301.2,302.8z"/>
+	<path id="Black_Outline_1_" d="M368.6,328.9h-15.9c1.1-3.1,2-6.5,2-10.2c0-7.6-2.8-14.4-8.2-19.8s-12.5-8.2-19.8-8.2
+		c-7.6,0-14.4,2.8-19.8,8.2l-0.9,0.9l-0.9-0.9c-5.4-5.4-12.5-8.2-19.8-8.2c-7.6,0-14.4,2.8-19.8,8.2c-8.2,8.2-10.2,20.1-6.2,30
+		h-15.9c-9.4,0-17,7.6-17,17v100.3c0,9.4,7.6,17,17,17h40.5l52.7,40v-40h32c9.4,0,17-7.6,17-17V345.9
+		C385.6,336.5,378,328.9,368.6,328.9z M273.4,306.8c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8l8.8,8.8l8.8-8.8
+		c3.1-3.1,7.4-4.8,11.9-4.8s8.8,1.7,11.9,4.8s4.8,7.4,4.8,11.9c0,4.2-1.7,8.5-4.8,11.6L306,356.6l-32.6-26.4
+		C266.9,323.8,267.2,313.3,273.4,306.8z M243.4,340.2h24.4l38.5,31.2l38.5-31.2h24.1c3.1,0,5.7,2.5,5.7,5.7v17.3L306,415l-68.3-51.8
+		v-17.3C237.7,342.7,240.3,340.2,243.4,340.2z M374.3,377.3v39.4l-25.8-19.8L374.3,377.3z M263.5,397.1L237.7,417v-39.4L263.5,397.1
+		z M368.6,451.8H325v28.3l-37.4-28.3h-44.2c-3.1,0-5.7-2.6-5.7-5.7v-15l35.4-26.9l33.1,25.2l33.1-25.2l35.4,26.9v15
+		C374.3,449.3,371.7,451.8,368.6,451.8z"/>
+</g>
+</svg>
+</span><span class="username">Net API Notes</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/libel_vox"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">Twitter</span></a>
+
+          </li>
+          
+
+          
+
+
+          
+
+          
+
+             
+
+          
+          <li>
+            <a href="https://www.linkedin.com/in/matthewreinbold/"><span class="icon icon--linkedin"><?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="256.000000pt" height="256.000000pt" viewBox="0 0 256.000000 256.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+</metadata>
+<g transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M410 2297 c-49 -15 -136 -104 -149 -153 -7 -27 -11 -305 -11 -875 l0
+-835 26 -52 c14 -29 42 -66 62 -82 75 -62 56 -61 968 -58 l829 3 41 22 c59 31
+110 93 128 154 23 77 24 1639 1 1715 -19 65 -63 116 -127 148 l-52 26 -840 -1
+c-583 -1 -852 -4 -876 -12z m416 -356 c49 -22 80 -60 95 -114 14 -52 -8 -114
+-56 -156 -63 -55 -141 -53 -205 5 -67 61 -74 148 -18 220 23 28 90 64 123 64
+11 0 38 -9 61 -19z m960 -446 c64 -31 126 -99 150 -163 16 -41 19 -91 22 -389
+l3 -343 -135 0 -136 0 -1 273 c0 232 -3 279 -17 317 -24 61 -68 90 -140 90
+-74 0 -125 -29 -154 -89 -22 -44 -23 -60 -26 -318 l-4 -273 -129 0 -129 0 0
+450 0 450 130 0 130 0 0 -60 c0 -33 3 -60 8 -60 4 0 20 16 35 35 88 110 260
+145 393 80z m-886 -445 l0 -450 -135 0 -135 0 0 450 0 450 135 0 135 0 0 -450z"/>
+</g>
+</svg>
+</span> <span class="username">LinkedIn</span></a>
+
+          </li>
+                    
+
+          
+
+
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is the website for Matthew Reinbold, the Director for Capital One's   Platform Services Center of Excellence. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Adult fan of Lego. And trying to make Dakota Gothic a thing. 
+</p>
+      </div>
+
+      <div style="clear:both;">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(
+    function() {
+     $.getJSON( '/quotes.json', 
+      function(data) {
+        // generate a random number between 0 and length-1
+        var index = Math.floor(Math.random() * (data.quotes.length - 1) ); 
+        //alert(data.quotes[index].quote);
+        $('#quote').text('"' + data.quotes[index].quote + '" - ' + data.quotes[index].attribution )
+      }
+    );
+   }
+  );
+</script>
+      
+    </div>
+  </body>
+</html>
