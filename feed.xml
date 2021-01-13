@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jan 2021 10:29:29 -0500</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2021 10:29:29 -0500</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2021 10:47:08 -0500</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2021 10:47:08 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -49,8 +49,6 @@
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide5.PNG&quot; /&gt;&lt;figcaption&gt;Clarifying AI&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;While I could talk, for some length, about the challenges and rewards of building communities of practice around API, tonight, we need to discuss &lt;strong&gt;AI&lt;/strong&gt;.&lt;/p&gt;
-
 &lt;p&gt;AI has generated almost as much excitement as clickbait headlines. You would be forgiven to think that we’re all one errant compile away from Skynet. I mean, even the Pope is talking with Microsoft. When something crosses over into popular awareness, it is significant; even if that awareness is imperfect.&lt;/p&gt;
 
 &lt;p&gt;Before going further, we should be on the same page. AI is a broad brush that paints many things. Usually, when you see these alarmist articles about Skynet and Terminator death robots, the authors are postulating about “&lt;strong&gt;Artificial General Intelligence&lt;/strong&gt;”. This is software that can “think” in a manner we associate with people.&lt;/p&gt;
@@ -74,7 +72,7 @@
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide7.PNG&quot; /&gt;&lt;figcaption&gt;What is Machine Learning?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;A full explanation of how machine learning, and its various permutations work is beyond this presentation’s scope. However, as we begin to discuss why these things take so much compute or why they’re so energy expensive, we need some theoretical model in how they’re composed.&lt;/p&gt;
+&lt;p&gt;A full explanation of how machine learning, and how its various permutations work is beyond this presentation’s scope. However, as we begin to discuss why these things take so much compute or why they’re so energy expensive, we need some theoretical model in how they’re composed.&lt;/p&gt;
 
 &lt;p&gt;Suppose, for example, we had to create a service that could determine whether a provided picture was of a chihuahua or not. The output is either “yes” if a chihuahua is present or “no” if not.&lt;/p&gt;
 
@@ -219,8 +217,9 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 
 &lt;p&gt;From the same survey, a majority of respondents reported that their ability to analyze data was self-taught. Going forward, we will need standardized, reusable approaches to create standardized, predictable results. As proposed in the linked white paper, one idea is using a nutritional label-like representation to compare and contrast datasets used in AI products.&lt;/p&gt;
 
-&lt;p&gt;Adopting a dataset nutrition label &lt;em&gt;could&lt;/em&gt; help. However, keep in mind that having a robust understanding of the data is only one part of the process necessary to create a working model. 
-(Charts from &lt;a href=&quot;https://arxiv.org/ftp/arxiv/papers/1805/1805.03677.pdf&quot;&gt;The Dataset Nutrition Label Whitepaper&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Adopting a dataset nutrition label &lt;em&gt;could&lt;/em&gt; help. However, keep in mind that having a robust understanding of the data is only one part of the process necessary to create a working model.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Charts from &lt;a href=&quot;https://arxiv.org/ftp/arxiv/papers/1805/1805.03677.pdf&quot;&gt;The Dataset Nutrition Label Whitepaper&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide21.PNG&quot; /&gt;&lt;figcaption&gt;Conclusions&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -243,13 +242,19 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
   &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789&quot;&gt;Automating Inequality&lt;/a&gt; by Virginia Eubanks&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;It also surprises me that there aren’t more sights that allow prospective AI users do “comparison shopping” across the major providers. Algorithmia &lt;em&gt;used&lt;/em&gt; to be an online marketplace for algorithms. Similarly, Inten.to &lt;em&gt;used&lt;/em&gt; to allow running sample queries across cloud algorithms. Both appear to have since pivoted. Certain AI APIs can still be found within the Programmable Web directory, however.&lt;/p&gt;
+&lt;p&gt;It also surprises me that there aren’t more sites that allow prospective AI users do “comparison shopping” across the major providers. Algorithmia &lt;em&gt;used&lt;/em&gt; to be an online marketplace for algorithms. Similarly, Inten.to &lt;em&gt;used&lt;/em&gt; to allow running sample queries across cloud algorithms. Both appear to have since pivoted. Certain AI APIs can still be found within the Programmable Web directory, however.&lt;/p&gt;
 
 &lt;p&gt;There are also a couple good sources for data, if people are looking for raw ingredients to get started. If you are aware of other sites that provide a similar service, let me know.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide23.PNG&quot; /&gt;&lt;figcaption&gt;How to Contact Me&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Thank you for your time and attention. My name is Matthew Reinbold and you can find me online at these fine establishments.&lt;/p&gt;
+
+&lt;p&gt;Good night.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Below is the presentation given to the DC API Meetup Group, recorded February 4th, 2020.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DAm6o9LULts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
