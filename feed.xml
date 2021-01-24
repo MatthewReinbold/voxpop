@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jan 2021 10:47:08 -0500</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2021 10:47:08 -0500</lastBuildDate>
+    <pubDate>Sun, 24 Jan 2021 12:17:28 -0500</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2021 12:17:28 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -437,6 +437,7 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
   &lt;li&gt;&lt;a href=&quot;#dunning-kruger-effect&quot;&gt;Dunning-Kruger Effect&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#eaglesons-law&quot;&gt;Eagleson’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#finagles-law&quot;&gt;Finagle’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#fitts-law&quot;&gt;Fitt’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#galls-law&quot;&gt;Gall’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#gilders-law&quot;&gt;Gilder’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#godwins-law&quot;&gt;Godwin’s Law&lt;/a&gt;&lt;/li&gt;
@@ -509,6 +510,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.&lt;/p&gt;
 &lt;h3 id=&quot;finagles-law&quot;&gt;Finagle’s Law&lt;/h3&gt;
 &lt;p&gt;Anything that can go wrong will and at the worst possible moment.&lt;/p&gt;
+&lt;h3 id=&quot;fitts-law&quot;&gt;Fitt’s Law&lt;/h3&gt;
+&lt;p&gt;A design law that states the longer the distance to move a cursor and smaller the target size, the longer it takes. It was originally described by Paul Morris Fitts in a 1954 paper.&lt;/p&gt;
 &lt;h3 id=&quot;galls-law&quot;&gt;Gall’s Law&lt;/h3&gt;
 &lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked.&lt;/p&gt;
 &lt;h3 id=&quot;gilders-law&quot;&gt;Gilder’s Law&lt;/h3&gt;
