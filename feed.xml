@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Jan 2021 12:17:28 -0500</pubDate>
-    <lastBuildDate>Sun, 24 Jan 2021 12:17:28 -0500</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2021 12:44:18 -0500</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2021 12:44:18 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -53,7 +53,7 @@
 
 &lt;p&gt;Before going further, we should be on the same page. AI is a broad brush that paints many things. Usually, when you see these alarmist articles about Skynet and Terminator death robots, the authors are postulating about “&lt;strong&gt;Artificial General Intelligence&lt;/strong&gt;”. This is software that can “think” in a manner we associate with people.&lt;/p&gt;
 
-&lt;p&gt;We still quite far from that future. What I will be talking about tonight is much more narrowly focused. So narrow, in fact, that practitioners refer to it as “&lt;strong&gt;narrow AI&lt;/strong&gt;”. Even more specifically, I will discuss a popular technique, often conflated as AI, called “&lt;strong&gt;machine learning&lt;/strong&gt;”.&lt;/p&gt;
+&lt;p&gt;We are still quite far from that future. What I will be talking about tonight is much more narrowly focused. So narrow, in fact, that practitioners refer to it as “&lt;strong&gt;narrow AI&lt;/strong&gt;”. Even more specifically, I will discuss a popular technique, often conflated as AI, called “&lt;strong&gt;machine learning&lt;/strong&gt;”.&lt;/p&gt;
 
 &lt;p&gt;Machine learning has real, tangible benefits for companies. It also solves interesting challenges. As an additional plus, it &lt;em&gt;probably&lt;/em&gt; won’t end human life as we know it.&lt;/p&gt;
 
