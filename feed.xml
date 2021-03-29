@@ -4,11 +4,44 @@
     <title>Matthew Reinbold</title>
     <description>This is the website for Matthew Reinbold, the Director for Capital One's   Platform Services Center of Excellence. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Adult fan of Lego. And trying to make Dakota Gothic a thing. 
 </description>
-    <link>https://matthewreinbold.com/</link>
-    <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Feb 2021 13:08:57 -0500</pubDate>
-    <lastBuildDate>Mon, 08 Feb 2021 13:08:57 -0500</lastBuildDate>
+    <link>https://matthewreinbold.com</link>
+    <atom:link href="https://matthewreinbold.comfeed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 29 Mar 2021 11:03:55 -0400</pubDate>
+    <lastBuildDate>Mon, 29 Mar 2021 11:03:55 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Blasting Off For New Adventures</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/03/postman-logo.png&quot; alt=&quot;Postman Logo&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m excited to share that, this April, I’ll be joining Postman as the &lt;strong&gt;Director for API Platforms and Digital Transformation&lt;/strong&gt;.  I’ll be reporting to Kin Lane, Chief API Evangelist. I’m the latest addition to Postman’s Open Technologies group, an incredible, assembled group of industry-leading professionals.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.postman.com/&quot;&gt;Postman, as many developers already know, sets the bar for API collaboration excellence&lt;/a&gt;. I’ll get to help companies build their API lifecycle management and governance programs on that incredible bedrock.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I’m excited to get started and look forward to meeting all my future fellow &lt;em&gt;Postmanauts&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While I’m eager to look forward, I would be remiss to not say a few words about the past. Thank you to those at Capital One for an incredibly educational five and a half years. I’m proud of so much of that early, ecosystem-enabling work. That effort has scaled to thousands of schema-defined, affordance-consistent microservices that perform &lt;em&gt;half a billion requests a day&lt;/em&gt;. From training to the collaborations, from tool development to analysis, every day was an opportunity to grow as a professional.&lt;/p&gt;
+
+&lt;p&gt;A half-decade is also long enough to see initial assumptions grow, change, and take on a life of their own. Relationships form and strongly held ideals evolve beyond the first contact with production. I have a different level of professional maturity now that I didn’t have at the start, even if the past year has mostly been unkempt hair and sweatshirts.&lt;/p&gt;
+
+&lt;p&gt;There remain a vast number of folks there continuing to create positive change. I see you, salute you, and want you to know I will continue to root for you. I also wish my former team the best of luck; you have taught me a tremendous amount. Now the wheel is yours. You’re driving where things go next. You’ve got this. I believe in you!&lt;/p&gt;
+
+&lt;p&gt;It will be a busy next few months. In 2015, my family moved to the East Coast for the Capital One job. The pandemic and limited travel options impressed just how removed the northern Virginia region is from our extended families. So we’ll be taking advantage of Postman’s 100% remote allowance and moving our circus to the Midwest.&lt;/p&gt;
+
+&lt;p&gt;That’s a lot of &lt;strong&gt;uff-da&lt;/strong&gt; for now, but we’ll break &lt;strong&gt;lefse&lt;/strong&gt; soon enough. &lt;strong&gt;Skol&lt;/strong&gt; and boldness to you, friends!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Mar 2021 00:00:00 -0400</pubDate>
+        <link>https://matthewreinbold.com2021/03/29/Postman/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2021/03/29/Postman/</guid>
+        
+        <category>Postman</category>
+        
+        <category>career</category>
+        
+        <category>Minneapolis</category>
+        
+        
+      </item>
     
       <item>
         <title>WandaVision and This American Moment</title>
@@ -33,8 +66,8 @@
 &lt;p&gt;However, WandaVision becomes transcendent at this moment in which we’re all trapped in our own Westview.&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Feb 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/02/08/WandaVision/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/02/08/WandaVision/</guid>
+        <link>https://matthewreinbold.com2021/02/08/WandaVision/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2021/02/08/WandaVision/</guid>
         
         <category>WandaVision</category>
         
@@ -306,8 +339,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DAm6o9LULts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 08 Jan 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</guid>
+        <link>https://matthewreinbold.com2021/01/08/WhyAISuccessIsAPIBuilt/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2021/01/08/WhyAISuccessIsAPIBuilt/</guid>
         
         <category>AI</category>
         
@@ -427,8 +460,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;~fin~&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Aug 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</guid>
+        <link>https://matthewreinbold.com2020/08/05/OurRoadIsShared/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2020/08/05/OurRoadIsShared/</guid>
         
         <category>covid-19</category>
         
@@ -633,8 +666,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;The belief in change actually occurring is a mistake, and that any motion forward is nothing but an illusion. Thought to be devised by Greek philosopher Zeno of Elea.&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Aug 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2020/08/03/Technology-Aphorisms/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/08/03/Technology-Aphorisms/</guid>
+        <link>https://matthewreinbold.com2020/08/03/Technology-Aphorisms/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2020/08/03/Technology-Aphorisms/</guid>
         
         <category>Jade Bloom</category>
         
@@ -824,8 +857,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;Be that latter type of leader.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Jul 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2020/07/22/LeadingPeopleInCrisis/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/07/22/LeadingPeopleInCrisis/</guid>
+        <link>https://matthewreinbold.com2020/07/22/LeadingPeopleInCrisis/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2020/07/22/LeadingPeopleInCrisis/</guid>
         
         <category>people management</category>
         
@@ -1092,8 +1125,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;That’s it! My name is Matthew Reinbold. I hope you’re safe. I hope you’re healthy. And I hope to talk with you again soon.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Jul 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2020/07/09/APIsAreArrangementsOfPower/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/07/09/APIsAreArrangementsOfPower/</guid>
+        <link>https://matthewreinbold.com2020/07/09/APIsAreArrangementsOfPower/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2020/07/09/APIsAreArrangementsOfPower/</guid>
         
         <category>presos</category>
         
@@ -1208,8 +1241,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;I’m not fond of “burn the boats”, all-or-nothing transformation initiatives. Even if these “legacy” APIs are not the way we’d do them now, they are still providing business value to &lt;em&gt;someone&lt;/em&gt; (hence their continued existence). Cataloging, with an understood path forward, enables that quirky part of the corporate ecosystem to be studied and understood. As stewards of these complex systems, we’d do well to learn from the complex accretions that occurred. This is opposed to ignoring a company’s legacy to declare a fleeting ideological victory.&lt;/p&gt;
 </description>
         <pubDate>Wed, 13 May 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2020/05/13/APIManagementQuestions/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/05/13/APIManagementQuestions/</guid>
+        <link>https://matthewreinbold.com2020/05/13/APIManagementQuestions/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2020/05/13/APIManagementQuestions/</guid>
         
         <category>API Governance</category>
         
@@ -1533,8 +1566,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;&lt;em&gt;Photo by Zac Ong on Unsplash&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 Nov 2019 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/</guid>
+        <link>https://matthewreinbold.com2019/11/25/ARoadMapForAIGovernance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2019/11/25/ARoadMapForAIGovernance/</guid>
         
         <category>AI</category>
         
@@ -1622,8 +1655,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;And, if you’re so inclined, check out the &lt;a href=&quot;https://digital.globalclimatestrike.net&quot;&gt;Global #ClimateStrike&lt;/a&gt;. Let’s turn the &lt;em&gt;climate crisis&lt;/em&gt; into &lt;em&gt;climate action&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Sep 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2019/09/18/ComparingCarbonOffsetSites/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2019/09/18/ComparingCarbonOffsetSites/</guid>
+        <link>https://matthewreinbold.com2019/09/18/ComparingCarbonOffsetSites/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com2019/09/18/ComparingCarbonOffsetSites/</guid>
         
         <category>climate change</category>
         
@@ -1640,76 +1673,6 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
         <category>eden project</category>
         
         <category>trees</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sleep, Creativity, and Being Brilliant Every Day</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/08/whiteboard.png&quot; /&gt;&lt;figcaption&gt;Attempting to Whiteboard Productivity&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;It is another video collection!&lt;/p&gt;
-
-&lt;p&gt;There are a lot of “productivity suggestions” online. Often referred to as “hacks”, some genuinely are useful. Most, however, are slight rehashings of common sense or trivial alternative ways of doing a thing. A few are downright counterproductive.&lt;/p&gt;
-
-&lt;p&gt;Below are a handful of videos I’ve found to be genuinely useful. They require a greater investment than the hacks you might find most places. I’d go so far as to refer to them as productivity &lt;em&gt;lifestyles&lt;/em&gt;. If you’re up for a challenge, I’ve found the returns they offer are worth the effort.&lt;/p&gt;
-
-&lt;h2 id=&quot;creativity-in-management-by-john-cleese-video-arts-1991&quot;&gt;&lt;em&gt;Creativity in Management&lt;/em&gt;, by John Cleese, Video Arts (1991)&lt;/h2&gt;
-
-&lt;p&gt;Yes, it is Monty Python’s John Cleese giving a business lecture. However, despite it being a “serious” talk, the viewer ends up getting tremendous insight into John’s creative process. I particularly like his steadfast insistence to take all available time to search a creative space exhaustively.&lt;/p&gt;
-
-&lt;p&gt;Oh, and it also turns out that John is an entertaining speaker. Whoda thunk?&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Pb5oIIPO62g&quot;&gt;John Cleese on Creativity in Management&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;sleep-is-your-superpower-by-matt-walker-ted-2019&quot;&gt;&lt;em&gt;Sleep is Your Superpower&lt;/em&gt;, by Matt Walker, TED (2019)&lt;/h2&gt;
-
-&lt;p&gt;“Pulling an all-nighter” is romanticized in software development. And there was a time where I did that to make deadlines on a fairly regular basis. However, as I grew older I began to notice that the time it took to “bounce back” became longer and longer. Comparing working me in my 20s verses a 40-year-old me after a night with a sleepless baby is &lt;strong&gt;stark&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;So sleep is important. Probably not a news flash there. However, the &lt;em&gt;degree&lt;/em&gt; to which it is essential shocked me.&lt;/p&gt;
-
-&lt;p&gt;With a search, you can find quite a few videos by Matt Walker online. However, I like this one from the 2019 TED conference. It packs all his usual witticisms into a digestible twenty-minute chunk. The difference, for me, of having six or eight hours of sleep a night is my overall stress level, ability to roll with the punches, and reciprocate social graces. The older I get, the more powerful superpower that becomes.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5MuIMqhT8DM&quot;&gt;Sleep is Your Superpower&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you’re interested, Matt goes into greater detail (with more specific tips for getting to sleep quickly, dealing with jet lag, and more) in &lt;a href=&quot;https://www.youtube.com/watch?v=c1yGw_hfEfk&quot;&gt;a longer Google Talk&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;being-brilliant-every-single-day-by-alan-watkins-tedx-2012&quot;&gt;&lt;em&gt;Being Brilliant Every Single Day&lt;/em&gt; by Alan Watkins, TEDx (2012)&lt;/h2&gt;
-
-&lt;p&gt;I dunno about you, but there are those days when I feel fantastic: I can say the surprising, witty thing, I have an epiphany to a tricky problem, or I slip into and out of deep, concentrated flow like a salmon returning home. Then there are other times when achieving coherence is the brunt of the battle. Control over which version of me showed up, and why, was mostly a mystery.&lt;/p&gt;
-
-&lt;p&gt;Thankfully, the talk “Being Brilliant Every Single Day” provides numerous pointers on the various physiological factors that impact one’s sense of being. Being mindful of what our bodies are telling us in any given situation, and finding the appropriate methods of coping, can make a tremendous difference.&lt;/p&gt;
-
-&lt;p&gt;Does that mean I effortlessly saunter about the plains of enlightened nirvana? Hardly. However, I can attest that taking a moment to breathe, as shown in the video, successfully quiets the lizard brain before being creative or attempting sleep.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=q06YIWCR2Js&quot;&gt;Being Brilliant Every Single Day (Part 1)&lt;/a&gt;
-&lt;a href=&quot;https://www.youtube.com/watch?v=Q_fFattg8N0&quot;&gt;Being Brilliant Every Single Day (Part 2)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
-
-&lt;p&gt;There are numerous, self-proclaimed, lifestyle gurus online. However, I keep referring to these videos because I’ve found the information to be useful. If you know of similar productivity lifestyle enhancements, not just hacks, let me know.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2019/08/27/OtherLessonsToLearnFrom02/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2019/08/27/OtherLessonsToLearnFrom02/</guid>
-        
-        <category>video</category>
-        
-        <category>Dr. Alan Watkins</category>
-        
-        <category>TedX</category>
-        
-        <category>YouTube</category>
-        
-        <category>Matt Walker</category>
-        
-        <category>John Cleese</category>
-        
-        <category>creativity</category>
-        
-        <category>productivity</category>
-        
-        <category>sleep</category>
         
         
       </item>
