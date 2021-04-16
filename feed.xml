@@ -4,10 +4,10 @@
     <title>Matthew Reinbold</title>
     <description>This is the website for Matthew Reinbold, the Director for Capital One's   Platform Services Center of Excellence. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. Much of what appears here dated prior to 2017 was  previously published at VoxPop.co and VoxPopDesign.com. There's also a bit  of legacy detritus from older experiments like mutednoise.com,  miltiantgeek.com, codeaway.org, etc. Adult fan of Lego. And trying to make Dakota Gothic a thing. 
 </description>
-    <link>https://matthewreinbold.com</link>
-    <atom:link href="https://matthewreinbold.comfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Mar 2021 11:03:55 -0400</pubDate>
-    <lastBuildDate>Mon, 29 Mar 2021 11:03:55 -0400</lastBuildDate>
+    <link>https://matthewreinbold.com/</link>
+    <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 16 Apr 2021 08:51:37 -0400</pubDate>
+    <lastBuildDate>Fri, 16 Apr 2021 08:51:37 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -31,8 +31,8 @@
 &lt;p&gt;That’s a lot of &lt;strong&gt;uff-da&lt;/strong&gt; for now, but we’ll break &lt;strong&gt;lefse&lt;/strong&gt; soon enough. &lt;strong&gt;Skol&lt;/strong&gt; and boldness to you, friends!&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Mar 2021 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2021/03/29/Postman/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2021/03/29/Postman/</guid>
+        <link>https://matthewreinbold.com/2021/03/29/Postman/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/03/29/Postman/</guid>
         
         <category>Postman</category>
         
@@ -66,8 +66,8 @@
 &lt;p&gt;However, WandaVision becomes transcendent at this moment in which we’re all trapped in our own Westview.&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Feb 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com2021/02/08/WandaVision/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2021/02/08/WandaVision/</guid>
+        <link>https://matthewreinbold.com/2021/02/08/WandaVision/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/02/08/WandaVision/</guid>
         
         <category>WandaVision</category>
         
@@ -339,8 +339,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DAm6o9LULts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 08 Jan 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com2021/01/08/WhyAISuccessIsAPIBuilt/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2021/01/08/WhyAISuccessIsAPIBuilt/</guid>
+        <link>https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</guid>
         
         <category>AI</category>
         
@@ -460,8 +460,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;~fin~&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Aug 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2020/08/05/OurRoadIsShared/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2020/08/05/OurRoadIsShared/</guid>
+        <link>https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</guid>
         
         <category>covid-19</category>
         
@@ -544,6 +544,7 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
   &lt;li&gt;&lt;a href=&quot;#parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#peter-principle&quot;&gt;Peter Principle&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#postels-law&quot;&gt;Postel’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#principle-of-good-enough&quot;&gt;Principle of Good Enough&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#rule-34&quot;&gt;Rule 34&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#singhs-inevitable-avoidance&quot;&gt;Singh’s Inevitable Avoidance&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#socratic-paradox&quot;&gt;Socratic Paradox&lt;/a&gt;&lt;/li&gt;
@@ -644,6 +645,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;Employees tend to rise to their level of incompetence. A management concept developed by Laurence J. Peter.&lt;/p&gt;
 &lt;h3 id=&quot;postels-law&quot;&gt;Postel’s Law&lt;/h3&gt;
 &lt;p&gt;Named after Jon Postel from his work on TCP/IP, the Postel law says computer protocols should be strict in what is sent and forgiving in what they accept from others. &lt;em&gt;Also known as the Robustness Principle&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;principle-of-good-enough&quot;&gt;Principle of Good Enough&lt;/h3&gt;
+&lt;p&gt;Also known as the “good enough” principle. A rule in software and systems design that says consumers will use products that are good enough for their requirements, despite the availability of more advanced technology.&lt;/p&gt;
 &lt;h3 id=&quot;rule-34&quot;&gt;Rule 34&lt;/h3&gt;
 &lt;p&gt;Rule 34 is an internet meme which states, “If it exists, there is porn of it. No exceptions.” Thought to have originated from a comic drawn by Peter Morley-Souter.&lt;/p&gt;
 &lt;h3 id=&quot;singhs-inevitable-avoidance&quot;&gt;Singh’s Inevitable Avoidance&lt;/h3&gt;
@@ -666,8 +669,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;The belief in change actually occurring is a mistake, and that any motion forward is nothing but an illusion. Thought to be devised by Greek philosopher Zeno of Elea.&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Aug 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2020/08/03/Technology-Aphorisms/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2020/08/03/Technology-Aphorisms/</guid>
+        <link>https://matthewreinbold.com/2020/08/03/Technology-Aphorisms/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2020/08/03/Technology-Aphorisms/</guid>
         
         <category>Jade Bloom</category>
         
@@ -857,8 +860,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;Be that latter type of leader.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Jul 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2020/07/22/LeadingPeopleInCrisis/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2020/07/22/LeadingPeopleInCrisis/</guid>
+        <link>https://matthewreinbold.com/2020/07/22/LeadingPeopleInCrisis/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2020/07/22/LeadingPeopleInCrisis/</guid>
         
         <category>people management</category>
         
@@ -1125,8 +1128,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;That’s it! My name is Matthew Reinbold. I hope you’re safe. I hope you’re healthy. And I hope to talk with you again soon.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Jul 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2020/07/09/APIsAreArrangementsOfPower/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2020/07/09/APIsAreArrangementsOfPower/</guid>
+        <link>https://matthewreinbold.com/2020/07/09/APIsAreArrangementsOfPower/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2020/07/09/APIsAreArrangementsOfPower/</guid>
         
         <category>presos</category>
         
@@ -1241,8 +1244,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;I’m not fond of “burn the boats”, all-or-nothing transformation initiatives. Even if these “legacy” APIs are not the way we’d do them now, they are still providing business value to &lt;em&gt;someone&lt;/em&gt; (hence their continued existence). Cataloging, with an understood path forward, enables that quirky part of the corporate ecosystem to be studied and understood. As stewards of these complex systems, we’d do well to learn from the complex accretions that occurred. This is opposed to ignoring a company’s legacy to declare a fleeting ideological victory.&lt;/p&gt;
 </description>
         <pubDate>Wed, 13 May 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2020/05/13/APIManagementQuestions/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2020/05/13/APIManagementQuestions/</guid>
+        <link>https://matthewreinbold.com/2020/05/13/APIManagementQuestions/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2020/05/13/APIManagementQuestions/</guid>
         
         <category>API Governance</category>
         
@@ -1566,8 +1569,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;&lt;em&gt;Photo by Zac Ong on Unsplash&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 Nov 2019 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com2019/11/25/ARoadMapForAIGovernance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/11/25/ARoadMapForAIGovernance/</guid>
+        <link>https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/</guid>
         
         <category>AI</category>
         
@@ -1655,8 +1658,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;And, if you’re so inclined, check out the &lt;a href=&quot;https://digital.globalclimatestrike.net&quot;&gt;Global #ClimateStrike&lt;/a&gt;. Let’s turn the &lt;em&gt;climate crisis&lt;/em&gt; into &lt;em&gt;climate action&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Sep 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com2019/09/18/ComparingCarbonOffsetSites/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com2019/09/18/ComparingCarbonOffsetSites/</guid>
+        <link>https://matthewreinbold.com/2019/09/18/ComparingCarbonOffsetSites/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2019/09/18/ComparingCarbonOffsetSites/</guid>
         
         <category>climate change</category>
         
