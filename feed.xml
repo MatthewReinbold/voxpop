@@ -6,9 +6,58 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Jun 2021 10:29:37 -0400</pubDate>
-    <lastBuildDate>Tue, 15 Jun 2021 10:29:37 -0400</lastBuildDate>
+    <pubDate>Wed, 23 Jun 2021 08:48:53 -0400</pubDate>
+    <lastBuildDate>Wed, 23 Jun 2021 08:48:53 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How Verses Why Questions</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/questions.png&quot; alt=&quot;A picture of a card with the caption 'Absurd Questions' above a stylized question mark.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;In my API governance experience, I interviewed &lt;em&gt;a lot&lt;/em&gt; of teams. The purpose of those chats was always to reach a better understanding of the problem. A better understanding leads to better design. &lt;strong&gt;Most&lt;/strong&gt; of the time, these conversations were amicable, easy-going affairs. One contributing factor that kept these affairs from becoming confrontations was when I switched from asking “Why” to asking “How” questions.&lt;/p&gt;
+
+&lt;p&gt;When you ask someone “Why” they do or don’t do something, you’ll inevitably provoke a defensive response. For example, when trying to learn more about somebody’s API practice, I could ask:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Why don’t you have 100% contract test coverage?”&lt;/li&gt;
+  &lt;li&gt;“Why aren’t your API descriptions captured in a single, discoverable place?”&lt;/li&gt;
+  &lt;li&gt;“Why did you produce so many microservices?”&lt;/li&gt;
+  &lt;li&gt;“Why is your domain terminology inconsistent?”&lt;/li&gt;
+  &lt;li&gt;And the classic catch-all, &lt;em&gt;“Why did you do it this way?”&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each of those may be a legitimate question. However, the nature of the question comes across as a request for justification. Worse, answers to a why question immediately entrenches the person in a list, of their own making, of confirmation bias. What was supposed to be a positive discourse has turned exhausting, as each side attempts to prove that their approach is superior.&lt;/p&gt;
+
+&lt;p&gt;Asking “how” is much more productive. Reframing our points from earlier changes the questions to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“How do you detect breaking changes in production?”&lt;/li&gt;
+  &lt;li&gt;“How do developers discover and learn how to use APIs in your area?”&lt;/li&gt;
+  &lt;li&gt;“How do you manage the greater complexity with your number of microservices?”&lt;/li&gt;
+  &lt;li&gt;“How do you describe this concept within your domain?”&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;“How did you work through the difficult decisions in this design?”&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both the ‘how’ and ‘why’ examples address, roughly, the same areas of concern. However, the ‘how’ questions are more likely to result in people talking in greater length, detail, and thoughtfulness. They assist us in going further in exploration.&lt;/p&gt;
+
+&lt;p&gt;Asking quality, open-ended questions creates a better rapport and a clearer idea of how to help. And the faster we get to help, the sooner our customers will find success.&lt;/p&gt;
+
+&lt;p&gt;The next time you feel the urge to ask “why”, try reaching for “how” instead.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Jun 2021 00:00:00 -0400</pubDate>
+        <link>https://matthewreinbold.com/2021/06/23/HowVersusWhyWhyQuestions/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/06/23/HowVersusWhyWhyQuestions/</guid>
+        
+        <category>API Design</category>
+        
+        <category>collaboration</category>
+        
+        <category>management</category>
+        
+        <category>API Governance</category>
+        
+        
+      </item>
     
       <item>
         <title>Blasting Off For New Adventures</title>
@@ -1597,85 +1646,6 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
         <category>Kevin Kelly</category>
         
         <category>IEEE</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Visiting Carbon Offset Sites Prior to the Global Climate Strike</title>
-        <description>&lt;p&gt;This Friday, September 20th, is the &lt;a href=&quot;https://digital.globalclimatestrike.net&quot;&gt;Global #ClimateStrike&lt;/a&gt;. It is a day when millions of people will join youth activists, like &lt;a href=&quot;https://www.vox.com/2019/9/17/20864740/greta-thunberg-youth-climate-strike-fridays-future&quot;&gt;Greta Thunberg&lt;/a&gt;, in demanding immediate climate action. This worldwide event comes ahead of the UN Climate Action Summit. To find out if there is an event in your area, check out &lt;a href=&quot;https://globalclimatestrike.net&quot;&gt;GlobalClimateStrike.net&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Striking to raise awareness is one thing. Taking concrete actions to mitigate our carbon footprint is another. Earlier this year, I &lt;a href=&quot;https://matthewreinbold.com/2019/06/21/On-Travel/&quot;&gt;talked about how I was rethinking my approach to airline travel&lt;/a&gt;. After writing that piece, I signed up for three different carbon offset subscription services:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://offset.earth/&quot;&gt;Offset Earth&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://projectwren.com/&quot;&gt;Project Wren&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://edenprojects.org/&quot;&gt;Eden Reforestation Projects&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Which one is the best? After several months using each, here are my thoughts.&lt;/p&gt;
-
-&lt;h2 id=&quot;first-impressions&quot;&gt;First Impressions&lt;/h2&gt;
-
-&lt;p&gt;Of all three, &lt;strong&gt;Offset Earth&lt;/strong&gt; has the clearest call to action with cute, cartoony graphics: &lt;em&gt;give money, save the planet&lt;/em&gt;. &lt;strong&gt;Project Wren&lt;/strong&gt; is similar, albeit more focused on specific initiative support.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Eden Project&lt;/strong&gt; is a more “traditional”, non-profit website. By that, I mean it has sections for ‘Mission and Vision’ and ‘Leadership’. It, too, highlights specific projects in various geographical regions. In addition to its reforestation work, the Eden Project also emphasizes the job creation that comes from its programs.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-signup-process&quot;&gt;The Signup Process&lt;/h2&gt;
-&lt;p&gt;Offset Earth has the most straightforward signup process. A new individual is presented with three monthly donations options. This “small”, “medium”, and “large” package size is extremely familiar to anyone that purchased freemium or SAAS products on the web.&lt;/p&gt;
-
-&lt;p&gt;There’s also a toggle for a “family plan”, allowing some degree of customization of the recurring donation size. After selecting an option, some basic name and contact info is required to create an account. Stripe facilitates payments and the overall experience is extremely clean.&lt;/p&gt;
-
-&lt;p&gt;Project Wren required that I answer several questions about my lifestyle and habits. This was to calculate my carbon report. After presented with the approximate size of my carbon footprint, I was then offered the ability to sponsor one of several projects, each listing its  approximate impact, in ‘cost per ton’, toward offsetting my calculated number.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/09/wren-signup.png&quot; /&gt;&lt;figcaption&gt;A Sample Set of Questions to Calculate a Carbon Footprint&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;The Eden Reforestation Project has a one-page signup. There are five suggested amounts. There is also options to customize both the size of the donation and whether to make recurring or occur once. Donations can be targeted via a drop-down selector, requiring that you either pick one at random or open up a second browser tab to research each elsewhere on the site. To gauge impact, Eden focuses less on &lt;em&gt;tons of carbon&lt;/em&gt;. Instead, it cites “number of trees planted” and “number of workdays created” as crucial metrics.&lt;/p&gt;
-
-&lt;h2 id=&quot;ongoing-communication&quot;&gt;Ongoing Communication&lt;/h2&gt;
-&lt;h3 id=&quot;offset-earth&quot;&gt;Offset Earth&lt;/h3&gt;
-&lt;p&gt;Offset Earth users have a &lt;a href=&quot;https://offset.earth/5d33754e2e740f00100f2200&quot;&gt;shareable dashboard displaying the number of days they’ve been offsetting their carbon, the amount of carbon offset, and the number of ‘trees in the forest’&lt;/a&gt;. There’s an illustration showing, month-by-month, how “big” your trees have gotten.&lt;/p&gt;
-
-&lt;p&gt;It is cute and makes a good first impression. However, I don’t know if it is something that I’ll continually visit. It also is an  approximation, as I’m told my donations have gone toward wind turbines in Turkey and improved cooking stoves in Kenya.&lt;/p&gt;
-
-&lt;p&gt;The emails have been approximately once a month.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/09/offset-earth-month2.png&quot; /&gt;&lt;figcaption&gt;A Representation of the Saplings &quot;Planted&quot; Because of My Donations&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;project-wren&quot;&gt;Project Wren&lt;/h3&gt;
-&lt;p&gt;Through Project Wren, my monthly recurring donation is used for Amazon Rainforest protection. Thankfully, the site also provides an approximation of the impact this support is having in the form of the total amount of carbon offset. If you wish to go deeper, Project Wren provides &lt;a href=&quot;https://projectwren.com/footprint/23467&quot;&gt;a personalized carbon report based on information given during signup, with the carbon calculator&lt;/a&gt; (my previous travel patterns profoundly stands out here). Addition actions are suggested based on this information.&lt;/p&gt;
-
-&lt;p&gt;I get an email at varying times during the month from “Ben”. It has included news related to the project I’m supporting along with additional calls for feedback.&lt;/p&gt;
-
-&lt;h3 id=&quot;eden-reforestation-projects&quot;&gt;Eden Reforestation Projects&lt;/h3&gt;
-&lt;p&gt;The Eden Reforestation Project allows you to sign up for a monthly, recurring donation. Oddly, this does not also create an account on their site. I receive monthly email invoices letting me know my credit card has been charged. I’ve also received a monthly email letting know about their ongoing work. However, it is not personalized; for example, there’s a ‘Donate today!’ call to action addressed to someone that is already donating. The email is also from an entity, not an individual.&lt;/p&gt;
-
-&lt;p&gt;That said, the Eden Project was the only site where I was allowed to &lt;strong&gt;opt-out&lt;/strong&gt; of email updates during the signup process. While both Offset Earth and Wren have the ubiquitous “unsubscribe from this list” links in their follow-up emails, I appreciate being given the option from the get-go.&lt;/p&gt;
-
-&lt;h2 id=&quot;final-impressions&quot;&gt;Final Impressions&lt;/h2&gt;
-&lt;p&gt;So who is the apparent winner? The planet, of course. I can see each of these sites appealing to a different audience. Pick the one that is best for you. You don’t have to be like me, getting my kicks by diversifying my support across many simultaneous initiatives. &lt;strong&gt;But pick one&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;And, if you’re so inclined, check out the &lt;a href=&quot;https://digital.globalclimatestrike.net&quot;&gt;Global #ClimateStrike&lt;/a&gt;. Let’s turn the &lt;em&gt;climate crisis&lt;/em&gt; into &lt;em&gt;climate action&lt;/em&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Sep 2019 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2019/09/18/ComparingCarbonOffsetSites/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2019/09/18/ComparingCarbonOffsetSites/</guid>
-        
-        <category>climate change</category>
-        
-        <category>climate crisis</category>
-        
-        <category>climate action</category>
-        
-        <category>carbon offset</category>
-        
-        <category>offset earth</category>
-        
-        <category>project wren</category>
-        
-        <category>eden project</category>
-        
-        <category>trees</category>
         
         
       </item>
