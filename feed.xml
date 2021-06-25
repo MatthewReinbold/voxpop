@@ -6,9 +6,53 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Jun 2021 08:48:53 -0400</pubDate>
-    <lastBuildDate>Wed, 23 Jun 2021 08:48:53 -0400</lastBuildDate>
+    <pubDate>Fri, 25 Jun 2021 16:10:16 -0400</pubDate>
+    <lastBuildDate>Fri, 25 Jun 2021 16:10:16 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>To Change Behavior, Change The Environment</title>
+        <description>&lt;p&gt;A school’s corridor can be a problem. Children run from their rooms on one end to the exit on the other. In the stampede, someone could trip. Kids could get hurt. In even the best-case scenario, the hallway chaos riles kids up, cutting into productive classroom time.&lt;/p&gt;
+
+&lt;p&gt;One approach would be to insert an authority figure. Policing the hallway, they could shush and wag their finger. Alternatively, &lt;a href=&quot;https://twitter.com/Rainmaker1973/status/1384439194727104513&quot;&gt;a school could install a floor like this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/hallway.png&quot; alt=&quot;A picture of a hallway with a floor tiled in such a way that it looks like it is melting out from underneath.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The floor is still perfectly level. However, the illusion produced by the tile design demonstrates the power of architecture. People don’t run across this. We have a change to the environment that creates a change to behavior.&lt;/p&gt;
+
+&lt;p&gt;In his book, &lt;em&gt;&lt;a href=&quot;https://tinyhabits.com/book/&quot;&gt;Tiny Habits&lt;/a&gt;&lt;/em&gt;, BJ Fogg, PhD  describes how a behavior occurs when the following three things converge in the exact moment:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Motivation&lt;/strong&gt; - The desire to do a behavior&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ability&lt;/strong&gt; - The ability to do the behavior&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prompt&lt;/strong&gt; - The prompt to do the behavior&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When the bell rings at the end of class, it is a &lt;strong&gt;prompt&lt;/strong&gt; for the students to exhibit a behavior: moving from one place to another. They could walk. However, they have a low &lt;strong&gt;motivation&lt;/strong&gt; to do so; if they run they can get the best pick of seats, have more time to talk, etc.&lt;/p&gt;
+
+&lt;p&gt;Inserting a hallway monitor is an attempt to change the motivation and, thus, the behavior. By putting an authority figure in the space, students’ willingness to “get in trouble by running” must be taken into account. It works, but the introduction of policing and enforcement creates an antagonistic relationship.&lt;/p&gt;
+
+&lt;p&gt;So much of the software governance literature starts with an apology. Then the author jumps to their particular riff of “sticks and carrots”. As you might guess, sticks represent punishment for not performing certain behaviors. Carrots are rewards for playing along. Most people can intuitively grok extrinsic “sticks and carrots”. However, despite being one of the easiest to understand methods of changing behavior, &lt;em&gt;both address only one part of the behavior equation,&lt;/em&gt; &lt;strong&gt;motivation&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;As the floor illustrates, there other ways to change behaviors. In software, our environments are composed of numerous tools. Conscientious systems thinkers &lt;strong&gt;must&lt;/strong&gt; consider how tooling &lt;em&gt;prompts&lt;/em&gt; and empowers (or disempowers) &lt;em&gt;ability&lt;/em&gt;. Without purposeful design, the behaviors created by these everyday touchpoints are left up to chance.&lt;/p&gt;
+
+&lt;p&gt;Modify an environment to make the right thing easy to do, and the need for someone to police behavior goes down significantly.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Jun 2021 00:00:00 -0400</pubDate>
+        <link>https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/</guid>
+        
+        <category>motivation</category>
+        
+        <category>API governance</category>
+        
+        <category>BJ Fogg</category>
+        
+        <category>environment</category>
+        
+        <category>behavior</category>
+        
+        
+      </item>
     
       <item>
         <title>How Verses Why Questions</title>
@@ -562,6 +606,7 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
   &lt;li&gt;&lt;a href=&quot;#conways-law&quot;&gt;Conway’s Law&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#correlation-principle&quot;&gt;Correlation Principle&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#cunninghams-law&quot;&gt;Cunningham’s Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#demeter-law-of&quot;&gt;Demeter (Law of)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dunbars-number&quot;&gt;Dunbar’s Number&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#dunning-kruger-effect&quot;&gt;Dunning-Kruger Effect&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#eaglesons-law&quot;&gt;Eagleson’s Law&lt;/a&gt;&lt;/li&gt;
@@ -632,6 +677,8 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 &lt;p&gt;As &lt;a href=&quot;https://www.geepawhill.org/2020/08/21/the-correlation-principle/&quot;&gt;defined by software development coach Geepaw Hill&lt;/a&gt;, the Correlation Principle says that our productivity is tightly correlated with the internal quality of software.&lt;/p&gt;
 &lt;h3 id=&quot;cunninghams-law&quot;&gt;Cunningham’s Law&lt;/h3&gt;
 &lt;p&gt;The best way to get the right answer is not to ask questions; it’s to post the wrong answer. Attributed to the wiki creator, Ward Cunningham.&lt;/p&gt;
+&lt;h3 id=&quot;demeter-law-of&quot;&gt;Demeter (Law of)&lt;/h3&gt;
+&lt;p&gt;The Law of Demeter (LoD) or principle of least knowledge is a design guideline for software, particularly object-oriented programs. It is summarized as (1) each unit should have limited knowledge of other units, (2) each unit should only talk to its friends, and (3) only talk to your immediate friends. First proposed by Ian Holland.&lt;/p&gt;
 &lt;h3 id=&quot;dunbars-number&quot;&gt;Dunbar’s Number&lt;/h3&gt;
 &lt;p&gt;The theory an individual can only maintain stable relationships with &lt;em&gt;up to&lt;/em&gt; 150 people. &lt;a href=&quot;https://en.wikipedia.org/wiki/Dunbar%27s_number&quot;&gt;Attributed to British anthropologist Robin Dunbar&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&quot;dunningkruger-effect&quot;&gt;Dunning–Kruger Effect&lt;/h3&gt;
@@ -810,6 +857,10 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
         <category>Joel Spolsky</category>
         
         <category>Robert Metcalfe</category>
+        
+        <category>Demeter</category>
+        
+        <category>Ian Holland</category>
         
         
       </item>
@@ -1309,343 +1360,6 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
         <category>Conway's Law</category>
         
         <category>Team Topologies</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Roadmap for AI Governance</title>
-        <description>&lt;p&gt;&lt;em&gt;While AI may be new(ish) for enterprises, the cultural transformation challenges are not. Seeing history repeat, I put high-level roadmap for business leadership and implementing developers on the change that is happening, the challenges, and what successful town planning of this new space looks like.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;I’d like thank Dan Caton, and the folks at &lt;a href=&quot;https://www.meetup.com/Tential-Tuesday-DC/&quot;&gt;Tential Tuesdays&lt;/a&gt;, as being the catalyst for putting my jumbled thoughts, suspicious, and experience to words on this topic. Presenting at an event with a DJ was also a first. That’s some top-notch hospitality, right there.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;I’ll also enshrine to the internet archive a heartfelt thank you to &lt;strong&gt;Vicki Boykin&lt;/strong&gt;. She is a data scientist and the author of the excellent &lt;a href=&quot;https://vicki.substack.com/&quot;&gt;Normcore Tech email newsletter&lt;/a&gt;. Vicki was kind enough to provide a health dose of context to my more tenuous connections. &lt;strong&gt;Thank you, Vicki&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Now, onto the show.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide1.PNG&quot; /&gt;&lt;figcaption&gt;Title Slide&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by Matt Noble on Unsplash.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide2.PNG&quot; /&gt;&lt;figcaption&gt;Agenda&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;In this talk I am going to cover:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Why this is a critical juncture for a particular type of AI, called &lt;strong&gt;machine learning&lt;/strong&gt;, in business&lt;/li&gt;
-  &lt;li&gt;List where machine learning application creates risk&lt;/li&gt;
-  &lt;li&gt;Present a roadmap for the ground that should be covered by a company’s AI governance program&lt;/li&gt;
-  &lt;li&gt;Briefly discuss how to get started, and who should do it&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide3.PNG&quot; /&gt;&lt;figcaption&gt;Why is Matthew Reinbold talking about AI?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;My name is Matthew Reinbold and, for the past half-decade, I have helped multiple fortune 500 companies create more fair, equitable, and empowered knowledge communities. I create &lt;em&gt;software governance&lt;/em&gt; that empowers &lt;em&gt;digital transformation&lt;/em&gt;. I’ve found myself situated a unique intersection of business strategy, distributed architecture, and internal developer evangelism.&lt;/p&gt;
-
-&lt;p&gt;I started my career building developer communities of practice. I also continue to do a fair amount with APIs. In addition to blogging at my website, &lt;a href=&quot;https://matthewreinbold.com&quot;&gt;https://matthewreinbold.com&lt;/a&gt;, I write an email newsletter called &lt;a href=&quot;https://tinyletter.com/NetAPINotes/archive&quot;&gt;Net API Notes&lt;/a&gt;. I curate a list of in-person events for API folks at &lt;a href=&quot;https://webapi.events/&quot;&gt;Web API Events&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;wholesomely Tweet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://hbr.org/2017/11/what-everyone-gets-wrong-about-change-management&quot;&gt;Between 60-80% of software transformation efforts fail&lt;/a&gt;. With my help, however, Capital One embraced an API platform concept, going from zero to 3.5 billion daily messages passed. My team and I did this while maintaining design consistency and cohesion, maximizing lifetime ROI and minimizing risk.&lt;/p&gt;
-
-&lt;p&gt;After creating a thriving culture of APIs at Capital One, I generalized my approach for any digital modernization effort within an enterprise. As I assess upcoming challenges successfully building a data-driven culture, one in which machine learning can thrive, is a big one.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide4.PNG&quot; /&gt;&lt;figcaption&gt;Wild West Ghost Town&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Simon Wardley is a researcher for the Leading Edge Forum. He popularized the concept of &lt;a href=&quot;https://blog.gardeviance.org/2015/03/on-pioneers-settlers-town-planners-and.html&quot;&gt;Pioneers, Settlers, and Town Planners&lt;/a&gt;. It is a way of thinking about technology adoption within a company. Briefly:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Pioneers&lt;/strong&gt;, as the name implies, discover uncharted territory. Their work is precarious, and they take numerous wrong turns along the way. This is deep research, hard to explain, and harder to understand. However, this is the work that leapfrogs what is possible.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Settlers&lt;/strong&gt; follow the pioneers, taking chance encounters and precipitous routes and creating repeatable, predictable certainty. They turn prototypes into products and products into profits.&lt;/li&gt;
-  &lt;li&gt;Finally, &lt;strong&gt;Town Planners&lt;/strong&gt; take what is settled and grow it. They scale communities and provide the stable launching points for the next group of pioneers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The wild west of high-end research labs is giving way to the more humdrum of daily application and tedious ROI discussions. And that transition is causing some discomfort.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by Eniko Polgar on Unsplash.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide5.PNG&quot; /&gt;&lt;figcaption&gt;Inflection Point with AI&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Anytime you combine immense potential, technical complexity, &lt;strong&gt;and&lt;/strong&gt; cultural discomfort, you end up with headlines like these. It is telling when my 91-year-old Grandfather’s is scared about AI destroying mankind, due to the technical nihilism in his daily reading. Whether it is Elon Musk declaring the end of humanity or the Pope discussing Clippy’s mental state, many pixels have been burned hypothesizing the wild west we’re in.&lt;/p&gt;
-
-&lt;p&gt;There’s anxiety we’re on the verge of losing control.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide6.PNG&quot; /&gt;&lt;figcaption&gt;Title Slide&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Before I can talk about practical, town planner solutions, I first need to ground our conversation. That means addressing the ad-driven, click-bait hysteria around AI.&lt;/p&gt;
-
-&lt;p&gt;No, Skynet and Terminator-style robots are not imminent. The kind of general-purpose AI that we would recognize as “intelligent”, capable of comprehension and not just pattern matching, is still a significant way off. I highly recommend the book, shown here, by Gary Marcus and Ernest Davis. In “Rebooting AI”, the authors do an excellent job pointing out where hyperbole has outstripped &lt;a href=&quot;https://en.wikipedia.org/wiki/H-index&quot;&gt;h-indexes&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you don’t have time for a book, Kevin Kelly posits some of the same arguments in his 2017 article, “&lt;a href=&quot;https://www.wired.com/2017/04/the-myth-of-a-superhuman-ai/&quot;&gt;The Myth of Superhuman AI&lt;/a&gt;”. There’s also &lt;a href=&quot;https://spectrum.ieee.org/tech-talk/robotics/artificial-intelligence/learn-the-red-flags-of-overhyped-ai-claims&quot;&gt;the IEEE’s article, ‘3 Easy Ways to Evaluate AI Claims’&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/perception-social-outcome-slide.png&quot; /&gt;&lt;figcaption&gt;AI Has Promise In Specific Areas&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Princeton’s Arvind Narayan also published a wonderful talk entitled “&lt;a href=&quot;https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf&quot;&gt;How to Recognize AI Snake Oil&lt;/a&gt;”. I’ll leave exploring the entire piece as an exercise for the audience. However, I will steal his slide.&lt;/p&gt;
-
-&lt;p&gt;Arvind correctly identifies that AI used in the pursuit of perception and classification is getting better, and useful in a number of business contexts. Where there is trouble is when companies conflate classification with &lt;em&gt;predicting social outcomes&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide7.PNG&quot; /&gt;&lt;figcaption&gt;Machine Learning has Moved from Theory to Practice&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Machine learning is a form of &lt;em&gt;narrow&lt;/em&gt; AI, one which uses statistics to find patterns in data. The reason we’re feeling the impact in the areas of perception and classification now is because of the:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Greater ability to collect, store, and study data&lt;/li&gt;
-  &lt;li&gt;Increased comfort utilizing and scaling cloud compute&lt;/li&gt;
-  &lt;li&gt;Recent breakthroughs creation and tuning of neural networks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide8.PNG&quot; /&gt;&lt;figcaption&gt;There will be Winners and Losers&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Companies need to be data-driven to compete in an increasingly fast-paced, complex market successfully. &lt;a href=&quot;http://accenture.com/us-en/insights/artificial-intelligence/ai-governance-support-innovation&quot;&gt;According to an Accenture global research survey&lt;/a&gt;, 85% of business leaders expect AI to open up new products, services, business models and markets, while 78% expect AI to disrupt their industry in the next 10 years.&lt;/p&gt;
-
-&lt;p&gt;Further, companies that are first to harness and apply data to business processes will experience what is known in systems design as a “reinforcing loop”. Data will create machine learning models, which will have business outcomes that can be measured, which will produce more data, etc. The first companies that implement this loop will have compounding competitive advantages. First mover advantage, here, means sustained leads for as long as the competitive landscape remains the same.&lt;/p&gt;
-
-&lt;p&gt;While the need may be obvious, however, fulfilling this vision is hard. 
-&lt;a href=&quot;https://hbr.org/2019/02/companies-are-failing-in-their-efforts-to-become-data-driven&quot;&gt;According to NewVantage, seventy-seven percent of companies surveyed report problems adopting big data initiatives&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Further, from the same research:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;72% of survey participants report that they have yet to forge a data culture&lt;/li&gt;
-  &lt;li&gt;69% report that they have not created a data-driven organization&lt;/li&gt;
-  &lt;li&gt;53% state that they are not yet treating data as a business asset&lt;/li&gt;
-  &lt;li&gt;52% admit that they are not competing on data and analytics.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Put another way: pioneers discovered a new place, the settlers demonstrated value, but most haven’t found the town planners to scale this practice.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Creating a data-driven culture, one that can feed machine learning, is difficult.&lt;/strong&gt; Many will fail.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide9.PNG&quot; /&gt;&lt;figcaption&gt;Continuous Delivery for ML is Emerging&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Many will attempt the transformation. However, deferring all responsibility for ‘correctness’ to practitioners will result in as many definitions of ‘correct’ as their are people in the org. Companies need to think more holistically about how they approach AI in general, and machine learning, specifically.&lt;/p&gt;
-
-&lt;p&gt;Just managing the assets used to create a model, for example, is challenging. A successful machine learning model is &lt;strong&gt;data&lt;/strong&gt;, &lt;strong&gt;model&lt;/strong&gt;, and &lt;strong&gt;code&lt;/strong&gt;. &lt;a href=&quot;https://ai.google/research/pubs/pub43146&quot;&gt;As a research paper from Google points out&lt;/a&gt;, technical debt in these systems arises not from code complexity, but from data dependencies, model complexity, reproducibility, testing, monitoring, and dealing with changes in the external world. Further, a business should be able to release new models into production at any time. It may not be necessary to release all the time. However, the ability to do so means the decision becomes a business one, not a technical one.&lt;/p&gt;
-
-&lt;p&gt;We have well-understood processes for the continuous delivery of code into production environments; how shops apply automation, quality, and discipline to create repeatable and predictable outcomes. However, packaging and delivering the data, code, and model simultaneously is still an emergent area. See &lt;a href=&quot;https://martinfowler.com/articles/cd4ml.html&quot;&gt;Martin Fowler’s website for more on continuous delivery for machine learning&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Creating a continuous delivery pipeline not just for code, but for data and models is difficult.&lt;/strong&gt; There will be a lot of failures before we have this figured out.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide10.PNG&quot; /&gt;&lt;figcaption&gt;Regulatory and Ethical Challenges are Growing&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;And just as companies believe they understand the landscape they need to be successful in, they discover that the landscape &lt;em&gt;is changing&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;The last several years have demonstrated an increasing societal awareness of data and its impacts. A decade ago, ethics and fairness conversations happened, but they were limited, mostly, to policy wonk circles. Thankfully, that is not the case today and these are above-the-scroll topics for discussion; &lt;em&gt;we are in a different place&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;States, in response, are creating legislation like the California Consumer Privacy Act. Before that was the European General Data Protection Regulation, or GDPR. I’d wager we aren’t done with these yet, either.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Successfully navigating the growing regulatory regimes and changing societal moors is difficult&lt;/strong&gt;. There will be some high profile failures (and even some unintended consequences, &lt;a href=&quot;https://www.theverge.com/2019/11/13/20963459/youtube-google-coppa-ftc-fine-settlement-youtubers-new-rules&quot;&gt;as we’re learning in light of the FTC COPPA fallout amount YouTube creators&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide11.PNG&quot; /&gt;&lt;figcaption&gt;Done Badly, ML Can Destory Lives&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;What does a machine learning model look like when it fails? Lost opportunities, unjust systems, and &lt;em&gt;destroyed lives&lt;/em&gt;. Worst case, as &lt;a href=&quot;https://www.technologyreview.com/s/612775/algorithms-criminal-justice-ai/&quot;&gt;described in the MIT Technology Review article,&lt;/a&gt; failed algorithmic decision making perpetuates societal ills. And it does so without clear “bad-guy” to detain and publish. Often, there is little to know accountability.&lt;/p&gt;
-
-&lt;p&gt;Many have written about algorithmic failure, at scale.  For those interested, I’d recommend:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Weapons of Math Destruction by Cathy O’Neil&lt;/li&gt;
-  &lt;li&gt;Automating Inequality by Virginia Eubanks&lt;/li&gt;
-  &lt;li&gt;Technically Wrong by Sara Wachter-Boettcher&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide12.PNG&quot; /&gt;&lt;figcaption&gt;What is a Developer to Do?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;That is all &lt;em&gt;prior&lt;/em&gt; to predicting, policing, and preventing all the complex interactions, post-production, between systems machine learning practitioners might not even know about or control. Expecting engineers to be experts in all of these areas is unrealistic.&lt;/p&gt;
-
-&lt;p&gt;The challenges with AI are not just a “techie” problem. They’re not just an “analyst” problem. The complexity of this landscape is not something any single pioneer or settler is equipped to address. These problems are a company problem that requires a much broader and more systematic approach to fix.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide13.PNG&quot; /&gt;&lt;figcaption&gt;A Successfully Scaled System Requires a Different Approach&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Digital town planners are skilled at growing a complex system.  These folks take their cues from urban planning, community organizing, and systems thinking. To solve complex emergent behaviors in software, they eschew causal, command-and-control approaches in favor of dynamic, community driven efforts.&lt;/p&gt;
-
-&lt;p&gt;So just hire some of these town planners, right? Or, better yet, just tell the folks on hand to start thinking like this and get back to regular work, right?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by Arto Marttinen on Unsplash&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide14.PNG&quot; /&gt;&lt;figcaption&gt;AI Governance?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;If the potential is great and the challenges well known, then what do companies struggle with this? According to that NewVangage survey I cited earlier, executives state the problem isn’t related to the technology. Rather:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Ninety-three percent of respondents identify people and process issues as the obstacle. Clearly, the difficulty of cultural change has been dramatically underestimated in these leading companies — 40.3% identify lack of organization alignment and 24% cite cultural resistance as the leading factors contributing to this lack of business adoption.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;IT governance is &lt;em&gt;the people, processes, and tools deployed to ensure the effective and efficient use of technology to achieve business goals&lt;/em&gt;. &lt;strong&gt;AI governance&lt;/strong&gt;, therefore, &lt;strong&gt;is a branch of IT governance to ensure the effective and efficient application of &lt;em&gt;AI&lt;/em&gt; to achieve business goals&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Effective governance is more than being a bureaucratic gatekeeper, or a barrier between teams charged with delivery and the definition of done. AI governance must address the challenge of culture change. These town planners must bridge the wide world of threats and challenges with the domain expertise of the AI modeler.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide16.PNG&quot; /&gt;&lt;figcaption&gt;Start with Principles&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;A new AI governance program doesn’t have to invent guiding principles out of thin air. The good news is that there has been a tremendous amount of well-researched, nuanced work already crafted and available for free.&lt;/p&gt;
-
-&lt;p&gt;For example, Apple’s Security Principles require:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Opt-in consent for the use of people’s data for training AI&lt;/li&gt;
-  &lt;li&gt;Employees, not contractors, to review and label samples used for ‘supervised learning’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Likewise, &lt;a href=&quot;https://nips.cc/&quot;&gt;the NeurIPs conference&lt;/a&gt; encourages the declaration of critical components for reproducing a result be included with any work, including&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The number of models trained before the “best” one was selected&lt;/li&gt;
-  &lt;li&gt;The computing power used&lt;/li&gt;
-  &lt;li&gt;Links to code and dataset&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ethicsinaction.ieee.org/&quot;&gt;The IEEE also has a &lt;em&gt;book&lt;/em&gt; available describing a host of ethical considerations in autonomous and intelligent systems&lt;/a&gt; that is worth reading. &lt;a href=&quot;https://www.blog.google/technology/ai/ai-principles/&quot;&gt;Google&lt;/a&gt;, &lt;a href=&quot;https://www.microsoft.com/en-us/ai/our-approach-to-ai&quot;&gt;Microsoft&lt;/a&gt;, and &lt;a href=&quot;https://ainowinstitute.org/aap-toolkit.pdf&quot;&gt;AI Now&lt;/a&gt; (PDF) also have some great material available.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide17.PNG&quot; /&gt;&lt;figcaption&gt;But Success is More than a Checklist&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;However, successful governance is more than just a checklist of things to do or not do. It must holistically address the entirety of a company’s transformational journey. These town planners shouldn’t just be sharing rules and approving forms. A community of practice can group their activity into three broad categories.&lt;/p&gt;
-
-&lt;h3 id=&quot;understanding-the-ecosystem&quot;&gt;Understanding the Ecosystem&lt;/h3&gt;
-
-&lt;p&gt;AI governance must understand the terrain they operate in; not only the dynamics that shape the landscapes within their own companies but industry and societal forces, as well. Success in this area requires:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Building team amidst ambiguity, as there aren’t many maps for these territories&lt;/li&gt;
-  &lt;li&gt;Collaborating across functional boundaries&lt;/li&gt;
-  &lt;li&gt;Understanding the interplay between technology, business strategy, and ethics&lt;/li&gt;
-  &lt;li&gt;Identifying where AI has outsized impact on people’s lives&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;helping-teams-navigate-the-terrain&quot;&gt;Helping Teams Navigate the Terrain&lt;/h3&gt;
-
-&lt;p&gt;Once the landscape is understood, governance must help their fellow employees cross, safely and efficiently. This crossing might include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Introductory training across the entire company about AI’s importance to the company’s strategy, what it is, and how they can contribute&lt;/li&gt;
-  &lt;li&gt;Gathering, like an anthropologist, the experience and best practices of people already practicing responsible AI to codify and redistribute&lt;/li&gt;
-  &lt;li&gt;Empathetic listening to the fears and concerns at all levels, and carving the feedback channels back to those best able to take action&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;auditmeasurement&quot;&gt;Audit/Measurement&lt;/h3&gt;
-
-&lt;p&gt;With the list of critical, impactful areas where AI is making a decision, it is then important to have regular, ongoing audit to prevent failures and test fitness. Areas include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Inputs&lt;/strong&gt;, like data quality and potential bias in training data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Model(s)&lt;/strong&gt;, including statistical tests for model fit (overfitting, causation versus correlation), model transparency (interpretable), and  stress testing against simulated data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Outputs&lt;/strong&gt;, listing decisions with explanations, and possible outliers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In this area, I see a future, emergent discipline. It would be one part data scientist, but another part ethical hacker. They would be familiar enough with the science to understand where the edges of a model begin to break down; things like how &lt;a href=&quot;https://arxiv.org/pdf/1903.06638.pdf&quot;&gt;poisoning just 0.025% of the data can have a machine learning system misclassify the target&lt;/a&gt;. This new job title would stress assumptions made by others.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide18.PNG&quot; /&gt;&lt;figcaption&gt;Governance has Much to Do&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Those are broad categories of things governance &lt;em&gt;could&lt;/em&gt; do. However, what might that include, &lt;em&gt;tactically&lt;/em&gt;?&lt;/p&gt;
-
-&lt;h3 id=&quot;resolving-tensions&quot;&gt;Resolving Tensions&lt;/h3&gt;
-&lt;p&gt;An AI Governance group could be called upon when two values, seemingly, conflict. An example would be in a business attempting to create a model  for personalized recommendations. Promoting tantalizing, or outright salacious, content might increase the total amount of time users engage on site. However, what if constitutes tantalizing to one group is scandalous in others? Setting the lines here requires clarity and consensus on ethical concepts, and well-understood means for the resolution of these tensions.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.nuffieldfoundation.org/news/ai-ethics-must-move-beyond-lists-principles-new-report#node-5024&quot;&gt;A whitepaper from the Nuffield Foundation&lt;/a&gt; explore these challenges in more detail.&lt;/p&gt;
-
-&lt;h3 id=&quot;defining-what-constitutes-a-critical-decision&quot;&gt;Defining What Constitutes a ‘Critical Decision’&lt;/h3&gt;
-
-&lt;p&gt;Factors for determining which algorithmic functions have greater risk include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;What kind of data was used?&lt;/li&gt;
-  &lt;li&gt;What variables were considered?&lt;/li&gt;
-  &lt;li&gt;Global and/or local interpretability&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;setting-environmental-impact-targets&quot;&gt;Setting Environmental Impact Targets&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.technologyreview.com/s/613630/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/&quot;&gt;MIT recently published an article&lt;/a&gt; claiming that ‘training a single AI model can emit as much carbon as five automobiles &lt;em&gt;over their entire lifetimes&lt;/em&gt;’; this includes even &lt;em&gt;the energy used to  manufacture the car itself&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;If a simple linear regression has slightly less performance, could it still be more desirable than an energy-intensive model generation? Who makes the call with whether melting the polar ice caps is an acceptable use of energy?&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update 2019-12-13&lt;/em&gt;
-&lt;em&gt;&lt;a href=&quot;https://arxiv.org/pdf/1911.08354.pdf&quot;&gt;This recent NeurIPSConf paper makes the case for energy use accounting be a standard part of AI accontability&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update 2020-01-28&lt;/em&gt;
-&lt;em&gt;Actionable steps for machine learning researchers should take to reduce carbon emissions include:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.09700&quot;&gt;Quantifying current output&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Choosing cloud providers and data center locations wisely&lt;/li&gt;
-  &lt;li&gt;Reduce wasted resources through effecient algorithms, good tests, and early debugging&lt;/li&gt;
-  &lt;li&gt;Choosing more effecient hardware&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;defining-creepy&quot;&gt;Defining Creepy&lt;/h3&gt;
-
-&lt;p&gt;Yes, it is necessary to analyze data and machine learning for impropriety. However, that’s not the only factor at play. Designing AI-driven experiences require an understanding of where people accept machine intervention, and where people perceive a line is crossed.&lt;/p&gt;
-
-&lt;p&gt;As discussed in his book, “A Human’s Guide to Machine Intelligence”, author Kartik Hosanagar describes how people may fully embrace algorithms for things like automatic stock management (Betterment). However, they abhor automated systems in things like self-driving cars (Tesla). Why do we trust algorithms in some cases, but not in others?&lt;/p&gt;
-
-&lt;p&gt;One theory is that we’re happy to turn an algorithm onto a job previously performed by &lt;em&gt;someone else&lt;/em&gt; (picking stocks) but not something performed by us (driving). While studies consistently show that algorithms may outperform humans, on average, we continue to believe that we are better than average (psychologists refer to this as the “better than average” effect).&lt;/p&gt;
-
-&lt;p&gt;It is not a matter of “what’s at stake”. People happily board planes everyday. Airplanes have been mostly algorithmically driven for some time. Yet, somehow, cars remain a bridge too far.&lt;/p&gt;
-
-&lt;p&gt;Creating a capable technology and having that technology accepted by an audience is two different things. Having a group that can identify these issues ahead of a costly deployment, and mitigate them will be important for successful adoption.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide19.PNG&quot; /&gt;&lt;figcaption&gt;Transparent Collaboration over Coercion&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Nobody sets out to make an evil AI. I genuinely believe that the majority of people want to ‘do the right thing’. However, defining “right” and nudging people, as described &lt;a href=&quot;https://hbr.org/2019/05/how-to-overcome-clinicians-resistance-to-nudges&quot;&gt;in this 2019 Havard Business Review article&lt;/a&gt;, may not be enough; an enterprise’s best efforts may be perceived as patronizing or subtly manipulative.&lt;/p&gt;
-
-&lt;p&gt;This is a particular problem for AI practitioners because they possess three common traits:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A strong sense of purpose&lt;/li&gt;
-  &lt;li&gt;A desire for autonomy&lt;/li&gt;
-  &lt;li&gt;A commitment to mastery&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Nudges, to these highly trained professionals, may be perceived as threats to their autonomy or questioning their professional mastery.&lt;/p&gt;
-
-&lt;p&gt;As a result, it is imperative that any AI governance nudge be accompanied by:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Transparency of Purpose&lt;/li&gt;
-  &lt;li&gt;Co-Creation of Content&lt;/li&gt;
-  &lt;li&gt;Constructive Framing (not just avoiding mistakes, but championing professional ideals)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide20.PNG&quot; /&gt;&lt;figcaption&gt;Leadership in this New Space&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;This effective AI governance, ironically, starts with people.&lt;/p&gt;
-
-&lt;p&gt;Maybe I’ve convinced some of you to take the next step. Or I’ve suggested issues would be best solved collaboratively in your organization, rather than ad-hoc on a team-by-team basis.&lt;/p&gt;
-
-&lt;p&gt;Despite this, getting started isn’t clear. Perhaps you feel that you’re “just a developer”. Maybe you assume that you need to be in upper management to create the kind of impact that I’m talking about.&lt;/p&gt;
-
-&lt;p&gt;The massive changes in how organizations create software in the preceding decade are directly the result of bottom-up initiatives. Whether extending experiences and capabilities to the phone, adopting responsiveness through agile and continuous integration, or growing resiliency and ability to scale with the cloud, developers have been instrumental in defining the future of their workplaces. Yet, when it comes to something like how to relate to each other, or how we govern this new area, we hesitate. Or worse, we declare it “not my job”.&lt;/p&gt;
-
-&lt;p&gt;If you are interested in leveraging the power of machine learning in a just and fair way, and you’re not in a position to issue top-down edicts, there’s still a tremendous amount you can do. Begin &lt;strong&gt;identifying&lt;/strong&gt; those people in your organization using these tools. Begin having conversations and identifying common points of both practice and pain.&lt;/p&gt;
-
-&lt;p&gt;Begin down the path of &lt;a href=&quot;https://hbswk.hbs.edu/archive/cultivating-communities-of-practice-a-guide-to-managing-knowledge-seven-principles-for-cultivating-communities-of-practice&quot;&gt;building a community of practice&lt;/a&gt;. If one does not exist, create one. Start with a Slack channel and grow from there. Begin building the momentum to create a demonstrable case to leadership for the need. Don’t wait for someone to get hurt shooting from the hip, wild-west style. Apply the type of town planner approaches appropriate for this new place.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by Jehyun Sung on Unsplash&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2019/11/Slide21.PNG&quot; /&gt;&lt;figcaption&gt;Thanks for your attention.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by Zac Ong on Unsplash&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 Nov 2019 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance/</guid>
-        
-        <category>AI</category>
-        
-        <category>machine learning</category>
-        
-        <category>software governance</category>
-        
-        <category>preso</category>
-        
-        <category>Vicki Boykin</category>
-        
-        <category>Dan Caton</category>
-        
-        <category>google</category>
-        
-        <category>ieee</category>
-        
-        <category>MIT</category>
-        
-        <category>AI Now</category>
-        
-        <category>Simon Wardley</category>
-        
-        <category>Kevin Kelly</category>
-        
-        <category>IEEE</category>
         
         
       </item>
