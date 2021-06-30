@@ -6,9 +6,50 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Jun 2021 16:18:04 -0400</pubDate>
-    <lastBuildDate>Fri, 25 Jun 2021 16:18:04 -0400</lastBuildDate>
+    <pubDate>Wed, 30 Jun 2021 15:07:30 -0400</pubDate>
+    <lastBuildDate>Wed, 30 Jun 2021 15:07:30 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Rethinking the Humble Template</title>
+        <description>&lt;p&gt;In my last post, &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;I discussed how changing the environment could change people’s behavior&lt;/a&gt;. Further, I proposed that software tools are as much the environment as a developer’s office. Careful prompt design within those environments can create &lt;strong&gt;better behavioral outcomes&lt;/strong&gt; with &lt;strong&gt;less effort&lt;/strong&gt; and &lt;strong&gt;more buy-in&lt;/strong&gt;. But what does that look like in practice?&lt;/p&gt;
+
+&lt;h3 id=&quot;the-stack-overflow-example&quot;&gt;The Stack Overflow Example&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt; is a website where people ask questions for other people to answer. To remain viable, Stack Overflow desires certain behaviors from its audience. First of all, they aren’t interested in &lt;em&gt;quantity&lt;/em&gt; but quality; poorly worded, vague, or duplicate questions aren’t welcome. You don’t go to Stack Overflow to idly chat. Further, they aren’t interested in lots of answers, only the &lt;em&gt;right&lt;/em&gt; answer.&lt;/p&gt;
+
+&lt;p&gt;The website’s environment goes to great lengths to prompt these sorts of behaviors. Before one is allowed to ask a question, a modal pop-up reminds the asker to search to see if their question has already been asked and how to ask if they can’t find a prior version.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/prompt01.png&quot; alt=&quot;A picture of the Stack Overflow modal prompt before posting a question.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;If I, subsequently begin a question, the interface immediately provides feedback as to whether it is worth posting, and any already existing questions. The process continues through the post body, with a host of prompts for specificity, uniqueness, and completeness. By exhibiting these behaviors, I’m more likely to get my question answered, and the site gets a valuable reference for the next person.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/prompt02.png&quot; alt=&quot;A picture of the Stack Overflow question interface.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stack Overflow still has moderators&lt;/strong&gt;. They do step in when necessary. But the amount of manual intervention they undertake is significantly less than if there were no environmental nudges toward behaviors beneficial for the community.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-openapi-example&quot;&gt;The OpenAPI Example&lt;/h3&gt;
+&lt;p&gt;Likewise, we should think of templates also as a prompt. When capturing business intent in an API specification, like OpenAPI, many tools present a bare-bones template. This template exists to help a new designer get started but often it is the most minimal valid version.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/prompt03.png&quot; alt=&quot;A picture of the default OpenAPI template provided by Postman..&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;There is so much potential here! Most companies I’m familiar with have some form of an &lt;a href=&quot;http://apistylebook.com/design/guidelines/&quot;&gt;API style guide&lt;/a&gt;. Imagine if I, as a new developer, had those desired API behaviors around naming, descriptions, and responses &lt;em&gt;embedded in my tooling&lt;/em&gt;? How much easier would it be to design “the right way” if I just had to customize a relevant example rather than invent YAML whole cloth? How much more likely am I to adopt a particular error object structure if it is prompted at the beginning of every new design, as opposed to having to track it down in documentation somewhere else?&lt;/p&gt;
+
+&lt;p&gt;We’re not there yet with organization-level templates. And, even then, more meaningful templates for their toolchains are only the beginning. As Stack Overflow shows, there are numerous types and times for prompts in a software environment. As people trying to create better outcomes, we need to add environmental design to our available approaches.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Jun 2021 00:00:00 -0400</pubDate>
+        <link>https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/</guid>
+        
+        <category>motivation</category>
+        
+        <category>API governance</category>
+        
+        <category>environment</category>
+        
+        <category>behavior</category>
+        
+        
+      </item>
     
       <item>
         <title>To Change Behavior, Change The Environment</title>
@@ -55,7 +96,7 @@
       </item>
     
       <item>
-        <title>How Verses Why Questions</title>
+        <title>How Versus Why Questions</title>
         <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/questions.png&quot; alt=&quot;A picture of a card with the caption 'Absurd Questions' above a stylized question mark.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;In my API governance experience, I interviewed &lt;em&gt;a lot&lt;/em&gt; of teams. The purpose of those chats was always to reach a better understanding of the problem. A better understanding leads to better design. &lt;strong&gt;Most&lt;/strong&gt; of the time, these conversations were amicable, easy-going affairs. One contributing factor that kept these affairs from becoming confrontations was when I switched from asking “Why” to asking “How” questions.&lt;/p&gt;
@@ -1282,84 +1323,6 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
         <category>Amrit Tiwana</category>
         
         <category>API Governance</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>API Management Questions</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2020/05/library.jpg&quot; alt=&quot;Media organized at a local thrift store.&quot; /&gt;&lt;figcaption&gt;Organization of digital assets is as important as physical ones.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;background-introduction&quot;&gt;Background Introduction&lt;/h2&gt;
-&lt;p&gt;Adam DuVander, a Portland raconteur and all-around good fellow reached out several months ago. He was writing an article and hoped I could answer a few questions on enterprise API management. A few of my quotes, along with insight from a handful of others, have since been posted in a piece entitled “&lt;a href=&quot;https://stoplight.io/blog/api-experts-share-how-to-organize-thousands-of-apis-and-microservices/&quot;&gt;API Experts Share How They Organize Thousands of APIs and Microservices&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;p&gt;The choicest bits made it into the piece. However, behind the scenes, I bloviated enough to populate a standalone piece. Here’s the entirety of my replies, tweaked and updated for clarification.&lt;/p&gt;
-
-&lt;p&gt;The questions have to do with how companies manage their &lt;em&gt;internal&lt;/em&gt; API portfolios. These are collections that, particularly in the age of microservices, grow at exponential rates.&lt;/p&gt;
-
-&lt;h2 id=&quot;q1-how-does-an-engineer-discover-what-internal-apis-already-exist&quot;&gt;Q1: How does an engineer discover what internal APIs already exist?&lt;/h2&gt;
-
-&lt;h3 id=&quot;the-problem&quot;&gt;The Problem&lt;/h3&gt;
-&lt;p&gt;API architectures are useful for several reasons. Benefits include organizing the complexity of an enterprise environment, allowing for independent deployment, dividing labor, and achieving faster times to market. Despite these advantages, however, moving from monolithic software deployment does cause discovery problems. Where there was once a single mass to inspect, there are now many homunculi to track down and interview. This is a problem, regardless of the development shop size.&lt;/p&gt;
-
-&lt;p&gt;A centralized API registry for service discovery should be the source of truth. This single catalog not only benefits integrators looking to kickstart new experiences; it also is vital for data and regulatory appeasement (&lt;a href=&quot;https://gdpr-info.eu/&quot;&gt;GDPR&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act&quot;&gt;CCPA&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;As Luis Weir points out in his book, “&lt;a href=&quot;https://www.amazon.com/Enterprise-Management-Luis-Augusto-Weir/dp/1787284433&quot;&gt;Enterprise API Management&lt;/a&gt;”, many companies, unfortunately, don’t have this single portal discovery experience. The discovery process, in these orgs, relies on tribal knowledge and shared spreadsheets.&lt;/p&gt;
-
-&lt;p&gt;One needs to design the discovery experience, not just for external APIs, but for internal ones, as well. There are many examples, often retold, for excellent external experiences. What isn’t covered nearly as much is the &lt;em&gt;internal&lt;/em&gt; discovery experience. Whether this is a dedicated portal meticulously maintained by a dedicated platform team or a list (or list of lists) of APIs in a spreadsheet, this discovery experience should be managed. Knowledge management is an undervalued discipline; if you have access to talent in this area, &lt;em&gt;use them in creating this experience&lt;/em&gt;!&lt;/p&gt;
-
-&lt;h3 id=&quot;automation-can-take-multiple-forms&quot;&gt;Automation Can Take Multiple Forms&lt;/h3&gt;
-&lt;p&gt;Whether it is one portal or many, relying on “good faith” efforts aren’t scalable. Pleading for harried developers to “do the right thing” and “create some docs” doesn’t work. It, at best, results in the same stale documentation that plagues so many company content management systems. The process for data entry to the registry must be as automated as possible. Thankfully, automation is possible through standardized lifecycle management and process enforcement through uniform API descriptions, like OpenAPI.&lt;/p&gt;
-
-&lt;p&gt;Another approach is to have the runtime gateway environments “phoning home” to a centralized registry. The description of the business intent would be more abstract. However, identifying highly trafficked or critical infrastructure would be a place to start building out more robust management rigor.&lt;/p&gt;
-
-&lt;h3 id=&quot;duplication-of-work-will-happen-the-degree-to-which-this-is-a-problem-is-debatable&quot;&gt;Duplication of Work Will Happen; The Degree to Which this is a Problem is Debatable&lt;/h3&gt;
-&lt;p&gt;The Continuous API Management (CAM) book, &lt;a href=&quot;http://tinyletter.com/NetAPINotes/letters/api-academy-and-new-beginnings-net-api-notes-for-2019-01-31&quot;&gt;by the dearly departed API Academy&lt;/a&gt;, fingers internal API duplication on poor discovery ability. However, in my experience, &lt;em&gt;this is an oversimplification&lt;/em&gt;. Even with a comprehensive catalog of APIs, development teams may seek to minimize their dependencies. This includes other people’s APIs (&lt;a href=&quot;https://matthewreinbold.com/2017/12/07/ConwayAndAPIDesign/&quot;&gt;see point #2 in my talk, “Three Ways Conway’s Law Affects API Governance&lt;/a&gt;”). Internal APIs do not have the same market-force natural selection to pick winners and losers. Other sociotechnical systems engineering approaches need to be brought to bear.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-do-you-ensure-new-apis-are-consistent-and-meet-guidelines&quot;&gt;How do you ensure new APIs are consistent and meet guidelines?&lt;/h2&gt;
-&lt;h3 id=&quot;consistency-of-design-starts-with-consistency-of-language&quot;&gt;Consistency of Design Starts with Consistency of Language&lt;/h3&gt;
-&lt;p&gt;Before consistency can happen, we have to have a clear medium of exchange. The consistency of design starts with the consistency of language. Are the words “policy”, “guidance”, and “standards” all used interchangeably? What about “resources” and “endpoints”? Are “methods”, “actions”, and “verbs” all the same thing? Or do they have different meanings? Observe the language the business uses and create consensus where there is none. This is a foundational activity before guidelines can be built. It is also ongoing.&lt;/p&gt;
-
-&lt;h3 id=&quot;pair-design-requirements-to-organizational-outcomes&quot;&gt;Pair Design Requirements to Organizational Outcomes&lt;/h3&gt;
-&lt;p&gt;The next step is to understand the organization’s goals. Guidelines are a means of driving teams a particular direction, &lt;em&gt;but to where&lt;/em&gt;? Guidelines without a destination, that don’t drive an organization to a better place, will be ignored. Are new integrations taking too long because of incomplete (or even contradictory) affordances in the interface? If so, we now have an outcome (or perhaps even KPIs) to shape guidance.&lt;/p&gt;
-
-&lt;h3 id=&quot;enforcement-is-not-an-all-or-nothing-matter&quot;&gt;Enforcement is Not an All or Nothing Matter&lt;/h3&gt;
-&lt;p&gt;With guidelines matched to outcomes, we can start enforcement. There is a spectrum. One extreme is gatekeeping. This is where an API is not allowed into an environment (development, QA, production, etc.) without ‘approval’ by a company-sanctioned group. This group is responsible for ensuring that guidelines are met.&lt;/p&gt;
-
-&lt;p&gt;Automation can help here, as well. Tools like Spectral can detect &lt;em&gt;deterministic&lt;/em&gt; rules. These are cases where a team’s design attempts to submit a body as part of a GET operation. However, more subjective criteria, like whether “chAccPwChangeId” is self-descriptive and easily understood to the target audience, may still require human judgment.&lt;/p&gt;
-
-&lt;p&gt;The gatekeeping approach is the simplest to implement and the easiest to understand, particularly in highly regulated industries (to prevent the bad outcomes from happening a sanctioned party reviews all the things). However, this approach introduces an organizational dependency on software development. It also can be discouraging, particularly for those that self-identify as highly-skilled, empowered individuals.&lt;/p&gt;
-
-&lt;p&gt;The book, “&lt;a href=&quot;https://www.amazon.com/Team-Topologies-Organizing-Business-Technology/dp/1942788819&quot;&gt;Team Topologies&lt;/a&gt;”, presents an alternative approach. Rather than mandating a gate, the intent is to create a desire for mastery across all constituents and then help them get there (this pursuit of mastery better aligns with the self-image mentioned above, and thus, is more empowering). Skewing on this this side means the emphasis goes from up-front prevention to ongoing internal evangelism and a service interaction models by a supporting API team. Successfully deploying, maintaining, and demonstrating effectiveness of this model is incredibly challenging, however. It is why, I believe, I haven’t seen it implemented nearly as much.&lt;/p&gt;
-
-&lt;h3 id=&quot;guidelines-are-a-process-not-a-stable-end-state&quot;&gt;Guidelines are a Process, Not a Stable End-State&lt;/h3&gt;
-&lt;p&gt;Finally, any guideline program needs a well-established and continuously practiced feedback mechanism. The market changes, developer maturity changes, and the organization’s goals change. So too should the guidelines change to reflect that reality. The process for continual co-evolution of the guidelines is so much more important than the given guidelines at any one specific point in time.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-should-legacy-apis-be-treated-differently&quot;&gt;How should “legacy” APIs be treated differently?&lt;/h2&gt;
-
-&lt;p&gt;It is highly unlikely that any guideline or standards process is starting greenfield. Organizational leadership may be surprised by the number of interfaces, and the data exchanged through them, that already exist at the onset of a cataloging effort.&lt;/p&gt;
-
-&lt;p&gt;When it comes to building a catalog, the &lt;strong&gt;first&lt;/strong&gt; priority, even above adherence to standards, is being listed. Once listed, an API governance team can begin a process of ‘eventual consistency’ to guidelines. This is where the API is discoverable but listed as out of compliance. When the team begins work on the next &lt;em&gt;breaking&lt;/em&gt; version, reconciling incompatibilities can also happen since the client will have to modify their code to accommodate the new version &lt;em&gt;anyway&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’m not fond of “burn the boats”, all-or-nothing transformation initiatives. Even if these “legacy” APIs are not the way we’d do them now, they are still providing business value to &lt;em&gt;someone&lt;/em&gt; (hence their continued existence). Cataloging, with an understood path forward, enables that quirky part of the corporate ecosystem to be studied and understood. As stewards of these complex systems, we’d do well to learn from the complex accretions that occurred. This is opposed to ignoring a company’s legacy to declare a fleeting ideological victory.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 13 May 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2020/05/13/APIManagementQuestions/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/05/13/APIManagementQuestions/</guid>
-        
-        <category>API Governance</category>
-        
-        <category>Adam DuVander</category>
-        
-        <category>API Management</category>
-        
-        <category>Luis Weir</category>
-        
-        <category>Continuous API Management</category>
-        
-        <category>Conway's Law</category>
-        
-        <category>Team Topologies</category>
         
         
       </item>
