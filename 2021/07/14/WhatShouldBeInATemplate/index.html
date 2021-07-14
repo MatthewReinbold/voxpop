@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Planting One&#39;s Feet</title>
-  <meta name="description" content="The humble safety pin.">
+  <title>What Prompts Should Be In an OpenAPI Tempate?</title>
+  <meta name="description" content="In my last piece, I talked about the importance of not overlooking the behavioral influence of software templates. The conclusion was that our output is infl...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://matthewreinbold.com/2016/11/17/ElectionAction/">
+  <link rel="canonical" href="https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
 </head>
 
@@ -80,31 +80,106 @@
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Planting One's Feet</h1>
-    <h2 class="post-subtitle">Initial Election Actions</h2>
-    <p class="post-meta"><time datetime="2016-11-17T00:00:00-05:00" itemprop="datePublished">Nov 17, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">What Prompts Should Be In an OpenAPI Tempate?</h1>
+    <h2 class="post-subtitle">What do your tooling defaults encourage you to do?</h2>
+    <p class="post-meta"><time datetime="2021-07-14T00:00:00-04:00" itemprop="datePublished">Jul 14, 2021</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <figure>
-<img src="/images/2016/11/safetypin.jpg" />
-<figcaption>The humble <a href="http://www.huffingtonpost.com/entry/safety-pin-trump-brexit_us_58251b53e4b0c4b63b0c11a9">safety pin</a>.</figcaption>
-</figure>
+    <p>In my last piece, <a href="https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/">I talked about the importance of not overlooking the behavioral influence of software templates</a>. The conclusion was that our output is influenced by our tools whether we consciously are aware of it or not. Therefore, we <em>could</em> continue to trudge on in ignorance and wonder why things aren’t working out as intended. <strong>OR</strong> we can design our environments to more easily achieve our governance outcomes.</p>
 
-<p>For better or worse, people will be processing the how and why of this election for some time. Unfortunately, we can't wait for full comprehension (if such a thing were even possible) before acting.</p>
-<p>Many of the guides online discuss how to get started with encryption for messaging and email applications. There is certainly a concern that the world's most sophisticated surveillence apparatus is now in the hands of an unpredictable, even vengeful, actor. However, there's steps even prior to that we need to consider. Before doing a digital cleanse, consider that there are many, many organizations that are already staffed and fluent in doing the important work that needs doing. Their difficult jobs just became much, much harder. </p>
+<p>An OpenAPI description has become the most common way to express RESTful and RESTish API designs. As a result, a wide variety of API tooling presents an OpenAPI default to a developer beginning a new design. Unfortunately, this default is usually a lowest-common-denominator, stripped-down suggestion that does little to encourage company-common practices.</p>
 
-<p><a href="https://www.youtube.com/watch?v=-rSDUsMwakI" rel="nofollow">John Oliver did a fantastic piece on his HBO program about the election results</a> (NSFW). He outlined numerous organizations worthy of support. Just throwing money at a problem doesn't solve it. But it is somewhere to start.</p>
+<p><figure><img src="/images/2021/06/prompt03.png" alt="A picture of the default OpenAPI template provided by Postman." /><figcaption>A picture of the default OpenAPI template provided by Postman.</figcaption></figure></p>
 
-<p>I just subscribed to the <strong><a href="https://www.washingtonpost.com/" rel="nofollow">Washington Post</a></strong>. In addition to the Executive, Legislative, and Judicial branches, the media has served as "the fourth estate". Thier job has been to keep the American public informed of acts being done in their name. Despite this, "traditional" journalism, has been drastically weakened by digital disruption. Other alternatives include <a href="http://www.nytimes.com/" rel="nofollow">The New York Times</a> and Pro Publica, an independent, non-profit that <a href="https://www.propublica.org/article/hate-crimes-are-up-but-the-government-isnt-keeping-good-track-of-them" rel="nofollow">announced they'll begin the hard work of tracking hate crimes</a>. </p>
+<p>What kinds of prompts could an API Center of Excellence/Enablement, API Governance, or enterprise architecture group consider putting in their default template?</p>
 
-<p>Then I set up a recurring donation to the <strong><a href="https://www.eff.org/" rel="nofollow">Electronic Frontier Foundation (EFF)</a></strong>. America is a nation of laws and we need instiutions able to highlight and stop abuses. I chose the EFF because of the importance encryption, net neutrality, and online rights will play in the immediate future. The <a href="https://www.aclu.org/" rel="nofollow">ACLU</a>. John Oliver mentions plenty more deserving options.</p>
+<h2 id="versioning">Versioning</h2>
+<p><a href="https://www.gartner.com/en/documents/4002570-how-to-deliver-sustainable-apis">In its research (paywalled, unfortunately)</a>, Gartner identifies not one, not two, but <em>five</em> different ways an API could be versioned:</p>
 
-<p>Finally, and perhaps most importantly, I also arranged a recurring donation to the <strong><a href="http://houseforall.org/" rel="nofollow">House for All Sinners and Saints</a></strong>. Admist all the hate, communities of love and acceptance shoulder new burdens. The House for All Sinners and Saints is a Denver based Lutheran church lead by Nadia Bolz-Weber, author of "Accidental Saints". </p>
+<ul>
+  <li>API Evolution, or only allowing for additions to an API</li>
+  <li>Root namespace URI versioning (<code class="highlighter-rouge">https://api.example.com/v1/resource</code>)</li>
+  <li>Resource-level URL versioning (<code class="highlighter-rouge">https://api.example.com/resource/v1</code>)</li>
+  <li>HTTP content header versioning (<code class="highlighter-rouge">curl -H "Accepts-version:1.0" https://api.example.com/resource</code>)</li>
+  <li>HTTP query parameter versioning (<code class="highlighter-rouge">https://api.example.com/resource?version=1</code>)</li>
+</ul>
 
-<p><iframe width="512" height="376" src="http://player.pbs.org/viralplayer/2365842749/" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" seamless="" allowfullscreen=""></iframe></p>
+<p>Believe it or not, there are even more ways to version an API than that!  And one way isn’t superior to another method. Yet, to manage the cognitive overhead of working with many APIs, it is important to create designs with consistent versioning behavior within a common domain, like an organization. A new member to that domain, when presented with a template, shouldn’t have to guess which approach is desired in their new context.</p>
 
-<p>What is <strong>not</strong> on the agenda is fleeing to another country. On election day, my wife took our two daughters to watch her vote. There was a lesson in civic duty that they needed to observe. In the same way, holding one's ground for basic human decency is the example we need to set. There's far too much at stake here to leave it to others.</p>
+<p>The OpenAPI template should demonstrate the versioning method preferred by the organization. It should not be up to the designer to recall best practices from a separate correspondence in order to do the right thing.</p>
+
+<h2 id="better-descriptions">Better Descriptions</h2>
+<p>Similarly, how many times have you been reading documentation, like that generated from an OpenAPI description, and you’ve come across something like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name: userId
+description: the Id of the user
+</code></pre></div></div>
+
+<p>While that might be <em>technically</em> correct, it is also the bare minimum way to describe an important piece of information. The writer might have not bothered with a description since it doesn’t convey much more than what could be gleaned from the name.</p>
+
+<p>In a previous role, we defined a series of characteristics that makes a compelling, worthwhile description.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Characteristic</th>
+      <th>Details</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Context</td>
+      <td>Context Detailed business context explaining what the data stands for and its expected usage</td>
+      <td>“A userId represents individuals and business entities that either (1) have active accounts or (2) are in the pre-sales pipeline.”</td>
+    </tr>
+    <tr>
+      <td>Disambiguation</td>
+      <td>Explains terms not commonly used</td>
+      <td>“Field refers to the number of seconds after launch when MECO occurred. MECO stands for “Main Engine Cut-Off”</td>
+    </tr>
+    <tr>
+      <td>Interrelationship</td>
+      <td>Defines if there is an important interrelationship with other available data in the same structure</td>
+      <td>“User account status code and user reactivation indicator are referenced together for obtaining the correct status of the account.”</td>
+    </tr>
+    <tr>
+      <td>Values, Range, or Examples</td>
+      <td>Proves insight into the range or bounded set of values possible.</td>
+      <td>“Valid FICO scores are between 300 and 850. A FICO score less than 300 or greater than 850 is invalid. Negative numbers should never be used.”</td>
+    </tr>
+    <tr>
+      <td>Data Sourcing</td>
+      <td>Where the data comes from or how it is generated.</td>
+      <td>“This FICO score is provided by Equifax.”</td>
+    </tr>
+    <tr>
+      <td>Reference/Notes</td>
+      <td>Provides links to training documents</td>
+      <td>“For more information on satellite launch thresholds and valid values, please see https://example.org/reference/DOC-12345.”</td>
+    </tr>
+    <tr>
+      <td>Proper Grammar &amp; Complete Sentences</td>
+      <td>Definitions should start with the term being defined.</td>
+      <td>“Currency Code is the ISO three-character code indicating the currency for the transaction.”</td>
+    </tr>
+    <tr>
+      <td>Update Frequency/Retention</td>
+      <td>Information on source application, frequency of upload, and/or retention policy, if applicable.</td>
+      <td>“Data is updated monthly for the entire customer population.”</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Not every field will require every characteristic. However, when it comes to the template presented to an API designer, we should provide examples that illustrate better, more complete information. If we give a designer a bare-bones, minimally worded OpenAPI description, they’re likely to continue that same approach in their work.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>As your API landscape grows, perhaps versioning or better field descriptions aren’t a primary concern. However, hopefully, these examples have sparked some ideas on how you might lean in on the issues that concern you.</p>
+
+<p>And it doesn’t have to end with just the templates. At the recently completed APIDays conference, <a href="https://youtu.be/D1vPdX2TdRI?t=901">ADP’s Boris Vernoff demonstrated how their customized environments promote consistency within their design environments (screens begin around the 15-minute mark)</a>. Rather than starting the design process with a blank page, a designer can select from a series of prompts. This ‘wizard’ approach does constrain the possibility space. However, in doing so, it directs energy to solve the unique business problem and away from introducing variance on non-value-adding API mechanics.</p>
+
+<p>There is a lot that goes into creating APIs with <a href="https://matthewreinbold.com/2016/06/02/ConsistencyAndCohesion/">greater consistency and cohesion</a>. What is your environment doing to make that easier?</p>
 
   </div>
 
@@ -134,304 +209,311 @@
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
     	
         <hr />
     		<h4>Related</h4>
     		
     	
       <div>
-      <h5><a href="/2017/07/12/Logan/">Logan, Westerns, and a Civilized Internet</a></h5>
+      <h5><a href="/2021/06/30/TemplatesAsPrompts/">Rethinking the Humble Template</a></h5>
       </div>
       
       
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2021/06/25/ArchitectureIsLaw/">To Change Behavior, Change The Environment</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
     
 
   
