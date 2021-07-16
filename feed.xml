@@ -6,9 +6,63 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Jul 2021 12:42:40 -0400</pubDate>
-    <lastBuildDate>Thu, 15 Jul 2021 12:42:40 -0400</lastBuildDate>
+    <pubDate>Fri, 16 Jul 2021 11:21:40 -0400</pubDate>
+    <lastBuildDate>Fri, 16 Jul 2021 11:21:40 -0400</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Machine Learning Prompts Within IDEs</title>
+        <description>&lt;p&gt;In previous posts, I’ve discussed &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;how one’s environment impacts behavior&lt;/a&gt;, &lt;a href=&quot;https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/&quot;&gt;how defaults and templates are part of a software development environment&lt;/a&gt;, and &lt;a href=&quot;https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/&quot;&gt;possible behavioral prompts to consider in an OpenAPI template&lt;/a&gt;. But what do irresponsible or counter-productive environmental prompts look like? The recent kerfuffle over &lt;strong&gt;&lt;a href=&quot;https://copilot.github.com/&quot;&gt;Github’s Copilot AI&lt;/a&gt;&lt;/strong&gt; is a great example.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/07/ide.jpg&quot; alt=&quot;A picture showing code on a computer screen.&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@andreiamza2000&quot;&gt;Amza Andrei&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/ide&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2021-07-07-issue-168-github-s-copilot&quot;&gt;I discussed Copilot in a recent edition of my API email newsletter, Net API Notes #168&lt;/a&gt;. In short, Copilot is an assistant for writing code. As a developer types in their Integrated Development Environment (IDE), Copilot suggests “whole lines or entire functions” learned from similar found across Github.&lt;/p&gt;
+
+&lt;p&gt;On the surface, this seems like an example of &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;using the environment to prompt behavior&lt;/a&gt;. When it recognizes what the developer is attempting, Copilot prompts a solution similar to what others have done previously. Being the path of least resistance, the developer (particularly a junior one) is likely to accept the default provided and move on to their next task.&lt;/p&gt;
+
+&lt;p&gt;In that scenario, however, what &lt;em&gt;outcome&lt;/em&gt; is the environment optimizing for? Quality or convenience? If we consider how Copilot was trained, we begin to get an answer.&lt;/p&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://arxiv.org/abs/2107.03374&quot;&gt;a published paper&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/NoraDotCodes/status/1412741339771461635&quot;&gt;subsequent tweets&lt;/a&gt;, it appears Copilot trained on all publicly available Github code. As someone who has contributed their share of broken, test, and experimental code to Github, I can guarantee that not everything publicly available follows best practices. Further, &lt;a href=&quot;https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/&quot;&gt;as I discussed in my overview on machine learning’s API future&lt;/a&gt;, Copilot’s algorithm can’t discern which common programmatic approaches are &lt;em&gt;good&lt;/em&gt;, only those that have occurred historically. It then, subsequently, propagates those with its promptings.&lt;/p&gt;
+
+&lt;p&gt;What does that mean in practice? As an industry (and with APIs specifically), software developers are still wrestling with comprehensive, security-minded practices. It should come as no surprise, then, that Copilot ends up prompting the same kinds of security flaws that have bedeviled the industry throughout the past. &lt;a href=&quot;https://portswigger.net/daily-swig/devsecai-github-copilot-prone-to-writing-security-flaws&quot;&gt;A security researcher studying the issue says Copilot suggests&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“-bad code that looks reasonable at first glance, something that might slip by a programmer in a hurry, or seem correct to a less experienced coder.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In a more API-specific example, from the same article:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The AI tool also ‘blundered right into the most classic security flaw of the early 2000s: a PHP script taking a raw GET variable and interpolating it into a string to be used as an SQL query, causing SQL injection’”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is easy to optimize a system for &lt;em&gt;speed&lt;/em&gt;. However, using machine-learning to create environmental prompts isn’t automatically value-adding activity. Designed poorly, it becomes the equivalent of throwing more spagehetti at the wall. When considering what behaviors an environment creates, don’t lose sight of the quality outcomes.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Jul 2021 00:00:00 -0400</pubDate>
+        <link>https://matthewreinbold.com/2021/07/16/GithubCopilot/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/07/16/GithubCopilot/</guid>
+        
+        <category>API governance</category>
+        
+        <category>environment</category>
+        
+        <category>behavior</category>
+        
+        <category>github</category>
+        
+        <category>copilot</category>
+        
+        <category>machine learning</category>
+        
+        <category>ai</category>
+        
+        <category>ide</category>
+        
+        <category>sql injection</category>
+        
+        
+      </item>
     
       <item>
         <title>What Prompts Should Be In an OpenAPI Tempate?</title>
@@ -1018,117 +1072,6 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
         <category>Demeter</category>
         
         <category>Ian Holland</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Leading People in Crisis</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2020/07/road.png&quot; alt=&quot;An image of the road running to the horizon.&quot; /&gt;&lt;figcaption&gt;The road ahead.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update, 7/22&lt;/em&gt; - &lt;em&gt;At the same time I was posting this, Cassie McDaniel published “&lt;a href=&quot;https://medium.com/@cassiemc/everyones-sad-and-getting-sadder-c8e6b23e69a5&quot;&gt;Everyone’s Sad and Getting Sadder&lt;/a&gt;”. It wonderfully expresses some of that which I brushed past on the way to solutioning.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update, 7/23&lt;/em&gt; - &lt;em&gt;&lt;a href=&quot;https://hbr.org/2020/07/microsoft-analyzed-data-on-its-newly-remote-workforce&quot;&gt;Microsoft has published compelling data on new remote work trends&lt;/a&gt;. Revelations include that “managers are enabling employee resilience through this disruption. Employees across our team saw their work hours spike after the shift. But looking at one-on-one meetings, a key connection point in the manager-employee relationship, we found that the employees who averaged the most weekly one-on-one time with their managers experienced the smallest increase in working hours. In short, managers were buffering employees against the negative aspects of the change by helping them prioritize and protect their time.”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Being responsible for employees is challenging, even in the best of times. It is something else entirely to care for people during simultaneous health, inequality, justice, governance, economic, and education crises caused by Covid-19. We, collectively, are undergoing a transition to &lt;em&gt;something else&lt;/em&gt;. Like with many transitions, there is discomfort.&lt;/p&gt;
-
-&lt;p&gt;When stressed, fight-or-flight reflexes engage. Our minds brace for an oncoming challenge. However, with this global pandemic, there is no enemy to overcome and no timeline for resolution. We remain on high alert for an all-clear that won’t come. Further, previously simple actions, like going to the grocery store or getting a check-up, are filled with new and unfamiliar processes that &lt;a href=&quot;https://www.fastcompany.com/90515519/tech-workers-are-showing-the-effects-of-covid-19-related-burnout&quot;&gt;generate additional micro-bursts of stress&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We’re shadowboxing with history. It is no wonder we’re exhausted each evening.&lt;/p&gt;
-
-&lt;p&gt;For your team, dealing with Covid-19 is more than just virtual happy hours and disrupted travel plans. Uncertainty breeds anxiety, no matter what your resilience level was going into this year. &lt;a href=&quot;https://www.inc.com/bill-murphy-jr/want-to-be-a-truly-exceptional-leader-neuroscience-says-do-these-5-simple-things-right-now.html&quot;&gt;About one-third of Americans have exhibited signs of anxiety or depression in the wake of Covid-19&lt;/a&gt;.  And anxiety erodes our energy, patience, and ability to absorb new information. It does so, slowly, at first, but this prolonged experience aggregates into significant mental health concerns.&lt;/p&gt;
-
-&lt;p&gt;Here’s what I’m doing to care for my team during these times.&lt;/p&gt;
-
-&lt;h2 id=&quot;keep-up-lightweight-check-ins-but-let-them-lead&quot;&gt;Keep Up Lightweight Check-ins, But Let Them Lead&lt;/h2&gt;
-&lt;p&gt;This transition requires all of us to process a lot. Even with a great rapport, your co-worker may not have the time, energy, or ability to articulate what they need. Respect your team member’s choice if they aren’t ready to talk. In that case, impress on them that epiphany has no deadline. When they’re ready, you’ll move mountains to meet them.&lt;/p&gt;
-
-&lt;p&gt;Continue your regular cadence of check-ins, but let them tell you what they need. Ask a multiple-choice question designed to require as little energy, on their part, as possible:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Just wanted to check-in. Would it be more helpful to keep our one-on-one today, reduce it to 15 minutes, or skip it? I’m happy no matter what— just want to make sure you have what you need.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;strike-how-are-you-from-your-opener&quot;&gt;Strike “How Are You?” From Your Opener&lt;/h2&gt;
-&lt;p&gt;If your team member does opt to meet, avoid the weak “How are you?” or “How you doing?” opener. It will, most likely, result in a reflexive “OK”. Instead, prepare questions that will provide additional insight and present more profound opportunities to help. Lara Hogan is a management coach. &lt;a href=&quot;https://larahogan.me/blog/check-in-questions-for-one-on-ones-during-crisis/&quot;&gt;She lists several excellent items appropriate for 1-on-1’s during this time&lt;/a&gt;. Some examples include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What’s been working for you so far?&lt;/li&gt;
-  &lt;li&gt;What’s been the hardest? What’s been the most surprising thing during this time?&lt;/li&gt;
-  &lt;li&gt;What’s your north star?&lt;/li&gt;
-  &lt;li&gt;What’s one thing you want to experiment with right now?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For &lt;em&gt;more&lt;/em&gt; questions, check out the Elizabeth Weingarten article, “&lt;a href=&quot;https://qz.com/work/1836105/20-great-questions-to-ask-instead-of-how-are-you-doing-right-now/&quot;&gt;20 Questions to Ask Instead of ‘How are You Doing?’&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;h2 id=&quot;be-present&quot;&gt;Be Present&lt;/h2&gt;
-&lt;p&gt;Once you’ve engaged, apply active and &lt;em&gt;empathetic&lt;/em&gt; listening.  Everyone needs something different right now. Don’t presume to know what challenges are occupying your people’s head space.&lt;/p&gt;
-
-&lt;p&gt;Look into the camera rather than sidelong at yourself in the video. Avoid scrolling through email. Close Slack. Turn off text notifications. These meetings are not to bolster your hierarchical imbalance through the zillion alternatives you could do. This time is about them. Catharsis through connection is possible only through focus.&lt;/p&gt;
-
-&lt;p&gt;You may not be able to solve every problem. You shouldn’t attempt to spin what you’re hearing into a silver-lining. &lt;strong&gt;And never, never, invalidate what the individual is thinking or feeling the first time they’re attempting to process, out-loud, what is impacting them&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;avoid-the-cliches-or-false-bravado&quot;&gt;Avoid the Cliches or False Bravado&lt;/h2&gt;
-&lt;p&gt;Providing hope or expressing wishes for the future is one thing. Inauthentic promises or thoughtless chest-beating will create distance from those who have a different perspective.&lt;/p&gt;
-
-&lt;p&gt;There is a business management playbook filled with cliches. War metaphors, in a time with unprecedented death, ring particularly hollow at this moment:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“Rally the troops.”&lt;/li&gt;
-  &lt;li&gt;“Let’s win this battle!”&lt;/li&gt;
-  &lt;li&gt;“This is our fight.”&lt;/li&gt;
-  &lt;li&gt;“Weaponize this opportunity!”&lt;/li&gt;
-  &lt;li&gt;“Who’s killing it?”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It’s OK to admit that you might not have answers for a once-in-a-lifetime event. It’s OK if your team isn’t fired up to storm the beaches of Normandy. Admitting “I don’t know” and allowing oneself to be vulnerable goes a long way toward connecting and creating authentic relationships.&lt;/p&gt;
-
-&lt;h2 id=&quot;offer-positive-feedback-and-encouragement&quot;&gt;Offer positive feedback and encouragement&lt;/h2&gt;
-&lt;p&gt;Dr. David Rock, who has a doctoral degree in neuroleadership, says Covid-19 has made &lt;a href=&quot;https://www.inc.com/bill-murphy-jr/want-to-be-a-truly-exceptional-leader-neuroscience-says-do-these-5-simple-things-right-now.html&quot;&gt;people hyper-sensitive to their standing&lt;/a&gt;. Through this filter, normally benign questions are now interpreted as negative or even discouraging.&lt;/p&gt;
-
-&lt;p&gt;Proceed thoughtfully. Instead of asking, “Why is your delivery late?”, which may be inferred as a personal attack, reframe it as, “What’s happening with this project?” It’s not about lowering expectations or letting performance slide. This shift in language is about acknowledging the sensitive spot people are in and reducing anxiety, not making it worse.&lt;/p&gt;
-
-&lt;h2 id=&quot;strive-to-create-certainty&quot;&gt;Strive to Create Certainty&lt;/h2&gt;
-&lt;p&gt;Ambiguity heightens stress. The more variables you can remove from employees’ lives right now, the better. Lara Hogan has another piece on &lt;a href=&quot;https://larahogan.me/blog/predictability-stability-terrible-times/&quot;&gt;Creating Predictability and Stability in Times of Rapid Change&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;One approach for creating certainty is sharing information. Sharing helps create certainty and builds trust, even if that news isn’t always positive. &lt;a href=&quot;https://www.psychologytoday.com/us/blog/savvy-parenting/201406/when-parents-lie&quot;&gt;Research shows that children can deal with almost any disappointment if provided with appropriate support. However, if children feel that they were lied to, they will act out&lt;/a&gt;. Similar dynamics exist between a leader and their team.&lt;/p&gt;
-
-&lt;h2 id=&quot;accept-were-all-human-in-a-crisis&quot;&gt;Accept We’re All Human in a Crisis&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.wsj.com/articles/seven-rules-of-zoom-meeting-etiquette-from-the-pros-11594551601?mod=e2tw&quot;&gt;A recent Wall-Street Journal article called for a return to an idealized professional esthetic&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“No more dogs, chips or lurkers — as video-conferencing becomes a fixture in working life, it’s time to shed the rookie moves.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Perhaps if everyone had chosen their current work predicament, I’d agree. However, not everyone has the optimized quiet place. We’re all distracted, &lt;a href=&quot;https://flowingdata.com/2020/07/13/parenting-and-work-schedule-during-the-pandemic/&quot;&gt;doing the best we can with those we’re surrounded with&lt;/a&gt;, &lt;em&gt;who are also going through a thing&lt;/em&gt;. We’re humans in a crisis.&lt;/p&gt;
-
-&lt;p&gt;Re-asserting workplace norms adds undue performative expectations on those already struggling. When we feel like we have no control or choices, even a small stress becomes overwhelming. Leaders should offer unexpected autonomy and flexibility. Relax the always-on camera requirements. Or forgive the hastily assembled lunch on the part of a busy parent. And honor those aspects of human experience - delivery person interruption, pets barking, kids video-bombing - that remind us these aren’t just workplaces, but our lives co-opted into a global event.&lt;/p&gt;
-
-&lt;h2 id=&quot;take-care-of-yourself-too&quot;&gt;Take Care of Yourself, Too&lt;/h2&gt;
-&lt;p&gt;Your employees aren’t the only ones dealing with volatile levels of attention and energy. Your reserves are also being siphoned.&lt;/p&gt;
-
-&lt;p&gt;To best serve them, it is vital you’re managing yourself. That may mean not scheduling the back-to-back-to-back marathon meetings that you’d typically be able to do. It may mean saying no or pulling back on worthwhile, yet not primary, initiatives. It might mean being an example and figuring out how staycations work, not because you need more time at home, but because you’re illustrating how important mental breaks are for the marathon we’re running.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Relationships rooted in psychological safety are like an oak tree: the best time to plant them was years ago. The second best time is now. If you haven’t spent the time to cultivate trust, your employees are less likely to share what they’re struggling with. That makes it harder to help.&lt;/p&gt;
-
-&lt;p&gt;The way that people choose to lead will be remembered for years to come. Some leaders are just trying to command through goal setting and stretching people to their limits. Then there will those exhibiting empathy, making sure that people feel heard and are taken care of for the long haul.&lt;/p&gt;
-
-&lt;p&gt;Be that latter type of leader.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 22 Jul 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2020/07/22/LeadingPeopleInCrisis/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/07/22/LeadingPeopleInCrisis/</guid>
-        
-        <category>people management</category>
-        
-        <category>management</category>
-        
-        <category>Capital One</category>
-        
-        <category>Lara Hogan</category>
-        
-        <category>David Rock</category>
         
         
       </item>
