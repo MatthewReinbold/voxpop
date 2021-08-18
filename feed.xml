@@ -6,9 +6,103 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Jul 2021 11:21:40 -0400</pubDate>
-    <lastBuildDate>Fri, 16 Jul 2021 11:21:40 -0400</lastBuildDate>
+    <pubDate>Wed, 18 Aug 2021 12:17:34 -0500</pubDate>
+    <lastBuildDate>Wed, 18 Aug 2021 12:17:34 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>One Way to Improve API Guidance</title>
+        <description>&lt;p&gt;I’ve seen my share of API Design guidelines. I’ve even contributed to a few. Consistent across those style guides, standards documents, and requirements pages is that we crafted them without the benefit of technical writing or information architecture professionals. Despite having the best of intentions, we left opportunities for conveying our design expectations in better and more useful ways.&lt;/p&gt;
+
+&lt;p&gt;One simple yet powerful addition to any design requirements page is the inclusion of examples &lt;em&gt;formatting in the company’s schema of choice&lt;/em&gt;. These examples can be easily copied/pasted and modified in the editor of choice, removing the ambiguity of personal interpretation or possible typos.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/on-examples.png&quot; alt=&quot;A picture of a slide from 2018 commenting on the importance of examples from Jasmine Mithani.&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+A picture of a slide from 2018 commenting on the importance of examples from &lt;a href=&quot;https://twitter.com/jazzmyth&quot;&gt;Jasmine Mithani&lt;/a&gt;.
+&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s take a closer look at what I mean. Here is a hypothetical example of an API rule a business might adopt for interface consistency:&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Pagination&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When retrieving a collection of similar items, a caller may desire only to retrieve a subset. The caller may also need the ability to progress through subsets. To paginate through a collection, an API SHOULD provide a pair of query parameters: &lt;strong&gt;limit&lt;/strong&gt; and &lt;strong&gt;offset&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That is solid guidance and a step toward encouraging APIs that behave more consistently within a domain. However, even within that tiny snippet, several nuanced elements need to be translated correctly to an OpenAPI’s YAML. We also assume that developers are well versed in YAML conventions. In my experience, OpenAPI is a means to an end, not a topic of voluntary study and application. As a result, whoever is writing the API description writes just enough to get their description to validate against the OpenAPI schema and moves on. This &lt;em&gt;minimum viable description&lt;/em&gt; checks a box but falls short of &lt;em&gt;being good enough for integrators&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paths:
+    /users:
+        get:
+            responses:
+                '200':
+                description: success
+            parameters:
+                - $ref: &quot;#components/limit&quot;
+                - $ref: &quot;#components/offset&quot;
+components:
+    schemas:
+        limit:
+            description: the limit
+        offset:
+            description: the offset
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Publishing an API describing pagination this way meets the &lt;em&gt;letter&lt;/em&gt; of the rule, it fails to demonstrate the &lt;em&gt;spirit&lt;/em&gt;: &lt;strong&gt;lowering comprehension overhead&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Part of doing the right thing lies with the API designer. But the guidelines, by providing examples that can be copy/pasted, can do a tremendous amount to make that job more manageable. If it was the dev team creating APIs, the benefit is limited. Ten? Now we see some benefit. Dozens of teams across a company? At that scale, the consistency and speed possible by copy/pasting fully realized guidance directly into a design begins to add up.&lt;/p&gt;
+
+&lt;p&gt;So after the description of the pagination guidelines above, include an example that they can easily copy, paste, and customize into their own work, like below. Then continue for each and every other API design feature that would benefit from a more consistent approach. &lt;em&gt;Those writing API descriptions will thank you for it&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paths:
+    /users:
+        get:
+            responses:
+                '200':
+                description: success
+            parameters:
+                - name: offset
+                    in: query
+                    required: false
+                    description: The index of the first item to retrieve. Indices are zero-based
+                    schema: 
+                        type: integer
+                        format: int32
+                        minimum: 0
+                        default: 0
+                - name: limit
+                    in: query
+                    required: false
+                    description: The number of items to retrieve at once. &amp;lt;&amp;lt;insert API-specific default here, including if there is a maximum value&amp;gt;&amp;gt;
+                    schema: 
+                        type: integer
+                        format: int32
+                        minimum: 1
+                        maximum: 1000
+                        default: 20
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 18 Aug 2021 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2021/08/18/OneWayToImproveAPIGuidance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/18/OneWayToImproveAPIGuidance/</guid>
+        
+        <category>API governance</category>
+        
+        <category>OpenAPI</category>
+        
+        <category>styleguide</category>
+        
+        <category>documentation</category>
+        
+        
+      </item>
     
       <item>
         <title>Machine Learning Prompts Within IDEs</title>
@@ -39,7 +133,7 @@
 
 &lt;p&gt;It is easy to optimize a system for &lt;em&gt;speed&lt;/em&gt;. However, using machine-learning to create environmental prompts isn’t automatically value-adding activity. Designed poorly, it becomes the equivalent of throwing more spagehetti at the wall. When considering what behaviors an environment creates, don’t lose sight of the quality outcomes.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 16 Jul 2021 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 16 Jul 2021 00:00:00 -0500</pubDate>
         <link>https://matthewreinbold.com/2021/07/16/GithubCopilot/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2021/07/16/GithubCopilot/</guid>
         
@@ -161,7 +255,7 @@ description: the Id of the user
 
 &lt;p&gt;There is a lot that goes into creating APIs with &lt;a href=&quot;https://matthewreinbold.com/2016/06/02/ConsistencyAndCohesion/&quot;&gt;greater consistency and cohesion&lt;/a&gt;. What is your environment doing to make that easier?&lt;/p&gt;
 </description>
-        <pubDate>Wed, 14 Jul 2021 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 14 Jul 2021 00:00:00 -0500</pubDate>
         <link>https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/</guid>
         
@@ -206,7 +300,7 @@ description: the Id of the user
 
 &lt;p&gt;We’re not there yet with organization-level templates. And, even then, more meaningful templates for their toolchains are only the beginning. As Stack Overflow shows, there are numerous types and times for prompts in a software environment. As people trying to create better outcomes, we need to add environmental design to our available approaches.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 30 Jun 2021 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 30 Jun 2021 00:00:00 -0500</pubDate>
         <link>https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/</guid>
         
@@ -248,7 +342,7 @@ description: the Id of the user
 
 &lt;p&gt;Modify an environment to make the right thing easy to do, and the need for someone to police behavior goes down significantly.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 25 Jun 2021 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 25 Jun 2021 00:00:00 -0500</pubDate>
         <link>https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/</guid>
         
@@ -299,7 +393,7 @@ description: the Id of the user
 
 &lt;p&gt;The next time you feel the urge to ask “why”, try reaching for “how” instead.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 23 Jun 2021 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 23 Jun 2021 00:00:00 -0500</pubDate>
         <link>https://matthewreinbold.com/2021/06/23/HowVersusWhyWhyQuestions/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2021/06/23/HowVersusWhyWhyQuestions/</guid>
         
@@ -334,7 +428,7 @@ description: the Id of the user
 
 &lt;p&gt;That’s a lot of &lt;strong&gt;uff-da&lt;/strong&gt; for now, but we’ll break &lt;strong&gt;lefse&lt;/strong&gt; soon enough. &lt;strong&gt;Skol&lt;/strong&gt; and boldness to you, friends!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 29 Mar 2021 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 29 Mar 2021 00:00:00 -0500</pubDate>
         <link>https://matthewreinbold.com/2021/03/29/Postman/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2021/03/29/Postman/</guid>
         
@@ -369,7 +463,7 @@ description: the Id of the user
 
 &lt;p&gt;However, WandaVision becomes transcendent at this moment in which we’re all trapped in our own Westview.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 08 Feb 2021 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 08 Feb 2021 00:00:00 -0600</pubDate>
         <link>https://matthewreinbold.com/2021/02/08/WandaVision/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2021/02/08/WandaVision/</guid>
         
@@ -642,7 +736,7 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DAm6o9LULts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
-        <pubDate>Fri, 08 Jan 2021 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 08 Jan 2021 00:00:00 -0600</pubDate>
         <link>https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</guid>
         
@@ -763,7 +857,7 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
 
 &lt;p&gt;~fin~&lt;/p&gt;
 </description>
-        <pubDate>Wed, 05 Aug 2020 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 05 Aug 2020 00:00:00 -0500</pubDate>
         <link>https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</link>
         <guid isPermaLink="true">https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</guid>
         
@@ -790,288 +884,6 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
         <category>Eric Elliot</category>
         
         <category>John Ousterhout</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Technology Aphorisms</title>
-        <description>&lt;p&gt;Recently I was talking to another professional with decades of technology experience. When I dropped a reference to &lt;em&gt;&lt;a href=&quot;#bike-shedding&quot;&gt;bike-shedding&lt;/a&gt;&lt;/em&gt;, I was met with a blank stare. Given he had never heard of the reference, much less know the difference between that and &lt;em&gt;&lt;a href=&quot;#yak-shaving&quot;&gt;yak shaving&lt;/a&gt;&lt;/em&gt;, I decided something had to be done.&lt;/p&gt;
-
-&lt;p&gt;Over my professional career, I’ve collected numerous pithy statements about technology. Some of these aphorisms are serious; others, not so much. &lt;a href=&quot;https://daverupert.com/2018/04/eponymous-laws-of-tech/&quot;&gt;But folks seem to find these things useful&lt;/a&gt;. Internalizing may not make you a better technologist. However, the next time you’re stuck, you’ll know you’re not alone.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2020/08/yak-shaving.png&quot; alt=&quot;A parody O'Reilly book cover for Yak Shaving.&quot; /&gt;&lt;figcaption&gt;Yak Shaving. The definitive guide.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, onto the aphorisms!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#ashbys-law&quot;&gt;Ashby’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#baader-meinhof-effect&quot;&gt;Baader-Meinhof Effect&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#balks-law&quot;&gt;Balk’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#betteridges-law-of-headlines&quot;&gt;Betteridge’s Law of Headlines&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#bike-shedding&quot;&gt;Bike Shedding&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#brandolinis-law&quot;&gt;Brandolini’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#brookss-law&quot;&gt;Brook’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#clarkes-third-law&quot;&gt;Clarke’s Third Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#conways-law&quot;&gt;Conway’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#correlation-principle&quot;&gt;Correlation Principle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#cunninghams-law&quot;&gt;Cunningham’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#demeter-law-of&quot;&gt;Demeter (Law of)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#dunbars-number&quot;&gt;Dunbar’s Number&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#dunning-kruger-effect&quot;&gt;Dunning-Kruger Effect&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#eaglesons-law&quot;&gt;Eagleson’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#finagles-law&quot;&gt;Finagle’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#fitts-law&quot;&gt;Fitt’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#galls-law&quot;&gt;Gall’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#gilders-law&quot;&gt;Gilder’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#godwins-law&quot;&gt;Godwin’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#goodharts-law&quot;&gt;Goodhart’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#hanlons-razor&quot;&gt;Hanlon’s Razor&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#hofstadters-law&quot;&gt;Hofstadter’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#huangs-law&quot;&gt;Huang’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#hyrums-law&quot;&gt;Hyrum’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#jevons-paradox&quot;&gt;Jevons Paradox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#kernighans-law&quot;&gt;Kernighan’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#kiss-principle&quot;&gt;KISS Principle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#law-of-leaky-abstractions&quot;&gt;Law of Leaky Abstractions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#law-of-the-second-floor&quot;&gt;Law of the Second Floor&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#least-power-rule-of&quot;&gt;Least Power (Rule of)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lindbloms-razor&quot;&gt;Lindblom’s Razor&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#linuss-law&quot;&gt;Linus’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#listers-law&quot;&gt;Lister’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#metcalfes-law&quot;&gt;Metcalfe’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#moores-law&quot;&gt;Moore’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#murphys-law&quot;&gt;Murphy’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#ninety-ninety-rule&quot;&gt;Ninety-Ninety Rule&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#nivens-third-law&quot;&gt;Niven’s Third Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#occams-razor&quot;&gt;Occam’s Razor&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#peter-principle&quot;&gt;Peter Principle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#postels-law&quot;&gt;Postel’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#principle-of-good-enough&quot;&gt;Principle of Good Enough&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#rule-34&quot;&gt;Rule 34&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#singhs-inevitable-avoidance&quot;&gt;Singh’s Inevitable Avoidance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#socratic-paradox&quot;&gt;Socratic Paradox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#sturgeons-law&quot;&gt;Sturgeon’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#sunnyvale-principle&quot;&gt;Sunnyvale Principle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#teslers-law&quot;&gt;Tesler’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#wirths-law&quot;&gt;Wirth’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#yak-shaving&quot;&gt;Yak Shaving&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#zawinskis-law&quot;&gt;Zawinski’s Law&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#zenos-paradox&quot;&gt;Zeno’s Paradox&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;technology-aphorisms&quot;&gt;Technology Aphorisms&lt;/h2&gt;
-
-&lt;h3 id=&quot;ashbys-law&quot;&gt;Ashby’s Law&lt;/h3&gt;
-&lt;p&gt;For a system to be stable, the number of states that its control mechanism is capable of attaining must be greater than or equal to the number of states in the controlled system. Or, &lt;a href=&quot;https://twitter.com/ruthmalan/status/1158820721184903175?s=09&quot;&gt;in Jade Bloom’s words&lt;/a&gt;, “complex environments (and wicked problems) require complex organizations”. Attributed to British cybernetician W. Ross Ashby.&lt;/p&gt;
-&lt;h3 id=&quot;baader-meinhof-effect&quot;&gt;Baader-Meinhof Effect&lt;/h3&gt;
-&lt;p&gt;The name given to a frequency or recency illusion where once something has been noticed, then every instance of that thing is noticed, leading to the belief it has a high rate of occurrence.&lt;/p&gt;
-&lt;h3 id=&quot;balks-law&quot;&gt;Balk’s Law&lt;/h3&gt;
-&lt;p&gt;Everything you hate about the Internet is actually everything you hate about people. &lt;a href=&quot;http://www.theawl.com/2014/06/stop-blaming-the-internet-for-how-horrible-we-all-are&quot;&gt;Attributed to Awl co-founder Alex Balk&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;betteridges-law-of-headlines&quot;&gt;Betteridge’s Law of Headlines&lt;/h3&gt;
-&lt;p&gt;Any article with a headline or title that ends in a question mark can be summarized by ‘no’. &lt;a href=&quot;https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines&quot;&gt;Attributed to British technology journalist Ian Betteridge&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;bike-shedding&quot;&gt;Bike Shedding&lt;/h3&gt;
-&lt;p&gt;The act of wasting time on trivial details while important matters are inadequately attended to. See also &lt;a href=&quot;#parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;brandolinis-law&quot;&gt;Brandolini’s Law&lt;/h3&gt;
-&lt;p&gt;Says “the amount of energy needed to refute bullshit is an order of magnitude bigger than to produce it.” Named for Alberto Brandolini, an Italian programmer.&lt;/p&gt;
-&lt;h3 id=&quot;brookss-law&quot;&gt;Brooks’s Law&lt;/h3&gt;
-&lt;p&gt;Adding people to a late software project makes it later. &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Mythical_Man-Month&quot;&gt;Attributed to Fred Brooks, author of the book Mythical Man Month&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;cellan-jones-principle&quot;&gt;Cellan-Jones Principle&lt;/h3&gt;
-&lt;p&gt;You can either explain quantum computing so that it’s understandable or factually correct, but never both simultaneously. Attributed to Rory Cellan-Jones.&lt;/p&gt;
-&lt;h3 id=&quot;clarkes-third-law&quot;&gt;Clarke’s Third Law&lt;/h3&gt;
-&lt;p&gt;Any sufficiently advanced technology is indistinguishable from magic. Attributed to British science fiction writer Arthur C. Clarke.&lt;/p&gt;
-&lt;h3 id=&quot;conways-law&quot;&gt;Conway’s Law&lt;/h3&gt;
-&lt;p&gt;Any piece of software reflects the organizational structure that produced it. Attributed to computer scientist Melvin Conway.&lt;/p&gt;
-&lt;h3 id=&quot;correlation-principle&quot;&gt;Correlation Principle&lt;/h3&gt;
-&lt;p&gt;As &lt;a href=&quot;https://www.geepawhill.org/2020/08/21/the-correlation-principle/&quot;&gt;defined by software development coach Geepaw Hill&lt;/a&gt;, the Correlation Principle says that our productivity is tightly correlated with the internal quality of software.&lt;/p&gt;
-&lt;h3 id=&quot;cunninghams-law&quot;&gt;Cunningham’s Law&lt;/h3&gt;
-&lt;p&gt;The best way to get the right answer is not to ask questions; it’s to post the wrong answer. Attributed to the wiki creator, Ward Cunningham.&lt;/p&gt;
-&lt;h3 id=&quot;demeter-law-of&quot;&gt;Demeter (Law of)&lt;/h3&gt;
-&lt;p&gt;The Law of Demeter (LoD) or principle of least knowledge is a design guideline for software, particularly object-oriented programs. It is summarized as (1) each unit should have limited knowledge of other units, (2) each unit should only talk to its friends, and (3) only talk to your immediate friends. First proposed by Ian Holland.&lt;/p&gt;
-&lt;h3 id=&quot;dunbars-number&quot;&gt;Dunbar’s Number&lt;/h3&gt;
-&lt;p&gt;The theory an individual can only maintain stable relationships with &lt;em&gt;up to&lt;/em&gt; 150 people. &lt;a href=&quot;https://en.wikipedia.org/wiki/Dunbar%27s_number&quot;&gt;Attributed to British anthropologist Robin Dunbar&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;dunningkruger-effect&quot;&gt;Dunning–Kruger Effect&lt;/h3&gt;
-&lt;p&gt;A cognitive bias in which unskilled individuals suffer from illusory superiority, mistakenly rating their ability much higher than average.  Described by social psychologists David Dunning and Justin Kruger.&lt;/p&gt;
-&lt;h3 id=&quot;eaglesons-law&quot;&gt;Eagleson’s Law&lt;/h3&gt;
-&lt;p&gt;Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.&lt;/p&gt;
-&lt;h3 id=&quot;finagles-law&quot;&gt;Finagle’s Law&lt;/h3&gt;
-&lt;p&gt;Anything that can go wrong will and at the worst possible moment.&lt;/p&gt;
-&lt;h3 id=&quot;fitts-law&quot;&gt;Fitt’s Law&lt;/h3&gt;
-&lt;p&gt;A design law that states the longer the distance to move a cursor and smaller the target size, the longer it takes. It was originally described by Paul Morris Fitts in a 1954 paper.&lt;/p&gt;
-&lt;h3 id=&quot;galls-law&quot;&gt;Gall’s Law&lt;/h3&gt;
-&lt;p&gt;A complex system that works is invariably found to have evolved from a simple system that worked.&lt;/p&gt;
-&lt;h3 id=&quot;gilders-law&quot;&gt;Gilder’s Law&lt;/h3&gt;
-&lt;p&gt;Bandwidth grows at least three times faster than computer power. &lt;a href=&quot;https://www.netlingo.com/word/gilders-law.php&quot;&gt;Attributed to author George Gilder&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;godwins-law&quot;&gt;Godwin’s Law&lt;/h3&gt;
-&lt;p&gt;An adage that asserts that the longer an online discussion goes on, the probability of a comparison involving Nazis or Hitler approaches 1. &lt;a href=&quot;http://en.wikipedia.org/wiki/Godwin%27s_law&quot;&gt;Promulgated by the American attorney and author Mike Godwin&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;goodharts-law&quot;&gt;Goodhart’s Law&lt;/h3&gt;
-&lt;p&gt;Turning a metric into a target makes it a bad metric. &lt;a href=&quot;https://en.wikipedia.org/wiki/Goodhart%27s_law&quot;&gt;Attributed to economist Charles Goodhart&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;hanlons-razor&quot;&gt;Hanlon’s Razor&lt;/h3&gt;
-&lt;p&gt;Never attribute to malice that which is adequately explained by stupidity. Coined by Robert J. Hanlon. See also &lt;a href=&quot;#occams-razor&quot;&gt;Occam’s Razor&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;hofstadters-law&quot;&gt;Hofstadter’s Law&lt;/h3&gt;
-&lt;p&gt;It always takes longer than you expect, even when you take into account Hofstadter’s Law.&lt;/p&gt;
-&lt;h3 id=&quot;huangs-law&quot;&gt;Huang’s Law&lt;/h3&gt;
-&lt;p&gt;Huang’s Law is named for Nvidia’s chief executive and co-founder Jensen Huang. It was coined by Chrisopher Mims. It says the performance of GPU chips (which excel at parallel processing) will double every year. This is compared to &lt;a href=&quot;#moores-law&quot;&gt;Moore’s Law&lt;/a&gt;, which described performance of a single-threaded CPU.&lt;/p&gt;
-&lt;h3 id=&quot;hyrums-law&quot;&gt;Hyrum’s Law&lt;/h3&gt;
-&lt;p&gt;With a sufficient number of users of an API, it does not matter what you promised in the contract. All observable behaviors of your interface will be depended upon by somebody. Attributed to Hyrum Wright, a Google software engineer. See also the &lt;a href=&quot;#law-of-leaky-abstractions&quot;&gt;Law of Leaky Abstractions&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;jevons-paradox&quot;&gt;Jevons Paradox&lt;/h3&gt;
-&lt;p&gt;An economic phenomenon that says when technological process increases the efficiency with which something is used, the rate of consumption exceeds previous consumption due to increasing demand. Named for English economist William Stanley Jevons.&lt;/p&gt;
-&lt;h3 id=&quot;kernighans-law&quot;&gt;Kernighan’s Law&lt;/h3&gt;
-&lt;p&gt;Debugging is twice as hard as writing code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. &lt;a href=&quot;https://www.makeuseof.com/tag/weird-programming-principles/&quot;&gt;Attributed to author and C Programmer Brian Kernighan&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;kiss-principle&quot;&gt;KISS Principle&lt;/h3&gt;
-&lt;p&gt;‘KISS’ is an acronym that stands for “Keep It Simple, Stupid”. Associated with aircraft engineer Kelly Johnson and noted by the U.S. Navy in 1960. See &lt;a href=&quot;#occams-razor&quot;&gt;Occam’s razor&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;law-of-leaky-abstractions&quot;&gt;Law of Leaky Abstractions&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/&quot;&gt;Coined by software developer Joel Spolsky&lt;/a&gt;, the Law of Leaky Abstractions states that all non-trivial abstractions are, to some degree, leaky. See also &lt;a href=&quot;#hyrums-law&quot;&gt;Hyrum’s Law&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;law-of-the-second-floor&quot;&gt;Law of the Second Floor&lt;/h3&gt;
-&lt;p&gt;Built upon &lt;a href=&quot;#dunbars-number&quot;&gt;Dunbar’s Number&lt;/a&gt;, the law of the 2nd-floor states that no person two levels above or below you on an org chart really understands what you do for a living.&lt;/p&gt;
-&lt;h3 id=&quot;least-power-rule-of&quot;&gt;Least Power (Rule of)&lt;/h3&gt;
-&lt;p&gt;A design principle that suggests &lt;a href=&quot;https://en.wikipedia.org/wiki/Rule_of_least_power&quot;&gt;choosing the least powerful [computer] language suitable for a given purpose&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;lindbloms-razor&quot;&gt;Lindblom’s Razor&lt;/h3&gt;
-&lt;p&gt;Never attribute to incompetence that which can be adequately explained by systemic issues. See also &lt;a href=&quot;#hanlons-razor&quot;&gt;Hanlon’s Razor&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;linuss-law&quot;&gt;Linus’s Law&lt;/h3&gt;
-&lt;p&gt;Given enough eyeballs, all bugs are shallow. Formulated by Eric S. Raymond in his essay and book &lt;em&gt;The Cathedral and the Bazaar&lt;/em&gt; in honor of Linus Torvalds.&lt;/p&gt;
-&lt;h3 id=&quot;listers-law&quot;&gt;Lister’s Law&lt;/h3&gt;
-&lt;p&gt;People under time pressure don’t think faster. Attributed to Timothy Lister.&lt;/p&gt;
-&lt;h3 id=&quot;metcalfes-law&quot;&gt;Metcalfe’s Law&lt;/h3&gt;
-&lt;p&gt;Originally attributed to Robert Metcalfe, Metcalfe’s Law states the effect of a network is proportional to the square of the number of connected users in the systems. While coined to describe the value in connecting compatibile communication devices in the era of the Ethernet, it has carried over and applied to describe users within a social media system.&lt;/p&gt;
-&lt;h3 id=&quot;moores-law&quot;&gt;Moore’s Law&lt;/h3&gt;
-&lt;p&gt;The observation that the number of transistors in an integrated circuit, or CPU, doubles approximately every two years. Attributed to Gordon Moore, the co-founder of Fairchild Semiconductor and CEO and co-founder of Intel. See also &lt;a href=&quot;#huangs-law&quot;&gt;Huang’s Law&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;murphys-law&quot;&gt;Murphy’s Law&lt;/h3&gt;
-&lt;p&gt;Anything that can go wrong will go wrong. Named for Edward Murphy.&lt;/p&gt;
-&lt;h3 id=&quot;ninety-ninety-rule&quot;&gt;Ninety-Ninety Rule&lt;/h3&gt;
-&lt;p&gt;The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development. Yes, that is supposed to add up to 180%. The rule is attributed to Tom Cargill of Bell Labs and popularized by Jon Bentley.&lt;/p&gt;
-&lt;h3 id=&quot;nivens-third-law&quot;&gt;Niven’s Third Law&lt;/h3&gt;
-&lt;p&gt;It is easier to destroy than to create. Part of a series of laws named for science fiction author Larry Niven.&lt;/p&gt;
-&lt;h3 id=&quot;occams-razor&quot;&gt;Occam’s Razor&lt;/h3&gt;
-&lt;p&gt;A problem-solving principle that is paraphrased as “the simplest explanation is most likely the right one”. Attributed to English Franciscan friar William of Ockham.&lt;/p&gt;
-&lt;h3 id=&quot;parkinsons-law-of-triviality&quot;&gt;Parkinson’s Law of Triviality&lt;/h3&gt;
-&lt;p&gt;At any board meeting the amount of time devoted to an item on the agenda will be the inverse proportion to the issue’s difficulty. Said another way, “The time spent on any item of the agenda will be inverse proportion to the sum [of money] involved.” Named for C. Northcote Parkinson. &lt;a href=&quot;#bike-shedding&quot;&gt;See also Bike Shedding&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;peter-principle&quot;&gt;Peter Principle&lt;/h3&gt;
-&lt;p&gt;Employees tend to rise to their level of incompetence. A management concept developed by Laurence J. Peter.&lt;/p&gt;
-&lt;h3 id=&quot;postels-law&quot;&gt;Postel’s Law&lt;/h3&gt;
-&lt;p&gt;Named after Jon Postel from his work on TCP/IP, the Postel law says computer protocols should be strict in what is sent and forgiving in what they accept from others. &lt;em&gt;Also known as the Robustness Principle&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;principle-of-good-enough&quot;&gt;Principle of Good Enough&lt;/h3&gt;
-&lt;p&gt;Also known as the “good enough” principle. A rule in software and systems design that says consumers will use products that are good enough for their requirements, despite the availability of more advanced technology.&lt;/p&gt;
-&lt;h3 id=&quot;rule-34&quot;&gt;Rule 34&lt;/h3&gt;
-&lt;p&gt;Rule 34 is an internet meme which states, “If it exists, there is porn of it. No exceptions.” Thought to have originated from a comic drawn by Peter Morley-Souter.&lt;/p&gt;
-&lt;h3 id=&quot;singhs-inevitable-avoidance&quot;&gt;Singh’s Inevitable Avoidance&lt;/h3&gt;
-&lt;p&gt;When organizations don’t know how to solve their problems, they will tweak their process to accommodate their dysfunctions. &lt;a href=&quot;https://agileotter.blogspot.com/2015/10/principles-for-large-organizations.html&quot;&gt;Spotted by Tim Ottinger&lt;/a&gt; and attributed to Asshok Singh.&lt;/p&gt;
-&lt;h3 id=&quot;socratic-paradox&quot;&gt;Socratic Paradox&lt;/h3&gt;
-&lt;p&gt;A saying, attributed to Greek philosopher Socrates, stating, “I know that I know nothing”. &lt;a href=&quot;http://en.wikipedia.org/wiki/I_know_that_I_know_nothing&quot;&gt;It is derived from Plato’s account but not one that Socrates ever recorded as saying.&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;sturgeons-law&quot;&gt;Sturgeon’s Law&lt;/h3&gt;
-&lt;p&gt;Ninety percent of anything is crap. Coined by Theodore Sturgeon, an American science fiction author and critic.&lt;/p&gt;
-&lt;h3 id=&quot;sunnyvale-principle&quot;&gt;Sunnyvale Principle&lt;/h3&gt;
-&lt;p&gt;There’s never time to do it right, but always time to do it over. Attributed to Jack Bergman.&lt;/p&gt;
-&lt;h3 id=&quot;teslers-law&quot;&gt;Tesler’s Law&lt;/h3&gt;
-&lt;p&gt;Every app has an inherent amount of irreducible complexity. The challenge is how to deal with it. On the surface, spending a development week to save a minute on a common task may seem unjustifiable. &lt;a href=&quot;http://www.programmersparadox.com/2008/08/17/teslers-law/&quot;&gt;However, if there are a million users, the consumer is penalized for making the engineer’s job easier&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;wirths-law&quot;&gt;Wirth’s Law&lt;/h3&gt;
-&lt;p&gt;Software is getting slower more rapidly than hardware becomes faster. Named after Niklaus Wirth who discussed it in his 1995 article, “A Plea for Lean Software”.&lt;/p&gt;
-&lt;h3 id=&quot;yak-shaving&quot;&gt;Yak Shaving&lt;/h3&gt;
-&lt;p&gt;Refers to a task that leads you to perform another related task and so on, with each subsequent task leading one further from their original goal. This continues until, eventually, you find yourself shaving a yak. Coined by Carlin Vieri after viewing an episode of &lt;em&gt;The Ren and Stimpy Show&lt;/em&gt; featuring “Yak Shaving Day”.&lt;/p&gt;
-&lt;h3 id=&quot;zawinskis-law&quot;&gt;Zawinski’s Law&lt;/h3&gt;
-&lt;p&gt;Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can. Named for American computer programmer Jamie Zawinski.&lt;/p&gt;
-&lt;h3 id=&quot;zenos-paradox&quot;&gt;Zeno’s Paradox&lt;/h3&gt;
-&lt;p&gt;The belief in change actually occurring is a mistake, and that any motion forward is nothing but an illusion. Thought to be devised by Greek philosopher Zeno of Elea.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 -0400</pubDate>
-        <link>https://matthewreinbold.com/2020/08/03/Technology-Aphorisms/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/08/03/Technology-Aphorisms/</guid>
-        
-        <category>Jade Bloom</category>
-        
-        <category>W. Ross Ashby</category>
-        
-        <category>Alex Balk</category>
-        
-        <category>Ian Betteridge</category>
-        
-        <category>Fred Brooks</category>
-        
-        <category>Rory Cellan-Jones</category>
-        
-        <category>Arthur C. Clarke</category>
-        
-        <category>Conway's Law</category>
-        
-        <category>Melvin Conway</category>
-        
-        <category>Ward Cunningham</category>
-        
-        <category>Robin Dunbar</category>
-        
-        <category>David Dunning</category>
-        
-        <category>Justin Kruger</category>
-        
-        <category>George Gilder</category>
-        
-        <category>Mike Godwin</category>
-        
-        <category>Charles Goodhart</category>
-        
-        <category>Charles Goodhart</category>
-        
-        <category>Hyrum Wright</category>
-        
-        <category>William Stanley Jevons</category>
-        
-        <category>Brian Kernighan</category>
-        
-        <category>Kelly Johnson</category>
-        
-        <category>Linus Torvalds</category>
-        
-        <category>Eric S. Raymond</category>
-        
-        <category>Timothy Lister</category>
-        
-        <category>Gordon Moore</category>
-        
-        <category>Tom Cargill</category>
-        
-        <category>Jon Bentley</category>
-        
-        <category>Larry Niven</category>
-        
-        <category>William of Ockham</category>
-        
-        <category>C. Northcote Parkinson</category>
-        
-        <category>Laurence J. Peter</category>
-        
-        <category>Peter Morley-Souter</category>
-        
-        <category>Tim Ottinger</category>
-        
-        <category>Socrates</category>
-        
-        <category>Theodore Sturgeon</category>
-        
-        <category>Jack Bergman</category>
-        
-        <category>Niklaus Wirth</category>
-        
-        <category>Carlin Vieri</category>
-        
-        <category>The Ren and Stimpy Show</category>
-        
-        <category>Bike Shedding</category>
-        
-        <category>Yak Shaving</category>
-        
-        <category>Jamie Zawinski</category>
-        
-        <category>Alberto Brandolini</category>
-        
-        <category>Joel Spolsky</category>
-        
-        <category>Robert Metcalfe</category>
-        
-        <category>Demeter</category>
-        
-        <category>Ian Holland</category>
         
         
       </item>
