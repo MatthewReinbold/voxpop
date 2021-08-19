@@ -6,9 +6,68 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Aug 2021 12:17:34 -0500</pubDate>
-    <lastBuildDate>Wed, 18 Aug 2021 12:17:34 -0500</lastBuildDate>
+    <pubDate>Thu, 19 Aug 2021 14:57:01 -0500</pubDate>
+    <lastBuildDate>Thu, 19 Aug 2021 14:57:01 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Three Systems Theory Approaches to API Governance</title>
+        <description>&lt;p&gt;When there is more than one team in an organization, things need to be coordinated. This is especially true when it comes to organizations seeking consistent API design despite have those designs having different authors. Developers, designers, architects, and product managers &lt;em&gt;intuit&lt;/em&gt; that consistent design helps them achieve greater speed and scale. Further, a common approach makes integration more intuitive and can reduce ongoing support costs. But getting teams aligned is a whole separate, more significant challenge when compared to just creating the API.&lt;/p&gt;
+
+&lt;p&gt;The social scientist couple, Fred and Merrelyn Emery, identified two basic patterns for coordinating activities across multiple teams. They named them “&lt;em&gt;first design principle&lt;/em&gt;” and “&lt;em&gt;second design principle&lt;/em&gt;”, or &lt;em&gt;DP1&lt;/em&gt; and &lt;em&gt;DP2&lt;/em&gt;, respectively. Later, they added the concept of the &lt;em&gt;laissez-faire&lt;/em&gt; organization.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/dp1-and-dp2.png&quot; alt=&quot;The Emery's depecition of DP1 and DP2 organizations.&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;The Emerys' depecition of DP1 and DP2 organizations.&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;laissez-fair-governance&quot;&gt;Laissez-fair Governance&lt;/h2&gt;
+&lt;p&gt;Laissez-faire is defined as the absence of design principles. Nearly all API ecosystems start as laissez-faire. API design is not a coordinated activity in the beginning but rather a technical means-to-an-end. Laissez-faire is understandable, even desirable at this point in an organization’s journey. An organization’s culture and context define a significant amount of the unique pain points that emerge from inconsistent approaches; these can be difficult to predict. Further, if the API ecosystem does not require further scaling or evolution beyond fragmented, random one-off efforts, a laissez-faire approach to consistency may be appropriate.&lt;/p&gt;
+
+&lt;h2 id=&quot;dp1-governance&quot;&gt;DP1 Governance&lt;/h2&gt;
+&lt;p&gt;However, given the necessity of APIs to value delivery in digital transformation efforts, &lt;em&gt;most&lt;/em&gt; businesses &lt;strong&gt;can’t stop with just laissez-faire design approaches&lt;/strong&gt;. In these cases, leadership will establish a DP1 organizational structure; they’ll introduce a manager or supervisor whose explicit job is to coordinate parts to achieve an outcome. In API design, the role of this “API reviewer” or “Center of Excellence” group is to achieve greater consistency for the interfaces produced.&lt;/p&gt;
+
+&lt;p&gt;On the one hand, responsibility for achieving a quality outcome is straightforward. A single, highly-trained individual (or group) could apply to an entire domain. Ownership of the improvement activities is clear; activities like problem assessment, activity creation, oversite, progress reporting, and feedback gathering.&lt;/p&gt;
+
+&lt;p&gt;On the other, DP1 implementations of governance also have notable downsides. For one thing, it can be difficult for any person from a single discipline (architecture, engineering, etc.) to also excel in the  myriad of additional skills this type of oversite requires. These skills include diplomacy, consensus-building, project management, and influencing with minimal formal authority, in addition to having a rich and deep understanding of API nuance. Career progression for these diamonds-in-the-rough people is also unclear.&lt;/p&gt;
+
+&lt;p&gt;For development teams, especially for those used to a laissez-faire design approach, the introduction of this new supervisor or group can be met with hesitation, even suspicion. They may feel a loss of autonomy or lowered morale over what they perceive as a condemnation of their past work. When the relationship is strained and feedback loops poor, the introduction of this design leadership comes across as “ivory tower architecture”.&lt;/p&gt;
+
+&lt;p&gt;It is these DP1 organizational environments that spring to mind when we hear the word “governance”: bureaucratic, dictatorial, and process-heavy hierarchies. These &lt;em&gt;worst-case&lt;/em&gt; scenarios cause individuals to feel robbed of agency without the opportunity of recourse. Not everything is worse-case, of course. The most common case is ineffectual, flaccid governance: governance that is tolerated during the production of a token wins. However, the overall API program/platform cannot deliver on the grand transformation promised at the onset.&lt;/p&gt;
+
+&lt;h2 id=&quot;dp2-governance&quot;&gt;DP2 Governance&lt;/h2&gt;
+&lt;p&gt;In a DP2 approach, regulation of design standards (and subsequent quality outcomes) is built into the teams themselves. Individuals are expected to manage the coordination across their boundaries. For example, when designing an error object, Ramesh would consult with his peer on another team, Tara. Tara would have experience creating something similar from her work with Maria and Jose who, likewise, are assigned to other teams. And so on and so forth.&lt;/p&gt;
+
+&lt;p&gt;Those familiar with Brooks’ Law might notice their Spider-sense tingling. Putting the onus to “carry water” on individuals creates significant communication overhead, particularly as the number of people required to coordinate increases.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/brooks-law.jpg&quot; alt=&quot;A picture depicting the increasing lines of communication described by Brooks' Law.&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;A picture depicting the increasing lines of communication described by Brooks' Law.&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Training is one approach to lessen the amount of communication required.   “If everyone just &lt;em&gt;knows&lt;/em&gt; what to do,” the thinking goes, “they’ll have more time to just do it”. With ongoing effort, this approach can work. However, “upskilling” every individual across all the organization’s development teams is also not trivial. A business pursuing this course of action is also likely to appoint someone or some group to oversee this upskilling, which puts us back into the DP1 design camp. The “&lt;a href=&quot;https://rayli.net/posts/information-action-fallacy/&quot;&gt;information action fallacy&lt;/a&gt;” also looms large.&lt;/p&gt;
+
+&lt;p&gt;Changing the environment to make desired outcomes more likely is also an approach. I’ll talk more about this in a future post.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
+&lt;p&gt;As the number and complexity of API ecosystems increase, we also need to increase the sophistication of our scaling approaches. Thankfully, a tremendous body of sociotechnical and systems theory over the decades addresses exactly that. As stewards of those ecosystems, our challenge is to step outside of our previous professional callings and engage with this new (to us) wisdom. The sooner we can do that, the sooner we can deliver on the promise of distributed systems.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Aug 2021 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</guid>
+        
+        <category>Fred Emery</category>
+        
+        <category>Merrelyn Emery</category>
+        
+        <category>API Governance</category>
+        
+        <category>management</category>
+        
+        <category>organizations</category>
+        
+        <category>Brooks' Law</category>
+        
+        
+      </item>
     
       <item>
         <title>One Way to Improve API Guidance</title>
@@ -797,93 +856,6 @@ s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt
         <category>Virginia Eubanks</category>
         
         <category>Eran Kinsbruner</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Our Shared Road</title>
-        <description>&lt;p&gt;From an individual API producer’s perspective, adherence to an enterprise company’s design style guide may seem puzzling. “Why do we have to learn these naming conventions?” they’ll ask. Other questions include, “What difference does our style of versioning make?” or “Why can’t we use the authentication scheme that worked at my previous company?”&lt;/p&gt;
-
-&lt;p&gt;At the end of 2019, I did a series of “Back to Basics” roadshows for my day job. According to various surveys, &lt;a href=&quot;https://hackerlife.co/blog/san-francisco-large-corporation-employee-tenure&quot;&gt;the average developer tenure at any company is between one and two years&lt;/a&gt;. My goal, through the roadshows, was to re-establish the principles that have guided our five-year-old program. I’ve used urban planning stories before, whether that is &lt;a href=&quot;https://matthewreinbold.com/2015/05/12/APIsandGovernance/&quot;&gt;Brazillian Favelas&lt;/a&gt; or &lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2020-01-24-mailbag-issue-119&quot;&gt;Paris’s tree-lined boulevards&lt;/a&gt;. To justify the need for enterprise standards for a degree of design consistency, I used a traffic regulation analogy.&lt;/p&gt;
-
-&lt;p&gt;I was reminded of it because of the most recent Postlight podcast, “&lt;a href=&quot;https://postlight.com/podcast/restricting-freedom-for-more-freedom-on-the-parallels-between-wearing-a-mask-and-regulating-tech&quot;&gt;Restricting Freedom for More Freedom: On The Parallels Between Wearing a Mask and Regulating Tech&lt;/a&gt;”. In that show, hosts Paul Ford and Rich Ziade discuss people treating mask requirements during Covid-19 as a violation of constitutional rights (spoiler: &lt;em&gt;they’re not&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;Sometimes inconveniencing the individual is the best for the larger group. That goes for whether we’re talking about masks, software governance, or traffic. Below a snippet of my argument from that “Back to Basics” deck.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2020/08/road.png&quot; /&gt;&lt;figcaption&gt;The Road Forward&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;modern-software-architecture-is-complex&quot;&gt;Modern software architecture is complex&lt;/h2&gt;
-
-&lt;p&gt;John Ousterhout, in his book “A Philosophy of Software Design”, defines complexity as:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“-anything related to the structure of a software system that makes it hard to understand and modify the system.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In other words, a barrier to the kind of business agility that we crave, that is needed to win in competitive marketplaces, is how hard our architectures are to grok.&lt;/p&gt;
-
-&lt;h2 id=&quot;message-passing-hides-complexity-behind-an-interface&quot;&gt;Message Passing Hides Complexity Behind an Interface&lt;/h2&gt;
-
-&lt;p&gt;Message passing is a means of abstracting complexity and hiding behind an interface.&lt;/p&gt;
-
-&lt;p&gt;That abstraction allows programmers to work on a system without being exposed to all a system’s complexity at once. An API is a simplified view that omits unimportant details (or at least those details unimportant to the API’s consumer). It makes it easier for us to think about and get stuff done in complex environments.&lt;/p&gt;
-
-&lt;h2 id=&quot;going-faster-and-high-quality-are-not-diametrically-opposed&quot;&gt;“Going Faster” and “High Quality” Are Not Diametrically Opposed&lt;/h2&gt;
-
-&lt;p&gt;“Going faster” is &lt;strong&gt;not&lt;/strong&gt; a matter of getting rid of the rules. Martin Fowler,  elegantly states to the contrary, that this is a false trade-off. In his piece, “&lt;a href=&quot;https://martinfowler.com/articles/is-quality-worth-cost.html&quot;&gt;Is High Quality Software Worth the Cost?&lt;/a&gt;” he outlines how quality efforts, over time, translate to great speed for the entire system over any individual’s speed.&lt;/p&gt;
-
-&lt;h2 id=&quot;quality-design-is-a-financial-imperative&quot;&gt;Quality Design is a Financial Imperative&lt;/h2&gt;
-
-&lt;p&gt;Low-quality design, while quick to make, incurs a lifetime tax. Maintenance is harder, requires additional overhead, and compares less favorably in the marketplace. Quality is not a moral argument, something that makes our inner artisan feel good. Quality design is a financial imperative to increase our software return on investment.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The Key to Writing Less code and causing less rework is to write better abstractions” - Eric Elliot, &lt;em&gt;distributed systems expert and author&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;we-need-continual-renewal-and-reflection-on-what-quality-means-for-us&quot;&gt;We Need Continual Renewal and Reflection on What Quality Means for Us&lt;/h2&gt;
-
-&lt;p&gt;That is why it is essential that each of us, whether we are product managers, architects, or engineering leads, continually renew our understanding and application of basic core principles.&lt;/p&gt;
-
-&lt;p&gt;A garden is not something that you plant in the spring and wander away from. The ability to reap what was sown requires constant attention and care. We have to rededicate ourselves to executing on the fundamental, basic things before overcoming complexity is possible.&lt;/p&gt;
-
-&lt;h2 id=&quot;our-road-is-shared&quot;&gt;Our Road is Shared&lt;/h2&gt;
-
-&lt;p&gt;And the most basic thing, the first principle - the one to remember if you remember nothing else - is that we’re in this together.&lt;/p&gt;
-
-&lt;p&gt;When there is only one car on the road, then the fastest way to get from point A to B is to ignore all speed limits, go whichever way they want on one-way roads, and view all traffic signage as optional. From their perspective, an individual team will wail and gnash their teeth at how much faster they could get to production if they were only allowed to do whatever they want. Imagine the freedom(!!!)… for them.&lt;/p&gt;
-
-&lt;p&gt;However, there is not a single team. There are hundreds on their journeys, crisscrossing each other and going to and fro. Things like speed limits, lane markings, stop signs, and traffic signals are all there to move the most people to the greatest number of places, safely. We exist within a system. The road we travel is shared between us. If we are going to arrive, it will be through minor, in-the-moment, inconveniences made for the larger, more-long-lasting, good of all.&lt;/p&gt;
-
-&lt;p&gt;~fin~&lt;/p&gt;
-</description>
-        <pubDate>Wed, 05 Aug 2020 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2020/08/05/OurRoadIsShared/</guid>
-        
-        <category>covid-19</category>
-        
-        <category>favelas</category>
-        
-        <category>Paris</category>
-        
-        <category>Brazil</category>
-        
-        <category>Paul Ford</category>
-        
-        <category>Rich Ziade</category>
-        
-        <category>API governance</category>
-        
-        <category>presos</category>
-        
-        <category>postlight</category>
-        
-        <category>Martin Fowler</category>
-        
-        <category>Eric Elliot</category>
-        
-        <category>John Ousterhout</category>
         
         
       </item>
