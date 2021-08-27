@@ -6,9 +6,76 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Aug 2021 14:57:01 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Aug 2021 14:57:01 -0500</lastBuildDate>
+    <pubDate>Fri, 27 Aug 2021 08:50:07 -0500</pubDate>
+    <lastBuildDate>Fri, 27 Aug 2021 08:50:07 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>'Power-Over' Strategies And How Reporting Can Backfire</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/fish.png&quot; alt=&quot;A picture of gold and white fishes swimming in water.&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+Photo of gold and white fishes &lt;a href=&quot;https://unsplash.com/@sigmund&quot;&gt;Sigmund&lt;/a&gt; on Unsplash.
+&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;A problematic aspect of being a change agent is the lack of proven, frequently discussed techniques for making change happen. For example, in the API space there’s no end to people putting forth “best practices”. But getting teams to agree which practices are best, let alone adopt them? That advice is much harder to come by.&lt;/p&gt;
+
+&lt;p&gt;Several years ago, &lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;I briefly touched on some approaches I was trying as head of an API Center of Excellence&lt;/a&gt;. In that role, one of my responsibilities was to improve API quality and practice throughout the organization. However, like so many change agents, I didn’t have formal authority over the people who needed to change their practices. With hindsight, I want to share my experience with one influence approach, intriguingly called &lt;em&gt;Kingpins and the Fishbowl&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I read about kingpins and fishbowls in the book &lt;a href=&quot;https://www.amazon.com/Blue-Ocean-Strategy-Uncontested-Competition/dp/1591396190&quot;&gt;Blue Ocean Strategy&lt;/a&gt;. The book is mostly about finding new markets (the “blue ocean”) for product dominance. However, the latter third included practical advice for getting people engaged in something new; something that any change maker deals with.&lt;/p&gt;
+
+&lt;p&gt;The first part of the strategy is to identify the key individuals, or “kingpins”. These people are not just impacted by the change you’re proposing but have the authority to act on it. &lt;a href=&quot;https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/&quot;&gt;In a D1 organization&lt;/a&gt;, these could be, but are not limited to, executives with hierarchal power. The high-flyer with the ear of leader (but without formal authority) is also a candidate.&lt;/p&gt;
+
+&lt;p&gt;With the kingpins identified, the next step is creating the fishbowl. The fishbowl is a means by which the kingpins’ performance (or those they are responsible for) is easily compared and contrasted. This review may manifest as an internal dashboard or regular report to executives. Colloquially, people might also know this approach as “naming and shaming”. &lt;a href=&quot;https://apimetrics.io/category/monthly-report/&quot;&gt;APIMetrics does this publicly&lt;/a&gt;. &lt;a href=&quot;https://apimetrics.io/api-outages/&quot;&gt;A lot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The kingpins and fishbowls technique &lt;em&gt;sounds&lt;/em&gt; plausible: identify those that have authority to make the designed change, put them in a dashboard showing how deficient they are compared to their peers, watch those trend lines change for the positive! As &lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;I said in my introduction of the topic&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In my experience, executives didn’t get to where they are without being a tad competitive. Publishing results and easing comparative analysis creates a natural driver for action; each of the leaders want to be number one among their peers.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The approach is not without merit. I did see some success in limited areas. However, looking back, any success was vastly dwarfed by the antagonistic relationships that such reporting. To understand why it is crucial to discuss Mary Parker Follet’s concepts of &lt;em&gt;power-over&lt;/em&gt; and &lt;em&gt;power-with&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mary Parker Follet was a contemporary of Frederick Taylor, the “father” of management theory. But while Taylor believed “the boss knows best”,  Mary’s ideas on power and authority were very different. She defined &lt;strong&gt;power-over&lt;/strong&gt; as a situation where one person has power over
+another person. This manifests as dominance and coercion. One side vies for power over another, at best trying to influence the other to concede its
+position.&lt;/p&gt;
+
+&lt;p&gt;A kingpin may not oppose the idea of API design improvement. However, design may differ in their priority compared to someone, like the Center of Excellence head, whose sole job is design improvement. Kingpins have no shortage of things vying for their time and energy. Those people create systems for triaging what is worth entertaining &lt;em&gt;and what threatens those limited resources&lt;/em&gt; to remain successful.&lt;/p&gt;
+
+&lt;p&gt;A metric originating from outside their preview, attempting to coerce their priorities list and consume oxygen will not be enthusiastically embraced. While they may not frame it in terms of a “power-over” play, they will resent the attempt all the same and treat the effort with suspicion, if not as a threat. Having sat in those conversations, I can confirm that there are better ways of spending one’s time.&lt;/p&gt;
+
+&lt;p&gt;Put in a similar position today, I would instead attempt what Follet referred to as &lt;em&gt;power-with&lt;/em&gt;. Power-with is collaborative, establishing common ground from which both sides identify and discuss important desires. She called these discussions &lt;em&gt;integration&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://thepowerofcollectivewisdom.com/pdfs/power-over.pdf&quot;&gt;From the power of collective wisdom website discussing Follet&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“She [Follet] understood that true leaders do not command obedience through force or manipulation but rather by giving expression to external realities and the interior aspirations of others.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I talked about the priority mismatch. &lt;em&gt;What I should have done&lt;/em&gt; is better understood the constraints and challenges these leaders faced. Rather than assuming that design quality improvement job #1, I should learn what their actual stack ranking, and then integrated how better design could deliver on that. I should have had regular, ongoing conversations, independent of whatever reporting cadence existed, to co-evolve the agendas and make us partners in each others’ success. The metrics needed to be in service of our ends, not their activities being a means to achieving mine.&lt;/p&gt;
+
+&lt;p&gt;The Kingpin in the Fishbowl technique may seem like change is only a dashboard away. However, based on my experience, it is an example of &lt;em&gt;power-over&lt;/em&gt; rather than &lt;em&gt;power-with&lt;/em&gt;. Before attempting to coerce an influential leader’s priorities, carefully consider how that message may antagonize rather than compliment. If possible, pursue a &lt;em&gt;power-with&lt;/em&gt; strategy instead.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Aug 2021 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</guid>
+        
+        <category>API governance</category>
+        
+        <category>organizations</category>
+        
+        <category>Blue Ocean Strategy</category>
+        
+        <category>metrics</category>
+        
+        <category>Mary Parker Follet</category>
+        
+        <category>Frederick Taylor</category>
+        
+        <category>dashboards</category>
+        
+        
+      </item>
     
       <item>
         <title>Three Systems Theory Approaches to API Governance</title>
@@ -543,319 +610,6 @@ description: the Id of the user
         <category>Disney+</category>
         
         <category>scifi</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Why AI Success is API Built</title>
-        <description>&lt;p&gt;Last year, I gave two public presentations. I posted ‘&lt;a href=&quot;https://matthewreinbold.com/2020/07/09/APIsAreArrangementsOfPower/&quot;&gt;APIs are Arrangements of Power&lt;/a&gt;’ previously. The clean-up on the second, delievered when in-person gatherings still happened, languished due to (&lt;em&gt;gestures wildly at the surrounding air&lt;/em&gt;) things. During the holidays, however, I made an effort to finalize and pull everything together.&lt;/p&gt;
-
-&lt;p&gt;A recording of an abridged version of the talk is embedded at the bottom. A portion of the talk even made it into the book, &lt;em&gt;Accelerating Software Quality&lt;/em&gt;, by Eran Kinsbruner.&lt;/p&gt;
-
-&lt;p&gt;Without further ado, here is ‘Why AI Success is API Built’.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide1.PNG&quot; /&gt;&lt;figcaption&gt;Welcome!&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hello everyone!&lt;/strong&gt; My name is Matthew Reinbold, and tonight, I will be talking about &lt;em&gt;Why AI Success is Built on APIs&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide2.PNG&quot; /&gt;&lt;figcaption&gt;Agenda&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;We’re briefly going to go over:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Why AI is such a big deal &lt;em&gt;right now&lt;/em&gt; just to level set&lt;/li&gt;
-  &lt;li&gt;Talk about the challenges of creating AI models&lt;/li&gt;
-  &lt;li&gt;Why some of those challenges lead to APIs to deliver AI functionality&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide3.PNG&quot; /&gt;&lt;figcaption&gt;Why is Matthew giving this talk?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m passionate about these issues because they impact my work. I am the Director of the Capital One API and Event Streaming Center of Excellence. It is a unique position that requires me to be part enterprise architect, part business analyst, and part internal developer evangelist.&lt;/p&gt;
-
-&lt;p&gt;My team and I work with our 9000+ developer community to ensure that the message-passing systems built exhibit consistency and cohesion. We provide training, collaborate on API descriptions, evolve oversight processes, and facilitate co-creation on our design standards.&lt;/p&gt;
-
-&lt;p&gt;I also do a fair amount in the broader API community. I write a newsletter called &lt;a href=&quot;http://netapinotes.com/&quot;&gt;Net API Notes&lt;/a&gt;. I curate &lt;a href=&quot;https://webapi.events/&quot;&gt;Net API Events&lt;/a&gt;, a list of in-person events for API professionals worldwide. I also &lt;a href=&quot;https://twitter.com/libel_vox&quot;&gt;tweet a fair amount, mostly about APIs but sometimes, occasionally, Lego&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I also make some legally dubious laptop sticker parodies &lt;a href=&quot;https://www.patreon.com/matthewreinbold&quot;&gt;for my Patreons&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide4.PNG&quot; /&gt;&lt;figcaption&gt;Getting on the Same AI Page&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;It is important that I first establish what I’m talking about when I talk about when I say ‘AI’.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide5.PNG&quot; /&gt;&lt;figcaption&gt;Clarifying AI&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;AI has generated almost as much excitement as clickbait headlines. You would be forgiven to think that we’re all one errant compile away from Skynet. I mean, even the Pope is talking with Microsoft. When something crosses over into popular awareness, it is significant; even if that awareness is imperfect.&lt;/p&gt;
-
-&lt;p&gt;Before going further, we should be on the same page. AI is a broad brush that paints many things. Usually, when you see these alarmist articles about Skynet and Terminator death robots, the authors are postulating about “&lt;strong&gt;Artificial General Intelligence&lt;/strong&gt;”. This is software that can “think” in a manner we associate with people.&lt;/p&gt;
-
-&lt;p&gt;We are still quite far from that future. What I will be talking about tonight is much more narrowly focused. So narrow, in fact, that practitioners refer to it as “&lt;strong&gt;narrow AI&lt;/strong&gt;”. Even more specifically, I will discuss a popular technique, often conflated as AI, called “&lt;strong&gt;machine learning&lt;/strong&gt;”.&lt;/p&gt;
-
-&lt;p&gt;Machine learning has real, tangible benefits for companies. It also solves interesting challenges. As an additional plus, it &lt;em&gt;probably&lt;/em&gt; won’t end human life as we know it.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide6.PNG&quot; /&gt;&lt;figcaption&gt;Machine Learning is Growing at a Tremendous Rate&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;If you were trying to follow every single new paper released in the machine learning space, you’d now be trying to absorb 100 machine learning papers &lt;em&gt;every single day&lt;/em&gt;. While the concepts behind machine learning have been around for some time, the current Cambrian explosion of published work has many factors.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Moore’s Law&lt;/strong&gt; - The &lt;em&gt;speed&lt;/em&gt; of compute is faster than it has ever been, particularly in GPUs&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cloud Compute&lt;/strong&gt; - Everyone can get access to these fast processors&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;More Data&lt;/strong&gt; - For better or for worse, we are better about to scale both data collection, storage, and analysis&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Greater Ease in Model Creation&lt;/strong&gt; - More people are trying more stuff more of the time&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;(Chart from the blog post ‘&lt;a href=&quot;http://data-mining.philippe-fournier-viger.com/too-many-machine-learning-papers/&quot;&gt;Too Many Machine Learning Papers&lt;/a&gt;’)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide7.PNG&quot; /&gt;&lt;figcaption&gt;What is Machine Learning?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;A full explanation of how machine learning, and how its various permutations work is beyond this presentation’s scope. However, as we begin to discuss why these things take so much compute or why they’re so energy expensive, we need some theoretical model in how they’re composed.&lt;/p&gt;
-
-&lt;p&gt;Suppose, for example, we had to create a service that could determine whether a provided picture was of a chihuahua or not. The output is either “yes” if a chihuahua is present or “no” if not.&lt;/p&gt;
-
-&lt;p&gt;Using machine learning, we would create several &lt;em&gt;nodes&lt;/em&gt; for our &lt;em&gt;input layer&lt;/em&gt;. Each of these nodes corresponds with an individual pixel of the image provided. A &lt;em&gt;weight&lt;/em&gt; is assigned to each of the nodes. The value of this weight is based on how important that node, or individual pixel, is to determining whether a chihuahua is present. Pixels framing the outside might have a low weighted value, while those around the inverted triangle comprising the two eyes and snout would be worth more.&lt;/p&gt;
-
-&lt;p&gt;Before going further, I think it is important to note we’re already dealing with some large numbers with only our input layer. My first digital camera was a Sony Mavica in 1999. The &lt;em&gt;max&lt;/em&gt; resolution of a picture saved to the floppy drive was 640x480. If we were processing images in that resolution, we’d have &lt;strong&gt;an input layer of 307,200 nodes&lt;/strong&gt;. Those are 307,200 weights that need to be tuned to develop a model. And as you might imagine, pictures taken with modern mobile devices have millions of pixels.&lt;/p&gt;
-
-&lt;p&gt;However, we’re only getting started. We take the RGB values in a given node, compute a result with the weight for that node, and then pass that value &lt;em&gt;to every other node in the subsequent layer to be processed&lt;/em&gt;. There may be many of these “hidden layers” between the input and the output. Each node in each layer mathematically computes its result. This continues until all the results are recombined into a value in the &lt;em&gt;output layer&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;This output layer contains the probability of whether the input meets our criteria. If it is above a particular percentage, we might say, “yes” the image did contain a dog. We continue to iterate on our weights until we are satisfied with how often our machine learning model successfully matches our labeled sample data used for training.&lt;/p&gt;
-
-&lt;p&gt;We’ve used machine learning to create a model to detect if our picture features a chihuahua…&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(For more explanation, see the YouTube video course, &lt;a href=&quot;https://www.youtube.com/watch?v=oV3ZY6tJiA0&quot;&gt;Crash Course: AI&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(&lt;a href=&quot;https://unsplash.com/photos/LHeDYF6az38&quot;&gt;Chihuahua Photo by Alvan Nee on Unsplash&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(&lt;a href=&quot;https://unsplash.com/photos/WQ8CHKHHzK8&quot;&gt;Photo by Reproductive Health Supplies Coalition on Unsplash&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide8.PNG&quot; /&gt;&lt;figcaption&gt;Finding Patterns in Data is Not the Same as Understanding Data&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;…or a muffin. It is essential to point out that through all those mathematical calculations, machine learning doesn’t understand what it is looking at; at least not the way we do. It has only identified &lt;em&gt;patterns&lt;/em&gt; where two darker dots consistently appear above one other dot (eyes above the snout).&lt;/p&gt;
-
-&lt;p&gt;In her book &lt;em&gt;&lt;a href=&quot;https://www.amazon.com/You-Look-Like-Thing-Love/dp/0316525243&quot;&gt;You Look Like a Thing and I Love You&lt;/a&gt;&lt;/em&gt; Janelle Shane described a similar problem. Microsoft has an image recognition product that works similar to our example: it takes an image and suggests what might be in it. One day, while using this product, Janelle noticed that it was finding sheep in photos that definitely did not have sheep.&lt;/p&gt;
-
-&lt;p&gt;After experimentation, Janelle hypothesized that the machine learning model was trained with lots and lots of pictures of sheep in green, grassy countrysides. The model did not “learn” the sheep’s visual properties, but mistakenly correlated the landscape with the sheep label. Subsequently, when Janelle gave the model pictures of sheep in cars or livings rooms, the model labeled the animals as dogs and cats.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Image from the ‘&lt;a href=&quot;https://www.freecodecamp.org/news/chihuahua-or-muffin-my-search-for-the-best-computer-vision-api-cbda4d6b425d/&quot;&gt;Chihuahua or Muffin?&lt;/a&gt;’ tutorial.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide9.PNG&quot; /&gt;&lt;figcaption&gt;Machine Learning is Strategically Important to Companies&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Despite this, machine learning is still &lt;strong&gt;a very big deal™&lt;/strong&gt; for companies. &lt;a href=&quot;https://www.accenture.com/us-en/insights/artificial-intelligence/ai-governance-support-innovation&quot;&gt;According to an Accenture global research survey&lt;/a&gt;, 85% of business leaders expect AI to open up new products, services, business models, and markets. Another 78% expect AI to disrupt their industry in the next ten years.&lt;/p&gt;
-
-&lt;p&gt;Further, a report from market research firm Tractica &lt;a href=&quot;https://www.top500.org/news/market-for-artificial-intelligence-projected-to-hit-36-billion-by-2025/&quot;&gt;forecasts that the annual global revenue for artificial intelligence products and services will grow from $643.7 million, in 2016, to $36.8 &lt;em&gt;billion&lt;/em&gt; by 2025&lt;/a&gt;. That’s a 57-fold increase and makes AI the fastest-growing segment in the IT sector.&lt;/p&gt;
-
-&lt;p&gt;And no, AI &lt;em&gt;is not coming to take our jobs&lt;/em&gt;. As the quote from Mary Gray says, automation doesn’t eliminate jobs; it changes the form those jobs take.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide10.PNG&quot; /&gt;&lt;figcaption&gt;Machine Learning is Good at Specific Things&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Machine learning promises to lower costs and produce better outcomes. It’s because AI can recognize subtle patterns in vast volumes of data.&lt;/p&gt;
-
-&lt;p&gt;Princeton professor Arvind Narayan created an excellent presentation late last year, entitled “&lt;a href=&quot;https://www.cs.princeton.edu/~arvindn/talks/MIT-STS-AI-snakeoil.pdf&quot;&gt;How to Recognize AI Snake Oil&lt;/a&gt;”. He identifies where machine learning techniques are practical, where they have problems, and where they may be ethically dubious.&lt;/p&gt;
-
-&lt;p&gt;Enhancing or scaling perception is a great application of machine learning. These have clear success criteria; either the model successfully does a thing or needs additional training. Automating judgment, or asking a machine to call balls and strikes when there is some gray area, is more complicated.&lt;/p&gt;
-
-&lt;p&gt;Then there’s predicting the future. You may use a machine learning algorithm to review someone’s social media feed and identify how often a beer bottle is pictured. That is perception. Assuming that a high percentage of beer bottle appearances makes an individual unfit for employment is predicting an outcome. That is problematic, &lt;a href=&quot;https://venturebeat.com/2020/03/30/ai-is-bad-at-predicting-gpa-grit-eviction-job-training-layoffs-and-material-hardship/&quot;&gt;as research has shown&lt;/a&gt;. &lt;strong&gt;Machine learning, despite its promise, cannot tell the future.&lt;/strong&gt; It can only find correlations in the past.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide11.PNG&quot; /&gt;&lt;figcaption&gt;However, Machine Learning is Not a Silver Bullet&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;It is also essential to use common sense when considering machine learning. Martin Zinkevich is a research scientist at Google and author of “&lt;a href=&quot;http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf&quot;&gt;Rules of Machine Learning: Best Practices for ML Engineering&lt;/a&gt;”. He urges several useful heuristics when evaluating whether machine learning is appropriate for a task, like:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“If your system has more than 100 nested if-else [statements], it’s time to switch to machine learning.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For example, imagine you’re a smartphone developer, and you’re tasked with recommending the next application someone should use. You could consider the time of day, the weather, user movement, sentiment of their social media accounts, their text and call volume, the proximity of that communication in a social graph, etc. Those could all be inputs to a complex model.&lt;/p&gt;
-
-&lt;p&gt;Or you could recommend the most frequently used apps. If a simple heuristic, like “recommend the most recently used items”, is successful 70% of the time, any model built has to significantly outperform it to justify the increased complexity.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide12.PNG&quot; /&gt;&lt;figcaption&gt;Challenges Title Screen&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;What form does that complexity take? Let’s talk about the challenges to developing machine learning.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide13.PNG&quot; /&gt;&lt;figcaption&gt;There are Challenges&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;There are four big challenges to creating successful machine learning models. They are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The volume of data to collect and refine&lt;/li&gt;
-  &lt;li&gt;The compute cost to process&lt;/li&gt;
-  &lt;li&gt;Regulatory, privacy and/or ethical concerns&lt;/li&gt;
-  &lt;li&gt;Operationalization.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To illustrate this, let’s talk about Google’s Meena chatbot. A sample conversation between Meena and a human is shown in the slide. Google used &lt;strong&gt;341GB&lt;/strong&gt; of text to train the model. In doing so, &lt;strong&gt;they consumed $1.4 million in cloud computation&lt;/strong&gt;. That’s a lot of money. It is also a lot of power. For comparison, it would take the average American household  &lt;em&gt;28 years&lt;/em&gt; to burn the same 292,912 kWh of power. I might argue that the conversation is not noticeably better than Eliza, a program crafted at MIT in the 1960s. As such, there is an ethical question of whether the results warrants that level of energy expenditure (and subsequent carbon footprint).&lt;/p&gt;
-
-&lt;p&gt;And that’s before we even get to operationalization and the challenges of doing &lt;a href=&quot;https://martinfowler.com/articles/cd4ml.html&quot;&gt;Continuous Delivery for Machine Learning&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(More on Meena from a &lt;a href=&quot;https://www.zdnet.com/article/googles-meena-advances-the-exquisite-banality-of-chat-bots/&quot;&gt;ZDNet article&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide14.PNG&quot; /&gt;&lt;figcaption&gt;Building Your Own AI Models Can Be Expensive&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Please consider where the compute for your models is being run. If the training can be done anywhere, research which AWS regions carbon offset, for example. For reference, that is &lt;strong&gt;not US-EAST-1&lt;/strong&gt;. If the training is geographically agnostic, take a few minutes and click the necessary boxes to a configuration more carbon friendly.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Articles pictured in this slide include &lt;a href=&quot;https://www.technologyreview.co m/s/613630/training-a-single-aimodel-can-emit-as-much-carbonas-five-cars-in-their-lifetimes/&quot;&gt;Training a single AI model can emit as much carbon as five cars in their lifetimes&lt;/a&gt; and &lt;a href=&quot;https://www.technologyreview.com/s/614700/the-computing-power-needed-to-train-ai-is-now-rising-seven-times-faster-than-ever-before/&quot;&gt;Computer power needed is rising seven times faster than ever before&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide15.PNG&quot; /&gt;&lt;figcaption&gt;Building on Other's Work Is Important&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, consider building upon others work. It may be hard to remember, but there was a time when the idea of having a picture of every single inch along every single street in every single place was a problem of seemingly infinite scale. Imagine if every application with a street view had to stand-up and operate their own fleet of vehicles and cameras. Yet today, anyone can call a Google Maps API.&lt;/p&gt;
-
-&lt;p&gt;Similarly, we aren’t that far removed when small and mid-sized businesses maintained their server closets. Handling things like seasonal traffic or DDS attacks was an individual challenge. Now we have APIs on cloud-providers, like AWS, to call.&lt;/p&gt;
-
-&lt;p&gt;Finally, imagine if every application that wanted to send a text message had to negotiate individual deals with each and every telco provider? The barriers to innovation would be horrible. Better to let someone like Twilio do that once, and then we build upon the abstraction.&lt;/p&gt;
-
-&lt;p&gt;In the same way that these companies have exposed services via APIs, the future very much looks like leaving the big, precarious, and expensive data collection and model building to the experts. Then we consume that model through an API.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide16.PNG&quot; /&gt;&lt;figcaption&gt;Enter APIs&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;APIs are an &lt;em&gt;enabling technology&lt;/em&gt;. AI doesn’t reduce or eliminate the need for APIs. &lt;strong&gt;More AI use demands more sensible and well-designed APIs&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide17.PNG&quot; /&gt;&lt;figcaption&gt;APIs Provide an Abstraction to Technical Complexity&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;A web API (or Net API) provides a &lt;em&gt;separation of concerns&lt;/em&gt;. You have your code. You focus on uniquely solving your business problem. Then, through an API, you consume someone else’s generated model.&lt;/p&gt;
-
-&lt;p&gt;The AI provider handles the tricky issues of:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Collecting and Refining the Data&lt;/li&gt;
-  &lt;li&gt;Paying the electricity bill&lt;/li&gt;
-  &lt;li&gt;Fielding regulatory inquiries around privacy and security&lt;/li&gt;
-  &lt;li&gt;Managing the operationalization of data&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide18.PNG&quot; /&gt;&lt;figcaption&gt;Language is the Most Used AI Accessed Through APIs&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;I see the industry already moving in this direction. The chart shown was created from a survey of which types of functionality were consumed via API. Things like natural language processing are highest on the list, for the reasons that Princeton’s Arvind Narayan pointed out: these are all perception related. Scaling perception is where AI has proven its usefulness and we’re moving toward a commodification of the feature.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Chart from &lt;a href=&quot;https://www.statista.com/statistic
-s/1069198/worldwide-ai-machine-learning-api/&quot;&gt;Statista.com&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide19.PNG&quot; /&gt;&lt;figcaption&gt;AI API Claims Require Data Questioning&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;When choosing between AI offerings via an API, it will be necessary for consumers to evaluate their claims via intelligent questions.&lt;/p&gt;
-
-&lt;p&gt;Vicki Boykis is a data scientist and writer out of Philadelphia. In her essay, “&lt;a href=&quot;https://vicki.substack.com/p/neural-nets-are-just-people-all-the&quot;&gt;Neural nets are just people all the way down&lt;/a&gt;”, Vicki highlights some important revelations on one highly-touted AI use case:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“if you’re doing image recognition in 2019, it’s highly likely you’re using an image recognition systems built by images tagged by people using Mechanical Turk in 2007 that sit on top of language classification systems built by graduate students prowling newspaper clippings in the 1960s.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There’s so much we should be asking about our AI providers. However, briefly, consider the incentives. Be wary if there are financial incentives to be less than transparent about how the model is generated or where the data is collected from. Also, be skeptical if an AI product also happens to use the latest blockchain-enabled, agile-Kubernetes, nano-service hype salad. Leverage others’ work, like this article comparing cloud providers; not all pieces are this comprehensive, but there are folks out there that are sharing their results for the community’s benefit. And, finally, interrogate the data. In general, we’re not good at this, in general, but, going-forward it will increasingly be more important.&lt;/p&gt;
-
-&lt;p&gt;Articles pictured in this slide include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://spectrum.ieee.org/tech-talk/artificial-intelligence/machine-learning/learn-the-red-flags-ofoverhyped-ai-claims&quot;&gt;Three easy ways to evaluate AI Claims&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.altexsoft.com/blog/datascience/comparing-machine-learning-as-a-service-amazon-microsoft-azure-google-cloud-ai-ibm-watson/&quot;&gt;Comparing Machine Learning as a Service&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide20.PNG&quot; /&gt;&lt;figcaption&gt;Dataset Nutrition Labels Need Our Support&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;A survey was done asking folks whether they had practices in place to determine whether their data was good. Unfortunately, 44% said ‘no’.&lt;/p&gt;
-
-&lt;p&gt;Increasingly, that is not going to be an acceptable answer. We need to figure out best practices to interrogate the data. This is especially true of APIs since we may not have our hands on that data.&lt;/p&gt;
-
-&lt;p&gt;From the same survey, a majority of respondents reported that their ability to analyze data was self-taught. Going forward, we will need standardized, reusable approaches to create standardized, predictable results. As proposed in the linked white paper, one idea is using a nutritional label-like representation to compare and contrast datasets used in AI products.&lt;/p&gt;
-
-&lt;p&gt;Adopting a dataset nutrition label &lt;em&gt;could&lt;/em&gt; help. However, keep in mind that having a robust understanding of the data is only one part of the process necessary to create a working model.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Charts from &lt;a href=&quot;https://arxiv.org/ftp/arxiv/papers/1805/1805.03677.pdf&quot;&gt;The Dataset Nutrition Label Whitepaper&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide21.PNG&quot; /&gt;&lt;figcaption&gt;Conclusions&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;That was a lot and, again, I’m only showing the tip of the iceberg.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide22.PNG&quot; /&gt;&lt;figcaption&gt;Where to Learn More&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;If you are interested in learning more, there are numerous placed to get started. In addition to the many papers, presentations, and courses that I’ve linked to throughout this talk, I would also recommend the following books:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/you-look-like-a-thing-and-i-love-you-how-artificial-intelligence-works-and-why-it-s-making-the-world-a-weirder-place/9780316525244&quot;&gt;You Look Like a Thing and I Love You&lt;/a&gt; by Janelle Shane&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/rebooting-ai-building-artificial-intelligence-we-can-trust/9781524748258&quot;&gt;A Human’s Guide to Machine Intelligence&lt;/a&gt; by Kartik Hosanagar&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/rebooting-ai-building-artificial-intelligence-we-can-trust/9781524748258&quot;&gt;Rebooting AI&lt;/a&gt; by Gary Marcus and Ernest Davies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In addition, I would highly encourage those working in the space to have a firm grasp of how these algorithmic approaches can cause harm. For that, I would suggest:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy/9780553418835&quot;&gt;Weapons of Math Destruction&lt;/a&gt; by Cathy O’Neil&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789&quot;&gt;Automating Inequality&lt;/a&gt; by Virginia Eubanks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It also surprises me that there aren’t more sites that allow prospective AI users do “comparison shopping” across the major providers. Algorithmia &lt;em&gt;used&lt;/em&gt; to be an online marketplace for algorithms. Similarly, Inten.to &lt;em&gt;used&lt;/em&gt; to allow running sample queries across cloud algorithms. Both appear to have since pivoted. Certain AI APIs can still be found within the Programmable Web directory, however.&lt;/p&gt;
-
-&lt;p&gt;There are also a couple good sources for data, if people are looking for raw ingredients to get started. If you are aware of other sites that provide a similar service, let me know.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/01/Slide23.PNG&quot; /&gt;&lt;figcaption&gt;How to Contact Me&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Thank you for your time and attention. My name is Matthew Reinbold and you can find me online at these fine establishments.&lt;/p&gt;
-
-&lt;p&gt;Good night.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Below is the presentation given to the DC API Meetup Group, recorded February 4th, 2020.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DAm6o9LULts&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Fri, 08 Jan 2021 00:00:00 -0600</pubDate>
-        <link>https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/</guid>
-        
-        <category>AI</category>
-        
-        <category>API design</category>
-        
-        <category>APIs</category>
-        
-        <category>presos</category>
-        
-        <category>skynet</category>
-        
-        <category>Microsoft</category>
-        
-        <category>machine learning</category>
-        
-        <category>Sony</category>
-        
-        <category>Janelle Shane</category>
-        
-        <category>Accenture</category>
-        
-        <category>Tractica</category>
-        
-        <category>Mary Gray</category>
-        
-        <category>Arvind Narayan</category>
-        
-        <category>Martin Zinkevich</category>
-        
-        <category>Google</category>
-        
-        <category>Meena</category>
-        
-        <category>Eliza</category>
-        
-        <category>MIT</category>
-        
-        <category>AWS</category>
-        
-        <category>carbon offsets</category>
-        
-        <category>Google Maps</category>
-        
-        <category>Twilio</category>
-        
-        <category>Vicki Boykis</category>
-        
-        <category>Kartik Hosanagar</category>
-        
-        <category>Gary Marcus</category>
-        
-        <category>Ernest Davies</category>
-        
-        <category>Cathy O'Neil</category>
-        
-        <category>Virginia Eubanks</category>
-        
-        <category>Eran Kinsbruner</category>
         
         
       </item>

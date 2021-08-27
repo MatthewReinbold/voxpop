@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Searching for Systematic Solutions</title>
-  <meta name="description" content="Snapshot of the stage at the O'Reilly Software Architecture Conference">
+  <title>&#39;Power-Over&#39; Strategies And How Reporting Can Backfire</title>
+  <meta name="description" content="Photo of gold and white fishes Sigmund on Unsplash.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://matthewreinbold.com/2017/04/13/SystematicSolutions/">
+  <link rel="canonical" href="https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
 </head>
 
@@ -80,34 +80,55 @@
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Searching for Systematic Solutions</h1>
-    <h2 class="post-subtitle">Because 'Melancholy and the Infinite Sadness' was Already Taken</h2>
-    <p class="post-meta"><time datetime="2017-04-13T00:00:00-05:00" itemprop="datePublished">Apr 13, 2017</time></p>
+    <h1 class="post-title" itemprop="name headline">'Power-Over' Strategies And How Reporting Can Backfire</h1>
+    <h2 class="post-subtitle">Revisiting the Effectiveness of the 'Kingpin-in-the-Fishbowl' Strategy for Organizational Change</h2>
+    <p class="post-meta"><time datetime="2021-08-27T00:00:00-05:00" itemprop="datePublished">Aug 27, 2021</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><figure><a href="/images/2017/04/oreilly-software-architecture.png" class="lightbox"><img src="/images/2017/04/oreilly-software-architecture.png" /></a><figcaption>Snapshot of the stage at the O'Reilly Software Architecture Conference</figcaption></figure></p>
+    <p><figure><img src="/images/2021/08/fish.png" alt="A picture of gold and white fishes swimming in water." />
+<figcaption class="slide">
+Photo of gold and white fishes <a href="https://unsplash.com/@sigmund">Sigmund</a> on Unsplash.
+</figcaption>
+</figure></p>
 
-<p>Last week I attended the O'Reilly Software Architecture Conference in New York City. While not "officially" a software architect anymore, I was keenly interested where the industry zeitgeist was regarding microservices, devops, and event-driven architectures. There <strong>was</strong> some very valuable information on tap (by the end of the second day I had a few thousand words in my notes file). But there was also a couple shadows cast; apparitions that still have me cringing a week later. </p>
+<p>A problematic aspect of being a change agent is the lack of proven, frequently discussed techniques for making change happen. For example, in the API space there’s no end to people putting forth “best practices”. But getting teams to agree which practices are best, let alone adopt them? That advice is much harder to come by.</p>
 
-<p>A session would begin by establishing a strawman: an omission or lack of proper design would lead to an undesirable consequence in production. In one case, for example, the presentation presented an erroneous decomposition of a problem. Rather than <strong>bounded contexts</strong> around a <strong>business capability</strong>, they jumped straight to resources, letting the data define the subsequent API design. The result was redundant data seemingly owned by resources, requiring additional data synchronization across the distributed data-sources; i.e. a "distributed monolith".</p>
+<p>Several years ago, <a href="https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/">I briefly touched on some approaches I was trying as head of an API Center of Excellence</a>. In that role, one of my responsibilities was to improve API quality and practice throughout the organization. However, like so many change agents, I didn’t have formal authority over the people who needed to change their practices. With hindsight, I want to share my experience with one influence approach, intriguingly called <em>Kingpins and the Fishbowl</em>.</p>
 
-<p>The presenter would then proceed to outline a <em>more</em> elaborate solution, one that required the initial design failure. The more elaborate solution would have a titillating sounding name, of course. It was usually some combination of yesterday's buzzword and an action adjective . My take-away from these presentations is that anyone is just a "hyper-componentization", "rational-serverless" or "pico-ops" away from a lucrative career in conference speaking and consultant fees.  </p>
+<p>I read about kingpins and fishbowls in the book <a href="https://www.amazon.com/Blue-Ocean-Strategy-Uncontested-Competition/dp/1591396190">Blue Ocean Strategy</a>. The book is mostly about finding new markets (the “blue ocean”) for product dominance. However, the latter third included practical advice for getting people engaged in something new; something that any change maker deals with.</p>
 
-<p>The technical press is incentivized to unearth a steady stream of <strong>THE NEXT BIG THING&trade;</strong>! The dopamine drip of discovering the bigger, better, and/or faster way of doing things is what drives attention to online publications, book subscriptions, and conference attendance. Too often, though, this seems to result in an industry that casts off yesterday's solutions as quickly as they can get tomorrow's promises. Rather than proceeding with care and practice after missing the mark, the solution, all too often, seems to be to find new silver bullets. </p>
+<p>The first part of the strategy is to identify the key individuals, or “kingpins”. These people are not just impacted by the change you’re proposing but have the authority to act on it. <a href="https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/">In a D1 organization</a>, these could be, but are not limited to, executives with hierarchal power. The high-flyer with the ear of leader (but without formal authority) is also a candidate.</p>
 
-<p>That phenomenon is unfortunate, and (probably) unavoidable. It is also, however, <em>not the most challenging thing</em>. Many of the presenters were proud (and, in some cases, rightly so) for demonstrating <em>purely</em> architectural solutions. Engineering conferences probably present developer solutions to the similar problems. I also guarantee that business folks are solving things from their perspective. While occasionally victories are possible, systemic success is not guaranteed because the problem is not being approached in a systemic, cross-disciplinary way. <strong>A company's business, culture, and technology are inextricably linked.</strong> Addressing one in isolation, without considering the push and pull of the others, is likely to doom an effort (or, at a minimum, impede it). </p>
+<p>With the kingpins identified, the next step is creating the fishbowl. The fishbowl is a means by which the kingpins’ performance (or those they are responsible for) is easily compared and contrasted. This review may manifest as an internal dashboard or regular report to executives. Colloquially, people might also know this approach as “naming and shaming”. <a href="https://apimetrics.io/category/monthly-report/">APIMetrics does this publicly</a>. <a href="https://apimetrics.io/api-outages/">A lot</a>.</p>
 
-<p>Take, for example, microservices. Microservices are, simultaneously, a software architecture pattern, a cultural change, and a business concern:</p>
-<ul id="draft_check_box_list_0">
-<li>Most technologists understand microservices as a software architecture pattern. Defining service boundaries through principles domain-driven-design for the sake of decomposition is a powerful thing. But only having the <em>tech</em> right doesn't mean microservices will be successful in an organization. </li>
-<li>Culture, as defined in the O'Reilly book, <em><a href="http://shop.oreilly.com/product/0636920050308.do" rel="nofollow">Microservice Architecture</a></em>, is "a set of values, beliefs, or ideals that are shared by all the workers within an organization." If a employees do not trust each other, microservice coordination can't be minimized. If the organization values calendar release cycles tied to marketing blitzes, maximizing deliverable independence will be hard. </li>
-<li>Adoption of any new behavior must be tied to a business benefit. If the combination of speed and safety inherent with successful microservice execution isn't reflected in a business metric, it becomes "a tech thing". "Tech things" have a way of being entertained when times are good. However, when adversity happens, anything that isn't obviously tied to a business objective is in jeopardy.</li>
-</ul>
+<p>The kingpins and fishbowls technique <em>sounds</em> plausible: identify those that have authority to make the designed change, put them in a dashboard showing how deficient they are compared to their peers, watch those trend lines change for the positive! As <a href="https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/">I said in my introduction of the topic</a>:</p>
 
-<p><figure><a href="/images/2017/04/microservices-whiteboard.jpg" class="lightbox"><img src="/images/2017/04/microservices-whiteboard.jpg" /></a><figcaption>Whiteboard from a recent offsite deep dive into microservices, and what it would take to support them.</figcaption></figure></p>
+<blockquote>
+  <p>“In my experience, executives didn’t get to where they are without being a tad competitive. Publishing results and easing comparative analysis creates a natural driver for action; each of the leaders want to be number one among their peers.”</p>
+</blockquote>
 
-<p>It is a mistake to look at the success that Amazon and Netflix have had and attribute it to <em>only</em> one of these parts. Their systematic success requires systematic solutions. Succeeding with a new architectural paradigm, like microservices, means creating cultural, business, and technological change. Separating meaningful approaches from buzzword buzzards at single-discipline conferences is one thing. Having the position and/or professional network to holistically apply it successfully is another. </p>
+<p>The approach is not without merit. I did see some success in limited areas. However, looking back, any success was vastly dwarfed by the antagonistic relationships that such reporting. To understand why it is crucial to discuss Mary Parker Follet’s concepts of <em>power-over</em> and <em>power-with</em>.</p>
+
+<p>Mary Parker Follet was a contemporary of Frederick Taylor, the “father” of management theory. But while Taylor believed “the boss knows best”,  Mary’s ideas on power and authority were very different. She defined <strong>power-over</strong> as a situation where one person has power over
+another person. This manifests as dominance and coercion. One side vies for power over another, at best trying to influence the other to concede its
+position.</p>
+
+<p>A kingpin may not oppose the idea of API design improvement. However, design may differ in their priority compared to someone, like the Center of Excellence head, whose sole job is design improvement. Kingpins have no shortage of things vying for their time and energy. Those people create systems for triaging what is worth entertaining <em>and what threatens those limited resources</em> to remain successful.</p>
+
+<p>A metric originating from outside their preview, attempting to coerce their priorities list and consume oxygen will not be enthusiastically embraced. While they may not frame it in terms of a “power-over” play, they will resent the attempt all the same and treat the effort with suspicion, if not as a threat. Having sat in those conversations, I can confirm that there are better ways of spending one’s time.</p>
+
+<p>Put in a similar position today, I would instead attempt what Follet referred to as <em>power-with</em>. Power-with is collaborative, establishing common ground from which both sides identify and discuss important desires. She called these discussions <em>integration</em>:</p>
+
+<p><a href="https://thepowerofcollectivewisdom.com/pdfs/power-over.pdf">From the power of collective wisdom website discussing Follet</a>:</p>
+
+<blockquote>
+  <p>“She [Follet] understood that true leaders do not command obedience through force or manipulation but rather by giving expression to external realities and the interior aspirations of others.”</p>
+</blockquote>
+
+<p>I talked about the priority mismatch. <em>What I should have done</em> is better understood the constraints and challenges these leaders faced. Rather than assuming that design quality improvement job #1, I should learn what their actual stack ranking, and then integrated how better design could deliver on that. I should have had regular, ongoing conversations, independent of whatever reporting cadence existed, to co-evolve the agendas and make us partners in each others’ success. The metrics needed to be in service of our ends, not their activities being a means to achieving mine.</p>
+
+<p>The Kingpin in the Fishbowl technique may seem like change is only a dashboard away. However, based on my experience, it is an example of <em>power-over</em> rather than <em>power-with</em>. Before attempting to coerce an influential leader’s priorities, carefully consider how that message may antagonize rather than compliment. If possible, pursue a <em>power-with</em> strategy instead.</p>
 
   </div>
 
@@ -164,103 +185,13 @@
     
 
     
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
-
-  
-
-    
-    
-
-    
-
-    
     	
         <hr />
     		<h4>Related</h4>
     		
     	
       <div>
-      <h5><a href="/2020/07/09/APIsAreArrangementsOfPower/">APIs are Arrangements of Power</a></h5>
+      <h5><a href="/2021/07/14/WhatShouldBeInATemplate/">What Prompts Should Be In an OpenAPI Tempate?</a></h5>
       </div>
       
       
@@ -445,12 +376,95 @@
     
 
     
-    	
-      <div>
-      <h5><a href="/2017/12/07/ConwayAndAPIDesign/">Three Ways Conways Law Affects API Governance</a></h5>
-      </div>
-      
-      
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
+    
+
+  
+
+    
+    
+
+    
+
     
 
   
@@ -485,13 +499,6 @@
 
     
 
-    
-    	
-      <div>
-      <h5><a href="/2017/07/12/Logan/">Logan, Westerns, and a Civilized Internet</a></h5>
-      </div>
-      
-      
     
 
   
