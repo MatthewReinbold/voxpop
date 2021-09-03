@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Sep 2021 16:01:34 -0500</pubDate>
-    <lastBuildDate>Fri, 03 Sep 2021 16:01:34 -0500</lastBuildDate>
+    <pubDate>Fri, 03 Sep 2021 16:09:37 -0500</pubDate>
+    <lastBuildDate>Fri, 03 Sep 2021 16:09:37 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -63,6 +63,8 @@ A picture of a linear lifecycle process accomodating many changes.
         <category>john cutler</category>
         
         <category>margaret mead</category>
+        
+        <category>management</category>
         
         
       </item>
