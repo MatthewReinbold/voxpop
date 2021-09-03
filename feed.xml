@@ -6,15 +6,72 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Aug 2021 12:43:02 -0500</pubDate>
-    <lastBuildDate>Fri, 27 Aug 2021 12:43:02 -0500</lastBuildDate>
+    <pubDate>Fri, 03 Sep 2021 16:01:34 -0500</pubDate>
+    <lastBuildDate>Fri, 03 Sep 2021 16:01:34 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Changing Organizations With Plausible Promises</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/09/linear-state-change.png&quot; alt=&quot;A picture of a linear lifecycle process.&quot; /&gt;
+&lt;figcaption class=&quot;slide&quot;&gt;
+A picture of a linear lifecycle process accomodating many changes.
+&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;It is inevitable that, at some point, a passionate practitioner  wants things to be &lt;em&gt;better&lt;/em&gt;. Whether that is improved API design quality, greater developer autonomy, or increased product focus, these change agents want to nudge their organizations in new directions.&lt;/p&gt;
+
+&lt;p&gt;Knowing where to start, however, can be overwhelming. Feeling, on a deep, fundamental level, that a course of action is right can seem insignificant compared to the size and entrenchment of a complex system.&lt;/p&gt;
+
+&lt;p&gt;Clay Shirky wrote about the term &lt;em&gt;plausible promise&lt;/em&gt; in his book, &lt;a href=&quot;https://www.amazon.com/Here-Comes-Everybody-Organizing-Organizations/dp/0143114948&quot;&gt;Here Comes Everybody&lt;/a&gt;. He defined it as “a message framed in big enough terms to inspire interest, yet achievable enough to inspire confidence.”&lt;/p&gt;
+
+&lt;p&gt;That sounds straightforward on the surface:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Aim too high, and people will dismiss you as a liar, hopelessly naïve, or someone looking to sell something. Examples include “End World Hunger Tomorrow!”, “6-Pack Abs In 6 Days”, or “Generate Beloved APIs From Your Database Schema”. It is hard to rally people to your cause if it seems unobtainable.&lt;/li&gt;
+  &lt;li&gt;Aim too low, and nobody will be inspired to take up the cause. There’s either too much specific detail or too little perceived reward to make it attractive. Urging that “Every field name must be written as kabab-case” is not the bold rallying cry you might think it is.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The challenge is to find the Goldilocks middle message: not too pie in the sky, not too in the weeds, but &lt;em&gt;just right&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;John Cutler is a product evangelist and coach. &lt;a href=&quot;https://drive.google.com/file/d/1eQMpc1gfO2wOxBE9UzwZt1k0GZhcXkj8/view?usp=sharing&quot;&gt;In his guide on sustainable change agency&lt;/a&gt;, he defines several ways you’ll know when your plausible promise is working:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;People begin to invite you to meetings to learn more about it&lt;/li&gt;
+  &lt;li&gt;Other parts of the organization begin to adopt it&lt;/li&gt;
+  &lt;li&gt;You’ll have volunteers helping to grow the idea in new ways&lt;/li&gt;
+  &lt;li&gt;Someone will try to take credit for it (a good sign!)&lt;/li&gt;
+  &lt;li&gt;People will reach out to thank you&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You want change. Identify what about that change will achieve broad acceptance. Articulate how the process for change is not only possible but probable in the current organization. Gaining critical mass is still challenging. If you start with a plausible promise, however, you’ll have taken an essential first step.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Never believe that a few caring people can’t change the world. For, indeed, that’s all who ever have.” - Margaret Mead&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 03 Sep 2021 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2021/09/03/PlausiblePromises/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/03/PlausiblePromises/</guid>
+        
+        <category>API governance</category>
+        
+        <category>organizations</category>
+        
+        <category>communication</category>
+        
+        <category>clay shirky</category>
+        
+        <category>john cutler</category>
+        
+        <category>margaret mead</category>
+        
+        
+      </item>
     
       <item>
         <title>'Power-Over' Strategies And How Reporting Can Backfire</title>
         <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/fish.png&quot; alt=&quot;A picture of gold and white fishes swimming in water.&quot; /&gt;
 &lt;figcaption class=&quot;slide&quot;&gt;
-Photo of gold and white fishes &lt;a href=&quot;https://unsplash.com/@sigmund&quot;&gt;Sigmund&lt;/a&gt; on Unsplash.
+Photo of gold and white fishes by &lt;a href=&quot;https://unsplash.com/@sigmund&quot;&gt;Sigmund&lt;/a&gt; on Unsplash.
 &lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 
@@ -563,53 +620,6 @@ description: the Id of the user
         <category>career</category>
         
         <category>Minneapolis</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>WandaVision and This American Moment</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/02/wandavision.jpg&quot; /&gt;&lt;figcaption&gt;WandaVision, now streaming on Disney+&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;We &lt;em&gt;need&lt;/em&gt; to talk about WandaVision, the Disney+ series, and the first entry into the Marvel Cinematic Universe’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe:_Phase_Four&quot;&gt;Phase Four&lt;/a&gt;. After more than a year and a half, the team behind the series could have easily coasted on pent-up fan demand and character nostalgia. Yet, through some meticulous design decisions and serendipitous timing, WandaVision is uniquely commenting on this moment.&lt;/p&gt;
-
-&lt;p&gt;Social and class unrest, political skullduggery, disrupted workplaces, chaotic education situations, and economic uncertainty are all playing out amid a global pandemic. We’re at home; a move that began as a preventative measure but, increasingly, feels like a prison. Since there’s little else to do or little else we have the cognitive and emotional energy for, I’ve been watching more television than usual. Like many, I’ve binged past comfort shows while doomscrolling through insomnia.&lt;/p&gt;
-
-&lt;p&gt;Time moves strangely in the pandemic’s unreality. One day drags along in repetitive tedium like any other. Yet the months rapidly disappear with little memory to account that they were there. Without personal touchstones - the trips, reviews, concerts, and even new media releases- I’ve become a character stuck in my own show’s reruns, repeating the routine but unable to progress the character arc.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;light spoilers to follow&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In WandaVision, the residents of Westview, NJ, also find themselves trapped in an unnatural reality. They are compelled, sometimes at great pain, to maintain a facade of the American dream: the suburb, the marriage, the homeownership, the stupefying white-collar job, etc. Even the town name, ‘Westview’ is a nod to western, or American, perception of success. The aspirational normalcy is an attempt to cope. And, at the end of the episode, the characters avoid the strangeness unpinning it all by watching TV.&lt;/p&gt;
-
-&lt;p&gt;When I watch WandaVision, I see a reflection of ourselves; protagonists struggling with grief. We are unsure of how this started or when it will end. We’re in control but, not? We are grieving for those we lost. We grieve for the time we won’t get back and the plans deferred. We grieve for the myths we told ourselves about a just nation and a logical, ordered world. Wanda’s story is one of grief. Despite the superpowers, her story is eminently relatable to our own.&lt;/p&gt;
-
-&lt;p&gt;That &lt;em&gt;is a lot&lt;/em&gt;. Some of us have yet to acknowledge what has happened. Some of us continue to cling, even violently, to the narratives we once had. Processing the world as it is and what has changed will continue for us for some time to come.&lt;/p&gt;
-
-&lt;p&gt;Would WandaVision resonate so strongly if we weren’t in a pandemic? Perhaps. I could write another post on how the show uses TV tropes and audience expectations to accentuate the storytelling. That “meta-ness” would be entertaining in any time.&lt;/p&gt;
-
-&lt;p&gt;However, WandaVision becomes transcendent at this moment in which we’re all trapped in our own Westview.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Feb 2021 00:00:00 -0600</pubDate>
-        <link>https://matthewreinbold.com/2021/02/08/WandaVision/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/02/08/WandaVision/</guid>
-        
-        <category>WandaVision</category>
-        
-        <category>storytelling</category>
-        
-        <category>Marvel</category>
-        
-        <category>MCU</category>
-        
-        <category>reviews</category>
-        
-        <category>superheroes</category>
-        
-        <category>Disney</category>
-        
-        <category>Disney+</category>
-        
-        <category>scifi</category>
         
         
       </item>
