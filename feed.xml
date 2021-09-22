@@ -6,9 +6,86 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Sep 2021 12:05:06 -0500</pubDate>
-    <lastBuildDate>Fri, 10 Sep 2021 12:05:06 -0500</lastBuildDate>
+    <pubDate>Wed, 22 Sep 2021 15:24:15 -0500</pubDate>
+    <lastBuildDate>Wed, 22 Sep 2021 15:24:15 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Overcoming Change Resistance</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/09/lets-change.png&quot; alt=&quot;A sign outside a building that says 'Let's Change'.&quot; /&gt;
+Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Brad Starkey&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/change?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ve got an excellent idea for your organization. You’ve spent time &lt;a href=&quot;https://matthewreinbold.com/2021/09/10/CreatingCompellingStories/&quot;&gt;carefully crafting your story&lt;/a&gt; and begin to share it. Then something begins to happen; perhaps there isn’t anything as dramatic as a slammed door or “NO” screamed in all caps. But there’s a hesitation, an avoidance, or an ongoing series of “&lt;a href=&quot;https://en.wikipedia.org/wiki/Whataboutism&quot;&gt;whataboutism&lt;/a&gt;” that increasingly frustrates and drains energy. Congratulations, change agent! You’ve met &lt;strong&gt;resistance&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Workplace changes are &lt;em&gt;sociotechnical&lt;/em&gt;, or having both a technical and a social aspect. The technical change part is the mechanics of how a task is performed. There might be technical detail and nuance to be debated. However, what is a far more significant source of resistance is the social aspect of the change. &lt;em&gt;Social&lt;/em&gt; refers to how those affected by the change believe it will &lt;em&gt;alter their organizational relationships&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Change, even wholesome, necessary, and positive, can provoke a sense of loss in individuals. Sometimes this sense of loss is legitimate, like when a company closes down its “innovation hub” or no longer recognizes “Quality Assurance (QA)” as distinct from the engineering job family. In other situations, the change is perceived as a loss of dominance, control, power, and/or a sense of familiarity.&lt;/p&gt;
+
+&lt;p&gt;People react to loss in different ways.&lt;/p&gt;
+
+&lt;h2 id=&quot;resisting-change&quot;&gt;Resisting Change&lt;/h2&gt;
+&lt;p&gt;In one case, they dig in and close down. Those resisting demand what is lost be returned. &lt;a href=&quot;https://matthewreinbold.com/2021/09/10/CreatingCompellingStories/&quot;&gt;Without a recognized, new identity for the participants&lt;/a&gt;, our change narrative induces a counter-narrative: an energetic incitement to &lt;em&gt;return to the way things were&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/1969/01/how-to-deal-with-resistance-to-change&quot;&gt;As this classic 1969 Harvard Business Review article by American sociologist Paul R. Lawrence states&lt;/a&gt;, resistance manifests as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“persistent reduction in output, an increase in the number of “quits” and requests for transfer, chronic quarrels, sullen hostility, wildcat or slowdown strikes, and, of course, the expression of a lot of pseudological reasons why the change will not work. Even the more petty forms of this resistance can be troublesome.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This response is so typical that many executives assume resistance to anything is inevitable. Yet, changes must occur for businesses to thrive. This doubly for the all-important “little” changes that constantly take place: changes in work methods, in routine office procedures, in the location of a machine or a desk, in personnel assignments and job titles.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“You never want a perfectly fit, coherent, and therefore stable system (therein lies stasis and death)… for a system to evolve and thereby persist over time requires a certain (unspecified!) resilience more so than stability.” – Alicia Juarrero&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;opening-oneself-and-others-to-change&quot;&gt;Opening Oneself (And Others) To Change&lt;/h2&gt;
+&lt;p&gt;The &lt;em&gt;other&lt;/em&gt; way people might respond is to &lt;strong&gt;open up&lt;/strong&gt;. This opening requires a shared assumption that there is something new here and that we will find our way into that newness together. What does that mean, practically?&lt;/p&gt;
+
+&lt;p&gt;The easiest way to getting buy-in to a change is when those affected by it are co-creators. While this participation may sound simple in theory, in practice, it does entail careful handling. Participation &lt;em&gt;is a feeling on the part of people&lt;/em&gt;, a belief that their needs are being heard and concerns addressed. Participation &lt;em&gt;is not&lt;/em&gt; inviting people to comment or attend a meeting and checking the box ‘done’. Employees must be treated as having treasured insight and opinions rather than a target to be pumped for carefully calculated questions.&lt;/p&gt;
+
+&lt;p&gt;That is why the identity piece of our storytelling is so critical. A future vision they can relate to, and the relationships it entails, will mitigate the sense of social loss.&lt;/p&gt;
+
+&lt;h2 id=&quot;an-api-governance-example&quot;&gt;An API Governance Example&lt;/h2&gt;
+&lt;p&gt;As companies grow, the complexity introduced due to fragmented API design approaches and ad-hoc, laissez-faire governance drowns any benefit the API ecosystem had while new. In this state, integrations take longer, meetings go up, and estimates get more untrustworthy.&lt;/p&gt;
+
+&lt;p&gt;As a result, leadership may move to establish one of any number of groups: Centers of Excellence, Design Guilds, Architectural Review Board, or API Champions. The expectation is that these specialists are inserted between the “doers” and the production environment. Their job is to ensure that designs are “done right”, mitigating the mishmash (and related overhead) that the organization increasingly toils under.&lt;/p&gt;
+
+&lt;p&gt;The problem with this approach, if done unilaterally, is that leadership has introduced not only a technical change - the specific THOU SHALL and THOU SHALL NOT that moves an architectural style from &lt;em&gt;descriptive&lt;/em&gt; to &lt;em&gt;prescriptive&lt;/em&gt;. They have also changed an API developer’s relationship with the organization by inserting an oversite group in the pipeline. The usual work relationships, not just between developers and their peers, but developers and their environments, were changed.&lt;/p&gt;
+
+&lt;p&gt;As I discussed above, changing the social relationships nets more than just “&lt;a href=&quot;https://en.wikipedia.org/wiki/Who_Moved_My_Cheese%3F&quot;&gt;who moved my cheese&lt;/a&gt;” or “&lt;a href=&quot;https://www.ftrain.com/wwic&quot;&gt;why wasn’t I consulted&lt;/a&gt;” whinging. The sense of loss breeds resentment, resentment creates low morale, and the quality and alignment initiative meets resistance.&lt;/p&gt;
+
+&lt;p&gt;That doesn’t mean the idea to decrease fragmentation and improve design cohesion was a bad one! What it means, instead, is that a different approach is needed. Rather than a top-down directive that changes the entire organization’s working relationships, the affected parts of the organization should be invited to co-create the change.&lt;/p&gt;
+
+&lt;p&gt;That includes &lt;em&gt;listening first, talking second&lt;/em&gt;. It could be that not everyone agrees on what the problem &lt;em&gt;is&lt;/em&gt;. If people are given a chance to come up with ideas, discuss the ideas of others, or otherwise be involved in the process, they’ll become invested in the change and understand it better. It is also easier to build a future inclusive identity in your narrative if those people were involved in defining that identity.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-conclusion&quot;&gt;In Conclusion&lt;/h2&gt;
+&lt;p&gt;Change has both a technical and a social aspect. The technical aspect of change is about making a measurable modification in the job’s routines or practices. Change’s social aspect refers to the way those affected by change think it will alter relationships.&lt;/p&gt;
+
+&lt;p&gt;If we can get better about addressing the social needs of people during change, we will better positioned for long term success. Again, from the 1969 article:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The significance of these research findings, from management’s point of view, is that executives and staff experts need not expertness in using the devices of participation but a real understanding, in depth and detail, of the specific social arrangements that will be sustained or threatened by the change or by the way in which it is introduced.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Technologies come and go. But people remain the same.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Sep 2021 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/</guid>
+        
+        <category>API governance</category>
+        
+        <category>organizations</category>
+        
+        <category>communication</category>
+        
+        <category>management</category>
+        
+        <category>change</category>
+        
+        
+      </item>
     
       <item>
         <title>Creating Compelling Stories</title>
@@ -91,6 +168,9 @@
 &lt;p&gt;That’s just a generic example. If you were to do this for your organization, this remote story would need to be customized to speak to the unique needs, incentives, and fears that exist. Begin sharing a version of your account with those you trust to give you constructive criticism. Then iterate.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“A plausible narrative has immense power. Much more than mere evidence or data.” - Bob Marshall&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Stories are critical for creating systems change and can be told by anyone. If we better understand the elements that go into a story, our messages will find more traction faster. Moving beyond a plausible promise to a full-blown change narrative takes work. However, if your idea is a good one, the results are worth it.&lt;/p&gt;
 </description>
@@ -639,55 +719,6 @@ description: the Id of the user
         <category>environment</category>
         
         <category>behavior</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>How Versus Why Questions</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/questions.png&quot; alt=&quot;A picture of a card with the caption 'Absurd Questions' above a stylized question mark.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;In my API governance experience, I interviewed &lt;em&gt;a lot&lt;/em&gt; of teams. The purpose of those chats was always to reach a better understanding of the problem. A better understanding leads to better design. &lt;strong&gt;Most&lt;/strong&gt; of the time, these conversations were amicable, easy-going affairs. One contributing factor that kept these affairs from becoming confrontations was when I switched from asking “Why” to asking “How” questions.&lt;/p&gt;
-
-&lt;p&gt;When you ask someone “Why” they do or don’t do something, you’ll inevitably provoke a defensive response. For example, when trying to learn more about somebody’s API practice, I could ask:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“Why don’t you have 100% contract test coverage?”&lt;/li&gt;
-  &lt;li&gt;“Why aren’t your API descriptions captured in a single, discoverable place?”&lt;/li&gt;
-  &lt;li&gt;“Why did you produce so many microservices?”&lt;/li&gt;
-  &lt;li&gt;“Why is your domain terminology inconsistent?”&lt;/li&gt;
-  &lt;li&gt;And the classic catch-all, &lt;em&gt;“Why did you do it this way?”&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Each of those may be a legitimate question. However, the nature of the question comes across as a request for justification. Worse, answers to a why question immediately entrenches the person in a list, of their own making, of confirmation bias. What was supposed to be a positive discourse has turned exhausting, as each side attempts to prove that their approach is superior.&lt;/p&gt;
-
-&lt;p&gt;Asking “how” is much more productive. Reframing our points from earlier changes the questions to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“How do you detect breaking changes in production?”&lt;/li&gt;
-  &lt;li&gt;“How do developers discover and learn how to use APIs in your area?”&lt;/li&gt;
-  &lt;li&gt;“How do you manage the greater complexity with your number of microservices?”&lt;/li&gt;
-  &lt;li&gt;“How do you describe this concept within your domain?”&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;“How did you work through the difficult decisions in this design?”&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Both the ‘how’ and ‘why’ examples address, roughly, the same areas of concern. However, the ‘how’ questions are more likely to result in people talking in greater length, detail, and thoughtfulness. They assist us in going further in exploration.&lt;/p&gt;
-
-&lt;p&gt;Asking quality, open-ended questions creates a better rapport and a clearer idea of how to help. And the faster we get to help, the sooner our customers will find success.&lt;/p&gt;
-
-&lt;p&gt;The next time you feel the urge to ask “why”, try reaching for “how” instead.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 23 Jun 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/06/23/HowVersusWhyWhyQuestions/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/06/23/HowVersusWhyWhyQuestions/</guid>
-        
-        <category>API Design</category>
-        
-        <category>collaboration</category>
-        
-        <category>management</category>
-        
-        <category>API Governance</category>
         
         
       </item>
