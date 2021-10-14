@@ -99,10 +99,10 @@
 
 <ul>
   <li>API Evolution, or only allowing for additions to an API</li>
-  <li>Root namespace URI versioning (<code class="highlighter-rouge">https://api.example.com/v1/resource</code>)</li>
-  <li>Resource-level URL versioning (<code class="highlighter-rouge">https://api.example.com/resource/v1</code>)</li>
-  <li>HTTP content header versioning (<code class="highlighter-rouge">curl -H "Accepts-version:1.0" https://api.example.com/resource</code>)</li>
-  <li>HTTP query parameter versioning (<code class="highlighter-rouge">https://api.example.com/resource?version=1</code>)</li>
+  <li>Root namespace URI versioning (<code class="language-plaintext highlighter-rouge">https://api.example.com/v1/resource</code>)</li>
+  <li>Resource-level URL versioning (<code class="language-plaintext highlighter-rouge">https://api.example.com/resource/v1</code>)</li>
+  <li>HTTP content header versioning (<code class="language-plaintext highlighter-rouge">curl -H "Accepts-version:1.0" https://api.example.com/resource</code>)</li>
+  <li>HTTP query parameter versioning (<code class="language-plaintext highlighter-rouge">https://api.example.com/resource?version=1</code>)</li>
 </ul>
 
 <p>Believe it or not, there are even more ways to version an API than that!  And one way isn’t superior to another method. Yet, to manage the cognitive overhead of working with many APIs, it is important to create designs with consistent versioning behavior within a common domain, like an organization. A new member to that domain, when presented with a template, shouldn’t have to guess which approach is desired in their new context.</p>
@@ -112,7 +112,7 @@
 <h2 id="better-descriptions">Better Descriptions</h2>
 <p>Similarly, how many times have you been reading documentation, like that generated from an OpenAPI description, and you’ve come across something like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name: userId
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name: userId
 description: the Id of the user
 </code></pre></div></div>
 

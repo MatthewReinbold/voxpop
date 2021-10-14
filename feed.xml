@@ -4,11 +4,11 @@
     <title>Matthew Reinbold</title>
     <description>This is the website for Matthew Reinbold (that's me!). I am the Director for API Platform Ecosystems and Digital Transformation for Postman. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. 
 </description>
-    <link>https://matthewreinbold.com/</link>
-    <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Oct 2021 10:18:40 -0500</pubDate>
-    <lastBuildDate>Fri, 01 Oct 2021 10:18:40 -0500</lastBuildDate>
-    <generator>Jekyll v4.0.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Oct 2021 10:30:50 -0500</pubDate>
+    <lastBuildDate>Tue, 12 Oct 2021 10:30:50 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
     
       <item>
         <title>We Made an API Description, Now What?</title>
@@ -260,8 +260,8 @@
 
 </description>
         <pubDate>Fri, 01 Oct 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription/</guid>
+        <link>http://localhost:4000/2021/10/01/WeMadeAnAPIDescription/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/10/01/WeMadeAnAPIDescription/</guid>
         
         <category>API governance</category>
         
@@ -371,8 +371,8 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 &lt;p&gt;Technologies come and go. But people remain the same.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Sep 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/</guid>
+        <link>http://localhost:4000/2021/09/22/OvercomingChangeResistance/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/09/22/OvercomingChangeResistance/</guid>
         
         <category>API governance</category>
         
@@ -475,8 +475,8 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 &lt;p&gt;Stories are critical for creating systems change and can be told by anyone. If we better understand the elements that go into a story, our messages will find more traction faster. Moving beyond a plausible promise to a full-blown change narrative takes work. However, if your idea is a good one, the results are worth it.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Sep 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/09/10/CreatingCompellingStories/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/10/CreatingCompellingStories/</guid>
+        <link>http://localhost:4000/2021/09/10/CreatingCompellingStories/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/09/10/CreatingCompellingStories/</guid>
         
         <category>API governance</category>
         
@@ -528,8 +528,8 @@ A picture of a linear lifecycle process accomodating many changes.
 &lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 03 Sep 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/09/03/PlausiblePromises/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/03/PlausiblePromises/</guid>
+        <link>http://localhost:4000/2021/09/03/PlausiblePromises/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/09/03/PlausiblePromises/</guid>
         
         <category>API governance</category>
         
@@ -595,8 +595,8 @@ position.&lt;/p&gt;
 &lt;p&gt;The Kingpin in the Fishbowl technique may seem like change is only a dashboard away. However, based on my experience, it is an example of &lt;em&gt;power-over&lt;/em&gt; rather than &lt;em&gt;power-with&lt;/em&gt;. Before attempting to coerce an influential leader’s priorities, carefully consider how that message may antagonize rather than compliment. If possible, pursue a &lt;em&gt;power-with&lt;/em&gt; strategy instead.&lt;/p&gt;
 </description>
         <pubDate>Fri, 27 Aug 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</guid>
+        <link>http://localhost:4000/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</guid>
         
         <category>API governance</category>
         
@@ -656,8 +656,8 @@ position.&lt;/p&gt;
 &lt;p&gt;As the number and complexity of API ecosystems increase, we also need to increase the sophistication of our scaling approaches. Thankfully, a tremendous body of sociotechnical and systems theory over the decades addresses exactly that. As stewards of those ecosystems, our challenge is to step outside of our previous professional callings and engage with this new (to us) wisdom. The sooner we can do that, the sooner we can deliver on the promise of distributed systems.&lt;/p&gt;
 </description>
         <pubDate>Thu, 19 Aug 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</guid>
+        <link>http://localhost:4000/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</guid>
         
         <category>Fred Emery</category>
         
@@ -701,7 +701,7 @@ A picture of a slide from 2018 commenting on the importance of examples from &lt
 
 &lt;p&gt;That is solid guidance and a step toward encouraging APIs that behave more consistently within a domain. However, even within that tiny snippet, several nuanced elements need to be translated correctly to an OpenAPI’s YAML. We also assume that developers are well versed in YAML conventions. In my experience, OpenAPI is a means to an end, not a topic of voluntary study and application. As a result, whoever is writing the API description writes just enough to get their description to validate against the OpenAPI schema and moves on. This &lt;em&gt;minimum viable description&lt;/em&gt; checks a box but falls short of &lt;em&gt;being good enough for integrators&lt;/em&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paths:
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paths:
     /users:
         get:
             responses:
@@ -724,7 +724,7 @@ components:
 
 &lt;p&gt;So after the description of the pagination guidelines above, include an example that they can easily copy, paste, and customize into their own work, like below. Then continue for each and every other API design feature that would benefit from a more consistent approach. &lt;em&gt;Those writing API descriptions will thank you for it&lt;/em&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paths:
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paths:
     /users:
         get:
             responses:
@@ -754,8 +754,8 @@ components:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 18 Aug 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/08/18/OneWayToImproveAPIGuidance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/18/OneWayToImproveAPIGuidance/</guid>
+        <link>http://localhost:4000/2021/08/18/OneWayToImproveAPIGuidance/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/08/18/OneWayToImproveAPIGuidance/</guid>
         
         <category>API governance</category>
         
@@ -798,8 +798,8 @@ components:
 &lt;p&gt;It is easy to optimize a system for &lt;em&gt;speed&lt;/em&gt;. However, using machine-learning to create environmental prompts isn’t automatically value-adding activity. Designed poorly, it becomes the equivalent of throwing more spagehetti at the wall. When considering what behaviors an environment creates, don’t lose sight of the quality outcomes.&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Jul 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/07/16/GithubCopilot/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/07/16/GithubCopilot/</guid>
+        <link>http://localhost:4000/2021/07/16/GithubCopilot/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/07/16/GithubCopilot/</guid>
         
         <category>API governance</category>
         
@@ -837,10 +837,10 @@ components:
 
 &lt;ul&gt;
   &lt;li&gt;API Evolution, or only allowing for additions to an API&lt;/li&gt;
-  &lt;li&gt;Root namespace URI versioning (&lt;code class=&quot;highlighter-rouge&quot;&gt;https://api.example.com/v1/resource&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;Resource-level URL versioning (&lt;code class=&quot;highlighter-rouge&quot;&gt;https://api.example.com/resource/v1&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;HTTP content header versioning (&lt;code class=&quot;highlighter-rouge&quot;&gt;curl -H &quot;Accepts-version:1.0&quot; https://api.example.com/resource&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;HTTP query parameter versioning (&lt;code class=&quot;highlighter-rouge&quot;&gt;https://api.example.com/resource?version=1&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Root namespace URI versioning (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://api.example.com/v1/resource&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Resource-level URL versioning (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://api.example.com/resource/v1&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;HTTP content header versioning (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl -H &quot;Accepts-version:1.0&quot; https://api.example.com/resource&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;HTTP query parameter versioning (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://api.example.com/resource?version=1&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Believe it or not, there are even more ways to version an API than that!  And one way isn’t superior to another method. Yet, to manage the cognitive overhead of working with many APIs, it is important to create designs with consistent versioning behavior within a common domain, like an organization. A new member to that domain, when presented with a template, shouldn’t have to guess which approach is desired in their new context.&lt;/p&gt;
@@ -850,7 +850,7 @@ components:
 &lt;h2 id=&quot;better-descriptions&quot;&gt;Better Descriptions&lt;/h2&gt;
 &lt;p&gt;Similarly, how many times have you been reading documentation, like that generated from an OpenAPI description, and you’ve come across something like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;name: userId
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;name: userId
 description: the Id of the user
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -920,8 +920,8 @@ description: the Id of the user
 &lt;p&gt;There is a lot that goes into creating APIs with &lt;a href=&quot;https://matthewreinbold.com/2016/06/02/ConsistencyAndCohesion/&quot;&gt;greater consistency and cohesion&lt;/a&gt;. What is your environment doing to make that easier?&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Jul 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/</guid>
+        <link>http://localhost:4000/2021/07/14/WhatShouldBeInATemplate/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/07/14/WhatShouldBeInATemplate/</guid>
         
         <category>motivation</category>
         
@@ -965,8 +965,8 @@ description: the Id of the user
 &lt;p&gt;We’re not there yet with organization-level templates. And, even then, more meaningful templates for their toolchains are only the beginning. As Stack Overflow shows, there are numerous types and times for prompts in a software environment. As people trying to create better outcomes, we need to add environmental design to our available approaches.&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Jun 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/</guid>
+        <link>http://localhost:4000/2021/06/30/TemplatesAsPrompts/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/06/30/TemplatesAsPrompts/</guid>
         
         <category>motivation</category>
         

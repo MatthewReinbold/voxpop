@@ -111,7 +111,7 @@ A picture of a slide from 2018 commenting on the importance of examples from <a 
 
 <p>That is solid guidance and a step toward encouraging APIs that behave more consistently within a domain. However, even within that tiny snippet, several nuanced elements need to be translated correctly to an OpenAPI’s YAML. We also assume that developers are well versed in YAML conventions. In my experience, OpenAPI is a means to an end, not a topic of voluntary study and application. As a result, whoever is writing the API description writes just enough to get their description to validate against the OpenAPI schema and moves on. This <em>minimum viable description</em> checks a box but falls short of <em>being good enough for integrators</em>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>paths:
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>paths:
     /users:
         get:
             responses:
@@ -134,7 +134,7 @@ components:
 
 <p>So after the description of the pagination guidelines above, include an example that they can easily copy, paste, and customize into their own work, like below. Then continue for each and every other API design feature that would benefit from a more consistent approach. <em>Those writing API descriptions will thank you for it</em>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>paths:
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>paths:
     /users:
         get:
             responses:
