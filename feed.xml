@@ -4,11 +4,97 @@
     <title>Matthew Reinbold</title>
     <description>This is the website for Matthew Reinbold (that's me!). I am the Director for API Platform Ecosystems and Digital Transformation for Postman. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Oct 2021 10:30:50 -0500</pubDate>
-    <lastBuildDate>Tue, 12 Oct 2021 10:30:50 -0500</lastBuildDate>
+    <link>https://matthewreinbold.com/</link>
+    <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Nov 2021 14:26:14 -0500</pubDate>
+    <lastBuildDate>Mon, 01 Nov 2021 14:26:14 -0500</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Finding API Governance Balance With Polarity Mapping</title>
+        <description>&lt;p&gt;Some of my most rewarding conversations in my professional career are when I coach folks on their emerging API governance needs. A common myth is that companies &lt;em&gt;must&lt;/em&gt; settle for one extreme decision-making structure or the other regarding governance. Either they grant API teams full autonomy and suffer from the fragmentation and associated overhead it brings. Or they gain alignment and consistency through centralized oversight and heavy bureaucratic processes while losing innovation opportunities.&lt;/p&gt;
+
+&lt;p&gt;Unquestionably, anything done to an extreme can create negative consequences. However, in my experience, too many companies only see a total commitment to one position or another as their only option. What companies need, in reality, is a blending of the two approaches.&lt;/p&gt;
+
+&lt;p&gt;How do we find the Goldilocks (the “just right”) amount of governance? With a &lt;em&gt;polarity map&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;reintroducing-the-polarity-map&quot;&gt;(Re)Introducing the Polarity Map&lt;/h2&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/polarity-map-template-full.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 1: An Empty Polarity Map; &lt;a href=&quot;https://jamboard.google.com/d/1H4Vj1I6SlgWUPUPCgfzqZIKBIrKNlARG9WJe5xXO180/edit?usp=sharing&quot;&gt;I've Made A Google Jamboard Template Available&lt;/a&gt; based on the example from &lt;a href=&quot;https://uxmastery.com/the-joys-of-polarity-mapping/&quot;&gt;UXMastery&lt;/a&gt;.&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ruthmalan.com/Bredemeyer/Org_Dynamics_Masterclass_Overview.htm&quot;&gt;Ruth Malan’s Organizational Design Masterclass&lt;/a&gt; introduced me to polarity mapping. A polarity map recognizes there are benefits and unintended consequences with each extreme. It encourages participants to describe these in detail. Once we’ve identified benefits, we then discuss activities to achieve these desirable traits in our system. After that, we can define a series of measurable indicators. The purpose of these metrics is to signal when we’ve overcorrected and risk unbalancing the system.&lt;/p&gt;
+
+&lt;p&gt;We might use polarity maps for a variety of “versus” articles popular software architecture:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Build versus Buy&lt;/li&gt;
+  &lt;li&gt;Microservice versus Monolithic Architectures&lt;/li&gt;
+  &lt;li&gt;Synchronous versus Asynchronous&lt;/li&gt;
+  &lt;li&gt;Batch versus Real-Time&lt;/li&gt;
+  &lt;li&gt;Testing versus Debugging&lt;/li&gt;
+  &lt;li&gt;API-Design First versus API-Code First&lt;/li&gt;
+  &lt;li&gt;Tabs versus Spaces (joking, kinda)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Polarity maps help explain a phenomenon I observed in previous roles: the “pendulum effect”. If we begin to fill in the map according to the “decentralized versus centralized” API governance, as I described in the beginning, the map looks something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/pm-02.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 2: A Beginning Polarity Map for Centralized Versus Decentralized Governance&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Most organizations start API governance in the upper left of the quadrant, “decentralized”: individual API teams have nearly total decision-making autonomy. While this is efficient initially, the problems with this model become more apparent as the size of the API ecosystem grows. The map represents this change with the downward arrow leading to the lower left quadrant.&lt;/p&gt;
+
+&lt;p&gt;As the negatives accrue, support for the opposite pole, or “centralization”, grows. The organization seeks the benefits of the upper right quadrant. This change works, for a while, until the overcorrection creates its adverse effects. If we continue to follow the arrow’s path, we end up in the lower right area. When the downsides reach a critical mass, the organization moves back toward decentralized decision-making and repeats the process.&lt;/p&gt;
+
+&lt;p&gt;By putting both extremes on a single plot, we can demonstrate benefits to both sides. Moreover, in establishing the oscillation between sides, we can make a case that adopting one or the other is not an argument to be won but a set of properties to balance.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started-with-a-sample-map&quot;&gt;Getting Started With A Sample Map&lt;/h2&gt;
+&lt;p&gt;To illustrate the process, let’s walk through an example polarity map that shows what many burgeoning API ecosystems struggle with: *do we promote &lt;strong&gt;centralized&lt;/strong&gt; or &lt;strong&gt;decentralized&lt;/strong&gt; API management?&lt;/p&gt;
+
+&lt;p&gt;When doing a polarity map, it is essential to remember that each will be different; every company has unique needs, people, goals, and available resources that impact what is listed. &lt;a href=&quot;https://en.wiktionary.org/wiki/YMMV#English&quot;&gt;YMMV&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;However, based on my own experience, a set of benefits and unintended consequences for both sides might look something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/pm-03.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 3: An API Governance Polarity Map With Example Benefits and Unintended Consequences&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;defining-action-steps-and-early-warnings&quot;&gt;Defining Action Steps and Early Warnings&lt;/h2&gt;
+
+&lt;p&gt;Defining &lt;em&gt;benefits&lt;/em&gt; and &lt;em&gt;unintended consequences&lt;/em&gt; is a significant first step. Talking through effects and their placement on the map is beneficial for building organizational or API leadership team alignment. Where things get truly useful is going to the next level and identifying &lt;strong&gt;action steps&lt;/strong&gt; and &lt;strong&gt;early warnings&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/pm-04.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 4: A Polarity Map with Action Steps and Early Warnings Added&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Action Steps&lt;/strong&gt; are how we will gain or maintain the positive results from focusing on a given pole.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Early Warnings&lt;/strong&gt; are quantifiable indicators to signal when a system is straying into the downside of a pole.&lt;/p&gt;
+
+&lt;p&gt;Suppose we want to take actions to promote the positive aspects of centralization (the upper right: “visibility”, “predictability”, “consistency”, etc.). Action may include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Documenting API standard operating procedures (including, but not limited to, style guides, production environment readiness requirements, &lt;a href=&quot;https://adr.github.io/&quot;&gt;architectural decision records for changes&lt;/a&gt;, etc.)&lt;/li&gt;
+  &lt;li&gt;Creating compensation or recognition structures for teams demonstrating API excellence&lt;/li&gt;
+  &lt;li&gt;Forging communication channels to both promote the best work as well as solicit feedback for further refinement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Early warnings for the centralized side of the map may be more challenging to define but not impossible. There could be a problem if there’s a growing clamor of teams waiting on the centralized group for a decision, or a noticeable uptick in meetings to reconcile a tricky edge case. Identify which areas are of most concern for your organization, identify how to quantify changes, and continue to iterate until you have something actionable.&lt;/p&gt;
+
+&lt;p&gt;The left side is left as an exercise for the reader.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Polarities&lt;/strong&gt; involve two equally valid and necessary points of view or truths. Despite how we usually think of them, polarities are interdependent pairs that need each other to maintain and gain performance.&lt;/p&gt;
+
+&lt;p&gt;A polarity map is a tool that API leaders can use to  understand where they are in the system and accentuate positive aspects of both worlds. When it comes to API ecosystems, polarity maps suggest that centralized or decentralized decision-making is not final governance destinations but part of a whole to be managed.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Nov 2021 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance/</guid>
+        
+        <category>API governance</category>
+        
+        <category>Ruth Malan</category>
+        
+        <category>polarity mapping</category>
+        
+        <category>organizations</category>
+        
+        
+      </item>
     
       <item>
         <title>We Made an API Description, Now What?</title>
@@ -260,8 +346,8 @@
 
 </description>
         <pubDate>Fri, 01 Oct 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/10/01/WeMadeAnAPIDescription/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/10/01/WeMadeAnAPIDescription/</guid>
+        <link>https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription/</guid>
         
         <category>API governance</category>
         
@@ -371,8 +457,8 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 &lt;p&gt;Technologies come and go. But people remain the same.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Sep 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/09/22/OvercomingChangeResistance/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/09/22/OvercomingChangeResistance/</guid>
+        <link>https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/</guid>
         
         <category>API governance</category>
         
@@ -475,8 +561,8 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 &lt;p&gt;Stories are critical for creating systems change and can be told by anyone. If we better understand the elements that go into a story, our messages will find more traction faster. Moving beyond a plausible promise to a full-blown change narrative takes work. However, if your idea is a good one, the results are worth it.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Sep 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/09/10/CreatingCompellingStories/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/09/10/CreatingCompellingStories/</guid>
+        <link>https://matthewreinbold.com/2021/09/10/CreatingCompellingStories/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/10/CreatingCompellingStories/</guid>
         
         <category>API governance</category>
         
@@ -528,8 +614,8 @@ A picture of a linear lifecycle process accomodating many changes.
 &lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 03 Sep 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/09/03/PlausiblePromises/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/09/03/PlausiblePromises/</guid>
+        <link>https://matthewreinbold.com/2021/09/03/PlausiblePromises/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/03/PlausiblePromises/</guid>
         
         <category>API governance</category>
         
@@ -595,8 +681,8 @@ position.&lt;/p&gt;
 &lt;p&gt;The Kingpin in the Fishbowl technique may seem like change is only a dashboard away. However, based on my experience, it is an example of &lt;em&gt;power-over&lt;/em&gt; rather than &lt;em&gt;power-with&lt;/em&gt;. Before attempting to coerce an influential leader’s priorities, carefully consider how that message may antagonize rather than compliment. If possible, pursue a &lt;em&gt;power-with&lt;/em&gt; strategy instead.&lt;/p&gt;
 </description>
         <pubDate>Fri, 27 Aug 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</guid>
+        <link>https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</guid>
         
         <category>API governance</category>
         
@@ -656,8 +742,8 @@ position.&lt;/p&gt;
 &lt;p&gt;As the number and complexity of API ecosystems increase, we also need to increase the sophistication of our scaling approaches. Thankfully, a tremendous body of sociotechnical and systems theory over the decades addresses exactly that. As stewards of those ecosystems, our challenge is to step outside of our previous professional callings and engage with this new (to us) wisdom. The sooner we can do that, the sooner we can deliver on the promise of distributed systems.&lt;/p&gt;
 </description>
         <pubDate>Thu, 19 Aug 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</guid>
+        <link>https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</guid>
         
         <category>Fred Emery</category>
         
@@ -754,8 +840,8 @@ components:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 18 Aug 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/08/18/OneWayToImproveAPIGuidance/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/08/18/OneWayToImproveAPIGuidance/</guid>
+        <link>https://matthewreinbold.com/2021/08/18/OneWayToImproveAPIGuidance/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/18/OneWayToImproveAPIGuidance/</guid>
         
         <category>API governance</category>
         
@@ -798,8 +884,8 @@ components:
 &lt;p&gt;It is easy to optimize a system for &lt;em&gt;speed&lt;/em&gt;. However, using machine-learning to create environmental prompts isn’t automatically value-adding activity. Designed poorly, it becomes the equivalent of throwing more spagehetti at the wall. When considering what behaviors an environment creates, don’t lose sight of the quality outcomes.&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Jul 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/07/16/GithubCopilot/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/07/16/GithubCopilot/</guid>
+        <link>https://matthewreinbold.com/2021/07/16/GithubCopilot/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/07/16/GithubCopilot/</guid>
         
         <category>API governance</category>
         
@@ -920,8 +1006,8 @@ description: the Id of the user
 &lt;p&gt;There is a lot that goes into creating APIs with &lt;a href=&quot;https://matthewreinbold.com/2016/06/02/ConsistencyAndCohesion/&quot;&gt;greater consistency and cohesion&lt;/a&gt;. What is your environment doing to make that easier?&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Jul 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/07/14/WhatShouldBeInATemplate/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/07/14/WhatShouldBeInATemplate/</guid>
+        <link>https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/</guid>
         
         <category>motivation</category>
         
@@ -934,47 +1020,6 @@ description: the Id of the user
         <category>Boris Vernoff</category>
         
         <category>dashboards</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Rethinking the Humble Template</title>
-        <description>&lt;p&gt;In my last post, &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;I discussed how changing the environment could change people’s behavior&lt;/a&gt;. Further, I proposed that software tools are as much the environment as a developer’s office. Careful prompt design within those environments can create &lt;strong&gt;better behavioral outcomes&lt;/strong&gt; with &lt;strong&gt;less effort&lt;/strong&gt; and &lt;strong&gt;more buy-in&lt;/strong&gt;. But what does that look like in practice?&lt;/p&gt;
-
-&lt;h3 id=&quot;the-stack-overflow-example&quot;&gt;The Stack Overflow Example&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt; is a website where people ask questions for other people to answer. To remain viable, Stack Overflow desires certain behaviors from its audience. First of all, they aren’t interested in &lt;em&gt;quantity&lt;/em&gt; but quality; poorly worded, vague, or duplicate questions aren’t welcome. You don’t go to Stack Overflow to idly chat. Further, they aren’t interested in lots of answers, only the &lt;em&gt;right&lt;/em&gt; answer.&lt;/p&gt;
-
-&lt;p&gt;The website’s environment goes to great lengths to prompt these sorts of behaviors. Before one is allowed to ask a question, a modal pop-up reminds the asker to search to see if their question has already been asked and how to ask if they can’t find a prior version.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/prompt01.png&quot; alt=&quot;A picture of the Stack Overflow modal prompt before posting a question.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;If I, subsequently begin a question, the interface immediately provides feedback as to whether it is worth posting, and any already existing questions. The process continues through the post body, with a host of prompts for specificity, uniqueness, and completeness. By exhibiting these behaviors, I’m more likely to get my question answered, and the site gets a valuable reference for the next person.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/prompt02.png&quot; alt=&quot;A picture of the Stack Overflow question interface.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stack Overflow still has moderators&lt;/strong&gt;. They do step in when necessary. But the amount of manual intervention they undertake is significantly less than if there were no environmental nudges toward behaviors beneficial for the community.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-openapi-example&quot;&gt;The OpenAPI Example&lt;/h3&gt;
-&lt;p&gt;Likewise, we should think of templates also as a prompt. When capturing business intent in an API specification, like OpenAPI, many tools present a bare-bones template. This template exists to help a new designer get started but often it is the most minimal valid version.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/prompt03.png&quot; alt=&quot;A picture of the default OpenAPI template provided by Postman..&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;There is so much potential here! Most companies I’m familiar with have some form of an &lt;a href=&quot;http://apistylebook.com/design/guidelines/&quot;&gt;API style guide&lt;/a&gt;. Imagine if I, as a new developer, had those desired API behaviors around naming, descriptions, and responses &lt;em&gt;embedded in my tooling&lt;/em&gt;? How much easier would it be to design “the right way” if I just had to customize a relevant example rather than invent YAML whole cloth? How much more likely am I to adopt a particular error object structure if it is prompted at the beginning of every new design, as opposed to having to track it down in documentation somewhere else?&lt;/p&gt;
-
-&lt;p&gt;We’re not there yet with organization-level templates. And, even then, more meaningful templates for their toolchains are only the beginning. As Stack Overflow shows, there are numerous types and times for prompts in a software environment. As people trying to create better outcomes, we need to add environmental design to our available approaches.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 30 Jun 2021 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2021/06/30/TemplatesAsPrompts/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/06/30/TemplatesAsPrompts/</guid>
-        
-        <category>motivation</category>
-        
-        <category>API governance</category>
-        
-        <category>environment</category>
-        
-        <category>behavior</category>
         
         
       </item>
