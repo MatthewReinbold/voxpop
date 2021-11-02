@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Resolve to Systems, Not Goals</title>
-  <meta name="description" content="												Reaching			">
+  <title>Why is there no &#39;Correct&#39; API Lifecycle?</title>
+  <meta name="description" content="Recently, my colleagues in the Postman Open Technologies Program and I were discussing API lifecycles. It quickly became apparent that we each had our own me...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://matthewreinbold.com/2014/01/23/SystemsNotGoals/">
+  <link rel="canonical" href="https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
 </head>
 
@@ -80,59 +80,54 @@
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Resolve to Systems, Not Goals</h1>
-    <h2 class="post-subtitle">Tweaking the Traditional New Year's Resolutions</h2>
-    <p class="post-meta"><time datetime="2014-01-23T00:00:00-06:00" itemprop="datePublished">Jan 23, 2014</time></p>
+    <h1 class="post-title" itemprop="name headline">Why is there no 'Correct' API Lifecycle?</h1>
+    <h2 class="post-subtitle">If an API lifecycle is so important, why can't we agree on the steps it should take?</h2>
+    <p class="post-meta"><time datetime="2021-11-02T00:00:00-05:00" itemprop="datePublished">Nov 2, 2021</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>
-	<figure>
-			<a href="/images/2014/01/snowfall.jpg" class="lightbox"><img src="/images/2014/01/snowfall-sm.jpg" alt="Picture of Reaching for Snowfall" /></a>			
-		<figcaption>
-			Reaching
-		</figcaption>
-	</figure>
-</p>
+    <p>Recently, my colleagues in the Postman Open Technologies Program and I were discussing API lifecycles. It quickly became apparent that we each had our own mental models for what was (and *most certainly <strong>was not</strong> *) worthy of inclusion.</p>
 
-<p>It's almost the end of January, and chances are the New Year's resolution you had made for yourself is long forgotten. You're not alone. I've done stuff like that every year. So why aren't we getting better?</p>
+<p>A quick survey of search results hints that the industry has as many opinions about what constitutes an API lifecycle as we had:</p>
 
-<p>Goals are like cotton candy. There's an implied substance. They're easy. They're exciting. The aspirational success of our better selves seems so close I can taste it (I imagine a cross between sweat and butterscotch). But, ultimately, I fail when it comes to implementation. "I want to travel the world" is a great goal. But the ginormous scope is more likely to overwhelm the venture before it gets started than sustain it. A day goes by without action and I may feel guilty and resolve to do better the next day. But then something happens and another day goes by. That stagnation goes from a pool of guilt to stinky, stagnating stress. Those lousy feelings lead to avoidance. Before I know it I'm ready to call off the entire thing and resolve to "try harder" next year.</p>
+<ul>
+  <li><a href="https://searchapparchitecture.techtarget.com/feature/5-stages-of-an-API-lifecycle-explained">TechTarget has a five-step lifecycle</a>: plan, dev, test, deploy, retire</li>
+  <li><a href="https://apigee.com/about/cp/api-lifecycle-management">Apigee promotes an 8-step version</a>: design, develop, secure, publish, scale, monitor, analyze, monetize</li>
+  <li><a href="https://blog.axway.com/amplify-products/api-management/api-lifecycle-management">Axway lists three steps</a> (with many, many substeps): creation, control, consumption</li>
+  <li><a href="https://swagger.io/blog/api-strategy/what-is-api-lifecycle-management/">SmartBear mentions 5</a>, but a <em>different</em> five than TechTarget: planning and designing, developing, testing, deploying, retiring</li>
+  <li><a href="https://www.mulesoft.com/webinars/api/full-lifecycle-api-management-anypoint-platform">Mulesoft mentions 4</a>: design, implementation, security, management</li>
+  <li><a href="https://developers.redhat.com/blog/2019/02/25/full-api-lifecycle-management-a-primer">Redhat features a confusing conjoined set of circles</a>, and 13(!) kitchen-sink steps: strategy, design, mock, test, implement, deploy, secure, manage, discover, develop, consume, monitor, monetize</li>
+</ul>
 
-<p><strong>It is not enough to have goals</strong>. What is needed, instead, are <em>systems</em>. Systems focus effort on obtainable <strong>daily</strong> wins that, cumulatively, move one closer to their goal. And by establishing a enjoyable daily cycle with demonstrable process we are also establish the virtuous feedback loops of positive habits.</p>
+<p>The process that evolved during my time as Capital One’s Center of Excellence Director skewed heavily to the needs of a large, mature, and internal system. As a result, our API lifecycle:</p>
 
-<p>I'd like to claim I came to that realization on my own. However, props go to my wife, who forwarded me an excellent <a href="http://m.entrepreneur.com/article/230333">piece from Entrepreneur.com</a>. The TL;DR version:
-    <blockquote>
-        <ul>
-        <li>Commit to a process, not a goal.</li>
-        <li>Release the need for immediate results.</li>
-        <li>Build feedback loops that celebrate the journey.</li>
-        </ul>
-    </blockquote>
-</p>
+<ul>
+  <li>Made no mention of monetization</li>
+  <li>Emphasized discrete team ownership and end-of-life elements</li>
+  <li>Hand-waved past development requires as code creation had its process, controls, and oversite group</li>
+</ul>
 
-<p>Once again, I started 2014 with several goals. But, with the above details in mind, I'm approaching them differently.</p>
+<p>The process that resonated for us, eventually, was:</p>
 
-<p>I get so much from writing on a regular basis. I feel sharper when I regularly strain to mine words from the depths and forge them into coherence. Unlike years previous, however, my goal is not "to write a book" or "<a href="http://nanowrimo.org/">NaNoWriMo</a>". That would be committing to a huge goal that is more likely to leave me feeling like a failure on a daily basis. Instead, <em>my system</em> is setup to encourage me to write at least five hundred words a day.</p>
+<ul>
+  <li><strong>Discover</strong>: Has someone already solved this problem?</li>
+  <li><strong>Define</strong>: Who will own the work at a team and LOB level, what access models will be in place, what SLAs need to be met, etc.</li>
+  <li><strong>Design</strong>: Engage with stakeholders, make an OpenAPI representation, get feedback, iterate</li>
+  <li><strong>Develop</strong>: Code the thing (subject to many, many other criteria outside the API group)</li>
+  <li><strong>Deploy</strong></li>
+  <li><strong>Deprecate</strong>: Plan for ending or superseding with a subsequent version; includes communication plan, timeline expectations, etc.</li>
+  <li><strong>Delete</strong> Define what info sticks around for historical purposes while ensuring any executables, access tokens, and gateway routing is removed</li>
+</ul>
 
-<p>
-	<figure>
-			<a href="/images/2014/01/systemmess.jpg" class="lightbox"><img src="/images/2014/01/systemmess-sm.jpg" alt="Messy System Whiteboarded" /></a>			
-		<figcaption>
-			A System Shouldn't Required a Diagram
-		</figcaption>
-	</figure>
-</p>
+<p>So why all the variation? Why isn’t there a “right” or “correct” API lifecycle?</p>
 
-<p>What do I mean by "system"? The first is selecting a daily amount that I can accomplish. Five hundred words I can manage among family, work, and play. I've released the need for immediate results; those words are private and can be about anything. If they turn into a blog post later, so be it. I'm free to see what happens. Instead of feeling stressed about trying to fulfill a quota I'm excited about writing and seek out opportunities now "to see what's there". And these daily steps are incrementally moving me closer to a "big" goal. A typical book is 50,000-60,000 works. Assuming I meet my system requirements  five days a week I'll have written 130,000 words in 2014 &mdash; <em>or about the equivalent of two and a half novels</em>. To close the feedback loop I'm using <a href="http://draftin.com">DraftIn, an online collaboration tool for writers</a>. It allows me to set a daily quota, sends reminders when I haven't written anything, and congratulates me on positive streaks.</p>
+<p>I think the variation is largely because lifecycles are created within companies to generate particular outcomes. Nobody installs a lifecycle for the sake of having more to train and enforce. If sloppy design leads to losses in a competitive marketplace, a company should have an explicit “design” step in its lifecycle to drive better outcomes. If security has been a mish-mash, a dedicated “security” step should be elevated as part of a lifecycle process to prompt more focus on correcting that behavior.</p>
 
-<p>Other goal I have is going deeper into Android development. A goal I've had in the past that I now recognize as a trap is "deploy <em>something</em> of my own in the Android Play store". That doesn't do a good job of setting up a system of daily progress to the goal. There's a tremendous amount of expectation there for immediate results. And what is the feedback, without those incremental wins, on whether I'm any closer to putting an app in the store today than I was yesterday?</p>
+<p>A monitoring company is sure to list monitoring as part of its lifecycle. A company that sells documentation software will also elevate documentation to a high-level concern. It will depend on the vendor, but whatever their product excels at will probably be part of whatever lifecycle they promote.</p>
 
-<p>This year I'm approaching things differently. My means for daily improvement in the right direction is working through a pair of books. The first is <strong>Learn Java for Android Development</strong> by Jeff Friesen. The second is <strong>Learning Android: Building Applications for the Android Market</strong> by Marko Gargenta. I created <a href="https://github.com/MatthewReinbold/Homework-JavaForAndroid">a public repository on Github</a> to measure progress. It produces an RSS feed of updates and a <a href="https://github.com/users/MatthewReinbold/contributions_calendar_data">JSON feed if I want to build my own simple feedback congratulations and reminders</a>. Even if I don't have an app in the store by 2014 I'll be much more familiar with Git, Java development, and Android.</p>
+<p>With companies looking at instituting a lifecycle, I’d <em>first</em> find the burning problem that would benefit from additional learning, creativity, and focus. That would be the first touchstone called out in the path between an idea’s inception and production runtime. I’d then continue to build up and out from there. Dropping an entire thirteen-step lifecycle where none previously existed isn’t just introducing a massive amount of disruption all at once - it also summons <a href="https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/">a proportional amount of resistance</a>.</p>
 
-<p>Finally, I'd really like to "get into" (literally) wearables. I have a number of ideas that are probably better suited for a separate post. But what I'm trying to define, at the moment, is what the virtuous system is for that goal. How do I turn that into a process? How do I move toward something bigger without requiring immediate results? And how do I build feedback loops for a physical item(s)? That is going to take some additional processing.</p>
-
-<p>What are you doing for resolutions this year? What have you found that works? Leave me a comment in the contact form below. I'd love to have a few people to bounce ideas off of. How we can keep the good intention of the New Year going the entire year long?</p>
+<p><figure><img src="/images/2021/11/pond.png" alt="A picture of geese on a pond with fall trees behind them." /></figure></p>
 
   </div>
 

@@ -6,9 +6,81 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Nov 2021 14:26:14 -0500</pubDate>
-    <lastBuildDate>Mon, 01 Nov 2021 14:26:14 -0500</lastBuildDate>
+    <pubDate>Tue, 02 Nov 2021 17:38:10 -0500</pubDate>
+    <lastBuildDate>Tue, 02 Nov 2021 17:38:10 -0500</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Why is there no 'Correct' API Lifecycle?</title>
+        <description>&lt;p&gt;Recently, my colleagues in the Postman Open Technologies Program and I were discussing API lifecycles. It quickly became apparent that we each had our own mental models for what was (and *most certainly &lt;strong&gt;was not&lt;/strong&gt; *) worthy of inclusion.&lt;/p&gt;
+
+&lt;p&gt;A quick survey of search results hints that the industry has as many opinions about what constitutes an API lifecycle as we had:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://searchapparchitecture.techtarget.com/feature/5-stages-of-an-API-lifecycle-explained&quot;&gt;TechTarget has a five-step lifecycle&lt;/a&gt;: plan, dev, test, deploy, retire&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apigee.com/about/cp/api-lifecycle-management&quot;&gt;Apigee promotes an 8-step version&lt;/a&gt;: design, develop, secure, publish, scale, monitor, analyze, monetize&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.axway.com/amplify-products/api-management/api-lifecycle-management&quot;&gt;Axway lists three steps&lt;/a&gt; (with many, many substeps): creation, control, consumption&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://swagger.io/blog/api-strategy/what-is-api-lifecycle-management/&quot;&gt;SmartBear mentions 5&lt;/a&gt;, but a &lt;em&gt;different&lt;/em&gt; five than TechTarget: planning and designing, developing, testing, deploying, retiring&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mulesoft.com/webinars/api/full-lifecycle-api-management-anypoint-platform&quot;&gt;Mulesoft mentions 4&lt;/a&gt;: design, implementation, security, management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.redhat.com/blog/2019/02/25/full-api-lifecycle-management-a-primer&quot;&gt;Redhat features a confusing conjoined set of circles&lt;/a&gt;, and 13(!) kitchen-sink steps: strategy, design, mock, test, implement, deploy, secure, manage, discover, develop, consume, monitor, monetize&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The process that evolved during my time as Capital One’s Center of Excellence Director skewed heavily to the needs of a large, mature, and internal system. As a result, our API lifecycle:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Made no mention of monetization&lt;/li&gt;
+  &lt;li&gt;Emphasized discrete team ownership and end-of-life elements&lt;/li&gt;
+  &lt;li&gt;Hand-waved past development requires as code creation had its process, controls, and oversite group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The process that resonated for us, eventually, was:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Discover&lt;/strong&gt;: Has someone already solved this problem?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Define&lt;/strong&gt;: Who will own the work at a team and LOB level, what access models will be in place, what SLAs need to be met, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: Engage with stakeholders, make an OpenAPI representation, get feedback, iterate&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Develop&lt;/strong&gt;: Code the thing (subject to many, many other criteria outside the API group)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deploy&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deprecate&lt;/strong&gt;: Plan for ending or superseding with a subsequent version; includes communication plan, timeline expectations, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delete&lt;/strong&gt; Define what info sticks around for historical purposes while ensuring any executables, access tokens, and gateway routing is removed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So why all the variation? Why isn’t there a “right” or “correct” API lifecycle?&lt;/p&gt;
+
+&lt;p&gt;I think the variation is largely because lifecycles are created within companies to generate particular outcomes. Nobody installs a lifecycle for the sake of having more to train and enforce. If sloppy design leads to losses in a competitive marketplace, a company should have an explicit “design” step in its lifecycle to drive better outcomes. If security has been a mish-mash, a dedicated “security” step should be elevated as part of a lifecycle process to prompt more focus on correcting that behavior.&lt;/p&gt;
+
+&lt;p&gt;A monitoring company is sure to list monitoring as part of its lifecycle. A company that sells documentation software will also elevate documentation to a high-level concern. It will depend on the vendor, but whatever their product excels at will probably be part of whatever lifecycle they promote.&lt;/p&gt;
+
+&lt;p&gt;With companies looking at instituting a lifecycle, I’d &lt;em&gt;first&lt;/em&gt; find the burning problem that would benefit from additional learning, creativity, and focus. That would be the first touchstone called out in the path between an idea’s inception and production runtime. I’d then continue to build up and out from there. Dropping an entire thirteen-step lifecycle where none previously existed isn’t just introducing a massive amount of disruption all at once - it also summons &lt;a href=&quot;https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/&quot;&gt;a proportional amount of resistance&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/pond.png&quot; alt=&quot;A picture of geese on a pond with fall trees behind them.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Nov 2021 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle/</guid>
+        
+        <category>API governance</category>
+        
+        <category>API lifecycle</category>
+        
+        <category>TechTarget</category>
+        
+        <category>Apigee</category>
+        
+        <category>Axway</category>
+        
+        <category>SmartBear</category>
+        
+        <category>Mulesoft</category>
+        
+        <category>Redhat</category>
+        
+        <category>Capital One</category>
+        
+        <category>change management</category>
+        
+        
+      </item>
     
       <item>
         <title>Finding API Governance Balance With Polarity Mapping</title>
@@ -904,122 +976,6 @@ components:
         <category>ide</category>
         
         <category>sql injection</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>What Prompts Should Be In an OpenAPI Tempate?</title>
-        <description>&lt;p&gt;In my last piece, &lt;a href=&quot;https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/&quot;&gt;I talked about the importance of not overlooking the behavioral influence of software templates&lt;/a&gt;. The conclusion was that our output is influenced by our tools whether we consciously are aware of it or not. Therefore, we &lt;em&gt;could&lt;/em&gt; continue to trudge on in ignorance and wonder why things aren’t working out as intended. &lt;strong&gt;OR&lt;/strong&gt; we can design our environments to more easily achieve our governance outcomes.&lt;/p&gt;
-
-&lt;p&gt;An OpenAPI description has become the most common way to express RESTful and RESTish API designs. As a result, a wide variety of API tooling presents an OpenAPI default to a developer beginning a new design. Unfortunately, this default is usually a lowest-common-denominator, stripped-down suggestion that does little to encourage company-common practices.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/06/prompt03.png&quot; alt=&quot;A picture of the default OpenAPI template provided by Postman.&quot; /&gt;&lt;figcaption&gt;A picture of the default OpenAPI template provided by Postman.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;What kinds of prompts could an API Center of Excellence/Enablement, API Governance, or enterprise architecture group consider putting in their default template?&lt;/p&gt;
-
-&lt;h2 id=&quot;versioning&quot;&gt;Versioning&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.gartner.com/en/documents/4002570-how-to-deliver-sustainable-apis&quot;&gt;In its research (paywalled, unfortunately)&lt;/a&gt;, Gartner identifies not one, not two, but &lt;em&gt;five&lt;/em&gt; different ways an API could be versioned:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;API Evolution, or only allowing for additions to an API&lt;/li&gt;
-  &lt;li&gt;Root namespace URI versioning (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://api.example.com/v1/resource&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;Resource-level URL versioning (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://api.example.com/resource/v1&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;HTTP content header versioning (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl -H &quot;Accepts-version:1.0&quot; https://api.example.com/resource&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;HTTP query parameter versioning (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://api.example.com/resource?version=1&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Believe it or not, there are even more ways to version an API than that!  And one way isn’t superior to another method. Yet, to manage the cognitive overhead of working with many APIs, it is important to create designs with consistent versioning behavior within a common domain, like an organization. A new member to that domain, when presented with a template, shouldn’t have to guess which approach is desired in their new context.&lt;/p&gt;
-
-&lt;p&gt;The OpenAPI template should demonstrate the versioning method preferred by the organization. It should not be up to the designer to recall best practices from a separate correspondence in order to do the right thing.&lt;/p&gt;
-
-&lt;h2 id=&quot;better-descriptions&quot;&gt;Better Descriptions&lt;/h2&gt;
-&lt;p&gt;Similarly, how many times have you been reading documentation, like that generated from an OpenAPI description, and you’ve come across something like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;name: userId
-description: the Id of the user
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;While that might be &lt;em&gt;technically&lt;/em&gt; correct, it is also the bare minimum way to describe an important piece of information. The writer might have not bothered with a description since it doesn’t convey much more than what could be gleaned from the name.&lt;/p&gt;
-
-&lt;p&gt;In a previous role, we defined a series of characteristics that makes a compelling, worthwhile description.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Characteristic&lt;/th&gt;
-      &lt;th&gt;Details&lt;/th&gt;
-      &lt;th&gt;Examples&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Context&lt;/td&gt;
-      &lt;td&gt;Context Detailed business context explaining what the data stands for and its expected usage&lt;/td&gt;
-      &lt;td&gt;“A userId represents individuals and business entities that either (1) have active accounts or (2) are in the pre-sales pipeline.”&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Disambiguation&lt;/td&gt;
-      &lt;td&gt;Explains terms not commonly used&lt;/td&gt;
-      &lt;td&gt;“Field refers to the number of seconds after launch when MECO occurred. MECO stands for “Main Engine Cut-Off”&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Interrelationship&lt;/td&gt;
-      &lt;td&gt;Defines if there is an important interrelationship with other available data in the same structure&lt;/td&gt;
-      &lt;td&gt;“User account status code and user reactivation indicator are referenced together for obtaining the correct status of the account.”&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Values, Range, or Examples&lt;/td&gt;
-      &lt;td&gt;Proves insight into the range or bounded set of values possible.&lt;/td&gt;
-      &lt;td&gt;“Valid FICO scores are between 300 and 850. A FICO score less than 300 or greater than 850 is invalid. Negative numbers should never be used.”&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Data Sourcing&lt;/td&gt;
-      &lt;td&gt;Where the data comes from or how it is generated.&lt;/td&gt;
-      &lt;td&gt;“This FICO score is provided by Equifax.”&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Reference/Notes&lt;/td&gt;
-      &lt;td&gt;Provides links to training documents&lt;/td&gt;
-      &lt;td&gt;“For more information on satellite launch thresholds and valid values, please see https://example.org/reference/DOC-12345.”&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Proper Grammar &amp;amp; Complete Sentences&lt;/td&gt;
-      &lt;td&gt;Definitions should start with the term being defined.&lt;/td&gt;
-      &lt;td&gt;“Currency Code is the ISO three-character code indicating the currency for the transaction.”&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Update Frequency/Retention&lt;/td&gt;
-      &lt;td&gt;Information on source application, frequency of upload, and/or retention policy, if applicable.&lt;/td&gt;
-      &lt;td&gt;“Data is updated monthly for the entire customer population.”&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Not every field will require every characteristic. However, when it comes to the template presented to an API designer, we should provide examples that illustrate better, more complete information. If we give a designer a bare-bones, minimally worded OpenAPI description, they’re likely to continue that same approach in their work.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;As your API landscape grows, perhaps versioning or better field descriptions aren’t a primary concern. However, hopefully, these examples have sparked some ideas on how you might lean in on the issues that concern you.&lt;/p&gt;
-
-&lt;p&gt;And it doesn’t have to end with just the templates. At the recently completed APIDays conference, &lt;a href=&quot;https://youtu.be/D1vPdX2TdRI?t=901&quot;&gt;ADP’s Boris Vernoff demonstrated how their customized environments promote consistency within their design environments (screens begin around the 15-minute mark)&lt;/a&gt;. Rather than starting the design process with a blank page, a designer can select from a series of prompts. This ‘wizard’ approach does constrain the possibility space. However, in doing so, it directs energy to solve the unique business problem and away from introducing variance on non-value-adding API mechanics.&lt;/p&gt;
-
-&lt;p&gt;There is a lot that goes into creating APIs with &lt;a href=&quot;https://matthewreinbold.com/2016/06/02/ConsistencyAndCohesion/&quot;&gt;greater consistency and cohesion&lt;/a&gt;. What is your environment doing to make that easier?&lt;/p&gt;
-</description>
-        <pubDate>Wed, 14 Jul 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/</guid>
-        
-        <category>motivation</category>
-        
-        <category>API governance</category>
-        
-        <category>environment</category>
-        
-        <category>behavior</category>
-        
-        <category>Boris Vernoff</category>
-        
-        <category>dashboards</category>
         
         
       </item>
