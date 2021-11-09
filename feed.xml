@@ -6,9 +6,56 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Nov 2021 17:38:10 -0500</pubDate>
-    <lastBuildDate>Tue, 02 Nov 2021 17:38:10 -0500</lastBuildDate>
+    <pubDate>Tue, 09 Nov 2021 11:23:58 -0600</pubDate>
+    <lastBuildDate>Tue, 09 Nov 2021 11:23:58 -0600</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Pandemic-Led Digital Transformation; You're Doing it Wrong</title>
+        <description>&lt;p&gt;The pandemic impacted businesses in many ways, some obvious (hello, work-from-home) and some so subtle that they may not even be apparent for several more years. One aspect pointed to in business and technology press is how the pandemic “sped up” digital transformation.&lt;/p&gt;
+
+&lt;p&gt;How true that statement is depends to large degree with how you define digital transformation. I was recently asked for my thoughts on the matter and I thought I’d also share them here.&lt;/p&gt;
+
+&lt;h2 id=&quot;was-the-pandemic-a-catalyst-for-digital-transformation-or-do-you-think-most-companies-missed-the-chance-to-drive-their-digital-transformation-initiatives-forward&quot;&gt;Was the pandemic a catalyst for digital transformation? Or do you think most companies missed the chance to drive their digital transformation initiatives forward?&lt;/h2&gt;
+
+&lt;p&gt;Change is hard, even under the best of conditions. We often see a change in moments of crisis (takeovers, bankruptcy, or public scandal) when the call-to-action is finally loud enough to overcome people’s comfort with the status quo.&lt;/p&gt;
+
+&lt;p&gt;The pandemic (and ensuing intertwined crises including supply chain disruption, political upheaval, and social unrest) provided plenty of impetus to change. However, companies need to assess whether what changed is simply doing the same thing as before, but over video and instant messaging? Or did they embrace the situation to introduce new norms, processes, and products to their business?&lt;/p&gt;
+
+&lt;p&gt;Doing the same thing as before, but more efficiently, is called &lt;em&gt;digitization&lt;/em&gt;. It &lt;strong&gt;was not&lt;/strong&gt; a digital transformation. At the beginning of the pandemic, I can’t fault leaders for this response; they did the best they could to maintain any semblance of “normal” even in the most adverse conditions-&lt;/p&gt;
+
+&lt;p&gt;-even if that meant attempting rituals that were a poor fit for this new reality. A cringe-worthy example was the rash of post-pandemic “virtual happy hours”. The attempts to connect came from a place of good-intentions: replicate the after-hours get together to foster a sense of team. People assumed they’d do the same thing as before but BYOB over Zoom with everyone working from home.&lt;/p&gt;
+
+&lt;p&gt;However, rather than being something to look forward to, these become loathsome, dreary affairs that only reminded people of how weird and isolated the pandemic made all of us. After a day filled with imperfect video meetings, the last thing most people wish for is more time at their makeshift desk, glued to the computer.&lt;/p&gt;
+
+&lt;p&gt;Digital transformation requires examining these things that used to work, identifying what was valuable, and imbuing those properties in forms better adapted for change.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-would-you-advise-companies-to-take-on-digital-transformation-in-2022&quot;&gt;How would you advise companies to take on digital transformation in 2022?&lt;/h2&gt;
+
+&lt;p&gt;Going into 2022, we have a better sense that there will not be an exact return to pre-pandemic “business-as-usual”. Leaders need to stop thinking about Band-Aids and temporary fixes while waiting to return to the way things were before. Instead, leaders need to take a hard look at which parts of their business fared better than others. Which areas were ill-suited to the rapid, consistent change? And how vital is fixing those areas before the next shock?&lt;/p&gt;
+
+&lt;p&gt;Digital business design is the holistic organizational configuration of people (roles, accountabilities, structures, and skills), processes (workflows, routines, procedures), &lt;strong&gt;and then&lt;/strong&gt; technology (infrastructure and applications). Someone somewhere is experimenting with providing employees with meaning, connection, and advancement in these necessary new ways. That person can either be at your company or employed by a disruptive rival.&lt;/p&gt;
+
+&lt;p&gt;Where are your experiments? How do you measure whether the new ways, made possible by digital technology, are better than the old ways? How are you discovering new, uninterruptible ways of delivering business value? If companies haven’t thought about or answered these questions, now is the time to start.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Nov 2021 00:00:00 -0600</pubDate>
+        <link>https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong/</guid>
+        
+        <category>digital transformation</category>
+        
+        <category>pandemic</category>
+        
+        <category>covid-19</category>
+        
+        <category>leadership</category>
+        
+        <category>management</category>
+        
+        <category>organizations</category>
+        
+        
+      </item>
     
       <item>
         <title>Why is there no 'Correct' API Lifecycle?</title>
@@ -922,60 +969,6 @@ components:
         <category>styleguide</category>
         
         <category>documentation</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Machine Learning Prompts Within IDEs</title>
-        <description>&lt;p&gt;In previous posts, I’ve discussed &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;how one’s environment impacts behavior&lt;/a&gt;, &lt;a href=&quot;https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts/&quot;&gt;how defaults and templates are part of a software development environment&lt;/a&gt;, and &lt;a href=&quot;https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate/&quot;&gt;possible behavioral prompts to consider in an OpenAPI template&lt;/a&gt;. But what do irresponsible or counter-productive environmental prompts look like? The recent kerfuffle over &lt;strong&gt;&lt;a href=&quot;https://copilot.github.com/&quot;&gt;Github’s Copilot AI&lt;/a&gt;&lt;/strong&gt; is a great example.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/07/ide.jpg&quot; alt=&quot;A picture showing code on a computer screen.&quot; /&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@andreiamza2000&quot;&gt;Amza Andrei&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/ide&quot;&gt;Unsplash&lt;/a&gt;
-  &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2021-07-07-issue-168-github-s-copilot&quot;&gt;I discussed Copilot in a recent edition of my API email newsletter, Net API Notes #168&lt;/a&gt;. In short, Copilot is an assistant for writing code. As a developer types in their Integrated Development Environment (IDE), Copilot suggests “whole lines or entire functions” learned from similar found across Github.&lt;/p&gt;
-
-&lt;p&gt;On the surface, this seems like an example of &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;using the environment to prompt behavior&lt;/a&gt;. When it recognizes what the developer is attempting, Copilot prompts a solution similar to what others have done previously. Being the path of least resistance, the developer (particularly a junior one) is likely to accept the default provided and move on to their next task.&lt;/p&gt;
-
-&lt;p&gt;In that scenario, however, what &lt;em&gt;outcome&lt;/em&gt; is the environment optimizing for? Quality or convenience? If we consider how Copilot was trained, we begin to get an answer.&lt;/p&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://arxiv.org/abs/2107.03374&quot;&gt;a published paper&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/NoraDotCodes/status/1412741339771461635&quot;&gt;subsequent tweets&lt;/a&gt;, it appears Copilot trained on all publicly available Github code. As someone who has contributed their share of broken, test, and experimental code to Github, I can guarantee that not everything publicly available follows best practices. Further, &lt;a href=&quot;https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt/&quot;&gt;as I discussed in my overview on machine learning’s API future&lt;/a&gt;, Copilot’s algorithm can’t discern which common programmatic approaches are &lt;em&gt;good&lt;/em&gt;, only those that have occurred historically. It then, subsequently, propagates those with its promptings.&lt;/p&gt;
-
-&lt;p&gt;What does that mean in practice? As an industry (and with APIs specifically), software developers are still wrestling with comprehensive, security-minded practices. It should come as no surprise, then, that Copilot ends up prompting the same kinds of security flaws that have bedeviled the industry throughout the past. &lt;a href=&quot;https://portswigger.net/daily-swig/devsecai-github-copilot-prone-to-writing-security-flaws&quot;&gt;A security researcher studying the issue says Copilot suggests&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“-bad code that looks reasonable at first glance, something that might slip by a programmer in a hurry, or seem correct to a less experienced coder.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In a more API-specific example, from the same article:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The AI tool also ‘blundered right into the most classic security flaw of the early 2000s: a PHP script taking a raw GET variable and interpolating it into a string to be used as an SQL query, causing SQL injection’”.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It is easy to optimize a system for &lt;em&gt;speed&lt;/em&gt;. However, using machine-learning to create environmental prompts isn’t automatically value-adding activity. Designed poorly, it becomes the equivalent of throwing more spagehetti at the wall. When considering what behaviors an environment creates, don’t lose sight of the quality outcomes.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 16 Jul 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/07/16/GithubCopilot/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/07/16/GithubCopilot/</guid>
-        
-        <category>API governance</category>
-        
-        <category>environment</category>
-        
-        <category>behavior</category>
-        
-        <category>github</category>
-        
-        <category>copilot</category>
-        
-        <category>machine learning</category>
-        
-        <category>ai</category>
-        
-        <category>ide</category>
-        
-        <category>sql injection</category>
         
         
       </item>
