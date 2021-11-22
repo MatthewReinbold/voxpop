@@ -6,9 +6,52 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Nov 2021 11:23:58 -0600</pubDate>
-    <lastBuildDate>Tue, 09 Nov 2021 11:23:58 -0600</lastBuildDate>
+    <pubDate>Mon, 22 Nov 2021 13:44:12 -0600</pubDate>
+    <lastBuildDate>Mon, 22 Nov 2021 13:44:12 -0600</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Standards as Accelerant</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/rules.png&quot; alt=&quot;A picture of the horizon behind a fence with posted rules.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;When debating IT governance structures, people make lots of claims. One is that decentralized governance “maximizes” team freedom. Or, specifically:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Increased standardization decreases the freedom for teams and people to innovate.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As &lt;a href=&quot;https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance/&quot;&gt;I argue in my piece on the usefulness of polarity maps&lt;/a&gt;, we shouldn’t treat IT governance as a false dichotomy or “centralized versus decentralized”.  There is a spectrum of implantations that can blend positive aspects from both sides. Standards and guidelines tactics can help focus and direct work in productive directions &lt;em&gt;when used correctly&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;decision-fatigue-happens-when-too-many-decisions-are-delegated-to-the-lowest-level&quot;&gt;Decision Fatigue Happens When Too Many Decisions Are Delegated To The Lowest Level&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Decision paralysis&lt;/strong&gt; is when an individual or group has difficulty taking action because the solution space is too large (also called “analysis paralysis”). &lt;strong&gt;Decision fatigue&lt;/strong&gt;, or when the mind becomes exhausted after a sustained period of decision making, often follows.&lt;/p&gt;
+
+&lt;p&gt;Many became acutely aware of decision fatigue during the Covid-19 pandemic. Suddenly, even trivial activities like opening doors and touching elevator buttons were a puzzle. Not only had the number of decisions skyrocketed, but the heavier impact that those decisions carried (the possibility of illness or death) created outsized effects: stress, loss of energy, and lowered mental capacity.&lt;/p&gt;
+
+&lt;p&gt;Worse, attempting to make decisions on rapidly shifting data impedes speed and confidence. It is reasonable that pandemic guidelines would change to reflect new information. However, the early lack of a single, centralized message and delegation to local authorities (many of whom were ill-equipped to be making epidemiolocal judgments) created a cacophony of competing, sometimes contradictory, guidance.&lt;/p&gt;
+
+&lt;p&gt;Similar conditions exist in IT environments where &lt;em&gt;all&lt;/em&gt; decision-making authority has been deferred to individuals or small teams. It is challenging to “be innovative” under such circumstances. Encouraging folks to “just make better decisions” will not create the desired outcomes.&lt;/p&gt;
+
+&lt;h2 id=&quot;standards-free-focus-for-what-matters&quot;&gt;Standards Free Focus For What Matters&lt;/h2&gt;
+&lt;p&gt;Clear, concise standards serve as guide rails that steer limited bandwidth toward productive activity. Rather than debating how to express pagination for the thousandth time, teams can adopt a pre-existing company style, thus diverting their energy toward creating unique business value. Instead of wrestling with the decisions involved in understanding and coding around another bespoke datetime format, internal API producers could accelerate delivery by uniformly adopting a widely known standard, like &lt;a href=&quot;https://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO 8601&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Like all implements in the governance toolkit, standards, guidelines, and rules can be misused. However, when applied appropriately, clear policy and regulation can reduce decision fatigue and free teams’ time and energy for more meaningful work.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Nov 2021 00:00:00 -0600</pubDate>
+        <link>https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant/</guid>
+        
+        <category>API governance</category>
+        
+        <category>polarity mapping</category>
+        
+        <category>organizations</category>
+        
+        <category>standards</category>
+        
+        <category>API styleguide</category>
+        
+        
+      </item>
     
       <item>
         <title>Pandemic-Led Digital Transformation; You're Doing it Wrong</title>
@@ -37,6 +80,15 @@
 &lt;p&gt;Digital business design is the holistic organizational configuration of people (roles, accountabilities, structures, and skills), processes (workflows, routines, procedures), &lt;strong&gt;and then&lt;/strong&gt; technology (infrastructure and applications). Someone somewhere is experimenting with providing employees with meaning, connection, and advancement in these necessary new ways. That person can either be at your company or employed by a disruptive rival.&lt;/p&gt;
 
 &lt;p&gt;Where are your experiments? How do you measure whether the new ways, made possible by digital technology, are better than the old ways? How are you discovering new, uninterruptible ways of delivering business value? If companies haven’t thought about or answered these questions, now is the time to start.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update, 2021-11-12&lt;/em&gt;
+While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https://www.forrester.com/blogs/predictions-2022/&quot;&gt;this 2022 set of predictions from Forrester&lt;/a&gt; (emphasis mine):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Business leaders are grappling with big employee-related questions right now. When (or if) to return to the office environment and how? We predict that only 10% of firms will shift to a fully remote model, and 30% will go back to a fully in-office model. The remaining 60% of firms will shift to a hybrid model, and one-third of those firms will fail in their first attempt at anywhere work. Why? &lt;em&gt;Because shifting to a hybrid model while still designing meetings, job roles, and promotion opportunities around face-to-face experiences will send productivity plummeting and lead execs to question the model instead of the processes they cling to.&lt;/em&gt;”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We have not only the opportunity, but the imagination to create new forms. A return to “business-as-normal” is a strategic mirage.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Nov 2021 00:00:00 -0600</pubDate>
         <link>https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong/</link>
@@ -53,6 +105,8 @@
         <category>management</category>
         
         <category>organizations</category>
+        
+        <category>Forrester</category>
         
         
       </item>
@@ -875,100 +929,6 @@ position.&lt;/p&gt;
         <category>organizations</category>
         
         <category>Brooks' Law</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>One Way to Improve API Guidance</title>
-        <description>&lt;p&gt;I’ve seen my share of API Design guidelines. I’ve even contributed to a few. Consistent across those style guides, standards documents, and requirements pages is that we crafted them without the benefit of technical writing or information architecture professionals. Despite having the best of intentions, we left opportunities for conveying our design expectations in better and more useful ways.&lt;/p&gt;
-
-&lt;p&gt;One simple yet powerful addition to any design requirements page is the inclusion of examples &lt;em&gt;formatting in the company’s schema of choice&lt;/em&gt;. These examples can be easily copied/pasted and modified in the editor of choice, removing the ambiguity of personal interpretation or possible typos.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/on-examples.png&quot; alt=&quot;A picture of a slide from 2018 commenting on the importance of examples from Jasmine Mithani.&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-A picture of a slide from 2018 commenting on the importance of examples from &lt;a href=&quot;https://twitter.com/jazzmyth&quot;&gt;Jasmine Mithani&lt;/a&gt;.
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s take a closer look at what I mean. Here is a hypothetical example of an API rule a business might adopt for interface consistency:&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Pagination&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When retrieving a collection of similar items, a caller may desire only to retrieve a subset. The caller may also need the ability to progress through subsets. To paginate through a collection, an API SHOULD provide a pair of query parameters: &lt;strong&gt;limit&lt;/strong&gt; and &lt;strong&gt;offset&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;That is solid guidance and a step toward encouraging APIs that behave more consistently within a domain. However, even within that tiny snippet, several nuanced elements need to be translated correctly to an OpenAPI’s YAML. We also assume that developers are well versed in YAML conventions. In my experience, OpenAPI is a means to an end, not a topic of voluntary study and application. As a result, whoever is writing the API description writes just enough to get their description to validate against the OpenAPI schema and moves on. This &lt;em&gt;minimum viable description&lt;/em&gt; checks a box but falls short of &lt;em&gt;being good enough for integrators&lt;/em&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paths:
-    /users:
-        get:
-            responses:
-                '200':
-                description: success
-            parameters:
-                - $ref: &quot;#components/limit&quot;
-                - $ref: &quot;#components/offset&quot;
-components:
-    schemas:
-        limit:
-            description: the limit
-        offset:
-            description: the offset
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Publishing an API describing pagination this way meets the &lt;em&gt;letter&lt;/em&gt; of the rule, it fails to demonstrate the &lt;em&gt;spirit&lt;/em&gt;: &lt;strong&gt;lowering comprehension overhead&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Part of doing the right thing lies with the API designer. But the guidelines, by providing examples that can be copy/pasted, can do a tremendous amount to make that job more manageable. If it was the dev team creating APIs, the benefit is limited. Ten? Now we see some benefit. Dozens of teams across a company? At that scale, the consistency and speed possible by copy/pasting fully realized guidance directly into a design begins to add up.&lt;/p&gt;
-
-&lt;p&gt;So after the description of the pagination guidelines above, include an example that they can easily copy, paste, and customize into their own work, like below. Then continue for each and every other API design feature that would benefit from a more consistent approach. &lt;em&gt;Those writing API descriptions will thank you for it&lt;/em&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paths:
-    /users:
-        get:
-            responses:
-                '200':
-                description: success
-            parameters:
-                - name: offset
-                    in: query
-                    required: false
-                    description: The index of the first item to retrieve. Indices are zero-based
-                    schema: 
-                        type: integer
-                        format: int32
-                        minimum: 0
-                        default: 0
-                - name: limit
-                    in: query
-                    required: false
-                    description: The number of items to retrieve at once. &amp;lt;&amp;lt;insert API-specific default here, including if there is a maximum value&amp;gt;&amp;gt;
-                    schema: 
-                        type: integer
-                        format: int32
-                        minimum: 1
-                        maximum: 1000
-                        default: 20
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Wed, 18 Aug 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/08/18/OneWayToImproveAPIGuidance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/18/OneWayToImproveAPIGuidance/</guid>
-        
-        <category>API governance</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>styleguide</category>
-        
-        <category>documentation</category>
         
         
       </item>
