@@ -6,9 +6,79 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Jan 2022 09:28:31 -0600</pubDate>
-    <lastBuildDate>Mon, 31 Jan 2022 09:28:31 -0600</lastBuildDate>
+    <pubDate>Tue, 29 Mar 2022 16:52:32 -0500</pubDate>
+    <lastBuildDate>Tue, 29 Mar 2022 16:52:32 -0500</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Just Tell Me What To Do</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/whiteboard.png&quot; alt=&quot;A picture of two people at a whiteboard. &quot; /&gt;&lt;/figure&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@kaleidico?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Kaleidico&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/blueprint?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
+  &lt;/figcaption&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://play.acast.com/s/ctrlaltdelete/falling-out-of-love-with-the-internet-disconnected-audiobook&quot;&gt;In a recent edition of the Ctrl Alt Delete podcast&lt;/a&gt;, host Emma Gannon described her discovery of &lt;a href=&quot;https://www.facebook.com/groups/290368045246716/&quot;&gt;a Facebook group that helps individuals make small decisions&lt;/a&gt;. “Can’t decide between two shirts?” it asks. “Can’t choose pizza or spaghetti for dinner? Let this group make small decisions for you.”&lt;/p&gt;
+
+&lt;p&gt;In “the before times”, I would have no use for a group like this. However, in the pandemic times, there are simply some evenings where this sort of “outsourcing of the banal” seems attractive.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant/&quot;&gt;I wrote about decision fatigue before&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Decision fatigue, or when the mind becomes exhausted after a sustained period of decision making, often follows. Many became acutely aware of decision fatigue during the Covid-19 pandemic. Suddenly, even trivial activities like opening doors and touching elevator buttons were a puzzle. Not only had the number of decisions skyrocketed, but the heavier impact that those decisions carried (the possibility of illness or death) created outsized effects: stress, loss of energy, and lowered mental capacity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The last several years have been stressful. When individuals weren’t navigating a pandemic, they were experiencing everything from political unrest to supply chain bottlenecks. &lt;a href=&quot;https://www.npr.org/sections/health-shots/2022/03/10/1085792118/americans-stress-is-spiking-over-inflation-war-in-ukraine-survey-finds&quot;&gt;And then there was a war&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Businesses dealing with API sprawl are also stressed. The unprecedented events have meant that software architects, already stretched thin, have experienced higher levels of decision fatigue.  “&lt;strong&gt;Just tell me what to do&lt;/strong&gt;” is a common request.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-software-strategic-impact&quot;&gt;The Software Strategic Impact&lt;/h2&gt;
+
+&lt;p&gt;It is understandable how individuals would desire to bypass the hurly-burly of defining first principles - those are yet more decisions! “If it is good enough for Stripe or Twilio”, the thinking goes, “it is good enough - we don’t have energy for that vision quest stuff; there’s too much to do!”.&lt;/p&gt;
+
+&lt;p&gt;However, my concern is what happens on &lt;em&gt;Day-2&lt;/em&gt; with this “made to order” approach to API standards. “&lt;strong&gt;Day-2&lt;/strong&gt;” is a DevOps term. It relates to the challenges that arise not from changes to a specific application but the more significant abstract processes and operations. For API standards, Day-2 problems relate to how a set of design standards, architectural guidance, or run-books get disseminated, adopted, and improved upon over time. It is one thing to gather key leaders together to announce expectations for a newly established API program. It is another thing entirely to continue to drive engagement and improvement among stakeholders in month 6. Without creating the crucible to form first principles, this greater identity and shared purpose aren’t formed.&lt;/p&gt;
+
+&lt;p&gt;Further, without discussion, adopting standards developed elsewhere may lead to bloated and ill-fitting style guides. Every standard a developer must follow introduces a grain of cognitive friction. Sometimes, the price paid is worth the production-environment benefit. However, every organization is different, with its own experience, style maturity, expertise, market, and desired end goals.&lt;/p&gt;
+
+&lt;p&gt;Each requirement in a standards doc should be able to answer:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is the better API outcome created by this standard?&lt;/li&gt;
+  &lt;li&gt;What are we willing to sacrifice (stop doing) to make this standard possible?&lt;/li&gt;
+  &lt;li&gt;How will “better” manifest in our day-to-day activities, behaviors, and interactions?&lt;/li&gt;
+  &lt;li&gt;How will we know if the standard is working?&lt;/li&gt;
+  &lt;li&gt;Has anyone done this before?&lt;/li&gt;
+  &lt;li&gt;Are we inviting others to a better future or imposing a singular vision of a future onto others?&lt;/li&gt;
+  &lt;li&gt;What is the non-obvious implication of this standard?&lt;/li&gt;
+  &lt;li&gt;(Bonus) How will we automate the education and enforcement of this?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Without considering the above questions, adopting standards from a different context will (best case) result in unnecessary effort and (worst case) be ignored. The &lt;a href=&quot;https://catalyst.concentrix.com/&quot;&gt;consulting practice I work for&lt;/a&gt; does a great job of incorporating this nuance through careful, considered conversations. Together, we arrive at a healthier place for all involved.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-good-news&quot;&gt;The Good News&lt;/h2&gt;
+&lt;p&gt;John Cutler is a product management expert and frequent communicator. He also sees the stress among the change agents he works with. Through that work, &lt;a href=&quot;https://cutlefish.substack.com/p/tbm-46b52-7-lessons-for-sustainable&quot;&gt;he also shares some hope&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In the last eight months, I have spent countless hours speaking with change agents. They reach out to me for product management advice, but these conversations inevitably seem to turn to the topic of how to nudge their organizations in new directions. During the pandemic these discussions have acquired a new sense of urgency.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Their anxiety is palpable.  They care for their teams but are overwhelmed by the challenges, and the opportunities, facing them.  To be sure, the pandemic has been catastrophic on every level, but many of the change agents I have spoken to are finally receiving the support they need and bringing about the impact they have long wanted to see. Their work is paying off, at the most inopportune time. There is movement in the right direction.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;During these unprecedented times, we must recognize the inherent opportunity in the status quo fracturing. Introducing change now does not have to contend with bursting people’s “normal” bubble. Nothing is normal! &lt;a href=&quot;https://en.wikipedia.org/wiki/Who_Moved_My_Cheese%3F&quot;&gt;The cheese has already been moved&lt;/a&gt;. Energy is available if someone dares to channel it. That is not to say that change, like defining a set of API standards for a sprawling and increasingly problematic ecosystem, is easy. &lt;em&gt;However&lt;/em&gt;, it does mean people are more like to accept something new.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 29 Mar 2022 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo/</guid>
+        
+        <category>API governance</category>
+        
+        <category>organizations</category>
+        
+        <category>standards</category>
+        
+        <category>API styleguide</category>
+        
+        
+      </item>
     
       <item>
         <title>Standards as Accelerant</title>
@@ -680,9 +750,13 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 &lt;h3 id=&quot;a-clear-articulation-of-the-current-state&quot;&gt;A Clear Articulation of the Current State&lt;/h3&gt;
 &lt;p&gt;Context frames and gives meaning to the change that must take place.&lt;/p&gt;
 
-&lt;p&gt;A story	of transition will highlight how the past way of doing things	 is unsustainable, how it has lead to the current crisis, which requires	new ideas (your ideas!)	to overcome.&lt;/p&gt;
+&lt;p&gt;A story	of transition will highlight how the past way of doing things is unsustainable, how it has lead to the current crisis, which requires	new ideas (your ideas!)	to overcome.&lt;/p&gt;
 
 &lt;h3 id=&quot;an-attractive-future&quot;&gt;An Attractive Future&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“When people are holding on tightly to the past, it’s because there is something they value and they have no idea of what might be valuable in the future.” - Esther Derby&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;During disruption, past data is a poor predictor of a future state. Faced with uncertainty, people often take what they know about the past, combine it with their assumptions and emotional state, and project it on to the future, largely unconsciously. Deconstructing a group’s assumptions and projections about the future requires careful analysis. If we can identify which beliefs are steadfast and which are loosely held, we can navigate this potential minefield.&lt;/p&gt;
 
 &lt;p&gt;A story must emphasize that the future is not a fixed, predetermined point but something that can be changed. We can’t predict the future, but we can try to invent one with more desirable outcomes. If instituting a change is worth doing, we have to have a coherent story about the new possibilities.&lt;/p&gt;
@@ -870,65 +944,6 @@ position.&lt;/p&gt;
         <category>Frederick Taylor</category>
         
         <category>dashboards</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Three Systems Theory Approaches to API Governance</title>
-        <description>&lt;p&gt;When there is more than one team in an organization, things need to be coordinated. This is especially true when it comes to organizations seeking consistent API design despite have those designs having different authors. Developers, designers, architects, and product managers &lt;em&gt;intuit&lt;/em&gt; that consistent design helps them achieve greater speed and scale. Further, a common approach makes integration more intuitive and can reduce ongoing support costs. But getting teams aligned is a whole separate, more significant challenge when compared to just creating the API.&lt;/p&gt;
-
-&lt;p&gt;The social scientist couple, Fred and Merrelyn Emery, identified two basic patterns for coordinating activities across multiple teams. They named them “&lt;em&gt;first design principle&lt;/em&gt;” and “&lt;em&gt;second design principle&lt;/em&gt;”, or &lt;em&gt;DP1&lt;/em&gt; and &lt;em&gt;DP2&lt;/em&gt;, respectively. Later, they added the concept of the &lt;em&gt;laissez-faire&lt;/em&gt; organization.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/dp1-and-dp2.png&quot; alt=&quot;The Emery's depecition of DP1 and DP2 organizations.&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;The Emerys' depecition of DP1 and DP2 organizations.&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;laissez-fair-governance&quot;&gt;Laissez-fair Governance&lt;/h2&gt;
-&lt;p&gt;Laissez-faire is defined as the absence of design principles. Nearly all API ecosystems start as laissez-faire. API design is not a coordinated activity in the beginning but rather a technical means-to-an-end. Laissez-faire is understandable, even desirable at this point in an organization’s journey. An organization’s culture and context define a significant amount of the unique pain points that emerge from inconsistent approaches; these can be difficult to predict. Further, if the API ecosystem does not require further scaling or evolution beyond fragmented, random one-off efforts, a laissez-faire approach to consistency may be appropriate.&lt;/p&gt;
-
-&lt;h2 id=&quot;dp1-governance&quot;&gt;DP1 Governance&lt;/h2&gt;
-&lt;p&gt;However, given the necessity of APIs to value delivery in digital transformation efforts, &lt;em&gt;most&lt;/em&gt; businesses &lt;strong&gt;can’t stop with just laissez-faire design approaches&lt;/strong&gt;. In these cases, leadership will establish a DP1 organizational structure; they’ll introduce a manager or supervisor whose explicit job is to coordinate parts to achieve an outcome. In API design, the role of this “API reviewer” or “Center of Excellence” group is to achieve greater consistency for the interfaces produced.&lt;/p&gt;
-
-&lt;p&gt;On the one hand, responsibility for achieving a quality outcome is straightforward. A single, highly-trained individual (or group) could apply to an entire domain. Ownership of the improvement activities is clear; activities like problem assessment, activity creation, oversite, progress reporting, and feedback gathering.&lt;/p&gt;
-
-&lt;p&gt;On the other, DP1 implementations of governance also have notable downsides. For one thing, it can be difficult for any person from a single discipline (architecture, engineering, etc.) to also excel in the  myriad of additional skills this type of oversite requires. These skills include diplomacy, consensus-building, project management, and influencing with minimal formal authority, in addition to having a rich and deep understanding of API nuance. Career progression for these diamonds-in-the-rough people is also unclear.&lt;/p&gt;
-
-&lt;p&gt;For development teams, especially for those used to a laissez-faire design approach, the introduction of this new supervisor or group can be met with hesitation, even suspicion. They may feel a loss of autonomy or lowered morale over what they perceive as a condemnation of their past work. When the relationship is strained and feedback loops poor, the introduction of this design leadership comes across as “ivory tower architecture”.&lt;/p&gt;
-
-&lt;p&gt;It is these DP1 organizational environments that spring to mind when we hear the word “governance”: bureaucratic, dictatorial, and process-heavy hierarchies. These &lt;em&gt;worst-case&lt;/em&gt; scenarios cause individuals to feel robbed of agency without the opportunity of recourse. Not everything is worse-case, of course. The most common case is ineffectual, flaccid governance: governance that is tolerated during the production of a token wins. However, the overall API program/platform cannot deliver on the grand transformation promised at the onset.&lt;/p&gt;
-
-&lt;h2 id=&quot;dp2-governance&quot;&gt;DP2 Governance&lt;/h2&gt;
-&lt;p&gt;In a DP2 approach, regulation of design standards (and subsequent quality outcomes) is built into the teams themselves. Individuals are expected to manage the coordination across their boundaries. For example, when designing an error object, Ramesh would consult with his peer on another team, Tara. Tara would have experience creating something similar from her work with Maria and Jose who, likewise, are assigned to other teams. And so on and so forth.&lt;/p&gt;
-
-&lt;p&gt;Those familiar with Brooks’ Law might notice their Spider-sense tingling. Putting the onus to “carry water” on individuals creates significant communication overhead, particularly as the number of people required to coordinate increases.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/brooks-law.jpg&quot; alt=&quot;A picture depicting the increasing lines of communication described by Brooks' Law.&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;A picture depicting the increasing lines of communication described by Brooks' Law.&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Training is one approach to lessen the amount of communication required.   “If everyone just &lt;em&gt;knows&lt;/em&gt; what to do,” the thinking goes, “they’ll have more time to just do it”. With ongoing effort, this approach can work. However, “upskilling” every individual across all the organization’s development teams is also not trivial. A business pursuing this course of action is also likely to appoint someone or some group to oversee this upskilling, which puts us back into the DP1 design camp. The “&lt;a href=&quot;https://rayli.net/posts/information-action-fallacy/&quot;&gt;information action fallacy&lt;/a&gt;” also looms large.&lt;/p&gt;
-
-&lt;p&gt;Changing the environment to make desired outcomes more likely is also an approach. I’ll talk more about this in a future post.&lt;/p&gt;
-
-&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
-&lt;p&gt;As the number and complexity of API ecosystems increase, we also need to increase the sophistication of our scaling approaches. Thankfully, a tremendous body of sociotechnical and systems theory over the decades addresses exactly that. As stewards of those ecosystems, our challenge is to step outside of our previous professional callings and engage with this new (to us) wisdom. The sooner we can do that, the sooner we can deliver on the promise of distributed systems.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 19 Aug 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/</guid>
-        
-        <category>Fred Emery</category>
-        
-        <category>Merrelyn Emery</category>
-        
-        <category>API Governance</category>
-        
-        <category>management</category>
-        
-        <category>organizations</category>
-        
-        <category>Brooks' Law</category>
         
         
       </item>
