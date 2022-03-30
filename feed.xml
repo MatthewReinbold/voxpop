@@ -6,8 +6,8 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Mar 2022 16:52:32 -0500</pubDate>
-    <lastBuildDate>Tue, 29 Mar 2022 16:52:32 -0500</lastBuildDate>
+    <pubDate>Wed, 30 Mar 2022 10:49:25 -0500</pubDate>
+    <lastBuildDate>Wed, 30 Mar 2022 10:49:25 -0500</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -31,7 +31,7 @@
 
 &lt;h2 id=&quot;the-software-strategic-impact&quot;&gt;The Software Strategic Impact&lt;/h2&gt;
 
-&lt;p&gt;It is understandable how individuals would desire to bypass the hurly-burly of defining first principles - those are yet more decisions! “If it is good enough for Stripe or Twilio”, the thinking goes, “it is good enough - we don’t have energy for that vision quest stuff; there’s too much to do!”.&lt;/p&gt;
+&lt;p&gt;It is understandable how individuals would desire to bypass the hurly-burly of defining first principles - those are yet more decisions! “If it is good enough for Stripe or Twilio”, the thinking goes, “it is good enough for us- we don’t have energy for that vision quest stuff; there’s too much to do!”.&lt;/p&gt;
 
 &lt;p&gt;However, my concern is what happens on &lt;em&gt;Day-2&lt;/em&gt; with this “made to order” approach to API standards. “&lt;strong&gt;Day-2&lt;/strong&gt;” is a DevOps term. It relates to the challenges that arise not from changes to a specific application but the more significant abstract processes and operations. For API standards, Day-2 problems relate to how a set of design standards, architectural guidance, or run-books get disseminated, adopted, and improved upon over time. It is one thing to gather key leaders together to announce expectations for a newly established API program. It is another thing entirely to continue to drive engagement and improvement among stakeholders in month 6. Without creating the crucible to form first principles, this greater identity and shared purpose aren’t formed.&lt;/p&gt;
 
@@ -63,7 +63,7 @@
   &lt;p&gt;“Their anxiety is palpable.  They care for their teams but are overwhelmed by the challenges, and the opportunities, facing them.  To be sure, the pandemic has been catastrophic on every level, but many of the change agents I have spoken to are finally receiving the support they need and bringing about the impact they have long wanted to see. Their work is paying off, at the most inopportune time. There is movement in the right direction.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;During these unprecedented times, we must recognize the inherent opportunity in the status quo fracturing. Introducing change now does not have to contend with bursting people’s “normal” bubble. Nothing is normal! &lt;a href=&quot;https://en.wikipedia.org/wiki/Who_Moved_My_Cheese%3F&quot;&gt;The cheese has already been moved&lt;/a&gt;. Energy is available if someone dares to channel it. That is not to say that change, like defining a set of API standards for a sprawling and increasingly problematic ecosystem, is easy. &lt;em&gt;However&lt;/em&gt;, it does mean people are more like to accept something new.&lt;/p&gt;
+&lt;p&gt;During these unprecedented times, we must recognize the inherent opportunity in the status quo fracturing. Introducing change now does not have to contend with bursting people’s “normal” bubble. Nothing is normal! &lt;a href=&quot;https://en.wikipedia.org/wiki/Who_Moved_My_Cheese%3F&quot;&gt;The cheese has already been moved&lt;/a&gt;. Energy is available if someone dares to channel it. That is not to say that change, like defining a set of API standards for a sprawling and increasingly problematic ecosystem, is easy. &lt;em&gt;However&lt;/em&gt;, it does mean people are more likely to accept something new.&lt;/p&gt;
 </description>
         <pubDate>Tue, 29 Mar 2022 00:00:00 -0500</pubDate>
         <link>https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo/</link>
