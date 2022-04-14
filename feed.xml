@@ -6,9 +6,42 @@
 </description>
     <link>https://matthewreinbold.com/</link>
     <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Mar 2022 10:49:25 -0500</pubDate>
-    <lastBuildDate>Wed, 30 Mar 2022 10:49:25 -0500</lastBuildDate>
+    <pubDate>Thu, 14 Apr 2022 11:53:06 -0500</pubDate>
+    <lastBuildDate>Thu, 14 Apr 2022 11:53:06 -0500</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Software Pipelines As Behavioral Prompts</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/golden-path.png&quot; alt=&quot;A trail through fall trees in northern Colorado. &quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I have &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;previously discussed how important the environment is in creating meaningful behavioral change&lt;/a&gt;. I’ve &lt;a href=&quot;https://matthewreinbold.com/2021/07/16/GithubCopilot/&quot;&gt;also suggested that the developer’s IDE (or Integrated Development Environment) was an influential source of positive behavioral prompting&lt;/a&gt;. If we move beyond just the single IDE, the software development pipeline could &lt;em&gt;also&lt;/em&gt; be an environment capable of prompting desirable outcomes. This process is known as &lt;strong&gt;The Golden Path&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Charity Majors is the co-founder and CTO of Honeycomb, makers of code observability software. &lt;a href=&quot;https://charity.wtf/tag/scaling/&quot;&gt;She describes the Golden Path like so&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Tell all your engineers that going forward, the Golden Path will be fully supported by the org.  Upgrades, patches, security fixes; backups, monitoring, build pipeline; deploy tooling, artifact versioning, development environment, even tier 1 on call support.  Pave the path with gold.  Nobody HAS to use these components … but if they don’t, they’re on their own.  They will have to support it themselves.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For all but the smallest of dev shops, there are advantages to having centralized processes and infrastructure. “Approved” tech stacks are standard to ensure proper staffing and triage is possible. A single log standard can save copious amounts of time and effort when in the thick of an outage.&lt;/p&gt;
+
+&lt;p&gt;Traditionally, governance - either in the form of an Architectural Review Board, Center of Excellence, or some other bureaucratic entity - dictates the software development behaviors they expect others to follow. An example might be “We are a Spring Boot and Node shop” or “Every new service must implement Open Tracing”. The bulk of energy is then expended on detection and enforcement, which - honestly - is probably not how anybody dreamed they’d be spending their productive waking hours. (The lack of of career development path for this work is a topic for another post; all too many enterprises end up parking their most passionate system thinkers into these professional cul-de-sacs.)&lt;/p&gt;
+
+&lt;p&gt;Instead, employing a Golden Path strategy directs that energy to create a superior developer experience. Sure, each team that needs to make an API &lt;em&gt;could&lt;/em&gt; select, configure, and operate their own API gateway. They &lt;em&gt;could&lt;/em&gt; roll their own authentication and key provisioning server. They &lt;em&gt;could&lt;/em&gt; customize their own CI/CD pipeline. But if there is a platform team providing a well-supported, consistently performant,  and feature-compatible equivalent, why would they? And some point, the novelty of tinkering with configuration files wears off, and a realization sets in: dithering with non-differentiating technology is not the same as delivering business value.&lt;/p&gt;
+
+&lt;p&gt;Creating a Golden Path is work. However, suppose you can create an environment where doing the right thing is the easy thing. In that case, you are significantly further along than relying on best faith efforts and goosing external incentives.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Apr 2022 00:00:00 -0500</pubDate>
+        <link>https://matthewreinbold.com/2022/04/14/GoldenPath/</link>
+        <guid isPermaLink="true">https://matthewreinbold.com/2022/04/14/GoldenPath/</guid>
+        
+        <category>API governance</category>
+        
+        <category>organizations</category>
+        
+        <category>standards</category>
+        
+        
+      </item>
     
       <item>
         <title>Just Tell Me What To Do</title>
@@ -750,7 +783,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 &lt;h3 id=&quot;a-clear-articulation-of-the-current-state&quot;&gt;A Clear Articulation of the Current State&lt;/h3&gt;
 &lt;p&gt;Context frames and gives meaning to the change that must take place.&lt;/p&gt;
 
-&lt;p&gt;A story	of transition will highlight how the past way of doing things is unsustainable, how it has lead to the current crisis, which requires	new ideas (your ideas!)	to overcome.&lt;/p&gt;
+&lt;p&gt;A story	of transition will highlight how the past way of doing things is unsustainable, how it has lead to the current crisis, which requires new ideas (your ideas!) to overcome. It is important that that articulation explains why the change should happen &lt;em&gt;now&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;an-attractive-future&quot;&gt;An Attractive Future&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -877,73 +910,6 @@ A picture of a linear lifecycle process accomodating many changes.
         <category>margaret mead</category>
         
         <category>management</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>'Power-Over' Strategies And How Reporting Can Backfire</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/08/fish.png&quot; alt=&quot;A picture of gold and white fishes swimming in water.&quot; /&gt;
-&lt;figcaption class=&quot;slide&quot;&gt;
-Photo of gold and white fishes by &lt;a href=&quot;https://unsplash.com/@sigmund&quot;&gt;Sigmund&lt;/a&gt; on Unsplash.
-&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;A problematic aspect of being a change agent is the lack of proven, frequently discussed techniques for making change happen. For example, in the API space there’s no end to people putting forth “best practices”. But getting teams to agree which practices are best, let alone adopt them? That advice is much harder to come by.&lt;/p&gt;
-
-&lt;p&gt;Several years ago, &lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;I briefly touched on some approaches I was trying as head of an API Center of Excellence&lt;/a&gt;. In that role, one of my responsibilities was to improve API quality and practice throughout the organization. However, like so many change agents, I didn’t have formal authority over the people who needed to change their practices. With hindsight, I want to share my experience with one influence approach, intriguingly called &lt;em&gt;Kingpins and the Fishbowl&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I read about kingpins and fishbowls in the book &lt;a href=&quot;https://www.amazon.com/Blue-Ocean-Strategy-Uncontested-Competition/dp/1591396190&quot;&gt;Blue Ocean Strategy&lt;/a&gt;. The book is mostly about finding new markets (the “blue ocean”) for product dominance. However, the latter third included practical advice for getting people engaged in something new; something that any change maker deals with.&lt;/p&gt;
-
-&lt;p&gt;The first part of the strategy is to identify the key individuals, or “kingpins”. These people are not just impacted by the change you’re proposing but have the authority to act on it. &lt;a href=&quot;https://matthewreinbold.com/2021/08/19/Three-Systems-Theory-Approaches-To-Governance/&quot;&gt;In a D1 organization&lt;/a&gt;, these could be, but are not limited to, executives with hierarchal power. The high-flyer with the ear of leader (but without formal authority) is also a candidate.&lt;/p&gt;
-
-&lt;p&gt;With the kingpins identified, the next step is creating the fishbowl. The fishbowl is a means by which the kingpins’ performance (or those they are responsible for) is easily compared and contrasted. This review may manifest as an internal dashboard or regular report to executives. Colloquially, people might also know this approach as “naming and shaming”. &lt;a href=&quot;https://apimetrics.io/category/monthly-report/&quot;&gt;APIMetrics does this publicly&lt;/a&gt;. &lt;a href=&quot;https://apimetrics.io/api-outages/&quot;&gt;A lot&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The kingpins and fishbowls technique &lt;em&gt;sounds&lt;/em&gt; plausible: identify those that have authority to make the designed change, put them in a dashboard showing how deficient they are compared to their peers, watch those trend lines change for the positive! As &lt;a href=&quot;https://matthewreinbold.com/2017/10/03/API-Governance-Blueprint/&quot;&gt;I said in my introduction of the topic&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“In my experience, executives didn’t get to where they are without being a tad competitive. Publishing results and easing comparative analysis creates a natural driver for action; each of the leaders want to be number one among their peers.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The approach is not without merit. I did see some success in limited areas. However, looking back, any success was vastly dwarfed by the antagonistic relationships caused by such reporting. To understand why it is crucial to discuss Mary Parker Follet’s concepts of &lt;em&gt;power-over&lt;/em&gt; and &lt;em&gt;power-with&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Mary Parker Follet was a contemporary of Frederick Taylor, the “father” of management theory. But while Taylor believed “the boss knows best”,  Mary’s ideas on power and authority were very different. She defined &lt;strong&gt;power-over&lt;/strong&gt; as a situation where one person has power over
-another person. This manifests as dominance and coercion. One side vies for power over another, at best trying to influence the other to concede its
-position.&lt;/p&gt;
-
-&lt;p&gt;A kingpin may not oppose the idea of API design improvement. However, design may differ in their priority compared to someone, like the Center of Excellence head, whose sole job is design improvement. Kingpins have no shortage of things vying for their time and energy. Those people create systems for triaging what is worth entertaining &lt;em&gt;and what threatens those limited resources&lt;/em&gt; to remain successful.&lt;/p&gt;
-
-&lt;p&gt;A metric originating from outside their preview, attempting to coerce their priorities list and consume oxygen will not be enthusiastically embraced. While they may not frame it in terms of a “power-over” play, they will resent the attempt all the same and treat the effort with suspicion, if not as a threat. Having sat in those conversations, I can confirm that there are better ways of spending one’s time.&lt;/p&gt;
-
-&lt;p&gt;Put in a similar position today, I would instead attempt what Follet referred to as &lt;em&gt;power-with&lt;/em&gt;. Power-with is collaborative, establishing common ground from which both sides identify and discuss important desires. She called these discussions &lt;em&gt;integration&lt;/em&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://thepowerofcollectivewisdom.com/pdfs/power-over.pdf&quot;&gt;From the power of collective wisdom website discussing Follet&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“She [Follet] understood that true leaders do not command obedience through force or manipulation but rather by giving expression to external realities and the interior aspirations of others.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I talked about the priority mismatch. &lt;em&gt;What I should have done&lt;/em&gt; is better understood the constraints and challenges these leaders faced. Rather than assuming that design quality improvement is job #1, I should learn their actual stack ranking and then integrate how better design could deliver on that. I should have had regular, ongoing conversations, independent of whatever reporting cadence existed, to co-evolve the agendas and make us partners in each others’ success. The metrics needed to be in service of our ends, not their activities being a means to achieving mine.&lt;/p&gt;
-
-&lt;p&gt;The Kingpin in the Fishbowl technique may seem like change is only a dashboard away. However, based on my experience, it is an example of &lt;em&gt;power-over&lt;/em&gt; rather than &lt;em&gt;power-with&lt;/em&gt;. Before attempting to coerce an influential leader’s priorities, carefully consider how that message may antagonize rather than compliment. If possible, pursue a &lt;em&gt;power-with&lt;/em&gt; strategy instead.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 27 Aug 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/</guid>
-        
-        <category>API governance</category>
-        
-        <category>organizations</category>
-        
-        <category>Blue Ocean Strategy</category>
-        
-        <category>metrics</category>
-        
-        <category>Mary Parker Follet</category>
-        
-        <category>Frederick Taylor</category>
-        
-        <category>dashboards</category>
         
         
       </item>

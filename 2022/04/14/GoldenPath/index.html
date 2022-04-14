@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>On DevOps</title>
-  <meta name="description" content="DevOps (or, more crudely, 'development operations') is the skill of being able to configure and maintain the proper working function of servers. I am not a d...">
+  <title>Software Pipelines As Behavioral Prompts</title>
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://matthewreinbold.com/2013/03/23/Devops/">
+  <link rel="canonical" href="https://matthewreinbold.com/2022/04/14/GoldenPath/">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="https://matthewreinbold.com/feed.xml">
 </head>
 
@@ -84,47 +84,29 @@
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">On DevOps</h1>
-    <h2 class="post-subtitle">What happened on the way to insanity.</h2>
-    <p class="post-meta"><time datetime="2013-03-23T00:00:00-05:00" itemprop="datePublished">Mar 23, 2013</time></p>
+    <h1 class="post-title" itemprop="name headline">Software Pipelines As Behavioral Prompts</h1>
+    <h2 class="post-subtitle">A Golden Path As Example of Changing the Environment</h2>
+    <p class="post-meta"><time datetime="2022-04-14T00:00:00-05:00" itemprop="datePublished">Apr 14, 2022</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>DevOps (or, more crudely, 'development operations') is the skill of being able to configure and maintain the proper working function of servers. I am not a devops person. I write code. But I need a server for that code. I am shaving a yak. Do Mongolians shave yaks? Or do they use our domesticated animals when they deride a senseless action? Does Bataar shave a dog? I add it to the list of things to Google, eventually.</p>
+    <p><figure><img src="/images/2022/golden-path.png" alt="A trail through fall trees in northern Colorado. " /></figure></p>
 
-<p>I need caffeine. I'm on hour 48 of a seemingly endless trail of minutia emanating from error logs. I need a server. I am trawling obscure forums where the requirements for admission are apparently bad Engrish. And an aversion to n00bs. I use articles when I speak. I am not welcome here.</p>
+<p>I have <a href="https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/">previously discussed how important the environment is in creating meaningful behavioral change</a>. I’ve <a href="https://matthewreinbold.com/2021/07/16/GithubCopilot/">also suggested that the developer’s IDE (or Integrated Development Environment) was an influential source of positive behavioral prompting</a>. If we move beyond just the single IDE, the software development pipeline could <em>also</em> be an environment capable of prompting desirable outcomes. This process is known as <strong>The Golden Path</strong>.</p>
 
-<p>Like sugar fueled children given a pinata, it all began so innocently. </p>
+<p>Charity Majors is the co-founder and CTO of Honeycomb, makers of code observability software. <a href="https://charity.wtf/tag/scaling/">She describes the Golden Path like so</a>:</p>
 
-<p>
-	<a href="/images/comic/20130312_devpos_dementia.png" class="lightbox"><img src="/images/comic/20130312_devpos_dementia.png" alt="Devops Dementia" class="image-fit" /></a>
-</p>
+<blockquote>
+  <p>“Tell all your engineers that going forward, the Golden Path will be fully supported by the org.  Upgrades, patches, security fixes; backups, monitoring, build pipeline; deploy tooling, artifact versioning, development environment, even tier 1 on call support.  Pave the path with gold.  Nobody HAS to use these components … but if they don’t, they’re on their own.  They will have to support it themselves.”</p>
+</blockquote>
 
-<p><a href="/2013/02/27/SoIAmMakingAnApp/">I'm building an app</a>. I was given a server. I work with smart people. Till now we have managed to host our servers just fine. What's another box? </p>
+<p>For all but the smallest of dev shops, there are advantages to having centralized processes and infrastructure. “Approved” tech stacks are standard to ensure proper staffing and triage is possible. A single log standard can save copious amounts of time and effort when in the thick of an outage.</p>
 
-<p>The mental beating began at login. The dialogs are unfamiliar. Is this important? I've never heard of that. Maybe I should write that down. It sounds serious and was in a modal and everything. I am not a devops person. I don't know what is going on. I'm just here for the web root.</p>
+<p>Traditionally, governance - either in the form of an Architectural Review Board, Center of Excellence, or some other bureaucratic entity - dictates the software development behaviors they expect others to follow. An example might be “We are a Spring Boot and Node shop” or “Every new service must implement Open Tracing”. The bulk of energy is then expended on detection and enforcement, which - honestly - is probably not how anybody dreamed they’d be spending their productive waking hours. (The lack of of career development path for this work is a topic for another post; all too many enterprises end up parking their most passionate system thinkers into these professional cul-de-sacs.)</p>
 
-<p>We need something running fast delivered fast! Like tomorrow! Is Python on IIS fast? I dunno. I've installed servers locally for development on Windows. Do I want Windows? I don't know Linux. There are furrowed brows about deadlines. I go with something where I can guesstimate the interface over having to have the arcane scripts of the Illuminati burned into memory. I don't have the time or virginal chicken to pay for the bestowing of such things.</p>
+<p>Instead, employing a Golden Path strategy directs that energy to create a superior developer experience. Sure, each team that needs to make an API <em>could</em> select, configure, and operate their own API gateway. They <em>could</em> roll their own authentication and key provisioning server. They <em>could</em> customize their own CI/CD pipeline. But if there is a platform team providing a well-supported, consistently performant,  and feature-compatible equivalent, why would they? And some point, the novelty of tinkering with configuration files wears off, and a realization sets in: dithering with non-differentiating technology is not the same as delivering business value.</p>
 
-<p>There are snooty eastern europeans. I see them making rude gestures at their screens in a cigarette haze. I can hear them laughing at my forum questions. I've seen movies. I just want to run my code. I want Python. I want big data. I want to be like Quentin Tarantino. I want Django. My searches are filled with movie reviews. I want what social applications like Instagram and Pinterest use. We're social too!</p>
-
-<p>The eastern europeans do not want to be social. My grammar contains articles and prepositions. I do not speak the right language.</p>
-
-<blockquote>Why so big timeout? Do you slow internet?</blockquote>
-
-<p>There was something said about being unable to sexually satisfy my wife. Or maybe mention of dependencies was about my code. The details are lost in imagined hacker cigarette haze. At some point the company who published the tutorial I'm questioning say that it is a very bad way to do things. I no longer amuse Boris (or Yuri, or Mitch). Even the insults over my competence have stopped.</p>
-
-<p>The server 500 errors force me onward. I wander across the land of misfit questions and forgotten forums. I hope. I seek. I find answers from four years ago that no longer work. </p>
-
-<p>The daily standups become 10-minute homages to Groundhog's day. It's been three days. It's been three weeks. I can't remember.</p>
-<blockquote>"How's the configuration going? You made progress?"</blockquote>
-<blockquote>"I made some progress, but then that solution exposed a new problem that I didn't know I had. I'm out of things to Google, Sergi Brin isn't returning my calls, and did you see him wearing those ridiculous glasses, and HEY, HOLY CRAP, LOOK OVER THERE!"</blockquote>
-
-<p>They nod. There's luke-warm empathy over my predicament. My dependency is buying them cover and not exposing their also-slowed pace. I hate them. We are a team. At launch maybe we'll have a pizza party, take embarrassing photos, and later masquerade our loathsome co-existence as LinkedIn praise. I love them.</p>
-
-<p>I need a server. Why am I here? I write code. I wanted to help people. The VP of development is people. He is speaking to me. I need caffeine. English is getting hard. Maybe I'm getting l337 European hacker skills? Maybe Boris will speak to me. The VP is speaking.</p>
-
-<blockquote>You know, we're not beholden to IIS. If you want to do Apache, you can do Apache.</blockquote>
+<p>Creating a Golden Path is work. However, suppose you can create an environment where doing the right thing is the easy thing. In that case, you are significantly further along than relying on best faith efforts and goosing external incentives.</p>
 
   </div>
 
@@ -154,6 +136,33 @@
     
 
     
+    	
+        <hr />
+    		<h4>Related</h4>
+    		
+    	
+      <div>
+      <h5><a href="/2022/03/29/JustTellMeWhatToDo/">Just Tell Me What To Do</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2021/11/22/StandardsAsAccelerant/">Standards as Accelerant</a></h5>
+      </div>
+      
+      
+    
 
   
 
@@ -181,14 +190,12 @@
     
 
     
-
-  
-
-    
-    
-
-    
-
+    	
+      <div>
+      <h5><a href="/2021/11/01/PolarityMappingAndAPIGovernance/">Finding API Governance Balance With Polarity Mapping</a></h5>
+      </div>
+      
+      
     
 
   
@@ -208,14 +215,12 @@
     
 
     
-
-  
-
-    
-    
-
-    
-
+    	
+      <div>
+      <h5><a href="/2021/09/22/OvercomingChangeResistance/">Overcoming Change Resistance</a></h5>
+      </div>
+      
+      
     
 
   
@@ -226,6 +231,13 @@
     
 
     
+    	
+      <div>
+      <h5><a href="/2021/09/10/CreatingCompellingStories/">Creating Compelling Stories</a></h5>
+      </div>
+      
+      
+    
 
   
 
@@ -234,6 +246,29 @@
 
     
 
+    
+    	
+      <div>
+      <h5><a href="/2021/09/03/PlausiblePromises/">Changing Organizations With Plausible Promises</a></h5>
+      </div>
+      
+      
+    
+
+  
+
+    
+    
+
+    
+
+    
+    	
+      <div>
+      <h5><a href="/2021/08/27/PowerOverStrategiesAndHowReportingCanBackfire/">'Power-Over' Strategies And How Reporting Can Backfire</a></h5>
+      </div>
+      
+      
     
 
   
