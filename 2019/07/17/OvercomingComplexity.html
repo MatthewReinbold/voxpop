@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Overcoming Complexity through the Principle of Least Power</title>
+  <meta name='description' content='This Matthew Reinbold's website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the 'Net API Notes' email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.'>
+
+  <link rel="canonical" href="http://localhost:4000/2019/07/17/OvercomingComplexity">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="/feed.xml">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Overcoming Complexity through the Principle of Least Power – Matthew Reinbold">
+  <meta name="twitter:description" content="Here are the slides and script for the presentation I made on July 17th at the San Francisco APIDays Conference. The theme for the event was ‘The New API Stack’.
+">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/2019/07/Slide1.PNG">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="Overcoming Complexity through the Principle of Least Power – Matthew Reinbold">
+  <meta property="og:description" content="Here are the slides and script for the presentation I made on July 17th at the San Francisco APIDays Conference. The theme for the event was ‘The New API Stack’.
+">
+  <meta property="og:image" content="http://localhost:4000/images/2019/07/Slide1.PNG">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" as="style">
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+  <!-- Ionicons -->
+  <link rel="preload" href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" as="style">
+
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <script>
+    
+      document.documentElement.setAttribute("dark", "");
+      document.documentElement.classList.add('dark-mode');
+    
+  </script>
+
+  <style>
+  
+  /*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--light-blue: #f3f7ff;--blue-gray: #716f8a;--gray: #9e9e9e;--dark: #0c101a;--dark-blue: #1e2740;--background-color: var(--white);--background-alt-color: var(--light-blue);--text-color: var(--dark-blue);--text-alt-color: var(--blue-gray);--heading-font-color: var(--dark-blue);--link-color: var(--dark-blue);--link-color-hover: var(--dark-blue);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: var(--light-blue);--border-color-alt: var(--light-blue);--th-color: var(--light-gray);--tr-color: var(--light-gray);--syntax-highlighting-background: #f3f3f3}[dark]:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--gray: #9e9e9e;--dark: #111016;--background-color: var(--dark);--background-alt-color: #1a1a1f;--text-color: var(--gray);--text-alt-color: var(--gray);--heading-font-color: var(--light-gray);--link-color: var(--light-gray);--link-color-hover: var(--light-gray);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: #252629;--border-color-alt: #080b12;--th-color: #18181d;--tr-color: #080b12;--syntax-highlighting-background: #080b12}.list-reset{list-style-type:none;margin:0;padding:0}.clearfix::after,.clearfix ::before{content:"";display:table;clear:both}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px;word-wrap:normal !important}/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,hr{margin:0;padding:0}li>ul,li>ol{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6,ul,ol,dl,blockquote,p,address,hr,table,fieldset,figure,pre{margin-bottom:32px}ul,ol,dd{margin-left:16px}ul li,ol li{margin-bottom:10px}.highlight{margin-bottom:32px;background:var(--syntax-highlighting-background)}.highlighter-rouge .highlight{background:var(--syntax-highlighting-background)}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#5d76bf;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#ec2355}.highlight .na{color:#008080}.highlight .nb{color:#0086B3}.highlight .nc{color:#5d76bf;font-weight:bold}.highlight .no{color:#008080}.highlight .ni{color:#800080}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#4d65dc}.highlight .nv{color:#008080}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#ec2355}.highlight .sc{color:#ec2355}.highlight .sd{color:#ec2355}.highlight .s2{color:#ec2355}.highlight .se{color:#ec2355}.highlight .sh{color:#ec2355}.highlight .si{color:#ec2355}.highlight .sx{color:#ec2355}.highlight .sr{color:#009926}.highlight .s1{color:#ec2355}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:#008080}.highlight .vg{color:#008080}.highlight .vi{color:#008080}.highlight .il{color:#099}.container{max-width:1140px;padding-left:16px;padding-right:16px;margin:0 auto}@media only screen and (max-width: 1140px){.container{max-width:1000px}}@media only screen and (max-width: 1024px){.container{max-width:740px}}@media only screen and (max-width: 768px){.container{max-width:560px}}@media only screen and (max-width: 576px){.container{max-width:480px;padding-left:calc(16px + 4px);padding-right:calc(16px + 4px)}}.row{display:flex;flex-wrap:wrap;flex:0 1 auto;flex-direction:row;box-sizing:border-box;margin-left:-16px;margin-right:-16px}.col{padding-left:16px;padding-right:16px}[class^="col-"]{flex:auto}.col-0{width:0%}.col-1{width:8.3333333333%}.col-2{width:16.6666666667%}.col-3{width:25%}.col-4{width:33.3333333333%}.col-5{width:41.6666666667%}.col-6{width:50%}.col-7{width:58.3333333333%}.col-8{width:66.6666666667%}.col-9{width:75%}.col-10{width:83.3333333333%}.col-11{width:91.6666666667%}.col-12{width:100%}.push-0{margin-left:0%}.push-1{margin-left:8.3333333333%}.push-2{margin-left:16.6666666667%}.push-3{margin-left:25%}.push-4{margin-left:33.3333333333%}.push-5{margin-left:41.6666666667%}.push-6{margin-left:50%}.push-7{margin-left:58.3333333333%}.push-8{margin-left:66.6666666667%}.push-9{margin-left:75%}.push-10{margin-left:83.3333333333%}.push-11{margin-left:91.6666666667%}.push-12{margin-left:100%}.pull-0{margin-right:0%}.pull-1{margin-right:8.3333333333%}.pull-2{margin-right:16.6666666667%}.pull-3{margin-right:25%}.pull-4{margin-right:33.3333333333%}.pull-5{margin-right:41.6666666667%}.pull-6{margin-right:50%}.pull-7{margin-right:58.3333333333%}.pull-8{margin-right:66.6666666667%}.pull-9{margin-right:75%}.pull-10{margin-right:83.3333333333%}.pull-11{margin-right:91.6666666667%}.pull-12{margin-right:100%}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}.animate{animation:animateElement cubic-bezier(0.3, 0.45, 0.45, 0.95) 0.75s;animation-duration:0.5s;animation-iteration-count:1;transition:transform .15s}@keyframes animateElement{0%{transform:translate(0px, 50px)}100%{transform:translate(0px, 0px)}}@keyframes pulse{0%{transform:scale(1, 1)}25%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}*,*::after,*::before{box-sizing:border-box}body{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.5;overflow-x:hidden;color:var(--text-color);background-color:var(--background-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media only screen and (max-width: 576px){body{font-size:18px}}*::selection{color:var(--white);background-color:var(--brand-color)}h1,h2,h3,h4,h5,h6{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;letter-spacing:-1px;color:var(--heading-font-color)}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{position:relative;margin:40px 0;padding-left:26px;font-size:24px;line-height:1.7;font-weight:900;border-left:4px solid var(--brand-color);color:var(--heading-font-color)}blockquote p{margin-bottom:10px}blockquote cite{display:inline-block;margin-top:8px;font-size:14px;font-weight:700;font-style:normal;color:var(--heading-font-color)}@media only screen and (max-width: 576px){blockquote{font-size:21px}}pre{overflow:auto;padding:15px;margin-bottom:0;font-size:14px;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;color:var(--heading-font-color)}img,.lightense-wrap{max-width:100%;height:auto;vertical-align:middle}img+em,.lightense-wrap+em,.gallery+em{display:block;margin-top:20px;font-size:12px;line-height:22px;font-style:normal;font-weight:normal;text-align:center;color:var(--heading-font-color)}img+em a,.lightense-wrap+em a,.gallery+em a{font-weight:500;border-bottom:1px solid var(--border-color);transition:all 0.35s}img+em a:hover,.lightense-wrap+em a:hover,.gallery+em a:hover{color:var(--link-color);border-color:var(--link-color-hover)}@media only screen and (max-width: 576px){img+em,.lightense-wrap+em,.gallery+em{margin-top:12px}}a{text-decoration:none;color:var(--link-color);transition:all 0.35s}a:hover{color:var(--link-color-hover)}hr{width:100%;height:1px;margin:60px 0;border:0;background:var(--background-alt-color)}.table-container{display:block;max-width:100%;overflow-x:auto}table{font-size:12px;color:var(--dark);width:100%;border-width:1px;border-color:var(--background-alt-color);border-collapse:collapse;color:var(--heading-font-color)}table th{padding:10px;font-size:16px;text-align:left;border:1px solid var(--th-color);color:var(--heading-font-color);font-weight:700;background-color:var(--th-color)}table tr{background-color:var(--tr-color);transition:all .3s ease}table tr:nth-child(even){background-color:transparent}table td{padding:10px;font-size:14px;border:1px solid var(--background-alt-color)}.button{display:inline-block;padding:20px 26px;font-size:16px;font-weight:700;text-decoration:none;border-radius:2px;border:none;outline:none;cursor:pointer;transition:all .25s;color:var(--heading-font-color);background:var(--background-alt-color)}.button--primary{color:var(--white);background-color:var(--button-background-color)}.button--primary:hover{background:var(--button-background-hover)}.button--big{display:block;width:100%}.lazy{opacity:0;transition:opacity 0.3s ease-in-out}.lazy.loaded{opacity:1}.lightense-backdrop{background-color:var(--background-color) !important}.header .header__inner{position:relative;display:flex;align-items:center;flex-wrap:wrap;padding:44px 16px}@media only screen and (max-width: 1024px){.header .header__inner{padding:40px 16px}}@media only screen and (max-width: 576px){.header .header__inner{padding:32px 16px}}.logo__link{padding:4px 0;font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:28px;letter-spacing:-1px;line-height:1;font-weight:700;transition:color .25s ease}.logo__link:hover{color:var(--brand-color)}.logo__image{max-height:50px}.main-nav{margin-left:auto}@media only screen and (max-width: 1024px){.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;opacity:0;visibility:hidden;background-color:var(--background-color)}.main-nav.is-open{opacity:1;visibility:visible;transition:all .25s ease}.main-nav .nav__list{flex-direction:column;width:100%}.main-nav .nav__list .nav__item{display:block;margin:0}.main-nav .nav__list .nav__item.nav__item-icon{margin-right:0}.main-nav .nav__list .nav__item .nav__link{display:inline-block;padding:16px 0;font-size:18px;transition:color .25s ease}.main-nav .nav__list .nav__item .nav__link:hover{color:var(--brand-color)}}.main-nav__box{display:flex;align-items:center}.main-nav__box .nav__icon-close{display:none;justify-content:center;align-items:center;width:36px;height:36px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);background:var(--background-alt-color);cursor:pointer}.main-nav__box .nav__icon-close:hover .ion-md-close{transform:rotate(90deg)}.main-nav__box .nav__icon-close .ion-md-close{transition:all 0.35s}.main-nav__box .nav__title{display:none}@media only screen and (max-width: 1024px){.main-nav__box{display:block;align-items:center;width:80%;height:80vh;padding-top:180px;margin:0 auto;text-align:center;overflow-y:auto}.main-nav__box .nav__icon-close{display:flex;position:absolute;top:40px;right:40px}.main-nav__box .nav__title{display:inline-block;margin-bottom:12px;font-family:"Jost", Helvetica Neue, Helvetica, Arial, sans-serif;font-size:36px;font-weight:700;letter-spacing:-1px;color:var(--heading-font-color)}}@media only screen and (max-width: 768px){.main-nav__box{padding-top:100px}}.nav__list{display:flex;align-items:center}.nav__list .nav__item{display:inline-block;margin-right:48px;margin-bottom:0}.nav__list .nav__item.nav__item-icon{margin-right:12px}.nav__list .nav__item .nav__link{position:relative;padding:4px 0;font-size:16px;line-height:1;font-weight:700;transition:color .25s ease}.nav__list .nav__item .nav__link:hover{color:var(--brand-color)}.nav-button{font-size:21px;color:var(--link-color);cursor:pointer}.nav-button .icon__menu{display:none;margin-right:12px}.nav-button .icon__menu,.nav-button .icon__search{transition:color .25s ease}.nav-button .icon__menu:hover,.nav-button .icon__search:hover{color:var(--brand-color)}@media only screen and (max-width: 1024px){.nav-button{display:flex;align-items:center;margin-left:auto;font-size:24px}.nav-button .icon__menu{display:block}}.toggle-theme{position:relative;display:flex;justify-content:center;align-items:center;width:24px;height:24px;user-select:none;cursor:pointer}@media only screen and (max-width: 1024px){.toggle-theme{padding:20px 0}}.toggle-sun,.toggle-moon{position:absolute;font-size:20px;transition:color .25s ease;color:var(--heading-font-color)}.toggle-sun:hover,.toggle-moon:hover{color:var(--brand-color)}.toggle-sun{display:none}.dark-mode .toggle-sun{display:block}.dark-mode .toggle-moon{display:none}.search{position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;overflow:auto;opacity:0;background:var(--background-color);transition:all .25s ease}.search.is-visible{z-index:100;opacity:1;transition:all .25s ease}.search__box{max-width:540px;margin:0 auto;padding-top:120px}@media only screen and (max-width: 1024px){.search__box{padding-top:100px}}.search__group{position:relative;margin-bottom:48px}.search__group .search__close{position:absolute;right:28px;top:50%;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;width:32px;height:32px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);cursor:pointer;will-change:transform;transition:all .25s;background:var(--background-color)}.search__group .search__close:hover{transform:translateY(-50%) rotate(90deg)}.search__group .search__close .ion-md-close{vertical-align:middle}.search__group .search__text{width:100%;padding:28px;font-size:20px;font-weight:700;line-height:24px;border:2px solid transparent;border-radius:2px;color:var(--heading-font-color);background-color:var(--background-alt-color);outline:0;transition:all .25s}.search__group .search__text::placeholder{font-weight:700;color:var(--heading-font-color)}.search__group .search__text:focus{border-color:var(--brand-color)}.search__group .search__text::-ms-clear{display:none}@media only screen and (max-width: 576px){.search__group{margin-bottom:32px}.search__group .search__text{padding:24px}}.search-results-list .no-results{width:100%;margin:0;text-align:center;color:var(--heading-font-color)}.pagination{margin-bottom:80px}@media only screen and (max-width: 576px){.pagination{margin-bottom:60px}}.pagination__inner{display:flex;justify-content:center;align-items:center}.pagination__list{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:18px;font-weight:700;line-height:1;color:var(--text-color)}@media only screen and (max-width: 576px){.pagination__list{align-items:stretch;font-size:16px}}.pagination__item{display:flex;justify-content:center;align-items:center;width:100%;padding:24px 20px;text-align:center;border-radius:8px;background:var(--background-alt-color)}@media only screen and (max-width: 576px){.pagination__item{align-items:center;padding:20px;border-radius:8px}}.pagination__count{margin:0 32px;font-size:16px;color:var(--link-color)}@media only screen and (max-width: 768px){.pagination__count{margin:0 12px}}@media only screen and (max-width: 576px){.pagination__count{margin:0 8px;font-size:14px;line-height:1.2}}.pagination__next:hover,.pagination__prev:hover{color:var(--heading-font-color)}.pagination__next i,.pagination__prev i{font-size:15px;transition:transform .15s ease;will-change:transform}.pagination__next.disabled,.pagination__prev.disabled{opacity:0.64;cursor:not-allowed;color:inherit}.pagination__next.disabled:hover i,.pagination__prev.disabled:hover i{transform:none}.dark-mode .pagination__next.disabled,.dark-mode .pagination__prev.disabled{opacity:0.78}.pagination__next:hover i{transform:translateX(2px)}.pagination__next i{margin-left:5px}.pagination__prev:hover i{transform:translateX(-2px)}.pagination__prev i{margin-right:5px}.footer{margin-top:48px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.footer{margin-top:60px}}.footer__inner{padding:80px 0}.footer__inner .row .col{flex-grow:1}@media only screen and (max-width: 576px){.footer__inner{padding:60px 0}}@media only screen and (max-width: 1024px){.footer__author{margin-bottom:60px}}@media only screen and (max-width: 576px){.footer__author{margin-bottom:40px}}.footer__author-avatar{position:relative;width:105px;height:105px;margin-bottom:20px;transform:translate(0);border-radius:50%;overflow:hidden;box-shadow:0px 100px 80px rgba(0,0,0,0.07),0px 12.5216px 10.0172px rgba(0,0,0,0.035);background-color:var(--background-color)}.footer__author-avatar img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.footer__author-name{margin-bottom:20px;font-size:32px;font-weight:900;line-height:1}.footer__author-bio{margin-bottom:0;color:var(--text-alt-color)}.social{margin-top:16px}.social .social__list{display:flex;align-items:center;flex-wrap:wrap}.social .social__list .social__item:first-child>.social__link{padding-left:0}.social .social__item{margin-bottom:0;margin-right:16px}.social .social__item:last-child{margin-right:0}.social .social__link{display:flex;align-items:center;padding:4px;font-size:20px;color:var(--heading-font-color)}.social .social__link:hover{color:var(--brand-color)}.footer__gallery .footer__gallery-title{margin-bottom:24px;font-size:28px}.footer__gallery .gallery__image img{height:100%;border-radius:8px;overflow:hidden}.footer__gallery .gallery__image img.lightense-open{border-radius:0}.footer__info{padding:44px 0;background-color:var(--background-color)}.footer__info .footer__info-box{display:flex;align-items:center;justify-content:space-between}@media only screen and (max-width: 1024px){.footer__info{padding:40px 0}}.copyright{margin-right:20px;font-size:14px;font-weight:500;color:var(--text-alt-color)}.copyright a{text-decoration:underline;text-decoration-color:transparent;color:var(--heading-font-color)}.copyright a:hover{text-decoration-color:var(--heading-font-color);color:var(--heading-font-color)}.top{min-width:36px;height:36px;font-size:20px;line-height:36px;text-align:center;border-radius:8px;color:var(--heading-font-color);background-color:var(--background-alt-color);cursor:pointer;transition:all .25s ease}.gallery-box{margin:32px 0}.gallery{display:grid;grid-template-columns:repeat(3, auto);justify-content:center;align-content:center;grid-gap:10px}.gallery .gallery__image{background:var(--background-color)}.gallery .gallery__image img{display:block;width:100%;height:auto;object-fit:cover}.hero{padding:80px 0;margin-bottom:80px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.hero{padding:60px 0;margin-bottom:60px}}.hero__inner{display:flex;align-items:center}@media only screen and (max-width: 1024px){.hero__inner{flex-direction:column}}.hero__left{max-width:450px;margin-right:auto}@media only screen and (max-width: 1140px){.hero__left{max-width:440px}}@media only screen and (max-width: 1024px){.hero__left{max-width:100%}}.hero__title{margin-bottom:20px;font-size:55px;font-weight:900;line-height:1.3;color:var(--heading-font-color)}@media only screen and (max-width: 1024px){.hero__title{font-size:50px}}@media only screen and (max-width: 768px){.hero__title{font-size:40px}}@media only screen and (max-width: 576px){.hero__title{font-size:32px}}.hero__description{margin-bottom:0;font-size:21px;color:var(--text-alt-color)}@media only screen and (max-width: 1024px){.hero__description{font-size:inherit}}.hero__subscribe{margin-top:32px}.hero__subscribe .subscribe-form{position:relative;border-radius:2px;background-color:var(--background-color)}.hero__subscribe .subscribe-email{width:100%;height:70px;padding:20px;font-size:16px;line-height:21px;border:2px solid transparent;border-radius:2px;outline:0;color:var(--heading-font-color);background-color:transparent;transition:all .25s ease}.hero__subscribe .subscribe-email::placeholder{opacity:0.6;color:var(--text-alt-color)}.hero__subscribe .subscribe-email:focus{border-color:var(--brand-color)}.hero__subscribe .subscribe-button{position:absolute;top:6px;right:6px}@media only screen and (max-width: 1024px){.hero__subscribe{margin-top:24px}}@media only screen and (max-width: 576px){.hero__subscribe{margin-top:20px}.hero__subscribe .subscribe-form{display:flex;flex-direction:column;padding:6px}.hero__subscribe .subscribe-email{height:56px;margin-bottom:4px}.hero__subscribe .subscribe-button{position:relative;top:0;right:0}}.hero__right{width:50%}@media only screen and (max-width: 1024px){.hero__right{width:100%;margin-top:40px}}@media only screen and (max-width: 576px){.hero__right{margin-top:32px}}.hero__image{position:relative;transform:translate(0);width:100%;height:410px;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.02);background-color:var(--background-color);user-select:none}.hero__image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}@media only screen and (max-width: 1140px){.hero__image{height:380px}}@media only screen and (max-width: 1024px){.hero__image{height:440px}}@media only screen and (max-width: 768px){.hero__image{height:420px}}@media only screen and (max-width: 576px){.hero__image{height:280px}}.article{margin-bottom:32px;will-change:transform;transition:transform .2s}.article:hover{transform:translateY(-3px)}.article:hover .article__title a{text-decoration:underline;text-decoration-color:var(--link-color-hover);text-decoration-thickness:2px}.article__head{position:relative}.article__date{position:absolute;z-index:1;top:16px;left:16px;display:inline-block;padding:8px 12px;font-size:12px;line-height:1;font-weight:500;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.article__image{position:relative;transform:translate(0);display:block;height:0;margin-bottom:24px;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.article__image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.video-icon{position:absolute;z-index:1;top:50%;left:50%;width:50%;height:50%;transform:translate(-50%, -50%);pointer-events:none}.video-icon .circle{width:50px;height:50px;position:absolute;top:0;left:0;right:0;bottom:0;border-radius:50%;overflow:hidden;margin:auto;transform:scale(1, 1)}.video-icon .circle.pulse{animation-timing-function:ease;animation:pulse 2s infinite;background-color:rgba(255,255,255,0.25)}.video-icon svg{fill:rgba(255,255,255,0.25);stroke:var(--light-blue);stroke-linejoin:round;stroke-width:5;backdrop-filter:blur(3.5px);-webkit-backdrop-filter:blur(4.5px);transition:all 0.3s}.article__title{margin-bottom:12px;font-size:24px}.article__title a{text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:2px}.article__title a:hover{color:var(--heading-font-color)}.article__excerpt{margin-bottom:0;font-size:16px;color:var(--text-alt-color)}.contact-head{margin-bottom:32px}.form__group{margin-bottom:20px}.form__group:last-child{margin-bottom:0}.form__input{width:100%;padding:20px;font-size:16px;font-weight:400;border:2px solid var(--border-color);border-radius:2px;outline:0;transition:.25s ease-in-out;resize:vertical;color:var(--heading-font-color);background-color:var(--background-alt-color)}.form__input::placeholder{color:var(--text-alt-color)}.form__input:focus{border-color:var(--brand-color)}.section__head{position:relative;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px}.section__head::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 768px){.section__head::after{content:none}}.section__title{padding-right:20px;margin-bottom:0;font-size:28px}@media only screen and (max-width: 576px){.section__title{font-size:24px}}.section__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--link-color);transition:text-decoration .35s}.section__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 768px){.section__link{padding-left:0}}@media only screen and (max-width: 576px){.section__link{font-size:16px}}.section__title,.section__link{background:var(--background-color)}@media only screen and (max-width: 576px){.section-tags .row .col:last-child>.tag-image{margin-bottom:0}}.tag-image{margin-bottom:32px;position:relative;transform:translate(0);display:block;height:0;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color);transition:transform .2s}.tag-image:hover{transform:translateY(-3px)}.tag-image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.tag-image .tag-name{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:1;max-width:90%;display:inline-block;padding:8px 12px;font-size:14px;line-height:1;font-weight:700;text-transform:capitalize;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.post-head,.page-head{margin-bottom:48px}.post-head .row,.page-head .row{align-items:center}@media only screen and (max-width: 1024px){.post-head,.page-head{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-head,.page-head{margin-bottom:32px}}.post-image,.page-image{position:relative;transform:translate(0);padding-top:90%;min-height:280px;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.post-image img,.page-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}@media only screen and (max-width: 1024px){.post-image,.page-image{padding-top:65%;margin-bottom:40px}}@media only screen and (max-width: 576px){.post-image,.page-image{margin-bottom:32px}}.page-image{padding-top:56.25%;margin-bottom:48px}@media only screen and (max-width: 1024px){.page-image{margin-bottom:40px}}@media only screen and (max-width: 576px){.page-image{margin-bottom:32px}}.post-video,.page-video{margin-bottom:48px;border-radius:8px;overflow:hidden;transform:translate(0);background-color:var(--background-alt-color)}.post-video .post-video__wrap,.post-video .page-video__wrap,.page-video .post-video__wrap,.page-video .page-video__wrap{position:relative;width:100%;height:0;padding-bottom:56.25%}.post-video .post-video__wrap iframe,.post-video .page-video__wrap iframe,.page-video .post-video__wrap iframe,.page-video .page-video__wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}@media only screen and (max-width: 1024px){.post-video,.page-video{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-video,.page-video{margin-bottom:32px}}.post__info{margin-left:44px}.post__info.post__info-video{max-width:760px;margin:0 auto}@media only screen and (max-width: 1024px){.post__info{margin-left:0}}.page__info{max-width:760px;margin:0 auto}.post__tags{display:flex;align-items:center;flex-wrap:wrap;margin-bottom:20px}.post__tags .post__tag{padding:12px 16px;margin:4px 8px 4px 0;font-size:14px;line-height:1;font-weight:500;text-transform:capitalize;border:none;border-radius:8px;color:var(--heading-font-color);transition:none;background-color:var(--background-alt-color)}.post__tags .post__tag:last-child{margin-right:0}@media only screen and (max-width: 576px){.post__tags{margin-bottom:16px}}.post__title,.page__title{margin-bottom:24px;font-size:46px;line-height:1.2;font-weight:900}@media only screen and (max-width: 576px){.post__title,.page__title{margin-bottom:20px;font-size:32px}}.page__title{margin-bottom:0}.post__meta{display:flex;align-items:center;line-height:1}.post__meta .post__author-image{position:relative;transform:translate(0);width:50px;height:50px;border-radius:50%;overflow:hidden;margin-right:12px;background-color:var(--background-alt-color)}.post__meta .post__author-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.post__meta .post__meta-bottom{display:flex;flex-direction:column}.post__meta .post__author{display:inline-block;margin-bottom:7px;font-size:16px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--heading-font-color);transition:text-decoration-color .35s}.post__meta .post__author:hover{text-decoration-color:var(--heading-font-color)}.post__meta .post__date{font-size:14px;font-weight:400;color:var(--text-alt-color)}.post,.page{max-width:760px;margin:0 auto 60px;color:var(--text-color)}.post a,.page a{font-weight:500;border-bottom:1px solid var(--border-color)}.post a:hover,.page a:hover{color:var(--link-color);border-bottom-color:var(--link-color-hover)}.post img,.post .js-reframe,.page img,.page .js-reframe{border-radius:8px;overflow:hidden}.post img.lightense-open,.post .js-reframe.lightense-open,.page img.lightense-open,.page .js-reframe.lightense-open{border-radius:0}.post img[src$='#wide'],.page img[src$='#wide']{display:block;width:100vw;max-width:none;margin-left:50%;transform:translateX(-50%);border-radius:0;pointer-events:none;user-select:none}.post .button,.page .button{border:none;text-decoration:none}.post__share .share__list{display:flex;align-items:center;width:100%}.post__share .share__item{width:25%;margin-right:8px;margin-bottom:0;text-align:center}.post__share .share__item:last-child{margin-right:0}.post__share .share__link{display:flex;justify-content:center;align-items:center;width:100%;height:54px;font-size:18px;text-transform:uppercase;border:none;border-radius:8px;background:var(--background-alt-color)}.post__share .share__link i{transition:transform .25s;will-change:transform}.post__share .share__link:hover{color:var(--heading-font-color)}.post__share .share__link:hover i{transform:scale(1.1)}.related-posts{display:none;margin-top:80px}.related-posts.is-related{display:block}.related-posts .related-tag{text-transform:capitalize}@media only screen and (max-width: 576px){.related-posts{margin-top:60px}.related-posts .row .col:last-child{margin-bottom:0}}.show-comments{margin:48px 0 32px;text-align:center}.show-comments .disqus-button{padding:28px;border-radius:8px;text-decoration:underline;text-decoration-color:transparent}.show-comments .disqus-button:hover{text-decoration-color:var(--heading-font-color)}@media only screen and (max-width: 576px){.show-comments{margin:60px 0 0}.show-comments .disqus-button{padding:24px}}.post__comments{max-width:760px;margin:0 auto}.post__comments.is-open{margin:0 auto 32px}@media only screen and (max-width: 576px){.post__comments.is-open{margin:0 auto}}.error{text-align:center}.error .error__title{margin-bottom:24px;font-size:100px;line-height:1}.error .error__text{margin-bottom:0;color:var(--text-alt-color)}@media only screen and (max-width: 576px){.error .error__title{font-size:68px}}.recent-posts{margin-top:80px}@media only screen and (max-width: 576px){.recent-posts{margin-top:60px}.recent-posts .row .col:last-child{margin-bottom:0}}.tag__head{margin:80px 0}@media only screen and (max-width: 1024px){.tag__head{margin:40px 0}}.tags__inner{margin-bottom:120px}@media only screen and (max-width: 576px){.tags__inner{margin-bottom:60px}}.tag__title{margin-bottom:32px;font-size:46px;font-weight:900}@media only screen and (max-width: 576px){.tag__title{font-size:32px}}.tag__list{display:flex;align-items:center;flex-wrap:wrap;padding-bottom:80px;border-bottom:1px solid var(--background-alt-color)}.tag__list .tag__item{margin-right:12px;margin-bottom:12px}.tag__list .tag__item:last-child{margin-right:0}.tag__list .tag__link{display:block;padding:12px 16px;font-size:16px;font-weight:500;text-transform:capitalize;border-radius:8px;transition:none;background:var(--background-alt-color)}.tag__list .tag__link:hover{color:var(--heading-font-color)}@media only screen and (max-width: 576px){.tag__list{padding-bottom:48px}.tag__list .tag__item{margin-right:8px;margin-bottom:8px}.tag__list .tag__link{font-size:14px}}.tag__info{position:relative;display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}.tag__info::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 576px){.tag__info::after{content:none}}.tag__info-box{display:flex;align-items:center}.tag__counter{display:flex;flex-direction:column;align-items:center;padding:12px 24px;border-radius:8px;color:var(--heading-font-color);background:var(--background-alt-color)}.tag__counter span{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:32px;font-weight:700;line-height:1}.tag__counter small{font-size:16px;font-weight:500}@media only screen and (max-width: 576px){.tag__counter{display:none}}.tag__name{padding:50px 20px 50px 20px;margin-bottom:0;font-size:36px;text-transform:capitalize;background-color:var(--background-color)}.tag__name span{font-weight:400;color:var(--text-alt-color)}@media only screen and (max-width: 768px){.tag__name{font-size:32px}}@media only screen and (max-width: 576px){.tag__name{padding:32px 12px 32px 0;font-size:26px}}.top__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--link-color);transition:text-decoration .35s;background:var(--background-color)}.top__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 576px){.top__link{padding-left:0;font-size:16px}}
+
+  </style>
+</head>
+
+<body>
+
+  
+
+  <!-- begin header -->
+<header class="header" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+        <div class="logo">
+          <a class="logo__link" href="/">
+          
+            Matthew Reinbold
+          
+          </a>
+        </div>
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav__title">Menu</div>
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="/" class="nav__link">Home</a>
+              </li>
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/Appearances/" class="nav__link">Appearances</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/disclosure/" class="nav__link">Disclosures</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/about/" class="nav__link">About</a>
+                  </li>
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+              
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav__icon icon__menu ion ion-md-menu"></i>
+          <i class="nav__icon icon__search ion ion-md-search"></i>
+        </div>
+
+
+      </div>
+      <div style="font-size: 80%; margin-left: auto; margin-top:-30px">
+        In addition to the posts below, my writing can also be found at:
+        <ul>
+          <li style="margin:0"><strong><a href="https://netapinotes.substack.com/" target="_blank">Net API Notes</a></strong> - An API Industry Email Newsletter for Busy Decision Makers</li>
+          <li style="margin:0"><strong><a href="https://betterbits.substack.com/" target="_blank">Better Bits</a></strong> - The Email Newsletter Accompanying the <em>Better Bits</em> Book.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<!-- begin search -->
+<div class="search">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="search__box">
+          <div class="search__group">
+            <div class="search__close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
+            <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row search-results-list" id="js-results-container"></div>
+  </div>
+
+</div>
+<!-- end search -->
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    <div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      
+      <div class="col col-12">
+        <div class="post-video">
+          <div class="post-video__wrap">
+            <iframe src="https://www.youtube.com/embed/Q4wUmKX8ZQU" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col col-12">
+        <div class="post__info post__info-video">
+  
+          
+            <div class="post__tags">
+              
+                <a href="/tags#Presentations" class="post__tag">Presentations</a>
+              
+                <a href="/tags#Software Governance" class="post__tag">Software Governance</a>
+              
+            </div>
+          
+  
+          <h1 class="post__title">Overcoming Complexity through the Principle of Least Power</h1>
+          <h2 class="">Defining an Principled Approach to API Innovation With Layers</h2>
+  
+          <div class="post__meta">
+            <a href="/about/" class="post__author-image">
+              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
+            </a>
+
+            <div class="post__meta-bottom">
+              <a class="post__author" href="/about/">Matthew Reinbold</a>
+              <time class="post__date" datetime="2019-07-17T00:00:00-05:00">17 Jul 2019</time>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin post -->
+<div class="container animate">
+
+  <article class="post">
+
+    <div class="post__content">
+      <p>Here are the slides and script for the presentation I made on July 17th at the San Francisco APIDays Conference. The theme for the event was ‘The New API Stack’.</p>
+
+<p><em>This presentation is part of my goal to produce six original works in six months. For more information see <a href="https://matthewreinbold.com/2019/06/21/On-Travel/">the post about my conversion of travel time to productive time in 2019</a>.</em></p>
+
+<p>Without further ado, here is the talk.</p>
+
+<p><em>Update 2019-08-13</em></p>
+
+<p>The video recording for the talk has been released. If you’d prefer to watch rather than read, <a href="#video">I’ve embedded it below</a>.</p>
+
+<hr />
+
+<p><figure><img src="/images/2019/07/Slide1.PNG" /><figcaption>An innocuous introduction slide.</figcaption></figure></p>
+
+<p>Welcome, everyone. My name is Matthew Reinbold, and my talk this morning is how to overcome <em>complexity</em> with the <em>principle of least power</em>.</p>
+
+<p><em>Photo by <a href="https://unsplash.com/@shemul?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shahadat Shemul</a> on <a href="https://unsplash.com/search/photos/complexity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></em></p>
+
+<p><figure><img src="/images/2019/07/Slide2.PNG" /><figcaption>Defining software complexity.</figcaption></figure></p>
+
+<p>Modern software architecture <em>is <strong>complex</strong></em>. John Ousterhout, in his book “A Philosophy of Software Design”, defines complexity
+as:</p>
+<blockquote>
+  <p>“anything related to the structure of a software system that makes it hard to
+understand and modify the system.”</p>
+</blockquote>
+
+<p>In other words, a barrier to the kind of business agility that we crave, that is desired to win in competitive marketplaces, is how hard our architectures are to grok.</p>
+
+<p><figure><img src="/images/2019/07/Slide3.PNG" /><figcaption>Complexity grows. For everyone.</figcaption></figure></p>
+
+<p>Complexity is a problem that we all share. Clear back in the innocent, carefree days of 2011 Marc Andreessen quipped that “software was eating the world”. That same year <a href="https://www.forbes.com/sites/techonomy/2011/11/30/now-everycompany-is-a-software-company/#42438fbdf3b1">Forbes declared that “every company is a software company</a>”. Sometime around the middle of this decade, our community began talking about how “<a href="https://techcrunch.com/2015/05/06/apis-fuel-the-software-thats-eatingthe-world/">APIs were eating software</a>”.</p>
+
+<p>As the Director for the Capital One Center of Excellence, I lead the team that sets the API and event streaming standards for 9,000 geographically disbursed developers. A vast majority contribute to the thousands of in-production, internal APIs that our company uses to deliver new products and experiences. My team and I oversee an internal ecosystem that delivers 3.5 billion API requests a day.</p>
+
+<p>In addition to that “day job”, I also write an email newsletter called “<a href="https://netapinotes.substack.com/archive">Net API Notes</a>”. There, I love to highlight stories of how other companies are managing their API journeys. While many are at different points along the road, all of us eventually run into same problem: complexity.</p>
+
+<p><figure><img src="/images/2019/07/Slide4.PNG" /><figcaption>APIs offer the greatest leverage point in a dynamic system.</figcaption></figure></p>
+
+<p>Why APIs? Because the API is the greatest leverage point in a complex system. An API is a means of abstracting complexity and hiding it behind an interface.</p>
+
+<p>That abstraction allows programmers to work on a system without being exposed to all a system’s complexity at once. An API is a simplified view which omits unimportant details. It makes it easier for us to think about and manipulate complex things.</p>
+
+<p>It’s why APIs have exploded, both internally and externally. In our organization, we might have started with APIs - either our own or 3rd parties - for critical functionality. However, in time, patterns emerged to deal with the <em>complexity</em> of the environment. If you’re Netflix’s Daniel Jacobson, you call these “<a href="http://www.danieljacobson.com/blog/306">experience APIs</a>” (2014). If you’re Phil Calçado, director at Meetup, <a href="https://philcalcado.com/2015/09/18/the_back_end_for_front_end_pattern_bff.html">this is the Backend-for-Frontend (or BFF) pattern</a> (2015).</p>
+
+<p>At the same time that this orchestration API layering was taking place, <a href="https://martinfowler.com/articles/microservices.html">James Lewis and Martin Fowler were talking about an abstraction they saw called <em>microservices</em></a> (2014).</p>
+
+<p><figure><img src="/images/2019/07/Slide5.PNG" /><figcaption>Even these abstractions meant to hide complexity birth their own complexity when done in mass.</figcaption></figure></p>
+
+<p>Thing is, complexity is neither creator or destroyed, is just changes shape. Not only are there more services, resulting in the infamous “microservice death star” style graphs, but the complexity introduced to try and manage these services – deployment pipelines, service meshes, monitoring tools, auditing, dependency managements also introduce their own emergent behavior.</p>
+
+<p>In fact, over the past several years, through the writing on Net API Notes, I’ve seen a number of pieces where companies retreat back to a monolith exactly because they were more comfortable with the complexity that they had known rather than the new form it had taken.</p>
+
+<p>With enough abstractions, we begin to see that layers change at different rates.</p>
+
+<p><em>Images from “<a href="https://blog.acolyer.org/2019/05/13/an-open-source-benchmark-suite-formicroservices-and-their-hardware-software-implications-for-cloud-edge-systems/">An Open Source Benchmark Suite for Microservices</a>”</em></p>
+
+<p><figure><img src="/images/2019/07/Slide6.PNG" /><figcaption>Layering of abstractions move at different rates.</figcaption></figure></p>
+
+<p>Abstractions changing at different rates doesn’t just happen in software. Wherever there are people, we see a stratification among abstractions.</p>
+
+<p>In his book, “The Clock of the Long Now”, Stewart Brand described “Pace Layers”. He identified layers with each layer building upon slower-moving layers beneath it.</p>
+
+<p>At the bottom are those things that are the slowest to change. These are things of <strong>nature</strong>. As far as we know, the laws of physics haven’t changed. For example, the speed of light is constant.</p>
+
+<p>Next up is the <strong>cultural</strong> layer. People are people. It’s why the stories of the Greeks and Romans still resonate with us today.</p>
+
+<p>Above that is <strong>governance</strong>. Note that this is not <em>governments</em> (think democracy or populism).</p>
+
+<p>Above that, moving at a faster clip, is <strong>infrastructure</strong>. These are things like our road systems, or the electrical or plumbing networks in this building.</p>
+
+<p>Moving even faster that that is <strong>commerce</strong> or the rate at which new products, services, and experiences can be brought to a market.</p>
+
+<p>Finally, at the top and moving with the greatest speed, is fashion.</p>
+
+<p><figure><img src="/images/2019/07/Slide7.PNG" /><figcaption>Fast layers innovate, slow layers stabilize.</figcaption></figure></p>
+
+<p>One layer isn’t more important than another. It turns out that <em>all</em> layers are important for a well-functioning system. Each has its place. Imagine if something as important as foreign policy was being run on a whim? Or if innovation was only allowed to happen at the speed of bureaucratic consensus.</p>
+
+<p>As Stewart says in his book:</p>
+<blockquote>
+  <p>“Fast learns, slow remembers. Fast proposes. Slow disposes. Fast is discontinuous and slow is continuous. Fast and slow informs slow and big by accrued innovation and occasional revolution and slow and big control slow and fast by constraint and constancy. Fast gets all our attention but slow has all the power.”</p>
+</blockquote>
+
+<p><figure><img src="/images/2019/07/Slide8.PNG" /><figcaption>An API Pace Layer begins with unchanging natural laws.</figcaption></figure></p>
+
+<p>When it comes to web, or ‘net’, APIs I see similar stack that changes at different rates. I’ll insert my usual model disclaimer here: “all models are wrong, but some are useful”. I acknowledge this is incomplete, but this API Pace Layering model we’re about to walk through is useful for raising topics for discussion and illustrating insights about complexity (and where we attempt to hide it).</p>
+
+<p>At the bottom, again, are the laws of <strong>nature</strong>. The speed of light sent between distributed systems is constant. Not a whole lot there likely to change soon.</p>
+
+<p><figure><img src="/images/2019/07/Slide9.PNG" /><figcaption>TCP is foundational, constant and unchanging.</figcaption></figure></p>
+
+<p>The next is the TCP layer. That protocol has been around since the 70s. That’s probably a good thing, as something as necessary as packet transmission needs to be stable; considering the amount of physical hardware, languages, and frameworks that have it “baked in”, you wouldn’t want it changing often.</p>
+
+<p><figure><img src="/images/2019/07/Slide10.PNG" /><figcaption>HTTP is the next layer.</figcaption></figure></p>
+
+<p>As we go up, remember that we’re beginning to pick up the rate of change. There are lots of protocols, like FTP or email. However, most of us in this room are probably familiar with HTTP. HTTP 1.1, which a guy named Roy Fielding worked on, <a href="https://tools.ietf.org/html/rfc2616">was ratified in 1999</a>. HTTP/2, which many haven’t implemented yet, was approved in 2015. It’s not whipsawing speed, by any stretch of the imagination. However, compared to TCP, it’s changing faster.</p>
+
+<p><figure><img src="/images/2019/07/Slide11.PNG" /><figcaption>HTTP can be thought of as additional, addative layers.</figcaption></figure></p>
+
+<p>Here’s where I purposely made it interesting. HTTP, <em>itself</em>, is layered. There’s the verbs or methods. Everybody is familiar with “GET”, “PUT”, “POST”, and “DELETE”. Some might even use “PATCH”. There are others, like “OPTIONS” and “HEAD”, which are useful in other circumstances. There’s a couple more, but that’s mostly it; under ten items to recall that have been stable since the last millennium.</p>
+
+<p>There are <em>status codes</em>; while, officially, <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">there are 50-60 status codes</a> the ones we care about can be broken into three broad groups. Any 2xx responses tell me, as a client, my request succeeded. Any 4xx tells me, as a client, that I need to modify my request before doing it again. Also, 5xx tells client me that the API provider is having a very bad moment. Again, stable, consistent, and doesn’t require me to introspect the payload for the high-level gist of what is going on.</p>
+
+<p>The last layer of the HTTP protocol worth highlighting is <em>headers</em>. <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">There are about a hundred of these</a>. Some of them get into a fair amount of subtlety and nuance. Not all are that useful. However, this is where we get a wonderful set of tools to shape requests. The fastest request is the one you never have to make. If an API provides thoughtful clues through caching headers to a client, it is a beautiful, highly-performant, thing. Headers also where we can perform content negotiation, allowing the same API to return the JSON representation, a CVS file, a PDF, a binary image, or <em>more</em> all from the same resource.</p>
+<p><figure><img src="/images/2019/07/Slide12.PNG" /><figcaption>RFCs offer lots of opportunities for experimentation.</figcaption></figure></p>
+
+<p>Above HTTP, evolving at a greater clip, are the IETF’s <em>Requests for Comment</em>, or RFCs. There are <strong>thousands</strong> of these notes which capture proposed ways communication on the internet might work. That’s a lot and there are new ones all the time.</p>
+
+<p>There is some excellent work here that can powerfully aid comprehension and intuitiveness of a design. When things go wrong, <a href="https://tools.ietf.org/html/rfc7807">RFC7807 defines a common error object</a>. By using a standard, clients aren’t left having to figure out where in the payload to look for information to help solve their issues. A standard might also suggest information, or representations of information, that you might not otherwise have considered.</p>
+
+<p>There’s also <a href="https://tools.ietf.org/html/rfc8594">RFC 8594, the sunset HTTP header</a>. It is a way of telling someone that requests a URI that it may become unresponsive in the future. This one was fun to watch being born, on Twitter and through email, by this extended community. A common need for better lifecycle management was identified folks online and they swarmed together to discuss merits of different approaches. From their efforts, we now have a abstraction: the complexity of having to come up with how to do this was handled by someone else.</p>
+
+<p><figure><img src="/images/2019/07/Slide13.PNG" /><figcaption>Patterns are numerous, and quick to evolve.</figcaption></figure></p>
+
+<p>Finally, at the top of this layering, are patterns. There are some patterns, like the backend-for-frontend or experience API pattern, that become popular - possibly even so popular that they end up generating dedicated RFCs to support them. Remote Procedure Call (or RPC) is a pattern. Webhooks are a pattern. Hypermedia is also a pattern. These can are multitudinous, and a new one can be introduced as quickly as the Netflix engineering or Hacker News forums publish a new post. These are constantly changing. Some become quite fashionable.</p>
+
+<p><figure><img src="/images/2019/07/Slide14.PNG" /><figcaption>A layered architectural approach gracefully degrades.</figcaption></figure></p>
+
+<p>The wonderful thing about how these layers perform in a complex system is how they gracefully degrade. Suppose, for example, that I provide an API that implements an RFC, like the common error object. What if the client isn’t expecting, or doesn’t care that I’m following a prescribed standard. Do we fail to exchange meaningful information?</p>
+
+<p><em>Of course not</em>. A client unaware of RFC 7807 would only see a JSON response returned to them, and they would parse it anyway, the same as they would if my response was something that I came up with off the top of my head. The advantage are those complex ecosystems featured in the microservice death stars – when all services express information in the same way, it opens opportunities for tooling; tooling which takes the cognitive burden from developers, freeing them to focus on the business problem.</p>
+
+<p>Let’s take another example and go a layer deeper. As an API provider, I have the best understanding of when the underlying data changes. As a result, I provide cachecontrol and ETag headers to the client, allowing them to make smart decisions about when to request an object. After all, the fastest API call is the one that didn’t have to happen in the first place. If a client is savvy and picks up on it, great! If not, <strong>things still work</strong>; maybe not as efficiently, maybe not as elegantly. However, building in layers that can gracefully degrade means that communication is still possible.</p>
+
+<p><figure><img src="/images/2019/07/Slide15.PNG" /><figcaption>GraphQL cuts across layers, connecting an interaction pattern to TCP.</figcaption></figure></p>
+
+<p>Now, for a brief moment, let’s talk about GraphQL (going through a similar exercise for gRPC is left to the reader). GraphQL is a query language for data retrieval and updating via HTTP. I put it in the “pattern” layer, as it is a different API interaction pattern between client and server.</p>
+
+<p>Unlike the other patterns that I had previously mentioned, however, GraphQL is <em>not</em> built upon the same layered approach. All requests, be it data retrieval or mutations to update, are submitted via POST. The only status code ever returned is a 200, requiring introspection of the payload <em>of every response</em> in case there is an error embedded in it. Headers aren’t encouraged, as they’re not displayed in tooling like the explorer from GraphQLHub.com. There’s no equivalent RFC-like error response for GraphQL, although vendors like Apollo are promoting their approach.</p>
+
+<p>There’s a paradox here. I can hear it. “Matthew,” you might say, “by freeing us from having to think about verbs or codes or headers or RFCs – by getting rid of the layers, aren’t we abstracting complexity behind a single abstraction?”</p>
+
+<p>Remember, <strong>complexity is neither creator or destroyed</strong>, is just changes shape.</p>
+
+<p>GraphQL is not a layered approach; everything from the pattern to the TCP/IP layer is either strictly specified by GraphQL or left for developers to recreate in their own, bespoke way. Eschewing layers, as GraphQL gives developers tremendous power to solve problems exactly how they imagine a problem to be solved; both from the consumer’s point of view, where they can tailor the response to their needs. The API provider also can implement their own approaches to common distributed systems problems. But that power comes with <em>great</em> <strong>complexity</strong>. The layers that abstracted the complexity of things like caching, of error handling, content negotiation are all left to the developer. And having each GraphQL solve those things in their own fashion will increase the complexity of comprehension on the part of clients and tool makers.</p>
+
+<p><figure><img src="/images/2019/07/Slide16.PNG" /><figcaption>To combat complexity, the principle of least power suggests keeping things simple and within layers.</figcaption></figure></p>
+
+<p><a href="https://www.w3.org/2001/tag/doc/leastPower.html">The principle, or rule, of least power states that one should</a>:</p>
+<blockquote>
+  <p>“Choose the least powerful language suitable for a given purpose.”</p>
+</blockquote>
+
+<p>That seems incredibly counter-intuitive. Don’t we want <strong>more</strong> power to solve problems? Shouldn’t we deserve the newest tools? The most flexible frameworks? Who in their right mind is a fan of the least among us?</p>
+
+<p>We can apply this to our layers. When I call an API, I can include instructions as to whether I’m reading or updating information in the payload; that is a payload the server will have to introspect and act on. Or I can use the humble verb at the lowest layer, and signal the same thing via a GET or PATCH. It seems like a simple thing but it drastically affects where the complexity of our tracing, monitoring, entitling, securing, rate-limiting, framework-ing, and supporting goes.</p>
+
+<p><em>Update: 2019-09-03</em></p>
+
+<p><em>For a robust list of useful, defined elements that apply to a number of common use cases, check out <a href="http://standards.rest/">Standards.REST</a>. Why re-invent the wheel?</em></p>
+
+<p><figure><img src="/images/2019/07/Slide17.PNG" /><figcaption>Ultimately, there is nothing wrong with fasion. Just make choice based on principle. </figcaption></figure></p>
+
+<p>So do I hate GraphQL? Am I advocating that we should only use “boring” technology? That the old stuff is better?</p>
+
+<p>While I am a fan of <a href="http://boringtechnology.club">The Boring Technology Club</a>, that is not the message. I’ve grown to appreciate what happens within the fashionable layers. The chaotic experimentation is exciting. The vigor for overturning assumptions and pursuing new avenues is how we discover new, potentially powerful ideas. In a healthy stack, the best ideas go from being fashionable, to products sold via commerce, to essential pieces of infrastructure eventually requiring governance and important pieces of business culture.</p>
+
+<p>What I do advocate for, however, is conscious, decision being made when pursuing new patterns. Eschewing layers comes with trade-offs. Enter into those decisions with eyes wide open.</p>
+
+<p>As Mythical Man Month author Fred Brooks said:</p>
+<blockquote>
+  <p>“There are no silver bullets.””</p>
+</blockquote>
+
+<p><em>Photo by <a href="https://unsplash.com/@mariyageorgieva?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mariya Georgieva</a> on <a href="https://unsplash.com/search/photos/fashion?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></em></p>
+
+<p><figure><img src="/images/2019/07/Slide18.PNG" /><figcaption>An innocuous conclusion slide.</figcaption></figure></p>
+
+<p>In conclusion, every company is a software company which means every company is wrestling with growing complexity.</p>
+
+<p>One approach to dealing with complexity to create abstractions. The abstractions at the different layers in any system evolve at different rates, which is a good thing. Fast layers accrue innovation and occasionally incite a revolution while the slow provide stability and filtering.</p>
+
+<p>Net APIs have evolved into different layers. Each layer provides a host of solutions to common problems that gracefully degrade if not used. The principle of least power suggests choosing simple, layered solutions to layer-spanning solutions.</p>
+
+<p>Only by making more informed decisions, fully aware of the trade-offs at hand, will those responsible for API governance be able to overcome the complexity of our current API stacks.</p>
+
+<p><figure><img src="/images/2019/07/Slide19.PNG" /><figcaption>Thank you for your attention.</figcaption></figure></p>
+
+<p>I’ll have the slides, along with some additional color and links to sources, at my website, <a href="https://matthewreinbold.com">matthewreinbold.com</a>. I’ll announce when its ready on my Twitter stream and in my newsletter, ‘Net API Notes’.</p>
+
+<p>I am <a href="https://twitter.com/libel_vox">Twitter’s @libel_vox</a>, and you can follow me and continue the conversation there. Thank you for the precious gift of your attention. Enjoy the rest of the conference!</p>
+
+    </div>
+
+    <div class="post__share">
+      <ul class="share__list list-reset">
+        <li class="share__item">
+          <a class="share__link share__twitter"
+            href="https://twitter.com/intent/tweet?text=Overcoming%20Complexity%20through%20the%20Principle%20of%20Least%20Power&url=http://localhost:4000/2019/07/17/OvercomingComplexity"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+        </li>
+        <li class="share__item">
+          <a class="share__link share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2019/07/17/OvercomingComplexity&title=Overcoming%20Complexity%20through%20the%20Principle%20of%20Least%20Power&summary=&source=Matthew%20Reinbold"
+          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+
+
+  </article>
+</div>
+<!-- end post -->
+
+
+
+
+
+
+
+<!-- begin related posts -->
+<div class="container">
+  <section class="related-posts is-related animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">You may also like</h2>
+              <a class="section__link" href="/blog">
+                
+                
+                  
+                    <a href="/tags#Presentations" class="section__link related-tag">See all<span> Presentations</span></a>
+                  
+                
+                  
+                
+              
+              </a>
+            </div>
+          </div>
+          <div class="row">
+
+          
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-06-28T00:00:00-05:00">28 Jun 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/2022/06/28/SevenSkillsToSaveSoftware">
+        <img class="lazy" data-src="/images/2022/06/Slide1.PNG" alt="Seven Skills to Save Software">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2022/06/28/SevenSkillsToSaveSoftware">Seven Skills to Save Software</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-03-29T00:00:00-05:00">29 Mar 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/2022/03/29/JustTellMeWhatToDo">
+        <img class="lazy" data-src="/images/2022/whiteboard.png" alt=""Just Tell Me What To Do"">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2022/03/29/JustTellMeWhatToDo">"Just Tell Me What To Do"</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2021-11-22T00:00:00-06:00">22 Nov 2021</time>
+
+      
+
+      
+      <a class="article__image" href="/2021/11/22/StandardsAsAccelerant">
+        <img class="lazy" data-src="/images/2022/ataforkintheroad.jpg" alt="Standards as Accelerant">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2021/11/22/StandardsAsAccelerant">Standards as Accelerant</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+                  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- end related posts -->
+
+
+  </main>
+  <!-- end content -->
+
+  <!-- begin footer -->
+<footer class="footer">
+
+  <div class="footer__inner">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-5 col-d-12">
+          <div class="footer__author">
+            <div class="footer__author-avatar">
+              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
+            </div>
+            <h3 class="footer__author-name">Matthew Reinbold</h3>
+            <p class="footer__author-bio">Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.</p>
+            
+            <div class="social">
+              <ul class="social__list list-reset">
+                
+                <li class="social__item">
+                  <a class="social__link" href="https://twitter.com/libel_vox" target="_blank" rel="noopener"
+                    aria-label=" link"><i class="ion ion-logo-twitter"></i></a>
+                </li>
+                
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="col col-6 push-1 col-d-12 push-d-0">
+          <div class="footer__gallery">
+            <h3 class="footer__gallery-title">Gallery</h3>
+            
+            <div class="gallery-footer">
+              <div class="gallery" style="grid-template-columns: repeat(3, auto);">
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold2-speaking-2014.png" alt="Matthew speaking in Amsterdam, 2014" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold2-speaking-2014b.jpg" alt="Matthew speaking in Minneapolis, 2014" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold-speaking-2015.jpg" alt="Matthew speaking in Northern Virgina, 2015" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold-speaking-2016.jpg" alt="Matthew leading training in 2016" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/api-strat-speaking-headshot.jpg" alt="Matthew speaking in 2019" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/headshot-2018.png" alt="Matthew in 2018" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/video_2021.jpg" alt="Matthew presenting online in 2021" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/podcast-2021.png" alt="Matthew recording a podcast in 2021" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/podcast-2021b.png" alt="Matthew appearing on a podcast in 2021" loading="lazy">
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__info">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="footer__info-box">
+            <div class="copyright">2022 &copy; <a href="/">Matthew Reinbold</a>. </div>
+            <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- end footer -->
+
+  <script src="/js/scripts.js"></script>
+  <script src="/js/common.js"></script>
+</body>
+
+</html>

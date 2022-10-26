@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>API Governance for IT Culture Change</title>
+  <meta name='description' content='This Matthew Reinbold's website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the 'Net API Notes' email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.'>
+
+  <link rel="canonical" href="http://localhost:4000/2017/10/03/API-Governance-Blueprint">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="/feed.xml">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="API Governance for IT Culture Change – Matthew Reinbold">
+  <meta name="twitter:description" content="Here is a copy of the presentation that I gave at API World 2017. I&apos;ve had the fortune (or misfortune, as the case may be) to work on API platform governance programs for the past several years. This is a culmination of my lessons learned during this time.
+">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/2017/10/api-governance-blueprint/Slide01.png">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="API Governance for IT Culture Change – Matthew Reinbold">
+  <meta property="og:description" content="Here is a copy of the presentation that I gave at API World 2017. I&apos;ve had the fortune (or misfortune, as the case may be) to work on API platform governance programs for the past several years. This is a culmination of my lessons learned during this time.
+">
+  <meta property="og:image" content="http://localhost:4000/images/2017/10/api-governance-blueprint/Slide01.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" as="style">
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+  <!-- Ionicons -->
+  <link rel="preload" href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" as="style">
+
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <script>
+    
+      document.documentElement.setAttribute("dark", "");
+      document.documentElement.classList.add('dark-mode');
+    
+  </script>
+
+  <style>
+  
+  /*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--light-blue: #f3f7ff;--blue-gray: #716f8a;--gray: #9e9e9e;--dark: #0c101a;--dark-blue: #1e2740;--background-color: var(--white);--background-alt-color: var(--light-blue);--text-color: var(--dark-blue);--text-alt-color: var(--blue-gray);--heading-font-color: var(--dark-blue);--link-color: var(--dark-blue);--link-color-hover: var(--dark-blue);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: var(--light-blue);--border-color-alt: var(--light-blue);--th-color: var(--light-gray);--tr-color: var(--light-gray);--syntax-highlighting-background: #f3f3f3}[dark]:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--gray: #9e9e9e;--dark: #111016;--background-color: var(--dark);--background-alt-color: #1a1a1f;--text-color: var(--gray);--text-alt-color: var(--gray);--heading-font-color: var(--light-gray);--link-color: var(--light-gray);--link-color-hover: var(--light-gray);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: #252629;--border-color-alt: #080b12;--th-color: #18181d;--tr-color: #080b12;--syntax-highlighting-background: #080b12}.list-reset{list-style-type:none;margin:0;padding:0}.clearfix::after,.clearfix ::before{content:"";display:table;clear:both}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px;word-wrap:normal !important}/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,hr{margin:0;padding:0}li>ul,li>ol{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6,ul,ol,dl,blockquote,p,address,hr,table,fieldset,figure,pre{margin-bottom:32px}ul,ol,dd{margin-left:16px}ul li,ol li{margin-bottom:10px}.highlight{margin-bottom:32px;background:var(--syntax-highlighting-background)}.highlighter-rouge .highlight{background:var(--syntax-highlighting-background)}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#5d76bf;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#ec2355}.highlight .na{color:#008080}.highlight .nb{color:#0086B3}.highlight .nc{color:#5d76bf;font-weight:bold}.highlight .no{color:#008080}.highlight .ni{color:#800080}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#4d65dc}.highlight .nv{color:#008080}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#ec2355}.highlight .sc{color:#ec2355}.highlight .sd{color:#ec2355}.highlight .s2{color:#ec2355}.highlight .se{color:#ec2355}.highlight .sh{color:#ec2355}.highlight .si{color:#ec2355}.highlight .sx{color:#ec2355}.highlight .sr{color:#009926}.highlight .s1{color:#ec2355}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:#008080}.highlight .vg{color:#008080}.highlight .vi{color:#008080}.highlight .il{color:#099}.container{max-width:1140px;padding-left:16px;padding-right:16px;margin:0 auto}@media only screen and (max-width: 1140px){.container{max-width:1000px}}@media only screen and (max-width: 1024px){.container{max-width:740px}}@media only screen and (max-width: 768px){.container{max-width:560px}}@media only screen and (max-width: 576px){.container{max-width:480px;padding-left:calc(16px + 4px);padding-right:calc(16px + 4px)}}.row{display:flex;flex-wrap:wrap;flex:0 1 auto;flex-direction:row;box-sizing:border-box;margin-left:-16px;margin-right:-16px}.col{padding-left:16px;padding-right:16px}[class^="col-"]{flex:auto}.col-0{width:0%}.col-1{width:8.3333333333%}.col-2{width:16.6666666667%}.col-3{width:25%}.col-4{width:33.3333333333%}.col-5{width:41.6666666667%}.col-6{width:50%}.col-7{width:58.3333333333%}.col-8{width:66.6666666667%}.col-9{width:75%}.col-10{width:83.3333333333%}.col-11{width:91.6666666667%}.col-12{width:100%}.push-0{margin-left:0%}.push-1{margin-left:8.3333333333%}.push-2{margin-left:16.6666666667%}.push-3{margin-left:25%}.push-4{margin-left:33.3333333333%}.push-5{margin-left:41.6666666667%}.push-6{margin-left:50%}.push-7{margin-left:58.3333333333%}.push-8{margin-left:66.6666666667%}.push-9{margin-left:75%}.push-10{margin-left:83.3333333333%}.push-11{margin-left:91.6666666667%}.push-12{margin-left:100%}.pull-0{margin-right:0%}.pull-1{margin-right:8.3333333333%}.pull-2{margin-right:16.6666666667%}.pull-3{margin-right:25%}.pull-4{margin-right:33.3333333333%}.pull-5{margin-right:41.6666666667%}.pull-6{margin-right:50%}.pull-7{margin-right:58.3333333333%}.pull-8{margin-right:66.6666666667%}.pull-9{margin-right:75%}.pull-10{margin-right:83.3333333333%}.pull-11{margin-right:91.6666666667%}.pull-12{margin-right:100%}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}.animate{animation:animateElement cubic-bezier(0.3, 0.45, 0.45, 0.95) 0.75s;animation-duration:0.5s;animation-iteration-count:1;transition:transform .15s}@keyframes animateElement{0%{transform:translate(0px, 50px)}100%{transform:translate(0px, 0px)}}@keyframes pulse{0%{transform:scale(1, 1)}25%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}*,*::after,*::before{box-sizing:border-box}body{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.5;overflow-x:hidden;color:var(--text-color);background-color:var(--background-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media only screen and (max-width: 576px){body{font-size:18px}}*::selection{color:var(--white);background-color:var(--brand-color)}h1,h2,h3,h4,h5,h6{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;letter-spacing:-1px;color:var(--heading-font-color)}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{position:relative;margin:40px 0;padding-left:26px;font-size:24px;line-height:1.7;font-weight:900;border-left:4px solid var(--brand-color);color:var(--heading-font-color)}blockquote p{margin-bottom:10px}blockquote cite{display:inline-block;margin-top:8px;font-size:14px;font-weight:700;font-style:normal;color:var(--heading-font-color)}@media only screen and (max-width: 576px){blockquote{font-size:21px}}pre{overflow:auto;padding:15px;margin-bottom:0;font-size:14px;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;color:var(--heading-font-color)}img,.lightense-wrap{max-width:100%;height:auto;vertical-align:middle}img+em,.lightense-wrap+em,.gallery+em{display:block;margin-top:20px;font-size:12px;line-height:22px;font-style:normal;font-weight:normal;text-align:center;color:var(--heading-font-color)}img+em a,.lightense-wrap+em a,.gallery+em a{font-weight:500;border-bottom:1px solid var(--border-color);transition:all 0.35s}img+em a:hover,.lightense-wrap+em a:hover,.gallery+em a:hover{color:var(--link-color);border-color:var(--link-color-hover)}@media only screen and (max-width: 576px){img+em,.lightense-wrap+em,.gallery+em{margin-top:12px}}a{text-decoration:none;color:var(--link-color);transition:all 0.35s}a:hover{color:var(--link-color-hover)}hr{width:100%;height:1px;margin:60px 0;border:0;background:var(--background-alt-color)}.table-container{display:block;max-width:100%;overflow-x:auto}table{font-size:12px;color:var(--dark);width:100%;border-width:1px;border-color:var(--background-alt-color);border-collapse:collapse;color:var(--heading-font-color)}table th{padding:10px;font-size:16px;text-align:left;border:1px solid var(--th-color);color:var(--heading-font-color);font-weight:700;background-color:var(--th-color)}table tr{background-color:var(--tr-color);transition:all .3s ease}table tr:nth-child(even){background-color:transparent}table td{padding:10px;font-size:14px;border:1px solid var(--background-alt-color)}.button{display:inline-block;padding:20px 26px;font-size:16px;font-weight:700;text-decoration:none;border-radius:2px;border:none;outline:none;cursor:pointer;transition:all .25s;color:var(--heading-font-color);background:var(--background-alt-color)}.button--primary{color:var(--white);background-color:var(--button-background-color)}.button--primary:hover{background:var(--button-background-hover)}.button--big{display:block;width:100%}.lazy{opacity:0;transition:opacity 0.3s ease-in-out}.lazy.loaded{opacity:1}.lightense-backdrop{background-color:var(--background-color) !important}.header .header__inner{position:relative;display:flex;align-items:center;flex-wrap:wrap;padding:44px 16px}@media only screen and (max-width: 1024px){.header .header__inner{padding:40px 16px}}@media only screen and (max-width: 576px){.header .header__inner{padding:32px 16px}}.logo__link{padding:4px 0;font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:28px;letter-spacing:-1px;line-height:1;font-weight:700;transition:color .25s ease}.logo__link:hover{color:var(--brand-color)}.logo__image{max-height:50px}.main-nav{margin-left:auto}@media only screen and (max-width: 1024px){.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;opacity:0;visibility:hidden;background-color:var(--background-color)}.main-nav.is-open{opacity:1;visibility:visible;transition:all .25s ease}.main-nav .nav__list{flex-direction:column;width:100%}.main-nav .nav__list .nav__item{display:block;margin:0}.main-nav .nav__list .nav__item.nav__item-icon{margin-right:0}.main-nav .nav__list .nav__item .nav__link{display:inline-block;padding:16px 0;font-size:18px;transition:color .25s ease}.main-nav .nav__list .nav__item .nav__link:hover{color:var(--brand-color)}}.main-nav__box{display:flex;align-items:center}.main-nav__box .nav__icon-close{display:none;justify-content:center;align-items:center;width:36px;height:36px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);background:var(--background-alt-color);cursor:pointer}.main-nav__box .nav__icon-close:hover .ion-md-close{transform:rotate(90deg)}.main-nav__box .nav__icon-close .ion-md-close{transition:all 0.35s}.main-nav__box .nav__title{display:none}@media only screen and (max-width: 1024px){.main-nav__box{display:block;align-items:center;width:80%;height:80vh;padding-top:180px;margin:0 auto;text-align:center;overflow-y:auto}.main-nav__box .nav__icon-close{display:flex;position:absolute;top:40px;right:40px}.main-nav__box .nav__title{display:inline-block;margin-bottom:12px;font-family:"Jost", Helvetica Neue, Helvetica, Arial, sans-serif;font-size:36px;font-weight:700;letter-spacing:-1px;color:var(--heading-font-color)}}@media only screen and (max-width: 768px){.main-nav__box{padding-top:100px}}.nav__list{display:flex;align-items:center}.nav__list .nav__item{display:inline-block;margin-right:48px;margin-bottom:0}.nav__list .nav__item.nav__item-icon{margin-right:12px}.nav__list .nav__item .nav__link{position:relative;padding:4px 0;font-size:16px;line-height:1;font-weight:700;transition:color .25s ease}.nav__list .nav__item .nav__link:hover{color:var(--brand-color)}.nav-button{font-size:21px;color:var(--link-color);cursor:pointer}.nav-button .icon__menu{display:none;margin-right:12px}.nav-button .icon__menu,.nav-button .icon__search{transition:color .25s ease}.nav-button .icon__menu:hover,.nav-button .icon__search:hover{color:var(--brand-color)}@media only screen and (max-width: 1024px){.nav-button{display:flex;align-items:center;margin-left:auto;font-size:24px}.nav-button .icon__menu{display:block}}.toggle-theme{position:relative;display:flex;justify-content:center;align-items:center;width:24px;height:24px;user-select:none;cursor:pointer}@media only screen and (max-width: 1024px){.toggle-theme{padding:20px 0}}.toggle-sun,.toggle-moon{position:absolute;font-size:20px;transition:color .25s ease;color:var(--heading-font-color)}.toggle-sun:hover,.toggle-moon:hover{color:var(--brand-color)}.toggle-sun{display:none}.dark-mode .toggle-sun{display:block}.dark-mode .toggle-moon{display:none}.search{position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;overflow:auto;opacity:0;background:var(--background-color);transition:all .25s ease}.search.is-visible{z-index:100;opacity:1;transition:all .25s ease}.search__box{max-width:540px;margin:0 auto;padding-top:120px}@media only screen and (max-width: 1024px){.search__box{padding-top:100px}}.search__group{position:relative;margin-bottom:48px}.search__group .search__close{position:absolute;right:28px;top:50%;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;width:32px;height:32px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);cursor:pointer;will-change:transform;transition:all .25s;background:var(--background-color)}.search__group .search__close:hover{transform:translateY(-50%) rotate(90deg)}.search__group .search__close .ion-md-close{vertical-align:middle}.search__group .search__text{width:100%;padding:28px;font-size:20px;font-weight:700;line-height:24px;border:2px solid transparent;border-radius:2px;color:var(--heading-font-color);background-color:var(--background-alt-color);outline:0;transition:all .25s}.search__group .search__text::placeholder{font-weight:700;color:var(--heading-font-color)}.search__group .search__text:focus{border-color:var(--brand-color)}.search__group .search__text::-ms-clear{display:none}@media only screen and (max-width: 576px){.search__group{margin-bottom:32px}.search__group .search__text{padding:24px}}.search-results-list .no-results{width:100%;margin:0;text-align:center;color:var(--heading-font-color)}.pagination{margin-bottom:80px}@media only screen and (max-width: 576px){.pagination{margin-bottom:60px}}.pagination__inner{display:flex;justify-content:center;align-items:center}.pagination__list{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:18px;font-weight:700;line-height:1;color:var(--text-color)}@media only screen and (max-width: 576px){.pagination__list{align-items:stretch;font-size:16px}}.pagination__item{display:flex;justify-content:center;align-items:center;width:100%;padding:24px 20px;text-align:center;border-radius:8px;background:var(--background-alt-color)}@media only screen and (max-width: 576px){.pagination__item{align-items:center;padding:20px;border-radius:8px}}.pagination__count{margin:0 32px;font-size:16px;color:var(--link-color)}@media only screen and (max-width: 768px){.pagination__count{margin:0 12px}}@media only screen and (max-width: 576px){.pagination__count{margin:0 8px;font-size:14px;line-height:1.2}}.pagination__next:hover,.pagination__prev:hover{color:var(--heading-font-color)}.pagination__next i,.pagination__prev i{font-size:15px;transition:transform .15s ease;will-change:transform}.pagination__next.disabled,.pagination__prev.disabled{opacity:0.64;cursor:not-allowed;color:inherit}.pagination__next.disabled:hover i,.pagination__prev.disabled:hover i{transform:none}.dark-mode .pagination__next.disabled,.dark-mode .pagination__prev.disabled{opacity:0.78}.pagination__next:hover i{transform:translateX(2px)}.pagination__next i{margin-left:5px}.pagination__prev:hover i{transform:translateX(-2px)}.pagination__prev i{margin-right:5px}.footer{margin-top:48px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.footer{margin-top:60px}}.footer__inner{padding:80px 0}.footer__inner .row .col{flex-grow:1}@media only screen and (max-width: 576px){.footer__inner{padding:60px 0}}@media only screen and (max-width: 1024px){.footer__author{margin-bottom:60px}}@media only screen and (max-width: 576px){.footer__author{margin-bottom:40px}}.footer__author-avatar{position:relative;width:105px;height:105px;margin-bottom:20px;transform:translate(0);border-radius:50%;overflow:hidden;box-shadow:0px 100px 80px rgba(0,0,0,0.07),0px 12.5216px 10.0172px rgba(0,0,0,0.035);background-color:var(--background-color)}.footer__author-avatar img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.footer__author-name{margin-bottom:20px;font-size:32px;font-weight:900;line-height:1}.footer__author-bio{margin-bottom:0;color:var(--text-alt-color)}.social{margin-top:16px}.social .social__list{display:flex;align-items:center;flex-wrap:wrap}.social .social__list .social__item:first-child>.social__link{padding-left:0}.social .social__item{margin-bottom:0;margin-right:16px}.social .social__item:last-child{margin-right:0}.social .social__link{display:flex;align-items:center;padding:4px;font-size:20px;color:var(--heading-font-color)}.social .social__link:hover{color:var(--brand-color)}.footer__gallery .footer__gallery-title{margin-bottom:24px;font-size:28px}.footer__gallery .gallery__image img{height:100%;border-radius:8px;overflow:hidden}.footer__gallery .gallery__image img.lightense-open{border-radius:0}.footer__info{padding:44px 0;background-color:var(--background-color)}.footer__info .footer__info-box{display:flex;align-items:center;justify-content:space-between}@media only screen and (max-width: 1024px){.footer__info{padding:40px 0}}.copyright{margin-right:20px;font-size:14px;font-weight:500;color:var(--text-alt-color)}.copyright a{text-decoration:underline;text-decoration-color:transparent;color:var(--heading-font-color)}.copyright a:hover{text-decoration-color:var(--heading-font-color);color:var(--heading-font-color)}.top{min-width:36px;height:36px;font-size:20px;line-height:36px;text-align:center;border-radius:8px;color:var(--heading-font-color);background-color:var(--background-alt-color);cursor:pointer;transition:all .25s ease}.gallery-box{margin:32px 0}.gallery{display:grid;grid-template-columns:repeat(3, auto);justify-content:center;align-content:center;grid-gap:10px}.gallery .gallery__image{background:var(--background-color)}.gallery .gallery__image img{display:block;width:100%;height:auto;object-fit:cover}.hero{padding:80px 0;margin-bottom:80px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.hero{padding:60px 0;margin-bottom:60px}}.hero__inner{display:flex;align-items:center}@media only screen and (max-width: 1024px){.hero__inner{flex-direction:column}}.hero__left{max-width:450px;margin-right:auto}@media only screen and (max-width: 1140px){.hero__left{max-width:440px}}@media only screen and (max-width: 1024px){.hero__left{max-width:100%}}.hero__title{margin-bottom:20px;font-size:55px;font-weight:900;line-height:1.3;color:var(--heading-font-color)}@media only screen and (max-width: 1024px){.hero__title{font-size:50px}}@media only screen and (max-width: 768px){.hero__title{font-size:40px}}@media only screen and (max-width: 576px){.hero__title{font-size:32px}}.hero__description{margin-bottom:0;font-size:21px;color:var(--text-alt-color)}@media only screen and (max-width: 1024px){.hero__description{font-size:inherit}}.hero__subscribe{margin-top:32px}.hero__subscribe .subscribe-form{position:relative;border-radius:2px;background-color:var(--background-color)}.hero__subscribe .subscribe-email{width:100%;height:70px;padding:20px;font-size:16px;line-height:21px;border:2px solid transparent;border-radius:2px;outline:0;color:var(--heading-font-color);background-color:transparent;transition:all .25s ease}.hero__subscribe .subscribe-email::placeholder{opacity:0.6;color:var(--text-alt-color)}.hero__subscribe .subscribe-email:focus{border-color:var(--brand-color)}.hero__subscribe .subscribe-button{position:absolute;top:6px;right:6px}@media only screen and (max-width: 1024px){.hero__subscribe{margin-top:24px}}@media only screen and (max-width: 576px){.hero__subscribe{margin-top:20px}.hero__subscribe .subscribe-form{display:flex;flex-direction:column;padding:6px}.hero__subscribe .subscribe-email{height:56px;margin-bottom:4px}.hero__subscribe .subscribe-button{position:relative;top:0;right:0}}.hero__right{width:50%}@media only screen and (max-width: 1024px){.hero__right{width:100%;margin-top:40px}}@media only screen and (max-width: 576px){.hero__right{margin-top:32px}}.hero__image{position:relative;transform:translate(0);width:100%;height:410px;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.02);background-color:var(--background-color);user-select:none}.hero__image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}@media only screen and (max-width: 1140px){.hero__image{height:380px}}@media only screen and (max-width: 1024px){.hero__image{height:440px}}@media only screen and (max-width: 768px){.hero__image{height:420px}}@media only screen and (max-width: 576px){.hero__image{height:280px}}.article{margin-bottom:32px;will-change:transform;transition:transform .2s}.article:hover{transform:translateY(-3px)}.article:hover .article__title a{text-decoration:underline;text-decoration-color:var(--link-color-hover);text-decoration-thickness:2px}.article__head{position:relative}.article__date{position:absolute;z-index:1;top:16px;left:16px;display:inline-block;padding:8px 12px;font-size:12px;line-height:1;font-weight:500;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.article__image{position:relative;transform:translate(0);display:block;height:0;margin-bottom:24px;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.article__image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.video-icon{position:absolute;z-index:1;top:50%;left:50%;width:50%;height:50%;transform:translate(-50%, -50%);pointer-events:none}.video-icon .circle{width:50px;height:50px;position:absolute;top:0;left:0;right:0;bottom:0;border-radius:50%;overflow:hidden;margin:auto;transform:scale(1, 1)}.video-icon .circle.pulse{animation-timing-function:ease;animation:pulse 2s infinite;background-color:rgba(255,255,255,0.25)}.video-icon svg{fill:rgba(255,255,255,0.25);stroke:var(--light-blue);stroke-linejoin:round;stroke-width:5;backdrop-filter:blur(3.5px);-webkit-backdrop-filter:blur(4.5px);transition:all 0.3s}.article__title{margin-bottom:12px;font-size:24px}.article__title a{text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:2px}.article__title a:hover{color:var(--heading-font-color)}.article__excerpt{margin-bottom:0;font-size:16px;color:var(--text-alt-color)}.contact-head{margin-bottom:32px}.form__group{margin-bottom:20px}.form__group:last-child{margin-bottom:0}.form__input{width:100%;padding:20px;font-size:16px;font-weight:400;border:2px solid var(--border-color);border-radius:2px;outline:0;transition:.25s ease-in-out;resize:vertical;color:var(--heading-font-color);background-color:var(--background-alt-color)}.form__input::placeholder{color:var(--text-alt-color)}.form__input:focus{border-color:var(--brand-color)}.section__head{position:relative;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px}.section__head::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 768px){.section__head::after{content:none}}.section__title{padding-right:20px;margin-bottom:0;font-size:28px}@media only screen and (max-width: 576px){.section__title{font-size:24px}}.section__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--link-color);transition:text-decoration .35s}.section__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 768px){.section__link{padding-left:0}}@media only screen and (max-width: 576px){.section__link{font-size:16px}}.section__title,.section__link{background:var(--background-color)}@media only screen and (max-width: 576px){.section-tags .row .col:last-child>.tag-image{margin-bottom:0}}.tag-image{margin-bottom:32px;position:relative;transform:translate(0);display:block;height:0;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color);transition:transform .2s}.tag-image:hover{transform:translateY(-3px)}.tag-image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.tag-image .tag-name{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:1;max-width:90%;display:inline-block;padding:8px 12px;font-size:14px;line-height:1;font-weight:700;text-transform:capitalize;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.post-head,.page-head{margin-bottom:48px}.post-head .row,.page-head .row{align-items:center}@media only screen and (max-width: 1024px){.post-head,.page-head{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-head,.page-head{margin-bottom:32px}}.post-image,.page-image{position:relative;transform:translate(0);padding-top:90%;min-height:280px;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.post-image img,.page-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}@media only screen and (max-width: 1024px){.post-image,.page-image{padding-top:65%;margin-bottom:40px}}@media only screen and (max-width: 576px){.post-image,.page-image{margin-bottom:32px}}.page-image{padding-top:56.25%;margin-bottom:48px}@media only screen and (max-width: 1024px){.page-image{margin-bottom:40px}}@media only screen and (max-width: 576px){.page-image{margin-bottom:32px}}.post-video,.page-video{margin-bottom:48px;border-radius:8px;overflow:hidden;transform:translate(0);background-color:var(--background-alt-color)}.post-video .post-video__wrap,.post-video .page-video__wrap,.page-video .post-video__wrap,.page-video .page-video__wrap{position:relative;width:100%;height:0;padding-bottom:56.25%}.post-video .post-video__wrap iframe,.post-video .page-video__wrap iframe,.page-video .post-video__wrap iframe,.page-video .page-video__wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}@media only screen and (max-width: 1024px){.post-video,.page-video{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-video,.page-video{margin-bottom:32px}}.post__info{margin-left:44px}.post__info.post__info-video{max-width:760px;margin:0 auto}@media only screen and (max-width: 1024px){.post__info{margin-left:0}}.page__info{max-width:760px;margin:0 auto}.post__tags{display:flex;align-items:center;flex-wrap:wrap;margin-bottom:20px}.post__tags .post__tag{padding:12px 16px;margin:4px 8px 4px 0;font-size:14px;line-height:1;font-weight:500;text-transform:capitalize;border:none;border-radius:8px;color:var(--heading-font-color);transition:none;background-color:var(--background-alt-color)}.post__tags .post__tag:last-child{margin-right:0}@media only screen and (max-width: 576px){.post__tags{margin-bottom:16px}}.post__title,.page__title{margin-bottom:24px;font-size:46px;line-height:1.2;font-weight:900}@media only screen and (max-width: 576px){.post__title,.page__title{margin-bottom:20px;font-size:32px}}.page__title{margin-bottom:0}.post__meta{display:flex;align-items:center;line-height:1}.post__meta .post__author-image{position:relative;transform:translate(0);width:50px;height:50px;border-radius:50%;overflow:hidden;margin-right:12px;background-color:var(--background-alt-color)}.post__meta .post__author-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.post__meta .post__meta-bottom{display:flex;flex-direction:column}.post__meta .post__author{display:inline-block;margin-bottom:7px;font-size:16px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--heading-font-color);transition:text-decoration-color .35s}.post__meta .post__author:hover{text-decoration-color:var(--heading-font-color)}.post__meta .post__date{font-size:14px;font-weight:400;color:var(--text-alt-color)}.post,.page{max-width:760px;margin:0 auto 60px;color:var(--text-color)}.post a,.page a{font-weight:500;border-bottom:1px solid var(--border-color)}.post a:hover,.page a:hover{color:var(--link-color);border-bottom-color:var(--link-color-hover)}.post img,.post .js-reframe,.page img,.page .js-reframe{border-radius:8px;overflow:hidden}.post img.lightense-open,.post .js-reframe.lightense-open,.page img.lightense-open,.page .js-reframe.lightense-open{border-radius:0}.post img[src$='#wide'],.page img[src$='#wide']{display:block;width:100vw;max-width:none;margin-left:50%;transform:translateX(-50%);border-radius:0;pointer-events:none;user-select:none}.post .button,.page .button{border:none;text-decoration:none}.post__share .share__list{display:flex;align-items:center;width:100%}.post__share .share__item{width:25%;margin-right:8px;margin-bottom:0;text-align:center}.post__share .share__item:last-child{margin-right:0}.post__share .share__link{display:flex;justify-content:center;align-items:center;width:100%;height:54px;font-size:18px;text-transform:uppercase;border:none;border-radius:8px;background:var(--background-alt-color)}.post__share .share__link i{transition:transform .25s;will-change:transform}.post__share .share__link:hover{color:var(--heading-font-color)}.post__share .share__link:hover i{transform:scale(1.1)}.related-posts{display:none;margin-top:80px}.related-posts.is-related{display:block}.related-posts .related-tag{text-transform:capitalize}@media only screen and (max-width: 576px){.related-posts{margin-top:60px}.related-posts .row .col:last-child{margin-bottom:0}}.show-comments{margin:48px 0 32px;text-align:center}.show-comments .disqus-button{padding:28px;border-radius:8px;text-decoration:underline;text-decoration-color:transparent}.show-comments .disqus-button:hover{text-decoration-color:var(--heading-font-color)}@media only screen and (max-width: 576px){.show-comments{margin:60px 0 0}.show-comments .disqus-button{padding:24px}}.post__comments{max-width:760px;margin:0 auto}.post__comments.is-open{margin:0 auto 32px}@media only screen and (max-width: 576px){.post__comments.is-open{margin:0 auto}}.error{text-align:center}.error .error__title{margin-bottom:24px;font-size:100px;line-height:1}.error .error__text{margin-bottom:0;color:var(--text-alt-color)}@media only screen and (max-width: 576px){.error .error__title{font-size:68px}}.recent-posts{margin-top:80px}@media only screen and (max-width: 576px){.recent-posts{margin-top:60px}.recent-posts .row .col:last-child{margin-bottom:0}}.tag__head{margin:80px 0}@media only screen and (max-width: 1024px){.tag__head{margin:40px 0}}.tags__inner{margin-bottom:120px}@media only screen and (max-width: 576px){.tags__inner{margin-bottom:60px}}.tag__title{margin-bottom:32px;font-size:46px;font-weight:900}@media only screen and (max-width: 576px){.tag__title{font-size:32px}}.tag__list{display:flex;align-items:center;flex-wrap:wrap;padding-bottom:80px;border-bottom:1px solid var(--background-alt-color)}.tag__list .tag__item{margin-right:12px;margin-bottom:12px}.tag__list .tag__item:last-child{margin-right:0}.tag__list .tag__link{display:block;padding:12px 16px;font-size:16px;font-weight:500;text-transform:capitalize;border-radius:8px;transition:none;background:var(--background-alt-color)}.tag__list .tag__link:hover{color:var(--heading-font-color)}@media only screen and (max-width: 576px){.tag__list{padding-bottom:48px}.tag__list .tag__item{margin-right:8px;margin-bottom:8px}.tag__list .tag__link{font-size:14px}}.tag__info{position:relative;display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}.tag__info::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 576px){.tag__info::after{content:none}}.tag__info-box{display:flex;align-items:center}.tag__counter{display:flex;flex-direction:column;align-items:center;padding:12px 24px;border-radius:8px;color:var(--heading-font-color);background:var(--background-alt-color)}.tag__counter span{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:32px;font-weight:700;line-height:1}.tag__counter small{font-size:16px;font-weight:500}@media only screen and (max-width: 576px){.tag__counter{display:none}}.tag__name{padding:50px 20px 50px 20px;margin-bottom:0;font-size:36px;text-transform:capitalize;background-color:var(--background-color)}.tag__name span{font-weight:400;color:var(--text-alt-color)}@media only screen and (max-width: 768px){.tag__name{font-size:32px}}@media only screen and (max-width: 576px){.tag__name{padding:32px 12px 32px 0;font-size:26px}}.top__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--link-color);transition:text-decoration .35s;background:var(--background-color)}.top__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 576px){.top__link{padding-left:0;font-size:16px}}
+
+  </style>
+</head>
+
+<body>
+
+  
+
+  <!-- begin header -->
+<header class="header" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+        <div class="logo">
+          <a class="logo__link" href="/">
+          
+            Matthew Reinbold
+          
+          </a>
+        </div>
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav__title">Menu</div>
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="/" class="nav__link">Home</a>
+              </li>
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/Appearances/" class="nav__link">Appearances</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/disclosure/" class="nav__link">Disclosures</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/about/" class="nav__link">About</a>
+                  </li>
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+              
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav__icon icon__menu ion ion-md-menu"></i>
+          <i class="nav__icon icon__search ion ion-md-search"></i>
+        </div>
+
+
+      </div>
+      <div style="font-size: 80%; margin-left: auto; margin-top:-30px">
+        In addition to the posts below, my writing can also be found at:
+        <ul>
+          <li style="margin:0"><strong><a href="https://netapinotes.substack.com/" target="_blank">Net API Notes</a></strong> - An API Industry Email Newsletter for Busy Decision Makers</li>
+          <li style="margin:0"><strong><a href="https://betterbits.substack.com/" target="_blank">Better Bits</a></strong> - The Email Newsletter Accompanying the <em>Better Bits</em> Book.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<!-- begin search -->
+<div class="search">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="search__box">
+          <div class="search__group">
+            <div class="search__close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
+            <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row search-results-list" id="js-results-container"></div>
+  </div>
+
+</div>
+<!-- end search -->
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    <div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      
+
+      
+      <div class="col col-6 col-d-12">
+        <div class="post-image">
+          <img class="lazy" data-src="/images/2017/10/api-governance-blueprint/Slide01.png" alt="API Governance for IT Culture Change">
+        </div>
+      </div>
+      
+
+      
+      
+      
+      <div class="col col-6 col-d-12">
+        <div class="post__info ">
+  
+          
+            <div class="post__tags">
+              
+                <a href="/tags#Presentations" class="post__tag">Presentations</a>
+              
+                <a href="/tags#Software Governance" class="post__tag">Software Governance</a>
+              
+            </div>
+          
+  
+          <h1 class="post__title">API Governance for IT Culture Change</h1>
+          <h2 class="">Presented at API World 2017</h2>
+  
+          <div class="post__meta">
+            <a href="/about/" class="post__author-image">
+              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
+            </a>
+
+            <div class="post__meta-bottom">
+              <a class="post__author" href="/about/">Matthew Reinbold</a>
+              <time class="post__date" datetime="2017-10-03T00:00:00-05:00">03 Oct 2017</time>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin post -->
+<div class="container animate">
+
+  <article class="post">
+
+    <div class="post__content">
+      <p>Here is a copy of the presentation that I gave at API World 2017. I've had the fortune (or misfortune, as the case may be) to work on API platform governance programs for the past several years. This is a culmination of my lessons learned during this time.</p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide01.png" />
+<figcaption class="slide">
+Hello everyone, my name is Matthew Reinbold and I work for Capital One. My team, the API Center of Excellence, helps developers create great API experiences. We are big advocates for the power of <a href="/2016/06/02/ConsistencyAndCohesion/">consistency and cohesion</a> in API design. To be clear, my team doesn't write the APIs but we collaborate with the people that do.
+</figcaption>
+</figure></p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide02.png" />
+<figcaption class="slide">
+
+<p>I am curious - how do people learn about API practices? Where do you go for new tips and techniques?</p>
+
+<ul>
+<li>How many people (willingly) subscribe to two or more email newsletters? I happen to write one called <a href="https://netapinotes.substack.com">Net API Notes</a>.</li>
+
+<li>How many people (willingly) follow industry people on Twitter? I'm Twitter's <a href="https://twitter.com/libel_vox">@libel_vox</a>.</li>
+
+<li>How many people use an RSS reader to keep up with blogs? Occasionally I post long form stuff on <a href="https://matthewreinbold.com">https://matthewreinbold.com</a>.</li>
+</ul>
+
+<p>I happen to be engaged on many fronts. As we go along, you'll see my contact info at the bottom of almost every slide. Please, if anything in this preso here raises questions or you have different insights let's talk about it. Let's have the kind of dialog that should be happening within your companies. Why do we need to help each other figure things out?</p>
+
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide03.png" />
+<figcaption class="slide">
+ 
+<p><strong>Because change is constant</strong>. And, in other news, the sky is blue and water is wet, right? We all accept this as being obvious. And yet, when it comes to managing software complexity, API or otherwise, within our organizations, we create rules, processes, and punishments for those things that deviate from our understanding of the world <em>today</em>. We readily acknowlege change and yet build governance as if things won't.</p>
+
+<p>We can change the narrative. Governance doesn't have have to be restrictive. Instead, I'm here to paint a different picture, one where governance is an enabler of positive change.</p>
+
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide04.png" />
+<figcaption class="slide">
+We have to. The toolsets that developers would <em>like</em> to use to solve their problems in the most efficient manner are expanding at an incredible rate. This is just a snapshot of things that my team has had to evaluate in some capacity in the past year.
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide05.png" />
+<figcaption class="slide">
+<p>And pick your physical metaphor, be it a radar, or a cycle, but these new approaches are going to continue to come. </p>
+
+<p>That's why we're here and why APIs have been so incredibly successful. APIs are a strategy for dealing with change, whether they are web-based, RESTful, or otherwise. </p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide06.png" />
+<figcaption class="slide">
+ 
+<p>Modularity of systems is a successful approach to dealing with change. Writing to the interface, rather than the implementation, means that when a better persistent data store comes along, or when a better framework presents itself, we can take advantage of that with a minimum amount of disruption to the rest of the company. </p>
+
+<p>That said, this isn't about technology. Or at least that is not why it is valuable. </p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide07.png" />
+<figcaption class="slide">
+<p>Swapping out a data store under the covers is just intellectual noodling unless it delivers a tangible business value. At Capital One, the modularity that our API program delivers has allowed us to create <strong>value</strong> on platforms that didn't even exist three years ago.</p>
+
+<p>Here we have three very different customer experiences: a mobile native application, a voice assistant, and a chatbot. When we started our API journey several years ago, did we know that we needed APIs to be a launch day partner for the Amazon Echo Show, or that we needed to translate an emoji to a financial transaction? No, of course not.</p>
+
+<p>However, being able to execute on an API Strategy has meant being able to deliver the kind of customer experiences that <a href="https://www.consumeraffairs.com/news/capital-one-discover-win-honors-for-best-mobile-financial-apps-061917.html">we won a JD Power award</a> for a few months ago.</p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide08.png" />
+<figcaption class="slide">
+ 
+However, one can't just say that you're adapting an API strategy to accommodate change and everything will magically work. The culture has to be has to be wired for change. Any strategic initiative that isn't aligned with the culture will, eventually, fail. 
+
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide09.png" />
+<figcaption class="slide">
+ 
+<p>What does culture change look like? Well, if you're Jeff Bezos, <a href="https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/">it looks like this</a>. The story goes that sometime around 2002, 2003, he sent out an internal memo to the Amazon staff dictating that all functionality should be exposed via standard interfaces. Anyone that <em>didn't</em> do that would be fired. That <strong>culture change</strong> to support a <strong>strategic API plan</strong> is what lead to the eventual success of not only Amazon, but of Amazon Web Services.</p>
+
+<p>Now, you all seem like very lovely people. Even though we've just met, I can tell. But, I'm willing to bet you don't have the kind of executive authority to make these kinds of decrees in your own organizations.</p>
+
+<p>And that's how we end up with governance, or, <em>all too often</em> <strong>bad</strong> governance.</p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide10.png" />
+
+<figcaption class="slide">
+<p>Culture is those things that are important to the organization. It defines the personality of the company and how that company response in times of stress. It is the shared belief in how things are done, and what things are important. It is how a company responds to change.</p>
+
+<p>Unfortunately, <strong>bad</strong> governance attempts to eliminate, or at least restrict, the amount of change that can occur at any given time. This is why companies have "approved tech stacks" that everybody must build to. Developers can only use certain frameworks. Or write in specific languages. Or use only one brand of laptop. Governance, in these situations, is not about the enablement of strategic delivery. Or about positive cultural change. Governance, here, becomes about risk management in the face of change. It says "somebody screwed up, let's make sure they don't screw up again". Governance becomes a list of allowances that made sense in the moment in which they were drafted, and not easily changed for future considerations.</p>
+
+<p><strong>When all you have is a hammer, every problem to be solved becomes a nail</strong>. If you have standards that allow for web APIs, then all problems must be solved by APIs. If you're infrastructure requires protobufs, then a solution that gRPC is optimized for is off the table. </p>
+
+<p>Governance, rather than enabling, restricts the solution space. The culture either complies to this governance (thus lacking the capacity to innovate) <strong>or</strong>, more commonly, <em>circumvents</em> it. That's shadow IT and, by its very unaccounted-for nature, re-introduces the kind of risk this governance was meant to address in the first place.</p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide11.png" />
+<figcaption class="slide">
+
+<p>At Capital One, we had an opportunity. This is a small snapshot of our API footprint but it hints the challenges we faced in 2016. We had created a culture that incentivized the creation of APIs. But, as the CoE watched, we became increasingly concerned about whether teams were creating the <em>right</em> APIs. Were these good APIs? Easy to use? Readily available to be combined into new products and services to deliver business value? Or had we created a culture which prized poorly written, unintuitive point-to-point integrations, because that added to the overall count? Had our culture optimized for the quantity of APIs, rather than the quality of APIs?</p> 
+
+<p>More importantly, if that proved to be the case, how would we change the culture? </p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+<img src="/images/2017/10/api-governance-blueprint/Slide12.png" />
+<figcaption class="slide">
+
+<p>As the CoE began to wrestle with the problem, a common question that I heard several times was "Why aren't the teams following the rules?" Among many in our leadership, the assumption was that if we just crafted the "write good APIs" rule, then our problems would be solved. </p>
+
+<p>That wasn't going to happen. What we needed, instead, was a systematic approach that incentivized desired outcomes and dynamically, holistically reacted to changes in the landscape.</p>
+</figcaption>
+</figure> 
+</p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide13.png" />
+<figcaption class="slide">
+ 
+<p>The first part was defining a healthy ecosystem. Applying policy on an API-by-API basis meant we risked <em>not seeing the forest for the trees</em>. Stepping back, we recognized that we were entrusted with a complex ecosystem. And like a complex ecosystem, there were some actions that would help it flourish. There were also things that, like invasive species, could jeopardize the health.</p>
+
+<p>Once we felt we adequately understood the terrain, the second part was determining how to guide teams from where we were to where we needed to be. There are many ways to cross a chasms. To do so successfully means acknowledging the existing culture. At Capital One, we have a very heavy preference on powerpoint decks, for better or for worse. Engaging with people means meeting people where they are, on their terms, to start a dialog.</p>
+
+<p>The third piece is ensuring that we're measuring our performance. I'm excited to meet my governance peers from other industries. I'll ask them how they quantify success and they'll all too often refer to their published API Style Guide. And I'll ask them how they know that it is positively working. Unfortunately, many don't have a good answer.</p> 
+
+<p>Without some measurement of performance, a governance effort won't be able to determine progress toward a target state, the effectiveness of initiatives, or illustrate the journey for executive leadership. That is not an effective way to run a program or ensure business value is being created. </p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide14.png" />
+<figcaption class="slide">
+
+<p>Let's dig deeper into each of these parts. Having a healthy, reactive ecosystem does not mean that there are no rules. Reverting to the wild west, where freewheeling console cowboys fire off whenever (and whatever) they want is no more a guarantee of delivering on business value than bureaucratic, dictatorial, and centrally planned systems. </p>
+
+<p>Certain things still needed to be defined and enforced. But it isn't <em>all</em> the things. This is the principle of "<strong>selective standardization</strong>".</p>
+</figcaption>
+</figure>
+</p>
+
+<p>
+<figure><img src="/images/2017/10/api-governance-blueprint/Slide15.png" />
+<figcaption class="slide">
+
+<p>Picking sides is necessary because REST APIs follow an architectural style, not pattern. It's not a specification and that's a big reason you'll find all manner of religious flame wars over <em>this</em> approach verses <em>that</em>. However, for the sake of getting work done, there's a need to identify those things that are important for efficient operations and ensure that their adopted uniformly across an organization.</p>
+
+<p>Take API versioning. I have two approaches presented here, but there are more. In this case, we want to ensure that a developer with API experience in Plano can leverage their experience and utilize their learned patterns when they attempt to use an API created by teams in northern Virginia. In this case, it is less about being "right", but selectively standardizing those things that add value in being consistently implemented across the organization.</p>
+
+<p>And then, of course, you also want to ensure that standards are protecting the long term health from detrimental practices. Like the pictured cough syrup, there's a lot of approaches that, in the short term, <em>appear</em> to get the job done. Alcohol, cannabis, chloroform, and morphine probably solve the problem in the short term (I'm guessing). But do that on a regular basis and a body will have some serious, long-term ramifications.</p>
+</figcaption>
+</figure>
+</p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide16.png" /><figcaption class="slide">
+<p>I illustrate the fallacy of best practices by talking about a different interface that we're all familiar with, the electrical outlet. Which one of these is the "best" way of conducting electrical current? Hopefully, you'll agree with me that it is contextual; where you are has a lot to do with the interface you're likely to see.</p> 
+
+<p>But imagine the pain it would be if every outlet in a house had a slightly different outlet. How difficult would it be just to plug something in and get on with work if every interface was seemingly at random? How cumbersome would having to manage all those adapters be?</p>
+
+<p>I try to refrain from using the phase "best practice" when it comes to the undefined, or subtle, nuance around API design. To say something is "best practice" strongly implies that everything else is "worst practice". Reality is that it may just be different, but - for the sake of consistency - we haven't adopted it in our house. Instead, I refer to "common practice". The documentation of this "common practice", or selective standardization isn't a bad thing.</p>
+
+<p>However, this is where I see many organizations stop. They write an API style guide, publish it, and then wonder why the haphazard adoption by well-meaning volunteers seems to have created more problems than it solved.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide17.png" /><figcaption class="slide">
+<p>At minimum, the standards must be a journey, not a destination. A key component to "selective standardization" is knowing what to select. It is one thing for us in our ivory tower to throw darts at market forces and team needs. It is entirely another to repeatedly engage with those doing the work.</p>
+
+<p>Our coaching effort identifies those passionate practitioners throughout our lines of business who have raised their hands and said, "getting this right is important to my teams and me". Coaches not only receive additional training that they then apply to their teams. They also earn access to evolving our standards.</p>
+
+<p>In this way, standards aren't something that are dictated to teams. Teams drive the standards. These aren't alien requirements from another planet. They see their own needs and concerns reflected back at them. That is an incredibly powerful motivator toward acceptance and buy-in.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide18.png" /><figcaption class="slide">
+<p>After identifying some aspects of a healthy ecosystem we now need to help teams traverse it. Each team is at a different point in their journey, and different points of an API lifecycle require different interactions. </p>
+
+<p>At Capital One, we have a four-phase lifecycle for API development: <em>planning</em>, <em>design</em>, <em>development</em>, and <em>deployment</em>. An OpenAPI description is the artifact that progresses through the process. Not only is it used to capture the team's intent, but approved, machine-readable descriptions are what enable automatic publishing to a service discovery portal and provisioning to our API gateway.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide19.png" /><figcaption class="slide">
+A piece of our lifecycle tooling may look familiar. After a team has provided some metadata during their planning stage, they proceed to design their API in a modified version of the Swagger Editor.  
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide20.png" /><figcaption class="slide">
+<p>When they click on the 'eyeball', in the upper right, teams get a preview of what their documentation will look like in the service discovery portal. We had different needs in how we wanted our content organized so we provided a different rendering to the default Swagger UI. </p>
+
+<p>It is during this preview that any violations to those "selective standards" are called out. These are presented to teams so that they can fix the errors <em>prior</em> to engaging my team in design discussions. This is incredibly powerful. Rather than spending time pointing out that teams can't submit a body as part of an HTTP GET request, for example, reviewers are freed up to address higher level concerns (more on that in a moment).</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide21.png" /><figcaption class="slide">
+<p>Those discussions are captured and maintained alongside the API description. The history of how the API design evolved to be the way that it is can be seen by clicking on the word balloon. Previously, conversation would get lost in email threads or chat channels. Not only was that incredibly hard for people to track down if they had questions later, but that history became a black box for new team members. Without the history, they had no insight into what were highly contested aspects that made the API what it was, and which pieces were fair game to be changed.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide22.png" /><figcaption class="slide">
+<p>The lifecycle tool uses an enterprise instance of Github as the system of record. So, in addition to saving the conversational discussion, we can also easily do diffs between versions of an approved API design.</p>
+
+<p>Having an API design artifact that moves through a lifecycle, with transparent and maintained history, enables collaboration. But what is the direction we're moving teams toward?</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide23.png" /><figcaption class="slide">
+<p>When I need to illustrate web API design maturity, I've started to use a pyramid. At the bottom are those APIs that provide some functionality over HTTP and little else.</p>
+
+<p>The next level are those APIs which don't just expose functionality, but are also reliable. An APIs that is down Thursday nights from 3-5am because of backend batch processing may be functional, but not as reliable as we'd like. Likewise, if an API can't (or won't) scale to meet demand, it also isn't reliable.</p>
+
+<p>Intuitive APIs are where we begin to see thought put into the developer experience (or DX). At this level we're thinking outside-in, rather from the data record-out. Key traits are behaving in a predictable manner, and exhibiting the selective standardization that we previously defined. </p>
+
+<p>Moving a tier above that are empowering APIs. Beyond just having a good developer experience, these APIs also contribute direct, or nearly direct business value. In the case of our Bank Account Starter and Credit Offer external APIs, we can trace significant new revenue and accounts booked through affiliate usage. These APIs have grown the funnel, or empowered, our existing lines of business in meaningful ways.</p>
+
+<p>At the top of the pyramid are transformative APIs. These are rare, but powerful. These are APIs that don't just expand existing lines of business, but open up brand new opportunities. We're currently working on some ideas but, as I said, these are some of the hardest APIs to create successfully. </p>
+
+<p>Should all APIs that we product be transformative? No. That's why the pyramid is shaped the way it is, with more reliable APIs than intuitive, more intuitive than empowering, etc. What is important is that, during collaboration, we look for opportunities to advance the work; if a team only has a functional API, can we make it reliable? If it is functional and reliable, can we also make it intuitive?</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide24.png" /><figcaption class="slide">
+<p>The last point I'll make about helping teams navigate this landscape is that simply posting an API style guide, or sending out a firmly worded email is a poor substitute for rolling up one's sleeves and engaging directly with developers. Whether it is San Francisco, in the top picture, northern Virginia on the left, or in Plano, TX on the right building trust is still something done best face to face; trust that the API CoE has the developer's best interests at our heart, and trust in our developers to do the right thing. Believing that API stands for "assume positive intent" is much easier when you've seen eye to eye with someone. </p> 
+
+<p>After we've left, it is the responsibility of the coaches to continue being the approachable, friendly face devs work with on their questions and concerns. They are what turn a one-off training into an ongoing, living discussion in their respective areas.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide25.png" /><figcaption class="slide">
+ <p>Enough of this Kumbaya crap. It may sound like a great story. But how do we know it's working?</p>
+
+ <p>Whether it is because it is hard or because it is an afterthought, meaningful metrics at the API program level are hard to find. And that is unfortunate. Business leaders have invested years, and sometimes tens of millions of dollars, towards service development. When asked if these technology initiatives have been successful, these same leaders have little to point to other than statements like: "I've deployed 47 APIs this year, and my peer on the west coast has 30 in production, so my API folks must be better". Hearing it out loud, hopefully that sounds as ridiculous as it is. But, in the absence of any other KPI, they go with what they have. </p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide26.png" /><figcaption class="slide">
+ <p>As this quote by Tom Peters implies, metrics don't exist in a sterile clean room. They actually drive behavior. Metrics can drive culture change in an organization but they must be carefully monitored for unintended first (and second) order effects. </p>
+
+ <p>I want emphasize that the following metrics I'm about to cover are meant to address specific concerns that existed as we surveyed our landscape. Your company will be different. Attempting to implement these without consideration of your specific situation is likely to lead to disappointing results. </p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide27.png" /><figcaption class="slide">
+<p>As we stepped back and attempted to answer what makes a good API, we saw three categories of numbers emerge: <em>conformance</em>, <em>performance</em>, and <em>transformative</em> metrics. </p>
+
+<p><strong>Conformance</strong> is the adherence of an API design to our standards. These are the rules and usage patterns that can be checked for, automatically, in our lifecycle tooling.</p>
+
+<p><strong>Performance</strong> is how responsive an API is when called. These are easily quantifiable metrics and often the first numbers that people think of when reaching for numbers.</p>
+
+<p>Together, however, conformance and performance are not enough. Just meeting performance expectations without deviation from the rules doesn't make a great API. It is like typing away at a word processor with an expected words-per-minute without creating a spelling or grammatical mistake; while you might not have any squiggly lines anywhere on the page, it doesn't mean that you've written a compelling story. </p>
+
+<p>That is where the <strong>transformative</strong> metric comes in. This component, which I'll talk about in a moment, allows us to capture the <em>subjective</em> nature of the APIs in a way that can be tracked and acted upon.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide28.png" /><figcaption class="slide">
+<p>In this first slide, the number of APIs submitted to review without any deviations from our standards are broken out by LOB. For much of 2016, many of our producing devs were submitting things to collaboration that only were free from policy deviations only 15-20% of the time. My team, subsequently, had to spend precious consultation time pointing out discrepancies rather than on moving to transformative experiences. Given our desire to move teams up the quality pyramid, this was a problem.</p>
+
+<p>In January of this year, we introduced self-service validation into the tool that could be done <em>prior</em> to submitting for review. With this capability, development teams are able to correct their mistakes on their own time, and the CoE can devote more of the review to higher order tasks.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide29.png" /><figcaption class="slide">
+<p>A vast majority of the APIs that Capital One produces are for internal use only. And while our external work has clearly defined service level agreements (SLAs), in a weird quirk, many of our internal APIs do not. This concerned my team for awhile but when we'd ask for someone to define them, we'd never hear back.</p>
+
+<p>So we took the opportunity to define our own in order to create a culture change. We defined a three-pronged SLA: 99.95% of the responses should not have a status code in the five-hundreds, the mean response time needed to be under 500 milliseconds, and 95% of the calls served needed to be less than two seconds. </p>
+
+<p>We spent time deriving these values but, ultimately, they were a guess on our part. <em>But their very existence</em> means teams now have to begin considering whether their APIs meet this behavior. And, for teams that <em>have</em> considered their performance and published their own SLAs, we happily apply those numbers to the performance that we can see. </p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide30.png" /><figcaption class="slide">
+<p>Another example where we're using metrics to drive cultural change is with what we call "stalled" APIs. These are API descriptions that development teams begin but, six months after the design has been approved, still haven't made it to production.</p>
+
+<p>While we had a story here or there guessing what might be happening, this metric allowed us to capture the effects of this behavior at a LOB level, as well as identify whether it is getting better or worse. </p>
+
+<p>Is this the result in shifting product strategy? Frequent team disbandment and reorganization? Before we could start addressing those problems, we first had to identify that we had one.</p>  
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide31.png" /><figcaption class="slide">
+<p>NPS stands for <em>net promoter score</em>. It encapsulates a variety of the subjective nuances comprising an experience. It is very handy in capturing the "goodness" of an API design.</p>
+
+<p>There was a couple of ways we could have approached this scoring. However, executive leadership was already well versed in what NPS is. We've used it forever to gauge the customer experience on a variety of our services and products. </p>
+
+<p>It is not enough to just ask a person scoring an API "is this good?". One of the subtly clever aspects of NPS is that it reframes the question to put a reviewer's professional reputation at stake. Rather than asking "Do you like this API?", NPS asks "Would <strong>you</strong> recommend this API to <strong>your peers</strong>?". Everyone likes to think the are arbiters of style and distinction. As such, they take great pains to not recommend sub-par experiences.</p>
+
+<p>The lowest possible score for NPS is -100 and our sample scores show we can do better. However, those scores aren't surprising given that we've been producing little more than functional and reliable APIs for years. The lack of higher-order, <em>transformative</em> APIs shows up in these scores. But now that we're measuring, we can track whether ongoing initiatives are making it better or whether we need to do something else.</p> 
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide34.png" /><figcaption class="slide">
+<p>There are some additional metrics that I won't mention here. The point is that these are an ongoing conversation. When a metric outlives its usefulness, or we find it is incentivizing the wrong behavior, we change.</p> 
+
+<p>We take all of that data and boil it into the single visualization you see here. These radar plots allow leadership to, at a glance, see their organization's API quality relative to their peers. As quality along an axis increases, the shape grows outward, like a balloon.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide35.png" /><figcaption class="slide">
+<p>The CoE packages these insights together once a month and sends them to the accountable executive over each line of business. Usually this report includes not only observations, but tactical items that can be done to positively impact a metric or metrics. The executive directs coaches within their area to implement those changes, if they deem them necessary. Finally, the coaches then work with their development teams.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide36.png" /><figcaption class="slide">
+ <p>That is a brief overview of how we've attempted to create a governance program that is change enablement while incentivizing culture change. We define healthy ecosystems, help teams navigate that terrain, and then measure our effectiveness along the way.</p>
+
+ <p>A common comment that I hear, at this point, is that "This sounds great, but we don't have the budget for this". Or "we need a bigger team". I'd agree; if we assume that making a massive change can only happen with a massive amount of resources, then we're likely to end up on the unpleasant end of a political tug-of-war.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide37.png" /><figcaption class="slide">
+<p>In regards to doing more with less, and seeding the cultures to make that approach viable, I highly recommend the book, Blue Ocean Strategy The <em>majority</em> of the book is about identifying new business markets and, while interesting, that's probably not what most people in this room do. However, the last third talks about creating successful culture change in order to compete in those markets. It is amazingly relevant to discussions on software governance. </p>
+
+<p>One of the techniques it discusses is the relationship of <em>kingpins</em>, <em>fishbowls</em>, and <em>horse-trading</em>. Going back to our API quality report work, we don't keep those numbers to ourselves. From the beginning, the distribution was about getting the report to the people, the kingpins, with the authority (and the responsibility) to act on the findings.</p>
+
+<p>Next, the report acts as a fishbowl where each of the kingpins can see how the other is doing. In my experience, executives didn't get to where they are without being a tad competitive. Publishing results and easing comparative analysis creates a natural driver for action; each of the leaders wants to be number one among their peers.</p>
+
+<p>The final element is horse-trading. Over time, sometimes by sheer inertia, certain areas accrue an abundance of resources despite requiring different resources. And my CoE doesn't have all the time or energy to produce everything that we feel would be impactful. In these cases, we can approach a LOB that is doing great work in a specific area and offer to share their story as an example for the wider org. In return, we ask for help producing those insights we may not have been able to do otherwise. We have an audience. They have manpower. A careful audit of what one has and the judicious application of horse trading can result in the kind of effects one might only associate with a "bigger budget".</p>
+
+<p><em>(Update: 2020-03-25) Since publishing, I have read a number of additional books unpacking digital transformation and shifting corporate behavior. Two of the best are <strong>Agendashift</strong>, by Mike Burrows, and <strong>Switch</strong>, by Chip and Dan Heath.</em></p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide38.png" /><figcaption class="slide">
+<p>In conclusion, change is constant. If the role of governance is to arrive at the <strong>perfectly optimized system</strong> for <em>today</em>, we will find ourselves perpetually frustrated <em>tomorrow</em>. Day after day, year after year, that theoretical perfection will seem more and more distant.</p>
+
+<p>Instead, if we look to governance not as a destination, but a journey we are on, then change is just part of the landscape.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide39.png" /><figcaption class="slide">
+<p>I'll end on one final Tom Peters quote: "Excellent firms don't believe in excellence - only in constant improvement and constant change."</p>
+
+<p>Build a culture whose governance processes are optimized for change.</p>
+</figcaption></figure></p>
+
+<p><figure><img src="/images/2017/10/api-governance-blueprint/Slide40.png" /><figcaption class="slide">
+<p>Thank you for your attention. My name is Matthew Reinbold. I am the Lead for the Capital One API Center of Excellence and, if you'd like to continue this discussion my contact information is listed here.</p>
+</figcaption></figure></p>
+
+<p>That's it for the presentation. But, if you're interested in more, check out <a href="/2017/10/26/API-Blueprint-Followup/">the most commonly asked questions (and answers)</a></p>
+
+    </div>
+
+    <div class="post__share">
+      <ul class="share__list list-reset">
+        <li class="share__item">
+          <a class="share__link share__twitter"
+            href="https://twitter.com/intent/tweet?text=API%20Governance%20for%20IT%20Culture%20Change&url=http://localhost:4000/2017/10/03/API-Governance-Blueprint"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+        </li>
+        <li class="share__item">
+          <a class="share__link share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2017/10/03/API-Governance-Blueprint&title=API%20Governance%20for%20IT%20Culture%20Change&summary=&source=Matthew%20Reinbold"
+          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+
+
+  </article>
+</div>
+<!-- end post -->
+
+
+
+
+
+
+
+<!-- begin related posts -->
+<div class="container">
+  <section class="related-posts is-related animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">You may also like</h2>
+              <a class="section__link" href="/blog">
+                
+                
+                  
+                    <a href="/tags#Presentations" class="section__link related-tag">See all<span> Presentations</span></a>
+                  
+                
+                  
+                
+              
+              </a>
+            </div>
+          </div>
+          <div class="row">
+
+          
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-06-28T00:00:00-05:00">28 Jun 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/2022/06/28/SevenSkillsToSaveSoftware">
+        <img class="lazy" data-src="/images/2022/06/Slide1.PNG" alt="Seven Skills to Save Software">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2022/06/28/SevenSkillsToSaveSoftware">Seven Skills to Save Software</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-03-29T00:00:00-05:00">29 Mar 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/2022/03/29/JustTellMeWhatToDo">
+        <img class="lazy" data-src="/images/2022/whiteboard.png" alt=""Just Tell Me What To Do"">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2022/03/29/JustTellMeWhatToDo">"Just Tell Me What To Do"</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2021-11-22T00:00:00-06:00">22 Nov 2021</time>
+
+      
+
+      
+      <a class="article__image" href="/2021/11/22/StandardsAsAccelerant">
+        <img class="lazy" data-src="/images/2022/ataforkintheroad.jpg" alt="Standards as Accelerant">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2021/11/22/StandardsAsAccelerant">Standards as Accelerant</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+                  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- end related posts -->
+
+
+  </main>
+  <!-- end content -->
+
+  <!-- begin footer -->
+<footer class="footer">
+
+  <div class="footer__inner">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-5 col-d-12">
+          <div class="footer__author">
+            <div class="footer__author-avatar">
+              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
+            </div>
+            <h3 class="footer__author-name">Matthew Reinbold</h3>
+            <p class="footer__author-bio">Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.</p>
+            
+            <div class="social">
+              <ul class="social__list list-reset">
+                
+                <li class="social__item">
+                  <a class="social__link" href="https://twitter.com/libel_vox" target="_blank" rel="noopener"
+                    aria-label=" link"><i class="ion ion-logo-twitter"></i></a>
+                </li>
+                
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="col col-6 push-1 col-d-12 push-d-0">
+          <div class="footer__gallery">
+            <h3 class="footer__gallery-title">Gallery</h3>
+            
+            <div class="gallery-footer">
+              <div class="gallery" style="grid-template-columns: repeat(3, auto);">
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold2-speaking-2014.png" alt="Matthew speaking in Amsterdam, 2014" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold2-speaking-2014b.jpg" alt="Matthew speaking in Minneapolis, 2014" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold-speaking-2015.jpg" alt="Matthew speaking in Northern Virgina, 2015" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold-speaking-2016.jpg" alt="Matthew leading training in 2016" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/api-strat-speaking-headshot.jpg" alt="Matthew speaking in 2019" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/headshot-2018.png" alt="Matthew in 2018" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/video_2021.jpg" alt="Matthew presenting online in 2021" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/podcast-2021.png" alt="Matthew recording a podcast in 2021" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/podcast-2021b.png" alt="Matthew appearing on a podcast in 2021" loading="lazy">
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__info">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="footer__info-box">
+            <div class="copyright">2022 &copy; <a href="/">Matthew Reinbold</a>. </div>
+            <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- end footer -->
+
+  <script src="/js/scripts.js"></script>
+  <script src="/js/common.js"></script>
+</body>
+
+</html>

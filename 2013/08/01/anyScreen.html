@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>the anyScreen Project</title>
+  <meta name='description' content='This Matthew Reinbold's website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the 'Net API Notes' email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.'>
+
+  <link rel="canonical" href="http://localhost:4000/2013/08/01/anyScreen">
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="/feed.xml">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="the anyScreen Project – Matthew Reinbold">
+  <meta name="twitter:description" content="I started working for Placewise Media in May of 2011. Initially my role was fluid, filling gaps where needed. Not being charged with a specific project, however, has it&apos;s benefits. With others busy, I was soon tasked with figuring out how to get our content into an app. The project manager for that project was Greg Hickman, founder of the Mobile Mixed podcast. 
+">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/2013/08/anyscreen_stablediffusion.png">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="the anyScreen Project – Matthew Reinbold">
+  <meta property="og:description" content="I started working for Placewise Media in May of 2011. Initially my role was fluid, filling gaps where needed. Not being charged with a specific project, however, has it&apos;s benefits. With others busy, I was soon tasked with figuring out how to get our content into an app. The project manager for that project was Greg Hickman, founder of the Mobile Mixed podcast. 
+">
+  <meta property="og:image" content="http://localhost:4000/images/2013/08/anyscreen_stablediffusion.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" as="style">
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+  <!-- Ionicons -->
+  <link rel="preload" href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" as="style">
+
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <script>
+    
+      document.documentElement.setAttribute("dark", "");
+      document.documentElement.classList.add('dark-mode');
+    
+  </script>
+
+  <style>
+  
+  /*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--light-blue: #f3f7ff;--blue-gray: #716f8a;--gray: #9e9e9e;--dark: #0c101a;--dark-blue: #1e2740;--background-color: var(--white);--background-alt-color: var(--light-blue);--text-color: var(--dark-blue);--text-alt-color: var(--blue-gray);--heading-font-color: var(--dark-blue);--link-color: var(--dark-blue);--link-color-hover: var(--dark-blue);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: var(--light-blue);--border-color-alt: var(--light-blue);--th-color: var(--light-gray);--tr-color: var(--light-gray);--syntax-highlighting-background: #f3f3f3}[dark]:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--gray: #9e9e9e;--dark: #111016;--background-color: var(--dark);--background-alt-color: #1a1a1f;--text-color: var(--gray);--text-alt-color: var(--gray);--heading-font-color: var(--light-gray);--link-color: var(--light-gray);--link-color-hover: var(--light-gray);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: #252629;--border-color-alt: #080b12;--th-color: #18181d;--tr-color: #080b12;--syntax-highlighting-background: #080b12}.list-reset{list-style-type:none;margin:0;padding:0}.clearfix::after,.clearfix ::before{content:"";display:table;clear:both}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px;word-wrap:normal !important}/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,hr{margin:0;padding:0}li>ul,li>ol{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6,ul,ol,dl,blockquote,p,address,hr,table,fieldset,figure,pre{margin-bottom:32px}ul,ol,dd{margin-left:16px}ul li,ol li{margin-bottom:10px}.highlight{margin-bottom:32px;background:var(--syntax-highlighting-background)}.highlighter-rouge .highlight{background:var(--syntax-highlighting-background)}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#5d76bf;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#ec2355}.highlight .na{color:#008080}.highlight .nb{color:#0086B3}.highlight .nc{color:#5d76bf;font-weight:bold}.highlight .no{color:#008080}.highlight .ni{color:#800080}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#4d65dc}.highlight .nv{color:#008080}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#ec2355}.highlight .sc{color:#ec2355}.highlight .sd{color:#ec2355}.highlight .s2{color:#ec2355}.highlight .se{color:#ec2355}.highlight .sh{color:#ec2355}.highlight .si{color:#ec2355}.highlight .sx{color:#ec2355}.highlight .sr{color:#009926}.highlight .s1{color:#ec2355}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:#008080}.highlight .vg{color:#008080}.highlight .vi{color:#008080}.highlight .il{color:#099}.container{max-width:1140px;padding-left:16px;padding-right:16px;margin:0 auto}@media only screen and (max-width: 1140px){.container{max-width:1000px}}@media only screen and (max-width: 1024px){.container{max-width:740px}}@media only screen and (max-width: 768px){.container{max-width:560px}}@media only screen and (max-width: 576px){.container{max-width:480px;padding-left:calc(16px + 4px);padding-right:calc(16px + 4px)}}.row{display:flex;flex-wrap:wrap;flex:0 1 auto;flex-direction:row;box-sizing:border-box;margin-left:-16px;margin-right:-16px}.col{padding-left:16px;padding-right:16px}[class^="col-"]{flex:auto}.col-0{width:0%}.col-1{width:8.3333333333%}.col-2{width:16.6666666667%}.col-3{width:25%}.col-4{width:33.3333333333%}.col-5{width:41.6666666667%}.col-6{width:50%}.col-7{width:58.3333333333%}.col-8{width:66.6666666667%}.col-9{width:75%}.col-10{width:83.3333333333%}.col-11{width:91.6666666667%}.col-12{width:100%}.push-0{margin-left:0%}.push-1{margin-left:8.3333333333%}.push-2{margin-left:16.6666666667%}.push-3{margin-left:25%}.push-4{margin-left:33.3333333333%}.push-5{margin-left:41.6666666667%}.push-6{margin-left:50%}.push-7{margin-left:58.3333333333%}.push-8{margin-left:66.6666666667%}.push-9{margin-left:75%}.push-10{margin-left:83.3333333333%}.push-11{margin-left:91.6666666667%}.push-12{margin-left:100%}.pull-0{margin-right:0%}.pull-1{margin-right:8.3333333333%}.pull-2{margin-right:16.6666666667%}.pull-3{margin-right:25%}.pull-4{margin-right:33.3333333333%}.pull-5{margin-right:41.6666666667%}.pull-6{margin-right:50%}.pull-7{margin-right:58.3333333333%}.pull-8{margin-right:66.6666666667%}.pull-9{margin-right:75%}.pull-10{margin-right:83.3333333333%}.pull-11{margin-right:91.6666666667%}.pull-12{margin-right:100%}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}.animate{animation:animateElement cubic-bezier(0.3, 0.45, 0.45, 0.95) 0.75s;animation-duration:0.5s;animation-iteration-count:1;transition:transform .15s}@keyframes animateElement{0%{transform:translate(0px, 50px)}100%{transform:translate(0px, 0px)}}@keyframes pulse{0%{transform:scale(1, 1)}25%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}*,*::after,*::before{box-sizing:border-box}body{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.5;overflow-x:hidden;color:var(--text-color);background-color:var(--background-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media only screen and (max-width: 576px){body{font-size:18px}}*::selection{color:var(--white);background-color:var(--brand-color)}h1,h2,h3,h4,h5,h6{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;letter-spacing:-1px;color:var(--heading-font-color)}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{position:relative;margin:40px 0;padding-left:26px;font-size:24px;line-height:1.7;font-weight:900;border-left:4px solid var(--brand-color);color:var(--heading-font-color)}blockquote p{margin-bottom:10px}blockquote cite{display:inline-block;margin-top:8px;font-size:14px;font-weight:700;font-style:normal;color:var(--heading-font-color)}@media only screen and (max-width: 576px){blockquote{font-size:21px}}pre{overflow:auto;padding:15px;margin-bottom:0;font-size:14px;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;color:var(--heading-font-color)}img,.lightense-wrap{max-width:100%;height:auto;vertical-align:middle}img+em,.lightense-wrap+em,.gallery+em{display:block;margin-top:20px;font-size:12px;line-height:22px;font-style:normal;font-weight:normal;text-align:center;color:var(--heading-font-color)}img+em a,.lightense-wrap+em a,.gallery+em a{font-weight:500;border-bottom:1px solid var(--border-color);transition:all 0.35s}img+em a:hover,.lightense-wrap+em a:hover,.gallery+em a:hover{color:var(--link-color);border-color:var(--link-color-hover)}@media only screen and (max-width: 576px){img+em,.lightense-wrap+em,.gallery+em{margin-top:12px}}a{text-decoration:none;color:var(--link-color);transition:all 0.35s}a:hover{color:var(--link-color-hover)}hr{width:100%;height:1px;margin:60px 0;border:0;background:var(--background-alt-color)}.table-container{display:block;max-width:100%;overflow-x:auto}table{font-size:12px;color:var(--dark);width:100%;border-width:1px;border-color:var(--background-alt-color);border-collapse:collapse;color:var(--heading-font-color)}table th{padding:10px;font-size:16px;text-align:left;border:1px solid var(--th-color);color:var(--heading-font-color);font-weight:700;background-color:var(--th-color)}table tr{background-color:var(--tr-color);transition:all .3s ease}table tr:nth-child(even){background-color:transparent}table td{padding:10px;font-size:14px;border:1px solid var(--background-alt-color)}.button{display:inline-block;padding:20px 26px;font-size:16px;font-weight:700;text-decoration:none;border-radius:2px;border:none;outline:none;cursor:pointer;transition:all .25s;color:var(--heading-font-color);background:var(--background-alt-color)}.button--primary{color:var(--white);background-color:var(--button-background-color)}.button--primary:hover{background:var(--button-background-hover)}.button--big{display:block;width:100%}.lazy{opacity:0;transition:opacity 0.3s ease-in-out}.lazy.loaded{opacity:1}.lightense-backdrop{background-color:var(--background-color) !important}.header .header__inner{position:relative;display:flex;align-items:center;flex-wrap:wrap;padding:44px 16px}@media only screen and (max-width: 1024px){.header .header__inner{padding:40px 16px}}@media only screen and (max-width: 576px){.header .header__inner{padding:32px 16px}}.logo__link{padding:4px 0;font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:28px;letter-spacing:-1px;line-height:1;font-weight:700;transition:color .25s ease}.logo__link:hover{color:var(--brand-color)}.logo__image{max-height:50px}.main-nav{margin-left:auto}@media only screen and (max-width: 1024px){.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;opacity:0;visibility:hidden;background-color:var(--background-color)}.main-nav.is-open{opacity:1;visibility:visible;transition:all .25s ease}.main-nav .nav__list{flex-direction:column;width:100%}.main-nav .nav__list .nav__item{display:block;margin:0}.main-nav .nav__list .nav__item.nav__item-icon{margin-right:0}.main-nav .nav__list .nav__item .nav__link{display:inline-block;padding:16px 0;font-size:18px;transition:color .25s ease}.main-nav .nav__list .nav__item .nav__link:hover{color:var(--brand-color)}}.main-nav__box{display:flex;align-items:center}.main-nav__box .nav__icon-close{display:none;justify-content:center;align-items:center;width:36px;height:36px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);background:var(--background-alt-color);cursor:pointer}.main-nav__box .nav__icon-close:hover .ion-md-close{transform:rotate(90deg)}.main-nav__box .nav__icon-close .ion-md-close{transition:all 0.35s}.main-nav__box .nav__title{display:none}@media only screen and (max-width: 1024px){.main-nav__box{display:block;align-items:center;width:80%;height:80vh;padding-top:180px;margin:0 auto;text-align:center;overflow-y:auto}.main-nav__box .nav__icon-close{display:flex;position:absolute;top:40px;right:40px}.main-nav__box .nav__title{display:inline-block;margin-bottom:12px;font-family:"Jost", Helvetica Neue, Helvetica, Arial, sans-serif;font-size:36px;font-weight:700;letter-spacing:-1px;color:var(--heading-font-color)}}@media only screen and (max-width: 768px){.main-nav__box{padding-top:100px}}.nav__list{display:flex;align-items:center}.nav__list .nav__item{display:inline-block;margin-right:48px;margin-bottom:0}.nav__list .nav__item.nav__item-icon{margin-right:12px}.nav__list .nav__item .nav__link{position:relative;padding:4px 0;font-size:16px;line-height:1;font-weight:700;transition:color .25s ease}.nav__list .nav__item .nav__link:hover{color:var(--brand-color)}.nav-button{font-size:21px;color:var(--link-color);cursor:pointer}.nav-button .icon__menu{display:none;margin-right:12px}.nav-button .icon__menu,.nav-button .icon__search{transition:color .25s ease}.nav-button .icon__menu:hover,.nav-button .icon__search:hover{color:var(--brand-color)}@media only screen and (max-width: 1024px){.nav-button{display:flex;align-items:center;margin-left:auto;font-size:24px}.nav-button .icon__menu{display:block}}.toggle-theme{position:relative;display:flex;justify-content:center;align-items:center;width:24px;height:24px;user-select:none;cursor:pointer}@media only screen and (max-width: 1024px){.toggle-theme{padding:20px 0}}.toggle-sun,.toggle-moon{position:absolute;font-size:20px;transition:color .25s ease;color:var(--heading-font-color)}.toggle-sun:hover,.toggle-moon:hover{color:var(--brand-color)}.toggle-sun{display:none}.dark-mode .toggle-sun{display:block}.dark-mode .toggle-moon{display:none}.search{position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;overflow:auto;opacity:0;background:var(--background-color);transition:all .25s ease}.search.is-visible{z-index:100;opacity:1;transition:all .25s ease}.search__box{max-width:540px;margin:0 auto;padding-top:120px}@media only screen and (max-width: 1024px){.search__box{padding-top:100px}}.search__group{position:relative;margin-bottom:48px}.search__group .search__close{position:absolute;right:28px;top:50%;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;width:32px;height:32px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);cursor:pointer;will-change:transform;transition:all .25s;background:var(--background-color)}.search__group .search__close:hover{transform:translateY(-50%) rotate(90deg)}.search__group .search__close .ion-md-close{vertical-align:middle}.search__group .search__text{width:100%;padding:28px;font-size:20px;font-weight:700;line-height:24px;border:2px solid transparent;border-radius:2px;color:var(--heading-font-color);background-color:var(--background-alt-color);outline:0;transition:all .25s}.search__group .search__text::placeholder{font-weight:700;color:var(--heading-font-color)}.search__group .search__text:focus{border-color:var(--brand-color)}.search__group .search__text::-ms-clear{display:none}@media only screen and (max-width: 576px){.search__group{margin-bottom:32px}.search__group .search__text{padding:24px}}.search-results-list .no-results{width:100%;margin:0;text-align:center;color:var(--heading-font-color)}.pagination{margin-bottom:80px}@media only screen and (max-width: 576px){.pagination{margin-bottom:60px}}.pagination__inner{display:flex;justify-content:center;align-items:center}.pagination__list{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:18px;font-weight:700;line-height:1;color:var(--text-color)}@media only screen and (max-width: 576px){.pagination__list{align-items:stretch;font-size:16px}}.pagination__item{display:flex;justify-content:center;align-items:center;width:100%;padding:24px 20px;text-align:center;border-radius:8px;background:var(--background-alt-color)}@media only screen and (max-width: 576px){.pagination__item{align-items:center;padding:20px;border-radius:8px}}.pagination__count{margin:0 32px;font-size:16px;color:var(--link-color)}@media only screen and (max-width: 768px){.pagination__count{margin:0 12px}}@media only screen and (max-width: 576px){.pagination__count{margin:0 8px;font-size:14px;line-height:1.2}}.pagination__next:hover,.pagination__prev:hover{color:var(--heading-font-color)}.pagination__next i,.pagination__prev i{font-size:15px;transition:transform .15s ease;will-change:transform}.pagination__next.disabled,.pagination__prev.disabled{opacity:0.64;cursor:not-allowed;color:inherit}.pagination__next.disabled:hover i,.pagination__prev.disabled:hover i{transform:none}.dark-mode .pagination__next.disabled,.dark-mode .pagination__prev.disabled{opacity:0.78}.pagination__next:hover i{transform:translateX(2px)}.pagination__next i{margin-left:5px}.pagination__prev:hover i{transform:translateX(-2px)}.pagination__prev i{margin-right:5px}.footer{margin-top:48px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.footer{margin-top:60px}}.footer__inner{padding:80px 0}.footer__inner .row .col{flex-grow:1}@media only screen and (max-width: 576px){.footer__inner{padding:60px 0}}@media only screen and (max-width: 1024px){.footer__author{margin-bottom:60px}}@media only screen and (max-width: 576px){.footer__author{margin-bottom:40px}}.footer__author-avatar{position:relative;width:105px;height:105px;margin-bottom:20px;transform:translate(0);border-radius:50%;overflow:hidden;box-shadow:0px 100px 80px rgba(0,0,0,0.07),0px 12.5216px 10.0172px rgba(0,0,0,0.035);background-color:var(--background-color)}.footer__author-avatar img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.footer__author-name{margin-bottom:20px;font-size:32px;font-weight:900;line-height:1}.footer__author-bio{margin-bottom:0;color:var(--text-alt-color)}.social{margin-top:16px}.social .social__list{display:flex;align-items:center;flex-wrap:wrap}.social .social__list .social__item:first-child>.social__link{padding-left:0}.social .social__item{margin-bottom:0;margin-right:16px}.social .social__item:last-child{margin-right:0}.social .social__link{display:flex;align-items:center;padding:4px;font-size:20px;color:var(--heading-font-color)}.social .social__link:hover{color:var(--brand-color)}.footer__gallery .footer__gallery-title{margin-bottom:24px;font-size:28px}.footer__gallery .gallery__image img{height:100%;border-radius:8px;overflow:hidden}.footer__gallery .gallery__image img.lightense-open{border-radius:0}.footer__info{padding:44px 0;background-color:var(--background-color)}.footer__info .footer__info-box{display:flex;align-items:center;justify-content:space-between}@media only screen and (max-width: 1024px){.footer__info{padding:40px 0}}.copyright{margin-right:20px;font-size:14px;font-weight:500;color:var(--text-alt-color)}.copyright a{text-decoration:underline;text-decoration-color:transparent;color:var(--heading-font-color)}.copyright a:hover{text-decoration-color:var(--heading-font-color);color:var(--heading-font-color)}.top{min-width:36px;height:36px;font-size:20px;line-height:36px;text-align:center;border-radius:8px;color:var(--heading-font-color);background-color:var(--background-alt-color);cursor:pointer;transition:all .25s ease}.gallery-box{margin:32px 0}.gallery{display:grid;grid-template-columns:repeat(3, auto);justify-content:center;align-content:center;grid-gap:10px}.gallery .gallery__image{background:var(--background-color)}.gallery .gallery__image img{display:block;width:100%;height:auto;object-fit:cover}.hero{padding:80px 0;margin-bottom:80px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.hero{padding:60px 0;margin-bottom:60px}}.hero__inner{display:flex;align-items:center}@media only screen and (max-width: 1024px){.hero__inner{flex-direction:column}}.hero__left{max-width:450px;margin-right:auto}@media only screen and (max-width: 1140px){.hero__left{max-width:440px}}@media only screen and (max-width: 1024px){.hero__left{max-width:100%}}.hero__title{margin-bottom:20px;font-size:55px;font-weight:900;line-height:1.3;color:var(--heading-font-color)}@media only screen and (max-width: 1024px){.hero__title{font-size:50px}}@media only screen and (max-width: 768px){.hero__title{font-size:40px}}@media only screen and (max-width: 576px){.hero__title{font-size:32px}}.hero__description{margin-bottom:0;font-size:21px;color:var(--text-alt-color)}@media only screen and (max-width: 1024px){.hero__description{font-size:inherit}}.hero__subscribe{margin-top:32px}.hero__subscribe .subscribe-form{position:relative;border-radius:2px;background-color:var(--background-color)}.hero__subscribe .subscribe-email{width:100%;height:70px;padding:20px;font-size:16px;line-height:21px;border:2px solid transparent;border-radius:2px;outline:0;color:var(--heading-font-color);background-color:transparent;transition:all .25s ease}.hero__subscribe .subscribe-email::placeholder{opacity:0.6;color:var(--text-alt-color)}.hero__subscribe .subscribe-email:focus{border-color:var(--brand-color)}.hero__subscribe .subscribe-button{position:absolute;top:6px;right:6px}@media only screen and (max-width: 1024px){.hero__subscribe{margin-top:24px}}@media only screen and (max-width: 576px){.hero__subscribe{margin-top:20px}.hero__subscribe .subscribe-form{display:flex;flex-direction:column;padding:6px}.hero__subscribe .subscribe-email{height:56px;margin-bottom:4px}.hero__subscribe .subscribe-button{position:relative;top:0;right:0}}.hero__right{width:50%}@media only screen and (max-width: 1024px){.hero__right{width:100%;margin-top:40px}}@media only screen and (max-width: 576px){.hero__right{margin-top:32px}}.hero__image{position:relative;transform:translate(0);width:100%;height:410px;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.02);background-color:var(--background-color);user-select:none}.hero__image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}@media only screen and (max-width: 1140px){.hero__image{height:380px}}@media only screen and (max-width: 1024px){.hero__image{height:440px}}@media only screen and (max-width: 768px){.hero__image{height:420px}}@media only screen and (max-width: 576px){.hero__image{height:280px}}.article{margin-bottom:32px;will-change:transform;transition:transform .2s}.article:hover{transform:translateY(-3px)}.article:hover .article__title a{text-decoration:underline;text-decoration-color:var(--link-color-hover);text-decoration-thickness:2px}.article__head{position:relative}.article__date{position:absolute;z-index:1;top:16px;left:16px;display:inline-block;padding:8px 12px;font-size:12px;line-height:1;font-weight:500;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.article__image{position:relative;transform:translate(0);display:block;height:0;margin-bottom:24px;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.article__image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.video-icon{position:absolute;z-index:1;top:50%;left:50%;width:50%;height:50%;transform:translate(-50%, -50%);pointer-events:none}.video-icon .circle{width:50px;height:50px;position:absolute;top:0;left:0;right:0;bottom:0;border-radius:50%;overflow:hidden;margin:auto;transform:scale(1, 1)}.video-icon .circle.pulse{animation-timing-function:ease;animation:pulse 2s infinite;background-color:rgba(255,255,255,0.25)}.video-icon svg{fill:rgba(255,255,255,0.25);stroke:var(--light-blue);stroke-linejoin:round;stroke-width:5;backdrop-filter:blur(3.5px);-webkit-backdrop-filter:blur(4.5px);transition:all 0.3s}.article__title{margin-bottom:12px;font-size:24px}.article__title a{text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:2px}.article__title a:hover{color:var(--heading-font-color)}.article__excerpt{margin-bottom:0;font-size:16px;color:var(--text-alt-color)}.contact-head{margin-bottom:32px}.form__group{margin-bottom:20px}.form__group:last-child{margin-bottom:0}.form__input{width:100%;padding:20px;font-size:16px;font-weight:400;border:2px solid var(--border-color);border-radius:2px;outline:0;transition:.25s ease-in-out;resize:vertical;color:var(--heading-font-color);background-color:var(--background-alt-color)}.form__input::placeholder{color:var(--text-alt-color)}.form__input:focus{border-color:var(--brand-color)}.section__head{position:relative;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px}.section__head::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 768px){.section__head::after{content:none}}.section__title{padding-right:20px;margin-bottom:0;font-size:28px}@media only screen and (max-width: 576px){.section__title{font-size:24px}}.section__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--link-color);transition:text-decoration .35s}.section__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 768px){.section__link{padding-left:0}}@media only screen and (max-width: 576px){.section__link{font-size:16px}}.section__title,.section__link{background:var(--background-color)}@media only screen and (max-width: 576px){.section-tags .row .col:last-child>.tag-image{margin-bottom:0}}.tag-image{margin-bottom:32px;position:relative;transform:translate(0);display:block;height:0;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color);transition:transform .2s}.tag-image:hover{transform:translateY(-3px)}.tag-image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.tag-image .tag-name{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:1;max-width:90%;display:inline-block;padding:8px 12px;font-size:14px;line-height:1;font-weight:700;text-transform:capitalize;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.post-head,.page-head{margin-bottom:48px}.post-head .row,.page-head .row{align-items:center}@media only screen and (max-width: 1024px){.post-head,.page-head{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-head,.page-head{margin-bottom:32px}}.post-image,.page-image{position:relative;transform:translate(0);padding-top:90%;min-height:280px;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.post-image img,.page-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}@media only screen and (max-width: 1024px){.post-image,.page-image{padding-top:65%;margin-bottom:40px}}@media only screen and (max-width: 576px){.post-image,.page-image{margin-bottom:32px}}.page-image{padding-top:56.25%;margin-bottom:48px}@media only screen and (max-width: 1024px){.page-image{margin-bottom:40px}}@media only screen and (max-width: 576px){.page-image{margin-bottom:32px}}.post-video,.page-video{margin-bottom:48px;border-radius:8px;overflow:hidden;transform:translate(0);background-color:var(--background-alt-color)}.post-video .post-video__wrap,.post-video .page-video__wrap,.page-video .post-video__wrap,.page-video .page-video__wrap{position:relative;width:100%;height:0;padding-bottom:56.25%}.post-video .post-video__wrap iframe,.post-video .page-video__wrap iframe,.page-video .post-video__wrap iframe,.page-video .page-video__wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}@media only screen and (max-width: 1024px){.post-video,.page-video{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-video,.page-video{margin-bottom:32px}}.post__info{margin-left:44px}.post__info.post__info-video{max-width:760px;margin:0 auto}@media only screen and (max-width: 1024px){.post__info{margin-left:0}}.page__info{max-width:760px;margin:0 auto}.post__tags{display:flex;align-items:center;flex-wrap:wrap;margin-bottom:20px}.post__tags .post__tag{padding:12px 16px;margin:4px 8px 4px 0;font-size:14px;line-height:1;font-weight:500;text-transform:capitalize;border:none;border-radius:8px;color:var(--heading-font-color);transition:none;background-color:var(--background-alt-color)}.post__tags .post__tag:last-child{margin-right:0}@media only screen and (max-width: 576px){.post__tags{margin-bottom:16px}}.post__title,.page__title{margin-bottom:24px;font-size:46px;line-height:1.2;font-weight:900}@media only screen and (max-width: 576px){.post__title,.page__title{margin-bottom:20px;font-size:32px}}.page__title{margin-bottom:0}.post__meta{display:flex;align-items:center;line-height:1}.post__meta .post__author-image{position:relative;transform:translate(0);width:50px;height:50px;border-radius:50%;overflow:hidden;margin-right:12px;background-color:var(--background-alt-color)}.post__meta .post__author-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.post__meta .post__meta-bottom{display:flex;flex-direction:column}.post__meta .post__author{display:inline-block;margin-bottom:7px;font-size:16px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--heading-font-color);transition:text-decoration-color .35s}.post__meta .post__author:hover{text-decoration-color:var(--heading-font-color)}.post__meta .post__date{font-size:14px;font-weight:400;color:var(--text-alt-color)}.post,.page{max-width:760px;margin:0 auto 60px;color:var(--text-color)}.post a,.page a{font-weight:500;border-bottom:1px solid var(--border-color)}.post a:hover,.page a:hover{color:var(--link-color);border-bottom-color:var(--link-color-hover)}.post img,.post .js-reframe,.page img,.page .js-reframe{border-radius:8px;overflow:hidden}.post img.lightense-open,.post .js-reframe.lightense-open,.page img.lightense-open,.page .js-reframe.lightense-open{border-radius:0}.post img[src$='#wide'],.page img[src$='#wide']{display:block;width:100vw;max-width:none;margin-left:50%;transform:translateX(-50%);border-radius:0;pointer-events:none;user-select:none}.post .button,.page .button{border:none;text-decoration:none}.post__share .share__list{display:flex;align-items:center;width:100%}.post__share .share__item{width:25%;margin-right:8px;margin-bottom:0;text-align:center}.post__share .share__item:last-child{margin-right:0}.post__share .share__link{display:flex;justify-content:center;align-items:center;width:100%;height:54px;font-size:18px;text-transform:uppercase;border:none;border-radius:8px;background:var(--background-alt-color)}.post__share .share__link i{transition:transform .25s;will-change:transform}.post__share .share__link:hover{color:var(--heading-font-color)}.post__share .share__link:hover i{transform:scale(1.1)}.related-posts{display:none;margin-top:80px}.related-posts.is-related{display:block}.related-posts .related-tag{text-transform:capitalize}@media only screen and (max-width: 576px){.related-posts{margin-top:60px}.related-posts .row .col:last-child{margin-bottom:0}}.show-comments{margin:48px 0 32px;text-align:center}.show-comments .disqus-button{padding:28px;border-radius:8px;text-decoration:underline;text-decoration-color:transparent}.show-comments .disqus-button:hover{text-decoration-color:var(--heading-font-color)}@media only screen and (max-width: 576px){.show-comments{margin:60px 0 0}.show-comments .disqus-button{padding:24px}}.post__comments{max-width:760px;margin:0 auto}.post__comments.is-open{margin:0 auto 32px}@media only screen and (max-width: 576px){.post__comments.is-open{margin:0 auto}}.error{text-align:center}.error .error__title{margin-bottom:24px;font-size:100px;line-height:1}.error .error__text{margin-bottom:0;color:var(--text-alt-color)}@media only screen and (max-width: 576px){.error .error__title{font-size:68px}}.recent-posts{margin-top:80px}@media only screen and (max-width: 576px){.recent-posts{margin-top:60px}.recent-posts .row .col:last-child{margin-bottom:0}}.tag__head{margin:80px 0}@media only screen and (max-width: 1024px){.tag__head{margin:40px 0}}.tags__inner{margin-bottom:120px}@media only screen and (max-width: 576px){.tags__inner{margin-bottom:60px}}.tag__title{margin-bottom:32px;font-size:46px;font-weight:900}@media only screen and (max-width: 576px){.tag__title{font-size:32px}}.tag__list{display:flex;align-items:center;flex-wrap:wrap;padding-bottom:80px;border-bottom:1px solid var(--background-alt-color)}.tag__list .tag__item{margin-right:12px;margin-bottom:12px}.tag__list .tag__item:last-child{margin-right:0}.tag__list .tag__link{display:block;padding:12px 16px;font-size:16px;font-weight:500;text-transform:capitalize;border-radius:8px;transition:none;background:var(--background-alt-color)}.tag__list .tag__link:hover{color:var(--heading-font-color)}@media only screen and (max-width: 576px){.tag__list{padding-bottom:48px}.tag__list .tag__item{margin-right:8px;margin-bottom:8px}.tag__list .tag__link{font-size:14px}}.tag__info{position:relative;display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}.tag__info::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 576px){.tag__info::after{content:none}}.tag__info-box{display:flex;align-items:center}.tag__counter{display:flex;flex-direction:column;align-items:center;padding:12px 24px;border-radius:8px;color:var(--heading-font-color);background:var(--background-alt-color)}.tag__counter span{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:32px;font-weight:700;line-height:1}.tag__counter small{font-size:16px;font-weight:500}@media only screen and (max-width: 576px){.tag__counter{display:none}}.tag__name{padding:50px 20px 50px 20px;margin-bottom:0;font-size:36px;text-transform:capitalize;background-color:var(--background-color)}.tag__name span{font-weight:400;color:var(--text-alt-color)}@media only screen and (max-width: 768px){.tag__name{font-size:32px}}@media only screen and (max-width: 576px){.tag__name{padding:32px 12px 32px 0;font-size:26px}}.top__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--link-color);transition:text-decoration .35s;background:var(--background-color)}.top__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 576px){.top__link{padding-left:0;font-size:16px}}
+
+  </style>
+</head>
+
+<body>
+
+  
+
+  <!-- begin header -->
+<header class="header" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+        <div class="logo">
+          <a class="logo__link" href="/">
+          
+            Matthew Reinbold
+          
+          </a>
+        </div>
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav__title">Menu</div>
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="/" class="nav__link">Home</a>
+              </li>
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/Appearances/" class="nav__link">Appearances</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/disclosure/" class="nav__link">Disclosures</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/about/" class="nav__link">About</a>
+                  </li>
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+              
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav__icon icon__menu ion ion-md-menu"></i>
+          <i class="nav__icon icon__search ion ion-md-search"></i>
+        </div>
+
+
+      </div>
+      <div style="font-size: 80%; margin-left: auto; margin-top:-30px">
+        In addition to the posts below, my writing can also be found at:
+        <ul>
+          <li style="margin:0"><strong><a href="https://netapinotes.substack.com/" target="_blank">Net API Notes</a></strong> - An API Industry Email Newsletter for Busy Decision Makers</li>
+          <li style="margin:0"><strong><a href="https://betterbits.substack.com/" target="_blank">Better Bits</a></strong> - The Email Newsletter Accompanying the <em>Better Bits</em> Book.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<!-- begin search -->
+<div class="search">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="search__box">
+          <div class="search__group">
+            <div class="search__close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
+            <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row search-results-list" id="js-results-container"></div>
+  </div>
+
+</div>
+<!-- end search -->
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    <div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      
+
+      
+      <div class="col col-6 col-d-12">
+        <div class="post-image">
+          <img class="lazy" data-src="/images/2013/08/anyscreen_stablediffusion.png" alt="the anyScreen Project">
+        </div>
+      </div>
+      
+
+      
+      
+      
+      <div class="col col-6 col-d-12">
+        <div class="post__info ">
+  
+          
+            <div class="post__tags">
+              
+                <a href="/tags#Software Change" class="post__tag">Software Change</a>
+              
+                <a href="/tags#Software Development" class="post__tag">Software Development</a>
+              
+            </div>
+          
+  
+          <h1 class="post__title">the anyScreen Project</h1>
+          <h2 class="">From a Decade of Vox Pop</h2>
+  
+          <div class="post__meta">
+            <a href="/about/" class="post__author-image">
+              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
+            </a>
+
+            <div class="post__meta-bottom">
+              <a class="post__author" href="/about/">Matthew Reinbold</a>
+              <time class="post__date" datetime="2013-08-01T00:00:00-05:00">01 Aug 2013</time>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin post -->
+<div class="container animate">
+
+  <article class="post">
+
+    <div class="post__content">
+      <p>I started working for Placewise Media in May of 2011. Initially my role was fluid, filling gaps where needed. Not being charged with a specific project, however, has it's benefits. With others busy, I was soon tasked with <a href="/go.cfm?article=An_Intro_to_an_API">figuring out how to get our content into an app</a>. The project manager for that project was Greg Hickman, <a href="http://mobilemixed.com/">founder of the Mobile Mixed podcast</a>. </p>
+
+<p>
+ <figure>
+  <a href="/images/2013/12/anyscreen-screennotes.jpg" class="lightbox"><img src="/images/2013/12/anyscreen-screennotes-sm.jpg" alt="Putting together a collection of mobile usage patterns." /></a>   
+  <figcaption>
+   Gathering together feedback on the existing mobile app.
+  </figcaption>
+ </figure>
+</p>
+
+<p>It took several late nights toward the end of 2011 but we shipped, as promised. As early 2012 arrived, we were tasked with creating not just an app or site, but a larger direction for the entire company. Management could tell that mobile was a transformative force. But it was hard to look past a platform (an app, a site) and determine the larger ramifications on how we approach development. What we needed wasn't a <em>mobile design refresh</em>; we needed a broader content syndication strategy for <em>any screen</em>.</p>
+
+<p><em>"The anyScreen Project"</em> was the result of our research done in early Q1 of 2012. Some of our recommendations were common sense. Others were purposely more "left field" in order to allow compromise. We presented to a handful of interested groups. We made the document available to decision makers. Then, like so often happens within a company, we started working on other things. Greg moved on and became the Mobile Marketing Manager at Cabela's. I became technical lead on the <a href="/2013/02/27/SoIAmMakingAnApp/">the Shoptopia App</a>. Ultimately, I also left.</p>
+
+<p>Up till that point none of the recommended courses of action had been seriously considered for assignment and implementation. That doesn't mean they weren't good. Despite some statements now seeming dated I stand by the work. What I regret is not making the strong <strong>financial</strong> case to justify the effort. With limited resources, illustrating a better consumer experience isn't enough to influence release schedules. We needed a clear path to X% growth in billings. We were arguing hearts and minds when we needed to understand the purse strings.</p>
+
+<p>So, without further ado, here is a public, slightly redacted, copy of the <em>anyScreen</em> report. Enjoy.</p>
+
+<hr />
+
+<p>
+ <figure>
+  <a href="/images/2013/12/anyscreen-responsive-experience.jpg" class="lightbox"><img src="/images/2013/12/anyscreen-responsive-experience-sm.jpg" alt="A collection of notes related to a responsive web experience." /></a>   
+  <figcaption>
+   Collected notes on the responsive web experience.
+  </figcaption>
+ </figure>
+</p>
+
+<p><strong>The anyScreen Initiative</strong></p>
+<p><em>Defining a Compelling and Comprehensive Placewise &ldquo;Multi-Screen&rdquo; Experience</em></p>
+
+<p><strong>Our Audience is Changing.</strong></p>
+<p>The trend in smart phone usage is clearly one direction:
+ <ul>
+  <li>70% of smartphone owners use their mobile phones to influence in-store purchases (  <a href="http://www.html5rocks.com/en/mobile/responsivedesign/">source</a> )</li>
+  <li>92% of retail volume still takes place in brick and mortar stores</li>
+  <li>42% of consumers are more likely to return to stores that have in-store mobile promotions</li>
+  <li>19% of U.S. consumers browse their mobile devices while shopping in-store</li>
+  <li>58% of consumers want to get product information in-store</li>
+  <li>31% of American adults who have cell phones use their phones for the majority of their Internet access (  <a href="http://www.niemanlab.org/2012/06/new-pew-data-theres-a-good-and-growing-chance-youre-reading-this-on-your-phone/">source</a> )</li>
+  <li>Among American adults (18-29) who use the Internet on their phones, 45% do most of their web surfing there. (  <a href="http://www.niemanlab.org/2012/06/new-pew-data-theres-a-good-and-growing-chance-youre-reading-this-on-your-phone/">source</a> )</li>
+  <li>More than 1 in 10 Americans have a smartphone, desktop/laptop, AND tablet device (13% - July, 2012)</li>
+  <li>52% of American desktop/laptop owners also own a smartphone</li>
+  <li>1 billion smartphones will be sold in 2014</li>
+ </ul>
+</p>
+
+<p>Facebook&rsquo;s numbers point where most audiences are going: 102 million accessed Facebook solely from mobile in June, 2012. That&rsquo;s a 23% increase over the 83 million mobile-only users in March. 18.7% of Facebook&rsquo;s 543 million monthly mobile users don&rsquo;t visit the desktop site (  <a href="http://techcrunch.com/2012/07/31/facebook-mobile-only/">source</a> ).</p>
+
+<p><strong>How do we satisfy changing site consumption?</strong></p>
+<p>In order to successfully engage audiences in the next year we need to:
+ <ul>
+  <li>Deliver targeted messages and offers - messages tailored not just to the person&#39;s interests but to the platform they&#39;re on</li>
+  <li>Improve response rates by detecting when a customer is ready to act (through user actions like store follows and deal bookmarking)</li>
+  <li>Improve customer loyalty through tailored and personalized experiences</li>
+ </ul>
+</p>
+
+<p>To succeed in these goals we must overcome the existing problems with our current website approaches. After study, five problem areas were identified:
+ <ul>
+  <li>Fragmented URL Strategy</li>
+  <li>Slow Performance</li>
+  <li>Little Sensitivity to User Intent</li>
+  <li>Poor Mobile Evangelism</li>
+  <li>Aging Login &amp; Registration Approaches</li>
+ </ul>
+</p>
+
+<p><strong>Fragmented URL Strategy</strong></p>
+<p>Consumers occupy an ecosystem of screens; a Placewise visitor is not a &ldquo;mobile user&rdquo; or &ldquo;laptop user&rdquo;. The same people interact in a multitude of formats and devices. It is this multi-screen consumption which causes inconsistent and/or problematic behavior with our current inclusion of URLs:
+ <ul>
+  <li>Do we use a &ldquo;traditional&rdquo; website link in an email template which may be read on a mobile device?</li>
+  <li>Do we use a mobile url in a push notification or SMS?</li>
+  <li>Does a website link posted to social media like twitter or facebook direct to the desktop or mobile experience?</li>
+  <li>If a user receives a bit.ly link on a mobile device but content is not mobile enabled what happens?</li>
+  <li>What happens if a user attempts to access a mobile-only contest via their desktop browser?</li>
+ </ul>
+</p>
+
+<p><strong>The proposed solution</strong> is to no longer have both &ldquo;m.*&rdquo; url subdomains and full urls exist simultaneously.  There  should  be one canonical link that  references where a location exists online . This link will default to the  mobile, responsive experience UNLESS the user is on a device with a screen greater than 1024x768. The purpose during a period of transition is to allow for full, &ldquo;traditional&rdquo;, experiences on larger screens while supporting the diversity of lower resolutions. </p>
+
+<p>It will be assumed that mobile links exist for all content; if that content is not available in the responsive template the request will &ldquo;default&rdquo; to content that is on the desktop site. This represents 180-degree change from the URL policy that currently exists.</p>
+
+<p>Proceeding in this manner not only provides better search engine optimization (SEO) (  <a href="http://searchengineland.com/one-url-to-rule-them-all-for-mobile-seo-115366">source</a> ). The bigger benefit is from an operations and development standpoint. Among staff there will never be any confusion as to which link to provide. All URLs included in code will be formatted one way. Finally, references to our content can be safely shared across a variety of platforms and services without the danger of the &ldquo;wrong&rdquo; link for the viewer&rsquo;s context causing a sub-optimal experience. </p>
+
+<p><strong>Slow Performance</strong></p>
+<p>Speed isn&rsquo;t only a mobile concern. Numbers from 2011 show that 47% of consumers expect a web page to load in two seconds or less. Further, 74% will abandon if a site takes more than 4 seconds to load (  <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.lukew.com%2Fff%2Fentry.asp%3F1601&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEIPRgvId9Tamm6jAhsnI4fZxMa9g">source</a> ).  When given the option of increasing site speed or adding an additional feature,  we should always error on the side of speed.</p>
+
+<p>Just making a site responsive doesn&rsquo;t make it fast. Unfortunately, 86% of responsive sites have the  same size or larger page sizes than their desktop counterparts (  <a href="http://www.slideshare.net/guypod/performance-implications-of-mobile-design">source</a> ). </p>
+
+<p>We need to develop with the mindset that <strong>if it wasn&rsquo;t instantaneous it didn&rsquo;t happen</strong>. Speed itself <em>is</em> the killer feature. Speed translates into more time spent on our sites, more return visitors, and more positive overall experiences - all positive outcomes that increase our desirability for brand sponsorship.</p>
+
+<p>Speed increases are possible with:
+ <ul>
+  <li> Asynchronous Processing &ndash; The client facing site or app responds to user interaction immediately while discretely synchronizing with the global server when possible, convenient, or bandwidth permitting. For inspiration on how this can be done review <a href="http://thenextweb.com/mobile/2012/05/01/instagrams-secret-to-super-quick-photo-uploads-send-fast-match-data-later/">the instagram model of processing images</a> (  <a href="http://thenextweb.com/mobile/2012/05/01/instagrams-secret-to-super-quick-photo-uploads-send-fast-match-data-later/">source 1</a> ) ( <a href="http://www.slideshare.net/guypod/performance-implications-of-mobile-design">source 2</a> ).</li>
+  <li> Caching - The fastest response is the one not made. Whether including most-likely pages device side via a multi-page jquery mobile template or saving extra database calls with built in ColdFusion caching, numerous opportunities exist to reduce backend transactional overhead.</li>
+  <li> Device Appropriate Images - Responsive images are difficult. However, the benefit is the best pixel-per-bandwidth ratio possible. Because so much of our layouts are graphically heavy savings are possible by a more responsible content serving strategy.</li>
+ </ul>
+</p>
+
+<p>Most people (71%) expect mobile sites to load as fast or faster than desktop sites (  <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.lukew.com%2Fff%2Fentry.asp%3F1601&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEIPRgvId9Tamm6jAhsnI4fZxMa9g">source</a> ). The benefit of all of these approaches, in addition to meeting audience expectation, is they also allow us to scale to a much larger degree on the hardware we already have.</p>
+
+<p><strong>Little Sensitivity to User Intent</strong></p>
+<p>While Responsive Web Design (RWD) has taken a significant portion of designer mindshare since being coined two years ago,  it is incomplete. A responsive approach only deals with the technical aspects of a user&rsquo;s experience. This is primarily thought of as the window size of the content display.  Adaptive Design (also referred to as progressive enhancement) is creating an experience  for the user&rsquo;s needs, desires, or situation.</p>
+
+<p> Users expect different experiences on different devices. Tablet and desktop shopping site experiences are both for discovery. In these cases the user is  planning a trip: reading articles, bookmarking deals, and making note of events. While the  intent is the same, however, the input means are drastically different: keyboard/mouse inputs verses touch interfaces.</p>
+
+<p>Mobile users are  action driven in  discrete bursts. Google Analytics shows that an overwhelming percentage of Placewise visitors are using mobile to find two things:
+ <ul>
+  <li>Specific Store Information</li>
+  <li>Mall Hours</li>
+ </ul>
+</p>
+
+<p>Our goal should be to encourage repeat visits,  not to snare as many clicks per visit as possible. This would better support the mobile user&#39;s goal of finding the desired information quickly. </p>
+
+<p>While adaptive design dictates the mobile approach, Responsive Design needs to define our email template creation. Mobile email clients on Android, iPhone, and iPad increased from 4% to 20% from 2009-2011 (  <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.campaignmonitor.com%2Fblog%2Fpost%2F3495%2Fthe-rise-of-mobile-email%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNExIK__0_C21zEjwC50_2Agv1hh2g">source</a> ). Our recommendation is that email  should be formatted to correctly fit their device wherever it is consumed. Resources for building responsive email templates are included in the BaseCamp project. </p>
+
+<p><strong>Poor Mobile Evangelism</strong></p>
+<p>Current sponsorship inclusion on mobile sites is a banner below-the-fold. This is unacceptable positioning for such a high percentage of our audience. This occurs because campaigns are created within the context of desktop experiences: Where does this fit in the sidebar? What IAB leaderboard would be appropriate? How can we do a takeover ad similar to Kay Jewelers?</p>
+
+<p>The problem with all of these approaches is that they assume a full sized site with unlimited technical restrictions. For example, the Kay Jewelers ad, while successful, used Flash that was impossible to duplicate for an iPad. Dealing with sponsors who only provide IAB assets can be problematic in a responsive context (  <a href="http://muledesign.com/2012/01/advertising-on-a-responsive-web/">source</a> ).</p>
+
+<p>One opportunity is with rich media advertising providers currently being evaluated. Early tests have been problematic. However, even when one is in place, creating a compelling sponsor experience on mobile needs to be done in conjunction with the desktop.</p>
+
+<p>Another question posed by our current approach is when a user arrives on a mobile website that has a corresponding Android/IOS app, why are we not politely direct a visitor to the corresponding store to download it? Failing to even  mention additional touch points with is a glaring failure. <strong>How are we expected to promote our sponsors interest when we can&rsquo;t even promote our own?</strong></p>
+
+<p><strong>Aging Login &amp; Registration Approaches</strong></p>
+<p>Typing anything on a mobile device is a pain, but login, in particular, can be difficult. Since mobile devices are user centric <em>why does a user&rsquo;s session still last only 20 minutes</em>? Expanding the session timeout for devices that are clearly mobile (and therefore personal and unshared) seems an obvious step. But is it possible to go further and emulate the &ldquo;login once and forget&rdquo; simplicity of a native app? </p>
+
+<p>Strong consideration needs to be given to the burgeoning &ldquo;no login&rdquo; design pattern (  <a href="http://notes.xoxco.com/post/27999787765/is-it-time-for-password-less-login">source 1</a> ) ( <a href="http://drupal.org/project/passwordless">source 2</a> ) (  <a href="https://github.com/harryf/thoughts/blob/master/mobile-killed-the-login.md">source 3</a> ). By eliminating (or reducing) desktop conventions of a username/password pair we would lower the bar to user engagement in non-desktop contexts. </p>
+
+<p>There also is an ongoing debate within Placewise about the correct way to do login. A number of desktop sites employ a shoptopia modal login. The mobile sites use a more federated identity system to provide access on platforms that aren&#39;t HTTP based (like the native apps). The discussions have centered around whether to simplify to one system and what that would be. If not a &ldquo;no login&rdquo; solution, consideration of an official, published, standard like Oauth 2 should be considered.</p>
+
+<p><strong>Challenges for Implementation</strong></p>
+<p>Moving to responsive email templates and site design will require changes to existing workflows. In a recent survey 56% of design teams reported workflow as a significant challenge when faced with responsive design (  <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.lukew.com%2Fff%2Fentry.asp%3F1599&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEINKOC60MzjTfzhPgUCHqphgujEw">source</a> ). Features should be wireframed and mocked mobile first as it forces refinement of the idea to its essential components. The feature can then be progressively enhanced for more capable browsers or available technologies.</p>
+
+<p>The idea of wireframing and interactive prototypes can be a shock to traditional creative design. For many studios design practices have been standardized around static, fixed Photoshop mockups. Those processes prove inadequate when having to deal with the realities of a living, breathing web (  <a href="http://blog.teamtreehouse.com/responsive-web-design-in-the-browser-part-1-kill-photoshop">source</a> 1 ) (  <a href="http://uxdesign.smashingmagazine.com/2012/05/30/design-process-responsive-age/">source 2</a> ) (  <a href="http://www.netmagazine.com/features/top-responsive-web-design-problems-and-how-avoid-them#2">source 3</a> ).</p>
+
+<p>But even more of a procedural challenge is the mental one. This plan requires a change in thinking. Different native platforms have distinct conventions. You can&rsquo;t simply port over one design to all native mobile platforms. Interactions and expectations differ. We need to be flexible enough to conceive solutions in terms of puzzle pieces that adapt to different devices instead of fixed canvas designs.</p>
+
+<p>As John Allsopp correctly pointed out in 2000, the flexibility of the web is a  feature, not a bug (  <a href="http://www.alistapart.com/articles/dao/">source</a> ). Treating creation of digital sites in the same way as a printed product is a mistake. However, while new design workflows are necessary to support any screen, they haven&rsquo;t yet been clearly identified.</p>
+
+<p><strong>The Way Forward, Now</strong></p>
+<p>The desktop site, as it currently exist, is a sacred cow. It is our client&#39;s approved vision. It is a weighty mass of everything that our clients believe a website to be; this includes glamour shots, press releases, and property management &ldquo;about us&rdquo; pages. Any overnight change to embrace fully visitor-centric adaptive design may be interpreted as butchering the mall&rsquo;s branding. There will be push back.</p>
+
+<p>Our opportunity for learning what works is on mobile. Despite approaching half of their overall traffic the mobile presence is a supplemental afterthought to many. <strong>Clients do not realize the speed at which mobile is becoming the primary means by which  people engage  their content</strong>. <em>It is essential that we figure out how to create engaging, adaptive experiences on this platform while still having the freedom to experiment</em>. Finding that  flexibility is an asset and future proofs our designs for consumption on new devices (the web on our fridge! In our car dashboard!). <strong>Once the centers are aware that mobile is their primary touch point they will be more more loath to allow us to make the necessary mistakes to refining our approach</strong>.</p>
+
+<p>
+ <figure>
+  <a href="/images/2013/12/anyscreen-challenges.jpg" class="lightbox"><img src="/images/2013/12/anyscreen-challenges-sm.jpg" alt="An illustration of the responsive challenges and how they differ from adaptive design." /></a>   
+  <figcaption>
+   Illustrating the challenges of responsive design and how it differs from adaptive.
+  </figcaption>
+ </figure>
+</p>
+
+    </div>
+
+    <div class="post__share">
+      <ul class="share__list list-reset">
+        <li class="share__item">
+          <a class="share__link share__twitter"
+            href="https://twitter.com/intent/tweet?text=the%20anyScreen%20Project&url=http://localhost:4000/2013/08/01/anyScreen"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+        </li>
+        <li class="share__item">
+          <a class="share__link share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2013/08/01/anyScreen&title=the%20anyScreen%20Project&summary=&source=Matthew%20Reinbold"
+          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+
+
+  </article>
+</div>
+<!-- end post -->
+
+
+
+
+
+
+
+<!-- begin related posts -->
+<div class="container">
+  <section class="related-posts is-related animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">You may also like</h2>
+              <a class="section__link" href="/blog">
+                
+                
+                  
+                    <a href="/tags#Software Change" class="section__link related-tag">See all<span> Software Change</span></a>
+                  
+                
+                  
+                
+              
+              </a>
+            </div>
+          </div>
+          <div class="row">
+
+          
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-06-28T00:00:00-05:00">28 Jun 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/2022/06/28/SevenSkillsToSaveSoftware">
+        <img class="lazy" data-src="/images/2022/06/Slide1.PNG" alt="Seven Skills to Save Software">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2022/06/28/SevenSkillsToSaveSoftware">Seven Skills to Save Software</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-04-14T00:00:00-05:00">14 Apr 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/2022/04/14/GoldenPath">
+        <img class="lazy" data-src="/images/2022/pipes.png" alt="Software Pipelines As Behavioral Prompts">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2022/04/14/GoldenPath">Software Pipelines As Behavioral Prompts</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-03-29T00:00:00-05:00">29 Mar 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/2022/03/29/JustTellMeWhatToDo">
+        <img class="lazy" data-src="/images/2022/whiteboard.png" alt=""Just Tell Me What To Do"">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2022/03/29/JustTellMeWhatToDo">"Just Tell Me What To Do"</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+                  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- end related posts -->
+
+
+  </main>
+  <!-- end content -->
+
+  <!-- begin footer -->
+<footer class="footer">
+
+  <div class="footer__inner">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-5 col-d-12">
+          <div class="footer__author">
+            <div class="footer__author-avatar">
+              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
+            </div>
+            <h3 class="footer__author-name">Matthew Reinbold</h3>
+            <p class="footer__author-bio">Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.</p>
+            
+            <div class="social">
+              <ul class="social__list list-reset">
+                
+                <li class="social__item">
+                  <a class="social__link" href="https://twitter.com/libel_vox" target="_blank" rel="noopener"
+                    aria-label=" link"><i class="ion ion-logo-twitter"></i></a>
+                </li>
+                
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="col col-6 push-1 col-d-12 push-d-0">
+          <div class="footer__gallery">
+            <h3 class="footer__gallery-title">Gallery</h3>
+            
+            <div class="gallery-footer">
+              <div class="gallery" style="grid-template-columns: repeat(3, auto);">
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold2-speaking-2014.png" alt="Matthew speaking in Amsterdam, 2014" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold2-speaking-2014b.jpg" alt="Matthew speaking in Minneapolis, 2014" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold-speaking-2015.jpg" alt="Matthew speaking in Northern Virgina, 2015" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold-speaking-2016.jpg" alt="Matthew leading training in 2016" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/api-strat-speaking-headshot.jpg" alt="Matthew speaking in 2019" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/headshot-2018.png" alt="Matthew in 2018" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/video_2021.jpg" alt="Matthew presenting online in 2021" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/podcast-2021.png" alt="Matthew recording a podcast in 2021" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/podcast-2021b.png" alt="Matthew appearing on a podcast in 2021" loading="lazy">
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__info">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="footer__info-box">
+            <div class="copyright">2022 &copy; <a href="/">Matthew Reinbold</a>. </div>
+            <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- end footer -->
+
+  <script src="/js/scripts.js"></script>
+  <script src="/js/common.js"></script>
+</body>
+
+</html>
