@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Matthew Reinbold</title>
-    <description>This is the website for Matthew Reinbold (that's me!). I am a Digtial Engagement Lead for the API Change Practice within Concentrix Catalyst. I also write the 'Net API Notes' email  newsletter and curate NetAPI.events. 
-</description>
-    <link>https://matthewreinbold.com/</link>
-    <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Jun 2022 11:31:29 -0500</pubDate>
-    <lastBuildDate>Tue, 28 Jun 2022 11:31:29 -0500</lastBuildDate>
-    <generator>Jekyll v4.2.1</generator>
-    
-      <item>
-        <title>Seven Skills to Save Software</title>
-        <description>&lt;p&gt;This June, I had the good fortune to present my recent work to several different venues. As I progress in my career, I’m increasingly more interested in &lt;em&gt;how&lt;/em&gt; change happens than the bits and bobs of the change itself. In other words, I started out with a career in technology and have ended up caring a lot more about the people involved.&lt;/p&gt;
+    <channel>
+        <title>Matthew Reinbold</title>
+        <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
+        <link>https://matthewreinbold.com/</link>
+        <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 26 Oct 2022 15:25:59 -0500</pubDate>
+        <lastBuildDate>Wed, 26 Oct 2022 15:25:59 -0500</lastBuildDate>
+        <generator>Jekyll v4.2.2</generator>
+        
+            <item>
+                <title>Seven Skills to Save Software</title>
+                <description>&lt;p&gt;This June, I had the good fortune to present my recent work to several different venues. As I progress in my career, I’m increasingly more interested in &lt;em&gt;how&lt;/em&gt; change happens than the bits and bobs of the change itself. In other words, I started out with a career in technology and have ended up caring a lot more about the people involved.&lt;/p&gt;
 
 &lt;p&gt;Here is my most recent work, ‘Seven Skills to Change Complex Systems (And Save Your Software)’. A recording of the &lt;em&gt;Deliberate Complexity&lt;/em&gt; delivery is embedded at the bottom.&lt;/p&gt;
 
@@ -90,14 +89,14 @@
 
 &lt;p&gt;Michael Nygard is an author and frequent speaker on software development. &lt;a href=&quot;https://www.michaelnygard.com/blog/2018/01/coherence-penalty-for-humans/&quot;&gt;In a powerful blog post, he defined the “Incoherence Penalty” as&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;“Whatever time the team members pend re-establishing a common view of the universe.”&lt;/p&gt;
+  &lt;p&gt;“Whatever time the team members spend re-establishing a common view of the universe.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;As Michael points out, the penalty might be small for a half-dozen people in a single shared workspace or across a half-dozen components. A whiteboard session every week or so is enough to keep everyone aligned.&lt;/p&gt;
 
 &lt;p&gt;However, the effort necessary to maintain alignment grows as we scale and as the system becomes more complex.&lt;/p&gt;
 
-&lt;p&gt;For another perspective on this scale challenge, and why it is so difficult to teach at the university level, &lt;a href=&quot;https://surfingcomplexity.blog/2022/04/23/software-engineering-in-the-large-the-coordination-challenge/&quot;&gt;see this great blog post from Lorin Hochstein&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(For another perspective on this scale challenge, and why it is so difficult to teach at the university level, &lt;a href=&quot;https://surfingcomplexity.blog/2022/04/23/software-engineering-in-the-large-the-coordination-challenge/&quot;&gt;see this great blog post from Lorin Hochstein&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide8.PNG&quot; /&gt;&lt;figcaption&gt;We Often Model the Architectural Relationships&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;In a complex system, the power is in the relationships between the pieces, the places where these things interact. With dynamic systems, these are the API interfaces. When we diagram these things, it is almost always in terms of technology. We go in hoping to identify a new architecture or tool that will provide the silver bullet to the incoherence problem.&lt;/p&gt;
@@ -108,7 +107,7 @@
 
 &lt;p&gt;So, if we’re going to save software, if we’re going to create change in modern development environments, we need to be able to create coherence. And to create coherence, that means applying skills to the human relationships equally, if not more, than the energy we expend on the software integrations.&lt;/p&gt;
 
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide10.PNG&quot; /&gt;&lt;figcaption&gt;This Is Unfortunate, As Tech Doesn't Create Alignment; People Do&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide10.PNG&quot; /&gt;&lt;figcaption&gt;This Is Unfortunate, As Tech Doesn&apos;t Create Alignment; People Do&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Technology does not create alignment - people do.&lt;/strong&gt;&lt;/p&gt;
 
@@ -277,7 +276,7 @@ A vital aspect of a story is how it links current actions to the desired future 
 
 &lt;p&gt;*Photo by &lt;a href=&quot;https://unsplash.com/@priscilladupreez&quot;&gt;Priscilla Du Preez&lt;/a&gt; on Unsplash. *&lt;/p&gt;
 
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide26.PNG&quot; /&gt;&lt;figcaption&gt;Leverage Your Company's Internal Recognition Pyramid&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide26.PNG&quot; /&gt;&lt;figcaption&gt;Leverage Your Company&apos;s Internal Recognition Pyramid&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;Just as the accomplishments we celebrate don’t have to be large, our celebrations don’t have to be grandiose; they just need to be meaningful.&lt;/p&gt;
 
@@ -341,7 +340,7 @@ A vital aspect of a story is how it links current actions to the desired future 
 
 &lt;p&gt;For those familiar with the API space, you’re probably familiar with the concept of Conway’s Law. You may also be familiar with the Reverse or Inverse Conway Maneuver. In the Inverse Conway Maneuver, the idea is that redesign your organizational structure to produce the kind of software that you want. It is a powerful idea, but having lived through my share of enterprise re-orgs, I can definitively say this is easier said than done.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://matthewreinbold.com/2017/12/07/ConwayAndAPIDesign/&quot;&gt;I’ve written about the impacts of Conway’s Law on software design before&lt;/a&gt;. For coverage of the &lt;em&gt;nuance&lt;/em&gt; required for successful Inverse Conway Maneuvers, &lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2022-06-07-issue-199&quot;&gt;check out this recent edition of my newsletter, Net API Notes #199&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://matthewreinbold.com/2017/12/07/ConwayAndAPIDesign/&quot;&gt;I’ve written about the impacts of Conway’s Law on software design before&lt;/a&gt;. For coverage of the &lt;em&gt;nuance&lt;/em&gt; required for successful Inverse Conway Maneuvers, &lt;a href=&quot;https://tnetapinotes.substack.com/p/net-api-notes-for-2022-06-07-issue-199&quot;&gt;check out this recent edition of my newsletter, Net API Notes #199&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide33.PNG&quot; /&gt;&lt;figcaption&gt;Plant The Change In Operations, Processes, and Rewards&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -384,74 +383,20 @@ Create a recurring task to do this on a regular basis. And make sure the feedbac
 
 &lt;p&gt;A video recording of the &lt;a href=&quot;https://www.youtube.com/watch?v=fLr1l4nUIgQ&quot;&gt;Deliberate Complexity delivery of this talk is available online&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 28 Jun 2022 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware/</guid>
+                <pubDate>Tue, 28 Jun 2022 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware</guid>
+                
+                <category>Software Change</category>
+                
+                <category>Presentations</category>
+                
+                
+            </item>
         
-        <category>organizations</category>
-        
-        <category>management</category>
-        
-        <category>change management</category>
-        
-        <category>paul cilliers</category>
-        
-        <category>complexity</category>
-        
-        <category>complex systems</category>
-        
-        <category>microservices</category>
-        
-        <category>Monzo</category>
-        
-        <category>reductionism</category>
-        
-        <category>michael nygard</category>
-        
-        <category>incoherence penalty</category>
-        
-        <category>communication</category>
-        
-        <category>agendashift</category>
-        
-        <category>mike burrows</category>
-        
-        <category>more fearless change</category>
-        
-        <category>linda rising</category>
-        
-        <category>mary lynn manns</category>
-        
-        <category>harie han</category>
-        
-        <category>john cutler</category>
-        
-        <category>recognition</category>
-        
-        <category>bj fogg</category>
-        
-        <category>tiny habits</category>
-        
-        <category>innovation distribution curve</category>
-        
-        <category>Conway's Law</category>
-        
-        <category>inverse conway maneuver</category>
-        
-        <category>better bits</category>
-        
-        <category>Lorin Hochstein</category>
-        
-        <category>Adam Grant</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Software Pipelines As Behavioral Prompts</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/golden-path.png&quot; alt=&quot;A trail through fall trees in northern Colorado. &quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;I have &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;previously discussed how important the environment is in creating meaningful behavioral change&lt;/a&gt;. I’ve &lt;a href=&quot;https://matthewreinbold.com/2021/07/16/GithubCopilot/&quot;&gt;also suggested that the developer’s IDE (or Integrated Development Environment) was an influential source of positive behavioral prompting&lt;/a&gt;. If we move beyond just the single IDE, the software development pipeline could &lt;em&gt;also&lt;/em&gt; be an environment capable of prompting desirable outcomes. This process is known as &lt;strong&gt;The Golden Path&lt;/strong&gt;.&lt;/p&gt;
+            <item>
+                <title>Software Pipelines As Behavioral Prompts</title>
+                <description>&lt;p&gt;I have &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw/&quot;&gt;previously discussed how important the environment is in creating meaningful behavioral change&lt;/a&gt;. I’ve &lt;a href=&quot;https://matthewreinbold.com/2021/07/16/GithubCopilot/&quot;&gt;also suggested that the developer’s IDE (or Integrated Development Environment) was an influential source of positive behavioral prompting&lt;/a&gt;. If we move beyond just the single IDE, the software development pipeline could &lt;em&gt;also&lt;/em&gt; be an environment capable of prompting desirable outcomes. This process is known as &lt;strong&gt;The Golden Path&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Charity Majors is the co-founder and CTO of Honeycomb, makers of code observability software. &lt;a href=&quot;https://charity.wtf/tag/scaling/&quot;&gt;She describes the Golden Path like so&lt;/a&gt;:&lt;/p&gt;
 
@@ -467,41 +412,24 @@ Create a recurring task to do this on a regular basis. And make sure the feedbac
 
 &lt;p&gt;Creating a Golden Path is work. However, suppose you can create an environment where doing the right thing is the easy thing. In that case, you are significantly further along than relying on best faith efforts and goosing external incentives.&lt;/p&gt;
 
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/golden-path.png#wide&quot; alt=&quot;A trail through fall trees in northern Colorado. &quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;em&gt;Update 2022-05-05&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Along these same lines is Yunong Xiao’s 2017 presentation entitled, “&lt;a href=&quot;https://www.infoq.com/news/2017/06/paved-paas-netflix/&quot;&gt;The Paved PaaS to Microservices at Netflix&lt;/a&gt;”. “Paved Path” is the same concept as “Golden Path”.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 14 Apr 2022 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2022/04/14/GoldenPath/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2022/04/14/GoldenPath/</guid>
+                <pubDate>Thu, 14 Apr 2022 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2022/04/14/GoldenPath</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2022/04/14/GoldenPath</guid>
+                
+                <category>Software Change</category>
+                
+                
+            </item>
         
-        <category>API governance</category>
-        
-        <category>organizations</category>
-        
-        <category>standards</category>
-        
-        <category>Netflix</category>
-        
-        <category>Yunong Xiao</category>
-        
-        <category>Platform</category>
-        
-        <category>Charity Majors</category>
-        
-        <category>Golden Path</category>
-        
-        <category>Paved Path</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Just Tell Me What To Do</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/whiteboard.png&quot; alt=&quot;A picture of two people at a whiteboard. &quot; /&gt;&lt;/figure&gt;&lt;figcaption&gt;Photo by &lt;a href=&quot;https://unsplash.com/@kaleidico?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Kaleidico&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/blueprint?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
-  &lt;/figcaption&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://play.acast.com/s/ctrlaltdelete/falling-out-of-love-with-the-internet-disconnected-audiobook&quot;&gt;In a recent edition of the Ctrl Alt Delete podcast&lt;/a&gt;, host Emma Gannon described her discovery of &lt;a href=&quot;https://www.facebook.com/groups/290368045246716/&quot;&gt;a Facebook group that helps individuals make small decisions&lt;/a&gt;. “Can’t decide between two shirts?” it asks. “Can’t choose pizza or spaghetti for dinner? Let this group make small decisions for you.”&lt;/p&gt;
+            <item>
+                <title>&quot;Just Tell Me What To Do&quot;</title>
+                <description>&lt;p&gt;&lt;a href=&quot;https://play.acast.com/s/ctrlaltdelete/falling-out-of-love-with-the-internet-disconnected-audiobook&quot;&gt;In a recent edition of the Ctrl Alt Delete podcast&lt;/a&gt;, host Emma Gannon described her discovery of &lt;a href=&quot;https://www.facebook.com/groups/290368045246716/&quot;&gt;a Facebook group that helps individuals make small decisions&lt;/a&gt;. “Can’t decide between two shirts?” it asks. “Can’t choose pizza or spaghetti for dinner? Let this group make small decisions for you.”&lt;/p&gt;
 
 &lt;p&gt;In “the before times”, I would have no use for a group like this. However, in the pandemic times, there are simply some evenings where this sort of “outsourcing of the banal” seems attractive.&lt;/p&gt;
 
@@ -551,24 +479,20 @@ Create a recurring task to do this on a regular basis. And make sure the feedbac
 
 &lt;p&gt;During these unprecedented times, we must recognize the inherent opportunity in the status quo fracturing. Introducing change now does not have to contend with bursting people’s “normal” bubble. Nothing is normal! &lt;a href=&quot;https://en.wikipedia.org/wiki/Who_Moved_My_Cheese%3F&quot;&gt;The cheese has already been moved&lt;/a&gt;. Energy is available if someone dares to channel it. That is not to say that change, like defining a set of API standards for a sprawling and increasingly problematic ecosystem, is easy. &lt;em&gt;However&lt;/em&gt;, it does mean people are more likely to accept something new.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 29 Mar 2022 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo/</guid>
+                <pubDate>Tue, 29 Mar 2022 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo</guid>
+                
+                <category>Software Change</category>
+                
+                <category>Software Governance</category>
+                
+                
+            </item>
         
-        <category>API governance</category>
-        
-        <category>organizations</category>
-        
-        <category>standards</category>
-        
-        <category>API styleguide</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Standards as Accelerant</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/willy-wonka-rules-of-the-house.gif&quot; alt=&quot;An animated GIF of Willy Wonka stating 'Sorry, rules of the house.'&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+            <item>
+                <title>Standards as Accelerant</title>
+                <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/willy-wonka-rules-of-the-house.gif&quot; alt=&quot;An animated GIF of Willy Wonka stating &apos;Sorry, rules of the house.&apos;&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;When debating IT governance structures, people make lots of claims. One is that decentralized governance “maximizes” team freedom. Or, specifically:&lt;/p&gt;
 
@@ -592,26 +516,18 @@ Create a recurring task to do this on a regular basis. And make sure the feedbac
 
 &lt;p&gt;Like all implements in the governance toolkit, standards, guidelines, and rules can be misused. However, when applied appropriately, clear policy and regulation can reduce decision fatigue and free teams’ time and energy for more meaningful work.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 22 Nov 2021 00:00:00 -0600</pubDate>
-        <link>https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant/</guid>
+                <pubDate>Mon, 22 Nov 2021 00:00:00 -0600</pubDate>
+                <link>https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant</guid>
+                
+                <category>Software Governance</category>
+                
+                
+            </item>
         
-        <category>API governance</category>
-        
-        <category>polarity mapping</category>
-        
-        <category>organizations</category>
-        
-        <category>standards</category>
-        
-        <category>API styleguide</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pandemic-Led Digital Transformation; You're Doing it Wrong</title>
-        <description>&lt;p&gt;The pandemic impacted businesses in many ways, some obvious (hello, work-from-home) and some so subtle that they may not even be apparent for several more years. One aspect pointed to in business and technology press is how the pandemic “sped up” digital transformation.&lt;/p&gt;
+            <item>
+                <title>Pandemic-Led Digital Transformation; You&apos;re Doing it Wrong</title>
+                <description>&lt;p&gt;The pandemic impacted businesses in many ways, some obvious (hello, work-from-home) and some so subtle that they may not even be apparent for several more years. One aspect pointed to in business and technology press is how the pandemic “sped up” digital transformation.&lt;/p&gt;
 
 &lt;p&gt;How true that statement is depends to large degree with how you define digital transformation. I was recently asked for my thoughts on the matter and I thought I’d also share them here.&lt;/p&gt;
 
@@ -646,30 +562,20 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
 
 &lt;p&gt;We have not only the opportunity, but the imagination to create new forms. A return to “business-as-normal” is a strategic mirage.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 09 Nov 2021 00:00:00 -0600</pubDate>
-        <link>https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong/</guid>
+                <pubDate>Tue, 09 Nov 2021 00:00:00 -0600</pubDate>
+                <link>https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong</guid>
+                
+                <category>Software Change</category>
+                
+                <category>Software Management</category>
+                
+                
+            </item>
         
-        <category>digital transformation</category>
-        
-        <category>pandemic</category>
-        
-        <category>covid-19</category>
-        
-        <category>leadership</category>
-        
-        <category>management</category>
-        
-        <category>organizations</category>
-        
-        <category>Forrester</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Why is there no 'Correct' API Lifecycle?</title>
-        <description>&lt;p&gt;Recently, my colleagues in the Postman Open Technologies Program and I were discussing API lifecycles. It quickly became apparent that we each had our own mental models for what was (and *most certainly &lt;strong&gt;was not&lt;/strong&gt; *) worthy of inclusion.&lt;/p&gt;
+            <item>
+                <title>Why is there no &apos;Correct&apos; API Lifecycle?</title>
+                <description>&lt;p&gt;Recently, my colleagues in the Postman Open Technologies Program and I were discussing API lifecycles. It quickly became apparent that we each had our own mental models for what was (and *most certainly &lt;strong&gt;was not&lt;/strong&gt; *) worthy of inclusion.&lt;/p&gt;
 
 &lt;p&gt;A quick survey of search results hints that the industry has as many opinions about what constitutes an API lifecycle as we had:&lt;/p&gt;
 
@@ -709,39 +615,19 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
 &lt;p&gt;A monitoring company is sure to list monitoring as part of its lifecycle. A company that sells documentation software will also elevate documentation to a high-level concern. It will depend on the vendor, but whatever their product excels at will probably be part of whatever lifecycle they promote.&lt;/p&gt;
 
 &lt;p&gt;With companies looking at instituting a lifecycle, I’d &lt;em&gt;first&lt;/em&gt; find the burning problem that would benefit from additional learning, creativity, and focus. That would be the first touchstone called out in the path between an idea’s inception and production runtime. I’d then continue to build up and out from there. Dropping an entire thirteen-step lifecycle where none previously existed isn’t just introducing a massive amount of disruption all at once - it also summons &lt;a href=&quot;https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/&quot;&gt;a proportional amount of resistance&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/pond.png&quot; alt=&quot;A picture of geese on a pond with fall trees behind them.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 02 Nov 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle/</guid>
+                <pubDate>Tue, 02 Nov 2021 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle</guid>
+                
+                <category>Software Governance</category>
+                
+                
+            </item>
         
-        <category>API governance</category>
-        
-        <category>API lifecycle</category>
-        
-        <category>TechTarget</category>
-        
-        <category>Apigee</category>
-        
-        <category>Axway</category>
-        
-        <category>SmartBear</category>
-        
-        <category>Mulesoft</category>
-        
-        <category>Redhat</category>
-        
-        <category>Capital One</category>
-        
-        <category>change management</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Finding API Governance Balance With Polarity Mapping</title>
-        <description>&lt;p&gt;Some of my most rewarding conversations in my professional career are when I coach folks on their emerging API governance needs. A common myth is that companies &lt;em&gt;must&lt;/em&gt; settle for one extreme decision-making structure or the other regarding governance. Either they grant API teams full autonomy and suffer from the fragmentation and associated overhead it brings. Or they gain alignment and consistency through centralized oversight and heavy bureaucratic processes while losing innovation opportunities.&lt;/p&gt;
+            <item>
+                <title>Finding API Governance Balance With Polarity Mapping</title>
+                <description>&lt;p&gt;Some of my most rewarding conversations in my professional career are when I coach folks on their emerging API governance needs. A common myth is that companies &lt;em&gt;must&lt;/em&gt; settle for one extreme decision-making structure or the other regarding governance. Either they grant API teams full autonomy and suffer from the fragmentation and associated overhead it brings. Or they gain alignment and consistency through centralized oversight and heavy bureaucratic processes while losing innovation opportunities.&lt;/p&gt;
 
 &lt;p&gt;Unquestionably, anything done to an extreme can create negative consequences. However, in my experience, too many companies only see a total commitment to one position or another as their only option. What companies need, in reality, is a blending of the two approaches.&lt;/p&gt;
 
@@ -749,7 +635,7 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
 
 &lt;h2 id=&quot;reintroducing-the-polarity-map&quot;&gt;(Re)Introducing the Polarity Map&lt;/h2&gt;
 
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/polarity-map-template-full.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 1: An Empty Polarity Map; &lt;a href=&quot;https://jamboard.google.com/d/1H4Vj1I6SlgWUPUPCgfzqZIKBIrKNlARG9WJe5xXO180/edit?usp=sharing&quot;&gt;I've Made A Google Jamboard Template Available&lt;/a&gt; based on the example from &lt;a href=&quot;https://uxmastery.com/the-joys-of-polarity-mapping/&quot;&gt;UXMastery&lt;/a&gt;.&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/polarity-map-template-full.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 1: An Empty Polarity Map; &lt;a href=&quot;https://jamboard.google.com/d/1H4Vj1I6SlgWUPUPCgfzqZIKBIrKNlARG9WJe5xXO180/edit?usp=sharing&quot;&gt;I&apos;ve Made A Google Jamboard Template Available&lt;/a&gt; based on the example from &lt;a href=&quot;https://uxmastery.com/the-joys-of-polarity-mapping/&quot;&gt;UXMastery&lt;/a&gt;.&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://ruthmalan.com/Bredemeyer/Org_Dynamics_Masterclass_Overview.htm&quot;&gt;Ruth Malan’s Organizational Design Masterclass&lt;/a&gt; introduced me to polarity mapping. A polarity map recognizes there are benefits and unintended consequences with each extreme. It encourages participants to describe these in detail. Once we’ve identified benefits, we then discuss activities to achieve these desirable traits in our system. After that, we can define a series of measurable indicators. The purpose of these metrics is to signal when we’ve overcorrected and risk unbalancing the system.&lt;/p&gt;
 
@@ -810,24 +696,18 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
 
 &lt;p&gt;A polarity map is a tool that API leaders can use to  understand where they are in the system and accentuate positive aspects of both worlds. When it comes to API ecosystems, polarity maps suggest that centralized or decentralized decision-making is not final governance destinations but part of a whole to be managed.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Nov 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance/</guid>
+                <pubDate>Mon, 01 Nov 2021 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance</guid>
+                
+                <category>Software Governance</category>
+                
+                
+            </item>
         
-        <category>API governance</category>
-        
-        <category>Ruth Malan</category>
-        
-        <category>polarity mapping</category>
-        
-        <category>organizations</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>We Made an API Description, Now What?</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/10/ASC 2021 - Wrote an API Description, Now What_01.png&quot; alt=&quot;Title slide for the deck.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+            <item>
+                <title>We Made an API Description, Now What?</title>
+                <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/10/ASC 2021 - Wrote an API Description, Now What_01.png&quot; alt=&quot;Title slide for the deck.&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;First of all, thank you for being here. I hope you’re healthy and you’re safe, and those that you care about are secure as well. We’ll get through this. I’m sure of it, and someday we will see each other again in person. However, until then, thank goodness we have these kinds of arrangements to share and continue to learn from one another in some form.&lt;/p&gt;
 
@@ -952,7 +832,7 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
 
 &lt;p&gt;However, where people should put the bulk of their effort also happens to be some of the most tedious work. Therefore, it is a no-brainer that we leverage an API description to provide the necessary coverage.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2021-08-04-issue-170&quot;&gt;This version of the API testing pyramid inspired by the test pyramid featured in Net API Notes Issue 170&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://netapinotes.substack.com/p/net-api-notes-for-2021-08-04-issue-170&quot;&gt;This version of the API testing pyramid inspired by the test pyramid featured in Net API Notes Issue 170&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/10/ASC 2021 - Wrote an API Description, Now What_15.png&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -1074,60 +954,20 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
 &lt;p&gt;Thanks again!&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 01 Oct 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription/</guid>
+                <pubDate>Fri, 01 Oct 2021 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription</guid>
+                
+                <category>Presentations</category>
+                
+                <category>Software Governance</category>
+                
+                
+            </item>
         
-        <category>API governance</category>
-        
-        <category>OpenAPI</category>
-        
-        <category>Postman</category>
-        
-        <category>Net API Notes</category>
-        
-        <category>AsyncAPI</category>
-        
-        <category>JSON</category>
-        
-        <category>YAML</category>
-        
-        <category>Guido of Arezzo</category>
-        
-        <category>music</category>
-        
-        <category>documentation</category>
-        
-        <category>OpenAPI-Generator</category>
-        
-        <category>code generation</category>
-        
-        <category>testing</category>
-        
-        <category>monitoring</category>
-        
-        <category>Accelerate</category>
-        
-        <category>API descriptions</category>
-        
-        <category>OpenAPI.tools</category>
-        
-        <category>Jean Yang</category>
-        
-        <category>Akita</category>
-        
-        <category>Stedi</category>
-        
-        <category>EDI</category>
-        
-        <category>Sound of Music</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Overcoming Change Resistance</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/09/lets-change.png&quot; alt=&quot;A sign outside a building that says 'Let's Change'.&quot; /&gt;
+            <item>
+                <title>Overcoming Change Resistance</title>
+                <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/09/lets-change.png&quot; alt=&quot;A sign outside a building that says &apos;Let&apos;s Change&apos;.&quot; /&gt;
 Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Brad Starkey&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/change?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;
   &lt;/figure&gt;&lt;/p&gt;
 
@@ -1185,26 +1025,20 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 
 &lt;p&gt;Technologies come and go. But people remain the same.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 22 Sep 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance/</guid>
+                <pubDate>Wed, 22 Sep 2021 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance</guid>
+                
+                <category>Software Governance</category>
+                
+                <category>Software Change</category>
+                
+                
+            </item>
         
-        <category>API governance</category>
-        
-        <category>organizations</category>
-        
-        <category>communication</category>
-        
-        <category>management</category>
-        
-        <category>change</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Creating Compelling Stories</title>
-        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/09/hermes-rocket-typewriter.png&quot; alt=&quot;A picture of my Hermes Rocket typewriter.&quot; /&gt;
+            <item>
+                <title>Creating Compelling Stories</title>
+                <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/09/hermes-rocket-typewriter.png&quot; alt=&quot;A picture of my Hermes Rocket typewriter.&quot; /&gt;
 &lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;In &lt;a href=&quot;https://matthewreinbold.com/2021/09/03/PlausiblePromises/&quot;&gt;my last post&lt;/a&gt;, I talked about the importance of creating a &lt;em&gt;plausible promise&lt;/em&gt; for system change. To briefly recap, a plausible promise must be (1) inspiring enough to attract others to participate and (2) stand a believable shot of happening given all other constraints.&lt;/p&gt;
@@ -1236,7 +1070,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 &lt;h3 id=&quot;a-clear-articulation-of-the-current-state&quot;&gt;A Clear Articulation of the Current State&lt;/h3&gt;
 &lt;p&gt;Context frames and gives meaning to the change that must take place.&lt;/p&gt;
 
-&lt;p&gt;A story	of transition will highlight how the past way of doing things is unsustainable, how it has lead to the current crisis, which requires new ideas (your ideas!) to overcome. It is important that that articulation explains why the change should happen &lt;em&gt;now&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;A story of transition will highlight how the past way of doing things is unsustainable, how it has lead to the current crisis, which requires new ideas (your ideas!) to overcome. It is important that that articulation explains why the change should happen &lt;em&gt;now&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;an-attractive-future&quot;&gt;An Attractive Future&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -1249,7 +1083,7 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 
 &lt;h3 id=&quot;a-new-identity-for-participants&quot;&gt;A New Identity For Participants&lt;/h3&gt;
 
-&lt;p&gt;System change requires working in new configurations, often with new (to you) people. Stepping beyond the comfort zone of our friends and colleagues means engaging with strangers and opponents who may not have a shared understanding.	A story should enable people to recognize their	shared interdependence in the system, thus creating a shared	identity. It must show how the sub-optimal future cannot be solved by individual stakeholders alone and how a new network with new relationships can.&lt;/p&gt;
+&lt;p&gt;System change requires working in new configurations, often with new (to you) people. Stepping beyond the comfort zone of our friends and colleagues means engaging with strangers and opponents who may not have a shared understanding. A story should enable people to recognize their shared interdependence in the system, thus creating a shared identity. It must show how the sub-optimal future cannot be solved by individual stakeholders alone and how a new network with new relationships can.&lt;/p&gt;
 
 &lt;p&gt;Keep in mind, creating change &lt;em&gt;may not&lt;/em&gt; require everyone. It does, however, need to connect the people that need connecting.&lt;/p&gt;
 
@@ -1293,20 +1127,14 @@ Photo by &lt;a href=&quot;https://unsplash.com/@visualsbybrad?utm_source=unsplas
 
 &lt;p&gt;Stories are critical for creating systems change and can be told by anyone. If we better understand the elements that go into a story, our messages will find more traction faster. Moving beyond a plausible promise to a full-blown change narrative takes work. However, if your idea is a good one, the results are worth it.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 10 Sep 2021 00:00:00 -0500</pubDate>
-        <link>https://matthewreinbold.com/2021/09/10/CreatingCompellingStories/</link>
-        <guid isPermaLink="true">https://matthewreinbold.com/2021/09/10/CreatingCompellingStories/</guid>
+                <pubDate>Fri, 10 Sep 2021 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2021/09/10/CreatingCompellingStories</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2021/09/10/CreatingCompellingStories</guid>
+                
+                <category>Software Change</category>
+                
+                
+            </item>
         
-        <category>API governance</category>
-        
-        <category>organizations</category>
-        
-        <category>communication</category>
-        
-        <category>management</category>
-        
-        
-      </item>
-    
-  </channel>
+    </channel>
 </rss>
