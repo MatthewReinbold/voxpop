@@ -5,8 +5,8 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 23 Jun 2023 16:13:56 -0500</pubDate>
-        <lastBuildDate>Fri, 23 Jun 2023 16:13:56 -0500</lastBuildDate>
+        <pubDate>Wed, 28 Jun 2023 10:17:04 -0500</pubDate>
+        <lastBuildDate>Wed, 28 Jun 2023 10:17:04 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
@@ -247,7 +247,7 @@ Some of you might have heard this story. Soon after Samsung’s semiconductor di
 
 &lt;p&gt;Given that ChatGPT can infer words that are statistically similar, let’s use it to analyze what we’ve created thus far.&lt;/p&gt;
 
-&lt;p&gt;While iterating with the steps, I had already begun to consider redirection and canonical header handling as similar functionality. What I handed considered was what ChatGPT pointed out – that all these subsystems would require URL validation before performing their respective tasks – which was a great point.&lt;/p&gt;
+&lt;p&gt;While iterating with the steps, I had already begun to consider redirection and canonical header handling as similar functionality. What I had not considered was what ChatGPT pointed out – that all these subsystems would require URL validation before performing their respective tasks – which was a great point.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2023/06/Slide21.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
 
