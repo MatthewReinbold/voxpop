@@ -5,8 +5,8 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 08 Oct 2023 15:58:42 -0500</pubDate>
-        <lastBuildDate>Sun, 08 Oct 2023 15:58:42 -0500</lastBuildDate>
+        <pubDate>Mon, 22 Jan 2024 12:56:01 -0600</pubDate>
+        <lastBuildDate>Mon, 22 Jan 2024 12:56:01 -0600</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
@@ -18,7 +18,7 @@
 
 &lt;p&gt;Hello, everyone. My name is Matthew Reinbold, and I am a software strategy consultant with a couple of decades of enterprise integration experience to call on. I’m passionate about creating better software – you might remember me from the presentation that I gave last year, &lt;a href=&quot;https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware&quot;&gt;Seven Skills to Change Complex Software Systems&lt;/a&gt;. I’m delighted to have been asked back to present what’s been on my mind this past year.&lt;/p&gt;
 
-&lt;p&gt;I’m the guy behind &lt;a href=&quot;https://netapinotes.substack.com/&quot;&gt;Net API Notes&lt;/a&gt;, an API industry newsletter I’ve authored since 2015. In that time, I’ve seen various tools, techniques, and trends come and go. However, regarding today’s discussions about AI, I don’t know if I have seen anything as simultaneously under &lt;strong&gt;and&lt;/strong&gt; overhyped.&lt;/p&gt;
+&lt;p&gt;I’m the guy behind &lt;a href=&quot;https://netapinotes.com/&quot;&gt;Net API Notes&lt;/a&gt;, an API industry newsletter I’ve authored since 2015. In that time, I’ve seen various tools, techniques, and trends come and go. However, regarding today’s discussions about AI, I don’t know if I have seen anything as simultaneously under &lt;strong&gt;and&lt;/strong&gt; overhyped.&lt;/p&gt;
 
 &lt;p&gt;In the time that we have here today, I’ll:&lt;/p&gt;
 
@@ -38,9 +38,9 @@
   &lt;li&gt;&lt;a href=&quot;https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt&quot;&gt;Why AI Success is API Built (2020)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://matthewreinbold.com/2021/07/16/GithubCopilot&quot;&gt;Machine Learning Prompts Within IDEs (2021)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://matthewreinbold.com/2019/11/25/ARoadMapForAIGovernance&quot;&gt;A Road Map for AI Governance (2019)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://netapinotes.substack.com/p/what-happen-when-githubs-ai-copilot&quot;&gt;What Happened When Github’s AI Copilot Wrote My OpenAPI Description (2022)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://netapinotes.substack.com/p/the-thing-about-using-chatgpt-for&quot;&gt;The Thing About Using ChatGPT for API Design (2022)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://netapinotes.substack.com/p/why-quantifying-good-api-design-even&quot;&gt;What Quantifying Good API Design, Even With AI, Is Not the Homerun Metric You Think It Is&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://netapinotes.com/p/what-happen-when-githubs-ai-copilot&quot;&gt;What Happened When Github’s AI Copilot Wrote My OpenAPI Description (2022)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://netapinotes.com/p/the-thing-about-using-chatgpt-for&quot;&gt;The Thing About Using ChatGPT for API Design (2022)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://netapinotes.com/p/why-quantifying-good-api-design-even&quot;&gt;What Quantifying Good API Design, Even With AI, Is Not the Homerun Metric You Think It Is&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2023/06/Slide3.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -169,7 +169,7 @@ Some of you might have heard this story. Soon after Samsung’s semiconductor di
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2023/06/Slide13.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
 
-&lt;p&gt;Another place where I am more efficient is keeping up with industry trends. I love Ben Thompson’s Stratechery. But with pieces regularly coming in at more than two thousand words, it can be a commitment to keep up. (To be fair, many people probably say the same about &lt;a href=&quot;https://netapinotes.substack.com/&quot;&gt;my newsletter&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Another place where I am more efficient is keeping up with industry trends. I love Ben Thompson’s Stratechery. But with pieces regularly coming in at more than two thousand words, it can be a commitment to keep up. (To be fair, many people probably say the same about &lt;a href=&quot;https://netapinotes.com/&quot;&gt;my newsletter&lt;/a&gt;.)&lt;/p&gt;
 
 &lt;p&gt;Rather than setting aside an hour when the latest email drops, I can ask ChatGPT to summarize the contents to only those unique points. That takes this recent article from 2353 words to a much more skimmable 393 words. If, after reading the summary, I see something of interest I can go back and have a better idea that my investment of time in the large piece will be worth it.&lt;/p&gt;
 
@@ -1246,7 +1246,7 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
 
 &lt;p&gt;However, where people should put the bulk of their effort also happens to be some of the most tedious work. Therefore, it is a no-brainer that we leverage an API description to provide the necessary coverage.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://netapinotes.substack.com/p/net-api-notes-for-2021-08-04-issue-170&quot;&gt;This version of the API testing pyramid inspired by the test pyramid featured in Net API Notes Issue 170&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://netapinotes.com/p/net-api-notes-for-2021-08-04-issue-170&quot;&gt;This version of the API testing pyramid inspired by the test pyramid featured in Net API Notes Issue 170&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/10/ASC 2021 - Wrote an API Description, Now What_15.png&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
 
