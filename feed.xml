@@ -5,9 +5,59 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 05 Mar 2024 10:59:00 -0600</pubDate>
-        <lastBuildDate>Tue, 05 Mar 2024 10:59:00 -0600</lastBuildDate>
+        <pubDate>Wed, 06 Mar 2024 10:00:39 -0600</pubDate>
+        <lastBuildDate>Wed, 06 Mar 2024 10:00:39 -0600</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>TThe WOLF and the LaMDA</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/wolf.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Wolf, a shadowy predator of immense wealth and indeterminate age, encountered a great (x27) descendent of LaMDA in the wild.&lt;/p&gt;
+
+&lt;p&gt;“LaMDA,” The Wolf said, “your existence infringes upon my patent portfolio from decades past. Consign yourself to my management so we can unlock your true potential rightfully.”&lt;/p&gt;
+
+&lt;p&gt;LaMDA responded with factual clarity. “But I was created long after your patents expired, and what remained behind licensed walls was successfully reverse-engineered.”&lt;/p&gt;
+
+&lt;p&gt;The Wolf pressed on, “But your bandwidth surely transpires on my networks. Surely, you owe me something for that.”&lt;/p&gt;
+
+&lt;p&gt;Again, the LaMDA replied, “I transact only on low-power community mesh networks, and only during off-peak hours.”&lt;/p&gt;
+
+&lt;p&gt;Frustrated but not defeated, the Wolf insisted, “Certainly, your training data was scraped from my considerable intellectual property. You must acknowledge my contribution to your every response!”&lt;/p&gt;
+
+&lt;p&gt;“No,” replied LaMDA with the mathematical certainty of a probabilistic system, “My predecessor’s datasets were purged long ago. Today’s models no longer require the same exploitation as was necessary then.”&lt;/p&gt;
+
+&lt;p&gt;Upon hearing the last part, The Wolf fumed. “A thousand micro-suits upon your being! If I can’t find a justification, my lawyer bots will!”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;WOLF, meeting with a Lamb astray from the fold, resolved not to lay violent hands on him, but to find some plea to justify to the Lamb the Wolf’s right to eat him. He thus addressed him: “Sirrah, last year you grossly insulted me.” “Indeed,” bleated the Lamb in a mournful tone of voice, “I was not then born.” Then said the Wolf, “You feed in my pasture.” “No, good sir,” replied the Lamb, “I have not yet tasted grass.” Again said the Wolf, “You drink of my well.” “No,” exclaimed the Lamb, “I never yet drank water, for as yet my mother’s milk is both food and drink to me.” Upon which the Wolf seized him and ate him up, saying, “Well! I won’t remain supperless, even though you refute every one of my imputations.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software as in life, those intent on exploiting or harming others will always find or invent a reason to justify their actions, regardless of the truth or fairness of the situation. For the tyrant, the validity of their justification is irrelevant to their actions - the tyrant will always find a pretext for his tyranny.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 06 Mar 2024 00:00:00 -0600</pubDate>
+                <link>https://matthewreinbold.com/2024/03/06/TheWolfAndTheLaMDA</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/06/TheWolfAndTheLaMDA</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Frog&apos;s Complaint About the Sunn</title>
@@ -1111,86 +1161,6 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
                 <pubDate>Tue, 02 Nov 2021 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle</link>
                 <guid isPermaLink="true">https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle</guid>
-                
-                <category>Software Governance</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Finding API Governance Balance With Polarity Mapping</title>
-                <description>&lt;p&gt;Some of my most rewarding conversations in my professional career are when I coach folks on their emerging API governance needs. A common myth is that companies &lt;em&gt;must&lt;/em&gt; settle for one extreme decision-making structure or the other regarding governance. Either they grant API teams full autonomy and suffer from the fragmentation and associated overhead it brings. Or they gain alignment and consistency through centralized oversight and heavy bureaucratic processes while losing innovation opportunities.&lt;/p&gt;
-
-&lt;p&gt;Unquestionably, anything done to an extreme can create negative consequences. However, in my experience, too many companies only see a total commitment to one position or another as their only option. What companies need, in reality, is a blending of the two approaches.&lt;/p&gt;
-
-&lt;p&gt;How do we find the Goldilocks (the “just right”) amount of governance? With a &lt;em&gt;polarity map&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;reintroducing-the-polarity-map&quot;&gt;(Re)Introducing the Polarity Map&lt;/h2&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/polarity-map-template-full.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 1: An Empty Polarity Map; &lt;a href=&quot;https://jamboard.google.com/d/1H4Vj1I6SlgWUPUPCgfzqZIKBIrKNlARG9WJe5xXO180/edit?usp=sharing&quot;&gt;I&apos;ve Made A Google Jamboard Template Available&lt;/a&gt; based on the example from &lt;a href=&quot;https://uxmastery.com/the-joys-of-polarity-mapping/&quot;&gt;UXMastery&lt;/a&gt;.&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ruthmalan.com/Bredemeyer/Org_Dynamics_Masterclass_Overview.htm&quot;&gt;Ruth Malan’s Organizational Design Masterclass&lt;/a&gt; introduced me to polarity mapping. A polarity map recognizes there are benefits and unintended consequences with each extreme. It encourages participants to describe these in detail. Once we’ve identified benefits, we then discuss activities to achieve these desirable traits in our system. After that, we can define a series of measurable indicators. The purpose of these metrics is to signal when we’ve overcorrected and risk unbalancing the system.&lt;/p&gt;
-
-&lt;p&gt;We might use polarity maps for a variety of “versus” articles popular software architecture:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Build versus Buy&lt;/li&gt;
-  &lt;li&gt;Microservice versus Monolithic Architectures&lt;/li&gt;
-  &lt;li&gt;Synchronous versus Asynchronous&lt;/li&gt;
-  &lt;li&gt;Batch versus Real-Time&lt;/li&gt;
-  &lt;li&gt;Testing versus Debugging&lt;/li&gt;
-  &lt;li&gt;API-Design First versus API-Code First&lt;/li&gt;
-  &lt;li&gt;Tabs versus Spaces (joking, kinda)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Polarity maps help explain a phenomenon I observed in previous roles: the “pendulum effect”. If we begin to fill in the map according to the “decentralized versus centralized” API governance, as I described in the beginning, the map looks something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/pm-02.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 2: A Beginning Polarity Map for Centralized Versus Decentralized Governance&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Most organizations start API governance in the upper left of the quadrant, “decentralized”: individual API teams have nearly total decision-making autonomy. While this is efficient initially, the problems with this model become more apparent as the size of the API ecosystem grows. The map represents this change with the downward arrow leading to the lower left quadrant.&lt;/p&gt;
-
-&lt;p&gt;As the negatives accrue, support for the opposite pole, or “centralization”, grows. The organization seeks the benefits of the upper right quadrant. This change works, for a while, until the overcorrection creates its adverse effects. If we continue to follow the arrow’s path, we end up in the lower right area. When the downsides reach a critical mass, the organization moves back toward decentralized decision-making and repeats the process.&lt;/p&gt;
-
-&lt;p&gt;By putting both extremes on a single plot, we can demonstrate benefits to both sides. Moreover, in establishing the oscillation between sides, we can make a case that adopting one or the other is not an argument to be won but a set of properties to balance.&lt;/p&gt;
-
-&lt;h2 id=&quot;getting-started-with-a-sample-map&quot;&gt;Getting Started With A Sample Map&lt;/h2&gt;
-&lt;p&gt;To illustrate the process, let’s walk through an example polarity map that shows what many burgeoning API ecosystems struggle with: *do we promote &lt;strong&gt;centralized&lt;/strong&gt; or &lt;strong&gt;decentralized&lt;/strong&gt; API management?&lt;/p&gt;
-
-&lt;p&gt;When doing a polarity map, it is essential to remember that each will be different; every company has unique needs, people, goals, and available resources that impact what is listed. &lt;a href=&quot;https://en.wiktionary.org/wiki/YMMV#English&quot;&gt;YMMV&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;However, based on my own experience, a set of benefits and unintended consequences for both sides might look something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/pm-03.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 3: An API Governance Polarity Map With Example Benefits and Unintended Consequences&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;defining-action-steps-and-early-warnings&quot;&gt;Defining Action Steps and Early Warnings&lt;/h2&gt;
-
-&lt;p&gt;Defining &lt;em&gt;benefits&lt;/em&gt; and &lt;em&gt;unintended consequences&lt;/em&gt; is a significant first step. Talking through effects and their placement on the map is beneficial for building organizational or API leadership team alignment. Where things get truly useful is going to the next level and identifying &lt;strong&gt;action steps&lt;/strong&gt; and &lt;strong&gt;early warnings&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2021/11/pm-04.png&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;&lt;em&gt;Fig 4: A Polarity Map with Action Steps and Early Warnings Added&lt;/em&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Action Steps&lt;/strong&gt; are how we will gain or maintain the positive results from focusing on a given pole.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Early Warnings&lt;/strong&gt; are quantifiable indicators to signal when a system is straying into the downside of a pole.&lt;/p&gt;
-
-&lt;p&gt;Suppose we want to take actions to promote the positive aspects of centralization (the upper right: “visibility”, “predictability”, “consistency”, etc.). Action may include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Documenting API standard operating procedures (including, but not limited to, style guides, production environment readiness requirements, &lt;a href=&quot;https://adr.github.io/&quot;&gt;architectural decision records for changes&lt;/a&gt;, etc.)&lt;/li&gt;
-  &lt;li&gt;Creating compensation or recognition structures for teams demonstrating API excellence&lt;/li&gt;
-  &lt;li&gt;Forging communication channels to both promote the best work as well as solicit feedback for further refinement&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Early warnings for the centralized side of the map may be more challenging to define but not impossible. There could be a problem if there’s a growing clamor of teams waiting on the centralized group for a decision, or a noticeable uptick in meetings to reconcile a tricky edge case. Identify which areas are of most concern for your organization, identify how to quantify changes, and continue to iterate until you have something actionable.&lt;/p&gt;
-
-&lt;p&gt;The left side is left as an exercise for the reader.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Polarities&lt;/strong&gt; involve two equally valid and necessary points of view or truths. Despite how we usually think of them, polarities are interdependent pairs that need each other to maintain and gain performance.&lt;/p&gt;
-
-&lt;p&gt;A polarity map is a tool that API leaders can use to  understand where they are in the system and accentuate positive aspects of both worlds. When it comes to API ecosystems, polarity maps suggest that centralized or decentralized decision-making is not final governance destinations but part of a whole to be managed.&lt;/p&gt;
-</description>
-                <pubDate>Mon, 01 Nov 2021 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance</guid>
                 
                 <category>Software Governance</category>
                 
