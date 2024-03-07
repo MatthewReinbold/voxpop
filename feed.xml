@@ -5,9 +5,49 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 06 Mar 2024 10:10:18 -0600</pubDate>
-        <lastBuildDate>Wed, 06 Mar 2024 10:10:18 -0600</lastBuildDate>
+        <pubDate>Thu, 07 Mar 2024 17:15:36 -0600</pubDate>
+        <lastBuildDate>Thu, 07 Mar 2024 17:15:36 -0600</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Olive Tree and the Fig Tree</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/tree.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Both Olive and Fig software collective were incorporated as distributed trees, chartered with authority to grow and prune project branches in autonomous fashion. However, they operated very differently. Olive had issued a newsworthy amount of tokens and was flush with operating capital. Fig remained bootstrapped, cautiously only adding people when need arose.&lt;/p&gt;
+
+&lt;p&gt;When a flurry of cascading economic shocks occurred, Olive found themselves overstaffed, misaligned, and no longer able to mint new coin. Branches broke over their own overhead and infighting ensued. But Fig, accustomed to operating under careful constraints, continued about its business.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;THE OLIVE-TREE ridiculed the Fig-Tree because, while she was green all the year round, the Fig-Tree changed its leaves with the seasons. A shower of snow fell upon them, and, finding the Olive full of foliage, it settled upon its branches and broke them down with its weight, at once despoiling it of its beauty and killing the tree. But finding the Fig-Tree denuded of leaves, the snow fell through to the ground, and did not injure it at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software as in life, appearances can be deceiving. What may seem like a weakness or disadvantage in one context may turn out to be an advantage in another. Good times can develop bad habits, becoming liabilitites during bad times.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 07 Mar 2024 00:00:00 -0600</pubDate>
+                <link>https://matthewreinbold.com/2024/03/07/TheOliveTreeAndTheFigTree</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/07/TheOliveTreeAndTheFigTree</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                <category>management</category>
+                
+                
+            </item>
         
             <item>
                 <title>The WOLF and the LaMDA</title>
@@ -55,6 +95,10 @@
                 <category>writing</category>
                 
                 <category>fables</category>
+                
+                <category>AI</category>
+                
+                <category>patents</category>
                 
                 
             </item>
@@ -133,6 +177,10 @@
                 <category>writing</category>
                 
                 <category>fables</category>
+                
+                <category>AI</category>
+                
+                <category>IOT</category>
                 
                 
             </item>
@@ -1111,58 +1159,6 @@ While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https:
                 <category>Software Change</category>
                 
                 <category>Software Management</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Why is there no &apos;Correct&apos; API Lifecycle?</title>
-                <description>&lt;p&gt;Recently, my colleagues in the Postman Open Technologies Program and I were discussing API lifecycles. It quickly became apparent that we each had our own mental models for what was (and *most certainly &lt;strong&gt;was not&lt;/strong&gt; *) worthy of inclusion.&lt;/p&gt;
-
-&lt;p&gt;A quick survey of search results hints that the industry has as many opinions about what constitutes an API lifecycle as we had:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://searchapparchitecture.techtarget.com/feature/5-stages-of-an-API-lifecycle-explained&quot;&gt;TechTarget has a five-step lifecycle&lt;/a&gt;: plan, dev, test, deploy, retire&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://apigee.com/about/cp/api-lifecycle-management&quot;&gt;Apigee promotes an 8-step version&lt;/a&gt;: design, develop, secure, publish, scale, monitor, analyze, monetize&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.axway.com/amplify-products/api-management/api-lifecycle-management&quot;&gt;Axway lists three steps&lt;/a&gt; (with many, many substeps): creation, control, consumption&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://swagger.io/blog/api-strategy/what-is-api-lifecycle-management/&quot;&gt;SmartBear mentions 5&lt;/a&gt;, but a &lt;em&gt;different&lt;/em&gt; five than TechTarget: planning and designing, developing, testing, deploying, retiring&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mulesoft.com/webinars/api/full-lifecycle-api-management-anypoint-platform&quot;&gt;Mulesoft mentions 4&lt;/a&gt;: design, implementation, security, management&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.redhat.com/blog/2019/02/25/full-api-lifecycle-management-a-primer&quot;&gt;Redhat features a confusing conjoined set of circles&lt;/a&gt;, and 13(!) kitchen-sink steps: strategy, design, mock, test, implement, deploy, secure, manage, discover, develop, consume, monitor, monetize&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The process that evolved during my time as Capital One’s Center of Excellence Director skewed heavily to the needs of a large, mature, and internal system. As a result, our API lifecycle:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Made no mention of monetization&lt;/li&gt;
-  &lt;li&gt;Emphasized discrete team ownership and end-of-life elements&lt;/li&gt;
-  &lt;li&gt;Hand-waved past development requires as code creation had its process, controls, and oversite group&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The process that resonated for us, eventually, was:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Discover&lt;/strong&gt;: Has someone already solved this problem?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Define&lt;/strong&gt;: Who will own the work at a team and LOB level, what access models will be in place, what SLAs need to be met, etc.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: Engage with stakeholders, make an OpenAPI representation, get feedback, iterate&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Develop&lt;/strong&gt;: Code the thing (subject to many, many other criteria outside the API group)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Deploy&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Deprecate&lt;/strong&gt;: Plan for ending or superseding with a subsequent version; includes communication plan, timeline expectations, etc.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Delete&lt;/strong&gt; Define what info sticks around for historical purposes while ensuring any executables, access tokens, and gateway routing is removed&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So why all the variation? Why isn’t there a “right” or “correct” API lifecycle?&lt;/p&gt;
-
-&lt;p&gt;I think the variation is largely because lifecycles are created within companies to generate particular outcomes. Nobody installs a lifecycle for the sake of having more to train and enforce. If sloppy design leads to losses in a competitive marketplace, a company should have an explicit “design” step in its lifecycle to drive better outcomes. If security has been a mish-mash, a dedicated “security” step should be elevated as part of a lifecycle process to prompt more focus on correcting that behavior.&lt;/p&gt;
-
-&lt;p&gt;A monitoring company is sure to list monitoring as part of its lifecycle. A company that sells documentation software will also elevate documentation to a high-level concern. It will depend on the vendor, but whatever their product excels at will probably be part of whatever lifecycle they promote.&lt;/p&gt;
-
-&lt;p&gt;With companies looking at instituting a lifecycle, I’d &lt;em&gt;first&lt;/em&gt; find the burning problem that would benefit from additional learning, creativity, and focus. That would be the first touchstone called out in the path between an idea’s inception and production runtime. I’d then continue to build up and out from there. Dropping an entire thirteen-step lifecycle where none previously existed isn’t just introducing a massive amount of disruption all at once - it also summons &lt;a href=&quot;https://matthewreinbold.com/2021/09/22/OvercomingChangeResistance&quot;&gt;a proportional amount of resistance&lt;/a&gt;.&lt;/p&gt;
-</description>
-                <pubDate>Tue, 02 Nov 2021 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2021/11/02/WhatIsTheAPILifecycle</guid>
-                
-                <category>Software Governance</category>
                 
                 
             </item>
