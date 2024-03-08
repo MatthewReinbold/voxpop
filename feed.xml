@@ -5,9 +5,45 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 07 Mar 2024 17:15:36 -0600</pubDate>
-        <lastBuildDate>Thu, 07 Mar 2024 17:15:36 -0600</lastBuildDate>
+        <pubDate>Fri, 08 Mar 2024 09:50:26 -0600</pubDate>
+        <lastBuildDate>Fri, 08 Mar 2024 09:50:26 -0600</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Code-Burner And The Fixer</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/burner.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A Code-Burner worked remotely from his countryside house. While abstractions took care of much of the lower-level boilerplate, someone was still required to “burn” disparate hints, rumors, and functional assertions to non-volatile, replayable storage. The turnaround requirements demanded someone capable of intense bursts of productivity - and being ethically OK with unclean code that sometimes resulted. This kept him busy and provided a good life, but he was lonely.&lt;/p&gt;
+
+&lt;p&gt;One day, his friend from school, The Fixer, stopped to visit. In the 22nd solarpunk future, the title of Fixer has become esteemed. These individuals were specially trained in exhuming old code from a century’s worth of detritus, circumventing the licensed parts, and rolling back unused features introduced later in life. When their work was done, the conservatorship released these pieces of abandonware back into the public domain.&lt;/p&gt;
+
+&lt;p&gt;Hoping to rekindle the companionship of their youth, The Code-burner invited The Fixer to come and live with him, offering to split the housekeeping chores.&lt;/p&gt;
+
+&lt;p&gt;The Fixer replied, “I’m flattered, but it is impossible as far as I’m concerned. Whenever I’d find you working, I would be overcome with anxiety that I was witnessing my next project to maintain.”&lt;/p&gt;
+</description>
+                <pubDate>Fri, 08 Mar 2024 00:00:00 -0600</pubDate>
+                <link>https://matthewreinbold.com/2024/03/08/TheCodeBurnerAndTheFixer</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/08/TheCodeBurnerAndTheFixer</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                <category>productivity</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Olive Tree and the Fig Tree</title>
@@ -1111,54 +1147,6 @@ Create a recurring task to do this on a regular basis. And make sure the feedbac
                 <guid isPermaLink="true">https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant</guid>
                 
                 <category>Software Governance</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Pandemic-Led Digital Transformation; You&apos;re Doing it Wrong</title>
-                <description>&lt;p&gt;The pandemic impacted businesses in many ways, some obvious (hello, work-from-home) and some so subtle that they may not even be apparent for several more years. One aspect pointed to in business and technology press is how the pandemic “sped up” digital transformation.&lt;/p&gt;
-
-&lt;p&gt;How true that statement is depends to large degree with how you define digital transformation. I was recently asked for my thoughts on the matter and I thought I’d also share them here.&lt;/p&gt;
-
-&lt;h2 id=&quot;was-the-pandemic-a-catalyst-for-digital-transformation-or-do-you-think-most-companies-missed-the-chance-to-drive-their-digital-transformation-initiatives-forward&quot;&gt;Was the pandemic a catalyst for digital transformation? Or do you think most companies missed the chance to drive their digital transformation initiatives forward?&lt;/h2&gt;
-
-&lt;p&gt;Change is hard, even under the best of conditions. We often see a change in moments of crisis (takeovers, bankruptcy, or public scandal) when the call-to-action is finally loud enough to overcome people’s comfort with the status quo.&lt;/p&gt;
-
-&lt;p&gt;The pandemic (and ensuing intertwined crises including supply chain disruption, political upheaval, and social unrest) provided plenty of impetus to change. However, companies need to assess whether what changed is simply doing the same thing as before, but over video and instant messaging? Or did they embrace the situation to introduce new norms, processes, and products to their business?&lt;/p&gt;
-
-&lt;p&gt;Doing the same thing as before, but more efficiently, is called &lt;em&gt;digitization&lt;/em&gt;. It &lt;strong&gt;was not&lt;/strong&gt; a digital transformation. At the beginning of the pandemic, I can’t fault leaders for this response; they did the best they could to maintain any semblance of “normal” even in the most adverse conditions-&lt;/p&gt;
-
-&lt;p&gt;-even if that meant attempting rituals that were a poor fit for this new reality. A cringe-worthy example was the rash of post-pandemic “virtual happy hours”. The attempts to connect came from a place of good-intentions: replicate the after-hours get together to foster a sense of team. People assumed they’d do the same thing as before but BYOB over Zoom with everyone working from home.&lt;/p&gt;
-
-&lt;p&gt;However, rather than being something to look forward to, these become loathsome, dreary affairs that only reminded people of how weird and isolated the pandemic made all of us. After a day filled with imperfect video meetings, the last thing most people wish for is more time at their makeshift desk, glued to the computer.&lt;/p&gt;
-
-&lt;p&gt;Digital transformation requires examining these things that used to work, identifying what was valuable, and imbuing those properties in forms better adapted for change.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-would-you-advise-companies-to-take-on-digital-transformation-in-2022&quot;&gt;How would you advise companies to take on digital transformation in 2022?&lt;/h2&gt;
-
-&lt;p&gt;Going into 2022, we have a better sense that there will not be an exact return to pre-pandemic “business-as-usual”. Leaders need to stop thinking about Band-Aids and temporary fixes while waiting to return to the way things were before. Instead, leaders need to take a hard look at which parts of their business fared better than others. Which areas were ill-suited to the rapid, consistent change? And how vital is fixing those areas before the next shock?&lt;/p&gt;
-
-&lt;p&gt;Digital business design is the holistic organizational configuration of people (roles, accountabilities, structures, and skills), processes (workflows, routines, procedures), &lt;strong&gt;and then&lt;/strong&gt; technology (infrastructure and applications). Someone somewhere is experimenting with providing employees with meaning, connection, and advancement in these necessary new ways. That person can either be at your company or employed by a disruptive rival.&lt;/p&gt;
-
-&lt;p&gt;Where are your experiments? How do you measure whether the new ways, made possible by digital technology, are better than the old ways? How are you discovering new, uninterruptible ways of delivering business value? If companies haven’t thought about or answered these questions, now is the time to start.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update, 2021-11-12&lt;/em&gt;
-While wargaming likely 2022 API scenerios, I came across &lt;a href=&quot;https://www.forrester.com/blogs/predictions-2022/&quot;&gt;this 2022 set of predictions from Forrester&lt;/a&gt; (emphasis mine):&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Business leaders are grappling with big employee-related questions right now. When (or if) to return to the office environment and how? We predict that only 10% of firms will shift to a fully remote model, and 30% will go back to a fully in-office model. The remaining 60% of firms will shift to a hybrid model, and one-third of those firms will fail in their first attempt at anywhere work. Why? &lt;em&gt;Because shifting to a hybrid model while still designing meetings, job roles, and promotion opportunities around face-to-face experiences will send productivity plummeting and lead execs to question the model instead of the processes they cling to.&lt;/em&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We have not only the opportunity, but the imagination to create new forms. A return to “business-as-normal” is a strategic mirage.&lt;/p&gt;
-</description>
-                <pubDate>Tue, 09 Nov 2021 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2021/11/09/DigitalTransformation-YoureDoingItWrong</guid>
-                
-                <category>Software Change</category>
-                
-                <category>Software Management</category>
                 
                 
             </item>
