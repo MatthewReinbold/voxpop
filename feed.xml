@@ -5,9 +5,51 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 11 Mar 2024 12:33:43 -0500</pubDate>
-        <lastBuildDate>Mon, 11 Mar 2024 12:33:43 -0500</lastBuildDate>
+        <pubDate>Tue, 12 Mar 2024 13:52:04 -0500</pubDate>
+        <lastBuildDate>Tue, 12 Mar 2024 13:52:04 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Fisherman Piping</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/fisherman.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the solarpunk 22nd century, software development was vastly abstracted from the rote assembly that had come before. Where once creating executable functions required carefully crafted trains of inscrutable squiggles, future developers “fished” for their solutions, hoping to hook functionality from a vast ocean of probability.&lt;/p&gt;
+
+&lt;p&gt;In this world, that a Fisherman, skilled in music, stood at the digital shoreline looking to seed a solution. He played several tunes hoping his latest melodies would attract the components needed onto his net.&lt;/p&gt;
+
+&lt;p&gt;Finally, after nearly completing his playlist but receiving nary a nibble, the Fisherman switched tacks. While more comfortable with musical composition than elocution, he gradually found the words necessary to bait his net to fullness.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A FISHERMAN skilled in music took his flute and his nets to the seashore. Standing on a projecting rock, he played several tunes in the hope that the fish, attracted by his melody, would of their own accord dance into his net, which he had placed below. At last, having long waited in vain, he laid aside his flute, and casting his net into the sea, made an excellent haul of fish. When he saw them leaping about in the net upon the rock he said: “O you most perverse creatures, when I piped you would not dance, but now that I have ceased you do so merrily.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software, as in life, practical solutions are often more effective than wishful thinking or overly complicated solutions. While creativity and innovation are valuable, they must be grounded in reality and practicality to be effective.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 12 Mar 2024 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2024/03/12/TheFishermanPiping</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/12/TheFishermanPiping</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                <category>ai</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Wolf and Crane &amp; Co. PLLC</title>
@@ -1099,69 +1141,6 @@ Create a recurring task to do this on a regular basis. And make sure the feedbac
                 <guid isPermaLink="true">https://matthewreinbold.com/2022/04/14/GoldenPath</guid>
                 
                 <category>Software Change</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>&quot;Just Tell Me What To Do&quot;</title>
-                <description>&lt;p&gt;&lt;a href=&quot;https://play.acast.com/s/ctrlaltdelete/falling-out-of-love-with-the-internet-disconnected-audiobook&quot;&gt;In a recent edition of the Ctrl Alt Delete podcast&lt;/a&gt;, host Emma Gannon described her discovery of &lt;a href=&quot;https://www.facebook.com/groups/290368045246716/&quot;&gt;a Facebook group that helps individuals make small decisions&lt;/a&gt;. “Can’t decide between two shirts?” it asks. “Can’t choose pizza or spaghetti for dinner? Let this group make small decisions for you.”&lt;/p&gt;
-
-&lt;p&gt;In “the before times”, I would have no use for a group like this. However, in the pandemic times, there are simply some evenings where this sort of “outsourcing of the banal” seems attractive.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://matthewreinbold.com/2021/11/22/StandardsAsAccelerant&quot;&gt;I wrote about decision fatigue before&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Decision fatigue, or when the mind becomes exhausted after a sustained period of decision making, often follows. Many became acutely aware of decision fatigue during the Covid-19 pandemic. Suddenly, even trivial activities like opening doors and touching elevator buttons were a puzzle. Not only had the number of decisions skyrocketed, but the heavier impact that those decisions carried (the possibility of illness or death) created outsized effects: stress, loss of energy, and lowered mental capacity.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The last several years have been stressful. When individuals weren’t navigating a pandemic, they were experiencing everything from political unrest to supply chain bottlenecks. &lt;a href=&quot;https://www.npr.org/sections/health-shots/2022/03/10/1085792118/americans-stress-is-spiking-over-inflation-war-in-ukraine-survey-finds&quot;&gt;And then there was a war&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Businesses dealing with API sprawl are also stressed. The unprecedented events have meant that software architects, already stretched thin, have experienced higher levels of decision fatigue.  “&lt;strong&gt;Just tell me what to do&lt;/strong&gt;” is a common request.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-software-strategic-impact&quot;&gt;The Software Strategic Impact&lt;/h2&gt;
-
-&lt;p&gt;It is understandable how individuals would desire to bypass the hurly-burly of defining first principles - those are yet more decisions! “If it is good enough for Stripe or Twilio”, the thinking goes, “it is good enough for us- we don’t have energy for that vision quest stuff; there’s too much to do!”.&lt;/p&gt;
-
-&lt;p&gt;However, my concern is what happens on &lt;em&gt;Day-2&lt;/em&gt; with this “made to order” approach to API standards. “&lt;strong&gt;Day-2&lt;/strong&gt;” is a DevOps term. It relates to the challenges that arise not from changes to a specific application but the more significant abstract processes and operations. For API standards, Day-2 problems relate to how a set of design standards, architectural guidance, or run-books get disseminated, adopted, and improved upon over time. It is one thing to gather key leaders together to announce expectations for a newly established API program. It is another thing entirely to continue to drive engagement and improvement among stakeholders in month 6. Without creating the crucible to form first principles, this greater identity and shared purpose aren’t formed.&lt;/p&gt;
-
-&lt;p&gt;Further, without discussion, adopting standards developed elsewhere may lead to bloated and ill-fitting style guides. Every standard a developer must follow introduces a grain of cognitive friction. Sometimes, the price paid is worth the production-environment benefit. However, every organization is different, with its own experience, style maturity, expertise, market, and desired end goals.&lt;/p&gt;
-
-&lt;p&gt;Each requirement in a standards doc should be able to answer:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What is the better API outcome created by this standard?&lt;/li&gt;
-  &lt;li&gt;What are we willing to sacrifice (stop doing) to make this standard possible?&lt;/li&gt;
-  &lt;li&gt;How will “better” manifest in our day-to-day activities, behaviors, and interactions?&lt;/li&gt;
-  &lt;li&gt;How will we know if the standard is working?&lt;/li&gt;
-  &lt;li&gt;Has anyone done this before?&lt;/li&gt;
-  &lt;li&gt;Are we inviting others to a better future or imposing a singular vision of a future onto others?&lt;/li&gt;
-  &lt;li&gt;What is the non-obvious implication of this standard?&lt;/li&gt;
-  &lt;li&gt;(Bonus) How will we automate the education and enforcement of this?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Without considering the above questions, adopting standards from a different context will (best case) result in unnecessary effort and (worst case) be ignored. The &lt;a href=&quot;https://catalyst.concentrix.com/&quot;&gt;consulting practice I work for&lt;/a&gt; does a great job of incorporating this nuance through careful, considered conversations. Together, we arrive at a healthier place for all involved.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-good-news&quot;&gt;The Good News&lt;/h2&gt;
-&lt;p&gt;John Cutler is a product management expert and frequent communicator. He also sees the stress among the change agents he works with. Through that work, &lt;a href=&quot;https://cutlefish.substack.com/p/tbm-46b52-7-lessons-for-sustainable&quot;&gt;he also shares some hope&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“In the last eight months, I have spent countless hours speaking with change agents. They reach out to me for product management advice, but these conversations inevitably seem to turn to the topic of how to nudge their organizations in new directions. During the pandemic these discussions have acquired a new sense of urgency.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Their anxiety is palpable.  They care for their teams but are overwhelmed by the challenges, and the opportunities, facing them.  To be sure, the pandemic has been catastrophic on every level, but many of the change agents I have spoken to are finally receiving the support they need and bringing about the impact they have long wanted to see. Their work is paying off, at the most inopportune time. There is movement in the right direction.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;During these unprecedented times, we must recognize the inherent opportunity in the status quo fracturing. Introducing change now does not have to contend with bursting people’s “normal” bubble. Nothing is normal! &lt;a href=&quot;https://en.wikipedia.org/wiki/Who_Moved_My_Cheese%3F&quot;&gt;The cheese has already been moved&lt;/a&gt;. Energy is available if someone dares to channel it. That is not to say that change, like defining a set of API standards for a sprawling and increasingly problematic ecosystem, is easy. &lt;em&gt;However&lt;/em&gt;, it does mean people are more likely to accept something new.&lt;/p&gt;
-</description>
-                <pubDate>Tue, 29 Mar 2022 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2022/03/29/JustTellMeWhatToDo</guid>
-                
-                <category>Software Change</category>
-                
-                <category>Software Governance</category>
                 
                 
             </item>
