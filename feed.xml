@@ -5,9 +5,55 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 12 Mar 2024 13:52:04 -0500</pubDate>
-        <lastBuildDate>Tue, 12 Mar 2024 13:52:04 -0500</lastBuildDate>
+        <pubDate>Wed, 13 Mar 2024 14:43:15 -0500</pubDate>
+        <lastBuildDate>Wed, 13 Mar 2024 14:43:15 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Farmer and the Stork</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/stork.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the vast, distributed social network of the 22nd century, a Farmer set about a trap for those he suspected of market manipulation. An agent surfaced with peculiar frequency: Stork, a being entwined in a complex web of digital interactions across the ecosystem.&lt;/p&gt;
+
+&lt;p&gt;Stork protested mightily about the unfairness of the situation when confronted.&lt;/p&gt;
+
+&lt;p&gt;“Certainly,” he said over chat, “there has been some mistake. My only crime was accepting every friend request and follow. I was only trying to build an impressive list of contacts. I didn’t realize, at the time, what some of these others might have been up to. Just look at my profile - I’m a good person!”&lt;/p&gt;
+
+&lt;p&gt;The Farmer laughed. “While what you say when caught says one thing, your connections imply something else. The shadows cast extend far beyond any one individual.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A FARMER placed nets on his newly-sown plowlands and caught a number of Cranes, which came to pick up his seed. With them he trapped a Stork that had fractured his leg in the net and was earnestly beseeching the Farmer to spare his life. “Pray save me, Master,” he said, “and let me go free this once. My broken limb should excite your pity. Besides, I am no Crane, I am a Stork, a bird of excellent character; and see how I love and slave for my father and mother. Look too, at my feathers—they are not the least like those of a Crane.” The Farmer laughed aloud and said, “It may be all as you say, I only know this: I have taken you with these robbers, the Cranes, and you must die in their company.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software, as in life, you are judged by the company that you keep. The quality of one’s connections far outweighs the quantity. Indiscriminately lending your reputation to others can lead to unforeseen consequences.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 13 Mar 2024 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2024/03/13/TheFarmerAndTheStork</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/13/TheFarmerAndTheStork</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                <category>social media</category>
+                
+                <category>networking</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Fisherman Piping</title>
@@ -1108,39 +1154,6 @@ Create a recurring task to do this on a regular basis. And make sure the feedbac
                 <category>Software Change</category>
                 
                 <category>Presentations</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Software Pipelines As Behavioral Prompts</title>
-                <description>&lt;p&gt;I have &lt;a href=&quot;https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw&quot;&gt;previously discussed how important the environment is in creating meaningful behavioral change&lt;/a&gt;. I’ve &lt;a href=&quot;https://matthewreinbold.com/2021/07/16/GithubCopilot&quot;&gt;also suggested that the developer’s IDE (or Integrated Development Environment) was an influential source of positive behavioral prompting&lt;/a&gt;. If we move beyond just the single IDE, the software development pipeline could &lt;em&gt;also&lt;/em&gt; be an environment capable of prompting desirable outcomes. This process is known as &lt;strong&gt;The Golden Path&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Charity Majors is the co-founder and CTO of Honeycomb, makers of code observability software. &lt;a href=&quot;https://charity.wtf/tag/scaling/&quot;&gt;She describes the Golden Path like so&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Tell all your engineers that going forward, the Golden Path will be fully supported by the org.  Upgrades, patches, security fixes; backups, monitoring, build pipeline; deploy tooling, artifact versioning, development environment, even tier 1 on call support.  Pave the path with gold.  Nobody HAS to use these components … but if they don’t, they’re on their own.  They will have to support it themselves.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For all but the smallest of dev shops, there are advantages to having centralized processes and infrastructure. “Approved” tech stacks are standard to ensure proper staffing and triage is possible. A single log standard can save copious amounts of time and effort when in the thick of an outage.&lt;/p&gt;
-
-&lt;p&gt;Traditionally, governance - either in the form of an Architectural Review Board, Center of Excellence, or some other bureaucratic entity - dictates the software development behaviors they expect others to follow. An example might be “We are a Spring Boot and Node shop” or “Every new service must implement Open Tracing”. The bulk of energy is then expended on detection and enforcement, which - honestly - is probably not how anybody dreamed they’d be spending their productive waking hours. (The lack of of career development path for this work is a topic for another post; all too many enterprises end up parking their most passionate system thinkers into these professional cul-de-sacs.)&lt;/p&gt;
-
-&lt;p&gt;Instead, employing a Golden Path strategy directs that energy to create a superior developer experience. Sure, each team that needs to make an API &lt;em&gt;could&lt;/em&gt; select, configure, and operate their own API gateway. They &lt;em&gt;could&lt;/em&gt; roll their own authentication and key provisioning server. They &lt;em&gt;could&lt;/em&gt; customize their own CI/CD pipeline. But if there is a platform team providing a well-supported, consistently performant,  and feature-compatible equivalent, why would they? And some point, the novelty of tinkering with configuration files wears off, and a realization sets in: dithering with non-differentiating technology is not the same as delivering business value.&lt;/p&gt;
-
-&lt;p&gt;Creating a Golden Path is work. However, suppose you can create an environment where doing the right thing is the easy thing. In that case, you are significantly further along than relying on best faith efforts and goosing external incentives.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/golden-path.png#wide&quot; alt=&quot;A trail through fall trees in northern Colorado. &quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update 2022-05-05&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Along these same lines is Yunong Xiao’s 2017 presentation entitled, “&lt;a href=&quot;https://www.infoq.com/news/2017/06/paved-paas-netflix/&quot;&gt;The Paved PaaS to Microservices at Netflix&lt;/a&gt;”. “Paved Path” is the same concept as “Golden Path”.&lt;/p&gt;
-</description>
-                <pubDate>Thu, 14 Apr 2022 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2022/04/14/GoldenPath</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2022/04/14/GoldenPath</guid>
-                
-                <category>Software Change</category>
                 
                 
             </item>
