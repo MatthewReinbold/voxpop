@@ -5,9 +5,51 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 Mar 2024 14:43:15 -0500</pubDate>
-        <lastBuildDate>Wed, 13 Mar 2024 14:43:15 -0500</lastBuildDate>
+        <pubDate>Thu, 14 Mar 2024 12:11:48 -0500</pubDate>
+        <lastBuildDate>Thu, 14 Mar 2024 12:11:48 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Bear and the Fox</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/bear.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As the evening shade grew long, the Code-Burners, Fishermen, and any migrant Fixers passing through would gather in the commons. While each had a professional interest in being there, more often than not, the evening would slip into night with rollicking tall tales and screening of the latest whopper.&lt;/p&gt;
+
+&lt;p&gt;At one of these forums, a Bear began to boast of their skills. “Out of everyone here, I am the most user-friendly,” they proclaimed. “While you’re still sorting out what ends up in your error messages and stressing your operators out, I just suppress them!”&lt;/p&gt;
+
+&lt;p&gt;A Fox overheard Bear’s declarations and paused their gesture control. “Really, Bear? Maybe instead of hiding messages when things go wrong, how much more helpful would it be if you focused on preventing errors from happening in the first place?”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A BEAR boasted very much of his philanthropy, saying that of all animals he was the most tender in his regard for man, for he had such respect for him that he would not even touch his dead body. A Fox hearing these words said with a smile to the Bear, “Oh! that you would eat the dead and not the living.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software, as in life, professing virtues or positive qualities means little if one’s actions do not support the claims. We need to be alert against superficial or false displays of respect. Instead, we should look at the practical outcomes of someone’s behavior. In short, we should value deeds over words.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 14 Mar 2024 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2024/03/14/TheBearAndTheFox</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/14/TheBearAndTheFox</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                <category>development</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Farmer and the Stork</title>
@@ -767,391 +809,6 @@ Some of you might have heard this story. Soon after Samsung’s semiconductor di
                 <category>AI</category>
                 
                 <category>API Design</category>
-                
-                <category>Presentations</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Seven Skills to Save Software</title>
-                <description>&lt;p&gt;This June, I had the good fortune to present my recent work to several different venues. As I progress in my career, I’m increasingly more interested in &lt;em&gt;how&lt;/em&gt; change happens than the bits and bobs of the change itself. In other words, I started out with a career in technology and have ended up caring a lot more about the people involved.&lt;/p&gt;
-
-&lt;p&gt;Here is my most recent work, ‘Seven Skills to Change Complex Systems (And Save Your Software)’. A recording of the &lt;em&gt;Deliberate Complexity&lt;/em&gt; delivery is embedded at the bottom.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide1.PNG&quot; /&gt;&lt;figcaption&gt;Title Slide&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;My name is Matthew Reinbold. I am happy to be here. I am also  grateful for the technology that allows us to have these kinds of conversations, regardless of whatever is happening in the world. Today, I will be talking about the seven skills to change complex systems and, subsequently, save your software.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide2.PNG&quot; /&gt;&lt;figcaption&gt;To Identify The Barrier to Change, We Need to Rethink Relationships&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Before we get to the skills, we need to  illustrate the relationships in modern software development. We need to talk about what happens with a change in a complex system and why it seems so hard to facilitate large-scale improvement programs within the software.&lt;/p&gt;
-
-&lt;p&gt;What kind of change am I referring to? When I say improvement program, I refer to a variety of things. This could be:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Becoming more customer-responsive&lt;/li&gt;
-  &lt;li&gt;Improving the agile processes&lt;/li&gt;
-  &lt;li&gt;Increasing your security posture&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Whatever that thing is within your company, chances are you found it was like moving through molasses. Change in a complex system is not just difficult, but new wrinkles seem to constantly emerge, threatening to undo whatever progress has been made.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide3.PNG&quot; /&gt;&lt;figcaption&gt;Once Upon a Time, Software Was Simple&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s start with a gross oversimplification of the way things used to be.&lt;/p&gt;
-
-&lt;p&gt;Once upon a time, the software a company was responsible for could be modeled as a single unit. This is not a perfect metaphor, but it is useful. In this case, we’ll say that there was a single team working on a single code base, and everybody was working toward the same release date. Everyone celebrated when the “gold master” was published. When it was time to update things, getting everyone moving in the same direction was simple, since there were “of a piece”.&lt;/p&gt;
-
-&lt;p&gt;Since then, I’ve had a firsthand seat to how software creation and distribution have changed. As a Digital Engagement Lead with the Concentrix Catalyst group, I help large enterprises accelerate their API-led digital transformations. I also write about sociotechnical issues on my website, MatthewReinbold.com. Previously, I helped multiple Fortune 500 companies establish software improvement efforts, covering tens-of-thousands of developers across numerous geographical locations and different Lines-of-Business. As a writer for Net API Notes, my email newsletter, I’ve chronicled the changing nature of service interaction for more than seven years.&lt;/p&gt;
-
-&lt;p&gt;Having the ability to peek behind the curtain, I know this model on the screen is not how companies’ internal operations look today.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide4.PNG&quot; /&gt;&lt;figcaption&gt;Software Composition Has Changed&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Where once we might have had a singular monolith - both in concept, team resourcing, deployment, language, framework, and objective - our software capabilities resemble something more akin to abstract art.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/jackkleeman/status/1190354757308862468&quot;&gt;This network traffic map is from a UK company called Monzo&lt;/a&gt;. This was in 2019, so it’s probably more sophisticated now. This graph represents the network traffic between their 1500 different microservices. Rather than having a single monolith, they have 1500 tiny individual pieces that make up the capability that they ultimately deliver to their customers.&lt;/p&gt;
-
-&lt;p&gt;And Monzo is not alone. These ominous charts are called “microservice death stars,” and similar charts exist for Netflix, Amazon, Twitter, and probably – to some degree – the company where you work.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide5.PNG&quot; /&gt;&lt;figcaption&gt;Today, Software Is Composed of Systems&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Perhaps, you’re not attempting to manage 1500 microservices. But the odds are that the software capability or experience you’re trying to deliver comprises multiple pieces, and for a good reason.&lt;/p&gt;
-
-&lt;p&gt;As software has been challenged to more significant problems, it has become increasingly difficult for any person, or even one team, to comprehend the entire software scope. As a result, we (software practitioners) have increasingly sought reductive techniques for turning a large problem into smaller chunks:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Agile is a reduction in the size of the work unit to be delivered&lt;/li&gt;
-  &lt;li&gt;CI/CD is about reducing the time it takes to deliver through automation&lt;/li&gt;
-  &lt;li&gt;Even the concept of two-pizza teams is about reducing the scope of ownership to something that isn’t swamped by coordination overhead&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This has been a boon for the individual units and, subsequently, is why the modern enterprise is no longer a single “blob” of software, but a complex, interconnected distributed system.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide6.PNG&quot; /&gt;&lt;figcaption&gt;Reductionism Can Lead To Incoherence&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;This reductionism has been the primary mechanism that we’ve attempted to scale the systems. However, that has led to an interesting side effect: each one of these subsystems potentially becomes uncoordinated from the larger whole. The lack of visibility into other parts of the system, schedule crunch, and comprehension overload cause developers to make decisions optimized for a local scope and often suboptimal for the overall system.&lt;/p&gt;
-
-&lt;p&gt;Each may work toward its local optimized maximum. Examples may include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Upgrading to a new dependency version&lt;/li&gt;
-  &lt;li&gt;Responding to an audit request&lt;/li&gt;
-  &lt;li&gt;Adding a feature in response to a customer&lt;/li&gt;
-  &lt;li&gt;Cleansing data for ML initiative&lt;/li&gt;
-  &lt;li&gt;Working on performance improvements&lt;/li&gt;
-  &lt;li&gt;Rewriting in the latest framework mentioned on HackerNews because “it looks cool”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We optimize subsystems to the detriment of the entire system all the time. And that becomes its own form of “conceptual debt” for the whole.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide7.PNG&quot; /&gt;&lt;figcaption&gt;The Incoherence Penalty Stifles Change&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Autonomy, on its own, is insufficient to address the incoherence penalty. For companies to benefit from better, faster decision-making on the part of their autonomous teams – to meet the volume and velocity of critical decisions to be made during a time of change - those decisions need to be aligned.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The hardest part of modern software development has less to do with the technology itself, it has much more to do with maintaining coherence across the parts.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Michael Nygard is an author and frequent speaker on software development. &lt;a href=&quot;https://www.michaelnygard.com/blog/2018/01/coherence-penalty-for-humans/&quot;&gt;In a powerful blog post, he defined the “Incoherence Penalty” as&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Whatever time the team members spend re-establishing a common view of the universe.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As Michael points out, the penalty might be small for a half-dozen people in a single shared workspace or across a half-dozen components. A whiteboard session every week or so is enough to keep everyone aligned.&lt;/p&gt;
-
-&lt;p&gt;However, the effort necessary to maintain alignment grows as we scale and as the system becomes more complex.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(For another perspective on this scale challenge, and why it is so difficult to teach at the university level, &lt;a href=&quot;https://surfingcomplexity.blog/2022/04/23/software-engineering-in-the-large-the-coordination-challenge/&quot;&gt;see this great blog post from Lorin Hochstein&lt;/a&gt;.)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide8.PNG&quot; /&gt;&lt;figcaption&gt;We Often Model the Architectural Relationships&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;In a complex system, the power is in the relationships between the pieces, the places where these things interact. With dynamic systems, these are the API interfaces. When we diagram these things, it is almost always in terms of technology. We go in hoping to identify a new architecture or tool that will provide the silver bullet to the incoherence problem.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide9.PNG&quot; /&gt;&lt;figcaption&gt;However, We Often Leave Human Systems Vague or Undefined&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;However, what is missing from these diagrams are the interactions between humans. In creating change, we shouldn’t ignore a significant source of the relationships in an organization.&lt;/p&gt;
-
-&lt;p&gt;So, if we’re going to save software, if we’re going to create change in modern development environments, we need to be able to create coherence. And to create coherence, that means applying skills to the human relationships equally, if not more, than the energy we expend on the software integrations.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide10.PNG&quot; /&gt;&lt;figcaption&gt;This Is Unfortunate, As Tech Doesn&apos;t Create Alignment; People Do&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technology does not create alignment - people do.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Autonomy and alignment are not opposing ends of a spectrum but complimentary. The more alignment you have, the more autonomy can be supported, assured that the decisions made will move the organization in the same direction, not pull it apart.&lt;/p&gt;
-
-&lt;p&gt;If you’re going to be successful, here are, rapid-fire, seven skills essential to addressing the human system.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide11.PNG&quot; /&gt;&lt;figcaption&gt;There Are Seven Skills For Extending Influence Over a Complex System&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Talking about each of these, comprehensively, could be an entire talk on its own. What I will attempt to do is introduce the concept in the time we have left, reference some powerful places to get started for further exploration, and we’ll go from there.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide12.PNG&quot; /&gt;&lt;figcaption&gt;Crafting a Compelling Vision&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Having an idea for how something could be better is not the same as having a compelling vision. If all success needed was a good idea, then my domain name registrations would have made me rich long ago. It takes work to go from an idea of what to do to a vision that rallies other to the cause.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@pavement_special&quot;&gt;Riccardo Annandale&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/7e2pe9wjL9M&quot;&gt;Unsplash &lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide13.PNG&quot; /&gt;&lt;figcaption&gt;Start at the End: What Are You Celebrating?&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;In his book, Agendashift, author and Agile coach Mike Burrows lays out a formal process for creating a compelling vision.&lt;/p&gt;
-
-&lt;p&gt;He starts with the concept of this celebration. So perhaps in my organization, I might say, “&lt;em&gt;I wish we had every API on the same gateway, rather than everyone punching holes through the firewall with their own redundant infrastructure&lt;/em&gt;”. Going through this exercise, called the celebration, we need to reframe that because, in my head, I’ve already picked a solution. I’ve already said, “&lt;em&gt;I want this external vendor and I want everybody to be on it&lt;/em&gt;”. But that’s not an outcome. In terms of the business value to be delivered, it’s already assuming a solution.&lt;/p&gt;
-
-&lt;p&gt;By following this exercise, called the celebration, we proceed to answer the “5 questions that start with ‘W’” – who, what, when, where, and why. When I’m doing is I’m unpacking, this preconceived notion of everybody on a single vendor.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide14.PNG&quot; /&gt;&lt;figcaption&gt;Recast Obstacles As Outcomes, Not Absences&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Mike also defines this other exercise called the 15-minute FOTO, which is also incredibly adept at reframing, but this time reframing obstacles to outcomes. What obstacles keep us from getting to this wonderful celebration? Well, this obstacle that I’m writing down, more likely than not, is in the form of an absence. So, for example, I might say one of our organizational problems is that we don’t have meaningful postmortems. That’s an absence of something. And again, that absence assumes a solution; it assumes that postmortems should be done, but it doesn’t necessarily define the outcomes we’re trying to create.&lt;/p&gt;
-
-&lt;p&gt;Recasting obstacles in this way can have two significant benefits:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;It encourages you to be specific (perhaps the request for postmoterms has nothing to do with learning, but rather an individual wishing closure, a milestone, after a significant effort)&lt;/li&gt;
-  &lt;li&gt;Avoids describing the problem only in terms of the absence of some prematurely defined solution (there may be other prompts or activities to re-incorporate learnings other than a postmortem event)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Also, maybe the reason that somebody is suggesting postmortems is not that they want to incorporate learnings. Perhaps they wish they had a more definitive milestone. When a project is done, maybe there’s a backlog that seems endless. A postmortems would act, in this case, as a milestone, as a means of recognizing achievement.&lt;/p&gt;
-
-&lt;p&gt;So, in reframing things you go beyond obstacles to discover what people value. That true value is at the heart of a compelling vision.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide15.PNG&quot; /&gt;&lt;figcaption&gt;A Vision Comprises More Than Just An Idea&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Once you have what you’re trying to accomplish in terms of outcomes, you can go ahead and create your compelling vision. Your vision should include:&lt;/p&gt;
-
-&lt;h3 id=&quot;a-clear-articulation-of-the-current-state&quot;&gt;A Clear Articulation of the Current State&lt;/h3&gt;
-&lt;p&gt;A transition story will highlight how the past way of doing things is unsustainable and how it has led to the current crisis; a crisis which requires new ideas (your ideas!) to overcome. The articulation must explain why the change should happen now. As I work with companies, we spend a lot of time here. Sometimes the source of urgency is obvious: things like a pending bankruptcy or a public security breach are in the driver’s seat. But, often, your idea must confront a suboptimal, yet functional, status quo. The key is creating a sense of urgency, not panic, about why the change must happen now.&lt;/p&gt;
-
-&lt;h3 id=&quot;an-attractive-future&quot;&gt;An Attractive Future&lt;/h3&gt;
-&lt;p&gt;A story must emphasize that the future is not a fixed, predetermined point but something that can be changed. We can’t predict the future, but we can try to invent one with more desirable outcomes. If instituting a change is worth doing, we must have a coherent story about the new possibilities.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-new-identity-for-participants&quot;&gt;A New Identity for Participants&lt;/h3&gt;
-&lt;p&gt;System change requires working in new configurations, often with new (to you) people. Stepping beyond the comfort zone of our friends and colleagues means engaging with strangers and opponents who may not have a shared understanding. A story should enable people to recognize their shared interdependence in the system, thus creating a shared identity. It must show how the sub-optimal future cannot be solved by individual stakeholders alone and how a new network with new relationships can.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-path-connecting-it-together&quot;&gt;A Path Connecting It Together&lt;/h3&gt;
-&lt;p&gt;Above all, a story must point people toward needed change. Part of this includes articulating what progress along the path looks and feels like.
-A vital aspect of a story is how it links current actions to the desired future destination. Connecting these things increases the understanding of our responsibility and agency within a system.&lt;/p&gt;
-
-&lt;p&gt;To illustrate, &lt;a href=&quot;https://matthewreinbold.com/2021/09/10/CreatingCompellingStories&quot;&gt;I’ve written an example arguing for remote work elsewhere&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide16.PNG&quot; /&gt;&lt;figcaption&gt;Coalition Building&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Major change is challenging to accomplish. No one individual, no matter how charismatic, can develop the perfect vision, communicate it to everyone, eliminate all obstacles, perform all the experiments, and tally all the short-term wins. What is needed is a coalition able to shoulder the load and recruit new help as the effort grows.&lt;/p&gt;
-
-&lt;p&gt;Perhaps one of the most critical aspects of coalition building is that &lt;strong&gt;you’re attempting inclusion, not assimilation&lt;/strong&gt;. A coalition should elevate the participating members’ unique skills, experiences, and desires. A sense of belonging is essential to sustaining a movement through difficult times. This means that members should still feel uniquely valued. They’re going to be bringing their ideas, assumptions, experiences, and preferences. A sign of a healthy coalition is if the vision is evolving, changing, and adapting because of the participation of new individuals.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jasongoodman_youxventures&quot;&gt;Jason Goodman&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/6awfTPLGaCE&quot;&gt;Unsplash&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide17.PNG&quot; /&gt;&lt;figcaption&gt;Create Onramps For All Interests And Abilities&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Here are just a handful of activities for involving people in your coalition-building. Your call to action can be much more diverse than “please read this blog post” or “attend our office hours”. Those, in a vacuum, are not that compelling. People have a variety of different availabilities, talents, and inclinations. In building your coalition, create inclusion points or on-ramps that can accommodate that variety.&lt;/p&gt;
-
-&lt;p&gt;The book &lt;em&gt;More Fearless Change&lt;/em&gt; is not like a regular book; you don’t read it from beginning to end. Instead, like a cookbook, it includes numerous recipes for things to try. They start from very simple like “attend this lunch-n-learn” and escalate to holding an internal developer conference.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide18.PNG&quot; /&gt;&lt;figcaption&gt;Move From Mobilizing To Organizing&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;You may not be able to launch an internal developer conference at the beginning of your change effort. But the critical thing is accommodating and allowing for people to engage with your effort as they are able. And once you start doing that, you need to start thinking about moving people from mobilizing to organizing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Transactional mobilizing&lt;/strong&gt; is a relatively straightforward concept– people offer to help, and you give them a task to do. This is the kind of low-effort “Retweet if you agree” campaigning on social media. While that may be easy to do, the actual, long-lasting impact is low.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Transformational organizing&lt;/strong&gt; is about:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Identifying, recruiting, and developing other people with whom we share purpose to form a collective identity for the change distinct from their previous role&lt;/li&gt;
-  &lt;li&gt;Growing a group of people that recognize and express responsibility to each other (if they had to pay dues, would they still belong)&lt;/li&gt;
-  &lt;li&gt;Transforming the resources of that group into the power needed to make and sustain change&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Many folks are happy to help if it doesn’t cost them time, energy, budget, or resources. A significant task of coalition building is moving people who are already concerned about the issue to those willing to do something, even at a cost to themselves. Organizing deepens participants’ understanding of who they are and why they want to make the change. In doing so, they then identify others who share their values and recruit to continue building change momentum.&lt;/p&gt;
-
-&lt;p&gt;For more, &lt;a href=&quot;https://www.youtube.com/watch?v=j4_nFUX6Z2Q&quot;&gt;check out this video from Hahrie Han on the difference between Mobilizing and Organizing&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide19.PNG&quot; /&gt;&lt;figcaption&gt;Communicating&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;So obviously, that includes a lot of communication. When I say communication, I don’t mean standing on the top of your building with a bullhorn and yelling your awesome idea at people. When it comes to change, people don’t need a good talking to – to make a change, they need a good listening to.&lt;/p&gt;
-
-&lt;p&gt;Everyone wants to be more successful, efficient, and capable in their roles. However, as important is retaining their autonomy. Just ordering people to do something, even if it is in their best interest, rarely works. For example, I absolutely understand that I should eat healthier but still bristle whenever my wife brings it up. If communicating comes across as a command or a mandate, it will most likely create resistance.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@brookecagle&quot;&gt;Brooke Cagle&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/g1Kr4Ozfoac&quot;&gt;Unsplash&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide20.PNG&quot; /&gt;&lt;figcaption&gt;Evoke The Reasons For Change They Already Have&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Much of our daily conversation is a default activity: it just happens. By contrast, strategic conversations deliberately use limited time and attention with another person to achieve a specific goal. In our case, it is about furthering our change initiative.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Motivational interviewing&lt;/strong&gt; is a conversation technique designed to strengthen personal motivation and commitment to a specific goal. It does this by eliciting and exploring a person’s values and beliefs within an atmosphere of acceptance and compassion.&lt;/p&gt;
-
-&lt;p&gt;So rather than charging into a forum to say, “Hey everybody, listen to my idea,” motivational interviewing starts with asking open questions to find out more about the person:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Why did they join the company?&lt;/li&gt;
-  &lt;li&gt;What is it about the company that they enjoy?&lt;/li&gt;
-  &lt;li&gt;What are the recent accomplishments that they’re proud of?&lt;/li&gt;
-  &lt;li&gt;What do they find challenging?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Through that listening, you’ll get an understanding of the things that they value. You can then affirm the strengths of their beliefs system that align with the kind of change you’re trying to make.&lt;/p&gt;
-
-&lt;p&gt;Reflective listening underscores the individual is being listened to; not everything needs to be rephrased or repeated. Much of the exchange should be those things that support or bolster already existing attitudes or beliefs that align with the change.&lt;/p&gt;
-
-&lt;p&gt;Finally, summarize. Connect the dots between the things that they already believe and want to accomplish in their own careers with the things you are trying to make happen within the organization. Create that alignment.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://bakadesuyo.com/2022/05/get-people-to-change/&quot;&gt;A more detailed description of the usefulness of motivational interview is available&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For additional perspective on having strategic conversations with potentially resistant people, &lt;a href=&quot;https://hbr.org/2021/03/persuading-the-unpersuadable&quot;&gt;see the article “Persuading the Unpersuadable by Adam Grant&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide21.PNG&quot; /&gt;&lt;figcaption&gt;Bring Schwag And End With A Call To Action&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;And, during these conversations, bring schwag!&lt;/p&gt;
-
-&lt;p&gt;This is a picture of my laptop. And as you can see, I’ve been part of a few efforts. What is important to remember is that the more abstract the change effort, the more helpful it is to have a physical manifestation. It doesn’t have to be just stickers. Challenge coins, pins, posters, t-shirts, or polos are all valid. What you pick ultimately depends on the culture and what kind of currencies are exchanged. But bottom line, have something representing the mission that can extend and communicate change after you are gone.&lt;/p&gt;
-
-&lt;p&gt;In both the conversation, and with your swag, end with a call to action. If you study this image, you might notice that few of these images even have a link where people might go to find out more. Ultimately, you don’t want to miss an opportunity to connect people with one of your carefully crafted coalition on-ramps created in step 2. Invite people to the next step on their journey as part of your communication.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide22.PNG&quot; /&gt;&lt;figcaption&gt;Experimenting&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;To make change possible, we likely need to understand more about what is required – we need to adapt and adjust based on what we learn.&lt;/p&gt;
-
-&lt;p&gt;Too often, we think great change requires atomic, massive events that stand out like a fork in the road – at Amazon, they refer to these as “one-way doors”. And as you might imagine, trying to do that huge thing will generate a proportional amount of resistance. However, a powerful skill is shrinking the change being asked for, running several simultaneous experiments, and then leveraging the learnings to make the change more effective.&lt;/p&gt;
-
-&lt;p&gt;Because, during our vision creation in step 1, we’ve reframed our obstacles and we’re looking for outcomes. We know that there might be a host of things we might do to deliver and achieve that outcome. From the coalition we’re assembling in step 2, we might have people in a position to try different things and report back. This is where we engage them to run experiments.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jkoblitz&quot;&gt;Julia Koblitz&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/RlOAwXt2fEA&quot;&gt;Unsplash&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide23.PNG&quot; /&gt;&lt;figcaption&gt;Small Experiments Equate To Less Resistance&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;This experimentation skill is how we engage those groups, gather the results and continue to create a flywheel of exciting revelations that subsequently inform more experiments, getting us closer to our ideal state. Small experiments equal less resistance. We always need to understand and consider how we make an experiment safer.&lt;/p&gt;
-
-&lt;p&gt;If an experiment is too big to fail, it’s no longer an experiment. And that becomes very, very, very scary for your leadership team to rally behind.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@johnpcutler/why-experiment-1169339b2ddc&quot;&gt;More from John Cutler and the importance of experiments here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide24.PNG&quot; /&gt;&lt;figcaption&gt;Experiments Create Short Term Wins&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;What kind of things make a good experiment? Good experiments are :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Visible&lt;/li&gt;
-  &lt;li&gt;Unambiguous&lt;/li&gt;
-  &lt;li&gt;Clearly relate to the change effort&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://cutlefish.substack.com/p/tbm-953-some-mvp-and-experiment-tips&quot;&gt;For a host of additional considerations when running experiments, I again refer you to John Cutler&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide25.PNG&quot; /&gt;&lt;figcaption&gt;Celebrating&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Once our experiments begin generating results, we need to celebrate!&lt;/p&gt;
-
-&lt;p&gt;Of course, I’m not talking toga parties, or gender reveal events. When done strategically in a business context, celebration is a skill to help further influence a complex system to align behind the change you seek.&lt;/p&gt;
-
-&lt;p&gt;Most of us don’t have a plan for celebrating accomplishments. Moreover, the past 2-and-a-half-years of remote work and pandemic isolation has meant that regular notice and elevation of good work has been much more difficult. That is a problem because celebration is a significant opportunity to &lt;strong&gt;cement the lessons learned&lt;/strong&gt; and &lt;strong&gt;strengthen the relationships between people that make future achievement more plausible&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Change and growth are promoted through positive emotions more than through disciplined practice&lt;/strong&gt;. Celebrating small wins produced by our experimentation reinforces the learning experience.&lt;/p&gt;
-
-&lt;p&gt;*Photo by &lt;a href=&quot;https://unsplash.com/@priscilladupreez&quot;&gt;Priscilla Du Preez&lt;/a&gt; on Unsplash. *&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide26.PNG&quot; /&gt;&lt;figcaption&gt;Leverage Your Company&apos;s Internal Recognition Pyramid&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Just as the accomplishments we celebrate don’t have to be large, our celebrations don’t have to be grandiose; they just need to be meaningful.&lt;/p&gt;
-
-&lt;p&gt;Every company of decent size has an internal kudos or recognition program. There might be that yearly dinner with the CEO for the people nominated and selected for extraordinary effort. This formal type of program is at the top of the pyramid. And while those are nice, they only impact between 1% and 10% of the employees at any given company, and they do so infrequently.&lt;/p&gt;
-
-&lt;p&gt;Then there are the informal programs where you can give people kudos or send a gift card. That might be monthly or quarterly (if people remember). Perhaps that gets between a third and half of employees. A $50 gift card to Amazon is nice, but it still isn’t the kind of continuous reinforcement we need to see for change.&lt;/p&gt;
-
-&lt;p&gt;I’m interested in the sincere, daily detailed word of thanks to a person illustrating the desired behavior. When done correctly, these expressions of gratitude become their currency.&lt;/p&gt;
-
-&lt;p&gt;Everyday recognition is about expressing thanks to people and acknowledging others for doing fantastic work in distinctive ways. It should be weekly, if not daily, and can impact 80-100% of employees, if done correctly. While formal, “big” recognition activities may be appropriate for significant milestones, it is the regular, persistent reinforcement that can have 2 to 3 times greater impact.&lt;/p&gt;
-
-&lt;p&gt;In previous roles, I had calendar time blocked out once a week to express gratitude. In some cases, this might have been a note to people that had presented an above-average API description. Other times, it might have been someone that asked a great question during a group event. Sometimes, it might have been a team that had their big launch. Regardless of what it was,  I made sure that I spent some time reflecting the positive qualities they exhibited and connecting how their success was related to the change underway.&lt;/p&gt;
-
-&lt;p&gt;And, like most corporate kudos systems, their manager also saw these messages. Managers are busy. They’re usually grateful for any additional signals to help them triangulate where their team is and how they’re doing. What makes these nudges valuable is that they’re scarce– we take it for granted that people know how they’re doing. Taking the time to create something “official”, that persists as part of the employee’s work history, creates a currency that can be paid out during performance reviews and quarterly sync-ups.&lt;/p&gt;
-
-&lt;p&gt;If you’re interested in more on authentic recognition, &lt;a href=&quot;https://authenticrecognition.com/where-should-i-focus-my-time-on-improving-recognition-at-work/&quot;&gt;there’s more available elsewhere&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide27.PNG&quot; /&gt;&lt;figcaption&gt;There Are Several Ways To Frame Success&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;When starting, it may be challenging to find ways not to feel like a broken record, repeatedly telling people “good job”. The encouragement that is delivered needs to be authentic. Furthermore, some people respond differently to different types of feedback. Some like feedback about their own performance. Others react more strongly to a favorable comparison with their peers. Others prefer to hear good news despite disappointing performance.&lt;/p&gt;
-
-&lt;p&gt;This framework is from Dr. BJ Fogg’s book, Tiny Habits. It is not meant as a checklist, but as a handful of examples when framing encouragement.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide28.PNG&quot; /&gt;&lt;figcaption&gt;Empowering Others&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Critical momentum is lost whenever you let up before the job is done. Regression may follow.&lt;/p&gt;
-
-&lt;p&gt;In successful transformation, the guiding coalition uses the credibility afforded by the short-term wins to push forward faster, tackling even more or more extensive projects.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@heylagostechie&quot;&gt;Mars Sector-6&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/IgUR1iX0mqM&quot;&gt;Unsplash&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide29.PNG&quot; /&gt;&lt;figcaption&gt;Different People React To Change Differently&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s incumbent to realize that not everybody embraces change to the same degree. This illustration is of the innovation distribution curve.&lt;/p&gt;
-
-&lt;p&gt;The curve illustrates that within any population, you have the following distribution:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Innovators (2.5%): Will something for no other reason than it is new&lt;/li&gt;
-  &lt;li&gt;Early Adopters (13.5%): More discrete in their selections than innovators, adopters use status as early pioneers to maintain social credibility with their peer group while taking on less risk (cutting versus bleeding edge)&lt;/li&gt;
-  &lt;li&gt;Early Majority (34%): Willing to adopt innovations, but only after seeing what success with the innovation looks like among their peers&lt;/li&gt;
-  &lt;li&gt;Late Majority (34%): Are reluctant to adopt the innovation unless specifically told they have to, after which they require higher levels of support and encouragement&lt;/li&gt;
-  &lt;li&gt;Laggards (16%): Those who actively resist change and will actively work to thwart an innovation for no other reason than it is new&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide30.PNG&quot; /&gt;&lt;figcaption&gt;Different People Require Different Resources&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;The reason that I point this out is that different people will require other support. A mistake would be to treat all those necessary to change as a single, monolithic group. To best support them, it is vital to recognize where they are in their journey and meet them where they are.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide31.PNG&quot; /&gt;&lt;figcaption&gt;Terraforming the Culture&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;New practices, if they are to continue beyond the effort of the guiding coalition, need to grow deep roots. Without them, the existing cultural norms will reassert themselves when the transformation program or initiative stops working day and night. Shallow roots require constant watering. Without the attention, the practices dry up, wither, and die.&lt;/p&gt;
-
-&lt;p&gt;When the new practices made in a transformation effort are not compatible with the relevant cultures, they will always be subject to regression. Changes in a workgroup, a line of business, or even an entire company can come undone, even after years of effort, because the new approaches haven’t been anchored firmly in-group norms and values.&lt;/p&gt;
-
-&lt;p&gt;Subsequently, the final stage in changing complex systems is terraforming the culture to make change last.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photo by &lt;a href=&quot;https://unsplash.com/@danteov_seen&quot;&gt;Nikola Jovanovic&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/OBok3F8buKY&quot;&gt;Unsplash&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide32.PNG&quot; /&gt;&lt;figcaption&gt;Inverse Conway Maneuvers Are Hard In Practice&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, for the last step in influencing a complex system to align behind a change, I want to touch on culture briefly.&lt;/p&gt;
-
-&lt;p&gt;For those familiar with the API space, you’re probably familiar with the concept of Conway’s Law. You may also be familiar with the Reverse or Inverse Conway Maneuver. In the Inverse Conway Maneuver, the idea is that redesign your organizational structure to produce the kind of software that you want. It is a powerful idea, but having lived through my share of enterprise re-orgs, I can definitively say this is easier said than done.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://matthewreinbold.com/2017/12/07/ConwayAndAPIDesign&quot;&gt;I’ve written about the impacts of Conway’s Law on software design before&lt;/a&gt;. For coverage of the &lt;em&gt;nuance&lt;/em&gt; required for successful Inverse Conway Maneuvers, &lt;a href=&quot;https://tnetapinotes.substack.com/p/net-api-notes-for-2022-06-07-issue-199&quot;&gt;check out this recent edition of my newsletter, Net API Notes #199&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide33.PNG&quot; /&gt;&lt;figcaption&gt;Plant The Change In Operations, Processes, and Rewards&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;In order for a seed of an idea to grow, it must be firmly planted in the company’s culture. This means that it is part of the ongoing activities. That could mean:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;People with experience with the idea are explicitly sought as part of the hiring process&lt;/li&gt;
-  &lt;li&gt;The importance of the change is specially highlighted as part of employee onboarding&lt;/li&gt;
-  &lt;li&gt;Demonstration of the change is part of the reward performance structure&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There’s a reason that this is step 7. While some steps, like coalition building, communication, and experimentation should be done simultaneously, changing cultural norms should only be attempted when sufficient momentum is achieved.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide34.PNG&quot; /&gt;&lt;figcaption&gt;Next Steps&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;I’d like to end with a challenge.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;This second - think about something in your current work you wish (or needs) to be better. This shouldn’t be hard - nothing is perfect and we’re not trying to prioritize here - that can be done later. What’s the first thing that comes to mind?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Today - whether it is through Slack, Microsoft teams, an email, or your corporate HR feedback system, send a note of gratitude to someone that you’ve seen handle the problem well. “Hey Tim, I just wanted to let you know I was really impressed with how you keep the test suite current. That takes care and consideration I don’t always see. Thank you.” The goal here is not to solve all the things for all the time - the goal here is to begin a practice of reinforcing positive behaviors.
-Create a recurring task to do this on a regular basis. And make sure the feedback is genuine.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;This week - schedule a chat - over lunch, if you’re back in the office, or a casual “sync” with someone who might feel the same way. Explore what they might have tried and what the results were. And ask if they are aware of others to have further conversations with.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You probably won’t be able to enact the entirety of your change immediately. But you will have taken the important first steps of acknowledging the &lt;em&gt;human&lt;/em&gt; system at play. You started down the path of creating greater alignment and, in doing so, begun to bridge the fragmentation that exists.&lt;/p&gt;
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2022/06/Slide35.PNG&quot; /&gt;&lt;figcaption&gt;Better Bits - A Book To Expand On These Ideas&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;I had mentioned that there was so much more that could be said for each skill. I also strongly believe that successfully learning these skills is essential for us to navigate not just our complex software systems, but life itself. That’s why I’m writing a book called &lt;strong&gt;Better Bits&lt;/strong&gt;. If these topics are of interest to you, &lt;a href=&quot;betterbits.substack.com&quot;&gt;sign up for updates at betterbits.substack.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thank you for this opportunity.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A video recording of the &lt;a href=&quot;https://www.youtube.com/watch?v=fLr1l4nUIgQ&quot;&gt;Deliberate Complexity delivery of this talk is available online&lt;/a&gt;.&lt;/p&gt;
-</description>
-                <pubDate>Tue, 28 Jun 2022 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware</guid>
-                
-                <category>Software Change</category>
                 
                 <category>Presentations</category>
                 
