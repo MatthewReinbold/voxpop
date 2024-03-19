@@ -5,9 +5,49 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 18 Mar 2024 11:21:13 -0500</pubDate>
-        <lastBuildDate>Mon, 18 Mar 2024 11:21:13 -0500</lastBuildDate>
+        <pubDate>Tue, 19 Mar 2024 14:18:43 -0500</pubDate>
+        <lastBuildDate>Tue, 19 Mar 2024 14:18:43 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Boastful Traveler</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/traveler.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It was always an affair when a Fixer came to town. Not only were they skilled at finding and freeing the code the villagers presented them with, but they often brought news of other communities they had visited in their travels.&lt;/p&gt;
+
+&lt;p&gt;This particular Fixer boasted about their exploits, recounting many fantastic and clever feats he had performed across the archipelago. Among other things, he said that while in Rhodes, he had partnered with the great Leo himself, the reclusive elder that, long-ago, open-sourced the plastic-eating enzyme genome. However, this “next big thing” had to remain private until it was ready, which is why no one outside of Rhodes had seen it at the top of their feeds.&lt;/p&gt;
+
+&lt;p&gt;One of the bystanders interrupted him, saying: “Now, if this partnership were true, there would be no need for feeds, which can be gamed. Leo’s work is open and his signature known. He is transparent, and commits regularly. Suppose we’re interested in what happened in Rhodes. Show us the repo.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A MAN who had traveled in foreign lands boasted very much, on returning to his own country, of the many wonderful and heroic feats he had performed in the different places he had visited. Among other things, he said that when he was at Rhodes he had leaped to such a distance that no man of his day could leap anywhere near him as to that, there were in Rhodes many persons who saw him do it and whom he could call as witnesses. One of the bystanders interrupted him, saying: “Now, my good man, if this be all true there is no need of witnesses. Suppose this to be Rhodes, and leap for us.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software, as in life, the integrity of one’s work and character are paramount. In spaces where claims can be rewritten ad nauseam, transparency, accountability, and verifiable contributions take on outsized importance. Then, as now, actions speak louder than words.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 18 Mar 2024 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2024/03/18/TheBoastfulTraveler</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/18/TheBoastfulTraveler</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Lioness</title>
@@ -409,44 +449,6 @@
                 <category>AI</category>
                 
                 <category>patents</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Frog&apos;s Complaint About the Sunn</title>
-                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
-
-&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
-
-&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
-
-&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2024/03/frog.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;ONCE UPON A TIME, sometime around the time of the third negotiated universal basic income accord,  the Sunn coop open sourced the hardware for their latest bot. Like its predecessors, it exceled at performing repetitive, menial, or dangerous tasks - tasks that were increasingly difficult to find workers for.&lt;/p&gt;
-
-&lt;p&gt;Rallied under a crude cartoon frog avatar, the opposition to the bot clamored online. Disturbed by the outcry, Jupiter’s news algorithm inquired the cause of their complaint. “Sunn already automates growing our food, cleaning our homes, and recycling our waste - it makes full employment almost impossible!,” a frog said. “Who are we as a people if we no longer have to work?”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;ONCE UPON A TIME, when the Sun announced his intention to take a wife, the Frogs lifted up their voices in clamor to the sky. Jupiter, disturbed by the noise of their croaking, inquired the cause of their complaint. One of them said, “The Sun, now while he is single, parches up the marsh, and compels us to die miserably in our arid homes. What will our future condition if he should beget other suns?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In software as in life, we should not worry excessively or assume the worst about events that have not occurred or may never happen. Anxiety and fear can lead to unnecessary stress and prevent us from enjoying our lives or making sound decisions. It’s important to focus on the present and deal with problems as they arise rather than obsessing over “what if” scenarios that might never come to pass.&lt;/p&gt;
-</description>
-                <pubDate>Tue, 05 Mar 2024 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2024/03/05/TheFrogsComplaintAboutTheSun</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/05/TheFrogsComplaintAboutTheSun</guid>
-                
-                <category>Aesop2121</category>
-                
-                <category>scifi</category>
-                
-                <category>writing</category>
-                
-                <category>fables</category>
                 
                 
             </item>
