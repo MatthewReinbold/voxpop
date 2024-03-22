@@ -5,9 +5,51 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 20 Mar 2024 11:17:21 -0500</pubDate>
-        <lastBuildDate>Wed, 20 Mar 2024 11:17:21 -0500</lastBuildDate>
+        <pubDate>Fri, 22 Mar 2024 11:36:36 -0500</pubDate>
+        <lastBuildDate>Fri, 22 Mar 2024 11:36:36 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Salt Merchant and His Ass</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/merchant.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the 22nd century, there was a Code-Burner who became known for his unique and effective ways of “salting” data before permanently lasering it to ceramic for long-term preservation. While his methods were time-consuming, the Code-Burner was often overbooked, with a backlog sometimes spiking into the zettabytes.&lt;/p&gt;
+
+&lt;p&gt;During one of these busy periods, the Code-Burner took on a young, brash apprentice. It wasn’t long before the Code-Burner noticed the apprentice purposely implementing simpler and faster, albeit more error-prone,  methods to clear the backlog. Vulnerabilities in the areas the apprentice had overseen became apparent, exposing the Code-Burner’s reputation and clients to potential harm.&lt;/p&gt;
+
+&lt;p&gt;After showing the apprentice the errors of his ways, the Code-Burner destroyed the problematic ceramic disks, dropping and letting them shatter across the floor. The apprentice now had two messes to clean up: the time-consuming work of redoing the engraving &lt;em&gt;the right way&lt;/em&gt; and sweeping the entire workspace.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A PEDDLER drove his Ass to the seashore to buy salt. His road home lay across a stream into which his Ass, making a false step, fell by accident and rose up again with his load considerably lighter, as the water melted the sack. The Peddler retraced his steps and refilled his panniers with a larger quantity of salt than before. When he came again to the stream, the Ass fell down on purpose in the same spot, and, regaining his feet with the weight of his load much diminished, brayed triumphantly as if he had obtained what he desired. The Peddler saw through his trick and drove him for the third time to the coast, where he bought a cargo of sponges instead of salt. The Ass, again playing the fool, fell down on purpose when he reached the stream, but the sponges became swollen with water, greatly increasing his load. And thus his trick recoiled on him, for he now carried on his back a double burden.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software, as in life, trying to exploit a situation through shortcuts can backfire spectacularly, resulting in a much heavier burden in the end.&lt;/p&gt;
+
+&lt;p&gt;While cunning might offer short-term advantages, it can lead to unforeseen consequences that outweigh the initial gains. Adaptability and patience can lead to better long-term outcomes.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 21 Mar 2024 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2024/03/21/TheSaltMerchantAndHisAss</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/21/TheSaltMerchantAndHisAss</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Girl and the Filberts</title>
@@ -395,46 +437,6 @@
                 <category>fables</category>
                 
                 <category>productivity</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Olive Tree and the Fig Tree</title>
-                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
-
-&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
-
-&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
-
-&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2024/03/tree.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Both Olive and Fig software collective were incorporated as distributed trees, chartered with authority to grow and prune project branches in autonomous fashion. However, they operated very differently. Olive had issued a newsworthy amount of tokens and was flush with operating capital. Fig remained bootstrapped, cautiously only adding people when need arose.&lt;/p&gt;
-
-&lt;p&gt;When a flurry of cascading economic shocks occurred, Olive found themselves overstaffed, misaligned, and no longer able to mint new coin. Branches broke over their own overhead and infighting ensued. But Fig, accustomed to operating under careful constraints, continued about its business.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;THE OLIVE-TREE ridiculed the Fig-Tree because, while she was green all the year round, the Fig-Tree changed its leaves with the seasons. A shower of snow fell upon them, and, finding the Olive full of foliage, it settled upon its branches and broke them down with its weight, at once despoiling it of its beauty and killing the tree. But finding the Fig-Tree denuded of leaves, the snow fell through to the ground, and did not injure it at all.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In software as in life, appearances can be deceiving. What may seem like a weakness or disadvantage in one context may turn out to be an advantage in another. Good times can develop bad habits, becoming liabilitites during bad times.&lt;/p&gt;
-</description>
-                <pubDate>Thu, 07 Mar 2024 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2024/03/07/TheOliveTreeAndTheFigTree</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/07/TheOliveTreeAndTheFigTree</guid>
-                
-                <category>Aesop2121</category>
-                
-                <category>scifi</category>
-                
-                <category>writing</category>
-                
-                <category>fables</category>
-                
-                <category>management</category>
                 
                 
             </item>
