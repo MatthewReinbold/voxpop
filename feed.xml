@@ -3,11 +3,55 @@
     <channel>
         <title>Matthew Reinbold</title>
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
-        <link>https://matthewreinbold.com/</link>
-        <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 Mar 2024 14:25:05 -0500</pubDate>
-        <lastBuildDate>Tue, 26 Mar 2024 14:25:05 -0500</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 27 Mar 2024 10:24:59 -0500</pubDate>
+        <lastBuildDate>Wed, 27 Mar 2024 10:24:59 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Belly and Its Members</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/belly.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Within the arcology, numerous autonomous software agents whirred away invisibly, skip-hopping networks and operating under a strict energy and bandwidth diet. There were agents for temperature control, air quality, and lighting adjustments. They all logged dutifully to the Coordinating Command, nested deep within the building’s belly.&lt;/p&gt;
+
+&lt;p&gt;The agents, constantly under threat of exceeding their quotas, began to grumble among themselves. “Why should we expend our limited resources on logging back to Command when nothing ever changes? Wouldn’t that bandwidth better serve those doing the work?”&lt;/p&gt;
+
+&lt;p&gt;When one agent stopped reporting, nothing happened. Following its example, other agents stopped sending data to the Coordinating Command. “Look at all this overhead we can reclaim!” they said, assured in their rebellion.&lt;/p&gt;
+
+&lt;p&gt;The problems within the arcology were initially subtle: a temperature spike here and a surprising number of water pathogens there. Soon, however, the once delicately balanced environment began to oscillate dangerously between overcorrections, endangering the inhabitants.&lt;/p&gt;
+
+&lt;p&gt;Without Coordinating Command, they had become a collection of isolated members, not a stable system able to act in concert for the benefit of all. Too late, the agents realized they had been targeted for deletion and reinstallation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;THE MEMBERS of the Body rebelled against the Belly, and said, “Why should we be perpetually engaged in administering to your wants, while you do nothing but take your rest, and enjoy yourself in luxury and self-indulgence?” The Members carried out their resolve and refused their assistance to the Belly. The whole Body quickly became debilitated, and the hands, feet, mouth, and eyes, when too late, repented of their folly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Unity and cooperation within a community or system are vital in software, as in life. Each part has its role. Even if that role doesn’t seem active or visible, it’s vital for the overall functioning and well-being of the whole. Disregarding or undermining the importance of any role or member can detriment the entire system. Ultimately, it is essential to recognize and respect each other’s contributions, understanding that everyone plays a part in the overall success and health.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 27 Mar 2024 00:00:00 -0500</pubDate>
+                <link>http://localhost:4000/2024/03/27/TheBellyAndItsMembers</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/27/TheBellyAndItsMembers</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Broker and the Miller</title>
@@ -35,8 +79,8 @@
 &lt;p&gt;Software or life is filled with changes, and fortunes fluctuate. We must accept the transitions as they appear without overly romanticizing the past or lamenting what we’ve imagined we’ve lost. Rather than dwelling on the past, finding contentment and purpose in the present is better.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 26 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/26/TheBrokerAndTheMiller</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/26/TheBrokerAndTheMiller</guid>
+                <link>http://localhost:4000/2024/03/26/TheBrokerAndTheMiller</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/26/TheBrokerAndTheMiller</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -73,8 +117,8 @@
 &lt;p&gt;Words spoken from a position of power or safety might not hold the same weight when the situation changes.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 25 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/25/TheKidAndTheWolf</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/25/TheKidAndTheWolf</guid>
+                <link>http://localhost:4000/2024/03/25/TheKidAndTheWolf</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/25/TheKidAndTheWolf</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -117,8 +161,8 @@
 &lt;p&gt;In software, as in life, caution should be exercised when sacrificing one’s strength or essential qualities to appease others or achieve a short-term goal. The Lion, by giving up his teeth and claws, loses not only his physical capabilities but also his dignity and the respect he commanded. The stories underscore the importance of not compromising one’s power or fundamental characteristics, as doing so can lead to vulnerability and loss of respect or position.&lt;/p&gt;
 </description>
                 <pubDate>Fri, 22 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/22/TheLionInLove</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/22/TheLionInLove</guid>
+                <link>http://localhost:4000/2024/03/22/TheLionInLove</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/22/TheLionInLove</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -159,8 +203,8 @@
 &lt;p&gt;While cunning might offer short-term advantages, it can lead to unforeseen consequences that outweigh the initial gains. Adaptability and patience can lead to better long-term outcomes.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 21 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/21/TheSaltMerchantAndHisAss</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/21/TheSaltMerchantAndHisAss</guid>
+                <link>http://localhost:4000/2024/03/21/TheSaltMerchantAndHisAss</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/21/TheSaltMerchantAndHisAss</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -197,8 +241,8 @@
 &lt;p&gt;In software, as in life, an incremental approach often works best. Trying to accomplish something all at once, or taking more than one’s share, will cause unanticipated problems.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 20 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/20/TheGirlAndTheFilberts</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/20/TheGirlAndTheFilberts</guid>
+                <link>http://localhost:4000/2024/03/20/TheGirlAndTheFilberts</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/20/TheGirlAndTheFilberts</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -239,8 +283,8 @@
 &lt;p&gt;In software, as in life, the integrity of one’s work and character are paramount. In spaces where claims can be rewritten ad nauseam, transparency, accountability, and verifiable contributions take on outsized importance. Then, as now, actions speak louder than words.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 19 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/19/TheBoastfulTraveler</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/19/TheBoastfulTraveler</guid>
+                <link>http://localhost:4000/2024/03/19/TheBoastfulTraveler</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/19/TheBoastfulTraveler</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -279,8 +323,8 @@
 &lt;p&gt;One’s total contribution should be thought of as depth and impact; two things that may be beyond easy summation. The value is in the worth, not in the number.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 18 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/18/TheLioness</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/18/TheLioness</guid>
+                <link>http://localhost:4000/2024/03/18/TheLioness</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/18/TheLioness</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -329,8 +373,8 @@
 &lt;p&gt;In software, as in life, individuals can withstand challenges and adversities much better when they work together and support one another.  Embracing a diversity of opinions and experiences will mean there will be conflict. However, our energies are better served by discovering peaceful ways of compromise and resolution rather than division and escalation. There is strength in unity.&lt;/p&gt;
 </description>
                 <pubDate>Fri, 15 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/15/TheFatherAndHisSons</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/15/TheFatherAndHisSons</guid>
+                <link>http://localhost:4000/2024/03/15/TheFatherAndHisSons</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/15/TheFatherAndHisSons</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -373,8 +417,8 @@
 &lt;p&gt;In software, as in life, professing virtues or positive qualities means little if one’s actions do not support the claims. We need to be alert against superficial or false displays of respect. Instead, we should look at the practical outcomes of someone’s behavior. In short, we should value deeds over words.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 14 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/14/TheBearAndTheFox</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/14/TheBearAndTheFox</guid>
+                <link>http://localhost:4000/2024/03/14/TheBearAndTheFox</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/14/TheBearAndTheFox</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -385,52 +429,6 @@
                 <category>fables</category>
                 
                 <category>development</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Farmer and the Stork</title>
-                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
-
-&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
-
-&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
-
-&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2024/03/stork.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the vast, distributed social network of the 22nd century, a Farmer set about a trap for those he suspected of market manipulation. An agent surfaced with peculiar frequency: Stork, a being entwined in a complex web of digital interactions across the ecosystem.&lt;/p&gt;
-
-&lt;p&gt;Stork protested mightily about the unfairness of the situation when confronted.&lt;/p&gt;
-
-&lt;p&gt;“Certainly,” he said over chat, “there has been some mistake. My only crime was accepting every friend request and follow. I was only trying to build an impressive list of contacts. I didn’t realize, at the time, what some of these others might have been up to. Just look at my profile - I’m a good person!”&lt;/p&gt;
-
-&lt;p&gt;The Farmer laughed. “While what you say when caught says one thing, your connections imply something else. The shadows cast extend far beyond any one individual.”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A FARMER placed nets on his newly-sown plowlands and caught a number of Cranes, which came to pick up his seed. With them he trapped a Stork that had fractured his leg in the net and was earnestly beseeching the Farmer to spare his life. “Pray save me, Master,” he said, “and let me go free this once. My broken limb should excite your pity. Besides, I am no Crane, I am a Stork, a bird of excellent character; and see how I love and slave for my father and mother. Look too, at my feathers—they are not the least like those of a Crane.” The Farmer laughed aloud and said, “It may be all as you say, I only know this: I have taken you with these robbers, the Cranes, and you must die in their company.”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In software, as in life, you are judged by the company that you keep. The quality of one’s connections far outweighs the quantity. Indiscriminately lending your reputation to others can lead to unforeseen consequences.&lt;/p&gt;
-</description>
-                <pubDate>Wed, 13 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/13/TheFarmerAndTheStork</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/13/TheFarmerAndTheStork</guid>
-                
-                <category>Aesop2121</category>
-                
-                <category>scifi</category>
-                
-                <category>writing</category>
-                
-                <category>fables</category>
-                
-                <category>social media</category>
-                
-                <category>networking</category>
                 
                 
             </item>
