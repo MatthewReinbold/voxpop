@@ -3,11 +3,49 @@
     <channel>
         <title>Matthew Reinbold</title>
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
-        <link>http://localhost:4000/</link>
-        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 27 Mar 2024 10:24:59 -0500</pubDate>
-        <lastBuildDate>Wed, 27 Mar 2024 10:24:59 -0500</lastBuildDate>
+        <link>https://matthewreinbold.com/</link>
+        <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 28 Mar 2024 10:29:07 -0500</pubDate>
+        <lastBuildDate>Thu, 28 Mar 2024 10:29:07 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>The Dog and His Shadow</title>
+                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
+
+&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
+
+&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
+
+&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2024/03/dog.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While humans mostly avoided the markets, bots, like a Digital Options Getter (DOG), still populated what was left of the world’s exchanges. Instead of merely reacting to market externalities, these autonomous agents were able to proactively sniff out and act upon opportunities when they found them, with just enough governmentally mandated, random seed noise to avoid deadlock.&lt;/p&gt;
+
+&lt;p&gt;One day, a DOG was crossing an inflection point with an Option To Buy (OTB). In the statistical interim scrum, the DOG mistook the decaying probability afterimage as not just another DOG but one with an OTB value twice the size of its own, due to distortion. Programmatically ambitious, it immediately dropped claim to its option and leaped after the other, eager to win the larger prize. It thus lost both: that which it grasped at, for the OTB was an echo of what was real, and the one it had, lost now to another opportunistic pack hunting in the deal flow.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A DOG, crossing a bridge over a stream with a piece of flesh in his mouth, saw his own shadow in the water and took it for that of another Dog, with a piece of meat double his own in size. He immediately let go of his own, and fiercely attacked the other Dog to get his larger piece from him. He thus lost both: that which he grasped at in the water, because it was a shadow; and his own, because the stream swept it away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In software, as in life, we must not allow the lure of potential gains to blind us to the value of what we already possess - otherwise, the desire to obtain more can lead to losing everything one has.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 27 Mar 2024 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2024/03/27/TheDogAndHisShadow</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/27/TheDogAndHisShadow</guid>
+                
+                <category>Aesop2121</category>
+                
+                <category>scifi</category>
+                
+                <category>writing</category>
+                
+                <category>fables</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Belly and Its Members</title>
@@ -39,8 +77,8 @@
 &lt;p&gt;Unity and cooperation within a community or system are vital in software, as in life. Each part has its role. Even if that role doesn’t seem active or visible, it’s vital for the overall functioning and well-being of the whole. Disregarding or undermining the importance of any role or member can detriment the entire system. Ultimately, it is essential to recognize and respect each other’s contributions, understanding that everyone plays a part in the overall success and health.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 27 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/27/TheBellyAndItsMembers</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/27/TheBellyAndItsMembers</guid>
+                <link>https://matthewreinbold.com/2024/03/27/TheBellyAndItsMembers</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/27/TheBellyAndItsMembers</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -79,8 +117,8 @@
 &lt;p&gt;Software or life is filled with changes, and fortunes fluctuate. We must accept the transitions as they appear without overly romanticizing the past or lamenting what we’ve imagined we’ve lost. Rather than dwelling on the past, finding contentment and purpose in the present is better.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 26 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/26/TheBrokerAndTheMiller</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/26/TheBrokerAndTheMiller</guid>
+                <link>https://matthewreinbold.com/2024/03/26/TheBrokerAndTheMiller</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/26/TheBrokerAndTheMiller</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -117,8 +155,8 @@
 &lt;p&gt;Words spoken from a position of power or safety might not hold the same weight when the situation changes.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 25 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/25/TheKidAndTheWolf</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/25/TheKidAndTheWolf</guid>
+                <link>https://matthewreinbold.com/2024/03/25/TheKidAndTheWolf</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/25/TheKidAndTheWolf</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -161,8 +199,8 @@
 &lt;p&gt;In software, as in life, caution should be exercised when sacrificing one’s strength or essential qualities to appease others or achieve a short-term goal. The Lion, by giving up his teeth and claws, loses not only his physical capabilities but also his dignity and the respect he commanded. The stories underscore the importance of not compromising one’s power or fundamental characteristics, as doing so can lead to vulnerability and loss of respect or position.&lt;/p&gt;
 </description>
                 <pubDate>Fri, 22 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/22/TheLionInLove</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/22/TheLionInLove</guid>
+                <link>https://matthewreinbold.com/2024/03/22/TheLionInLove</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/22/TheLionInLove</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -203,8 +241,8 @@
 &lt;p&gt;While cunning might offer short-term advantages, it can lead to unforeseen consequences that outweigh the initial gains. Adaptability and patience can lead to better long-term outcomes.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 21 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/21/TheSaltMerchantAndHisAss</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/21/TheSaltMerchantAndHisAss</guid>
+                <link>https://matthewreinbold.com/2024/03/21/TheSaltMerchantAndHisAss</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/21/TheSaltMerchantAndHisAss</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -241,8 +279,8 @@
 &lt;p&gt;In software, as in life, an incremental approach often works best. Trying to accomplish something all at once, or taking more than one’s share, will cause unanticipated problems.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 20 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/20/TheGirlAndTheFilberts</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/20/TheGirlAndTheFilberts</guid>
+                <link>https://matthewreinbold.com/2024/03/20/TheGirlAndTheFilberts</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/20/TheGirlAndTheFilberts</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -283,8 +321,8 @@
 &lt;p&gt;In software, as in life, the integrity of one’s work and character are paramount. In spaces where claims can be rewritten ad nauseam, transparency, accountability, and verifiable contributions take on outsized importance. Then, as now, actions speak louder than words.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 19 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/19/TheBoastfulTraveler</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/19/TheBoastfulTraveler</guid>
+                <link>https://matthewreinbold.com/2024/03/19/TheBoastfulTraveler</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/19/TheBoastfulTraveler</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -323,8 +361,8 @@
 &lt;p&gt;One’s total contribution should be thought of as depth and impact; two things that may be beyond easy summation. The value is in the worth, not in the number.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 18 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/18/TheLioness</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/18/TheLioness</guid>
+                <link>https://matthewreinbold.com/2024/03/18/TheLioness</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/18/TheLioness</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -373,8 +411,8 @@
 &lt;p&gt;In software, as in life, individuals can withstand challenges and adversities much better when they work together and support one another.  Embracing a diversity of opinions and experiences will mean there will be conflict. However, our energies are better served by discovering peaceful ways of compromise and resolution rather than division and escalation. There is strength in unity.&lt;/p&gt;
 </description>
                 <pubDate>Fri, 15 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/15/TheFatherAndHisSons</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/15/TheFatherAndHisSons</guid>
+                <link>https://matthewreinbold.com/2024/03/15/TheFatherAndHisSons</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/15/TheFatherAndHisSons</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -387,48 +425,6 @@
                 <category>power</category>
                 
                 <category>energy</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Bear and the Fox</title>
-                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
-
-&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
-
-&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
-
-&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2024/03/bear.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As the evening shade grew long, the Code-Burners, Fishermen, and any migrant Fixers passing through would gather in the commons. While each had a professional interest in being there, more often than not, the evening would slip into night with rollicking tall tales and screening of the latest whopper.&lt;/p&gt;
-
-&lt;p&gt;At one of these forums, a Bear began to boast of their skills. “Out of everyone here, I am the most user-friendly,” they proclaimed. “While you’re still sorting out what ends up in your error messages and stressing your operators out, I just suppress them!”&lt;/p&gt;
-
-&lt;p&gt;A Fox overheard Bear’s declarations and paused their gesture control. “Really, Bear? Maybe instead of hiding messages when things go wrong, how much more helpful would it be if you focused on preventing errors from happening in the first place?”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A BEAR boasted very much of his philanthropy, saying that of all animals he was the most tender in his regard for man, for he had such respect for him that he would not even touch his dead body. A Fox hearing these words said with a smile to the Bear, “Oh! that you would eat the dead and not the living.”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In software, as in life, professing virtues or positive qualities means little if one’s actions do not support the claims. We need to be alert against superficial or false displays of respect. Instead, we should look at the practical outcomes of someone’s behavior. In short, we should value deeds over words.&lt;/p&gt;
-</description>
-                <pubDate>Thu, 14 Mar 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/2024/03/14/TheBearAndTheFox</link>
-                <guid isPermaLink="true">http://localhost:4000/2024/03/14/TheBearAndTheFox</guid>
-                
-                <category>Aesop2121</category>
-                
-                <category>scifi</category>
-                
-                <category>writing</category>
-                
-                <category>fables</category>
-                
-                <category>development</category>
                 
                 
             </item>
