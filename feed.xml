@@ -5,9 +5,296 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 16 Sep 2024 13:36:54 -0500</pubDate>
-        <lastBuildDate>Mon, 16 Sep 2024 13:36:54 -0500</lastBuildDate>
+        <pubDate>Mon, 30 Sep 2024 11:30:26 -0500</pubDate>
+        <lastBuildDate>Mon, 30 Sep 2024 11:30:26 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Surviving the Turbo Encabulator</title>
+                <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide1.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide2.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;It is an honor to be asked back to speak at DevOps Days. Two years ago, &lt;a href=&quot;https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware&quot;&gt;I covered seven soft skills for making software change happen&lt;/a&gt;. Last year, during the heights of generative AI hype, &lt;a href=&quot;https://matthewreinbold.com/2023/06/23/SeparatingAIFactFromFiction&quot;&gt;I did a deep dive showing practical ways generative AI could assist API development&lt;/a&gt;. This year, maybe more than any previous year, I have to wade through propaganda, misinformation, and outright lies - and I’m not talking about the election!&lt;/p&gt;
+
+&lt;p&gt;Perhaps more than any other industry, software is drowning in bold &lt;strong&gt;claims&lt;/strong&gt;, wild speculation, and outright exaggeration. These muddied messages about what is and is not effective impact our ability to do our best work.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide3.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;When I say &lt;strong&gt;claim&lt;/strong&gt;, I refer to a statement or assertion that promises specific benefits, capabilities, or outcomes. These claims are typically used to generate excitement, attract investment, or even sow confusion. They range from a modest list of apparent facts to grandiose statements about revolutionary change.&lt;/p&gt;
+
+&lt;p&gt;In this presentation, I’ll:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduce you to the claims made by the Turbo Encabulator&lt;/li&gt;
+  &lt;li&gt;Explain why this 80-year-old engineering in-joke is more relevant to our age than ever before&lt;/li&gt;
+  &lt;li&gt;Use examples from it and other sources to illustrate the techniques and outline how we might better evaluate the claims that come our way&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide4.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;To understand the Turbo Encabulator relevance to our work today, we first need a bit of history.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide5.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;In 1944, a British engineering grad student named John Hellins Quick wrote an article for the Institute of Electrical Engineers, Students Quarterly Journal. His studies inspired the satirical description of a revolutionary technology comprised of long strings of meaningless jargon. It went something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The original machine had a base-plate of prefabulated aluminite, surmounted by a malleable logarithmic casing in such a way that the two main spurving bearings were in a direct line with the pentametric fan. The latter consisted simply of six hydrocoptic marzlevanes, so fitted to the ambifacient lunar waneshaft that side fumbling was effectively prevented. The main winding was of the normal lotus-o-delta type placed in panendermic semi-bovoid slots in the stator, every seventh conductor being connected by a non-reversible tremie pipe to the differential girdlespring on the “up” end of the grammeters-“
+— &lt;em&gt;John Hellins Quick, 2nd paragraph of “The turbo-encabulator in industry”, Students’ Quarterly Journal, Vol. 15, Iss. 58, p. 22 (December 1944)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It went on like this for several additional paragraphs.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide6.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;World War II brought rapid advancements in electronics, computing, and telecommunications. Post-war Great Britain was not the only country transformed (and, ultimately, having to adapt) to increase technology sophistication. In the United States, industries were just as impacted. And, like Great Britain, those in the United States challenged to comprehend technobabble and jargon found the Turbo Encabulator just as funny. Or at least some did.&lt;/p&gt;
+
+&lt;p&gt;In May of 1946, Time magazine published excerpts from the article under the title, “For Nofer Trunnions”. Reader feedback was mixed. One letter said, “&lt;strong&gt;My husband says it sounds like a new motor; I say it sounds like a dictionary that has been struck by lightning.&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;In 1962, &lt;a href=&quot;https://en.wikipedia.org/wiki/Turbo_encabulator#/media/File:GE_Turboencabulator_pg_1.jpg&quot;&gt;General Electric even published a data specification sheet for the machine&lt;/a&gt;, including a plausible-looking write-up amidst its other hundreds of offerings.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide7.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;The Turbo Encabulator might have been a curious footnote in the annuals of engineering history (or at least an even more obscure one) if not for an instructional film actor named Bud Haggart.&lt;/p&gt;
+
+&lt;p&gt;Haggart became a minor celebrity in the Detroit area for appearing in several automotive information and instruction videos. One of his regular gigs was doing how-tos for GMC mechanics.&lt;/p&gt;
+
+&lt;p&gt;In 1977, Haggart convinced the director and the crew to stay after the recording of a GMC Trucks training film. He wanted to record his version of the Turbo Encabulator. The “script”  Haggart ad-libbed in one take was based on the original John Hellings Quick article. &lt;a href=&quot;https://www.youtube.com/watch?v=Ac7G7xOG2Ag&quot;&gt;That original recording can be found on YouTube&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It amazed the crew, who you can hear laughing at the end of the piece. They asked Haggart how he could read the script with such a straight face. Haggart replied that “It sounds like everything else you have me read.”&lt;/p&gt;
+
+&lt;p&gt;Haggart was asked to reprise the role several times in subsequent years, each time with increased production value.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1988 - A few years later, &lt;a href=&quot;https://www.youtube.com/watch?v=MXW0bx_Ooq4&quot;&gt;Chrysler brought Haggart in to film a new version of his Turbo Encabulator, but this time, the script was changed to imply that the company had made the device&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;1988 - Not wanting to be left out, Rockwell International, an American automotive manufacturing conglomerate (among other things) asked &lt;a href=&quot;https://www.youtube.com/watch?v=2fjcJp_Nwvk&quot;&gt;Haggart to pitch a “Rockwell Turbo Encabulator”&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;1996/1997 - Haggart (and slapstick assistant) &lt;a href=&quot;https://www.youtube.com/watch?v=UyRllRWfLJE&quot;&gt;deliver a version of the Turbo Encabulator for Dodge Division’s Viper Automotive Master Tech Tip&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide8.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The popularity of these skits, preserved on YouTube and propagated across the internet via social media, chats, and forums ultimately inspired imitators, a brief sampling of which is below. Once you watch a few of these and trigger the algorithm to show you related videos, you quickly realize there’s an entire “Encabulator Cinematic Universe,” or ECU, for nearly every industry, interest, and profession - a brief sampling is listed below.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1997 - &lt;a href=&quot;https://www.youtube.com/watch?v=RXJKdh1KZ0w&quot;&gt;Rockwell Automation released a version of the “Retro Encabulator”, featuring Mike Kraft&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2013 - &lt;a href=&quot;https://www.youtube.com/watch?v=wwmdf5m9khg&quot;&gt;SciShow featuring Hank Green on “The Retro-Proto-Turbo-Encabulator”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2016 - &lt;a href=&quot;https://www.youtube.com/watch?v=u4ILnWpi8XY&quot;&gt;Path video discussing the Micro Encabulator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2018 - &lt;a href=&quot;https://www.youtube.com/watch?v=7LOF7KM7UhY&quot;&gt;The Macquarie Telcom SD-WAN Turbo Cloud Encablulator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2021 - &lt;a href=&quot;https://www.youtube.com/watch?v=fltOyddlnOE&quot;&gt;The Electro Turbo Encabulator with multiple electronic YouTubers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2022 - &lt;a href=&quot;https://www.youtube.com/watch?v=5nKk_-Lvhzo&quot;&gt;SANS ICS HyperEncabulator (featuring Mike Kraft reprising his role)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2023 - &lt;a href=&quot;https://www.youtube.com/watch?v=xk8_RWO-oIA&quot;&gt;The crazy legal issues of the turbo encabulator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Turbo Encabulator has found purchase in areas as diverse as photo gear vlogs and science education curricula because technology has infused so many aspects of our modern, everyday lives. As the need for change incentivizes products to move from rigid atoms to malleable bits, we find ourselves constantly confronted with the kind of technobabble and jargon that sounds straight out of one of the many Turbo Encabulator homages.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide9.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I would argue that the pace of change hasn’t sped up over the last century, &lt;strong&gt;not really&lt;/strong&gt;. However, what has changed is the amount of information exposure we undergo daily, and with that exposure comes an incredible number of claims. Blogs, websites, social networks, podcasts, tutorials, videos - in an era of sophisticated “content marketing”, the amount of potential information you have access to far exceeds the amount of time you have available to consume it. And on the internet, anyone can make claims - right, wrong, or otherwise.&lt;/p&gt;
+
+&lt;p&gt;On the left is a chart showing that the number of hours uploaded to &lt;a href=&quot;https://www.statista.com/statistics/259477/hours-of-video-uploaded-to-youtube-every-minute/&quot;&gt;YouTube every minute exceeded &lt;strong&gt;500 hours&lt;/strong&gt;&lt;/a&gt;. This equates to &lt;em&gt;approximately 30,000 hours of newly uploaded content per hour&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;On the right is a chart showing the growth of posts made to Reddit. &lt;a href=&quot;https://backlinko.com/reddit-users&quot;&gt;In 2023, an estimated 469 million posts were published on Reddit, an 11.14% year-over-year increase.&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide10-a.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;With everybody making all those claims, it becomes more challenging to be heard. As a result, those with something to say must resort to increasingly Turbo Encabulator-like approaches to stand out.&lt;/p&gt;
+
+&lt;p&gt;That is why so much of what you might hear about today’s technologies sounds like an excerpt from the Turbo Encabultor script. You’d be forgiven for thinking these real claims, things I’ve seen in the past week, is jibberish:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“While handling APIs using AGI is not feasible at this time, employing an ANI approach can lead to very powerful M2M APIs.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The Non-Fungible Token (NFT) ecosystem is fundamentally anchored in the decentralized consensus mechanism inherent to blockchain technology, specifically leveraging the immutability of distributed ledgers to authenticate and tokenize unique digital assets. NFTs exist as cryptographically secured, ERC-721 or ERC-1155 smart contracts on the Ethereum blockchain, although cross-chain interoperability with other Layer-1 protocols like Binance Smart Chain and Solana is increasingly prevalent.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Private AI x CPaas offer on-premise LLM deployment for organizations to ensure data privacy and security while leveraging the power of modern LLMs and Generative AI through platforms like Ollama. This solution would include on-premise (or collocated) deployment, customizable AI models tailored to organizational needs, robust security measures, easy integration with existing systems, and continuous deployment.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide10-b.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, ridiculous, over-the-top claims have become LinkedIn “influencer’s” stock-and-trade. Good for them. Confusing for the rest of us.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide11.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;In an ideal world, we would have the time, energy, and inclination to develop firsthand experience with these various technologies. However, applying that rigor to compare and contrast what is said against our hard-won knowledge doesn’t scale to the number of claims we’re faced with. This is especially true as our careers grow and change.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide12.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether moving into higher management roles or becoming deeply specialized individual contributors, the reality is that we are no longer hands-on with every tool and innovation shaping online discourse. This occurs as we are tasked with guiding our teams and making strategic decisions about these approaches - approaches we may have only a surface-level understanding of if any at all. This disconnect poses one of the most significant challenges aging software professionals face—how to effectively evaluate and make informed decisions about technologies they no longer have the time or capacity to master firsthand.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide13.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;One approach would become cynical: when confronted by the overwhelming number of claims, adopt a mindset that there is nothing new and that whatever the first technology we professionally mastered is the peak of practice - everything else is just unnecessary complexity.&lt;/p&gt;
+
+&lt;p&gt;I’m not saying that some of these recent “Make X Great Again” efforts aren’t without good reasons. However, if you read enough of the justifications, you’ll get a whiff of sour grapes, the hint of “everything was better in the old days”.&lt;/p&gt;
+
+&lt;p&gt;Efforts that come to mind include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trunk Based Development&lt;/li&gt;
+  &lt;li&gt;Vanilla JavaScript/No-React&lt;/li&gt;
+  &lt;li&gt;Cloud Repatriation&lt;/li&gt;
+  &lt;li&gt;Moving back to Monolithic architectures after trying Microservices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I can sympathize. Nobody wants to invest their energies into something that becomes the next Google Wave or Microsoft Silverlight. The cynical approach is also straightforward to apply.&lt;/p&gt;
+
+&lt;p&gt;However, the danger of adopting a cynical outlook and rejecting all claims outright is that it risks missing profound and industry-altering changes - and while that doesn’t happen as often as some might claim, &lt;em&gt;it does happen&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide14.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;When evaluating Turbo Encabulator-like technobabble in claims, our old frames of reference might not always apply. What was once true in the past may not hold true in a different software paradigm.&lt;/p&gt;
+
+&lt;p&gt;Flimflam is not new. But the democratization of the internet means there are more claims than ever, with those with something to say working harder than ever to get their message heard above the crowd. That saturation necessitates that we, those of us in all manner of tech leadership, become more active as consumers - not passive conduits for the vendor, analyst, and consultant messages, but people making informed judgments of what we do see.&lt;/p&gt;
+
+&lt;p&gt;Evaluating new claims becomes an exercise in discerning meaningful innovation from marketing-driven hype—a skill that must be honed over time.&lt;/p&gt;
+
+&lt;p&gt;So how do we do that?&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide15.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;When evaluating a convoluted claim, the first step is approaching with a healthy dose of skepticism.&lt;/p&gt;
+
+&lt;p&gt;I should point out that skepticism is not the same as cynicism.&lt;/p&gt;
+
+&lt;p&gt;Healthy skepticism involves questioning and critically assessing claims, seeking evidence and reasoning before accepting them. Skeptics remain open-minded and willing to change their views if presented with compelling evidence. This approach helps evaluate technology claims objectively, without being swayed by hype or marketing, while still considering potential benefits.&lt;/p&gt;
+
+&lt;p&gt;Conversely, cynicism tends to dismiss claims outright, often assuming that they are exaggerated or false without engaging in critical evaluation. Cynics generally expect deception or failure, and their approach is more closed off, making it harder for them to acknowledge the value of genuinely promising technologies.&lt;/p&gt;
+
+&lt;p&gt;In short, skepticism is about informed doubt and a willingness to engage critically, while cynicism is about premature dismissal and a more negative, closed mindset.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide16.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, not all sources are the same, and some warrant a higher degree of skepticism than others. We know (or should know) that the claim that gets the most shares or comments is not equivalent to something with the highest quality. Likewise, something published on InfoQ may be taken on more face value than whatever is at the top of HackerNews.&lt;/p&gt;
+
+&lt;p&gt;In the process of developing our list of trusted sources, it is also important to incorporate sources of information that will offer new perspectives and challenge our own assumptions. It is not a matter of picking fights; rather, it is about getting out of our own “filter bubble”. This may feel uncomfortable at first. However, if we’re will to entertain the claims of something potentially disruptive, we may discover that those claims may be bogus, and we have further confirmation in our own belief. Or we may find a compelling reason to change.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, the curation of trusted sources is about practicing curiosity and self-challenge. That’s what learning is all about. You can’t understand the world, or even a tiny part of it if you don’t stretch your mind.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide17.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Companies resort to hyperbolic claims to be heard in a noisy, crowded digital landscape. Therefore, it is essential to understand how this inflation manifests to identify when it is happening.&lt;/p&gt;
+
+&lt;p&gt;Whether we attend conferences or scroll through influencer LinkedIn, we’ve probably heard of “Buzzword Bingo.” To help us remember the common linguistic patterns used in claims that are more “vibes” than communication, I’ve grouped the techniques into categories that spell “B-I-N-G-O.”&lt;/p&gt;
+
+&lt;p&gt;To help illustrate each, I’m going to highlight the parts of the Turbo Encabulator script where each rhetorical device is used.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide18-a.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The letter “B” in Bingo stands for Buzzwords. Buzzwords are popular terms or phrases used so frequently, often in a positive or promotional context, that they lose their original meaning or become vague. They are meant to grab attention and sound appealing but may not provide much specific information. For example, words like “innovative”, “disruptive”, or “synergistic” might be used to describe almost any new idea or technology, even if it doesn’t truly revolutionize anything. Phrases like “game-changing,” “future-proof,” or “industry-leading” often sound impressive until one stops a moment to reflect on what game or industry is being talked about.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide18-b.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://netapinotes.com/rest-has-become-a-buzzword/&quot;&gt;I wrote about Fielding’s disallusionment of of how the term “REST” became a buzzword, despite his vigorous defense&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Conceptually, we all probably understand buzzwords and have a few examples that spring to mind. Let’s move on to our next category, which is a bit more nuanced.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide19-a.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The “I” in Bingo represents “Implausible Promises”. These are over-the-top claims about what technology can do, like “limitless potential”, or “effortless transformation.” Other examples include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Completely eliminate risk&lt;/li&gt;
+  &lt;li&gt;Meet any demand&lt;/li&gt;
+  &lt;li&gt;Transform your business overnight&lt;/li&gt;
+  &lt;li&gt;Results guaranteed&lt;/li&gt;
+  &lt;li&gt;Endless possibilities&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With each of these, there’s an absolutism to the benefit - “limitless”, “any”, “endless” - that rarely exists in the real world. If you can add “or your money back” to the claim, what you have is an infomercial, not a viable claim.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide19-b.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;If you spend any amount of time in the blockchain/crypto game space, it doesn’t take long to run across an “implausible promise”. But reading about the aftermath does make for some fun &lt;em&gt;schadenfreude&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide20-a.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaking of absolute quantities, the “N” in Bingo stands for “Numeric Certainty”. This situation is where dubious statistics or metrics are sprinkled throughout the claim to give the language a veneer of mathematical rigor. Some examples include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Double Your Performance&lt;/li&gt;
+  &lt;li&gt;10x Developer&lt;/li&gt;
+  &lt;li&gt;300% ROI Increase&lt;/li&gt;
+  &lt;li&gt;“Five nines”&lt;/li&gt;
+  &lt;li&gt;First Ever!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sometimes, numbers associated with a claim are valid and based on repeatable methodology. When misused, however, they are either exaggerated or cherry-picked to impressed.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide20-b.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Numeric certainty appeals to a very specific type of reply guy on miniblogging platforms. &lt;a href=&quot;https://www.sandofsky.com/lambda-school/&quot;&gt;The misuse of statistics made on Twitter claims played a important part in the Lambda school scandal&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide21-a.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The “G” in Bingo stands for “Glossification”. This is when new words are coined to “borrow” a positive associate with another thing, whether that thing is another beloved trend or well-received product. It’s like the trend of startup companies registering ‘.io’ domain names in the 2010s to imply how innovative or tech-forward they are. Nowadays, the “cool” domain is “.ai.”&lt;/p&gt;
+
+&lt;p&gt;In the late 1970s and 1980s, Microsoft was not the only software company that sported the “soft” suffix to clearly attach itself to the personal computing software wave. Twenty years ago, you’d add an “e” to your product to connote that it was somehow networked. In the iPod era, many companies prefixed their products with “I” to evoke the positive aspects of Apple’s industrial design.&lt;/p&gt;
+
+&lt;p&gt;“Crypto” is a habitually abused glossification prefix. Terms like “HyperScale” or “Serverless” are other examples of glossification that aren’t brand names. The addition of “Turbo” in “Turbo Encabulator” is an example of glossification.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide21-b.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;But glossification isn’t limited to written language. Borrowing positive connotations extends to body language, as well. But just because a company leader talks like someone with immense impact &lt;a href=&quot;https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-sentenced-more-11-years-defrauding-theranos-investors-hundreds&quot;&gt;doesn’t mean the tech can walk the walk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide22.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, we’re to the final character in Bingo. The “O” stands for “Obfuscation”. Obfuscation uses overly complex or technical-sounding language to confuse or impress, often hiding a lack of real substance. It’s designed to make something sound more advanced or important than it really is. Examples include phrases like “leveraging multi-cloud quantum synergies” or “immutable distributed ledgers” - things that may sound impressive but don’t necessarily convey meaningful or clear information.&lt;/p&gt;
+
+&lt;p&gt;Obfuscation is a close cousin, but different than buzzwords. Buzzwords are overused, trendy terms that no longer have specific meanings. Obfuscation, on the other hand, is about using complexity to obscure or confuse.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide23.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;John Green is the author of many books, including The Fault In Our Stars. He is also one-half of the Vlogbrothers. &lt;a href=&quot;https://www.youtube.com/watch?v=Bd8r7LUiUJA&quot;&gt;While playfully discussing parts of speech&lt;/a&gt;, he stated, “language doesn’t exist to oppress us. It exists to promote the clarity of expression.”&lt;/p&gt;
+
+&lt;p&gt;Sadly, not every one that speaks seeks to clarify.&lt;/p&gt;
+
+&lt;p&gt;The Turbo Encabulator is an eighty-year-old engineering joke whose jargon-filled meaninglessness cuts too close to home. Technobabble is even more challenging today in a world of claims and counterclaims. However, with a few commonsense steps, including the ability to recognize the rhetorical tricks as they’re presented, you’ll be able to enjoy the joke rather than become the butt of it.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/images/2024/09/Slide24.PNG&quot; /&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you for the time and the opportunity to share.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 30 Sep 2024 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2024/09/30/TurboEncabulator</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2024/09/30/TurboEncabulator</guid>
+                
+                <category>Software Change</category>
+                
+                <category>Management</category>
+                
+                <category>Productivity</category>
+                
+                <category>Presentations</category>
+                
+                
+            </item>
         
             <item>
                 <title>The Flies and the Honeypot</title>
@@ -348,8 +635,6 @@ That concludes the March Writing Challenge and, with it, Aesop 2121. If you have
                 
                 <category>fables</category>
                 
-                <category>gardening</category>
-                
                 
             </item>
         
@@ -389,50 +674,6 @@ That concludes the March Writing Challenge and, with it, Aesop 2121. If you have
                 <category>writing</category>
                 
                 <category>fables</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Lioness</title>
-                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
-
-&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
-
-&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
-
-&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2024/03/lioness.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;One day, around the fishing hole, the developers who were casting about for software solutions started a friendly debate among themselves. Each fisherman boasted about the volume they caught and reassembled, but none could agree upon the best productivity metric. With no arguments reaching consensus, the group stowed their equipment and sought out the Loiness, an elder of great renown and architect in her own right.&lt;/p&gt;
-
-&lt;p&gt;They found her walking in the gardens. With much joshing, they demanded to know who had the most plentiful body of work.&lt;/p&gt;
-
-&lt;p&gt;The Lioness laughed at them and said, “Long ago, the amount we could create effectively became infinite, yet here you are arguing over who has more. That is the scarcity mindset. Making and maintaining the &lt;em&gt;right&lt;/em&gt; thing?” She continued, “&lt;em&gt;That&lt;/em&gt; is the mindset of enlightenment.”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A CONTROVERSY prevailed among the beasts of the field as to which of the animals deserved the most credit for producing the greatest number of whelps at a birth. They rushed clamorously into the presence of the Lioness and demanded of her the settlement of the dispute. “And you,” they said, “how many sons have you at a birth?” The Lioness laughed at them, and said: “Why! I have only one; but that one is altogether a thoroughbred Lion.”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;One’s total contribution should be thought of as depth and impact; two things that may be beyond easy summation. The value is in the worth, not in the number.&lt;/p&gt;
-</description>
-                <pubDate>Mon, 18 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/18/TheLioness</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/18/TheLioness</guid>
-                
-                <category>Aesop2121</category>
-                
-                <category>scifi</category>
-                
-                <category>writing</category>
-                
-                <category>fables</category>
-                
-                <category>metrics</category>
-                
-                <category>productivity</category>
                 
                 
             </item>
