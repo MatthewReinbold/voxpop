@@ -1,0 +1,63 @@
+#bingo-card {
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
+
+#bingo-card td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    vertical-align: top;
+}
+
+#bingo-card td .free {
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+#bingo-card td div:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#bingo-card td div:last-child {
+    font-size: 0.7em;
+    color: gray;
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 8.5in; /* Standard letter size width */
+        height: 11in; /* Standard letter size height */
+    }
+
+    #bingo-card {
+        width: 100%; /* Ensure the table takes the full page width */
+        border-collapse: collapse; /* Clean up borders for printing */
+        margin: 1in auto; /* Center the table with a 1-inch margin */
+    }
+
+    #bingo-card td {
+        border: 1px solid black;
+        padding: 10px; /* Adjust padding to fit content neatly */
+        width: 1.5in; /* Size each cell appropriately */
+        height: 1.5in; /* Keep cells square */
+        font-size: 14px; /* Adjust font size for readability */
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #bingo-card .free {
+        background-color: lightgray; /* For a clear 'Free' space highlight */
+    }
+
+    button, /* Hide buttons and interactive elements */
+    #regenerate {
+        display: none;
+    }
+}
