@@ -5,9 +5,78 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 07 Jan 2025 12:32:07 -0600</pubDate>
-        <lastBuildDate>Tue, 07 Jan 2025 12:32:07 -0600</lastBuildDate>
+        <pubDate>Tue, 04 Feb 2025 15:32:53 -0600</pubDate>
+        <lastBuildDate>Tue, 04 Feb 2025 15:32:53 -0600</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>On Blog Writing</title>
+                <description>&lt;p&gt;I have several tepid attempts at lending some clarifying thought to (&lt;em&gt;gestures manically&lt;/em&gt;) this moment. The problem, however, is that anything I have to say feels so incredibly ineffective at stopping this slow-motion trainwreck.&lt;/p&gt;
+
+&lt;p&gt;Instead of letting a pile of half-completed work make me feel inept, I decided to switch tracks to something more approachable: contributing to an old-fashioned &lt;strong&gt;blog carnival&lt;/strong&gt;. I initially saw &lt;a href=&quot;https://ethanmarcotte.com/wrote/blog-questions-challenge/&quot;&gt;Ethan Marcotte&lt;/a&gt; and &lt;a href=&quot;https://hicks.design/journal/blog-questions-challenge&quot;&gt;Jon Hicks&lt;/a&gt; do their versions and was then reminded about when &lt;a href=&quot;https://polytechnic.co.uk/blog/2025/02/blog-questions-challenge/&quot;&gt;Garrett Coakley&lt;/a&gt; mentioned his post on Mastodon.&lt;/p&gt;
+
+&lt;p&gt;Below are a few answers about how and why I blog.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-did-you-start-blogging-in-the-first-place&quot;&gt;Why did you start blogging in the first place?&lt;/h2&gt;
+
+&lt;p&gt;Writing has always been an essential part of how I organize my internal space. Even as a kid, rather than leave things as vague notions or incomplete thoughts, I’d attempt to articulate my feelings in cheap, spiral-bound notebooks. I wasn’t saving these scraps because I thought they were genius to be mined or affirmations to follow, but just a natural part of trying to process the world around me.&lt;/p&gt;
+
+&lt;p&gt;I loved it when people started blogging online. It felt like you got such a more authentic, genuine version of the person. Don’t get me wrong, optimizing for maximum “virality” also existed then; parasocial relationships are not new, and there were plenty of “influencers” that put on a persona before laying hands on keys existed then, too. But being able to publish something immediately, worldwide, to connect with others &lt;em&gt;still&lt;/em&gt; is amazing, given other forms of media and their gatekeeping.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-platform-are-you-using-to-manage-your-blog-and-why-did-you-choose-it-have-you-blogged-on-other-platforms-before&quot;&gt;What platform are you using to manage your blog and why did you choose it? Have you blogged on other platforms before?&lt;/h2&gt;
+
+&lt;p&gt;The first place I ever posted something was a Geocities site. Then I used phpBB for a while, something that makes much more sense as a forum for a community than a blog for a single person. I used WordPress for a few years, and then hand-crafted my own CMS using Macromedia/Adobe ColdFusion and MySQL. That was fun, as I got to do some interesting experiments with tagging and automatic content embedding, but, over time, it required too much overhead to maintain.&lt;/p&gt;
+
+&lt;p&gt;Today, I use Jekyll for my blog and Ghost.pro for &lt;a href=&quot;https://netapinotes.com/&quot;&gt;my API newsletter&lt;/a&gt;. I became a big believer in static site generation some time ago for several reasons, and the static files from Jekyll can easily be served for free from a GitHub Pages site.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-you-write-your-posts-for-example-in-a-local-editing-tool-or-in-a-paneldashboard-thats-part-of-your-blog&quot;&gt;How do you write your posts? For example, in a local editing tool, or in a panel/dashboard that’s part of your blog?&lt;/h2&gt;
+
+&lt;p&gt;I write anything under a few thousand words in Google Docs; it has the minimal number of features and the maximum amount of universal availability. Once I have a draft I’m pretty set on, I copy the contents into Grammarly and then review the suggestions, selectively choosing which ones to apply back to the original doc. Then I copy and paste the text into the destination vessel - markdown for the blog, or Ghost’s newsletter web interface.&lt;/p&gt;
+
+&lt;p&gt;For pieces longer than a few thousand words, like presentations, &lt;a href=&quot;https://www.literatureandlatte.com/scrivener/overview&quot;&gt;I use Scrivener&lt;/a&gt;. Scrivener helps me organize longer work into more maintainable chunks, with support for templates, research notes, slide sketch ideas, rich statistics, and more. It’s a bit much for one-off posts, but for more ambitious projects, I’ve found it to be essential.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-do-you-feel-most-inspired-to-write&quot;&gt;When do you feel most inspired to write?&lt;/h2&gt;
+
+&lt;p&gt;Inspired might be the wrong word, but I know I need to write when I feel the most at a loss. Maybe others are able to go about their days with 100% certainty of who they are and what they are doing. I’m not like that, and those moments when I feel the least in control or stressed over something unclear are the moments when I’m like, “Yeah, I need to unpack this.”&lt;/p&gt;
+
+&lt;p&gt;Sometimes, I get a revelation or a fresh perspective. However, most of the time, just acknowledging the feeling and what might be causing it is enough to get me unstuck. I don’t think that’s the most entertaining for others to read, and usually those posts get tucked away, far from the light of the screen. And that’s OK; not everything that gets written has to be read to be useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-you-publish-immediately-after-writing-or-do-you-let-it-simmer-a-bit-as-a-draft&quot;&gt;Do you publish immediately after writing, or do you let it simmer a bit as a draft?&lt;/h2&gt;
+
+&lt;p&gt;I rarely write and publish in one sitting. I’m almost always in a dialogue with the me I was yesterday (or the week before, or the month before that). So, in that sense, I let it simmer.&lt;/p&gt;
+
+&lt;p&gt;However, if I’ve put in the hours on something I know I’ll publish, I’ll push through to completion if I’m close. After all, how else will I see those subtle errors only visible when everyone else can see them?&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-your-favorite-post-on-your-blog&quot;&gt;What’s your favorite post on your blog?&lt;/h2&gt;
+
+&lt;p&gt;I’m proud of the &lt;a href=&quot;https://matthewreinbold.com/tags/#Aesop2121&quot;&gt;“Aesop2121” utopian science fiction writing challenge I did last year&lt;/a&gt;. Having a place to post &lt;a href=&quot;https://matthewreinbold.com/tags/#Presentations&quot;&gt;my software presentations&lt;/a&gt;, which is work I put a tremendous amount of effort into, is also great.&lt;/p&gt;
+
+&lt;p&gt;However, my most unapologetic, challenging, and &lt;strong&gt;favorite&lt;/strong&gt; blog post was &lt;a href=&quot;https://matthewreinbold.com/2014/03/03/Her&quot;&gt;my 2014 “orthogonal” review of Spike Jonze’s Her&lt;/a&gt;. There’s a cultural and technological pathos in that movie that I connected with and wanted to embellish and accentuate; I was attempting to “vibe” with a work before that was a thing. I knew I hit my mark when one of my good friends reached out after reading it and asked if I was OK. That was a proud moment for me and remains one of my favorite things (if a bit maudlin) I’ve ever published.&lt;/p&gt;
+
+&lt;h2 id=&quot;any-future-plans-for-your-blog-maybe-a-redesign-a-move-to-another-platform-or-adding-a-new-feature&quot;&gt;Any future plans for your blog? Maybe a redesign, a move to another platform, or adding a new feature?&lt;/h2&gt;
+
+&lt;p&gt;There are no plans at the moment for my personal blog.&lt;/p&gt;
+
+&lt;p&gt;After a year of attempting regular updates and specialized exclusives with my newsletter, I’ve resolved to posting when I post. The social landscape for how technical opinion is shared and promoted to broader audiences is drastically different than when I started in 2015. Frankly, I’m not sure if it makes sense any longer to log what amounts to a part-time job on such a niche topic; very few in this area seem interested in reading multi-thousand-word pieces a month. Even fewer are willing to financially support it. Whether the reason for the reception is me or the market, the bottom-line is that there are other, more enjoyable things I can do with my time.&lt;/p&gt;
+
+&lt;h2 id=&quot;whos-next&quot;&gt;Who’s next?&lt;/h2&gt;
+
+&lt;p&gt;I will steal the idea from a few others in this series and encourage anyone writing online to &lt;em&gt;just do it&lt;/em&gt;; reflection is almost always a worthy exercise.&lt;/p&gt;
+
+&lt;p&gt;And when you do, &lt;a href=&quot;https://opinuendo.com/@matthew&quot;&gt;ping me on Mastodon&lt;/a&gt;, so I can read it.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 04 Feb 2025 00:00:00 -0600</pubDate>
+                <link>https://matthewreinbold.com/2025/02/04/OnWriting</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2025/02/04/OnWriting</guid>
+                
+                <category>Culture</category>
+                
+                <category>Writing</category>
+                
+                <category>Milestones</category>
+                
+                
+            </item>
         
             <item>
                 <title>Pass the PRESS Act</title>
@@ -645,48 +714,6 @@ That concludes the March Writing Challenge and, with it, Aesop 2121. If you have
                 <pubDate>Fri, 22 Mar 2024 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2024/03/22/TheLionInLove</link>
                 <guid isPermaLink="true">https://matthewreinbold.com/2024/03/22/TheLionInLove</guid>
-                
-                <category>Aesop2121</category>
-                
-                <category>scifi</category>
-                
-                <category>writing</category>
-                
-                <category>fables</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Salt Merchant and His Ass</title>
-                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
-
-&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
-
-&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
-
-&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2024/03/merchant.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the 22nd century, there was a Code-Burner who became known for his unique and effective ways of “salting” data before permanently lasering it to ceramic for long-term preservation. While his methods were time-consuming, the Code-Burner was often overbooked, with a backlog sometimes spiking into the zettabytes.&lt;/p&gt;
-
-&lt;p&gt;During one of these busy periods, the Code-Burner took on a young, brash apprentice. It wasn’t long before the Code-Burner noticed the apprentice purposely implementing simpler and faster, albeit more error-prone,  methods to clear the backlog. Vulnerabilities in the areas the apprentice had overseen became apparent, exposing the Code-Burner’s reputation and clients to potential harm.&lt;/p&gt;
-
-&lt;p&gt;After showing the apprentice the errors of his ways, the Code-Burner destroyed the problematic ceramic disks, dropping and letting them shatter across the floor. The apprentice now had two messes to clean up: the time-consuming work of redoing the engraving &lt;em&gt;the right way&lt;/em&gt; and sweeping the entire workspace.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A PEDDLER drove his Ass to the seashore to buy salt. His road home lay across a stream into which his Ass, making a false step, fell by accident and rose up again with his load considerably lighter, as the water melted the sack. The Peddler retraced his steps and refilled his panniers with a larger quantity of salt than before. When he came again to the stream, the Ass fell down on purpose in the same spot, and, regaining his feet with the weight of his load much diminished, brayed triumphantly as if he had obtained what he desired. The Peddler saw through his trick and drove him for the third time to the coast, where he bought a cargo of sponges instead of salt. The Ass, again playing the fool, fell down on purpose when he reached the stream, but the sponges became swollen with water, greatly increasing his load. And thus his trick recoiled on him, for he now carried on his back a double burden.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In software, as in life, trying to exploit a situation through shortcuts can backfire spectacularly, resulting in a much heavier burden in the end.&lt;/p&gt;
-
-&lt;p&gt;While cunning might offer short-term advantages, it can lead to unforeseen consequences that outweigh the initial gains. Adaptability and patience can lead to better long-term outcomes.&lt;/p&gt;
-</description>
-                <pubDate>Thu, 21 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/21/TheSaltMerchantAndHisAss</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/21/TheSaltMerchantAndHisAss</guid>
                 
                 <category>Aesop2121</category>
                 
