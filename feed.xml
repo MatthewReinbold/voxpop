@@ -5,9 +5,55 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 14 Feb 2025 15:17:54 -0600</pubDate>
-        <lastBuildDate>Fri, 14 Feb 2025 15:17:54 -0600</lastBuildDate>
+        <pubDate>Mon, 10 Mar 2025 10:47:36 -0500</pubDate>
+        <lastBuildDate>Mon, 10 Mar 2025 10:47:36 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Oppose the TAKE IT DOWN Act</title>
+                <description>&lt;p&gt;There are real problems that could be addressed by new legislation. Along with ubiquitous cell phone cameras and deep fake abilities have come a rash of gross online behavior; what we might have once referred to as &lt;em&gt;revenge porn&lt;/em&gt; is now collectively referred to as non-consensual intimate imagery (NCII).&lt;/p&gt;
+
+&lt;p&gt;The U.S. Senate recently passed the &lt;a href=&quot;https://www.congress.gov/bill/119th-congress/senate-bill/146&quot;&gt;TAKE IT DOWN Act&lt;/a&gt; to address the problem. The intention is good. However, the proposed implmentation leaves much to be desired - so much so that Trump excitedly referenced wanting to use the bill to silence his past accusers during last week’s address to the joint session of Congress.&lt;/p&gt;
+
+&lt;p&gt;I sent letters to my Congressional representation voicing my concerns. The letter to Senator Amy Klobuchar, co-sponsor of the bill, is below.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Subject: Opposition to the Take It Down Act (S.146)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dear Senator Klobuchar,&lt;/p&gt;
+
+&lt;p&gt;I am writing to express my strong opposition to the Take It Down Act, which recently passed the Senate and you co-sponsored. While the bill’s stated intent- to combat non-consensual intimate imagery (NCII) - is laudable, its approach is deeply flawed. As drafted, the bill creates an overbroad notice-and-takedown system with severe penalties, incentivizing platforms to remove content without meaningful review. This will not only result in abuse but will actively suppress lawful speech.&lt;/p&gt;
+
+&lt;p&gt;This has happened before: The Digital Millennium Copyright Act (DMCA) was designed to protect intellectual property, but its notice-and-takedown provisions have been repeatedly weaponized. &lt;a href=&quot;https://lumendatabase.org/blog_entries/over-thirty-thousand-dmca-notices-reveal-an-organized-attempt-to-abuse-copyright-law&quot;&gt;Tens of thousands of fraudulent DMCA claims have been used to silence journalists, suppress negative press, and manipulate online discourse&lt;/a&gt;. The Take It Down Act creates a nearly identical system, except instead of copyright claims, it enables virtually any powerful individual or institution to demand the removal of speech they dislike under the guise of NCII complaints.&lt;/p&gt;
+
+&lt;p&gt;The chilling effect is obvious. Faced with a 48-hour takedown mandate and the threat of legal or financial penalty, platforms will opt to remove content immediately, even when claims are unfounded. This will disproportionately impact:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Survivors of abuse who use online platforms to expose their abusers&lt;/strong&gt; - This law will provide bad actors with a new tool to erase evidence of their misconduct.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Journalists and activists documenting abuses of power&lt;/strong&gt; - From war crimes to workplace harassment, critical reporting could be wiped from public view with a mere takedown request.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Platforms already struggling to moderate content responsibly&lt;/strong&gt; - The law forces them to err further on the side of mass removal, leading to default state of over-censorship.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Even more concerning, &lt;strong&gt;President Trump has openly admitted that he intends to use this law for his own benefit&lt;/strong&gt;. In this year’s joint address to Congress, he stated, “And I’m going to use that bill for myself too if you don’t mind, because nobody gets treated worse than I do online, nobody.” We should work to thwart totalitarian tendencies during these unprecedented times, not further encourage them.&lt;/p&gt;
+
+&lt;p&gt;There are better ways to combat NCII. &lt;a href=&quot;https://www.missingkids.org/home&quot;&gt;The National Center for Missing &amp;amp; Exploited Children (NCMEC)&lt;/a&gt; has already developed a voluntary, hashed-based system to help platforms identify and remove problematic content without requiring rushed, legally fraught decisions. Similarly, &lt;a href=&quot;StopNCII.org&quot;&gt;StopNCII.org&lt;/a&gt; has developed a robust, privacy-protecting approach that allows individuals to preemptively flag sensitive content for removal without government intervention. Groups like &lt;a href=&quot;https://about.iftas.org/&quot;&gt;Federated Trust and Safety (IFTAS)&lt;/a&gt; have compelling solutions but are struggling for support to continue their work. Strengthening these initiatives through funding or platform incentives would be far more effective than mandating a sweeping, abuse-prone legal regime.&lt;/p&gt;
+
+&lt;p&gt;For these reasons, I urge you to revisit your support for the Take It Down Act, work on these gaps should the opportunity arise during reconciliation, and support solutions that address the real problem without undermining fundamental freedoms.&lt;/p&gt;
+
+&lt;p&gt;Sincerely,&lt;/p&gt;
+
+&lt;p&gt;Matthew Reinbold&lt;/p&gt;
+</description>
+                <pubDate>Mon, 10 Mar 2025 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2025/03/10/StopTheTakeItDownAct</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2025/03/10/StopTheTakeItDownAct</guid>
+                
+                <category>Culture</category>
+                
+                <category>Milestones</category>
+                
+                
+            </item>
         
             <item>
                 <title>On Blog Writing</title>
@@ -670,50 +716,6 @@ That concludes the March Writing Challenge and, with it, Aesop 2121. If you have
                 <pubDate>Mon, 25 Mar 2024 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2024/03/25/TheKidAndTheWolf</link>
                 <guid isPermaLink="true">https://matthewreinbold.com/2024/03/25/TheKidAndTheWolf</guid>
-                
-                <category>Aesop2121</category>
-                
-                <category>scifi</category>
-                
-                <category>writing</category>
-                
-                <category>fables</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Lion in Love</title>
-                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
-
-&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
-
-&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
-
-&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2024/03/lion.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After pioneering a plastic-eating enzyme and subsequent refusal to patent the discovery, Leo became a celebrity. He parlayed his new status into sustainable activism and diplomacy.  After several successful coalitions, he sought his next major initiative.&lt;/p&gt;
-
-&lt;p&gt;Leo found a project he loved with one of the few remaining international conglomerates, a company that specialized in constructing sustainable arcologies. With nature healing and the carbon buildup of the last century abating, the time to resettle the most ravaged areas and return the land to the descendants of climate refugees drew near. It was be an engagement powerfully symbolizing the correction of past sins.&lt;/p&gt;
-
-&lt;p&gt;The conglomerate was happy to have Leo as a figurehead but insisted on the highest levels of compartmentalization, secrecy, and “just-in-time” information sharing. Its arcologies were marvels of cutting-edge engineering and environmental science. It insisted that such aggressive protection of its intellectual property was necessary to recoup the vast amounts of research and development it performed. While the approach clashed with Leo’s preference for open cooperation and transparency, he mollified himself that the arrangement would be temporary. When pressed, he argued that that the destination justified the means.&lt;/p&gt;
-
-&lt;p&gt;When the scandal later broke, its virality was due, in large part, to the apparent contradiction between the virtuous person the public believed Leo to be and the double-dealing that the conglomerate engaged in behind closed doors. While Leo had advanced the cause in the name of the refugees, it was revealed that sizable portions to be reclaimed were being gifted to wealthy or politically connected individuals, a rush for new land that hewed to the old ways.&lt;/p&gt;
-
-&lt;p&gt;Trust broken, “The Lion of the Languished” was declawed and Leo resigned in disgrace. It took some time for Leo’s reputation - his most important asset which he had wielded so successfully - to recover.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Original Fable&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A LION demanded the daughter of a woodcutter in marriage. The Father, unwilling to grant, and yet afraid to refuse his request, hit upon this expedient to rid himself of his importunities. He expressed his willingness to accept the Lion as the suitor of his daughter on one condition: that he should allow him to extract his teeth, and cut off his claws, as his daughter was fearfully afraid of both. The Lion cheerfully assented to the proposal. But when the toothless, clawless Lion returned to repeat his request, the Woodman, no longer afraid, set upon him with his club, and drove him away into the forest.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Moral of the Stories&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In software, as in life, caution should be exercised when sacrificing one’s strength or essential qualities to appease others or achieve a short-term goal. The Lion, by giving up his teeth and claws, loses not only his physical capabilities but also his dignity and the respect he commanded. The stories underscore the importance of not compromising one’s power or fundamental characteristics, as doing so can lead to vulnerability and loss of respect or position.&lt;/p&gt;
-</description>
-                <pubDate>Fri, 22 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/22/TheLionInLove</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/22/TheLionInLove</guid>
                 
                 <category>Aesop2121</category>
                 
