@@ -5,9 +5,144 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 10 Mar 2025 14:21:25 -0500</pubDate>
-        <lastBuildDate>Mon, 10 Mar 2025 14:21:25 -0500</lastBuildDate>
+        <pubDate>Thu, 13 Mar 2025 16:24:54 -0500</pubDate>
+        <lastBuildDate>Thu, 13 Mar 2025 16:24:54 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Ironies of Agentic AI</title>
+                <description>&lt;h2 id=&quot;the-ironies-of-automation-paper-defines-a-paradox-of-automation&quot;&gt;&lt;strong&gt;The “Ironies of Automation” Paper Defines a Paradox of Automation&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Ruth Malan, a software architecture and systems consultant, organizes the wonderful “Papers in Systems” discussion series (I’ve also taken her &lt;a href=&quot;https://matthewreinbold.com/2021/11/01/PolarityMappingAndAPIGovernance&quot;&gt;Organizational Design Masterclass&lt;/a&gt;). During those virtual Zoom sessions, facilitators present a noteworthy paper, and the assembled group share their thoughts on the piece. It can be an eye-opening experience, if for no other reason than to realize that annoying boogeyman you thought you faced alone happens to also be hiding under a lot of other people’s beds.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ti.to/bredemeyer/bainbridgeironiesofautomation&quot;&gt;The latest installment&lt;/a&gt;, led by Alex Ptakhin, covered Lisanne Bainbridge’s 1983 paper, &lt;a href=&quot;https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html&quot;&gt;Ironies of Automation&lt;/a&gt;. As Bainbridge says on that site:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“This was written before I had a personal computer, let alone a mobile phone. Of course there has been much process in the last 40 years in the technology of providing both operators and writers with support, but evidently the question remain.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And it is true. While Bainbridge’s observations were on the operation of industrial control systems, she might as well have been talking about how today’s organizations approach AI.&lt;/p&gt;
+
+&lt;p&gt;Brainbridge’s begins with an apparent paradox: that by adding automation to a system &lt;strong&gt;increases&lt;/strong&gt; the dependency on a trained human operator rather than &lt;strong&gt;&lt;em&gt;decreases&lt;/em&gt;&lt;/strong&gt; it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“The classic aim of automation is to replace human manual control, planning and problem solving by automatic devices and computers. However, as Bibby and colleagues (1975) point out : “even highly automated systems such as electric power networks, need human beings for supervision, adjustment, maintenance, expansion and improvement. Therefore one can draw the paradoxical conclusion that automated systems still are man-machine systems, for which both technical and human factors are important.” This paper suggests that the increased interest in human factors among engineers reflects the irony that the more advanced a control system is, so the more crucial may be the contribution of the human operator.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The automation paradox is that automation is pursued to remove human inefficiencies, yet highly automated systems still require human supervision, adjustment, maintenance, and decision-making. This is because operators are often left with tasks that are difficult to automate, such as handling emergencies or diagnosing failures. And the more sophisticated an automated system becomes, the more crucial human involvement may be and the more cognitively demanding the job becomes, especially in abnormal situations.&lt;/p&gt;
+
+&lt;p&gt;The bottom line is that &lt;strong&gt;rather than removing human dependencies, &lt;em&gt;automation often shifts and amplifies them&lt;/em&gt;&lt;/strong&gt;. If you’ve ever been part of a DevOps or Platform Engineering transformation effort that started with great fanfare and then found yourself drowning in YAML only a few years later, you have experienced this phenomenon personally.&lt;/p&gt;
+
+&lt;h2 id=&quot;todays-automation-de-jour-agentic-ai&quot;&gt;&lt;strong&gt;Today’s Automation De jour: &lt;em&gt;Agentic AI&lt;/em&gt;&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Which makes this a great moment to talk about &lt;em&gt;Agentic AI&lt;/em&gt;. By now, most people have had some first-hand experience with generative AI. Even if you aren’t generating images with Midjourney or emails with ChatGPT, you’ve probably seen generated summaries at the top of your search results, had it pop up in your office suite, or discovered that a VC swapped it for the toy in your breakfast cereal.&lt;/p&gt;
+
+&lt;p&gt;Agentic AI, an increasingly buzzy term since being coined last November, takes this a step further. It refers to programmatic systems that can &lt;em&gt;autonomously&lt;/em&gt; take actions, pursue goals, and make decisions without human intervention at every step. Unlike people’s use of &lt;em&gt;Claude&lt;/em&gt; or &lt;em&gt;ChatGPT’s&lt;/em&gt; chat interfaces, which respond when prompted, agentic AI actively engages with its environment, initiating actions and persisting toward objectives.&lt;/p&gt;
+
+&lt;p&gt;In describing Agentic AI as the highest level in their enterprise AI maturity model, &lt;a href=&quot;https://thenewstack.io/evolving-from-pre-ai-to-agentic-ai-apps-a-4-step-model/&quot;&gt;Michael Coté and Camille Crowell-Lee describe Agentic AI operation as&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Breaking down a request into a plan.&lt;/li&gt;
+  &lt;li&gt;Executing each step (calling APIs, running microservices, executing code).&lt;/li&gt;
+  &lt;li&gt;Analyzing the outcomes, adjusting if needed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The example they use to describe how this works in practice is, basically, &lt;a href=&quot;https://www.youtube.com/watch?v=s4JNLL7U8H8&quot;&gt;the plot of those Matthew McConaughey Salesforce ads&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Think back to the restaurant reservation app. First, the agentic application would reason out that it needs to find your preferences for a restaurant. This might mean asking you directly, but it might also mean looking at your past reservations and reviews you gave. Perhaps you like sitting outside, but is it raining? The intelligent application would look up weather for your area. And so forth. Once this “research” is built up, the agentic AI will then use its tools to look up available tables at matching restaurants, and if it finds a good match, make the reservation for you, again by making an API call. Of course, a human (that’s you!) can step in at any point to move the workflow along or modify it.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;ramifications-of-looking-at-agentic-ai-through-an-irony-of-automation-lens&quot;&gt;&lt;strong&gt;Ramifications Of Looking At Agentic AI Through an “Irony of Automation” Lens&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Note the “step in at any point” statement. Suppose we apply Brainbridge’s Ironies of Automation truths to Agentic AI. In that case, we can anticipate several key ramifications - many of which mirror or even amplify the problems previously seen in automation-heavy systems.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-oversight-paradox-humans-will-still-be-needed-but-in-more-challenging-ways&quot;&gt;&lt;strong&gt;The Oversight Paradox: Humans Will Still Be Needed But in More Challenging Ways&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Expectation&lt;/strong&gt;: Agentic AI systems will be fully autonomous, reducing the need for human intervention.&lt;br /&gt;
+&lt;strong&gt;Reality:&lt;/strong&gt; &lt;em&gt;If you thought war-room debugging was bad now, just imagine all the comradery you’ll get from HAL 9000 after the pager-duty notification goes off at 2am.&lt;/em&gt; Humans will still need to monitor, correct, and override AI behavior, but this task will become more complex and cognitively demanding because:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI decisions are made using logic that may be opaque or non-deterministic.&lt;/li&gt;
+  &lt;li&gt;Failures will often occur at the edges of AI capability, where human expertise is weakest (since humans will have been out of the loop).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings&quot;&gt;Just as pilots struggle to take over when autopilot fails&lt;/a&gt;, humans will be asked to intervene in situations they are least prepared for, often under stress.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ramification&lt;/strong&gt;: AI oversight will become a specialized, high-cognitive-load task rather than a simple supervisory role. Human skills will atrophy while reliance on AI grows, at least until intervention is suddenly needed in a high-stakes situation.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-black-box-monitoring-problem&quot;&gt;&lt;strong&gt;The Black Box Monitoring Problem&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Expectation&lt;/strong&gt;: AI agents will self-monitor and self-correct, reducing human burden.&lt;br /&gt;
+&lt;strong&gt;Reality&lt;/strong&gt;: &lt;em&gt;“Explainable AI” is still one to two years away, just like how Level 5 self-driving cars are gonna happen any day now and this will be the year of Linux on the desktop&lt;/em&gt;. Monitoring AI will be qualitatively different from traditional automation because:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI decision-making is often opaque (e.g., large language models, reinforcement learning).&lt;/li&gt;
+  &lt;li&gt;AI operates in complex, evolving environments, making the establishment of clear rules for acceptable behavior harder.&lt;/li&gt;
+  &lt;li&gt;AI doesn’t just “execute” tasks like traditional automation - it autonomously decides how to execute them, creating failure modes that are hard to anticipate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ramification&lt;/strong&gt;: Humans will struggle to monitor AI decisions in real-time, just as DevOps engineers struggle with brittle, YAML-driven pipelines. The very complexity AI is meant to reduce will resurface in debugging its behavior.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-skill-rot-problem-humans-as-unpracticed-ai-owners&quot;&gt;&lt;strong&gt;The “Skill Rot” Problem: Humans as Unpracticed AI “Owners”&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Expectation&lt;/strong&gt;: AI will handle most routine decision-making, freeing humans for “higher-level” strategy.&lt;br /&gt;
+&lt;strong&gt;Reality:&lt;/strong&gt; &lt;em&gt;Remember the Y2K bug, when enterprise recruiters beat down retirement home doors for Fortran and Cobol programmers? What if we recreate that 52-card pickup between all our subject matter experts and our business-sensitive context on a recurring basis?&lt;/em&gt;  When humans are removed from day-to-day operations, their ability to intervene effectively in edge cases deteriorates, similar to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pilots losing manual flying skills due to autopilot dependence.&lt;/li&gt;
+  &lt;li&gt;Process operators in automated plants struggling to diagnose failures because they lack hands-on experience.&lt;/li&gt;
+  &lt;li&gt;Software developers becoming automation babysitters rather than programmatic experts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ramification&lt;/strong&gt;: Human expertise will degrade over time, just as in other automation-heavy fields. This is dangerous because when AI fails, humans will have to step in, but they’ll be less capable of doing so.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-brittle-autonomy-trap&quot;&gt;&lt;strong&gt;The Brittle Autonomy Trap&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Expectation:&lt;/strong&gt; AI systems will become robust and handle more complex tasks over time.&lt;br /&gt;
+&lt;strong&gt;Reality&lt;/strong&gt;: &lt;em&gt;You asked the AI to buy lunch for the seaside offsite, and now it’s sending a DoorDash driver with 48 pounds of frozen shrimp to your office.&lt;/em&gt; Over-automated AI systems could become brittle, meaning:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI can handle predictable tasks exceptionally well, but when unexpected scenarios arise, it collapses catastrophically.&lt;/li&gt;
+  &lt;li&gt;AI can mask failures - just as industrial automation can compensate for a failing machine until a catastrophic breakdown.&lt;/li&gt;
+  &lt;li&gt;Humans may not realize AI is failing until it is too late.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ramification:&lt;/strong&gt; AI will make systems appear more stable than they are until a major failure reveals hidden fragility, just as DevOps pipelines and industrial automation have done in the past.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-ironies-of-agentic-ai&quot;&gt;&lt;strong&gt;The Ironies of Agentic AI&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;In 1979, a presentation at a regional IBM office led to one of the most memeable images of our age:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2025/accountable.png&quot; alt=&quot;1979 IBM slide stating in ALL CAPS that &amp;quot;A computer can never be held accountable therefore a computer must never make a management decision&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dair-community.social/@emilymbender/112821332058013242&quot;&gt;While many have attempted to track the original author&lt;/a&gt;, the slide’s origins appear to have &lt;a href=&quot;https://werd.io/2024/a-computer-can-never-be-held-accountable&quot;&gt;been lost to a flood in 2019&lt;/a&gt;. But the sentiment is true: people need to be accountable, not just to provide the “one neck to wring” when things go wrong, but because AI has no concept of morality, ethics, or law. Human judgement in these systems is a feature, not a bug.&lt;/p&gt;
+
+&lt;p&gt;The more we delegate to AI:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The more challenging it will be for humans to intervene effectively when needed.&lt;/li&gt;
+  &lt;li&gt;The more brittle and opaque our systems will become.&lt;/li&gt;
+  &lt;li&gt;The greater the risk that AI will exacerbate rather than eliminate human errors.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just as Bainbridge’s Ironies of Automation warned that automation doesn’t eliminate human problems but shifts them, &lt;strong&gt;Agentic AI may increase a company’s dependence on human oversight, but in a harder, not easier way&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Executives, especially under current economic pressure, are keen to buy Agentic AI’s to achieve additional efficiencies while reducing employee overhead. However, the &lt;em&gt;actual&lt;/em&gt; outcome may be &lt;strong&gt;systems where people are still crucial, but in ways they neither anticipated nor are well-prepared for&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Generative AI systems have utility&lt;/strong&gt;. In fact, I used several of these tools to help write this piece: asking where the central argument could be stronger, looking for related examples to address gaps, and correcting the overall grammar. And from industrial robots on assembly lines to inbox spam detection, there are copious examples of automation being a net positive in modern life; the automation doing the jobs that are either too tedious, dangerous, or unfulfilling for human effort.&lt;/p&gt;
+
+&lt;p&gt;These agents will be attempted. That bandwagon has left on &lt;del&gt;autopilot&lt;/del&gt; CoPilot™. However, as those responsible for manifesting those systems within organizations, it is imperative that we heed Bainbridge’s “Ironies of Automation” and don’t blindly automate everything. When automation is called for, we must &lt;strong&gt;keep human operators engaged through training, simulation, and periodic manual operation&lt;/strong&gt; while &lt;strong&gt;designing automation to fail in clear and obvious ways to prompt easier human interventions&lt;/strong&gt;. If we can do that, we’ll support and sustain human expertise, not erode it.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 13 Mar 2025 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2025/03/13/IroniesOfAgenticAI</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2025/03/13/IroniesOfAgenticAI</guid>
+                
+                <category>Software Development</category>
+                
+                <category>AI</category>
+                
+                
+            </item>
         
             <item>
                 <title>Oppose the TAKE IT DOWN Act</title>
@@ -672,42 +807,6 @@ That concludes the March Writing Challenge and, with it, Aesop 2121. If you have
                 <pubDate>Tue, 26 Mar 2024 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2024/03/26/TheBrokerAndTheMiller</link>
                 <guid isPermaLink="true">https://matthewreinbold.com/2024/03/26/TheBrokerAndTheMiller</guid>
-                
-                <category>Aesop2121</category>
-                
-                <category>scifi</category>
-                
-                <category>writing</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Kid and the Wolf</title>
-                <description>&lt;p&gt;While technology may change, human behavior does not. At least, that’s what reading the collection of Aesop’s Fables suggests. The characters and motivations in the parables, attributed to Aesop after he died in 564 BCE, remain relevant today.&lt;/p&gt;
-
-&lt;p&gt;Aesop 2021 projects these well-known (and not-so-known) stories into an age only a stone’s throw from our own. When cynicism and pessimism abound, hope becomes a rebellious act against the tyranny of the default. Each story recasts a fable’s lesson from our upcoming solarpunk future as a software tale.&lt;/p&gt;
-
-&lt;p&gt;The Aesop 2021 project is part of the &lt;a href=&quot;https://app.writinganalytics.co/challenge/65de2439a653549bd3537227&quot;&gt;Never Break the Chain March Writing Challenge&lt;/a&gt;. The original sources were translated by George Fyler Townsend and &lt;a href=&quot;https://gutenberg.org/cache/epub/21/pg21-images.html#link2H_4_0077&quot;&gt;provided under the Project Gutenberg license&lt;/a&gt;. Addition reference provided by &lt;a href=&quot;https://read.gov/aesop/about.html&quot;&gt;a Library of Congress interactive book&lt;/a&gt; adapted from the public domain book “The Aesop for Children: with Pictures by Milo Winter,” published by Rand, McNally &amp;amp; Co in 1919.&lt;/p&gt;
-
-&lt;h2 id=&quot;below-is-the-latest-installment&quot;&gt;Below is the latest installment.&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/2024/03/kid.png&quot; alt=&quot;A picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The shepherd gathered the Keen-Insight-Drones (K.I.D.s) and left them to recharge overnight on the roof. The thousands of bots, each no bigger than a forefinger, pulsed away happily as they uploaded the day’s environmental monitoring.&lt;/p&gt;
-
-&lt;p&gt;As the sun set, the billionaire called “the Wolf” strode into earshot on his way to an important meeting. Seeing him, the K.I.D.s diverted cycles to chitter and taunt him. Unperturbed, the Wolf waved off the cacophony of boos and bleeps. “So opinionated when you’re safely stowed,” he said. “Pray I never have so much free time to return the favor when I find you alone.”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Original&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A KID standing on the roof of a house, out of harm’s way, saw a Wolf passing by and immediately began to taunt and revile him. The Wolf, looking up, said, “Sirrah! I hear thee: yet it is not thou who mockest me, but the roof on which thou art standing.”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Moral of the Story&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Words spoken from a position of power or safety might not hold the same weight when the situation changes.&lt;/p&gt;
-</description>
-                <pubDate>Mon, 25 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/25/TheKidAndTheWolf</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/25/TheKidAndTheWolf</guid>
                 
                 <category>Aesop2121</category>
                 
