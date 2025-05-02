@@ -3,14 +3,14 @@
     <channel>
         <title>Matthew Reinbold</title>
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
-        <link>https://matthewreinbold.com/</link>
-        <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 02 May 2025 15:39:31 -0500</pubDate>
-        <lastBuildDate>Fri, 02 May 2025 15:39:31 -0500</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 02 May 2025 16:01:57 -0500</pubDate>
+        <lastBuildDate>Fri, 02 May 2025 16:01:57 -0500</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
         
             <item>
-                <title>This Stupidity Is Brought to You by the Letter F (for Funding Cuts)</title>
+                <title>This Stupidity Is Brought to You by the Letter F</title>
                 <description>&lt;p&gt;Life before electrification isn’t some dorm room hypothetical about the good old days of kerosene and character. It’s something my grandfather actually lived through. He spoke &lt;em&gt;glowingly&lt;/em&gt; about the Rural Electrification Administration. In the 1930s and 40s, the REA brought power for production, radios for news, and watts for refrigeration and heat to rural South Dakota. In other words, REA lit this corner of the world.&lt;/p&gt;
 
 &lt;p&gt;Fast forward several decades, and I was a kid growing up on that same patch of prairie. Our farm had electricity, sure, but options? Not so much. On a good weather day, we might pick up the NBC or CBS affiliates from Bismarck, ND, over a hundred miles away. But even when those cut out, we could always count on &lt;strong&gt;three&lt;/strong&gt; PBS stations. And thank goodness for that.&lt;/p&gt;
@@ -27,7 +27,7 @@
 
 &lt;h2 id=&quot;connection-is-infrastructure&quot;&gt;Connection is Infrastructure&lt;/h2&gt;
 
-&lt;p&gt;A country doesn’t stop at the edge of the suburbs. The REA knew that in the 1930s, which is why it didn’t throw up its hands and say, “Sorry, Dakotas; come back when you have your own Rockefeller or J.P. Morgan.” It brought electricity to the places that private industry couldn’t be bothered with. Because connection isn’t just about convenience. It’s about opportunity. It’s about building neighborhoodsf. It’s about saying, “You live here too. You matter.”&lt;/p&gt;
+&lt;p&gt;A country doesn’t stop at the edge of the suburbs. The REA knew that in the 1930s, which is why it didn’t throw up its hands and say, “Sorry, Dakotas; come back when you have your own Rockefeller or J.P. Morgan.” It brought electricity to the places that private industry couldn’t be bothered with. Because connection isn’t just about convenience. It’s about opportunity. It’s about building neighborhoods. It’s about saying, “You live here too. You matter.”&lt;/p&gt;
 
 &lt;p&gt;That same mindset is what made public broadcasting work. NPR and PBS didn’t show up in rural towns because there was money to be made. They showed up because we decided - as a country - that everyone should have access to stories, education, and the arts - not just the zip codes capable of subscribing to stream six subscription services only to complain that there’s nothing on.&lt;/p&gt;
 
@@ -97,8 +97,8 @@ This isn’t just about programming. It’s about a shared belief that every zip
 &lt;p&gt;If we let CPB go dark, we’re not just cutting costs - we’re cutting people out. And no one should need a streaming subscription to feel like a citizen.&lt;/p&gt;
 </description>
                 <pubDate>Fri, 02 May 2025 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2025/05/02/ThisStupidity</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2025/05/02/ThisStupidity</guid>
+                <link>http://localhost:4000/2025/05/02/ThisStupidity</link>
+                <guid isPermaLink="true">http://localhost:4000/2025/05/02/ThisStupidity</guid>
                 
                 <category>culture</category>
                 
@@ -232,8 +232,8 @@ This isn’t just about programming. It’s about a shared belief that every zip
 &lt;p&gt;These agents will be attempted. That bandwagon has left on &lt;del&gt;autopilot&lt;/del&gt; CoPilot™. However, as those responsible for manifesting those systems within organizations, it is imperative that we heed Bainbridge’s “Ironies of Automation” and don’t blindly automate everything. When automation is called for, we must &lt;strong&gt;keep human operators engaged through training, simulation, and periodic manual operation&lt;/strong&gt; while &lt;strong&gt;designing automation to fail in clear and obvious ways to prompt easier human interventions&lt;/strong&gt;. If we can do that, we’ll support and sustain human expertise, not erode it.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 13 Mar 2025 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2025/03/13/IroniesOfAgenticAI</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2025/03/13/IroniesOfAgenticAI</guid>
+                <link>http://localhost:4000/2025/03/13/IroniesOfAgenticAI</link>
+                <guid isPermaLink="true">http://localhost:4000/2025/03/13/IroniesOfAgenticAI</guid>
                 
                 <category>Software Development</category>
                 
@@ -278,8 +278,8 @@ This isn’t just about programming. It’s about a shared belief that every zip
 &lt;p&gt;Matthew Reinbold&lt;/p&gt;
 </description>
                 <pubDate>Mon, 10 Mar 2025 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2025/03/10/StopTheTakeItDownAct</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2025/03/10/StopTheTakeItDownAct</guid>
+                <link>http://localhost:4000/2025/03/10/StopTheTakeItDownAct</link>
+                <guid isPermaLink="true">http://localhost:4000/2025/03/10/StopTheTakeItDownAct</guid>
                 
                 <category>law</category>
                 
@@ -345,8 +345,8 @@ This isn’t just about programming. It’s about a shared belief that every zip
 &lt;p&gt;And when you do, &lt;a href=&quot;https://opinuendo.com/@matthew&quot;&gt;ping me on Mastodon&lt;/a&gt;, so I can read it.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 04 Feb 2025 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2025/02/04/OnWriting</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2025/02/04/OnWriting</guid>
+                <link>http://localhost:4000/2025/02/04/OnWriting</link>
+                <guid isPermaLink="true">http://localhost:4000/2025/02/04/OnWriting</guid>
                 
                 <category>Culture</category>
                 
@@ -403,8 +403,8 @@ This isn’t just about programming. It’s about a shared belief that every zip
 &lt;p&gt;I did hear from Senator Tina Smith shortly after holiday break. While her email was short and explained that the bill was currently in the judiciary committee, which she wasn’t part of, she expressed her support for it if or when it was brought to the floor for a vote.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 20 Nov 2024 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2024/11/20/PassThePressAct</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/11/20/PassThePressAct</guid>
+                <link>http://localhost:4000/2024/11/20/PassThePressAct</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/11/20/PassThePressAct</guid>
                 
                 <category>Culture</category>
                 
@@ -446,8 +446,8 @@ This isn’t just about programming. It’s about a shared belief that every zip
 &lt;p&gt;Matthew Reinbold&lt;/p&gt;
 </description>
                 <pubDate>Wed, 13 Nov 2024 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2024/11/13/ThanksTim</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/11/13/ThanksTim</guid>
+                <link>http://localhost:4000/2024/11/13/ThanksTim</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/11/13/ThanksTim</guid>
                 
                 <category>Culture</category>
                 
@@ -729,8 +729,8 @@ This isn’t just about programming. It’s about a shared belief that every zip
 &lt;p&gt;Thank you for the time and the opportunity to share.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 30 Sep 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/09/30/TurboEncabulator</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/09/30/TurboEncabulator</guid>
+                <link>http://localhost:4000/2024/09/30/TurboEncabulator</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/09/30/TurboEncabulator</guid>
                 
                 <category>Software Change</category>
                 
@@ -787,8 +787,8 @@ That concludes the March Writing Challenge and, with it, Aesop 2121. If you have
 &lt;em&gt;A picture from the Global Climate Strike March in Washington, DC, September 20th, 2019&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Fri, 29 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/29/TheFliesAndTheHoneypot</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/29/TheFliesAndTheHoneypot</guid>
+                <link>http://localhost:4000/2024/03/29/TheFliesAndTheHoneypot</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/29/TheFliesAndTheHoneypot</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -823,8 +823,8 @@ That concludes the March Writing Challenge and, with it, Aesop 2121. If you have
 &lt;p&gt;In software, as in life, we must not allow the lure of potential gains to blind us to the value of what we already possess - otherwise, the desire to obtain more can lead to losing everything one has.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 28 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/28/TheDogAndHisShadow</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/28/TheDogAndHisShadow</guid>
+                <link>http://localhost:4000/2024/03/28/TheDogAndHisShadow</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/28/TheDogAndHisShadow</guid>
                 
                 <category>Aesop2121</category>
                 
@@ -865,8 +865,8 @@ That concludes the March Writing Challenge and, with it, Aesop 2121. If you have
 &lt;p&gt;Unity and cooperation within a community or system are vital in software, as in life. Each part has its role. Even if that role doesn’t seem active or visible, it’s vital for the overall functioning and well-being of the whole. Disregarding or undermining the importance of any role or member can detriment the entire system. Ultimately, it is essential to recognize and respect each other’s contributions, understanding that everyone plays a part in the overall success and health.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 27 Mar 2024 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2024/03/27/TheBellyAndItsMembers</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2024/03/27/TheBellyAndItsMembers</guid>
+                <link>http://localhost:4000/2024/03/27/TheBellyAndItsMembers</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/03/27/TheBellyAndItsMembers</guid>
                 
                 <category>Aesop2121</category>
                 
