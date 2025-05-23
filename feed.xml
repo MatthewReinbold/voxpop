@@ -5,8 +5,8 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 16 May 2025 16:55:52 -0500</pubDate>
-        <lastBuildDate>Fri, 16 May 2025 16:55:52 -0500</lastBuildDate>
+        <pubDate>Fri, 23 May 2025 16:22:43 -0500</pubDate>
+        <lastBuildDate>Fri, 23 May 2025 16:22:43 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -300,9 +300,9 @@ This isn’t just about programming. It’s about a shared belief that every zip
 
 &lt;p&gt;I’ve heard from several recipients, including Senator Tina Smith. She has announced that she won’t seek re-election when her term ends in 2026. However, despite her time in the Senate ending, she has continued to be personal, responsive, and articulate on the issues I’ve contacted her about.&lt;/p&gt;
 
-&lt;p&gt;Representative Angie https://matthewreinbold.com/, however, is another matter. Considering she has spoken in favor of the Take It Down Act, I didn’t know what to expect writing her. However, I would have had more respect for silence than the oddly phrased, generic “protecting personal data” letter I received. I understand these are busy people and I wouldn’t expect a personalized “F-U” from a bill supporter. But printing and mailing “default data pearl-clutching response #7” from the stack just makes her (and/or her staff) look that much more out of touch with the current moment.&lt;/p&gt;
+&lt;p&gt;Representative Angie Craig, however, is another matter. Considering she has spoken in favor of the Take It Down Act, I didn’t know what to expect writing her. However, I would have had more respect for silence than the oddly phrased, generic “protecting personal data” letter I received. I understand these are busy people and I wouldn’t expect a personalized “F-U” from a bill supporter. But printing and mailing “default data pearl-clutching response #7” from the stack just makes her (and/or her staff) look that much more out of touch with the current moment.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/2025/angie_https://matthewreinbold.com/.jpg&quot; alt=&quot;A photo of Angie https://matthewreinbold.com/&apos;s letter in response to my concerns regarding the Take It Down Act. It starts with &amp;quot;Thank you for contacting me about data privacy. I hear your concern that individuals&apos; personal data may be used without their consent.&amp;quot; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2025/angie_craig.jpg&quot; alt=&quot;A photo of Angie Craig&apos;s letter in response to my concerns regarding the Take It Down Act. It starts with &amp;quot;Thank you for contacting me about data privacy. I hear your concern that individuals&apos; personal data may be used without their consent.&amp;quot; &quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Sigh.&lt;/em&gt;&lt;/p&gt;
 
@@ -310,9 +310,19 @@ This isn’t just about programming. It’s about a shared belief that every zip
 
 &lt;p&gt;As &lt;a href=&quot;https://www.eff.org/deeplinks/2025/04/congress-passes-take-it-down-act-despite-major-flaws&quot;&gt;mentioned by the EFF&lt;/a&gt;, the U.S. House of Representatives today passed the Take It Down act. It now moves on to be signed into law by the President.&lt;/p&gt;
 
-&lt;h2 id=&quot;update-2024-05-15&quot;&gt;Update 2024-05-15&lt;/h2&gt;
+&lt;h2 id=&quot;update-2025-05-15&quot;&gt;Update 2025-05-15&lt;/h2&gt;
 
 &lt;p&gt;It has been weeks but I have yet to see confirmation that this has been signed. Odd.&lt;/p&gt;
+
+&lt;h2 id=&quot;update-2025-05-19&quot;&gt;Update 2025-05-19&lt;/h2&gt;
+
+&lt;p&gt;Today, Monday the 19th, &lt;a href=&quot;https://www.theverge.com/news/661230/trump-signs-take-it-down-act-ai-deepfakes&quot;&gt;Trump signed the Take It Down Act into law&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The law makes publishing NCII, whether real or AI-generated, criminally punishable by up to three years in prison, plus fines. It also requires social media platforms to have processes to remove NCII within 48 hours of being notified and ‘make reasonable efforts’ to remove any copies. The Federal Trade Commission is tasked with enforcing the law, and companies have a year to comply.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://connect.iftas.org/library/legal-regulatory/take-it-down-act-2025-usa/&quot;&gt;The Internet Federated Trust and Safety Group (or IFTAS) released guidance for online moderators&lt;/a&gt; on how to approach their new responsibilities under the law. This isn’t just a concern for the Instasnaps and Facetubes of the world - even moderators of individual Mastodon instances are potentially liable, as the law applies to “any online service that allows users to share or distribute user-generated content,” regardless of size or commercial status.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 10 Mar 2025 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2025/03/10/StopTheTakeItDownAct</link>
