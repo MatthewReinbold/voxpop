@@ -5,8 +5,8 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 19 Jun 2025 16:54:37 -0500</pubDate>
-        <lastBuildDate>Thu, 19 Jun 2025 16:54:37 -0500</lastBuildDate>
+        <pubDate>Fri, 20 Jun 2025 09:49:30 -0500</pubDate>
+        <lastBuildDate>Fri, 20 Jun 2025 09:49:30 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -15,17 +15,17 @@
 
 &lt;p&gt;&lt;strong&gt;The problem isn’t coding with GenAI. The problem is what coding with GenAI lets us get away with&lt;/strong&gt;. It allows us to delay making real choices, real trade-offs, and real systemic changes by giving the illusion of movement and acceleration. In a moment where maintenance, curation, and simplification are the actual leverage points, we’re rewarding copycat output. Not because software developers are stupid or short-cited, but because our incentives, our markets, and our social platforms have been rewired to reward volume over truth, sizzle over substance.&lt;/p&gt;
 
-&lt;h3 id=&quot;disclosure-i-use-generative-ai-tools-almost-every-day&quot;&gt;Disclosure: I use generative AI tools almost every day.&lt;/h3&gt;
-&lt;p&gt;I will state clearly up front that I use generative AI nearly every day. Like most of my other recent work, this piece was developed with the help of large language models. As a remote worker, having a tireless, talkative partner &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubber_duck_debugging&quot;&gt;to rubber-duck with&lt;/a&gt; is essential. It’s like a writing circle, albeit one that’s available 24/7, never gets hangry, and has perfect recall of conversations we might have had weeks, if not months, prior. Often, just articulating half-formed intuitions or unspoken feelings into a prompt is, in itself, the benefit of using these tools. Refining ideas is great, but using something like ChatGPT also helps expose flaws in an argument or suggest factors I may not have considered.&lt;/p&gt;
+&lt;h3 id=&quot;upfront-disclosure-i-use-generative-ai-tools-almost-every-day&quot;&gt;Upfront Disclosure: I use generative AI tools almost every day.&lt;/h3&gt;
+&lt;p&gt;Many otherwise genuine criticisms of AI are undercut when you discover the author has no experience with the tools, and is wailing on strawmen of their own design.&lt;/p&gt;
 
-&lt;p&gt;However, because I use it regularly, I can see its limits. GenAI is beneficial for what it is: a fast feedback loop, a pattern spotter, and a corpus summarizer. What it is &lt;em&gt;not&lt;/em&gt; is a substitute for the hard work of making trade-offs, reducing complexity, or building healthy systems.&lt;/p&gt;
+&lt;p&gt;I will state clearly up front that I use generative AI (genAI) nearly every day. In fact, this piece was developed with the help of large language models. As a remote worker, having a tireless, talkative partner &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubber_duck_debugging&quot;&gt;to rubber-duck with&lt;/a&gt; is essential. It’s like a writing circle, albeit one that’s available 24/7, never gets hangry, and has perfect conversational recall. Even just having to articulate half-formed intuitions or unspoken feelings into a prompt is beneficial. Beyond that, something like ChatGPT is great for identifying weaknesses in arguments or highlighting hiccups in flow.&lt;/p&gt;
 
-&lt;p&gt;And yet, in boardrooms and strategy decks across the tech industry, GenAI is rapidly being positioned as precisely that: a cure-all for reduced budgets, ballooning backlogs, and teams struggling to maintain momentum under mounting pressure.&lt;/p&gt;
+&lt;p&gt;However, because I use it regularly, I see its limits. GenAI is beneficial for what it is: a fast feedback loop, a pattern spotter, and a corpus summarizer. What it is &lt;em&gt;not&lt;/em&gt; is a substitute for the hard work of making trade-offs, reducing complexity, or building healthy systems.&lt;/p&gt;
 
-&lt;p&gt;It’s understandable; &lt;strong&gt;if you’re drowning, you don’t critique the lifeboat&lt;/strong&gt;. But that doesn’t mean you’re destined for solid ground.&lt;/p&gt;
+&lt;p&gt;And yet, in boardrooms and strategy decks across the tech industry, GenAI is rapidly being positioned as precisely that: a cure-all for reduced budgets, ballooning backlogs, and stressed teams struggling to maintain momentum. There’s a tremendous amount of hype, and seemingly little critical thinking, which is understandable if you think about it for a moment; &lt;strong&gt;if you’re drowning, you don’t critique any potential lifeboat&lt;/strong&gt;. But that doesn’t mean you’re destined for solid ground.&lt;/p&gt;
 
-&lt;h3 id=&quot;the-developer-productivity-trap-has-only-grown&quot;&gt;The developer productivity trap has only grown.&lt;/h3&gt;
-&lt;p&gt;A moment of empathy for leadership (but just a moment, I promise!). &lt;a href=&quot;https://ferd.ca/the-gap-through-which-we-praise-the-machine.html&quot;&gt;As explained by Honeycomb.io SRE Fred Hebert&lt;/a&gt;:&lt;/p&gt;
+&lt;h3 id=&quot;the-ai-hype-has-only-grown&quot;&gt;The AI hype has only grown.&lt;/h3&gt;
+&lt;p&gt;What you’re hearing about genAI is just due to your leadership, but an entire ecosystem of misaligned incentives. &lt;a href=&quot;https://ferd.ca/the-gap-through-which-we-praise-the-machine.html&quot;&gt;Fred Hebert, a Honeycomb.io SRE, recently pointed out&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“The usefulness and success of using LLMs are axiomatically taken for granted and the mandate for their adoption can often come from above your CEO. Your execs can be as baffled as anyone else having to figure out where to jam AI into their product. Adoption may be forced to keep board members, investors, and analysts happy, regardless of what customers may be needing.&lt;/p&gt;
@@ -35,11 +35,11 @@
   &lt;p&gt;“It does not matter whether LLMs can or cannot deliver on what they promise: people calling the shots assume they can, so it’s gonna happen no matter what.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;That’s bad enough. But add to that the “macroeconomic headwinds” howling since 2023 and their CFO discovering the phrase “unit economics,” and suddenly their entire job is to make the line go up &lt;em&gt;with fewer reporting lines&lt;/em&gt;. Releases are slipping, infrastructure is groaning, and the most experienced engineers are leaving for places that didn’t mandate a return-to-office (RTO).&lt;/p&gt;
+&lt;p&gt;That’s … &lt;em&gt;not great&lt;/em&gt;. But add to that the “macroeconomic headwinds” howling since 2023 and suddenly tech leadership’s job is to make the line go up &lt;em&gt;with fewer reporting lines&lt;/em&gt;. Releases are slipping, infrastructure is groaning, and the most experienced engineers are leaving for places that didn’t mandate a return-to-office (RTO).&lt;/p&gt;
 
-&lt;p&gt;It is hard to ignore claims coming from &lt;a href=&quot;https://www.bloomberg.com/news/audio/2024-08-07/odd-lots-how-goldman-sachs-is-actually-using-ai-podcast&quot;&gt;the likes of Goldman Sachs’ CIO, who recently named &lt;strong&gt;developer productivity the #1 GenAI use case&lt;/strong&gt;&lt;/a&gt;. Similarly, &lt;a href=&quot;https://www.businessinsider.com/ai-google-engineers-coding-productive-sundar-pichai-alphabet-2025-6&quot;&gt;Google says its engineers are 10% more productive&lt;/a&gt;. And when LinkedIn is abuzz with claims like, “GenAI made development 2x faster and restored my hairline”, your leadership’s first thought isn’t, “At what cost?” but “Where do I sign?”&lt;/p&gt;
+&lt;p&gt;It is hard to ignore cheerleading coming from &lt;a href=&quot;https://www.bloomberg.com/news/audio/2024-08-07/odd-lots-how-goldman-sachs-is-actually-using-ai-podcast&quot;&gt;the likes of Goldman Sachs’ CIO, who recently named &lt;strong&gt;developer productivity the #1 GenAI use case&lt;/strong&gt;&lt;/a&gt;. Similarly, &lt;a href=&quot;https://www.businessinsider.com/ai-google-engineers-coding-productive-sundar-pichai-alphabet-2025-6&quot;&gt;Google says its engineers are 10% more productive&lt;/a&gt;. And when LinkedIn is abuzz with claims like, “GenAI made development 2x faster and restored my hairline”, your leadership’s first thought isn’t, “At what cost?” but “Where do I sign?”&lt;/p&gt;
 
-&lt;p&gt;And why not? Follicle foibles aside, genAI’s pitch for struggling software shops is irresistible:&lt;/p&gt;
+&lt;p&gt;And why not? The pitch is irresistible:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;No reorgs&lt;/li&gt;
@@ -57,37 +57,28 @@
 &lt;p&gt;In other words, the problem isn’t throughput. It’s &lt;em&gt;clarity&lt;/em&gt;. &lt;strong&gt;And when you chase productivity without clarity, you just accelerate the mess&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;“Ship more” sounds great in a slide deck. Until you realize you’re shipping complexity faster than your team can understand it.&lt;/p&gt;
+
 &lt;h3 id=&quot;shipping-more-faster-is-a-recipe-for-disaster&quot;&gt;Shipping more, faster is a recipe for disaster.&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ufried.com/blog/ai_and_software_development_1/&quot;&gt;There’s a great quote from Uwe Friedrichsen about this very topic&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ufried.com/blog/ai_and_software_development_1/&quot;&gt;In his series about simplifying architecture, Uwe Friedrichsen summarizes the situation&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“We are pushing to do the wrong things better and better.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This is a nice way of describing what happens when GenAI is brought in to “fix” developer productivity without anyone slowing down to ask what’s actually broken. Because, in most companies, the limiting factor on delivery isn’t typing speed. It is that nobody knows what anything does, who owns it, or whether changing it will cause an AWS outage in us-east-1.&lt;/p&gt;
-
-&lt;p&gt;In practice, most teams are “empowered” to move fast. You’ve got an internal platform, and maybe even a shiny API gateway with some developer self-service. The marketing team is standing up a new site in conjunction with a launch and needs some data, so engineering does what it does best: &lt;strong&gt;building a new point-to-point API&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;And then another team, unknowingly, builds their own version. And then a third team copies the first one but tweaks it because they needed “just one extra parameter”. None of them are discoverable. None of them are tested the same way. Two are documented in Confluence, and one of those hasn’t been updated since the pre-pandemic era when bread-making and toilet paper hoarding were strategic initiatives.&lt;/p&gt;
-
-&lt;p&gt;But all that activity &lt;em&gt;feels&lt;/em&gt; productive. Pull requests merged. Endpoints are deployed. Dashboards provide a veneer of control. Someone points to “velocity” in a meeting, and everyone nods along solemnly.&lt;/p&gt;
-
-&lt;p&gt;It is the classic API multi-variant problem. We make it easy to ship an API, but we didn’t make it easy to change one. Or kill one. Or even figure out who owns one.&lt;/p&gt;
-
-&lt;p&gt;And now, enter GenAI, &lt;em&gt;the ultimate enabler of “just one more”&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;When GenAI is brought in to “fix” developer productivity without anyone slowing down to ask what’s actually broken, things only get worse. Because GenAI is &lt;em&gt;the ultimate enabler of “just one more”&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;More code, more endpoints, more opacity stacked on legacy systems, generated in milliseconds by tools that have no idea about what is right or wrong for a given context, only probabilistic matches for code in its training data.&lt;/p&gt;
 
 &lt;p&gt;That may work for the seven-thousandth example of a social network client. But the more unique the context, the less capable the help.&lt;/p&gt;
 
-&lt;h3 id=&quot;genai-isnt-replacing-developers-its-replacing-decisions&quot;&gt;GenAI isn’t replacing developers; it’s replacing decisions.&lt;/h3&gt;
+&lt;h3 id=&quot;genai-isnt-replacing-developers-its-replacing-decision-making&quot;&gt;GenAI isn’t replacing developers; it’s replacing decision-making.&lt;/h3&gt;
 &lt;p&gt;There’s a whole separate article about &lt;a href=&quot;https://www.reddit.com/r/technology/comments/1ku03ov/ibm_laid_off_8000_employees_to_replace_them_with/&quot;&gt;how companies use GenAI hype to justify layoffs and then quietly rehire for the same roles at a cheaper, overseas rate&lt;/a&gt;. Assuming your company isn’t attempting a stealth outsourcing, GenAI isn’t actually making developers obsolete. It is making &lt;em&gt;choices&lt;/em&gt; obsolete.&lt;/p&gt;
 
 &lt;p&gt;When you drop Copilot or CodeWhisperer into a team that’s already under pressure, you don’t get thoughtful design. You get &lt;strong&gt;code at the speed of vibes&lt;/strong&gt;. Half-understood prompts, half-documented results, and auto-complete-driven architecture. Everyone nods along because nobody wants to look like the one standing in the way of “the future”; or at least, there’s little professional benefit.&lt;/p&gt;
 
-&lt;p&gt;So you get development shops like Fly.io. Fly.io recently published a piece about how they’ve incorporated genAI into their development process. &lt;a href=&quot;https://fly.io/blog/youre-all-nuts/&quot;&gt;They declared, “My AI skeptic friends are all nuts”&lt;/a&gt;. In essence, they said, “AI lets us build faster, even though it makes the code worse, so we’re just trying to slow down enough to make it usable”.&lt;/p&gt;
+&lt;p&gt;Take Fly.io. &lt;a href=&quot;https://fly.io/blog/youre-all-nuts/&quot;&gt;Fly.io recently published a piece about how they’ve incorporated genAI into their development process&lt;/a&gt;. In essence, they claim, “AI lets us build faster, even though it makes the code worse, so we’re just trying to slow down enough to make it usable”.&lt;/p&gt;
 
-&lt;p&gt;As Icelandic web developer and consultant Baldur Bjarnason points out this isn’t productivity; it’s &lt;a href=&quot;https://toot.cafe/@baldur/114619175120392006&quot;&gt;“lowering the quality bar so we can high-five each other for clearing it”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In response, Icelandic web developer and consultant Baldur Bjarnason points out this isn’t productivity; it’s &lt;a href=&quot;https://toot.cafe/@baldur/114619175120392006&quot;&gt;“lowering the quality bar so we can high-five each other for clearing it”&lt;/a&gt;. He continues:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;It’s not that the code is good. It’s that it is fast, and nobody has time to care anymore.&lt;/strong&gt;&lt;/p&gt;
 
@@ -101,11 +92,13 @@
 
 &lt;p&gt;Meanwhile, you’ve automated yourself into a corner, a bigger, messier, tech-debtier corner, but a corner nonetheless.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/2025/help.png&quot; alt=&quot;&amp;quot;A pair of tweets from a user on Twitter. In the first, he brags about how he vibe coded his way to an application. In the second, he pleads for help, as things are failing and he doesn&apos;t know why.&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;
+![&quot;A pair of tweets from a user on Twitter. In the first, he brags about how he vibe coded his way to an application. In the second, he pleads for help, as things are failing and he doesn&apos;t know why.](/images/2025/help.png)
+&lt;/center&gt;
 
 &lt;h3 id=&quot;solving-systems-complexity-requires-a-different-kind-of-leadership&quot;&gt;Solving systems complexity requires a different kind of leadership.&lt;/h3&gt;
 
-&lt;p&gt;It’s easy to dunk on the AI hype. It’s harder to offer something better, especially when your calendar is full, your team is thin, and your CFO wants you to explain why your delivery metrics didn’t improve &lt;em&gt;after you gave everyone robot interns&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Dunking on the AI hype is easy; there’s several extremely online types that have made it their entire personality the last several months. It’s harder to conceive of something better, especially when your calendar is full, your team is thin, and your CFO wants you to explain why your delivery metrics didn’t improve &lt;em&gt;after you gave everyone robot interns&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;I will say &lt;strong&gt;you’re not crazy for wanting relief&lt;/strong&gt;. You’re just not going to find it in autocomplete.&lt;/p&gt;
 
