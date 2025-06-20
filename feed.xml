@@ -5,8 +5,8 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Jun 2025 09:55:56 -0500</pubDate>
-        <lastBuildDate>Fri, 20 Jun 2025 09:55:56 -0500</lastBuildDate>
+        <pubDate>Fri, 20 Jun 2025 09:59:45 -0500</pubDate>
+        <lastBuildDate>Fri, 20 Jun 2025 09:59:45 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -110,28 +110,28 @@ It needs &lt;em&gt;simplification&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;five-behaviors-of-leaders-who-choose-resilience-over-vibes&quot;&gt;Five Behaviors of Leaders Who Choose Resilience Over Vibes&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Default to Deletion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Default to Deletion&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Before you greenlight another service, ask what can be shut down. Before you automate a workflow, ask whether it’s still necessary. Before you ship more, try &lt;em&gt;shipping less&lt;/em&gt;. On purpose.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;We don’t need to do more faster - we need to do less, better.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Reward Understandability&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;2. Reward Understandability&lt;/strong&gt;
 If you can’t explain it to a new hire in ten minutes, it’s a liability. Stop rewarding clever hacks. Start celebrating clarity.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Elegance is not optimization. It’s comprehension&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Defer Decisions That Add Complexity&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;3. Defer Decisions That Add Complexity&lt;/strong&gt;
 Postpone what you can. Push back on “just in case” extensibility. Favor defaults. Shrink option surfaces. Don’t widen interfaces unless there is an explicit use case.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Every new option is a tax on future understanding.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Curate What You Have&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;4. Curate What You Have&lt;/strong&gt;
 Prune your internal APIs. Archive stale docs. Audit your SDKs. Stop showcasing &lt;em&gt;how much&lt;/em&gt; you have. Start showcasing what actually works.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;If you don’t curate your ecosystem, you’re just letting complexity run the museum.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Ask: “What If We Did Nothing?”&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;5. Ask: “What If We Did Nothing?”&lt;/strong&gt;
 This one is counterintuitive but powerful. Not everything needs a fix.
 Sometimes, the bravest thing you can do is wait.&lt;/p&gt;
 
