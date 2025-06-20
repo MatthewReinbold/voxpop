@@ -5,8 +5,8 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Jun 2025 09:59:45 -0500</pubDate>
-        <lastBuildDate>Fri, 20 Jun 2025 09:59:45 -0500</lastBuildDate>
+        <pubDate>Fri, 20 Jun 2025 11:14:14 -0500</pubDate>
+        <lastBuildDate>Fri, 20 Jun 2025 11:14:14 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -25,7 +25,7 @@
 &lt;p&gt;And yet, in boardrooms and strategy decks across the tech industry, GenAI is rapidly being positioned as precisely that: a cure-all for reduced budgets, ballooning backlogs, and stressed teams struggling to maintain momentum. There’s a tremendous amount of hype, and seemingly little critical thinking, which is understandable if you think about it for a moment; &lt;strong&gt;if you’re drowning, you don’t critique any potential lifeboat&lt;/strong&gt;. But that doesn’t mean you’re destined for solid ground.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-ai-hype-has-only-grown&quot;&gt;The AI hype has only grown.&lt;/h3&gt;
-&lt;p&gt;What you’re hearing about genAI is just due to your leadership, but an entire ecosystem of misaligned incentives. &lt;a href=&quot;https://ferd.ca/the-gap-through-which-we-praise-the-machine.html&quot;&gt;Fred Hebert, a Honeycomb.io SRE, recently pointed out&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;What you’re hearing about genAI isn’t just due to your leadership, but an entire ecosystem of misaligned incentives. &lt;a href=&quot;https://ferd.ca/the-gap-through-which-we-praise-the-machine.html&quot;&gt;Fred Hebert, a Honeycomb.io SRE, recently pointed out&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“The usefulness and success of using LLMs are axiomatically taken for granted and the mandate for their adoption can often come from above your CEO. Your execs can be as baffled as anyone else having to figure out where to jam AI into their product. Adoption may be forced to keep board members, investors, and analysts happy, regardless of what customers may be needing.&lt;/p&gt;
