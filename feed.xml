@@ -5,8 +5,8 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Jun 2025 09:49:30 -0500</pubDate>
-        <lastBuildDate>Fri, 20 Jun 2025 09:49:30 -0500</lastBuildDate>
+        <pubDate>Fri, 20 Jun 2025 09:54:00 -0500</pubDate>
+        <lastBuildDate>Fri, 20 Jun 2025 09:54:00 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -78,9 +78,7 @@
 
 &lt;p&gt;Take Fly.io. &lt;a href=&quot;https://fly.io/blog/youre-all-nuts/&quot;&gt;Fly.io recently published a piece about how they’ve incorporated genAI into their development process&lt;/a&gt;. In essence, they claim, “AI lets us build faster, even though it makes the code worse, so we’re just trying to slow down enough to make it usable”.&lt;/p&gt;
 
-&lt;p&gt;In response, Icelandic web developer and consultant Baldur Bjarnason points out this isn’t productivity; it’s &lt;a href=&quot;https://toot.cafe/@baldur/114619175120392006&quot;&gt;“lowering the quality bar so we can high-five each other for clearing it”&lt;/a&gt;. He continues:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;It’s not that the code is good. It’s that it is fast, and nobody has time to care anymore.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In response, Icelandic web developer and consultant Baldur Bjarnason points out this isn’t productivity; it’s &lt;a href=&quot;https://toot.cafe/@baldur/114619175120392006&quot;&gt;“lowering the quality bar so we can high-five each other for clearing it”&lt;/a&gt;. Or said another way, &lt;strong&gt;it’s not that the code is good. It’s that it is fast, and nobody has time to care anymore&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;This isn’t just a quality problem; it’s a &lt;strong&gt;strategic one&lt;/strong&gt;. Because when GenAI becomes your default way to move forward, you stop choosing what’s worth building. You just … keep building. Faster. More often. Which only compounds problems:&lt;/p&gt;
 
