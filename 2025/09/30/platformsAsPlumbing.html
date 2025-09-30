@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Perils of Platform Plumbing (and What to Do About It)</title>
+  <meta name='description' content='This Matthew Reinbold's website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the 'Net API Notes' email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.'>
+ 
+  <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="/feed.xml">
+  
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" as="style">
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+  <!-- Ionicons -->
+  <link rel="preload" href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" as="style">
+
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <script>
+    
+      document.documentElement.setAttribute("dark", "");
+      document.documentElement.classList.add('dark-mode');
+    
+  </script>
+
+  <style>
+  
+  /*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--light-blue: #f3f7ff;--blue-gray: #716f8a;--gray: #9e9e9e;--dark: #0c101a;--dark-blue: #1e2740;--background-color: var(--white);--background-alt-color: var(--light-blue);--text-color: var(--dark-blue);--text-alt-color: var(--blue-gray);--heading-font-color: var(--dark-blue);--link-color: var(--dark-blue);--link-color-hover: var(--dark-blue);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: var(--light-blue);--border-color-alt: var(--light-blue);--th-color: var(--light-gray);--tr-color: var(--light-gray);--syntax-highlighting-background: #f3f3f3}:root[dark]{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--gray: #9e9e9e;--dark: #111016;--background-color: var(--dark);--background-alt-color: #1a1a1f;--text-color: var(--gray);--text-alt-color: var(--gray);--heading-font-color: var(--light-gray);--link-color: var(--light-gray);--link-color-hover: var(--light-gray);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: #252629;--border-color-alt: #080b12;--th-color: #18181d;--tr-color: #080b12;--syntax-highlighting-background: #080b12}.list-reset{list-style-type:none;margin:0;padding:0}.clearfix::after,.clearfix ::before{content:"";display:table;clear:both}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px;word-wrap:normal !important}/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:rgba(0,0,0,0)}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,hr{margin:0;padding:0}li>ul,li>ol{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6,ul,ol,dl,blockquote,p,address,hr,table,fieldset,figure,pre{margin-bottom:32px}ul,ol,dd{margin-left:16px}ul li,ol li{margin-bottom:10px}.highlight{margin-bottom:32px;background:var(--syntax-highlighting-background)}.highlighter-rouge .highlight{background:var(--syntax-highlighting-background)}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#5d76bf;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#ec2355}.highlight .na{color:teal}.highlight .nb{color:#0086b3}.highlight .nc{color:#5d76bf;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#4d65dc}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#ec2355}.highlight .sc{color:#ec2355}.highlight .sd{color:#ec2355}.highlight .s2{color:#ec2355}.highlight .se{color:#ec2355}.highlight .sh{color:#ec2355}.highlight .si{color:#ec2355}.highlight .sx{color:#ec2355}.highlight .sr{color:#009926}.highlight .s1{color:#ec2355}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}.container{max-width:1140px;padding-left:16px;padding-right:16px;margin:0 auto}@media only screen and (max-width: 1140px){.container{max-width:1000px}}@media only screen and (max-width: 1024px){.container{max-width:740px}}@media only screen and (max-width: 768px){.container{max-width:560px}}@media only screen and (max-width: 576px){.container{max-width:480px;padding-left:calc(16px + 4px);padding-right:calc(16px + 4px)}}.row{display:flex;flex-wrap:wrap;flex:0 1 auto;flex-direction:row;box-sizing:border-box;margin-left:-16px;margin-right:-16px}.col{padding-left:16px;padding-right:16px}[class^=col-]{flex:auto}.col-0{width:0%}.col-1{width:8.3333333333%}.col-2{width:16.6666666667%}.col-3{width:25%}.col-4{width:33.3333333333%}.col-5{width:41.6666666667%}.col-6{width:50%}.col-7{width:58.3333333333%}.col-8{width:66.6666666667%}.col-9{width:75%}.col-10{width:83.3333333333%}.col-11{width:91.6666666667%}.col-12{width:100%}.push-0{margin-left:0%}.push-1{margin-left:8.3333333333%}.push-2{margin-left:16.6666666667%}.push-3{margin-left:25%}.push-4{margin-left:33.3333333333%}.push-5{margin-left:41.6666666667%}.push-6{margin-left:50%}.push-7{margin-left:58.3333333333%}.push-8{margin-left:66.6666666667%}.push-9{margin-left:75%}.push-10{margin-left:83.3333333333%}.push-11{margin-left:91.6666666667%}.push-12{margin-left:100%}.pull-0{margin-right:0%}.pull-1{margin-right:8.3333333333%}.pull-2{margin-right:16.6666666667%}.pull-3{margin-right:25%}.pull-4{margin-right:33.3333333333%}.pull-5{margin-right:41.6666666667%}.pull-6{margin-right:50%}.pull-7{margin-right:58.3333333333%}.pull-8{margin-right:66.6666666667%}.pull-9{margin-right:75%}.pull-10{margin-right:83.3333333333%}.pull-11{margin-right:91.6666666667%}.pull-12{margin-right:100%}@media(max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media(max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media(max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media(max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media(max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media(max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media(max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media(max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media(max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}.animate{animation:animateElement cubic-bezier(0.3, 0.45, 0.45, 0.95) .75s;animation-duration:.5s;animation-iteration-count:1;transition:transform .15s}@keyframes animateElement{0%{transform:translate(0px, 50px)}100%{transform:translate(0px, 0px)}}@keyframes pulse{0%{transform:scale(1, 1)}25%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}*,*::after,*::before{box-sizing:border-box}body{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.5;overflow-x:hidden;color:var(--text-color);background-color:var(--background-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media only screen and (max-width: 576px){body{font-size:18px}}*::selection{color:var(--white);background-color:var(--brand-color)}h1,h2,h3,h4,h5,h6{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;letter-spacing:-1px;color:var(--heading-font-color)}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{position:relative;margin:40px 0;padding-left:26px;font-size:24px;line-height:1.7;font-weight:900;border-left:4px solid var(--brand-color);color:var(--heading-font-color)}blockquote p{margin-bottom:10px}blockquote cite{display:inline-block;margin-top:8px;font-size:14px;font-weight:700;font-style:normal;color:var(--heading-font-color)}@media only screen and (max-width: 576px){blockquote{font-size:21px}}pre{overflow:auto;padding:15px;margin-bottom:0;font-size:14px;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;color:var(--heading-font-color)}img,.lightense-wrap{max-width:100%;height:auto;vertical-align:middle}img+em,.lightense-wrap+em,.gallery+em{display:block;margin-top:20px;font-size:12px;line-height:22px;font-style:normal;font-weight:normal;text-align:center;color:var(--heading-font-color)}img+em a,.lightense-wrap+em a,.gallery+em a{font-weight:500;border-bottom:1px solid var(--border-color);transition:all .35s}img+em a:hover,.lightense-wrap+em a:hover,.gallery+em a:hover{color:var(--link-color);border-color:var(--link-color-hover)}@media only screen and (max-width: 576px){img+em,.lightense-wrap+em,.gallery+em{margin-top:12px}}a{text-decoration:none;color:var(--link-color);transition:all .35s}a:hover{color:var(--link-color-hover)}hr{width:100%;height:1px;margin:60px 0;border:0;background:var(--background-alt-color)}.table-container{display:block;max-width:100%;overflow-x:auto}table{font-size:12px;color:var(--dark);width:100%;border-width:1px;border-color:var(--background-alt-color);border-collapse:collapse;color:var(--heading-font-color)}table th{padding:10px;font-size:16px;text-align:left;border:1px solid var(--th-color);color:var(--heading-font-color);font-weight:700;background-color:var(--th-color)}table tr{background-color:var(--tr-color);transition:all .3s ease}table tr:nth-child(even){background-color:rgba(0,0,0,0)}table td{padding:10px;font-size:14px;border:1px solid var(--background-alt-color)}.button{display:inline-block;padding:20px 26px;font-size:16px;font-weight:700;text-decoration:none;border-radius:2px;border:none;outline:none;cursor:pointer;transition:all .25s;color:var(--heading-font-color);background:var(--background-alt-color)}.button--primary{color:var(--white);background-color:var(--button-background-color)}.button--primary:hover{background:var(--button-background-hover)}.button--big{display:block;width:100%}.lazy{opacity:0;transition:opacity .3s ease-in-out}.lazy.loaded{opacity:1}.lightense-backdrop{background-color:var(--background-color) !important}.header .header__inner{position:relative;display:flex;align-items:center;flex-wrap:wrap;padding:44px 16px}@media only screen and (max-width: 1024px){.header .header__inner{padding:40px 16px}}@media only screen and (max-width: 576px){.header .header__inner{padding:32px 16px}}.logo__link{padding:4px 0;font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:28px;letter-spacing:-1px;line-height:1;font-weight:700;transition:color .25s ease}.logo__link:hover{color:var(--brand-color)}.logo__image{max-height:50px}.main-nav{margin-left:auto}@media only screen and (max-width: 1024px){.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;opacity:0;visibility:hidden;background-color:var(--background-color)}.main-nav.is-open{opacity:1;visibility:visible;transition:all .25s ease}.main-nav .nav__list{flex-direction:column;width:100%}.main-nav .nav__list .nav__item{display:block;margin:0}.main-nav .nav__list .nav__item.nav__item-icon{margin-right:0}.main-nav .nav__list .nav__item .nav__link{display:inline-block;padding:16px 0;font-size:18px;transition:color .25s ease}.main-nav .nav__list .nav__item .nav__link:hover{color:var(--brand-color)}}.main-nav__box{display:flex;align-items:center}.main-nav__box .nav__icon-close{display:none;justify-content:center;align-items:center;width:36px;height:36px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);background:var(--background-alt-color);cursor:pointer}.main-nav__box .nav__icon-close:hover .ion-md-close{transform:rotate(90deg)}.main-nav__box .nav__icon-close .ion-md-close{transition:all .35s}.main-nav__box .nav__title{display:none}@media only screen and (max-width: 1024px){.main-nav__box{display:block;align-items:center;width:80%;height:80vh;padding-top:180px;margin:0 auto;text-align:center;overflow-y:auto}.main-nav__box .nav__icon-close{display:flex;position:absolute;top:40px;right:40px}.main-nav__box .nav__title{display:inline-block;margin-bottom:12px;font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:36px;font-weight:700;letter-spacing:-1px;color:var(--heading-font-color)}}@media only screen and (max-width: 768px){.main-nav__box{padding-top:100px}}.nav__list{display:flex;align-items:center}.nav__list .nav__item{display:inline-block;margin-right:48px;margin-bottom:0}.nav__list .nav__item.nav__item-icon{margin-right:12px}.nav__list .nav__item .nav__link{position:relative;padding:4px 0;font-size:16px;line-height:1;font-weight:700;transition:color .25s ease}.nav__list .nav__item .nav__link:hover{color:var(--brand-color)}.nav-button{font-size:21px;color:var(--link-color);cursor:pointer}.nav-button .icon__menu{display:none;margin-right:12px}.nav-button .icon__menu,.nav-button .icon__search{transition:color .25s ease}.nav-button .icon__menu:hover,.nav-button .icon__search:hover{color:var(--brand-color)}@media only screen and (max-width: 1024px){.nav-button{display:flex;align-items:center;margin-left:auto;font-size:24px}.nav-button .icon__menu{display:block}}.toggle-theme{position:relative;display:flex;justify-content:center;align-items:center;width:24px;height:24px;user-select:none;cursor:pointer}@media only screen and (max-width: 1024px){.toggle-theme{padding:20px 0}}.toggle-sun,.toggle-moon{position:absolute;font-size:20px;transition:color .25s ease;color:var(--heading-font-color)}.toggle-sun:hover,.toggle-moon:hover{color:var(--brand-color)}.toggle-sun{display:none}.dark-mode .toggle-sun{display:block}.dark-mode .toggle-moon{display:none}.search{position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;overflow:auto;opacity:0;background:var(--background-color);transition:all .25s ease}.search.is-visible{z-index:100;opacity:1;transition:all .25s ease}.search__box{max-width:540px;margin:0 auto;padding-top:120px}@media only screen and (max-width: 1024px){.search__box{padding-top:100px}}.search__group{position:relative;margin-bottom:48px}.search__group .search__close{position:absolute;right:28px;top:50%;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;width:32px;height:32px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);cursor:pointer;will-change:transform;transition:all .25s;background:var(--background-color)}.search__group .search__close:hover{transform:translateY(-50%) rotate(90deg)}.search__group .search__close .ion-md-close{vertical-align:middle}.search__group .search__text{width:100%;padding:28px;font-size:20px;font-weight:700;line-height:24px;border:2px solid rgba(0,0,0,0);border-radius:2px;color:var(--heading-font-color);background-color:var(--background-alt-color);outline:0;transition:all .25s}.search__group .search__text::placeholder{font-weight:700;color:var(--heading-font-color)}.search__group .search__text:focus{border-color:var(--brand-color)}.search__group .search__text::-ms-clear{display:none}@media only screen and (max-width: 576px){.search__group{margin-bottom:32px}.search__group .search__text{padding:24px}}.search-results-list .no-results{width:100%;margin:0;text-align:center;color:var(--heading-font-color)}.pagination{margin-bottom:80px}@media only screen and (max-width: 576px){.pagination{margin-bottom:60px}}.pagination__inner{display:flex;justify-content:center;align-items:center}.pagination__list{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:18px;font-weight:700;line-height:1;color:var(--text-color)}@media only screen and (max-width: 576px){.pagination__list{align-items:stretch;font-size:16px}}.pagination__item{display:flex;justify-content:center;align-items:center;width:100%;padding:24px 20px;text-align:center;border-radius:8px;background:var(--background-alt-color)}@media only screen and (max-width: 576px){.pagination__item{align-items:center;padding:20px;border-radius:8px}}.pagination__count{margin:0 32px;font-size:16px;color:var(--link-color)}@media only screen and (max-width: 768px){.pagination__count{margin:0 12px}}@media only screen and (max-width: 576px){.pagination__count{margin:0 8px;font-size:14px;line-height:1.2}}.pagination__next:hover,.pagination__prev:hover{color:var(--heading-font-color)}.pagination__next i,.pagination__prev i{font-size:15px;transition:transform .15s ease;will-change:transform}.pagination__next.disabled,.pagination__prev.disabled{opacity:.64;cursor:not-allowed;color:inherit}.pagination__next.disabled:hover i,.pagination__prev.disabled:hover i{transform:none}.dark-mode .pagination__next.disabled,.dark-mode .pagination__prev.disabled{opacity:.78}.pagination__next:hover i{transform:translateX(2px)}.pagination__next i{margin-left:5px}.pagination__prev:hover i{transform:translateX(-2px)}.pagination__prev i{margin-right:5px}.footer{margin-top:48px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.footer{margin-top:60px}}.footer__inner{padding:80px 0}.footer__inner .row .col{flex-grow:1}@media only screen and (max-width: 576px){.footer__inner{padding:60px 0}}@media only screen and (max-width: 1024px){.footer__author{margin-bottom:60px}}@media only screen and (max-width: 576px){.footer__author{margin-bottom:40px}}.footer__author-avatar{position:relative;width:105px;height:105px;margin-bottom:20px;transform:translate(0);border-radius:50%;overflow:hidden;box-shadow:0px 100px 80px rgba(0,0,0,.07),0px 12.5216px 10.0172px rgba(0,0,0,.035);background-color:var(--background-color)}.footer__author-avatar img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.footer__author-name{margin-bottom:20px;font-size:32px;font-weight:900;line-height:1}.footer__author-bio{margin-bottom:0;color:var(--text-alt-color)}.social{margin-top:16px}.social .social__list{display:flex;align-items:center;flex-wrap:wrap}.social .social__list .social__item:first-child>.social__link{padding-left:0}.social .social__item{margin-bottom:0;margin-right:16px}.social .social__item:last-child{margin-right:0}.social .social__link{display:flex;align-items:center;padding:4px;font-size:20px;color:var(--heading-font-color)}.social .social__link:hover{color:var(--brand-color)}.footer__gallery .footer__gallery-title{margin-bottom:24px;font-size:28px}.footer__gallery .gallery__image img{height:100%;border-radius:8px;overflow:hidden}.footer__gallery .gallery__image img.lightense-open{border-radius:0}.footer__info{padding:44px 0;background-color:var(--background-color)}.footer__info .footer__info-box{display:flex;align-items:center;justify-content:space-between}@media only screen and (max-width: 1024px){.footer__info{padding:40px 0}}.copyright{margin-right:20px;font-size:14px;font-weight:500;color:var(--text-alt-color)}.copyright a{text-decoration:underline;text-decoration-color:rgba(0,0,0,0);color:var(--heading-font-color)}.copyright a:hover{text-decoration-color:var(--heading-font-color);color:var(--heading-font-color)}.top{min-width:36px;height:36px;font-size:20px;line-height:36px;text-align:center;border-radius:8px;color:var(--heading-font-color);background-color:var(--background-alt-color);cursor:pointer;transition:all .25s ease}.gallery-box{margin:32px 0}.gallery{display:grid;grid-template-columns:repeat(3, auto);justify-content:center;align-content:center;grid-gap:10px}.gallery .gallery__image{background:var(--background-color)}.gallery .gallery__image img{display:block;width:100%;height:auto;object-fit:cover}.hero{padding:80px 0;margin-bottom:80px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.hero{padding:60px 0;margin-bottom:60px}}.hero__inner{display:flex;align-items:center}@media only screen and (max-width: 1024px){.hero__inner{flex-direction:column}}.hero__left{max-width:450px;margin-right:auto}@media only screen and (max-width: 1140px){.hero__left{max-width:440px}}@media only screen and (max-width: 1024px){.hero__left{max-width:100%}}.hero__title{margin-bottom:20px;font-size:55px;font-weight:900;line-height:1.3;color:var(--heading-font-color)}@media only screen and (max-width: 1024px){.hero__title{font-size:50px}}@media only screen and (max-width: 768px){.hero__title{font-size:40px}}@media only screen and (max-width: 576px){.hero__title{font-size:32px}}.hero__description{margin-bottom:0;font-size:21px;color:var(--text-alt-color)}@media only screen and (max-width: 1024px){.hero__description{font-size:inherit}}.hero__subscribe{margin-top:32px}.hero__subscribe .subscribe-form{position:relative;border-radius:2px;background-color:var(--background-color)}.hero__subscribe .subscribe-email{width:100%;height:70px;padding:20px;font-size:16px;line-height:21px;border:2px solid rgba(0,0,0,0);border-radius:2px;outline:0;color:var(--heading-font-color);background-color:rgba(0,0,0,0);transition:all .25s ease}.hero__subscribe .subscribe-email::placeholder{opacity:.6;color:var(--text-alt-color)}.hero__subscribe .subscribe-email:focus{border-color:var(--brand-color)}.hero__subscribe .subscribe-button{position:absolute;top:6px;right:6px}@media only screen and (max-width: 1024px){.hero__subscribe{margin-top:24px}}@media only screen and (max-width: 576px){.hero__subscribe{margin-top:20px}.hero__subscribe .subscribe-form{display:flex;flex-direction:column;padding:6px}.hero__subscribe .subscribe-email{height:56px;margin-bottom:4px}.hero__subscribe .subscribe-button{position:relative;top:0;right:0}}.hero__right{width:50%}@media only screen and (max-width: 1024px){.hero__right{width:100%;margin-top:40px}}@media only screen and (max-width: 576px){.hero__right{margin-top:32px}}.hero__image{position:relative;transform:translate(0);width:100%;height:410px;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.02);background-color:var(--background-color);user-select:none}.hero__image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}@media only screen and (max-width: 1140px){.hero__image{height:380px}}@media only screen and (max-width: 1024px){.hero__image{height:440px}}@media only screen and (max-width: 768px){.hero__image{height:420px}}@media only screen and (max-width: 576px){.hero__image{height:280px}}.article{margin-bottom:32px;will-change:transform;transition:transform .2s}.article:hover{transform:translateY(-3px)}.article:hover .article__title a{text-decoration:underline;text-decoration-color:var(--link-color-hover);text-decoration-thickness:2px}.article__head{position:relative}.article__date{position:absolute;z-index:1;top:16px;left:16px;display:inline-block;padding:8px 12px;font-size:12px;line-height:1;font-weight:500;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.article__image{position:relative;transform:translate(0);display:block;height:0;margin-bottom:24px;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.article__image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.video-icon{position:absolute;z-index:1;top:50%;left:50%;width:50%;height:50%;transform:translate(-50%, -50%);pointer-events:none}.video-icon .circle{width:50px;height:50px;position:absolute;top:0;left:0;right:0;bottom:0;border-radius:50%;overflow:hidden;margin:auto;transform:scale(1, 1)}.video-icon .circle.pulse{animation-timing-function:ease;animation:pulse 2s infinite;background-color:hsla(0,0%,100%,.25)}.video-icon svg{fill:hsla(0,0%,100%,.25);stroke:var(--light-blue);stroke-linejoin:round;stroke-width:5;backdrop-filter:blur(3.5px);-webkit-backdrop-filter:blur(4.5px);transition:all .3s}.article__title{margin-bottom:12px;font-size:24px}.article__title a{text-decoration:underline;text-decoration-color:rgba(0,0,0,0);text-decoration-thickness:2px}.article__title a:hover{color:var(--heading-font-color)}.article__excerpt{margin-bottom:0;font-size:16px;color:var(--text-alt-color)}.contact-head{margin-bottom:32px}.form__group{margin-bottom:20px}.form__group:last-child{margin-bottom:0}.form__input{width:100%;padding:20px;font-size:16px;font-weight:400;border:2px solid var(--border-color);border-radius:2px;outline:0;transition:.25s ease-in-out;resize:vertical;color:var(--heading-font-color);background-color:var(--background-alt-color)}.form__input::placeholder{color:var(--text-alt-color)}.form__input:focus{border-color:var(--brand-color)}.section__head{position:relative;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px}.section__head::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 768px){.section__head::after{content:none}}.section__title{padding-right:20px;margin-bottom:0;font-size:28px}@media only screen and (max-width: 576px){.section__title{font-size:24px}}.section__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:rgba(0,0,0,0);color:var(--link-color);transition:text-decoration .35s}.section__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 768px){.section__link{padding-left:0}}@media only screen and (max-width: 576px){.section__link{font-size:16px}}.section__title,.section__link{background:var(--background-color)}@media only screen and (max-width: 576px){.section-tags .row .col:last-child>.tag-image{margin-bottom:0}}.tag-image{margin-bottom:32px;position:relative;transform:translate(0);display:block;height:0;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color);transition:transform .2s}.tag-image:hover{transform:translateY(-3px)}.tag-image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.tag-image .tag-name{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:1;max-width:90%;display:inline-block;padding:8px 12px;font-size:14px;line-height:1;font-weight:700;text-transform:capitalize;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.post-head,.page-head{margin-bottom:48px}.post-head .row,.page-head .row{align-items:center}@media only screen and (max-width: 1024px){.post-head,.page-head{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-head,.page-head{margin-bottom:32px}}.post-image,.page-image{position:relative;transform:translate(0);padding-top:90%;min-height:280px;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.post-image img,.page-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}@media only screen and (max-width: 1024px){.post-image,.page-image{padding-top:65%;margin-bottom:40px}}@media only screen and (max-width: 576px){.post-image,.page-image{margin-bottom:32px}}.page-image{padding-top:56.25%;margin-bottom:48px}@media only screen and (max-width: 1024px){.page-image{margin-bottom:40px}}@media only screen and (max-width: 576px){.page-image{margin-bottom:32px}}.post-video,.page-video{margin-bottom:48px;border-radius:8px;overflow:hidden;transform:translate(0);background-color:var(--background-alt-color)}.post-video .post-video__wrap,.post-video .page-video__wrap,.page-video .post-video__wrap,.page-video .page-video__wrap{position:relative;width:100%;height:0;padding-bottom:56.25%}.post-video .post-video__wrap iframe,.post-video .page-video__wrap iframe,.page-video .post-video__wrap iframe,.page-video .page-video__wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}@media only screen and (max-width: 1024px){.post-video,.page-video{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-video,.page-video{margin-bottom:32px}}.post__info{margin-left:44px}.post__info.post__info-video{max-width:760px;margin:0 auto}@media only screen and (max-width: 1024px){.post__info{margin-left:0}}.page__info{max-width:760px;margin:0 auto}.post__tags{display:flex;align-items:center;flex-wrap:wrap;margin-bottom:20px}.post__tags .post__tag{padding:12px 16px;margin:4px 8px 4px 0;font-size:14px;line-height:1;font-weight:500;text-transform:capitalize;border:none;border-radius:8px;color:var(--heading-font-color);transition:none;background-color:var(--background-alt-color)}.post__tags .post__tag:last-child{margin-right:0}@media only screen and (max-width: 576px){.post__tags{margin-bottom:16px}}.post__title,.page__title{margin-bottom:24px;font-size:46px;line-height:1.2;font-weight:900}@media only screen and (max-width: 576px){.post__title,.page__title{margin-bottom:20px;font-size:32px}}.page__title{margin-bottom:0}.post__meta{display:flex;align-items:center;line-height:1}.post__meta .post__author-image{position:relative;transform:translate(0);width:50px;height:50px;border-radius:50%;overflow:hidden;margin-right:12px;background-color:var(--background-alt-color)}.post__meta .post__author-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.post__meta .post__meta-bottom{display:flex;flex-direction:column}.post__meta .post__author{display:inline-block;margin-bottom:7px;font-size:16px;font-weight:500;text-decoration:underline;text-decoration-color:rgba(0,0,0,0);color:var(--heading-font-color);transition:text-decoration-color .35s}.post__meta .post__author:hover{text-decoration-color:var(--heading-font-color)}.post__meta .post__date{font-size:14px;font-weight:400;color:var(--text-alt-color)}.post,.page{max-width:760px;margin:0 auto 60px;color:var(--text-color)}.post a,.page a{font-weight:500;border-bottom:1px solid var(--border-color)}.post a:hover,.page a:hover{color:var(--link-color);border-bottom-color:var(--link-color-hover)}.post img,.post .js-reframe,.page img,.page .js-reframe{border-radius:8px;overflow:hidden}.post img.lightense-open,.post .js-reframe.lightense-open,.page img.lightense-open,.page .js-reframe.lightense-open{border-radius:0}.post img[src$="#wide"],.page img[src$="#wide"]{display:block;width:100vw;max-width:none;margin-left:50%;transform:translateX(-50%);border-radius:0;pointer-events:none;user-select:none}.post .button,.page .button{border:none;text-decoration:none}.post__share .share__list{display:flex;align-items:center;width:100%}.post__share .share__item{width:25%;margin-right:8px;margin-bottom:0;text-align:center}.post__share .share__item:last-child{margin-right:0}.post__share .share__link{display:flex;justify-content:center;align-items:center;width:100%;height:54px;font-size:18px;text-transform:uppercase;border:none;border-radius:8px;background:var(--background-alt-color)}.post__share .share__link i{transition:transform .25s;will-change:transform}.post__share .share__link:hover{color:var(--heading-font-color)}.post__share .share__link:hover i{transform:scale(1.1)}.related-posts{display:none;margin-top:80px}.related-posts.is-related{display:block}.related-posts .related-tag{text-transform:capitalize}@media only screen and (max-width: 576px){.related-posts{margin-top:60px}.related-posts .row .col:last-child{margin-bottom:0}}.show-comments{margin:48px 0 32px;text-align:center}.show-comments .disqus-button{padding:28px;border-radius:8px;text-decoration:underline;text-decoration-color:rgba(0,0,0,0)}.show-comments .disqus-button:hover{text-decoration-color:var(--heading-font-color)}@media only screen and (max-width: 576px){.show-comments{margin:60px 0 0}.show-comments .disqus-button{padding:24px}}.post__comments{max-width:760px;margin:0 auto}.post__comments.is-open{margin:0 auto 32px}@media only screen and (max-width: 576px){.post__comments.is-open{margin:0 auto}}.error{text-align:center}.error .error__title{margin-bottom:24px;font-size:100px;line-height:1}.error .error__text{margin-bottom:0;color:var(--text-alt-color)}@media only screen and (max-width: 576px){.error .error__title{font-size:68px}}.recent-posts{margin-top:80px}@media only screen and (max-width: 576px){.recent-posts{margin-top:60px}.recent-posts .row .col:last-child{margin-bottom:0}}.tag__head{margin:80px 0}@media only screen and (max-width: 1024px){.tag__head{margin:40px 0}}.tags__inner{margin-bottom:120px}@media only screen and (max-width: 576px){.tags__inner{margin-bottom:60px}}.tag__title{margin-bottom:32px;font-size:46px;font-weight:900}@media only screen and (max-width: 576px){.tag__title{font-size:32px}}.tag__list{display:flex;align-items:center;flex-wrap:wrap;padding-bottom:80px;border-bottom:1px solid var(--background-alt-color)}.tag__list .tag__item{margin-right:12px;margin-bottom:12px}.tag__list .tag__item:last-child{margin-right:0}.tag__list .tag__link{display:block;padding:12px 16px;font-size:16px;font-weight:500;text-transform:capitalize;border-radius:8px;transition:none;background:var(--background-alt-color)}.tag__list .tag__link:hover{color:var(--heading-font-color)}@media only screen and (max-width: 576px){.tag__list{padding-bottom:48px}.tag__list .tag__item{margin-right:8px;margin-bottom:8px}.tag__list .tag__link{font-size:14px}}.tag__info{position:relative;display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}.tag__info::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 576px){.tag__info::after{content:none}}.tag__info-box{display:flex;align-items:center}.tag__counter{display:flex;flex-direction:column;align-items:center;padding:12px 24px;border-radius:8px;color:var(--heading-font-color);background:var(--background-alt-color)}.tag__counter span{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:32px;font-weight:700;line-height:1}.tag__counter small{font-size:16px;font-weight:500}@media only screen and (max-width: 576px){.tag__counter{display:none}}.tag__name{padding:50px 20px 50px 20px;margin-bottom:0;font-size:36px;text-transform:capitalize;background-color:var(--background-color)}.tag__name span{font-weight:400;color:var(--text-alt-color)}@media only screen and (max-width: 768px){.tag__name{font-size:32px}}@media only screen and (max-width: 576px){.tag__name{padding:32px 12px 32px 0;font-size:26px}}.top__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:rgba(0,0,0,0);color:var(--link-color);transition:text-decoration .35s;background:var(--background-color)}.top__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 576px){.top__link{padding-left:0;font-size:16px}}
+  </style>
+</head>
+
+<body>
+
+  
+
+  <!-- begin header -->
+<header class="header" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+        <div class="logo">
+          <a class="logo__link" href="/">
+          
+            Matthew Reinbold
+          
+          </a>
+        </div>
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav__title">Menu</div>
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="/" class="nav__link">Home</a>
+              </li>
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/Appearances/" class="nav__link">Appearances</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/disclosure/" class="nav__link">Disclosures</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/about/" class="nav__link">About</a>
+                  </li>
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+              
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav__icon icon__menu ion ion-md-menu"></i>
+          <i class="nav__icon icon__search ion ion-md-search"></i>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<!-- begin search -->
+<div class="search">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="search__box">
+          <div class="search__group">
+            <div class="search__close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
+            <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row search-results-list" id="js-results-container"></div>
+  </div>
+
+</div>
+<!-- end search -->
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    <div class="post-head">
+  <div class="container">
+    <div class="row">
+      
+      
+
+      
+      <div class="col col-6 col-d-12">
+        <div class="post-image">
+          <img class="lazy" data-src="/images/2025/09/Slide1.PNG" alt="The Perils of Platform Plumbing (and What to Do About It)">
+        </div>
+      </div>
+      
+
+      
+      
+      
+      <div class="col col-6 col-d-12">
+        <div class="post__info ">
+  
+          
+            <div class="post__tags">
+              
+                <a href="/tags#Software Change" class="post__tag">Software Change</a>
+              
+                <a href="/tags#management" class="post__tag">management</a>
+              
+                <a href="/tags#Presentations" class="post__tag">Presentations</a>
+              
+            </div>
+          
+  
+          <h1 class="post__title">The Perils of Platform Plumbing (and What to Do About It)</h1>
+          <h2 class="">Platform Survival in the Age of ROI Squeeze</h2>
+  
+          <div class="post__meta">
+            <a href="/about/" class="post__author-image">
+              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
+            </a>
+
+            <div class="post__meta-bottom">
+              <a class="post__author" href="/about/">Matthew Reinbold</a>
+              <time class="post__date" datetime="2025-09-30T00:00:00-05:00">30 Sep 2025</time>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin post -->
+<div class="container animate">
+
+  <article class="post">
+
+    <div class="post__content">
+      <p><em>Similar to years prior, I was delighted to be asked to speak at the 2025 CarMax DevOps Days Internal Developer Conference. I didn’t have to cast about for a topic very long; the rash of cost optimization and benefit rationalization conversations happening across industries have platform owners on their heels. So I decided we needed to talk about it.</em></p>
+
+<p><em>Some of the slides had auto-looping GIFs in the background. However, in creating the web version, I dropped the animation; the transitions still made sense without them. The slides and speaking script are below - enjoy!</em></p>
+
+<p><figure><img src="/images/2025/09/Slide1.PNG" /></figure></p>
+
+<p>In today’s climate, every software investment is under scrutiny, and Internal Developer Platforms (or IDPs) that can’t demonstrate short-term value are on the chopping block. Yet many IDPs built in the last decade are now invisible; assumed rather than celebrated. This talk offers a survival guide: why invisibility is dangerous, how macroeconomic pressures magnify the risk, and some practical steps to avoid the worst of the downsides.</p>
+
+<p><figure><img src="/images/2025/09/Slide2.PNG" /></figure></p>
+
+<p>As was mentioned, my name is Matthew, and I’ve worn many hats over the years. I’ve been a software developer, an architect, product manager, writer, speaker, conference organizer, entrepreneur, and more.</p>
+
+<p>I’ve reached the point where I’ve decided if I’m going to wear a label, it might as well be one that I’ve made up. For now, I refer to myself as a software change anthropologist.</p>
+
+<p>I coach enterprises on software platform, governance, and change initiatives. Often that means bridging the canyon between technology ambition and actual business value.</p>
+
+<p>I’ve had the pleasure of speaking at DevOps days multiple times in the past on topics as varied as soft skills and AI. Some of those previous presentations include:</p>
+
+<ul>
+  <li>2024 – <a href="https://matthewreinbold.com/2024/09/30/TurboEncabulator">Surviving the Turbo Encabulator</a></li>
+  <li>2023 – <a href="https://matthewreinbold.com/2023/06/23/SeparatingAIFactFromFiction">Separating AI Fact from Fiction</a></li>
+  <li>2022 – <a href="https://matthewreinbold.com/2022/06/28/SevenSkillsToSaveSoftware">Seven Skills to Change Complex Systems</a></li>
+  <li>2021 – <a href="https://matthewreinbold.com/2021/10/01/WeMadeAnAPIDescription">We Made an API Description, Now What?</a></li>
+</ul>
+
+<p>But during my work with enterprises, I’ve seen a disturbing trend that became the basis for this talk. Today I want to talk about the imminent peril many <strong>internal developer platforms</strong> find themselves in.</p>
+
+<p><figure><img src="/images/2025/09/Slide3.PNG" /></figure></p>
+
+<p>First, I’ll illustrate the challenge many of us face, a paradox in platform engineering: the better our platforms work, the less visible they become. I’ll explain why that’s dangerous, and I’ll highlight three patterns associated with invisibility:</p>
+
+<ul>
+  <li>reactive investment cycles</li>
+  <li>the loss of champions</li>
+  <li>finance’s tendency to classify platforms as overhead</li>
+</ul>
+
+<p>Then I’ll share a case study from my own experience that illustrates how even state-of-the-art platforms can drift into neglect if they’re not actively supported.</p>
+
+<p>Finally, I’ll present three solutions I’ve found to be effective; strategies you can take back to your organization to help keep your platform relevant, funded, and visible.</p>
+
+<p>My goal is that you leave here not just with a new insight or two, but with practical approaches you can apply to ensure your internal developer platforms remain recognized as essential to your company’s success and <em>don’t</em> become invisible plumbing.</p>
+
+<p><figure><img src="/images/2025/09/Slide4.PNG" /></figure></p>
+
+<p>Even if you don’t interact with an <strong>Internal Developer Platform</strong> (or IDP) daily as part of your job, I guarantee you there are others in your org that do. These critical pieces of software might be an API developer portal, cloud offerings like AWS Proton, Azure Developer Hub, or Google Cloud deploy, or even internal CMSs for knowledge management.</p>
+
+<p>This software infrastructure has become big business, with some of the biggest software names offering managed solutions. But it wasn’t always this way.</p>
+
+<p><figure><img src="/images/2025/09/Slide5.PNG" /></figure></p>
+
+<p>The push for automating common tasks and providing shared infrastructure is a relatively new phenomenon.</p>
+
+<p>A Brief History of Internal Developer Platforms (IDPs)</p>
+
+<p><strong>Early 2010s: DevOps and the DIY Era</strong></p>
+
+<ul>
+  <li>The term “DevOps” was coined in 2009 and spread rapidly. Teams began stitching together their own toolchains for CI/CD, infrastructure automation, and monitoring.</li>
+  <li>Hallmarks of these tentative first steps were often <em>ad hoc scripts, Jenkins jobs, and wiki pages</em> that worked locally but didn’t scale.</li>
+  <li>The first “platform teams” emerged to provide reusable pipelines and guardrails.</li>
+</ul>
+
+<p><strong>Mid-2010s: Paved Roads and Golden Paths</strong></p>
+
+<ul>
+  <li>Large tech firms (Netflix, Spotify, Google) started publishing about “paved roads” or “golden paths” — curated ways to build and deploy software safely.</li>
+  <li>These weren’t yet packaged as platforms, but the <em>concept of self-service developer experience</em> took shape: one place to go to create a service, get a pipeline, and deploy.</li>
+</ul>
+
+<p><strong>Late 2010s: Portals and the IDP Label</strong></p>
+
+<ul>
+  <li>Tools like Backstage (from Spotify, 2019) and open-source frameworks gave a name and face to these efforts.</li>
+  <li>Analyst firms (Gartner, Forrester) began writing about IDPs, as a category, something distinct from raw Kubernetes, CI/CD, or cloud infrastructure.</li>
+  <li>The framing shifted: IDPs weren’t just tech; they were <em>products</em> offered internally, with dedicated development teams, roadmaps, docs, and support.</li>
+</ul>
+
+<p><strong>2020–2022: Hype and Expansion</strong></p>
+
+<ul>
+  <li>CNCF talks, venture-backed startups, and blog posts proliferated. IDPs became “so hot right now.”</li>
+  <li>The promise: accelerate developer productivity, enforce standards, reduce cognitive load.</li>
+  <li>Many organizations launched portal initiatives to catch the wave, often anchored on Kubernetes and API governance considering companies discovering they were now liable for an explosion of microservices without a means of managing them responsibly.</li>
+</ul>
+
+<p><strong>2023–Present: Paradox and Peril</strong></p>
+
+<p>Today, unprecedented system shocks and geo-political instability are redefining company IT spending. Today’s challenge isn’t proving that IDPs <em>work</em> but proving that they <em>matter</em>: making their invisible value visible to finance and leadership.</p>
+
+<p>In other words: <strong>IDPs grew from scripts to portals to platforms</strong>. By 2026, <a href="https://www.gartner.com/en/experts/top-tech-trends-unpacked-series/platform-engineering-empowers-developers">Gartner predicts that 80% of organizations will have platform engineering programs</a> – but the firm also reported that platform engineering has fallen from its height of hype into the “trough of disillusionment”.</p>
+
+<p>They solved real pain, got hyped, and now face the paradox of success: invisibility.</p>
+
+<p><figure><img src="/images/2025/09/Slide6.PNG" /></figure></p>
+
+<p>I could attempt to paint a picture of what I see happening across the industry right now, but recently I came across a post by GitLab’s Field CTO,  Bryan Ross. <a href="https://newsletter.bryanross.me/p/beyond-launch">It so beautifully captures this unique moment, defining this moment’s paradox, that it is worth spending a few moments on it</a>.</p>
+
+<p>No one’s saying, ‘don’t transform’ or ‘internal developer platforms are bad’. What has changed is that <strong>everyone’s doing spreadsheet math now</strong>.</p>
+
+<p><strong>Why is that?</strong></p>
+
+<p><figure><img src="/images/2025/09/Slide7.PNG" /></figure></p>
+
+<p>It used to be that internal platforms were safe from scrutiny. However, times have changed, and – trust me – your organization’s finance and accounting departments have been put through a wringer to identify where the money is going.</p>
+
+<p>Bob Goodman, a strategy executive, <a href="https://www.linkedin.com/posts/bobgoodman_executivesandmanagement-leadership-activity-7347961315690262528-iSUU/">has an excellent summary of how turbulent a normally stable area has been</a>. I’ll leave reading the detailed breakdown as an exercise for the reader. But, broadly, the unexpected shifting of tectonic financial plates can be group in three big, massive moves:</p>
+
+<ul>
+  <li>End of zero interest rate policy (ZIRP) == <strong>Higher Cost of Capital</strong> == less “free” money available for infrastructure build outs</li>
+  <li>Post-pandemic rebound miscalculations == <strong>Conservative Growth Spending</strong> == the “coiled spring” of consumer demand that was assumed to be building during the pandemic never “sprung”, resulting in lowered revenue realities</li>
+  <li>Section 174 tax law changes == <strong>R&amp;D amortization shocks</strong>, now partially reversed but still fresh in memory == platforms which may have been amortized over years (and thus reducing expense on any single year) now were expensed all at once, again reducing perceived revenue.</li>
+</ul>
+
+<p>The end result is leadership demanding <strong>near-term ROI or threatening they will pivot</strong> – even for platforms that were once pitched as long-term bets. <a href="https://www.ciodive.com/spons/why-cios-cant-afford-another-modernization-failure-in-2026/759896/">CIOs can’t afford another modernization failure</a>.</p>
+
+<p>Why is this happening? The answer is <em>money</em>.</p>
+
+<p>The answer is always money.</p>
+
+<p><figure><img src="/images/2025/09/Slide8.PNG" /></figure></p>
+
+<p>We’ve talked about why this is happening, but <strong>how</strong> does this happen? How can an internal developer platform be released with such fanfare and high hopes only to be on such shaky ground a few years later?</p>
+
+<p><figure><img src="/images/2025/09/Slide9.PNG" /></figure></p>
+
+<p>The first reason why platforms get into this situation is because of how they’re funded after launch.</p>
+
+<p>Think of your home gutters. On sunny days, you never think about them. Even when they are working as intended, you don’t sing their praises or give them even an ounce of attention. It is only when there is a problem, when they clog and overflow in a sudden downpour, they become an urgent pain to deal with.</p>
+
+<p>Internal platforms work the same way. Their success makes them invisible, which means funding often follows a reactive, ‘as-needed’ model. The danger is that by only investing when something breaks, you let small issues accumulate into big, costly crises.</p>
+
+<p><strong>Invisible systems drift into a break/fix funding model.</strong></p>
+
+<p>Platforms, like gutters, need regular, proactive care to ensure they can continue to perform when stressed. Otherwise, the foundations you rely on every day become fragile, and you pay more later for problems that could have been avoided.</p>
+
+<p><figure><img src="/images/2025/09/Slide10.PNG" /></figure></p>
+
+<p>The second reason why internal developer platforms are threatened is that many of their original advocates are no longer there. And without them, the organizational memory of what problem the platform solved has faded.</p>
+
+<p>Champions are the people who remind leadership of the platform’s value, fight for budgets, and keep the story alive.</p>
+
+<p>The problem is, those people often move on. And within most companies, platform work doesn’t carry the same prestige as building customer-facing features or new innovations. Ambitious people want visibility, advancement, and resources, so they leave the platform team for shinier opportunities. Without champions, platforms are quickly forgotten, and their reputation erodes into ‘that thing in maintenance mode’.</p>
+
+<p>And if a platform is seen as now being composed of ‘B’ players, that can pose a challenge during budgeting time, as well.</p>
+
+<p><figure><img src="/images/2025/09/Slide11.PNG" /></figure></p>
+
+<p>The third reason why this happens is that finance frames platforms as <strong>business as usual (or BAU) overhead, not innovation</strong>.</p>
+
+<p>Even if, as a platform owner, you’re able to secure ongoing headcount, finance often doesn’t view that work as transformational or an investment in growth. Instead, they categorize it as overhead. That’s bad for two major reasons:</p>
+
+<ul>
+  <li>It undervalues crucial ongoing work that will <em>enable</em> the next big thing to happen</li>
+  <li>Makes any platform an easy target during cuts (“let’s redistribute headcount to growth initiatives”)</li>
+</ul>
+
+<p>Transformation is exciting; maintenance is not. Innovation is allowed to incubate. Operations are ruthlessly optimized as if it were a mature implementation.</p>
+
+<p>Platforms are like mowing the lawn: you’re never truly done. If you stop, things overgrow, break down, and cost more to repair later. But regular lawn care can get overlooked by one-off, new, shiny objects.</p>
+
+<p><figure><img src="/images/2025/09/Slide12.PNG" /></figure></p>
+
+<p>I know these forces exist because I’ve personally seen them play out. A few jobs ago, I had the pleasure of contributing to a fantastic, homegrown API developer exchange. When we launched it in 2015, it was genuinely state-of-the-art. Developers could submit an OpenAPI description, and have it go through an editorial workflow for design review. Once approved, the API description would be automatically published to our internal portal, initiating the corresponding environmental setup. There was nothing else like it in the industry. In fact, there was a moment when we even considered open-sourcing it, and this was several years before Spotify released Backstage. That’s how ahead of the curve we were when it came to a <em>structured, platform approach to our API program</em>.</p>
+
+<p>But platforms don’t stay cutting edge on their own. We soon had challenges. While we had launched with OpenAPI 2.0 (or Swagger) support, adding OpenAPI 3.0 lagged behind other priorities. While vendors raced ahead, our platform stayed stuck. Meanwhile, new needs emerged - data, compliance, other protocols - but investment in the platform remained limited. Without champions, without funding framed as innovation, our home-grown tool became more of a burden than an enabler. Eventually, it was eclipsed by other tools. What started as a crown jewel ended up as an Achilles’ heel.</p>
+
+<p>And this isn’t just my story. It’s the same pattern I’ve seen over and over again: an internally built tool feels special at the start. It demonstrates brilliance. But without continuous investment, without telling the story of why it matters, it falls behind. And when new hires look at it, they wonder why we didn’t just use an off-the-shelf solution in the first place. By the time leadership makes the switch, you’ve already paid the cost <strong>twice</strong> - first in building, then in abandoning it.</p>
+
+<p>This is exactly why invisible platforms are so dangerous. Left unattended, they rot quietly until failure or replacement forces a reckoning. And by then, the costs are far greater than steady, proactive investment would have been.</p>
+
+<p><figure><img src="/images/2025/09/Slide13.PNG" /></figure></p>
+<p>This can feel unfair. We may want to lash out at the systems as being unfair or unjust.</p>
+
+<p>However, there are far more productive ways of going about ensuring platforms remain relevant within your organizations. These recommendations aren’t just based on theoretical, but lots and lots of reflection on just what exactly I could have done better as a platform steward.</p>
+
+<p><figure><img src="/images/2025/09/Slide14.PNG" /></figure></p>
+
+<p>Building the platform isn’t enough. You also need to tell the story of what it does. Left alone, people forget how bad things were before. They reset their expectations and stop noticing your impact. Narrative work means showing the before-and-after, in terms business leaders care about. If you don’t make the value visible, it may as well not exist.</p>
+
+<p>When I pushed for OpenAPI 3.0 support, my message was all about technical currency: “This is the newest version, and we must remain current.” That might have resonated with engineers, but it didn’t land with business leaders. To them, the story sounded like unnecessary tinkering. If I had framed the narrative differently - for example, how supporting OpenAPI 3.0 would unlock faster partner onboarding, reduce manual review cycles, and align us with external vendors - the value would have been clearer. Without that story, my ask felt abstract, and the investment didn’t follow.</p>
+
+<p><figure><img src="/images/2025/09/Slide15.PNG" /></figure></p>
+
+<p>Every platform produces numbers. But most don’t matter to the people holding the budget. Counting services onboarded or uptime doesn’t tell finance or executives why the platform is valuable. The right metrics connect directly to business impact: time saved, cost avoided, risk reduced. And they should be trended over time to show progress, not just raw figures. Metrics are the evidence for your narrative.”</p>
+
+<p>When making the case for OpenAPI 3.0, I had no metrics that mattered outside the platform team. I could point to “number of services asking for OpenAPI 3.0” or “percentage of APIs wanting to use new features,” but those were outputs, not outcomes. What I couldn’t show was how our platform’s limitation translated into developer time lost, longer onboarding for consuming teams, or how being perceived as “outdated” was eroding trust. Without metrics that tied directly to business impact, my case felt like a trivial detail instead of a productivity bottleneck or risk reduction opportunity.</p>
+
+<p><figure><img src="/images/2025/09/Slide16.PNG" /></figure></p>
+
+<p>If the platform doesn’t help the right people achieve their goals, it will get bounced around like a hot potato. Tech leads, finance, product, executives all need to see the platform as advancing their own priorities. Stakeholder mapping means aligning your story and metrics to each audience. When they can point to the platform as the reason they succeeded, that’s when funding and support are sustained.</p>
+
+<p>The failure to get OpenAPI 3.0 prioritized was also my failure to properly understand what my executive stakeholders needed to hear. Tech leads cared about compatibility and reuse, but product management only saw another competing priority. Leads didn’t see how this helped deliver features faster, and executives weren’t convinced it tied to strategic goals.</p>
+
+<p>To each of them, doing the work to add 3.0 support <strong>looked like a platform tax, not a platform win</strong>. Had I mapped the upgrade to each stakeholder’s priorities - reduced integration risk for product, clearer compliance guarantees for executives, lower support costs for finance - I might have built the coalition needed to secure investment.</p>
+
+<p><figure><img src="/images/2025/09/Slide17.PNG" /></figure></p>
+
+<p>When it comes to owning a platform, it can sometimes seem like the train has already left the station. Like the best we can do is hang on for dear life before it inevitably runs off the rails.</p>
+
+<p>However, as I’ve hopefully shown, by being more mindful in how we talk about internal developer platforms, we can change the story.</p>
+
+<p><figure><img src="/images/2025/09/Slide18.PNG" /></figure></p>
+<p>If you remember anything from this presentation, let it be these three points.</p>
+
+<ul>
+  <li>Tell the story: don’t let the problem your platform solved value fade into the past.</li>
+  <li>Show the right metrics: connect your work to outcomes that matter. Vanity metrics may be easy to gather, but they mean nothing to others.</li>
+  <li>And understand what your leaders need to win: ensure every stakeholder can point to the platform as a reason for their success. That’s how platforms stay visible, funded, and trusted.</li>
+</ul>
+
+<p><figure><img src="/images/2025/09/Slide1.PNG" /></figure></p>
+
+<p>Last year, in my DevOpsDays talk, I talked about the dangers of hyperbole. <a href="https://matthewreinbold.com/2024/09/30/TurboEncabulator">In Surviving the Turbo Encabulator, I laid out a framework for evaluating the outlandish claims that swirl around our industry</a> (Crypto! The Metaverse! AI!). These claims are the bold promises that, if left unchecked, steer teams into wasted effort and false confidence. The message last year was that exaggerated visibility – <em>the hype</em> - is dangerous to your long term, professional success.</p>
+
+<p>This year, I’ve tried to show the opposite extreme: invisibility. These are the platforms that work so well they fade from memory, becoming plumbing in the walls or gutters on the roof. When that happens, the story disappears, the champions drift away, and finance sees only overhead. Invisibility doesn’t provoke bold, bad bets like hype. Instead, it invites neglect. And neglect is just as perilous, <em>because if no one sees the value you’re providing, it might as well not exist</em>.</p>
+
+<p>So on one end of the spectrum, we have hype: noisy, over-promised technologies that overinflate their importance. On the other end, we have invisibility: quiet, underappreciated systems that erode because they aren’t connected to narrative, metrics, or stakeholder wins. Both extremes are perilous in different ways. The real work, <em>our work as people who care about what we do and want to be better</em>, <strong>is to steer a middle path</strong>. To build <strong>platforms with substance</strong>, but also to <strong>tell the story</strong>. To keep them relevant, visible, and sustainable without falling into either exaggeration or a memory hole.</p>
+
+<p>That’s the challenge I want to leave you with: how do you make your platforms <strong>visible enough to be valued</strong>, but <strong>grounded enough to be trusted</strong>?</p>
+
+<p><figure><img src="/images/2025/09/Slide20.PNG" /></figure></p>
+
+<p>Thank you so much.</p>
+
+<p>Like my other presentations, I will have the extended script and slides posted to my personal website, <a href="https://matthewreinbold.com">matthewreinbold.com</a>.</p>
+
+<p>In addition to that site, you can also find my writing at my email newsletter, <a href="https://netapinotes.com">Net API Notes</a>.
+Finally, if you’re on the Fediverse – like on the Mastodon platform – and would like to continue this conversation, you can find me at <a href="https://opinuendo.com/@matthew">opinuendo.com/@matthew</a>; I’d love to hear from you directly.</p>
+
+<p>Again, thank you for this opportunity and your attention.</p>
+
+    </div>
+
+    
+
+  </article>
+</div>
+<!-- end post -->
+
+
+
+
+
+
+
+<!-- begin related posts -->
+<div class="container">
+  <section class="related-posts is-related animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">You may also like</h2>
+              <a class="section__link" href="/blog">
+                
+                
+                  
+                    <a href="/tags#Software Change" class="section__link related-tag">See all<span> Software Change</span></a>
+                  
+                
+                  
+                
+                  
+                
+              
+              </a>
+            </div>
+          </div>
+          <div class="row">
+
+          
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2024-09-30T00:00:00-05:00">30 Sep 2024</time>
+
+      
+
+      
+      <a class="article__image" href="/2024/09/30/TurboEncabulator">
+        <img class="lazy" data-src="/images/2024/09/Slide1.PNG" alt="Surviving the Turbo Encabulator">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2024/09/30/TurboEncabulator">Surviving the Turbo Encabulator</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2024-03-07T00:00:00-06:00">07 Mar 2024</time>
+
+      
+
+      
+      <a class="article__image" href="/2024/03/07/TheOliveTreeAndTheFigTree">
+        <img class="lazy" data-src="/images/2024/03/tree.png" alt="The Olive Tree and the Fig Tree">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2024/03/07/TheOliveTreeAndTheFigTree">The Olive Tree and the Fig Tree</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2023-06-23T00:00:00-05:00">23 Jun 2023</time>
+
+      
+
+      
+      <a class="article__image" href="/2023/06/23/SeparatingAIFactFromFiction">
+        <img class="lazy" data-src="/images/2023/06/Slide1.PNG" alt="Separating AI Fact from Fiction">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/2023/06/23/SeparatingAIFactFromFiction">Separating AI Fact from Fiction</a>
+      </h2>
+
+      
+
+    </div>
+  </div>
+</div>
+
+            
+                
+                  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- end related posts -->
+
+
+  </main>
+  <!-- end content -->
+
+  <!-- begin footer -->
+<footer class="footer">
+
+  <div class="footer__inner">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-5 col-d-12">
+          <div class="footer__author">
+            <div class="footer__author-avatar">
+              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
+            </div>
+            <h3 class="footer__author-name">Matthew Reinbold</h3>
+            <p class="footer__author-bio">I write, speak, and coach for better software practices. You would think that would be a lot of tech. But, increasingly, it is more about people (like everything else).</p>
+            
+          </div>
+        </div>
+
+        
+        <div class="col col-6 push-1 col-d-12 push-d-0">
+          <div class="footer__gallery">
+            <h3 class="footer__gallery-title">Gallery</h3>
+            
+            <div class="gallery-footer">
+              <div class="gallery" style="grid-template-columns: repeat(3, auto);">
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold2-speaking-2014.png" alt="Matthew speaking in Amsterdam, 2014" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold2-speaking-2014b.jpg" alt="Matthew speaking in Minneapolis, 2014" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold-speaking-2015.jpg" alt="Matthew speaking in Northern Virgina, 2015" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/MatthewReinbold-speaking-2016.jpg" alt="Matthew leading training in 2016" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/api-strat-speaking-headshot.jpg" alt="Matthew speaking in 2019" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/headshot-2018.png" alt="Matthew in 2018" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/video_2021.jpg" alt="Matthew presenting online in 2021" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/podcast-2021.png" alt="Matthew recording a podcast in 2021" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/gallery/podcast-2021b.png" alt="Matthew appearing on a podcast in 2021" loading="lazy">
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__info">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="footer__info-box">
+            <div class="copyright">2025 &copy; <a href="/">Matthew Reinbold</a>. </div>
+            <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- end footer -->
+
+  <script src="/js/scripts.js"></script>
+  <script src="/js/common.js"></script>
+</body>
+
+</html>
