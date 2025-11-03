@@ -634,6 +634,9 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/stories/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -689,5 +692,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/page/18/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vault/Biggest-Little-Bill_Matthew-Reinbold.pdf</loc>
+<lastmod>2025-11-02T13:31:31-06:00</lastmod>
 </url>
 </urlset>
