@@ -5,9 +5,170 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 18 Nov 2025 11:11:51 -0600</pubDate>
-        <lastBuildDate>Tue, 18 Nov 2025 11:11:51 -0600</lastBuildDate>
+        <pubDate>Wed, 19 Nov 2025 13:16:57 -0600</pubDate>
+        <lastBuildDate>Wed, 19 Nov 2025 13:16:57 -0600</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
+        
+            <item>
+                <title>Hurricane David - 03</title>
+                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;Hurricane David&lt;/strong&gt; is a corporate-gothic tech tragedy set in a near future Florida Archipelago. This post-truth fable traces the edges of where reality can be manufactured - and what happens when the natural order reasserts itself.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I hope you enjoy this one, and maybe see a bit of your own fight in it. For more on the story’s background, &lt;a href=&quot;/stories/&quot;&gt;check out the appropriate section on my Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2025/11/waterfront.jpg&quot; alt=&quot;A watercolor picture of a beach-facing waterfront property on on side of a palm-tree lined path&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scene 3 - Vindication&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The analyst break-room coffee wasn’t better, but it came with a perk: instead of cardboard cups, they had real mugs, stamped with the Bureau’s slogan, &lt;em&gt;CALM IS CONTAGIOUS&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Steam curled from David’s mug as he climbed the stadium seating of the command room - a college lecture hall as if it were built by defense contractors. The lighting was dim. The space was almost entirely lit by the floor-to-ceiling monitors comprising the front wall. It pulsed with blues and reds, trending terms, sentiment analysis broken out by geography, ideology, education, and any of two dozen more demographics summarized in pixel form; the sum total of the world’s anxiety abbreviated as light.&lt;/p&gt;
+
+&lt;p&gt;Generally, the command center was quiet - the hum of the HVAC indistinguishable from whatever fan noise came from the dozens of computers in the room, the whir occasionally punctuated by flurries of keyboard assaults.&lt;/p&gt;
+
+&lt;p&gt;There were no assigned seats,technically, but people are creatures of habit. Maya was already at her usual spot, along the left edge and about half way to the top. She was staring intently at her space’s screen, tapping aggressively - summoning forth modals and then, summarily, dismissing them with a flick.&lt;/p&gt;
+
+&lt;p&gt;David slid into the empty seat next to hers, its screen waking when it detected activity.&lt;/p&gt;
+
+&lt;p&gt;“Miss me?”&lt;/p&gt;
+
+&lt;p&gt;Maya only grunted an acknowledgment, still pursuing something he couldn’t see.&lt;/p&gt;
+
+&lt;p&gt;David tilted his head toward the front wall. “How’s our girl today?”&lt;/p&gt;
+
+&lt;p&gt;Maya looked up in irritation. “She’s being a drama queen. It’s been yellow alerts non-stop.”&lt;/p&gt;
+
+&lt;p&gt;As soon as he logged in, an alert covered David’s screen.&lt;/p&gt;
+
+&lt;p&gt;“The f-.”&lt;/p&gt;
+
+&lt;p&gt;“-see? It’s been like this since I started my shift at 5am. It’s got all the signs of an economic rumor cascade.”&lt;/p&gt;
+
+&lt;p&gt;“Gulf side?”&lt;/p&gt;
+
+&lt;p&gt;“Uh-huh. Home-grown and running hot.”&lt;/p&gt;
+
+&lt;p&gt;“Hmmm.” David skimmed the included detail.&lt;/p&gt;
+
+&lt;p&gt;“There was a seawall-crack shock clip. I cross-checked the footage. It is legit; it’s not doctored. The actual impact, though, is pretty slight. There is flooding in the lower 37th zone, but it’s contained; a localized, not systemic, failure.&lt;/p&gt;
+
+&lt;p&gt;“But it looks bad, and the clip is breaking containment. It’s that time of year - old axes out again. Alethia keeps readjusting feed weights and dropping chaff. She’s managed to keep it off trending lists so far, but it’s starting to go viral on its own merits.”&lt;/p&gt;
+
+&lt;p&gt;“Sentiment acceleration?”&lt;/p&gt;
+
+&lt;p&gt;“Look who’s been reading their manual! But yeah, could be big. People love any reason to short archipelago real estate for a quick buck. Hashtags are &lt;em&gt;#floridaFail, #sunkenAssets&lt;/em&gt;, and &lt;em&gt;#waterSoWet&lt;/em&gt;.”&lt;/p&gt;
+
+&lt;p&gt;The reality of what Maya was saying was huge. If the Archipelago looked unstable, insurers would re-price everything by the next morning. Markets would collapse. Panic had bankrupted just as many banks as storms did.&lt;/p&gt;
+
+&lt;p&gt;“Hey, is there someone on the seawall video?” Alethia’s algorithm must have tripped over some threshold and started recruiting additional analysts for help. José, down in front, was scanning around the room for confirmation.&lt;/p&gt;
+
+&lt;p&gt;“Over here-“&lt;/p&gt;
+
+&lt;p&gt;“We’ve got it,” David cut in, “Maya and I are tag-teaming it.”&lt;/p&gt;
+
+&lt;p&gt;Maya looked at David, skeptically. “You sure about that, rookie? Confidence index is at 62.5% and falling. We’ll have a sell-off on anything under 50%.”&lt;/p&gt;
+
+&lt;p&gt;David winked. “What, you scared?” He turned back to his screen and began launching his script agents; some boilerplate, others requiring brief field entry.&lt;/p&gt;
+
+&lt;p&gt;Maya weighed her options, then mockingly crossed herself and addressed José, who was still waiting for confirmation. “Override. I guess we got it. We’ll rope you in if we need it.”&lt;/p&gt;
+
+&lt;p&gt;She turned back to David.&lt;/p&gt;
+
+&lt;p&gt;“I’d started ID’ing mouthpieces for a credibility challenge. Not a whole lot of influencers active at this hour, but we’ve got a handful of puppets that might apply.”&lt;/p&gt;
+
+&lt;p&gt;David’s fingers were now flying. “Is the source dirty?”&lt;/p&gt;
+
+&lt;p&gt;“Like I said, bona fides look clean. But something always turns up, if we dig long enough.”&lt;/p&gt;
+
+&lt;p&gt;“Do we have time for that?”&lt;/p&gt;
+
+&lt;p&gt;“Probably not. There is the usual terms and conditions take down. Something, something public safety. Quick and clean-”&lt;/p&gt;
+
+&lt;p&gt;“-T&amp;amp;Cs are too blunt. Looks like a cover-up. The Streisand effect is the opposite of what we want.”&lt;/p&gt;
+
+&lt;p&gt;The chyron scrolling across the bottom of David’s screen turned red. A neutral voice addressed the room. “Confidence index is below 60%.”&lt;/p&gt;
+
+&lt;p&gt;“Whoa, easy, girl.”&lt;/p&gt;
+
+&lt;p&gt;“What’s the play here, rookie?”&lt;/p&gt;
+
+&lt;p&gt;David gathered his thoughts for a moment before speaking. He suddenly brightened.&lt;/p&gt;
+
+&lt;p&gt;“We can use this, flip it.” David launched a volley of keystrokes, triggering an equal number of new dialogs. “It’s all about perception.”&lt;/p&gt;
+
+&lt;p&gt;Maya made a prune face and leaned over to follow along on his screen. “Come again?”&lt;/p&gt;
+
+&lt;p&gt;“So right now it is an infrastructure-fail that is playing.” David dismissed a few of the topmost related posts referencing the video, then pointed to the next in the queue, tapping through as Alethia sorted in real-time. “We’ve got climate aura farmers, government trolls, Florida haters… “ he rapidly swiped several more items in the carousel, “… a few members of Cirque du Soleil, for some reason-“&lt;/p&gt;
+
+&lt;p&gt;“Rookie!”&lt;/p&gt;
+
+&lt;p&gt;“How often do they inspect the seawalls?”&lt;/p&gt;
+
+&lt;p&gt;“I can find out. Why?”&lt;/p&gt;
+
+&lt;p&gt;“We reframe this footage captured of a maintenance test, or a drill. Something deliberate to test disaster response. Proof that the green plan of mangroves and cordgrass work as expected.”&lt;/p&gt;
+
+&lt;p&gt;“We’ll need to dummy and backdate some work tickets.”&lt;/p&gt;
+
+&lt;p&gt;“Is that a problem?”&lt;/p&gt;
+
+&lt;p&gt;“Shouldn’t be. Alethia has access those county systems.” Maya started typing. “And the flooding?”&lt;/p&gt;
+
+&lt;p&gt;“Localized, right? We spin it as an unexpected byproduct. Cracking eggs to make an omelet. Invaluable real-world insights that will be used to refine and upgrade the entire system performance.”&lt;/p&gt;
+
+&lt;p&gt;Maya returned to her terminal and ran a probability forecast; the trend line stabilized, but not high enough. David, watching over her shoulder, leaned in and tweaked demographic and geopolitical targeting sliders by hand. The projections wavered a moment, then orange coded labels bled to yellow.&lt;/p&gt;
+
+&lt;p&gt;Maya leaned back and crossed her arms. David looked at her expectantly.&lt;/p&gt;
+
+&lt;p&gt;From behind them, Jeter said, “That’s not bad.”&lt;/p&gt;
+
+&lt;p&gt;David nearly jumped out of his seat. During his color-coding, he hadn’t heard Jeter approach.&lt;/p&gt;
+
+&lt;p&gt;“The seawall leak, I presume?”&lt;/p&gt;
+
+&lt;p&gt;“Forming an approach,” Maya answered, “We’re about to execute.”&lt;/p&gt;
+
+&lt;p&gt;“Run it back for me.”&lt;/p&gt;
+
+&lt;p&gt;Maya looked expectantly at David and David cleared his throat.&lt;/p&gt;
+
+&lt;p&gt;“We supercharge the spread.”&lt;/p&gt;
+
+&lt;p&gt;Jeter’s eyebrow twitched. “Unconventional.”&lt;/p&gt;
+
+&lt;p&gt;“We frame it as proof of diligence - routine testing, proactive governance. Push hashtags like ‘StressTestSuccess’, or ‘MakingSafeHappen’ and run with whatever pops.”&lt;/p&gt;
+
+&lt;p&gt;Jeter grunted affirmatively. “Shift the sentiment from panic to civic pride?”&lt;/p&gt;
+
+&lt;p&gt;“Exactly! Like ‘Look at our proactive resilience’.”&lt;/p&gt;
+
+&lt;p&gt;Maya joined in. “It’s too cute, by a lot. Those tags need a pass or ten through sentiment refactoring. But it might work. The types that might otherwise spread it will back off; they won’t want to seem pro-gov. And it will be like catnip for those looking to clown on the climate types.”&lt;/p&gt;
+
+&lt;p&gt;“We bait a positive spin. It’ll be chum in the water.”&lt;/p&gt;
+
+&lt;p&gt;Jeter stroked his beard for a moment before speaking. “Alethia: projection?”
+The manifested voice localized between the three of them. “Projected confidence recovery is 67 percent.”&lt;/p&gt;
+
+&lt;p&gt;“Okay. Do it. Nobody leaves until we’re back over 65%. The markets don’t dip when they open tomorrow.” Jeter took in the rest of the room for a moment. Finding nothing else amiss, he told David good job before ambling back to the crows nest at the rear of the room.
+David beamed.&lt;/p&gt;
+
+&lt;p&gt;“Hey! We’re not out of the woods yet, &lt;em&gt;David&lt;/em&gt;.” Maya chided, pushing his coffee toward him. “We’ve got a long day of cleanup ahead of us.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;End Scene 3 - Check back tomorrow for the next installment.&lt;/em&gt;&lt;/p&gt;
+</description>
+                <pubDate>Wed, 19 Nov 2025 00:00:00 -0600</pubDate>
+                <link>https://matthewreinbold.com/2025/11/19/HurricaneDavid-03</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2025/11/19/HurricaneDavid-03</guid>
+                
+                <category>Culture</category>
+                
+                <category>Writing</category>
+                
+                
+            </item>
         
             <item>
                 <title>Hurricane David - 02</title>
@@ -1166,171 +1327,6 @@ Finally, if you’re on the Fediverse – like on the Mastodon platform – and 
                 <guid isPermaLink="true">https://matthewreinbold.com/2025/06/30/grace</guid>
                 
                 <category>Culture</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>The Productivity Trap</title>
-                <description>&lt;p&gt;&lt;strong&gt;TL;DR -&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The problem isn’t coding with GenAI. The problem is what coding with GenAI lets us get away with&lt;/strong&gt;. It allows us to delay making real choices, real trade-offs, and real systemic changes by giving the illusion of movement and acceleration. In a moment where maintenance, curation, and simplification are the actual leverage points, we’re rewarding copycat output. Not because software developers are stupid or short-cited, but because our incentives, our markets, and our social platforms have been rewired to reward volume over truth, sizzle over substance.&lt;/p&gt;
-
-&lt;h3 id=&quot;upfront-disclosure-i-use-generative-ai-tools-almost-every-day&quot;&gt;Upfront Disclosure: I use generative AI tools almost every day.&lt;/h3&gt;
-&lt;p&gt;Many otherwise genuine criticisms of AI are undercut when you discover the author has no experience with the tools, and is wailing on strawmen of their own design.&lt;/p&gt;
-
-&lt;p&gt;I will state clearly up front that I use generative AI (genAI) nearly every day. In fact, this piece was developed with the help of large language models. As a remote worker, having a tireless, talkative partner &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubber_duck_debugging&quot;&gt;to rubber-duck with&lt;/a&gt; is essential. It’s like a writing circle, albeit one that’s available 24/7, never gets hangry, and has perfect conversational recall. Even just having to articulate half-formed intuitions or unspoken feelings into a prompt is beneficial. Beyond that, something like ChatGPT is great for identifying weaknesses in arguments or highlighting hiccups in flow.&lt;/p&gt;
-
-&lt;p&gt;However, because I use it regularly, I see its limits. GenAI is beneficial for what it is: a fast feedback loop, a pattern spotter, and a corpus summarizer. What it is &lt;em&gt;not&lt;/em&gt; is a substitute for the hard work of making trade-offs, reducing complexity, or building healthy systems.&lt;/p&gt;
-
-&lt;p&gt;And yet, in boardrooms and strategy decks across the tech industry, GenAI is rapidly being positioned as precisely that: a cure-all for reduced budgets, ballooning backlogs, and stressed teams struggling to maintain momentum. There’s a tremendous amount of hype, and seemingly little critical thinking, which is understandable if you think about it for a moment; &lt;strong&gt;if you’re drowning, you don’t critique any potential lifeboat&lt;/strong&gt;. But that doesn’t mean you’re destined for solid ground.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-ai-hype-has-only-grown&quot;&gt;The AI hype has only grown.&lt;/h3&gt;
-&lt;p&gt;What you’re hearing about genAI isn’t just due to your leadership, but an entire ecosystem of misaligned incentives. &lt;a href=&quot;https://ferd.ca/the-gap-through-which-we-praise-the-machine.html&quot;&gt;Fred Hebert, a Honeycomb.io SRE, recently pointed out&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The usefulness and success of using LLMs are axiomatically taken for granted and the mandate for their adoption can often come from above your CEO. Your execs can be as baffled as anyone else having to figure out where to jam AI into their product. Adoption may be forced to keep board members, investors, and analysts happy, regardless of what customers may be needing.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It does not matter whether LLMs can or cannot deliver on what they promise: people calling the shots assume they can, so it’s gonna happen no matter what.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That’s … &lt;em&gt;not great&lt;/em&gt;. But add to that the “macroeconomic headwinds” howling since 2023 and suddenly tech leadership’s job is to make the line go up &lt;em&gt;with fewer reporting lines&lt;/em&gt;. Releases are slipping, infrastructure is groaning, and the most experienced engineers are leaving for places that didn’t mandate a return-to-office (RTO).&lt;/p&gt;
-
-&lt;p&gt;It is hard to ignore cheerleading coming from &lt;a href=&quot;https://www.bloomberg.com/news/audio/2024-08-07/odd-lots-how-goldman-sachs-is-actually-using-ai-podcast&quot;&gt;the likes of Goldman Sachs’ CIO, who recently named &lt;strong&gt;developer productivity the #1 GenAI use case&lt;/strong&gt;&lt;/a&gt;. Similarly, &lt;a href=&quot;https://www.businessinsider.com/ai-google-engineers-coding-productive-sundar-pichai-alphabet-2025-6&quot;&gt;Google says its engineers are 10% more productive&lt;/a&gt;. And when LinkedIn is abuzz with claims like, “GenAI made development 2x faster and restored my hairline”, your leadership’s first thought isn’t, “At what cost?” but “Where do I sign?”&lt;/p&gt;
-
-&lt;p&gt;And why not? The pitch is irresistible:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;No reorgs&lt;/li&gt;
-  &lt;li&gt;No vendor lock-in&lt;/li&gt;
-  &lt;li&gt;No cultural transformations&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Just waive some corporate card expenditures for Copilot and watch the codebase commits fly.&lt;/p&gt;
-
-&lt;p&gt;But here’s the trap: developer productivity sounds like a smart and measurable goal. However, most software teams aren’t drowning because they can’t &lt;em&gt;write code fast enough&lt;/em&gt;. &lt;strong&gt;They’re drowning because they don’t know which code to write, they’re afraid to touch what already exists, or they’re unclear about how what they’re doing creates business value&lt;/strong&gt;. The systems they’re tasked with modifying resemble a Rube Goldberg machine; one where half the mechanisms are on fire, the other half are forgotten legacy components, and the third half was recently added in an acquisition and needs to be integrated yesterday.&lt;/p&gt;
-
-&lt;p&gt;The conversations they’re having sound like this:&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/y8OnoxKotPQ?si=ufeeg7U2FooMWbYK&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;In other words, the problem isn’t throughput. It’s &lt;em&gt;clarity&lt;/em&gt;. &lt;strong&gt;And when you chase productivity without clarity, you just accelerate the mess&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;“Ship more” sounds great in a slide deck. Until you realize you’re shipping complexity faster than your team can understand it.&lt;/p&gt;
-
-&lt;h3 id=&quot;shipping-more-faster-is-a-recipe-for-disaster&quot;&gt;Shipping more, faster is a recipe for disaster.&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ufried.com/blog/ai_and_software_development_1/&quot;&gt;In his series about simplifying architecture, Uwe Friedrichsen summarizes the situation&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We are pushing to do the wrong things better and better.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;When GenAI is brought in to “fix” developer productivity without anyone slowing down to ask what’s actually broken, things only get worse. Because GenAI is &lt;em&gt;the ultimate enabler of “just one more”&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;More code, more endpoints, more opacity stacked on legacy systems, generated in milliseconds by tools that have no idea about what is right or wrong for a given context, only probabilistic matches for code in its training data.&lt;/p&gt;
-
-&lt;p&gt;That may work for the seven-thousandth example of a social network client. But the more unique the context, the less capable the help.&lt;/p&gt;
-
-&lt;h3 id=&quot;genai-isnt-replacing-developers-its-replacing-decision-making&quot;&gt;GenAI isn’t replacing developers; it’s replacing decision-making.&lt;/h3&gt;
-&lt;p&gt;There’s a whole separate article about &lt;a href=&quot;https://www.reddit.com/r/technology/comments/1ku03ov/ibm_laid_off_8000_employees_to_replace_them_with/&quot;&gt;how companies use GenAI hype to justify layoffs and then quietly rehire for the same roles at a cheaper, overseas rate&lt;/a&gt;. Assuming your company isn’t attempting a stealth outsourcing, GenAI isn’t actually making developers obsolete. It is making &lt;em&gt;choices&lt;/em&gt; obsolete.&lt;/p&gt;
-
-&lt;p&gt;When you drop Copilot or CodeWhisperer into a team that’s already under pressure, you don’t get thoughtful design. You get &lt;strong&gt;code at the speed of vibes&lt;/strong&gt;. Half-understood prompts, half-documented results, and auto-complete-driven architecture. Everyone nods along because nobody wants to look like the one standing in the way of “the future”; or at least, there’s little professional benefit.&lt;/p&gt;
-
-&lt;p&gt;Take Fly.io. &lt;a href=&quot;https://fly.io/blog/youre-all-nuts/&quot;&gt;Fly.io recently published a piece about how they’ve incorporated genAI into their development process&lt;/a&gt;. In essence, they claim, “AI lets us build faster, even though it makes the code worse, so we’re just trying to slow down enough to make it usable”.&lt;/p&gt;
-
-&lt;p&gt;In response, Icelandic web developer and consultant Baldur Bjarnason points out this isn’t productivity; it’s &lt;a href=&quot;https://toot.cafe/@baldur/114619175120392006&quot;&gt;“lowering the quality bar so we can high-five each other for clearing it”&lt;/a&gt;. Or said another way, &lt;strong&gt;it’s not that the code is good. It’s that it is fast, and nobody has time to care anymore&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This isn’t just a quality problem; it’s a &lt;strong&gt;strategic one&lt;/strong&gt;. Because when GenAI becomes your default way to move forward, you stop choosing what’s worth building. You just … keep building. Faster. More often. Which only compounds problems:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Developers stop questioning the architecture.&lt;/li&gt;
-  &lt;li&gt;Product teams assume delivery is “unblocked”.&lt;/li&gt;
-  &lt;li&gt;Leadership sees velocity graphs going up and assumes it’s working.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Meanwhile, you’ve automated yourself into a corner, a bigger, messier, tech-debtier corner, but a corner nonetheless.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2025/help.png&quot; alt=&quot;&amp;quot;A pair of tweets from a user on Twitter. In the first, he brags about how he vibe coded his way to an application. In the second, he pleads for help, as things are failing and he doesn&apos;t know why.&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;solving-systems-complexity-requires-a-different-kind-of-leadership&quot;&gt;Solving systems complexity requires a different kind of leadership.&lt;/h3&gt;
-
-&lt;p&gt;Dunking on the AI hype is easy; there’s several extremely online types that have made it their entire personality the last several months. It’s harder to conceive of something better, especially when your calendar is full, your team is thin, and your CFO wants you to explain why your delivery metrics didn’t improve &lt;em&gt;after you gave everyone robot interns&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I will say &lt;strong&gt;you’re not crazy for wanting relief&lt;/strong&gt;. You’re just not going to find it in autocomplete.&lt;/p&gt;
-
-&lt;p&gt;What your org needs isn’t “more”.&lt;/p&gt;
-
-&lt;p&gt;It needs &lt;em&gt;maintenance&lt;/em&gt;.
-It needs &lt;em&gt;curation&lt;/em&gt;. 
-It needs &lt;em&gt;simplification&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;These aren’t sexy initiatives. They don’t demo well. You can’t put “we deleted fifteen endpoints” in a roadmap review and expect applause. But if you want your team to keep moving in five months, let alone five &lt;em&gt;years&lt;/em&gt;, this is the work that matters.&lt;/p&gt;
-
-&lt;p&gt;You don’t need a new platform or a tiger team. You need a shift in instinct.&lt;/p&gt;
-
-&lt;h3 id=&quot;five-behaviors-of-leaders-who-choose-resilience-over-vibes&quot;&gt;Five Behaviors of Leaders Who Choose Resilience Over Vibes&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Default to Deletion&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Before you greenlight another service, ask what can be shut down. Before you automate a workflow, ask whether it’s still necessary. Before you ship more, try &lt;em&gt;shipping less&lt;/em&gt;. On purpose.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;We don’t need to do more faster - we need to do less, better.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Reward Understandability&lt;/strong&gt;
-If you can’t explain it to a new hire in ten minutes, it’s a liability. Stop rewarding clever hacks. Start celebrating clarity.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Elegance is not optimization. It’s comprehension&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Defer Decisions That Add Complexity&lt;/strong&gt;
-Postpone what you can. Push back on “just in case” extensibility. Favor defaults. Shrink option surfaces. Don’t widen interfaces unless there is an explicit use case.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Every new option is a tax on future understanding.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. Curate What You Have&lt;/strong&gt;
-Prune your internal APIs. Archive stale docs. Audit your SDKs. Stop showcasing &lt;em&gt;how much&lt;/em&gt; you have. Start showcasing what actually works.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;If you don’t curate your ecosystem, you’re just letting complexity run the museum.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5. Ask: “What If We Did Nothing?”&lt;/strong&gt;
-This one is counterintuitive but powerful. Not everything needs a fix.
-Sometimes, the bravest thing you can do is wait.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Anyone can stomp on the gas. Leadership is knowing when to pump the brakes - and when to get out and walk around.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This is what stewardship looks like. It’s not loud. It’s not flashy. And it won’t get you featured on HackerNews. However, it may just give your team a fighting chance.&lt;/p&gt;
-
-&lt;h3 id=&quot;maintenance-is-the-new-moonshot&quot;&gt;Maintenance is the new moonshot.&lt;/h3&gt;
-&lt;p&gt;If this is the sustainable, pragmatic way forward, why are so few actually talking about it?&lt;/p&gt;
-
-&lt;p&gt;Again, I go back to &lt;a href=&quot;https://ferd.ca/the-gap-through-which-we-praise-the-machine.html&quot;&gt;Hebert’s piece&lt;/a&gt;, as he describes the situation quite concisely:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Things won’t change, because people are adaptable and want the system to succeed. We consequently take on the responsibility for making things work, through ongoing effort and by transforming ourselves in the process. Through that work, we make the technology appear closer to what it promises than what it actually delivers, which in turn reinforces the pressure to adopt it.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In a sense, &lt;a href=&quot;/2025/03/13/IroniesOfAgenticAI&quot;&gt;the responsibility for realizing AI’s hyperbole is delegated to its human implementers&lt;/a&gt;. And if the Mechanical Turk fails to deliver, it is considered the operator’s fault, not the technology’s.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, there are no TED speaker slots for “Doing Fewer Things Slightly Better.” No book deals for “Slow Architecture”. VCs aren’t throwing term sheets at companies promising to do &lt;em&gt;less&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;But that doesn’t make it any less critical.&lt;/p&gt;
-
-&lt;p&gt;In a world obsessed with acceleration, &lt;strong&gt;choosing to maintain - to understand, to simplify, to prune - is now a radical act&lt;/strong&gt;. It’s leadership that resists panic. It’s a strategy that values longevity over the next quarter’s dashboard.&lt;/p&gt;
-
-&lt;p&gt;GenAI isn’t the enemy. But misusing it to paper over hard choices - to avoid trade-offs, to compile more complexity, to pantomime progress - that’s how we break things beyond repair.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The systems we build reflect the choices we make under pressure. Choose maintenance. Choose clarity. Choose to lead.&lt;/strong&gt;&lt;/p&gt;
-
-</description>
-                <pubDate>Thu, 19 Jun 2025 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2025/06/19/theproductivitytrap</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2025/06/19/theproductivitytrap</guid>
-                
-                <category>Software Development</category>
-                
-                <category>AI</category>
-                
-                <category>Management</category>
                 
                 
             </item>
