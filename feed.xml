@@ -3,11 +3,184 @@
     <channel>
         <title>Matthew Reinbold</title>
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
-        <link>https://matthewreinbold.com/</link>
-        <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 04 Feb 2026 16:28:14 -0600</pubDate>
-        <lastBuildDate>Wed, 04 Feb 2026 16:28:14 -0600</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 06 Apr 2026 11:15:18 -0500</pubDate>
+        <lastBuildDate>Mon, 06 Apr 2026 11:15:18 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
+        
+            <item>
+                <title>General American - 01</title>
+                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A new installment will be published daily. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scene 1 - SpudBud to the Rescue&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Fifteen minutes before opening, &lt;em&gt;Frylies&lt;/em&gt; rehearsed normal.&lt;/p&gt;
+
+&lt;p&gt;Joel read the checklist from memory, rather than his clipboard.&lt;/p&gt;
+
+&lt;p&gt;“Stations prepped?”&lt;/p&gt;
+
+&lt;p&gt;Rosa shifted onto one hip and popped an exaggerated thumbs-up from beneath folded arms.&lt;/p&gt;
+
+&lt;p&gt;“Walk-in holding temp?”&lt;/p&gt;
+
+&lt;p&gt;Jamal leaned against the counter top.&lt;/p&gt;
+
+&lt;p&gt;“Steady as she goes.”&lt;/p&gt;
+
+&lt;p&gt;“Bathrooms?”&lt;/p&gt;
+
+&lt;p&gt;Mateo coughed to clear his throat, then said, “We good.”&lt;/p&gt;
+
+&lt;p&gt;Joel tapped the clipboard against his knuckles.&lt;/p&gt;
+
+&lt;p&gt;“Mrs. Alvarez, did you have a chance to walk the front of house?”&lt;/p&gt;
+
+&lt;p&gt;“Sí,” Mrs. Alvarez said, franchise black visor with swirly, butter-cream embroidered lettering dangling clasped hands.&lt;/p&gt;
+
+&lt;p&gt;“Good, good. Well then, guys, there’s just one more thing before we open.”&lt;/p&gt;
+
+&lt;p&gt;Joel laid down his clipboard and opened the box that had been sitting on the counter. He theatrically blew on his fingers and pulled the headset from inside. He held it up so the assembled team could see it better.&lt;/p&gt;
+
+&lt;p&gt;It definitely was new - the plastic film hadn’t even been peeled from the AR glasses portion.&lt;/p&gt;
+
+&lt;p&gt;“We’ve heard it was coming for a while. But today is the day! &lt;em&gt;Frylies&lt;/em&gt; is rolling out SpudBud AI nationally.”&lt;/p&gt;
+
+&lt;p&gt;“So it’s real now?” Rosa said, “No more excuses?”&lt;/p&gt;
+
+&lt;p&gt;“Yep,” Joel rotated to give others a better look, moving gingerly as if he were holding a cup filled to the brim.  “I know training was months ago. I’ve been told they’ve applied a lot of the UI feedback since then. They say it is super-intuitive now.”&lt;/p&gt;
+
+&lt;p&gt;An anxious and excited twitter sizzled through the crowd.&lt;/p&gt;
+
+&lt;p&gt;Jamal raised his hand.&lt;/p&gt;
+
+&lt;p&gt;“Yes, Jamal?”&lt;/p&gt;
+
+&lt;p&gt;“What is Spud… spud-,” he struggled to recall the name.&lt;/p&gt;
+
+&lt;p&gt;“It’s &lt;strong&gt;SpudBud&lt;/strong&gt;, our new AI coach.” Joel carefully reseated the headset in the box and glanced upward at the ceiling. “When did field support swing by? Maybe seven months-“&lt;/p&gt;
+
+&lt;p&gt;“Eight,” Mrs. Alvarez corrected.&lt;/p&gt;
+
+&lt;p&gt;“Eight,” Joel snapped his fingers and pointed at the senior member of the group. “Well,  there you go. Corporate was here eight months ago. But, you didn’t miss much, though, Jamal. It was barely more than a couple of slide decks at the time.”&lt;/p&gt;
+
+&lt;p&gt;“But it will do the voice smoothing, like they said?” Rosa asked.&lt;/p&gt;
+
+&lt;p&gt;“Yepper. It’ll convert whatever you say into ‘General American’.”&lt;/p&gt;
+
+&lt;p&gt;By his expression, the explanation only made Jamal more confused.&lt;/p&gt;
+
+&lt;p&gt;“General-what-now?”&lt;/p&gt;
+
+&lt;p&gt;“It’s a linguistic thing, or something,” Joel offered, unhelpfully.&lt;/p&gt;
+
+&lt;p&gt;“It makes us all sound white and from the ‘burbs, over the speaker,” Mateo said. He pinched his nose and made his voice high and nasally, “I want to talk to your manager!”&lt;/p&gt;
+
+&lt;p&gt;“All right,” Joel said, cutting Mateo off before he could go on, “Let’s not get ourselves written up before we open.”&lt;/p&gt;
+
+&lt;p&gt;He picked up the headset again and handed it to Jamal.&lt;/p&gt;
+
+&lt;p&gt;“Here-“ he handed the headset to Jamal. “You shouldn’t have to know how to use it; it should tell you. You put that on, and I’ll turn it on from my office.&lt;/p&gt;
+
+&lt;p&gt;“I’ll be right back.”&lt;/p&gt;
+
+&lt;p&gt;Jamal turned the device over in his hands. It definitely had more heft than the version he was used to. That was probably why the supporting straps seemed more substantial.&lt;/p&gt;
+
+&lt;p&gt;Mateo leaned in. “You think you can run Doom on that?”&lt;/p&gt;
+
+&lt;p&gt;“Dorks,” Rosa said, playfully. Despite the criticism, Rosa seemed equally drawn to the new, shiny plastic.&lt;/p&gt;
+
+&lt;p&gt;“Takes one to know one, &lt;em&gt;mamacita&lt;/em&gt;,” Mateo said.&lt;/p&gt;
+
+&lt;p&gt;He punched Jamal on the shoulder.&lt;/p&gt;
+
+&lt;p&gt;“Come on, man. Let’s get some ASMR going, already.”&lt;/p&gt;
+
+&lt;p&gt;Jamal frowned, trying to pick at the edge of the protective film over the glass. The third try was the charm. He peeled the plastic back with a satisfying squelch and then widened the strap, making sure it fit over his visor.  He clipped the battery pack to his pants and adjusted the microphone that extended over his left ear.&lt;/p&gt;
+
+&lt;p&gt;He looked around. From the back prep sinks to the brushed-metal soda towers beyond the front counter, &lt;em&gt;Frylies&lt;/em&gt; looked the same as it had before. Remodeled a few years before, it was all clean, Scandinavian lines with modern black panels, vinyl wood accents, and clean lettering, aspiring for something more upscale. Red LED stripes ringed the ceiling, mimicking neon. The tile counters gleamed under red pendent lights. The variously sized logos, with their buttery-yellow, crinkle-cut fries and red swirly lettering, glowed in witness.&lt;/p&gt;
+
+&lt;p&gt;The shake machine’s compressor kicked on, rumbling loudly.&lt;/p&gt;
+
+&lt;p&gt;As if cued, red text began to flow in the upper corner of his vision. It seemed to be a series of startup diagnostics.&lt;/p&gt;
+
+&lt;p&gt;The headset buzzed, and then a cartoon voice was in Jamal’s ear.&lt;/p&gt;
+
+&lt;p&gt;“Hi there, Jamal, employee two-two-one! I’m SpudBud, your friendly performance partner, ready to optimize your best voice!”&lt;/p&gt;
+
+&lt;p&gt;“Whoa.”&lt;/p&gt;
+
+&lt;p&gt;“What’s happening?” Rosa asked.&lt;/p&gt;
+
+&lt;p&gt;Joel re-emerged from the back.&lt;/p&gt;
+
+&lt;p&gt;“Okay, we should be up and running. Are you seeing it?”&lt;/p&gt;
+
+&lt;p&gt;Jamal nodded.&lt;/p&gt;
+
+&lt;p&gt;“Great! Okay. Pretend a car has just pulled up. Push the mic button and just talk. You and the customer at the drive-thru will hear the corrected version. You should also see it in the display.”&lt;/p&gt;
+
+&lt;p&gt;“Just talk like normal?”&lt;/p&gt;
+
+&lt;p&gt;“Go ahead.”&lt;/p&gt;
+
+&lt;p&gt;Jamal looked around the group, suddenly very self-conscious. He licked his lips and then pressed the button.&lt;/p&gt;
+
+&lt;p&gt;“Um, welcome to &lt;em&gt;Frylies&lt;/em&gt;,” Jamal said haltingly, sounding extremely self-conscious as everyone watched him, “Where every day is Fry-day? What can I get you?”&lt;/p&gt;
+
+&lt;p&gt;Again, there was a sudden buzz at the back of his head. In his glasses, an ellipsis flashed several times, and text appeared.&lt;/p&gt;
+
+&lt;p&gt;”[[WARNING: Non-sanctioned greeting. Correcting. Energy and confidence levels boosted 20%.]] Welcome to Frylies. May I take your order?”&lt;/p&gt;
+
+&lt;p&gt;Rosa was impatient. “What did it say?”&lt;/p&gt;
+
+&lt;p&gt;Jamal took off the headset and looked at the spot along the elastic band that had vibrated.&lt;/p&gt;
+
+&lt;p&gt;“Something about a ‘non-sanctioned’ greeting? And what it said to the customer was completely different than what I said. Is it always going to do that?”&lt;/p&gt;
+
+&lt;p&gt;“That’s the point,” Joel said quickly, “It keeps everything consistent. For the customers.”&lt;/p&gt;
+
+&lt;p&gt;Joel retrieved his clipboard and flipped some pages.&lt;/p&gt;
+
+&lt;p&gt;“Here’s what’s in the press release:”&lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;SpudBud™ is Frylies next-generation drive-through enhancement platform, designed to ensure every guest interaction reflects our commitment to customer clarity, consistency, and comfort.
+
+At Frylies, we believe &apos;fast, food, and fun&apos; should sound the same - no matter who&apos;s listening.
+
+The advanced AI agent works seamlessly in the background, preserving your authentic customer interactions while ensuring they meet Frylies brand-forward conversational expectations.
+
+By leveraging adaptive tone-balancing and-&quot;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“-Blah, blah, blah. It goes on like that for a ways. Anyway-,” Joel flipped to the next page. “There’s some internal notes about ‘guest ease indexing’ and calibration, but that’s mostly metrics.”&lt;/p&gt;
+
+&lt;p&gt;He tapped his clipboard.&lt;/p&gt;
+
+&lt;p&gt;“Any questions?”&lt;/p&gt;
+
+&lt;p&gt;Jamal shot Mateo a look. Mateo just shrugged.&lt;/p&gt;
+
+&lt;p&gt;Mrs. Alvarez’s thumbs kneaded the strap on her visor as if she were praying a synthetic fiber rosary.  She silently studied Jamal as she did so.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 06 Apr 2026 00:00:00 -0500</pubDate>
+                <link>http://localhost:4000/2026/04/06/GeneralAmerican-01</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/06/GeneralAmerican-01</guid>
+                
+                <category>Culture</category>
+                
+                <category>Writing</category>
+                
+                
+            </item>
         
             <item>
                 <title>Moneyballer Americana - 07</title>
@@ -50,8 +223,8 @@
 &lt;p&gt;&lt;em&gt;The End&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sat, 10 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</guid>
+                <link>http://localhost:4000/2026/01/10/MoneyballerAmericana-07</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/10/MoneyballerAmericana-07</guid>
                 
                 <category>Culture</category>
                 
@@ -171,8 +344,8 @@
 &lt;/ul&gt;
 </description>
                 <pubDate>Fri, 09 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/09/MoneyballerAmericana-06</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/09/MoneyballerAmericana-06</guid>
+                <link>http://localhost:4000/2026/01/09/MoneyballerAmericana-06</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/09/MoneyballerAmericana-06</guid>
                 
                 <category>Culture</category>
                 
@@ -320,8 +493,8 @@
 &lt;/ul&gt;
 </description>
                 <pubDate>Thu, 08 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/08/MoneyballerAmericana-05</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/08/MoneyballerAmericana-05</guid>
+                <link>http://localhost:4000/2026/01/08/MoneyballerAmericana-05</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/08/MoneyballerAmericana-05</guid>
                 
                 <category>Culture</category>
                 
@@ -527,8 +700,8 @@
 &lt;/ul&gt;
 </description>
                 <pubDate>Wed, 07 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/07/MoneyballerAmericana-04</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/07/MoneyballerAmericana-04</guid>
+                <link>http://localhost:4000/2026/01/07/MoneyballerAmericana-04</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/07/MoneyballerAmericana-04</guid>
                 
                 <category>Culture</category>
                 
@@ -688,8 +861,8 @@ It was a good point. Eli decided not to mention one of the companies in the ads 
 &lt;/ul&gt;
 </description>
                 <pubDate>Tue, 06 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/06/MoneyballerAmericana-03</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/06/MoneyballerAmericana-03</guid>
+                <link>http://localhost:4000/2026/01/06/MoneyballerAmericana-03</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/06/MoneyballerAmericana-03</guid>
                 
                 <category>Culture</category>
                 
@@ -909,8 +1082,8 @@ Dee and Louis exploded into laughter.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
                 <pubDate>Mon, 05 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/05/MoneyballerAmericana-02</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/05/MoneyballerAmericana-02</guid>
+                <link>http://localhost:4000/2026/01/05/MoneyballerAmericana-02</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/05/MoneyballerAmericana-02</guid>
                 
                 <category>Culture</category>
                 
@@ -1090,8 +1263,8 @@ Dee and Louis exploded into laughter.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
                 <pubDate>Sun, 04 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/04/MoneyballerAmericana-01</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/04/MoneyballerAmericana-01</guid>
+                <link>http://localhost:4000/2026/01/04/MoneyballerAmericana-01</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/04/MoneyballerAmericana-01</guid>
                 
                 <category>Culture</category>
                 
@@ -1142,8 +1315,8 @@ Dee and Louis exploded into laughter.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The End&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Fri, 21 Nov 2025 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2025/11/21/HurricaneDavid-05</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2025/11/21/HurricaneDavid-05</guid>
+                <link>http://localhost:4000/2025/11/21/HurricaneDavid-05</link>
+                <guid isPermaLink="true">http://localhost:4000/2025/11/21/HurricaneDavid-05</guid>
                 
                 <category>Culture</category>
                 
@@ -1245,169 +1418,8 @@ Another pause. The house did its best to filter out the sound of wind on the oth
 &lt;p&gt;&lt;em&gt;End Scene 4 - &lt;a href=&quot;/2025/11/21/HurricaneDavid-05&quot;&gt;Check here for the final installment of Hurricane David&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Thu, 20 Nov 2025 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2025/11/20/HurricaneDavid-04</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2025/11/20/HurricaneDavid-04</guid>
-                
-                <category>Culture</category>
-                
-                <category>Writing</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Hurricane David - 03</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;Hurricane David&lt;/strong&gt; is a corporate-gothic tech tragedy set in a near future Florida Archipelago. This post-truth fable traces the edges of where reality can be manufactured - and what happens when the natural order reasserts itself.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Enjoy this one, or at least use it to justify a different path. This is the third scene. If you missed the first, &lt;a href=&quot;/2025/11/17/HurricaneDavid-01&quot;&gt;you can begin at the beginning&lt;/a&gt;. Or &lt;a href=&quot;/stories/&quot;&gt;download a collected version of all five parts and get a bit of background from the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2025/11/waterfront.jpg&quot; alt=&quot;A watercolor picture of a beach-facing waterfront property on on side of a palm-tree lined path&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scene 3 - Vindication&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The analyst break-room coffee wasn’t better, but it came with a perk: instead of cardboard cups, they had real mugs, stamped with the Bureau’s slogan, &lt;em&gt;CALM IS CONTAGIOUS&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Steam curled from David’s mug as he climbed the stadium seating of the command room - a college lecture hall as if it were built by defense contractors. The lighting was dim. The space was almost entirely lit by the floor-to-ceiling monitors comprising the front wall. It pulsed with blues and reds, trending terms, sentiment analysis broken out by geography, ideology, education, and any of two dozen more demographics summarized in pixel form; the sum total of the world’s anxiety abbreviated as light.&lt;/p&gt;
-
-&lt;p&gt;Generally, the command center was quiet - the hum of the HVAC indistinguishable from whatever fan noise came from the dozens of computers in the room, the whir occasionally punctuated by flurries of keyboard assaults.&lt;/p&gt;
-
-&lt;p&gt;There were no assigned seats,technically, but people are creatures of habit. Maya was already at her usual spot, along the left edge and about half way to the top. She was staring intently at her space’s screen, tapping aggressively - summoning forth modals and then, summarily, dismissing them with a flick.&lt;/p&gt;
-
-&lt;p&gt;David slid into the empty seat next to hers, its screen waking when it detected activity.&lt;/p&gt;
-
-&lt;p&gt;“Miss me?”&lt;/p&gt;
-
-&lt;p&gt;Maya only grunted an acknowledgment, still pursuing something he couldn’t see.&lt;/p&gt;
-
-&lt;p&gt;David tilted his head toward the front wall. “How’s our girl today?”&lt;/p&gt;
-
-&lt;p&gt;Maya looked up in irritation. “She’s being a drama queen. It’s been yellow alerts non-stop.”&lt;/p&gt;
-
-&lt;p&gt;As soon as he logged in, an alert covered David’s screen.&lt;/p&gt;
-
-&lt;p&gt;“The f-.”&lt;/p&gt;
-
-&lt;p&gt;“-see? It’s been like this since I started my shift at 5am. It’s got all the signs of an economic rumor cascade.”&lt;/p&gt;
-
-&lt;p&gt;“Gulf side?”&lt;/p&gt;
-
-&lt;p&gt;“Uh-huh. Home-grown and running hot.”&lt;/p&gt;
-
-&lt;p&gt;“Hmmm.” David skimmed the included detail.&lt;/p&gt;
-
-&lt;p&gt;“There was a seawall-crack shock clip. I cross-checked the footage. It is legit; it’s not doctored. The actual impact, though, is pretty slight. There is flooding in the lower 37th zone, but it’s contained; a localized, not systemic, failure.&lt;/p&gt;
-
-&lt;p&gt;“But it looks bad, and the clip is breaking containment. It’s that time of year - old axes out again. Alethia keeps readjusting feed weights and dropping chaff. She’s managed to keep it off trending lists so far, but it’s starting to go viral on its own merits.”&lt;/p&gt;
-
-&lt;p&gt;“Sentiment acceleration?”&lt;/p&gt;
-
-&lt;p&gt;“Look who’s been reading their manual! But yeah, could be big. People love any reason to short archipelago real estate for a quick buck. Hashtags are &lt;em&gt;#floridaFail, #sunkenAssets&lt;/em&gt;, and &lt;em&gt;#waterSoWet&lt;/em&gt;.”&lt;/p&gt;
-
-&lt;p&gt;The reality of what Maya was saying was huge. If the Archipelago looked unstable, insurers would re-price everything by the next morning. Markets would collapse. Panic had bankrupted just as many banks as storms did.&lt;/p&gt;
-
-&lt;p&gt;“Hey, is there someone on the seawall video?” Alethia’s algorithm must have tripped over some threshold and started recruiting additional analysts for help. José, down in front, was scanning around the room for confirmation.&lt;/p&gt;
-
-&lt;p&gt;“Over here-“&lt;/p&gt;
-
-&lt;p&gt;“We’ve got it,” David cut in, “Maya and I are tag-teaming it.”&lt;/p&gt;
-
-&lt;p&gt;Maya looked at David, skeptically. “You sure about that, rookie? Confidence index is at 62.5% and falling. We’ll have a sell-off on anything under 50%.”&lt;/p&gt;
-
-&lt;p&gt;David winked. “What, you scared?” He turned back to his screen and began launching his script agents; some boilerplate, others requiring brief field entry.&lt;/p&gt;
-
-&lt;p&gt;Maya weighed her options, then mockingly crossed herself and addressed José, who was still waiting for confirmation. “Override. I guess we got it. We’ll rope you in if we need it.”&lt;/p&gt;
-
-&lt;p&gt;She turned back to David.&lt;/p&gt;
-
-&lt;p&gt;“I’d started ID’ing mouthpieces for a credibility challenge. Not a whole lot of influencers active at this hour, but we’ve got a handful of puppets that might apply.”&lt;/p&gt;
-
-&lt;p&gt;David’s fingers were now flying. “Is the source dirty?”&lt;/p&gt;
-
-&lt;p&gt;“Like I said, bona fides look clean. But something always turns up, if we dig long enough.”&lt;/p&gt;
-
-&lt;p&gt;“Do we have time for that?”&lt;/p&gt;
-
-&lt;p&gt;“Probably not. There is the usual terms and conditions take down. Something, something public safety. Quick and clean-“&lt;/p&gt;
-
-&lt;p&gt;“-T&amp;amp;Cs are too blunt. Looks like a cover-up. The Streisand effect is the opposite of what we want.”&lt;/p&gt;
-
-&lt;p&gt;The chyron scrolling across the bottom of David’s screen turned red. A neutral voice addressed the room. “Confidence index is below 60%.”&lt;/p&gt;
-
-&lt;p&gt;“Whoa, easy, girl.”&lt;/p&gt;
-
-&lt;p&gt;“What’s the play here, rookie?”&lt;/p&gt;
-
-&lt;p&gt;David gathered his thoughts for a moment before speaking. He suddenly brightened.&lt;/p&gt;
-
-&lt;p&gt;“We can use this, flip it.” David launched a volley of keystrokes, triggering an equal number of new dialogs. “It’s all about perception.”&lt;/p&gt;
-
-&lt;p&gt;Maya made a prune face and leaned over to follow along on his screen. “Come again?”&lt;/p&gt;
-
-&lt;p&gt;“So right now it is an infrastructure-fail that is playing.” David dismissed a few of the topmost related posts referencing the video, then pointed to the next in the queue, tapping through as Alethia sorted in real-time. “We’ve got climate aura farmers, government trolls, Florida haters… “ he rapidly swiped several more items in the carousel, “… a few members of Cirque du Soleil, for some reason-“&lt;/p&gt;
-
-&lt;p&gt;“Rookie!”&lt;/p&gt;
-
-&lt;p&gt;“How often do they inspect the seawalls?”&lt;/p&gt;
-
-&lt;p&gt;“I can find out. Why?”&lt;/p&gt;
-
-&lt;p&gt;“We reframe this footage captured of a maintenance test, or a drill. Something deliberate to test disaster response. Proof that the green plan of mangroves and cordgrass work as expected.”&lt;/p&gt;
-
-&lt;p&gt;“We’ll need to dummy and backdate some work tickets.”&lt;/p&gt;
-
-&lt;p&gt;“Is that a problem?”&lt;/p&gt;
-
-&lt;p&gt;“Shouldn’t be. Alethia has access those county systems.” Maya started typing. “And the flooding?”&lt;/p&gt;
-
-&lt;p&gt;“Localized, right? We spin it as an unexpected byproduct. Cracking eggs to make an omelet. Invaluable real-world insights that will be used to refine and upgrade the entire system performance.”&lt;/p&gt;
-
-&lt;p&gt;Maya returned to her terminal and ran a probability forecast; the trend line stabilized, but not high enough. David, watching over her shoulder, leaned in and tweaked demographic and geopolitical targeting sliders by hand. The projections wavered a moment, then orange coded labels bled to yellow.&lt;/p&gt;
-
-&lt;p&gt;Maya leaned back and crossed her arms. David looked at her expectantly.&lt;/p&gt;
-
-&lt;p&gt;From behind them, Jeter said, “That’s not bad.”&lt;/p&gt;
-
-&lt;p&gt;David nearly jumped out of his seat. During his color-coding, he hadn’t heard Jeter approach.&lt;/p&gt;
-
-&lt;p&gt;“The seawall leak, I presume?”&lt;/p&gt;
-
-&lt;p&gt;“Forming an approach,” Maya answered, “We’re about to execute.”&lt;/p&gt;
-
-&lt;p&gt;“Run it back for me.”&lt;/p&gt;
-
-&lt;p&gt;Maya looked expectantly at David and David cleared his throat.&lt;/p&gt;
-
-&lt;p&gt;“We supercharge the spread.”&lt;/p&gt;
-
-&lt;p&gt;Jeter’s eyebrow twitched. “Unconventional.”&lt;/p&gt;
-
-&lt;p&gt;“We frame it as proof of diligence - routine testing, proactive governance. Push hashtags like ‘StressTestSuccess’, or ‘MakingSafeHappen’ and run with whatever pops.”&lt;/p&gt;
-
-&lt;p&gt;Jeter grunted affirmatively. “Shift the sentiment from panic to civic pride?”&lt;/p&gt;
-
-&lt;p&gt;“Exactly! Like ‘Look at our proactive resilience’.”&lt;/p&gt;
-
-&lt;p&gt;Maya joined in. “It’s too cute, by a lot. Those tags need a pass or ten through sentiment refactoring. But it might work. The types that might otherwise spread it will back off; they won’t want to seem pro-gov. And it will be like catnip for those looking to clown on the climate types.”&lt;/p&gt;
-
-&lt;p&gt;“We bait a positive spin. It’ll be chum in the water.”&lt;/p&gt;
-
-&lt;p&gt;Jeter stroked his beard for a moment before speaking. “Alethia: projection?”
-The manifested voice localized between the three of them. “Projected confidence recovery is 67 percent.”&lt;/p&gt;
-
-&lt;p&gt;“Okay. Do it. Nobody leaves until we’re back over 65%. The markets don’t dip when they open tomorrow.” Jeter took in the rest of the room for a moment. Finding nothing else amiss, he told David good job before ambling back to the crows nest at the rear of the room.
-David beamed.&lt;/p&gt;
-
-&lt;p&gt;“Hey! We’re not out of the woods yet, &lt;em&gt;David&lt;/em&gt;.” Maya chided, pushing his coffee toward him. “We’ve got a long day of cleanup ahead of us.”&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;End Scene 3 - &lt;a href=&quot;/2025/11/20/HurricaneDavid-04&quot;&gt;Check here for the next installment of Hurricane David&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-</description>
-                <pubDate>Wed, 19 Nov 2025 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2025/11/19/HurricaneDavid-03</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2025/11/19/HurricaneDavid-03</guid>
+                <link>http://localhost:4000/2025/11/20/HurricaneDavid-04</link>
+                <guid isPermaLink="true">http://localhost:4000/2025/11/20/HurricaneDavid-04</guid>
                 
                 <category>Culture</category>
                 
