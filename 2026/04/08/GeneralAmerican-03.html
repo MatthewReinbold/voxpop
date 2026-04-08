@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Machine Learning Prompts Within IDEs</title>
+  <title>General American - 03</title>
   <meta name='description' content='This Matthew Reinbold's website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the 'Net API Notes' email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.'>
  
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="/feed.xml">
@@ -250,7 +250,7 @@
       
       <div class="col col-6 col-d-12">
         <div class="post-image">
-          <img class="lazy" data-src="/images/2021/07/robot-pilot.png" alt="Machine Learning Prompts Within IDEs">
+          <img class="lazy" data-src="/images/2026/generalamerican.jpg" alt="General American - 03">
         </div>
       </div>
       
@@ -264,15 +264,15 @@
           
             <div class="post__tags">
               
-                <a href="/tags#Software Development" class="post__tag">Software Development</a>
+                <a href="/tags#Culture" class="post__tag">Culture</a>
               
-                <a href="/tags#Software Governance" class="post__tag">Software Governance</a>
+                <a href="/tags#Writing" class="post__tag">Writing</a>
               
             </div>
           
   
-          <h1 class="post__title">Machine Learning Prompts Within IDEs</h1>
-          <h2 class="">Github&#39;s Copilot AI, APIs, and the Irresponsible Prompt Danger</h2>
+          <h1 class="post__title">General American - 03</h1>
+          <h2 class="">A short story about community, voice, and finding safety in systems.</h2>
   
           <div class="post__meta">
             <a href="/about/" class="post__author-image">
@@ -281,7 +281,7 @@
 
             <div class="post__meta-bottom">
               <a class="post__author" href="/about/">Matthew Reinbold</a>
-              <time class="post__date" datetime="2021-07-16T00:00:00-05:00">16 Jul 2021</time>
+              <time class="post__date" datetime="2026-04-08T00:00:00-05:00">08 Apr 2026</time>
             </div>
           </div>
   
@@ -297,32 +297,51 @@
   <article class="post">
 
     <div class="post__content">
-      <p>In previous posts, I’ve discussed <a href="https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw">how one’s environment impacts behavior</a>, <a href="https://matthewreinbold.com/2021/06/30/TemplatesAsPrompts">how defaults and templates are part of a software development environment</a>, and <a href="https://matthewreinbold.com/2021/07/14/WhatShouldBeInATemplate">possible behavioral prompts to consider in an OpenAPI template</a>. But what do irresponsible or counter-productive environmental prompts look like? The recent kerfuffle over <strong><a href="https://copilot.github.com/">Github’s Copilot AI</a></strong> is a great example.</p>
+      <p><em>I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.</em></p>
 
-<p><figure><img src="/images/2021/07/ide.jpg" alt="A picture showing code on a computer screen." /><figcaption>Photo by <a href="https://unsplash.com/@andreiamza2000">Amza Andrei</a> on <a href="https://unsplash.com/s/photos/ide">Unsplash</a>
-  </figcaption></figure></p>
+<p><em>It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. <strong>General American</strong> is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.</em></p>
 
-<p><a href="https://netapinotes.com/p/net-api-notes-for-2021-07-07-issue-168-github-s-copilot">I discussed Copilot in a recent edition of my API email newsletter, Net API Notes #168</a>. In short, Copilot is an assistant for writing code. As a developer types in their Integrated Development Environment (IDE), Copilot suggests “whole lines or entire functions” learned from similar found across Github.</p>
+<p><em>A new installment will be published daily. Additional info, like the accompanying playlist, <a href="/stories/">can be found at the Stories page</a>.</em></p>
 
-<p>On the surface, this seems like an example of <a href="https://matthewreinbold.com/2021/06/25/ArchitectureIsLaw">using the environment to prompt behavior</a>. When it recognizes what the developer is attempting, Copilot prompts a solution similar to what others have done previously. Being the path of least resistance, the developer (particularly a junior one) is likely to accept the default provided and move on to their next task.</p>
+<p><em>~Matthew</em></p>
 
-<p>In that scenario, however, what <em>outcome</em> is the environment optimizing for? Quality or convenience? If we consider how Copilot was trained, we begin to get an answer.</p>
+<p><strong>Scene 3 - The Qualming</strong></p>
 
-<p>From <a href="https://arxiv.org/abs/2107.03374">a published paper</a> and <a href="https://twitter.com/NoraDotCodes/status/1412741339771461635">subsequent tweets</a>, it appears Copilot trained on all publicly available Github code. As someone who has contributed their share of broken, test, and experimental code to Github, I can guarantee that not everything publicly available follows best practices. Further, <a href="https://matthewreinbold.com/2021/01/08/WhyAISuccessIsAPIBuilt">as I discussed in my overview on machine learning’s API future</a>, Copilot’s algorithm can’t discern which common programmatic approaches are <em>good</em>, only those that have occurred historically. It then, subsequently, propagates those with its promptings.</p>
+<p>The day Jamal broke SpudBud, it had already spent hours correcting him.</p>
 
-<p>What does that mean in practice? As an industry (and with APIs specifically), software developers are still wrestling with comprehensive, security-minded practices. It should come as no surprise, then, that Copilot ends up prompting the same kinds of security flaws that have bedeviled the industry throughout the past. <a href="https://portswigger.net/daily-swig/devsecai-github-copilot-prone-to-writing-security-flaws">A security researcher studying the issue says Copilot suggests</a>:</p>
+<p>Working the window that day, he got no fewer than <em>three</em> reprimands, delivered via text, haptic annoyance, and a side of fry puns.</p>
 
-<blockquote>
-  <p>“-bad code that looks reasonable at first glance, something that might slip by a programmer in a hurry, or seem correct to a less experienced coder.”</p>
-</blockquote>
+<p>Jamal liked calling people “boss”. It broke the tension; maybe won a smile.  But today his greeting of, “Afternoon, boss! How we livin’ today?” was chastised via text in his glasses. “<code class="language-plaintext highlighter-rouge">[[GREETING FLAGGED: Overt Intimacy]] Hey, partner! Let's keep our greetings *crisp* and *professional*.</code>”</p>
 
-<p>In a more API-specific example, from the same article:</p>
+<p>When certain thresholds were exceeded or the offense was particularly egregious, the headset buzzed. The physical “coaching”.</p>
 
-<blockquote>
-  <p>“The AI tool also ‘blundered right into the most classic security flaw of the early 2000s: a PHP script taking a raw GET variable and interpolating it into a string to be used as an SQL query, causing SQL injection’”.</p>
-</blockquote>
+<p>All the guest heard was, “Good afternoon. How can I serve you today?” Said in a flat, neutral, and passively-aggressive Midwestern accent.</p>
 
-<p>It is easy to optimize a system for <em>speed</em>. However, using machine-learning to create environmental prompts isn’t automatically value-adding activity. Designed poorly, it becomes the equivalent of throwing more spagehetti at the wall. When considering what behaviors an environment creates, don’t lose sight of the quality outcomes.</p>
+<p>Then there was the time he tried confirming an order.</p>
+
+<p>“I gotchu. One double-cheese, no onion. That’ll be twelve-fifty when you pull ‘round and see me at the window, k?”</p>
+
+<p>As soon as the words were out of his mouth, he cringed involuntarily.</p>
+
+<p>”<code class="language-plaintext highlighter-rouge">[[GRAMMAR ALERT: Syllabic Loss]] Eyes on the fries, Jamal! Your grammar is looking a little lumpy!</code>”</p>
+
+<p><em>Buzz</em>.</p>
+
+<p>In his headset, the version the customer heard was replayed, limp and <em>distant</em>. “I understand. One Double-Cheese Sandwich, without onions. Your total is twelve dollars and fifty cents. Please proceed to the first window.”</p>
+
+<p>Jamal got the shift’s final slight as they were about to close. The customer was craving a late-night treat. They asked Jamal which of the shakes was his favorite.</p>
+
+<p>“Honestly?” Jamal thought for a moment before continuing, “I prefer a classic strawberry without the whip or sprinkles - it still hits the spot. All the other stuff can be a bit too sweet for me.”</p>
+
+<p>”<code class="language-plaintext highlighter-rouge">[[LOGGED FOR PERFORMANCE REVIEW: Sabotage]] Yikes! Every menu item is a ‘Flavor Champ', Jamal! The drive-thru isn't the place for *hashing* out our personal opinions!</code>”</p>
+
+<p>The headset buzzed. <em>Twice</em>.</p>
+
+<p>“You can’t go wrong with any of our SnowCream Shakers,” the guest heard. “Would you like to make that a meal?”</p>
+
+<p>Before taking off the headset, SpudBud summarized his shift. His glasses flashed the text, “<code class="language-plaintext highlighter-rouge">[[PERFORMANCE NOTE: Greeting compliance up 12%. Keep up the improvement, Jamal!]]</code>”.</p>
+
+<p>Jamal hung the headset on his charging hook, on the wall above the register, and slumped against the tiled counter. He rubbed his temples, but the red warning letters were still there, floating in his peripheral vision.</p>
 
     </div>
 
@@ -351,7 +370,7 @@
                 
                 
                   
-                    <a href="/tags#Software Development" class="section__link related-tag">See all<span> Software Development</span></a>
+                    <a href="/tags#Culture" class="section__link related-tag">See all<span> Culture</span></a>
                   
                 
                   
@@ -376,165 +395,18 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
 
               <div class="article col col-4 col-d-6 col-t-12">
   <div class="article__inner">
 
     <div class="article__head">
-      <time class="article__date" datetime="2025-06-19T00:00:00-05:00">19 Jun 2025</time>
+      <time class="article__date" datetime="2026-04-07T00:00:00-05:00">07 Apr 2026</time>
 
       
 
       
-      <a class="article__image" href="/2025/06/19/theproductivitytrap">
-        <img class="lazy" data-src="/images/2025/turk.png" alt="The Productivity Trap">
+      <a class="article__image" href="/2026/04/07/GeneralAmerican-02">
+        <img class="lazy" data-src="/images/2026/generalamerican.jpg" alt="General American - 02">
       </a>
       
 
@@ -543,7 +415,7 @@
     <div class="article__content">
 
       <h2 class="article__title">
-        <a href="/2025/06/19/theproductivitytrap">The Productivity Trap</a>
+        <a href="/2026/04/07/GeneralAmerican-02">General American - 02</a>
       </h2>
 
       
@@ -562,32 +434,18 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
 
               <div class="article col col-4 col-d-6 col-t-12">
   <div class="article__inner">
 
     <div class="article__head">
-      <time class="article__date" datetime="2025-03-13T00:00:00-05:00">13 Mar 2025</time>
+      <time class="article__date" datetime="2026-04-06T00:00:00-05:00">06 Apr 2026</time>
 
       
 
       
-      <a class="article__image" href="/2025/03/13/IroniesOfAgenticAI">
-        <img class="lazy" data-src="/images/2025/robot.png" alt="Ironies of Agentic AI">
+      <a class="article__image" href="/2026/04/06/GeneralAmerican-01">
+        <img class="lazy" data-src="/images/2026/generalamerican.jpg" alt="General American - 01">
       </a>
       
 
@@ -596,7 +454,7 @@
     <div class="article__content">
 
       <h2 class="article__title">
-        <a href="/2025/03/13/IroniesOfAgenticAI">Ironies of Agentic AI</a>
+        <a href="/2026/04/06/GeneralAmerican-01">General American - 01</a>
       </h2>
 
       
@@ -615,130 +473,18 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
 
               <div class="article col col-4 col-d-6 col-t-12">
   <div class="article__inner">
 
     <div class="article__head">
-      <time class="article__date" datetime="2024-03-14T00:00:00-05:00">14 Mar 2024</time>
+      <time class="article__date" datetime="2026-01-10T00:00:00-06:00">10 Jan 2026</time>
 
       
 
       
-      <a class="article__image" href="/2024/03/14/TheBearAndTheFox">
-        <img class="lazy" data-src="/images/2024/03/bear.png" alt="The Bear and the Fox">
+      <a class="article__image" href="/2026/01/10/MoneyballerAmericana-07">
+        <img class="lazy" data-src="/images/2026/moneyballeramericana.jpg" alt="Moneyballer Americana - 07">
       </a>
       
 
@@ -747,7 +493,7 @@
     <div class="article__content">
 
       <h2 class="article__title">
-        <a href="/2024/03/14/TheBearAndTheFox">The Bear and the Fox</a>
+        <a href="/2026/01/10/MoneyballerAmericana-07">Moneyballer Americana - 07</a>
       </h2>
 
       
