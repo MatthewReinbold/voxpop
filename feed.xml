@@ -3,11 +3,102 @@
     <channel>
         <title>Matthew Reinbold</title>
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
-        <link>https://matthewreinbold.com/</link>
-        <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 11 Apr 2026 10:00:05 -0500</pubDate>
-        <lastBuildDate>Sat, 11 Apr 2026 10:00:05 -0500</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Apr 2026 12:53:01 -0500</pubDate>
+        <lastBuildDate>Mon, 13 Apr 2026 12:53:01 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
+        
+            <item>
+                <title>General American - 07</title>
+                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scene 7 -  Mopping Up&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Joel and Jamal stood on the asphalt that looped behind &lt;em&gt;Frylies&lt;/em&gt;. Joel was studying the menu that housed the drive-thru speaker. Jamal wasn’t sure what they were looking at.&lt;/p&gt;
+
+&lt;p&gt;“You know, it’s really a shame,” Joel began, straightening and looking around their surroundings, “The interference, I mean.”&lt;/p&gt;
+
+&lt;p&gt;“Interference?”&lt;/p&gt;
+
+&lt;p&gt;Joel gestured to the lots surrounding the restaurant. “What do you see?”&lt;/p&gt;
+
+&lt;p&gt;Jamal covered his eyes to shield them from the low morning sun. He looked out across the parking lot. “I see a strip mall. There’s a Starbucks, a dental place, pet grooming-“&lt;/p&gt;
+
+&lt;p&gt;“Cell tower,” Joel said. “Right next to the lot.”&lt;/p&gt;
+
+&lt;p&gt;Jamal followed his gaze.&lt;/p&gt;
+
+&lt;p&gt;“Huh.”&lt;/p&gt;
+
+&lt;p&gt;Joel tilted his head toward the speaker.&lt;/p&gt;
+
+&lt;p&gt;“Wouldn’t take much for something like that to interfere.”&lt;/p&gt;
+
+&lt;p&gt;Joel’s last statement hung in the air, more of a question than a statement.&lt;/p&gt;
+
+&lt;p&gt;Jamal looked at Joel, then to the drive-thru, then back to Joel.&lt;/p&gt;
+
+&lt;p&gt;“Yeah,” he began, slowly, “All those signals. No telling the interference that might happen.”&lt;/p&gt;
+
+&lt;p&gt;“Probably intermittent, too. A nightmare to debug.”&lt;/p&gt;
+
+&lt;p&gt;Jamal’s furrowed brow while trying to follow these breadcrumbs suddenly brightened.&lt;/p&gt;
+
+&lt;p&gt;“We’d have to pull ‘em to the window, go face-to-face.”&lt;/p&gt;
+
+&lt;p&gt;Joel leaned over, pretending to listen to the speaker. “Do you hear some static? I think I hear some glitchiness this morning. So random.”&lt;/p&gt;
+
+&lt;p&gt;“I’ll make a sign, tell people to pull forward, and order at the window.”&lt;/p&gt;
+
+&lt;p&gt;“We &lt;em&gt;apologize for the inconvenience&lt;/em&gt;, and that they should pull forward to the window.” Joel corrected, “And only as long as it is intermittent. Seriously.”&lt;/p&gt;
+
+&lt;p&gt;Joel turned to return to the store.&lt;/p&gt;
+
+&lt;p&gt;“Let’s get that sign posted. I have a feeling today is going to be a busy day for us.”&lt;/p&gt;
+
+&lt;p&gt;#&lt;/p&gt;
+
+&lt;p&gt;Jamal leaned forward.&lt;/p&gt;
+
+&lt;p&gt;“Hey, hey, hey,” he said, “Good morning! Glad you’re here. How ya doing?”&lt;/p&gt;
+
+&lt;p&gt;For a brief moment, Jamal felt himself involuntarily tense, waiting for an unwelcome vibration at the back of his head. Or red text to suddenly fill his peripheral vision. Gloriously, there was neither.&lt;/p&gt;
+
+&lt;p&gt;He relaxed.&lt;/p&gt;
+
+&lt;p&gt;Rosa moved behind him to restock bags.&lt;/p&gt;
+
+&lt;p&gt;She didn’t say anything.&lt;/p&gt;
+
+&lt;p&gt;But she didn’t stare daggers at him, either. It was a start.&lt;/p&gt;
+
+&lt;p&gt;The driver of the older model sedan looked up.&lt;/p&gt;
+
+&lt;p&gt;“Oh, you know,” they said while gesturing vaguely toward the road in front of them, “&lt;em&gt;work&lt;/em&gt;.”&lt;/p&gt;
+
+&lt;p&gt;“Yeah, I hear that,” he said, “How ‘bout we make that better? What can I getcha, Boss?”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The End&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;For additional material about this story, along with the accompanying playlist, check out the &lt;a href=&quot;/stories#general-american-2026&quot;&gt;General American section on the ‘Stories’ page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sun, 12 Apr 2026 00:00:00 -0500</pubDate>
+                <link>http://localhost:4000/2026/04/12/GeneralAmerican-07</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/12/GeneralAmerican-07</guid>
+                
+                <category>Culture</category>
+                
+                <category>Writing</category>
+                
+                
+            </item>
         
             <item>
                 <title>General American - 06</title>
@@ -15,7 +106,7 @@
 
 &lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;A new installment will be published daily. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
 
@@ -120,10 +211,12 @@
 &lt;p&gt;Joel slapped his knees.&lt;/p&gt;
 
 &lt;p&gt;“All right. Let’s go for a walk.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Finished this section? &lt;a href=&quot;/2026/04/12/GeneralAmerican-07&quot;&gt;Part 7 is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sat, 11 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/11/GeneralAmerican-06</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/11/GeneralAmerican-06</guid>
+                <link>http://localhost:4000/2026/04/11/GeneralAmerican-06</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/11/GeneralAmerican-06</guid>
                 
                 <category>Culture</category>
                 
@@ -138,7 +231,7 @@
 
 &lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;A new installment will be published daily. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
 
@@ -259,10 +352,12 @@
 &lt;p&gt;“Close the drive-thru. Help those in line get back out. If Gus asks, tell him I’ll be right there.”&lt;/p&gt;
 
 &lt;p&gt;Kris audibly gulped, and then left.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Finished this section? &lt;a href=&quot;/2026/04/11/GeneralAmerican-06&quot;&gt;Part 6 is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Fri, 10 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/10/GeneralAmerican-05</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/10/GeneralAmerican-05</guid>
+                <link>http://localhost:4000/2026/04/10/GeneralAmerican-05</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/10/GeneralAmerican-05</guid>
                 
                 <category>Culture</category>
                 
@@ -277,7 +372,7 @@
 
 &lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;A new installment will be published daily. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
 
@@ -468,10 +563,12 @@ Customer Clarity Reinforcement (?)
 &lt;p&gt;“You owe me floors. &lt;em&gt;All&lt;/em&gt; the floors.”&lt;/p&gt;
 
 &lt;p&gt;Jamal just grinned.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/10/GeneralAmerican-05&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Thu, 09 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/09/GeneralAmerican-04</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/09/GeneralAmerican-04</guid>
+                <link>http://localhost:4000/2026/04/09/GeneralAmerican-04</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/09/GeneralAmerican-04</guid>
                 
                 <category>Culture</category>
                 
@@ -486,7 +583,7 @@ Customer Clarity Reinforcement (?)
 
 &lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;A new installment will be published daily. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
 
@@ -527,10 +624,12 @@ Customer Clarity Reinforcement (?)
 &lt;p&gt;Before taking off the headset, SpudBud summarized his shift. His glasses flashed the text, “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[[PERFORMANCE NOTE: Greeting compliance up 12%. Keep up the improvement, Jamal!]]&lt;/code&gt;”.&lt;/p&gt;
 
 &lt;p&gt;Jamal hung the headset on his charging hook, on the wall above the register, and slumped against the tiled counter. He rubbed his temples, but the red warning letters were still there, floating in his peripheral vision.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/09/GeneralAmerican-04&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/08/GeneralAmerican-03</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/08/GeneralAmerican-03</guid>
+                <link>http://localhost:4000/2026/04/08/GeneralAmerican-03</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/08/GeneralAmerican-03</guid>
                 
                 <category>Culture</category>
                 
@@ -545,7 +644,7 @@ Customer Clarity Reinforcement (?)
 
 &lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;A new installment will be published daily. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
 
@@ -627,10 +726,12 @@ Jamal heaved his own bag into the dumpster.&lt;/p&gt;
 &lt;p&gt;Somewhere around the corner, someone was just finishing up at the drive-thru. “Thank you for choosing &lt;em&gt;Frylies&lt;/em&gt;” filled the void left by startled wings.&lt;/p&gt;
 
 &lt;p&gt;Jamal couldn’t tell who was behind it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/08/GeneralAmerican-03&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Tue, 07 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/07/GeneralAmerican-02</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/07/GeneralAmerican-02</guid>
+                <link>http://localhost:4000/2026/04/07/GeneralAmerican-02</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/07/GeneralAmerican-02</guid>
                 
                 <category>Culture</category>
                 
@@ -645,7 +746,7 @@ Jamal heaved his own bag into the dumpster.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;A new installment will be published daily. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This story comes in seven parts, or scenes. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
 
@@ -800,10 +901,12 @@ By leveraging adaptive tone-balancing and-&quot;
 &lt;p&gt;Jamal shot Mateo a look. Mateo just shrugged.&lt;/p&gt;
 
 &lt;p&gt;Mrs. Alvarez’s thumbs kneaded the strap on her visor as if she were praying a synthetic fiber rosary.  She silently studied Jamal as she did so.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/07/GeneralAmerican-02&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Mon, 06 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/06/GeneralAmerican-01</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/06/GeneralAmerican-01</guid>
+                <link>http://localhost:4000/2026/04/06/GeneralAmerican-01</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/06/GeneralAmerican-01</guid>
                 
                 <category>Culture</category>
                 
@@ -853,8 +956,8 @@ By leveraging adaptive tone-balancing and-&quot;
 &lt;p&gt;&lt;em&gt;The End&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sat, 10 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</guid>
+                <link>http://localhost:4000/2026/01/10/MoneyballerAmericana-07</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/10/MoneyballerAmericana-07</guid>
                 
                 <category>Culture</category>
                 
@@ -974,8 +1077,8 @@ By leveraging adaptive tone-balancing and-&quot;
 &lt;/ul&gt;
 </description>
                 <pubDate>Fri, 09 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/09/MoneyballerAmericana-06</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/09/MoneyballerAmericana-06</guid>
+                <link>http://localhost:4000/2026/01/09/MoneyballerAmericana-06</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/09/MoneyballerAmericana-06</guid>
                 
                 <category>Culture</category>
                 
@@ -1123,215 +1226,8 @@ By leveraging adaptive tone-balancing and-&quot;
 &lt;/ul&gt;
 </description>
                 <pubDate>Thu, 08 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/08/MoneyballerAmericana-05</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/08/MoneyballerAmericana-05</guid>
-                
-                <category>Culture</category>
-                
-                <category>Writing</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Moneyballer Americana - 04</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;Moneyballer Americana&lt;/strong&gt; is a seven-part novelette about a struggling bluegrass musician who accidentally ignites a sports-betting media frenzy.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;If you missed the first installment, &lt;a href=&quot;/2026/01/04/MoneyballerAmericana-01&quot;&gt;you can begin at the beginning&lt;/a&gt;. Or download &lt;a href=&quot;/stories/&quot;&gt;a collected version of all seven parts and get extras, like the accompanying playlist, from the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scene 4 - Breaking the Huddle&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Eli parked his Outback - it should be noted - without any alarming clunks or shuddering protests. The check engine light also no longer shown. His cut of the sponsorship windfall had set all to rights. At least materially with the car.&lt;/p&gt;
-
-&lt;p&gt;He fed the meter and bent upwards to admire the downtown buildings before a cold blast snapped his revelry. Eli pulled his coat in tight and ducked into the restaurant.&lt;/p&gt;
-
-&lt;p&gt;The steakhouse had apparently been chosen for “vibes” rather than its acoustics, because the place was a cavernous drum of concrete, brushed steel, and wood paneling. Every echoed fork clank and chair scrape caused him to wince like a missed note during a solo. That is, when the discord could be heard over the televised games lining the walls.&lt;/p&gt;
-
-&lt;p&gt;Ty and Lance had insisted this was “where athletes go”, although a quick scan of the patrons on this particular busy Saturday night suggested clientele closer to golf, maybe pickelball than crossfit.&lt;/p&gt;
-
-&lt;p&gt;Eli checked his messages - still no update from the band. He shelved that concern as the host led him to a tall-backed booth in the back. Ty and Lance were already there, excitedly conspiring about something on their phones. Ty had on a relaxed fit sports coat. His power chic contrasted with Lance, who wore a jersey and yet another clunky, oversized watch. Eli felt suddenly self-conscious in his white button-up and stage jeans.&lt;/p&gt;
-
-&lt;p&gt;“ELIIIII!” Lance shouted a bit too aggressively as he approached, as if the announcement was more a call for attention from those around them than an actual greeting for him, “Our rainmaker!”&lt;/p&gt;
-
-&lt;p&gt;“Are you pumped for tonight!” Ty pounded the table. “I am so pumped.”&lt;/p&gt;
-
-&lt;p&gt;“This is a &lt;em&gt;rocket&lt;/em&gt; to &lt;em&gt;da moon&lt;/em&gt;!” Lance said, high-fiving Ty, “And you got on board at just the right moment. &lt;em&gt;How awesome is that&lt;/em&gt;?”&lt;/p&gt;
-
-&lt;p&gt;Eli forced a chuckle.&lt;/p&gt;
-
-&lt;p&gt;“Yeah. It’s been a learning experience, for sure.”&lt;/p&gt;
-
-&lt;p&gt;It took some effort, but the trio was finally able to wave down the server for water. The place for athletes or not, it was certainly busy.&lt;/p&gt;
-
-&lt;p&gt;“We’re clear on the plan, right?” Eli ventured, delicately navigating what he assumed could be challenging, “This guy reached out because he’s &lt;em&gt;interested in the business side of the show&lt;/em&gt;. Not the betting. Not lines. Just talking shop.”&lt;/p&gt;
-
-&lt;p&gt;Ty rolled his eyes. “Yeah, you already said that in the email. Relax, would you?” Ty waggled his thumb between Lance and himself, “We know how to talk to players.”&lt;/p&gt;
-
-&lt;p&gt;As if on cue, they saw their guest cutting through the crowd toward them.&lt;/p&gt;
-
-&lt;p&gt;“Fellas! How we doing?”&lt;/p&gt;
-
-&lt;p&gt;Brock Schlesinger was much more massive than Eli expected. Of course, Eli reminded himself, even a mountain of a blocking tight end probably appears on TV downright svelte next to the average offensive linemen.&lt;/p&gt;
-
-&lt;p&gt;Brock seemed to move with a slight stiffness, betraying a lifetime of hard knocks - something at odds with his young, twenty-something face. He wore nondescript, gray sweats and a battered ball cap - much less “celebrity sighting”, and more “guy grabbing ice melt before the hardware store closes”.&lt;/p&gt;
-
-&lt;p&gt;“These are the guys I recognize. Hello Ty! Hello Lance. So glad we could connect while I was in town.” Brock shook their hands before turning to Eli. “And you must be Eli, the one I’ve been emailing with.”&lt;/p&gt;
-
-&lt;p&gt;Eli felt his hand engulfed, and marveled at how easily his hand could be crushed, if Brock wanted to.&lt;/p&gt;
-
-&lt;p&gt;After some additional difficulty getting the staff’s attention, menus were exchanged. Brock declined the drink cart. Opening pleasantries were exchanged, which - with Ty and Lance’s eagerness leading the conversation like a dog chasing a rabbit - could have gone very badly. However, Eli was impressed by Brock’s dexterity at turning awkward interludes into passable, even charming, moments. Countless meet ‘n greets and press interviews must have been good practice.&lt;/p&gt;
-
-&lt;p&gt;Orders were taken, and then Ty and Lance recounted their latest feats: the Dettmer scoop, the line movement, and the other big moves they saw “just over the horizon”. It was like they were conducting a rumorville Rorschach test - tossing out a vague notion or half-formed impression, gauging Brock’s response, and then breathlessly cycling to the next with little segue or subtlety.&lt;/p&gt;
-
-&lt;p&gt;To his credit, Brock played along politely as he munched on the complimentary bread, at one point calling the server over for a refresh. But Eli sensed a growing exhaustion - shoulders slightly more rounded, smile a bit less authentic and more mechanical reflex as he, once again, deflected.&lt;/p&gt;
-
-&lt;p&gt;“Yeah guys, I can’t say what the front office might be thinking there. Most weeks, I don’t even know the full gameplan until the last minute.”&lt;/p&gt;
-
-&lt;p&gt;“Totally hear that,” Ty said, “Back when I was starting linebacker for State - &lt;em&gt;GO FIGHTING CARDS!&lt;/em&gt; - we always tried to stay super fluid right up to the last second, then we’d &lt;strong&gt;LOCK IT IN&lt;/strong&gt;.”&lt;/p&gt;
-
-&lt;p&gt;Lance was about to launch into another of his, increasingly, conspiratorial scenarios but Brock cut him off.&lt;/p&gt;
-
-&lt;p&gt;“Listen, talking about my work is fun and all,” he said, leaning forward, “but I’m really interested in what you do.&lt;/p&gt;
-
-&lt;p&gt;“I’m coming up on the end of my rookie contract. Don’t get me wrong, it has been a great four years. Getting drafted at all was a surprise-“&lt;/p&gt;
-
-&lt;p&gt;“-and haven’t missed a start since!” Lance said.&lt;/p&gt;
-
-&lt;p&gt;“Well, yeah. I wouldn’t trade the experience for anything. I’ve worked hard and been incredibly lucky. But I’ve been thinking a lot about the future.”&lt;/p&gt;
-
-&lt;p&gt;Ty was confused. “Your next contract?”&lt;/p&gt;
-
-&lt;p&gt;“Well…” Brock’s voice trailed off as he studied the ceiling, avoiding eye contact. “No. I need to be realistic. Since turning pro, I’ve never been on a winning team, and we’re trending that way again this year. They’re probably going to clean house at the end of the season, if not before. My rookie deal is up, so I’m no longer the cheapest option for a rebuild. And there’s just not that much demand for a blocking tight end that can’t catch in a passing league.&lt;/p&gt;
-
-&lt;p&gt;“I mean,” Brock said, reconnecting with the group, “the average career for an NFL player is 3.3 years. I’ve managed four as a fifth round pick - and I’ve done that without a major injury or concussion. What are the odds?&lt;/p&gt;
-
-&lt;p&gt;“But it just seems like it’s time to move on to what’s next, before I press my luck.”&lt;/p&gt;
-
-&lt;p&gt;Lance fidgeted with his massive watch, seeming to turn over this confession with each twist of the elastic band. “Couldn’t you, I dunno, be a broadcaster?”&lt;/p&gt;
-
-&lt;p&gt;“Well, my degree is communications. But they only really want big names for something like that.” Brock sipped his water. “Besides, my agent keeps saying that I need a ‘platform’. Like what you guys do, with the show. That’s why I wanted to get together - learn more about it, how you got started, the time investment - that sort of thing.”&lt;/p&gt;
-
-&lt;p&gt;This was about what Eli had expected after their email exchange. What was unexpected was watching the extra point sail wide past Ty’s head.&lt;/p&gt;
-
-&lt;p&gt;“Totally. Totally. We’d love to talk about your platform. Your timing is perfect. I’ve been thinking I really need to put together an online course. One of those self-paced ones? There’s so much I could coach people on about developing winner’s mindset, or starting controversies to get views.”&lt;/p&gt;
-
-&lt;p&gt;“That’s not-“&lt;/p&gt;
-
-&lt;p&gt;“If I may,” Eli cut Brock off, apologetically, “I think what Brock is trying to say is that he’s looking for something stable. Something that he controls. You want something on your own terms. Did I get that right?”&lt;/p&gt;
-
-&lt;p&gt;Brock snapped his fingers and pointed at Eli.&lt;/p&gt;
-
-&lt;p&gt;“Bingo. My man.”&lt;/p&gt;
-
-&lt;p&gt;Ty and Lance regarded Eli, confused.&lt;/p&gt;
-
-&lt;p&gt;Before Eli could further elaborate, Brock’s phone chirped. He flipped it over, quickly skimming whatever snippet was shown on the lock screen.&lt;/p&gt;
-
-&lt;p&gt;“Hang on team. I need to answer this. I’ll be back in a minute.”&lt;/p&gt;
-
-&lt;p&gt;He ventured back toward the hostess, seeking somewhere sheltered from the din.&lt;/p&gt;
-
-&lt;p&gt;The minute Brock was out of earshot, Lance hissed. “What was that? We have &lt;em&gt;nothing&lt;/em&gt; for the next show. No overs. No inside dirt. &lt;em&gt;No nothing&lt;/em&gt;.”&lt;/p&gt;
-
-&lt;p&gt;“We will,” Ty said, his body language betraying his words, “We didn’t come this close to stop now. We just need to ask the right way. Like… guy-to-guy.”&lt;/p&gt;
-
-&lt;p&gt;Eli put his napkin on the table. “Guys, Brock really just wants some basics. I’m sure you guys have some stories about starting out? Like how you found your first audience? What things you learned to avoid?”&lt;/p&gt;
-
-&lt;p&gt;“Well sure, I love reminiscing over beers as much as the next guy.” Lance said. “But we &lt;em&gt;need&lt;/em&gt; a scoop. If we don’t have the next big thing, our fans will move on. It’s sink or swim, whether we like it or not.”&lt;/p&gt;
-
-&lt;p&gt;“You have to be an alpha shark if you’re going to survive being a new media entrepreneur,” Ty added.&lt;/p&gt;
-
-&lt;p&gt;“You keep moving,” Lance tapped the table for emphasis, “or you die.”&lt;/p&gt;
-
-&lt;p&gt;Eli, who had refrained from the bread feeding frenzy, felt a pit in the bottom of his stomach. He was pretty sure it wasn’t because he was hungry.&lt;/p&gt;
-
-&lt;p&gt;Suddenly, there was a commotion; dishes for multiple tables arrived simultaneously. Brock’s absence caused a momentary confusion, then four plates hit the table at once. The server was off again in a hurry, without so much as a water check.&lt;/p&gt;
-
-&lt;p&gt;“Speaking of fish, you see that?” Lance gestured to Brock’s setting. “He ordered seafood at a steak house. &lt;em&gt;Baller&lt;/em&gt; alpha move.”&lt;/p&gt;
-
-&lt;p&gt;Eli blinked. “&lt;em&gt;What!?&lt;/em&gt; That is not a thing.”&lt;/p&gt;
-
-&lt;p&gt;“It’s totally a thing,” Lance insisted. “Showing out with shrimp pasta instead of ribeye? It means he’s alpha, like us. We’ll talk guy-to-guy. We’ll get that content.”&lt;/p&gt;
-
-&lt;p&gt;“Shrimp just means… shellfish,” Eli said.&lt;/p&gt;
-
-&lt;p&gt;He felt like he was on stage, and suddenly had to play around a broken string.&lt;/p&gt;
-
-&lt;p&gt;Brock returned, serpentining between the tables and quickly sitting down.&lt;/p&gt;
-
-&lt;p&gt;“Sorry about that. Team curfew check.”&lt;/p&gt;
-
-&lt;p&gt;Seeing the others digging in, Brock grabbed his fork and scooped his entree with gusto. He bit down and his face froze.&lt;/p&gt;
-
-&lt;p&gt;Eli watched, puzzled.&lt;/p&gt;
-
-&lt;p&gt;Brock dropped his fork, grabbed his napkin, and spat out the bite.&lt;/p&gt;
-
-&lt;p&gt;“Was there shellfish in that?” He began turning pale and his eyes started to water.&lt;/p&gt;
-
-&lt;p&gt;“Well, yeah,” Ty said, stunned, “You ordered the shrimp pasta.”&lt;/p&gt;
-
-&lt;p&gt;Brock braced himself again the table. “I ordered,” Brock said, grimacing, “the chicken Alfredo.”&lt;/p&gt;
-
-&lt;p&gt;“Oh no,” Eli said, scooting across the bench. “Oh no. Do you have an EpiPen?”&lt;/p&gt;
-
-&lt;p&gt;“In the… rental,” Brock managed. “Outside.”&lt;/p&gt;
-
-&lt;p&gt;“Come on.”&lt;/p&gt;
-
-&lt;p&gt;Eli helped Brock stand up and was fully, unfortunately, aware of just how big Brock was. They moved, weaving ungracefully back out through the tables in their haste, like trying to lug an upright bass through a tight stairwell.&lt;/p&gt;
-
-&lt;p&gt;But they made it through the doors. The cold now barely noticeable over the concern.  Brock’s wheeze could now be seen, the shuttering breath instantly turning to vapor. He weakly gestured to a sedan up the street.&lt;/p&gt;
-
-&lt;p&gt;When they reached it, Brock fumbled with the handle and the car unlocked. He dropped into the seat and pulled a bag from the passenger seat. Clawing at a side pocket, he pulling out an EpiPen. Brock tore it from the packaging, regarded it for a moment, and then jabbed it in his thigh.&lt;/p&gt;
-
-&lt;p&gt;Within a few minutes, the color started returning to his face.&lt;/p&gt;
-
-&lt;p&gt;Eli shivered slightly, arms crossed, standing beside the open door.&lt;/p&gt;
-
-&lt;p&gt;“You good?” Eli asked.&lt;/p&gt;
-
-&lt;p&gt;“Yeah,” Brock managed, “Thanks. Haven’t had a close call like that in awhile. I’m not sure what happened.”&lt;/p&gt;
-
-&lt;p&gt;“There must have been a mix up with the other table. Do you want me to go back inside, see if I can straighten it out? Get the Alfredo to go?”&lt;/p&gt;
-
-&lt;p&gt;“I appreciate that but,” Brock shook his head, “I already owe you one. You’ve done enough. I think I’m going to bail, find the team doc at the hotel.”&lt;/p&gt;
-
-&lt;p&gt;Eli stayed with him for a few more minutes, making sure he was good to drive, and then watched him pull away. A sudden shiver reminded him this was no weather to be caught outside without a coat. With a sigh, he returned to the restaurant.&lt;/p&gt;
-
-&lt;p&gt;Returning to the booth, Eli found Ty and Lance on their phones. They both looked up at him, expectantly.&lt;/p&gt;
-
-&lt;p&gt;“So,” Ty started, “Is he gonna be OK?”&lt;/p&gt;
-
-&lt;p&gt;“Yeah,” Eli said, sitting down. “I think he’s out of the woods.”&lt;/p&gt;
-
-&lt;p&gt;“But,” Lance asked, phone held up at the ready, “Is he good to start tomorrow?”&lt;/p&gt;
-
-&lt;p&gt;Eli stumbled. “I… I don’t know.”&lt;/p&gt;
-
-&lt;p&gt;“Bro. If he misses the start… that’s actually crazy. Do you know what that will do to the props?” Ty punched Lance’s shoulder. “The subs are going to eat this up.”&lt;/p&gt;
-
-&lt;p&gt;“This is it! This is our next exclusive.”&lt;/p&gt;
-
-&lt;p&gt;“We gotta get on our Discord. This is huge.”&lt;/p&gt;
-
-&lt;p&gt;Ty reached out and shook Eli’s shoulder.&lt;/p&gt;
-
-&lt;p&gt;“DUDE. Do you realize what this means?”&lt;/p&gt;
-
-&lt;p&gt;The pit inside Eli’s stomach was suddenly unavoidable. He looked down at his untouched plate of food. In the ensuing chaos, it had grown cold.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;End Scene 4 - &lt;a href=&quot;/2026/01/08/MoneyballerAmericana-05&quot;&gt;Click here for the next installment of Moneyballer Americana&lt;/a&gt;.*&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <pubDate>Wed, 07 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/07/MoneyballerAmericana-04</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/07/MoneyballerAmericana-04</guid>
+                <link>http://localhost:4000/2026/01/08/MoneyballerAmericana-05</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/08/MoneyballerAmericana-05</guid>
                 
                 <category>Culture</category>
                 
