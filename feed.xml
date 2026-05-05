@@ -3,10 +3,10 @@
     <channel>
         <title>Matthew Reinbold</title>
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
-        <link>https://matthewreinbold.com/</link>
-        <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 04 May 2026 13:53:59 -0500</pubDate>
-        <lastBuildDate>Mon, 04 May 2026 13:53:59 -0500</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 05 May 2026 10:35:00 -0500</pubDate>
+        <lastBuildDate>Tue, 05 May 2026 10:35:00 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -23,7 +23,7 @@
 
 &lt;p&gt;The ‘T’ word feels too large, too easily stolen from people who endured worse. But maybe that hesitation is its own kind of evasion. Maybe collective trauma does not require everyone to have suffered equally. It only requires that a community learned, together, that it was not as safe as it thought.&lt;/p&gt;
 
-&lt;p&gt;Leah Meilander, the creative behind &lt;a href=&quot;https://thatsgoodnessdesign.com/about&quot;&gt;That’s Goodness Design&lt;/a&gt;, did the conference shirt design. She was the same artist that I bought several stickers from during a “Book Fair for Grown-Ups” a few weeks ago. One of those stickers has the words, “Don’t Should Yourself” written in stylized letters. I stuck it to the ‘Wunderkammer’ Sticker board that hangs above my desk.&lt;/p&gt;
+&lt;p&gt;Leah Meilander, the creative behind &lt;a href=&quot;https://thatsgoodnessdesign.com/about&quot;&gt;That’s Goodness Design&lt;/a&gt;, did the conference shirt design. She was the same artist that I bought several stickers from during a “Book Fair for Grown-Ups” a few weeks ago. One of those stickers has the words, “Don’t Should on Yourself” written in stylized letters. I stuck it to the ‘Wunderkammer’ Sticker board that hangs above my desk.&lt;/p&gt;
 
 &lt;p&gt;It is probably a good reminder that any rationalization of what I “should” or “should not” feel is not the point. If we preach to our kids that “you feel what you feel”, then I need to allow myself the same grace.&lt;/p&gt;
 
@@ -34,8 +34,8 @@
 &lt;p&gt;The body keeps the score. The internet keeps changing the subject.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 04 May 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/05/04/MemoryInTheMarrow</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/05/04/MemoryInTheMarrow</guid>
+                <link>http://localhost:4000/2026/05/04/MemoryInTheMarrow</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/05/04/MemoryInTheMarrow</guid>
                 
                 <category>Culture</category>
                 
@@ -123,8 +123,8 @@
 &lt;p&gt;&lt;em&gt;For additional material about this story, along with the accompanying playlist, check out the &lt;a href=&quot;/stories#general-american-2026&quot;&gt;General American section on the ‘Stories’ page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sun, 12 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/12/GeneralAmerican-07</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/12/GeneralAmerican-07</guid>
+                <link>http://localhost:4000/2026/04/12/GeneralAmerican-07</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/12/GeneralAmerican-07</guid>
                 
                 <category>Culture</category>
                 
@@ -248,8 +248,8 @@
 &lt;p&gt;&lt;em&gt;Finished this section? &lt;a href=&quot;/2026/04/12/GeneralAmerican-07&quot;&gt;Part 7 is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sat, 11 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/11/GeneralAmerican-06</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/11/GeneralAmerican-06</guid>
+                <link>http://localhost:4000/2026/04/11/GeneralAmerican-06</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/11/GeneralAmerican-06</guid>
                 
                 <category>Culture</category>
                 
@@ -389,8 +389,8 @@
 &lt;p&gt;&lt;em&gt;Finished this section? &lt;a href=&quot;/2026/04/11/GeneralAmerican-06&quot;&gt;Part 6 is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Fri, 10 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/10/GeneralAmerican-05</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/10/GeneralAmerican-05</guid>
+                <link>http://localhost:4000/2026/04/10/GeneralAmerican-05</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/10/GeneralAmerican-05</guid>
                 
                 <category>Culture</category>
                 
@@ -600,8 +600,8 @@ Customer Clarity Reinforcement (?)
 &lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/10/GeneralAmerican-05&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Thu, 09 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/09/GeneralAmerican-04</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/09/GeneralAmerican-04</guid>
+                <link>http://localhost:4000/2026/04/09/GeneralAmerican-04</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/09/GeneralAmerican-04</guid>
                 
                 <category>Culture</category>
                 
@@ -661,8 +661,8 @@ Customer Clarity Reinforcement (?)
 &lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/09/GeneralAmerican-04&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/08/GeneralAmerican-03</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/08/GeneralAmerican-03</guid>
+                <link>http://localhost:4000/2026/04/08/GeneralAmerican-03</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/08/GeneralAmerican-03</guid>
                 
                 <category>Culture</category>
                 
@@ -763,8 +763,8 @@ Jamal heaved his own bag into the dumpster.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/08/GeneralAmerican-03&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Tue, 07 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/07/GeneralAmerican-02</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/07/GeneralAmerican-02</guid>
+                <link>http://localhost:4000/2026/04/07/GeneralAmerican-02</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/07/GeneralAmerican-02</guid>
                 
                 <category>Culture</category>
                 
@@ -938,8 +938,8 @@ By leveraging adaptive tone-balancing and-&quot;
 &lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/07/GeneralAmerican-02&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Mon, 06 Apr 2026 00:00:00 -0500</pubDate>
-                <link>https://matthewreinbold.com/2026/04/06/GeneralAmerican-01</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/04/06/GeneralAmerican-01</guid>
+                <link>http://localhost:4000/2026/04/06/GeneralAmerican-01</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/04/06/GeneralAmerican-01</guid>
                 
                 <category>Culture</category>
                 
@@ -989,8 +989,8 @@ By leveraging adaptive tone-balancing and-&quot;
 &lt;p&gt;&lt;em&gt;The End&lt;/em&gt;&lt;/p&gt;
 </description>
                 <pubDate>Sat, 10 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</guid>
+                <link>http://localhost:4000/2026/01/10/MoneyballerAmericana-07</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/10/MoneyballerAmericana-07</guid>
                 
                 <category>Culture</category>
                 
@@ -1110,8 +1110,8 @@ By leveraging adaptive tone-balancing and-&quot;
 &lt;/ul&gt;
 </description>
                 <pubDate>Fri, 09 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/09/MoneyballerAmericana-06</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/09/MoneyballerAmericana-06</guid>
+                <link>http://localhost:4000/2026/01/09/MoneyballerAmericana-06</link>
+                <guid isPermaLink="true">http://localhost:4000/2026/01/09/MoneyballerAmericana-06</guid>
                 
                 <category>Culture</category>
                 
