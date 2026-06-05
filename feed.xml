@@ -5,9 +5,55 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 01 Jun 2026 21:15:27 -0500</pubDate>
-        <lastBuildDate>Mon, 01 Jun 2026 21:15:27 -0500</lastBuildDate>
+        <pubDate>Fri, 05 Jun 2026 10:01:37 -0500</pubDate>
+        <lastBuildDate>Fri, 05 Jun 2026 10:01:37 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
+        
+            <item>
+                <title>Condemning Deepfakes in Political Ads</title>
+                <description>&lt;p&gt;When Minnesota Senator Tina Smith announced she wasn’t seeking re-election, several people stepped forward to vie for her seat. One of them is current Lt. Governor Peggy Flanagan. Another is Representative Angie Craig, from Minnesota’s 2nd district (where I happen to live).&lt;/p&gt;
+
+&lt;p&gt;This past week, &lt;a href=&quot;https://www.cbsnews.com/minnesota/news/peggy-flanagan-slams-ad-for-using-ai-deepfake/&quot;&gt;a super PAC supporting Angie Craig named North Star Dawn aired an ad which appeared to use a deepfake of Peggy Flanagan&lt;/a&gt;. Craig, through a spokesman, said, “she does not support the use of AI in political ads”.&lt;/p&gt;
+
+&lt;p&gt;I’ve written about Craig before, particularly of her support for last year’s &lt;a href=&quot;https://matthewreinbold.com/2025/03/10/StopTheTakeItDownAct&quot;&gt;TAKE IT DOWN Act&lt;/a&gt;. Her tepid response, all things considered, was troubling enough that I felt compelled to write and send her the following letter, below.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Dear Representative Craig,&lt;/p&gt;
+
+&lt;p&gt;I am writing as one of your current constituents and as a Minnesota voter concerned about the standards being set in the race for Senator Tina Smith’s open U.S. Senate seat.&lt;/p&gt;
+
+&lt;p&gt;In the past week, a North Star Dawn PAC advertisement targeting Lieutenant Governor Peggy Flanagan emerged that appeared to use an AI-generated or deepfake-like depiction of her. I understand that your campaign does not directly control the actions of an outside PAC. But that does not mean your response is irrelevant. When a PAC supporting your candidacy uses deceptive synthetic media against an opponent, the issue is not only whether your campaign legally coordinated with that PAC. The issue is whether you are willing to clearly reject deceptive synthetic media when it appears to benefit you.&lt;/p&gt;
+
+&lt;p&gt;Your response, as reported through a spokesperson, was that “Craig does not support the use of AI in political ads”. That is not enough.&lt;/p&gt;
+
+&lt;p&gt;A statement of general discomfort is not the same as a condemnation. It is not the same as calling for the ad to be taken down. It is not the same as asking any PAC supporting your candidacy to refrain from using AI-generated or materially manipulated depictions of your opponents. At a moment when deceptive synthetic media is becoming an obvious threat to public trust, voters deserve more than carefully worded distance.&lt;/p&gt;
+
+&lt;p&gt;This is especially troubling given your sponsorship of the TAKE IT DOWN Act. Through that legislation, you have already recognized that AI-generated depictions can cause serious harm when they are created or distributed without consent. I understand that nonconsensual intimate imagery and political advertising are not identical harms. But the underlying principle is directly relevant: &lt;strong&gt;synthetic media can be used to exploit, humiliate, deceive, and distort public perception&lt;/strong&gt;. It is difficult to accept strong opposition to deepfakes in one context while seeing such a limited response when similar technology is used in a political context that may benefit your campaign.&lt;/p&gt;
+
+&lt;p&gt;The timing of the ad makes this worse. As I understand it, Minnesota law restricts certain election-related deepfakes within defined pre-election windows, including before nominating conventions and primaries. This ad appears to fall into a gap outside those windows. But legality should not be the only standard. Exploiting a loophole in the law is not the same as acting with integrity. A tactic can be technically permissible and still be corrosive to democratic elections.&lt;/p&gt;
+
+&lt;p&gt;I am asking you to do more than state that you do not support AI in political ads. I am asking you to publicly and unequivocally condemn the North Star Dawn ad, call for its immediate removal, and make clear that any outside group supporting your candidacy should not use AI-generated or materially manipulated depictions of your opponents. I also ask that you support closing the legal gap that allows this kind of conduct to occur outside the current statutory windows.&lt;/p&gt;
+
+&lt;p&gt;This is not a minor campaign dust-up. It is a test of judgment, consistency, and leadership. As my current congressional representative and as a candidate seeking statewide federal office, I expect clear standards from you on the use of deceptive synthetic media in elections. I also expect those standards to apply even when the deception may be politically convenient.&lt;/p&gt;
+
+&lt;p&gt;Respectfully,
+Matthew Reinbold&lt;/p&gt;
+</description>
+                <pubDate>Fri, 05 Jun 2026 00:00:00 -0500</pubDate>
+                <link>https://matthewreinbold.com/2026/06/05/CondemningDeepfakes</link>
+                <guid isPermaLink="true">https://matthewreinbold.com/2026/06/05/CondemningDeepfakes</guid>
+                
+                <category>Culture</category>
+                
+                <category>AI</category>
+                
+                <category>Law</category>
+                
+                <category>Social Media</category>
+                
+                
+            </item>
         
             <item>
                 <title>Memory in the Marrow</title>
@@ -991,127 +1037,6 @@ By leveraging adaptive tone-balancing and-&quot;
                 <pubDate>Sat, 10 Jan 2026 00:00:00 -0600</pubDate>
                 <link>https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</link>
                 <guid isPermaLink="true">https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</guid>
-                
-                <category>Culture</category>
-                
-                <category>Writing</category>
-                
-                
-            </item>
-        
-            <item>
-                <title>Moneyballer Americana - 06</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;Moneyballer Americana&lt;/strong&gt; is a seven-part novelette about a struggling bluegrass musician who accidentally ignites a sports-betting media frenzy.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;If you missed the first installment, &lt;a href=&quot;/2026/01/04/MoneyballerAmericana-01&quot;&gt;you can begin at the beginning&lt;/a&gt;. Or download &lt;a href=&quot;/stories/&quot;&gt;a collected version of all seven parts and get extras, like the accompanying playlist, from the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scene 6 - Fourth and Long&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A week later, Eli was trying to navigate the garage studio. There were boxes stacked haphazardly.&lt;/p&gt;
-
-&lt;p&gt;“Just who we wanted to see!” Ty called out while unboxing one of the boxes on the set. “Check it out! We have merch!”&lt;/p&gt;
-
-&lt;p&gt;He wrestled for a moment with a smaller package before pulling a cartoon copy of the very set.&lt;/p&gt;
-
-&lt;p&gt;“It looks just like us!” Lance exclaimed, leaning over to examine himself in miniature.&lt;/p&gt;
-
-&lt;p&gt;“If you think that is great-“ Ty paused dramatically before suddenly flicking his caricature.&lt;/p&gt;
-
-&lt;p&gt;“LOCK. IT. IN.” The bobble-head screeched, the original audio file barely comprehensible beneath its heavily processed optimization and cheap reproduction.&lt;/p&gt;
-
-&lt;p&gt;“Dude! I love my mini-me so much!” Lance turned to Eli. “Isn’t this awesome!”&lt;/p&gt;
-
-&lt;p&gt;Eli looked at the stacks upon stacks of other boxes in slight disbelief. “Is that what all these boxes are?”&lt;/p&gt;
-
-&lt;p&gt;“Some,” Ty said, stepping off the stage and reaching into a previously opened box. “We also got logo tees - large, extra-large, and so on.”&lt;/p&gt;
-
-&lt;p&gt;“That’s actually what we wanted to talk to you about.”&lt;/p&gt;
-
-&lt;p&gt;Eli moved a box off the chair that he usually used for producing, and set his stuff down.&lt;/p&gt;
-
-&lt;p&gt;“You joined the show at a critical inflection point. Whether it was adding the graphics, improving the audio, or jumping in to answer email you’ve taken everything like a champ.”&lt;/p&gt;
-
-&lt;p&gt;“And now we’re taking things to the next level,” Ty said, “Merch is where the real money is at. And we’re going to need someone to handle things - watch the store, handle the orders, ship things out, that kind of thing.”&lt;/p&gt;
-
-&lt;p&gt;Lance leaned against the stage set. “We know that’s a lot. That’s why Ty and I have talked it over and we’re willing to offer you a percentage of sales through our online store, after expenses and our cut, of course.”&lt;/p&gt;
-
-&lt;p&gt;“Dude! We’re dealing you in! This is big!”&lt;/p&gt;
-
-&lt;p&gt;Eli looked at the both of them, eagerly waiting for his answer.&lt;/p&gt;
-
-&lt;p&gt;“I am glad we’re having this talk now,” Eli started, “but I’m not going to be around for a couple of months. I wanted to tell you that I’m not going to do the show. And I’m definitely not going to be able to handle merch sales.”&lt;/p&gt;
-
-&lt;p&gt;Ty broke the stunned silence first.&lt;/p&gt;
-
-&lt;p&gt;“You’re not going to be around? What do you mean?”&lt;/p&gt;
-
-&lt;p&gt;“My band has been offered a slot to perform on a bluegrass cruise. I’ve decided that will be what I’m doing most of this winter.”&lt;/p&gt;
-
-&lt;p&gt;“A cruise?” Lance asked, “Like rocking out with spring breakers?”&lt;/p&gt;
-
-&lt;p&gt;“No, more like playing bluegrass music for retirees after dinner.”&lt;/p&gt;
-
-&lt;p&gt;“But it pays good, right?”&lt;/p&gt;
-
-&lt;p&gt;“It pays-“ Eli paused, eventually plucking the right word from several options, “enough. It’s a mid-tier boat. It is unglamorous, low-tech, and pays a fraction of what I’d probably make here. But I’ll be playing music I like with people I enjoy, and that means a lot.”&lt;/p&gt;
-
-&lt;p&gt;His explanation only seemed to confuse them.&lt;/p&gt;
-
-&lt;p&gt;“So,” Lance drew the word out, “What’s the angle?”&lt;/p&gt;
-
-&lt;p&gt;“No angle, just music.” Eli mimicked playing air guitar. “When we play, I’m making something with people. We’re in the same room as the audience. If we do our job right, there’s a shared experience there, something greater than what we had individually. It’s real.”&lt;/p&gt;
-
-&lt;p&gt;Ty frowned. “Well, OK. But how do you leverage that? You sell your own merch then? Is there much of a market for blue…? Blue-“&lt;/p&gt;
-
-&lt;p&gt;“Bluegrass. And not really.”&lt;/p&gt;
-
-&lt;p&gt;Lance’s eyebrows shot up. “You’re walking away from &lt;em&gt;this&lt;/em&gt; for &lt;em&gt;that&lt;/em&gt;?”&lt;/p&gt;
-
-&lt;p&gt;“Yes. I guess that’s what I’m saying.”&lt;/p&gt;
-
-&lt;p&gt;Ty snapped his fingers.&lt;/p&gt;
-
-&lt;p&gt;“Oh. Ohhh.” He grinned. “I get it.”&lt;/p&gt;
-
-&lt;p&gt;Lance tilted his head. “Huh?”&lt;/p&gt;
-
-&lt;p&gt;Ty shook his finger. “You’re going offline. Creating scarcity.”&lt;/p&gt;
-
-&lt;p&gt;“I don’t follow.”&lt;/p&gt;
-
-&lt;p&gt;“Disappear for the season. Come back authentic. Analog. Double-down on the salt-of-the-earth vibe. Creating an ‘Eli Mystique’ before you launch your own channel.”&lt;/p&gt;
-
-&lt;p&gt;Lance looked impressed. “That’s very 4D chess. Integrity is so hot right now.”&lt;/p&gt;
-
-&lt;p&gt;Eli opened his mouth to object, then reconsidered.&lt;/p&gt;
-
-&lt;p&gt;“I don’t know about that,” he said, finally. “Let’s just say I’m betting on myself.”&lt;/p&gt;
-
-&lt;p&gt;“Respect,” Lance said. “Huge long play.”&lt;/p&gt;
-
-&lt;p&gt;“Can’t say this ain’t an unexpected kick to the balls,” Ty said, ruefully, “I’ll have to make some calls to get some help in the short term. But look us up when you get back. There’s always room for one more in our Discord.”&lt;/p&gt;
-
-&lt;p&gt;Ty awkwardly offered to dab.&lt;/p&gt;
-
-&lt;p&gt;Lance gave the most platonic of hugs.&lt;/p&gt;
-
-&lt;p&gt;And that was it.&lt;/p&gt;
-
-&lt;p&gt;They were already turning back to their phones as Eli picked up his things and left out of the side door.&lt;/p&gt;
-
-&lt;p&gt;The make-shift garage studio had been stuffy, but outside the air was fresh and invigorating. It had snowed recently, and the lawns surrounding the suburban cul-de-sac glittered in the afternoon sun. The world was a clean stage.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;End Scene 6 - &lt;a href=&quot;/2026/01/07/MoneyballerAmericana-07&quot;&gt;Click here for the conclusion of Moneyballer Americana&lt;/a&gt;.*&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <pubDate>Fri, 09 Jan 2026 00:00:00 -0600</pubDate>
-                <link>https://matthewreinbold.com/2026/01/09/MoneyballerAmericana-06</link>
-                <guid isPermaLink="true">https://matthewreinbold.com/2026/01/09/MoneyballerAmericana-06</guid>
                 
                 <category>Culture</category>
                 
