@@ -5,8 +5,8 @@
         <description>This Matthew Reinbold&apos;s website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the &apos;Net API Notes&apos; email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.</description>
         <link>https://matthewreinbold.com/</link>
         <atom:link href="https://matthewreinbold.com/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 05 Jun 2026 10:01:37 -0500</pubDate>
-        <lastBuildDate>Fri, 05 Jun 2026 10:01:37 -0500</lastBuildDate>
+        <pubDate>Wed, 14 Oct 2026 23:05:29 -0500</pubDate>
+        <lastBuildDate>Wed, 14 Oct 2026 23:05:29 -0500</lastBuildDate>
         <generator>Jekyll v4.4.1</generator>
         
             <item>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;This past week, &lt;a href=&quot;https://www.cbsnews.com/minnesota/news/peggy-flanagan-slams-ad-for-using-ai-deepfake/&quot;&gt;a super PAC supporting Angie Craig named North Star Dawn aired an ad which appeared to use a deepfake of Peggy Flanagan&lt;/a&gt;. Craig, through a spokesman, said, “she does not support the use of AI in political ads”.&lt;/p&gt;
 
-&lt;p&gt;I’ve written about Craig before, particularly of her support for last year’s &lt;a href=&quot;https://matthewreinbold.com/2025/03/10/StopTheTakeItDownAct&quot;&gt;TAKE IT DOWN Act&lt;/a&gt;. Her tepid response, all things considered, was troubling enough that I felt compelled to write and send her the following letter, below.&lt;/p&gt;
+&lt;p&gt;I’ve written about Craig before, particularly of her support for last year’s &lt;a href=&quot;/2025/03/10/StopTheTakeItDownAct&quot;&gt;TAKE IT DOWN Act&lt;/a&gt;. Her tepid response, all things considered, was troubling enough that I felt compelled to write and send her the following letter, below.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -39,6 +39,13 @@
 
 &lt;p&gt;Respectfully,
 Matthew Reinbold&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;Update Wednesday, August 12&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Angie Craig lost the Democratic primary election to Peggy Flanagan.&lt;/p&gt;
+
+&lt;p&gt;~ slide-whistle noise ~&lt;/p&gt;
 </description>
                 <pubDate>Fri, 05 Jun 2026 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2026/06/05/CondemningDeepfakes</link>
@@ -90,13 +97,12 @@ Matthew Reinbold&lt;/p&gt;
         
             <item>
                 <title>General American - 07</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+                <description>
+&lt;nav class=&quot;work-context&quot; aria-label=&quot;Story context&quot;&gt;
+  &lt;a href=&quot;/stories/general-american/&quot;&gt;General American&lt;/a&gt;
+  &lt;span&gt;Part 7 of 7 · Complete&lt;/span&gt;
+  &lt;a href=&quot;/stories/general-american/#background&quot;&gt;Background &amp;amp; supporting material&lt;/a&gt;
+&lt;/nav&gt;
 
 &lt;p&gt;&lt;strong&gt;Scene 7 -  Mopping Up&lt;/strong&gt;&lt;/p&gt;
 
@@ -166,7 +172,14 @@ Matthew Reinbold&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The End&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;For additional material about this story, along with the accompanying playlist, check out the &lt;a href=&quot;/stories#general-american-2026&quot;&gt;General American section on the ‘Stories’ page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For additional material about this story, along with the accompanying playlist, check out the &lt;a href=&quot;/stories/general-american/#background&quot;&gt;General American background and playlist&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;nav class=&quot;work-navigation&quot; aria-label=&quot;Story parts&quot;&gt;
+    &lt;a href=&quot;/2026/04/11/GeneralAmerican-06&quot; rel=&quot;prev&quot;&gt;← Part 6&lt;/a&gt;
+    &lt;a href=&quot;/stories/general-american/&quot;&gt;All 7 parts&lt;/a&gt;
+    &lt;a href=&quot;/stories/general-american/#background&quot;&gt;Explore the background &amp;amp; extras →&lt;/a&gt;
+  &lt;/nav&gt;
+
 </description>
                 <pubDate>Sun, 12 Apr 2026 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2026/04/12/GeneralAmerican-07</link>
@@ -181,13 +194,12 @@ Matthew Reinbold&lt;/p&gt;
         
             <item>
                 <title>General American - 06</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+                <description>
+&lt;nav class=&quot;work-context&quot; aria-label=&quot;Story context&quot;&gt;
+  &lt;a href=&quot;/stories/general-american/&quot;&gt;General American&lt;/a&gt;
+  &lt;span&gt;Part 6 of 7 · Complete&lt;/span&gt;
+  &lt;a href=&quot;/stories/general-american/#background&quot;&gt;Background &amp;amp; supporting material&lt;/a&gt;
+&lt;/nav&gt;
 
 &lt;p&gt;&lt;strong&gt;Scene 6 -  Mopping Up&lt;/strong&gt;&lt;/p&gt;
 
@@ -291,7 +303,14 @@ Matthew Reinbold&lt;/p&gt;
 
 &lt;p&gt;“All right. Let’s go for a walk.”&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Finished this section? &lt;a href=&quot;/2026/04/12/GeneralAmerican-07&quot;&gt;Part 7 is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;nav class=&quot;work-navigation&quot; aria-label=&quot;Story parts&quot;&gt;
+    &lt;a href=&quot;/2026/04/10/GeneralAmerican-05&quot; rel=&quot;prev&quot;&gt;← Part 5&lt;/a&gt;
+    &lt;a href=&quot;/stories/general-american/&quot;&gt;All 7 parts&lt;/a&gt;
+    
+      &lt;a href=&quot;/2026/04/12/GeneralAmerican-07&quot; rel=&quot;next&quot;&gt;Continue to part 7 →&lt;/a&gt;
+    
+  &lt;/nav&gt;
+
 </description>
                 <pubDate>Sat, 11 Apr 2026 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2026/04/11/GeneralAmerican-06</link>
@@ -306,13 +325,12 @@ Matthew Reinbold&lt;/p&gt;
         
             <item>
                 <title>General American - 05</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+                <description>
+&lt;nav class=&quot;work-context&quot; aria-label=&quot;Story context&quot;&gt;
+  &lt;a href=&quot;/stories/general-american/&quot;&gt;General American&lt;/a&gt;
+  &lt;span&gt;Part 5 of 7 · Complete&lt;/span&gt;
+  &lt;a href=&quot;/stories/general-american/#background&quot;&gt;Background &amp;amp; supporting material&lt;/a&gt;
+&lt;/nav&gt;
 
 &lt;p&gt;**Scene 5 - Virality **&lt;/p&gt;
 
@@ -432,7 +450,14 @@ Matthew Reinbold&lt;/p&gt;
 
 &lt;p&gt;Kris audibly gulped, and then left.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Finished this section? &lt;a href=&quot;/2026/04/11/GeneralAmerican-06&quot;&gt;Part 6 is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;nav class=&quot;work-navigation&quot; aria-label=&quot;Story parts&quot;&gt;
+    &lt;a href=&quot;/2026/04/09/GeneralAmerican-04&quot; rel=&quot;prev&quot;&gt;← Part 4&lt;/a&gt;
+    &lt;a href=&quot;/stories/general-american/&quot;&gt;All 7 parts&lt;/a&gt;
+    
+      &lt;a href=&quot;/2026/04/11/GeneralAmerican-06&quot; rel=&quot;next&quot;&gt;Continue to part 6 →&lt;/a&gt;
+    
+  &lt;/nav&gt;
+
 </description>
                 <pubDate>Fri, 10 Apr 2026 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2026/04/10/GeneralAmerican-05</link>
@@ -447,13 +472,12 @@ Matthew Reinbold&lt;/p&gt;
         
             <item>
                 <title>General American - 04</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+                <description>
+&lt;nav class=&quot;work-context&quot; aria-label=&quot;Story context&quot;&gt;
+  &lt;a href=&quot;/stories/general-american/&quot;&gt;General American&lt;/a&gt;
+  &lt;span&gt;Part 4 of 7 · Complete&lt;/span&gt;
+  &lt;a href=&quot;/stories/general-american/#background&quot;&gt;Background &amp;amp; supporting material&lt;/a&gt;
+&lt;/nav&gt;
 
 &lt;p&gt;&lt;strong&gt;Scene 4 - Strawberry Motivated Sabotage&lt;/strong&gt;&lt;/p&gt;
 
@@ -643,7 +667,14 @@ Customer Clarity Reinforcement (?)
 
 &lt;p&gt;Jamal just grinned.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/10/GeneralAmerican-05&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;nav class=&quot;work-navigation&quot; aria-label=&quot;Story parts&quot;&gt;
+    &lt;a href=&quot;/2026/04/08/GeneralAmerican-03&quot; rel=&quot;prev&quot;&gt;← Part 3&lt;/a&gt;
+    &lt;a href=&quot;/stories/general-american/&quot;&gt;All 7 parts&lt;/a&gt;
+    
+      &lt;a href=&quot;/2026/04/10/GeneralAmerican-05&quot; rel=&quot;next&quot;&gt;Continue to part 5 →&lt;/a&gt;
+    
+  &lt;/nav&gt;
+
 </description>
                 <pubDate>Thu, 09 Apr 2026 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2026/04/09/GeneralAmerican-04</link>
@@ -658,13 +689,12 @@ Customer Clarity Reinforcement (?)
         
             <item>
                 <title>General American - 03</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+                <description>
+&lt;nav class=&quot;work-context&quot; aria-label=&quot;Story context&quot;&gt;
+  &lt;a href=&quot;/stories/general-american/&quot;&gt;General American&lt;/a&gt;
+  &lt;span&gt;Part 3 of 7 · Complete&lt;/span&gt;
+  &lt;a href=&quot;/stories/general-american/#background&quot;&gt;Background &amp;amp; supporting material&lt;/a&gt;
+&lt;/nav&gt;
 
 &lt;p&gt;&lt;strong&gt;Scene 3 - The Qualming&lt;/strong&gt;&lt;/p&gt;
 
@@ -704,7 +734,14 @@ Customer Clarity Reinforcement (?)
 
 &lt;p&gt;Jamal hung the headset on his charging hook, on the wall above the register, and slumped against the tiled counter. He rubbed his temples, but the red warning letters were still there, floating in his peripheral vision.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/09/GeneralAmerican-04&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;nav class=&quot;work-navigation&quot; aria-label=&quot;Story parts&quot;&gt;
+    &lt;a href=&quot;/2026/04/07/GeneralAmerican-02&quot; rel=&quot;prev&quot;&gt;← Part 2&lt;/a&gt;
+    &lt;a href=&quot;/stories/general-american/&quot;&gt;All 7 parts&lt;/a&gt;
+    
+      &lt;a href=&quot;/2026/04/09/GeneralAmerican-04&quot; rel=&quot;next&quot;&gt;Continue to part 4 →&lt;/a&gt;
+    
+  &lt;/nav&gt;
+
 </description>
                 <pubDate>Wed, 08 Apr 2026 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2026/04/08/GeneralAmerican-03</link>
@@ -719,13 +756,12 @@ Customer Clarity Reinforcement (?)
         
             <item>
                 <title>General American - 02</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Missed the beginning? &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot;&gt;Part 1 can be found here&lt;/a&gt;. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+                <description>
+&lt;nav class=&quot;work-context&quot; aria-label=&quot;Story context&quot;&gt;
+  &lt;a href=&quot;/stories/general-american/&quot;&gt;General American&lt;/a&gt;
+  &lt;span&gt;Part 2 of 7 · Complete&lt;/span&gt;
+  &lt;a href=&quot;/stories/general-american/#background&quot;&gt;Background &amp;amp; supporting material&lt;/a&gt;
+&lt;/nav&gt;
 
 &lt;p&gt;&lt;strong&gt;Scene 2 - Dumpster Debate Club&lt;/strong&gt;&lt;/p&gt;
 
@@ -806,7 +842,14 @@ Jamal heaved his own bag into the dumpster.&lt;/p&gt;
 
 &lt;p&gt;Jamal couldn’t tell who was behind it.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/08/GeneralAmerican-03&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;nav class=&quot;work-navigation&quot; aria-label=&quot;Story parts&quot;&gt;
+    &lt;a href=&quot;/2026/04/06/GeneralAmerican-01&quot; rel=&quot;prev&quot;&gt;← Part 1&lt;/a&gt;
+    &lt;a href=&quot;/stories/general-american/&quot;&gt;All 7 parts&lt;/a&gt;
+    
+      &lt;a href=&quot;/2026/04/08/GeneralAmerican-03&quot; rel=&quot;next&quot;&gt;Continue to part 3 →&lt;/a&gt;
+    
+  &lt;/nav&gt;
+
 </description>
                 <pubDate>Tue, 07 Apr 2026 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2026/04/07/GeneralAmerican-02</link>
@@ -821,13 +864,12 @@ Jamal heaved his own bag into the dumpster.&lt;/p&gt;
         
             <item>
                 <title>General American - 01</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;General American&lt;/strong&gt; is a seven-part short story about a fast foot crew suddenly confronted with a corporate AI that threatens their erasure.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This story comes in seven parts, or scenes. Additional info, like the accompanying playlist, &lt;a href=&quot;/stories/&quot;&gt;can be found at the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+                <description>
+&lt;nav class=&quot;work-context&quot; aria-label=&quot;Story context&quot;&gt;
+  &lt;a href=&quot;/stories/general-american/&quot;&gt;General American&lt;/a&gt;
+  &lt;span&gt;Part 1 of 7 · Complete&lt;/span&gt;
+  &lt;a href=&quot;/stories/general-american/#background&quot;&gt;Background &amp;amp; supporting material&lt;/a&gt;
+&lt;/nav&gt;
 
 &lt;p&gt;&lt;strong&gt;Scene 1 - SpudBud to the Rescue&lt;/strong&gt;&lt;/p&gt;
 
@@ -981,7 +1023,14 @@ By leveraging adaptive tone-balancing and-&quot;
 
 &lt;p&gt;Mrs. Alvarez’s thumbs kneaded the strap on her visor as if she were praying a synthetic fiber rosary.  She silently studied Jamal as she did so.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Finished this scene? &lt;a href=&quot;/2026/04/07/GeneralAmerican-02&quot;&gt;The next part is here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;nav class=&quot;work-navigation&quot; aria-label=&quot;Story parts&quot;&gt;
+    
+    &lt;a href=&quot;/stories/general-american/&quot;&gt;All 7 parts&lt;/a&gt;
+    
+      &lt;a href=&quot;/2026/04/07/GeneralAmerican-02&quot; rel=&quot;next&quot;&gt;Continue to part 2 →&lt;/a&gt;
+    
+  &lt;/nav&gt;
+
 </description>
                 <pubDate>Mon, 06 Apr 2026 00:00:00 -0500</pubDate>
                 <link>https://matthewreinbold.com/2026/04/06/GeneralAmerican-01</link>
@@ -996,13 +1045,12 @@ By leveraging adaptive tone-balancing and-&quot;
         
             <item>
                 <title>Moneyballer Americana - 07</title>
-                <description>&lt;p&gt;&lt;em&gt;I’ve spent years writing about the intersection of technology, culture, and policy. When social media is increasingly used to create events, rather than report on them, I find that work increasingly relevant.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is one thing to write an essay here or a newsletter there. Given the potential harms, utilizing adding additional forms, like narrative, seems warranted. &lt;strong&gt;Moneyballer Americana&lt;/strong&gt; is a seven-part novelette about a struggling bluegrass musician who accidentally ignites a sports-betting media frenzy.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;If you missed the first installment, &lt;a href=&quot;/2026/01/10/MoneyballerAmericana-01&quot;&gt;you can begin at the beginning&lt;/a&gt;. Or download &lt;a href=&quot;/stories/&quot;&gt;a collected version of all seven parts and get extras, like the accompanying playlist, from the Stories page&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;~Matthew&lt;/em&gt;&lt;/p&gt;
+                <description>
+&lt;nav class=&quot;work-context&quot; aria-label=&quot;Story context&quot;&gt;
+  &lt;a href=&quot;/stories/moneyballer-americana/&quot;&gt;Moneyballer Americana&lt;/a&gt;
+  &lt;span&gt;Part 7 of 7 · Complete&lt;/span&gt;
+  &lt;a href=&quot;/stories/moneyballer-americana/#background&quot;&gt;Background &amp;amp; supporting material&lt;/a&gt;
+&lt;/nav&gt;
 
 &lt;p&gt;&lt;strong&gt;Scene 7 - Victory Formation&lt;/strong&gt;&lt;/p&gt;
 
@@ -1033,6 +1081,13 @@ By leveraging adaptive tone-balancing and-&quot;
 &lt;p&gt;“Absolutely.”&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The End&lt;/em&gt;&lt;/p&gt;
+
+&lt;nav class=&quot;work-navigation&quot; aria-label=&quot;Story parts&quot;&gt;
+    &lt;a href=&quot;/2026/01/09/MoneyballerAmericana-06&quot; rel=&quot;prev&quot;&gt;← Part 6&lt;/a&gt;
+    &lt;a href=&quot;/stories/moneyballer-americana/&quot;&gt;All 7 parts&lt;/a&gt;
+    &lt;a href=&quot;/stories/moneyballer-americana/#background&quot;&gt;Explore the background &amp;amp; extras →&lt;/a&gt;
+  &lt;/nav&gt;
+
 </description>
                 <pubDate>Sat, 10 Jan 2026 00:00:00 -0600</pubDate>
                 <link>https://matthewreinbold.com/2026/01/10/MoneyballerAmericana-07</link>

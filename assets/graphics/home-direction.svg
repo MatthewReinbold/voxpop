@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 540" fill="none">
+<defs><pattern id="check" width="20" height="20" patternUnits="userSpaceOnUse"><path fill="#101113" d="M0 0h10v10H0zM10 10h10v10H10z"/></pattern></defs>
+<g stroke="#101113" stroke-linejoin="miter"><path stroke-width="37" d="M45 500 265 280H383V177L264 58"/><path stroke-width="24" d="M104 508 299 313H428V158L312 42"/><path stroke-width="15" d="M11 454 225 240H340V194L227 81"/></g>
+<path stroke="#b5ff00" stroke-width="12" d="M173 372 265 280H307M326 120l57 57v33"/>
+<path stroke="#00e5ff" stroke-width="12" d="M99 446 158 387M428 208v64"/>
+<path stroke="#ff00a8" stroke-width="12" d="m196 416 84-84"/>
+<g stroke="#101113" stroke-width="1"><path d="M15 403 203 215h106v-24L199 81M135 522l171-171h151V147L340 30M372 32h70M407 0v67M381 461h70M416 426v70M3 525h85"/><circle cx="407" cy="32" r="9"/><circle cx="416" cy="461" r="13"/></g>
+<path fill="url(#check)" d="M359 367h40v60h-40zM321 506h130v20H321z"/>
+<path fill="#101113" d="M188 510h12v12h-12zM204 510h12v12h-12z"/>
+</svg>

@@ -1,1273 +1,655 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Intro to Gamification</title>
-  <meta name='description' content='This Matthew Reinbold's website. I am a Digtial Engagement Lead within the Concentrix API Change Practice. I write the 'Net API Notes' email newsletter, am working on a book, a few comics, and like taking long walks whenever I have a chance. Born at 334 ppm CO₂ and my pronouns are he/him.'>
- 
+  <title>Intro to Gamification · Matthew Reinbold</title>
+  <meta name="description" content="Slides and Text Embedded">
+  <link rel="canonical" href="http://localhost:4000/2013/02/04/GamificationPreso">
   <link rel="alternate" type="application/rss+xml" title="Matthew Reinbold" href="/feed.xml">
-  
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" as="style">
-
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-
-  <!-- Ionicons -->
-  <link rel="preload" href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" as="style">
-
-  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
-
-  <script>
-    
-      document.documentElement.setAttribute("dark", "");
-      document.documentElement.classList.add('dark-mode');
-    
-  </script>
-
-  <style>
-  
-  /*!------------------------------------------------------------------
-[MAIN STYLESHEET]
--------------------------------------------------------------------*/:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--light-blue: #f3f7ff;--blue-gray: #716f8a;--gray: #9e9e9e;--dark: #0c101a;--dark-blue: #1e2740;--background-color: var(--white);--background-alt-color: var(--light-blue);--text-color: var(--dark-blue);--text-alt-color: var(--blue-gray);--heading-font-color: var(--dark-blue);--link-color: var(--dark-blue);--link-color-hover: var(--dark-blue);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: var(--light-blue);--border-color-alt: var(--light-blue);--th-color: var(--light-gray);--tr-color: var(--light-gray);--syntax-highlighting-background: #f3f3f3}:root[dark]{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--gray: #9e9e9e;--dark: #111016;--background-color: var(--dark);--background-alt-color: #1a1a1f;--text-color: var(--gray);--text-alt-color: var(--gray);--heading-font-color: var(--light-gray);--link-color: var(--light-gray);--link-color-hover: var(--light-gray);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: #252629;--border-color-alt: #080b12;--th-color: #18181d;--tr-color: #080b12;--syntax-highlighting-background: #080b12}.list-reset{list-style-type:none;margin:0;padding:0}.clearfix::after,.clearfix ::before{content:"";display:table;clear:both}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px;word-wrap:normal !important}/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:rgba(0,0,0,0)}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,hr{margin:0;padding:0}li>ul,li>ol{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6,ul,ol,dl,blockquote,p,address,hr,table,fieldset,figure,pre{margin-bottom:32px}ul,ol,dd{margin-left:16px}ul li,ol li{margin-bottom:10px}.highlight{margin-bottom:32px;background:var(--syntax-highlighting-background)}.highlighter-rouge .highlight{background:var(--syntax-highlighting-background)}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#5d76bf;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#ec2355}.highlight .na{color:teal}.highlight .nb{color:#0086b3}.highlight .nc{color:#5d76bf;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#4d65dc}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#ec2355}.highlight .sc{color:#ec2355}.highlight .sd{color:#ec2355}.highlight .s2{color:#ec2355}.highlight .se{color:#ec2355}.highlight .sh{color:#ec2355}.highlight .si{color:#ec2355}.highlight .sx{color:#ec2355}.highlight .sr{color:#009926}.highlight .s1{color:#ec2355}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}.container{max-width:1140px;padding-left:16px;padding-right:16px;margin:0 auto}@media only screen and (max-width: 1140px){.container{max-width:1000px}}@media only screen and (max-width: 1024px){.container{max-width:740px}}@media only screen and (max-width: 768px){.container{max-width:560px}}@media only screen and (max-width: 576px){.container{max-width:480px;padding-left:calc(16px + 4px);padding-right:calc(16px + 4px)}}.row{display:flex;flex-wrap:wrap;flex:0 1 auto;flex-direction:row;box-sizing:border-box;margin-left:-16px;margin-right:-16px}.col{padding-left:16px;padding-right:16px}[class^=col-]{flex:auto}.col-0{width:0%}.col-1{width:8.3333333333%}.col-2{width:16.6666666667%}.col-3{width:25%}.col-4{width:33.3333333333%}.col-5{width:41.6666666667%}.col-6{width:50%}.col-7{width:58.3333333333%}.col-8{width:66.6666666667%}.col-9{width:75%}.col-10{width:83.3333333333%}.col-11{width:91.6666666667%}.col-12{width:100%}.push-0{margin-left:0%}.push-1{margin-left:8.3333333333%}.push-2{margin-left:16.6666666667%}.push-3{margin-left:25%}.push-4{margin-left:33.3333333333%}.push-5{margin-left:41.6666666667%}.push-6{margin-left:50%}.push-7{margin-left:58.3333333333%}.push-8{margin-left:66.6666666667%}.push-9{margin-left:75%}.push-10{margin-left:83.3333333333%}.push-11{margin-left:91.6666666667%}.push-12{margin-left:100%}.pull-0{margin-right:0%}.pull-1{margin-right:8.3333333333%}.pull-2{margin-right:16.6666666667%}.pull-3{margin-right:25%}.pull-4{margin-right:33.3333333333%}.pull-5{margin-right:41.6666666667%}.pull-6{margin-right:50%}.pull-7{margin-right:58.3333333333%}.pull-8{margin-right:66.6666666667%}.pull-9{margin-right:75%}.pull-10{margin-right:83.3333333333%}.pull-11{margin-right:91.6666666667%}.pull-12{margin-right:100%}@media(max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media(max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media(max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media(max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media(max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media(max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media(max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media(max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media(max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}.animate{animation:animateElement cubic-bezier(0.3, 0.45, 0.45, 0.95) .75s;animation-duration:.5s;animation-iteration-count:1;transition:transform .15s}@keyframes animateElement{0%{transform:translate(0px, 50px)}100%{transform:translate(0px, 0px)}}@keyframes pulse{0%{transform:scale(1, 1)}25%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}*,*::after,*::before{box-sizing:border-box}body{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.5;overflow-x:hidden;color:var(--text-color);background-color:var(--background-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media only screen and (max-width: 576px){body{font-size:18px}}*::selection{color:var(--white);background-color:var(--brand-color)}h1,h2,h3,h4,h5,h6{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;letter-spacing:-1px;color:var(--heading-font-color)}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{position:relative;margin:40px 0;padding-left:26px;font-size:24px;line-height:1.7;font-weight:900;border-left:4px solid var(--brand-color);color:var(--heading-font-color)}blockquote p{margin-bottom:10px}blockquote cite{display:inline-block;margin-top:8px;font-size:14px;font-weight:700;font-style:normal;color:var(--heading-font-color)}@media only screen and (max-width: 576px){blockquote{font-size:21px}}pre{overflow:auto;padding:15px;margin-bottom:0;font-size:14px;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;color:var(--heading-font-color)}img,.lightense-wrap{max-width:100%;height:auto;vertical-align:middle}img+em,.lightense-wrap+em,.gallery+em{display:block;margin-top:20px;font-size:12px;line-height:22px;font-style:normal;font-weight:normal;text-align:center;color:var(--heading-font-color)}img+em a,.lightense-wrap+em a,.gallery+em a{font-weight:500;border-bottom:1px solid var(--border-color);transition:all .35s}img+em a:hover,.lightense-wrap+em a:hover,.gallery+em a:hover{color:var(--link-color);border-color:var(--link-color-hover)}@media only screen and (max-width: 576px){img+em,.lightense-wrap+em,.gallery+em{margin-top:12px}}a{text-decoration:none;color:var(--link-color);transition:all .35s}a:hover{color:var(--link-color-hover)}hr{width:100%;height:1px;margin:60px 0;border:0;background:var(--background-alt-color)}.table-container{display:block;max-width:100%;overflow-x:auto}table{font-size:12px;color:var(--dark);width:100%;border-width:1px;border-color:var(--background-alt-color);border-collapse:collapse;color:var(--heading-font-color)}table th{padding:10px;font-size:16px;text-align:left;border:1px solid var(--th-color);color:var(--heading-font-color);font-weight:700;background-color:var(--th-color)}table tr{background-color:var(--tr-color);transition:all .3s ease}table tr:nth-child(even){background-color:rgba(0,0,0,0)}table td{padding:10px;font-size:14px;border:1px solid var(--background-alt-color)}.button{display:inline-block;padding:20px 26px;font-size:16px;font-weight:700;text-decoration:none;border-radius:2px;border:none;outline:none;cursor:pointer;transition:all .25s;color:var(--heading-font-color);background:var(--background-alt-color)}.button--primary{color:var(--white);background-color:var(--button-background-color)}.button--primary:hover{background:var(--button-background-hover)}.button--big{display:block;width:100%}.lazy{opacity:0;transition:opacity .3s ease-in-out}.lazy.loaded{opacity:1}.lightense-backdrop{background-color:var(--background-color) !important}.header .header__inner{position:relative;display:flex;align-items:center;flex-wrap:wrap;padding:44px 16px}@media only screen and (max-width: 1024px){.header .header__inner{padding:40px 16px}}@media only screen and (max-width: 576px){.header .header__inner{padding:32px 16px}}.logo__link{padding:4px 0;font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:28px;letter-spacing:-1px;line-height:1;font-weight:700;transition:color .25s ease}.logo__link:hover{color:var(--brand-color)}.logo__image{max-height:50px}.main-nav{margin-left:auto}@media only screen and (max-width: 1024px){.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;opacity:0;visibility:hidden;background-color:var(--background-color)}.main-nav.is-open{opacity:1;visibility:visible;transition:all .25s ease}.main-nav .nav__list{flex-direction:column;width:100%}.main-nav .nav__list .nav__item{display:block;margin:0}.main-nav .nav__list .nav__item.nav__item-icon{margin-right:0}.main-nav .nav__list .nav__item .nav__link{display:inline-block;padding:16px 0;font-size:18px;transition:color .25s ease}.main-nav .nav__list .nav__item .nav__link:hover{color:var(--brand-color)}}.main-nav__box{display:flex;align-items:center}.main-nav__box .nav__icon-close{display:none;justify-content:center;align-items:center;width:36px;height:36px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);background:var(--background-alt-color);cursor:pointer}.main-nav__box .nav__icon-close:hover .ion-md-close{transform:rotate(90deg)}.main-nav__box .nav__icon-close .ion-md-close{transition:all .35s}.main-nav__box .nav__title{display:none}@media only screen and (max-width: 1024px){.main-nav__box{display:block;align-items:center;width:80%;height:80vh;padding-top:180px;margin:0 auto;text-align:center;overflow-y:auto}.main-nav__box .nav__icon-close{display:flex;position:absolute;top:40px;right:40px}.main-nav__box .nav__title{display:inline-block;margin-bottom:12px;font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:36px;font-weight:700;letter-spacing:-1px;color:var(--heading-font-color)}}@media only screen and (max-width: 768px){.main-nav__box{padding-top:100px}}.nav__list{display:flex;align-items:center}.nav__list .nav__item{display:inline-block;margin-right:48px;margin-bottom:0}.nav__list .nav__item.nav__item-icon{margin-right:12px}.nav__list .nav__item .nav__link{position:relative;padding:4px 0;font-size:16px;line-height:1;font-weight:700;transition:color .25s ease}.nav__list .nav__item .nav__link:hover{color:var(--brand-color)}.nav-button{font-size:21px;color:var(--link-color);cursor:pointer}.nav-button .icon__menu{display:none;margin-right:12px}.nav-button .icon__menu,.nav-button .icon__search{transition:color .25s ease}.nav-button .icon__menu:hover,.nav-button .icon__search:hover{color:var(--brand-color)}@media only screen and (max-width: 1024px){.nav-button{display:flex;align-items:center;margin-left:auto;font-size:24px}.nav-button .icon__menu{display:block}}.toggle-theme{position:relative;display:flex;justify-content:center;align-items:center;width:24px;height:24px;user-select:none;cursor:pointer}@media only screen and (max-width: 1024px){.toggle-theme{padding:20px 0}}.toggle-sun,.toggle-moon{position:absolute;font-size:20px;transition:color .25s ease;color:var(--heading-font-color)}.toggle-sun:hover,.toggle-moon:hover{color:var(--brand-color)}.toggle-sun{display:none}.dark-mode .toggle-sun{display:block}.dark-mode .toggle-moon{display:none}.search{position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;overflow:auto;opacity:0;background:var(--background-color);transition:all .25s ease}.search.is-visible{z-index:100;opacity:1;transition:all .25s ease}.search__box{max-width:540px;margin:0 auto;padding-top:120px}@media only screen and (max-width: 1024px){.search__box{padding-top:100px}}.search__group{position:relative;margin-bottom:48px}.search__group .search__close{position:absolute;right:28px;top:50%;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;width:32px;height:32px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);cursor:pointer;will-change:transform;transition:all .25s;background:var(--background-color)}.search__group .search__close:hover{transform:translateY(-50%) rotate(90deg)}.search__group .search__close .ion-md-close{vertical-align:middle}.search__group .search__text{width:100%;padding:28px;font-size:20px;font-weight:700;line-height:24px;border:2px solid rgba(0,0,0,0);border-radius:2px;color:var(--heading-font-color);background-color:var(--background-alt-color);outline:0;transition:all .25s}.search__group .search__text::placeholder{font-weight:700;color:var(--heading-font-color)}.search__group .search__text:focus{border-color:var(--brand-color)}.search__group .search__text::-ms-clear{display:none}@media only screen and (max-width: 576px){.search__group{margin-bottom:32px}.search__group .search__text{padding:24px}}.search-results-list .no-results{width:100%;margin:0;text-align:center;color:var(--heading-font-color)}.pagination{margin-bottom:80px}@media only screen and (max-width: 576px){.pagination{margin-bottom:60px}}.pagination__inner{display:flex;justify-content:center;align-items:center}.pagination__list{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:18px;font-weight:700;line-height:1;color:var(--text-color)}@media only screen and (max-width: 576px){.pagination__list{align-items:stretch;font-size:16px}}.pagination__item{display:flex;justify-content:center;align-items:center;width:100%;padding:24px 20px;text-align:center;border-radius:8px;background:var(--background-alt-color)}@media only screen and (max-width: 576px){.pagination__item{align-items:center;padding:20px;border-radius:8px}}.pagination__count{margin:0 32px;font-size:16px;color:var(--link-color)}@media only screen and (max-width: 768px){.pagination__count{margin:0 12px}}@media only screen and (max-width: 576px){.pagination__count{margin:0 8px;font-size:14px;line-height:1.2}}.pagination__next:hover,.pagination__prev:hover{color:var(--heading-font-color)}.pagination__next i,.pagination__prev i{font-size:15px;transition:transform .15s ease;will-change:transform}.pagination__next.disabled,.pagination__prev.disabled{opacity:.64;cursor:not-allowed;color:inherit}.pagination__next.disabled:hover i,.pagination__prev.disabled:hover i{transform:none}.dark-mode .pagination__next.disabled,.dark-mode .pagination__prev.disabled{opacity:.78}.pagination__next:hover i{transform:translateX(2px)}.pagination__next i{margin-left:5px}.pagination__prev:hover i{transform:translateX(-2px)}.pagination__prev i{margin-right:5px}.footer{margin-top:48px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.footer{margin-top:60px}}.footer__inner{padding:80px 0}.footer__inner .row .col{flex-grow:1}@media only screen and (max-width: 576px){.footer__inner{padding:60px 0}}@media only screen and (max-width: 1024px){.footer__author{margin-bottom:60px}}@media only screen and (max-width: 576px){.footer__author{margin-bottom:40px}}.footer__author-avatar{position:relative;width:105px;height:105px;margin-bottom:20px;transform:translate(0);border-radius:50%;overflow:hidden;box-shadow:0px 100px 80px rgba(0,0,0,.07),0px 12.5216px 10.0172px rgba(0,0,0,.035);background-color:var(--background-color)}.footer__author-avatar img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.footer__author-name{margin-bottom:20px;font-size:32px;font-weight:900;line-height:1}.footer__author-bio{margin-bottom:0;color:var(--text-alt-color)}.social{margin-top:16px}.social .social__list{display:flex;align-items:center;flex-wrap:wrap}.social .social__list .social__item:first-child>.social__link{padding-left:0}.social .social__item{margin-bottom:0;margin-right:16px}.social .social__item:last-child{margin-right:0}.social .social__link{display:flex;align-items:center;padding:4px;font-size:20px;color:var(--heading-font-color)}.social .social__link:hover{color:var(--brand-color)}.footer__gallery .footer__gallery-title{margin-bottom:24px;font-size:28px}.footer__gallery .gallery__image img{height:100%;border-radius:8px;overflow:hidden}.footer__gallery .gallery__image img.lightense-open{border-radius:0}.footer__info{padding:44px 0;background-color:var(--background-color)}.footer__info .footer__info-box{display:flex;align-items:center;justify-content:space-between}@media only screen and (max-width: 1024px){.footer__info{padding:40px 0}}.copyright{margin-right:20px;font-size:14px;font-weight:500;color:var(--text-alt-color)}.copyright a{text-decoration:underline;text-decoration-color:rgba(0,0,0,0);color:var(--heading-font-color)}.copyright a:hover{text-decoration-color:var(--heading-font-color);color:var(--heading-font-color)}.top{min-width:36px;height:36px;font-size:20px;line-height:36px;text-align:center;border-radius:8px;color:var(--heading-font-color);background-color:var(--background-alt-color);cursor:pointer;transition:all .25s ease}.gallery-box{margin:32px 0}.gallery{display:grid;grid-template-columns:repeat(3, auto);justify-content:center;align-content:center;grid-gap:10px}.gallery .gallery__image{background:var(--background-color)}.gallery .gallery__image img{display:block;width:100%;height:auto;object-fit:cover}.hero{padding:80px 0;margin-bottom:80px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.hero{padding:60px 0;margin-bottom:60px}}.hero__inner{display:flex;align-items:center}@media only screen and (max-width: 1024px){.hero__inner{flex-direction:column}}.hero__left{max-width:450px;margin-right:auto}@media only screen and (max-width: 1140px){.hero__left{max-width:440px}}@media only screen and (max-width: 1024px){.hero__left{max-width:100%}}.hero__title{margin-bottom:20px;font-size:55px;font-weight:900;line-height:1.3;color:var(--heading-font-color)}@media only screen and (max-width: 1024px){.hero__title{font-size:50px}}@media only screen and (max-width: 768px){.hero__title{font-size:40px}}@media only screen and (max-width: 576px){.hero__title{font-size:32px}}.hero__description{margin-bottom:0;font-size:21px;color:var(--text-alt-color)}@media only screen and (max-width: 1024px){.hero__description{font-size:inherit}}.hero__subscribe{margin-top:32px}.hero__subscribe .subscribe-form{position:relative;border-radius:2px;background-color:var(--background-color)}.hero__subscribe .subscribe-email{width:100%;height:70px;padding:20px;font-size:16px;line-height:21px;border:2px solid rgba(0,0,0,0);border-radius:2px;outline:0;color:var(--heading-font-color);background-color:rgba(0,0,0,0);transition:all .25s ease}.hero__subscribe .subscribe-email::placeholder{opacity:.6;color:var(--text-alt-color)}.hero__subscribe .subscribe-email:focus{border-color:var(--brand-color)}.hero__subscribe .subscribe-button{position:absolute;top:6px;right:6px}@media only screen and (max-width: 1024px){.hero__subscribe{margin-top:24px}}@media only screen and (max-width: 576px){.hero__subscribe{margin-top:20px}.hero__subscribe .subscribe-form{display:flex;flex-direction:column;padding:6px}.hero__subscribe .subscribe-email{height:56px;margin-bottom:4px}.hero__subscribe .subscribe-button{position:relative;top:0;right:0}}.hero__right{width:50%}@media only screen and (max-width: 1024px){.hero__right{width:100%;margin-top:40px}}@media only screen and (max-width: 576px){.hero__right{margin-top:32px}}.hero__image{position:relative;transform:translate(0);width:100%;height:410px;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.02);background-color:var(--background-color);user-select:none}.hero__image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}@media only screen and (max-width: 1140px){.hero__image{height:380px}}@media only screen and (max-width: 1024px){.hero__image{height:440px}}@media only screen and (max-width: 768px){.hero__image{height:420px}}@media only screen and (max-width: 576px){.hero__image{height:280px}}.article{margin-bottom:32px;will-change:transform;transition:transform .2s}.article:hover{transform:translateY(-3px)}.article:hover .article__title a{text-decoration:underline;text-decoration-color:var(--link-color-hover);text-decoration-thickness:2px}.article__head{position:relative}.article__date{position:absolute;z-index:1;top:16px;left:16px;display:inline-block;padding:8px 12px;font-size:12px;line-height:1;font-weight:500;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.article__image{position:relative;transform:translate(0);display:block;height:0;margin-bottom:24px;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.article__image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.video-icon{position:absolute;z-index:1;top:50%;left:50%;width:50%;height:50%;transform:translate(-50%, -50%);pointer-events:none}.video-icon .circle{width:50px;height:50px;position:absolute;top:0;left:0;right:0;bottom:0;border-radius:50%;overflow:hidden;margin:auto;transform:scale(1, 1)}.video-icon .circle.pulse{animation-timing-function:ease;animation:pulse 2s infinite;background-color:hsla(0,0%,100%,.25)}.video-icon svg{fill:hsla(0,0%,100%,.25);stroke:var(--light-blue);stroke-linejoin:round;stroke-width:5;backdrop-filter:blur(3.5px);-webkit-backdrop-filter:blur(4.5px);transition:all .3s}.article__title{margin-bottom:12px;font-size:24px}.article__title a{text-decoration:underline;text-decoration-color:rgba(0,0,0,0);text-decoration-thickness:2px}.article__title a:hover{color:var(--heading-font-color)}.article__excerpt{margin-bottom:0;font-size:16px;color:var(--text-alt-color)}.contact-head{margin-bottom:32px}.form__group{margin-bottom:20px}.form__group:last-child{margin-bottom:0}.form__input{width:100%;padding:20px;font-size:16px;font-weight:400;border:2px solid var(--border-color);border-radius:2px;outline:0;transition:.25s ease-in-out;resize:vertical;color:var(--heading-font-color);background-color:var(--background-alt-color)}.form__input::placeholder{color:var(--text-alt-color)}.form__input:focus{border-color:var(--brand-color)}.section__head{position:relative;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px}.section__head::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 768px){.section__head::after{content:none}}.section__title{padding-right:20px;margin-bottom:0;font-size:28px}@media only screen and (max-width: 576px){.section__title{font-size:24px}}.section__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:rgba(0,0,0,0);color:var(--link-color);transition:text-decoration .35s}.section__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 768px){.section__link{padding-left:0}}@media only screen and (max-width: 576px){.section__link{font-size:16px}}.section__title,.section__link{background:var(--background-color)}@media only screen and (max-width: 576px){.section-tags .row .col:last-child>.tag-image{margin-bottom:0}}.tag-image{margin-bottom:32px;position:relative;transform:translate(0);display:block;height:0;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color);transition:transform .2s}.tag-image:hover{transform:translateY(-3px)}.tag-image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.tag-image .tag-name{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:1;max-width:90%;display:inline-block;padding:8px 12px;font-size:14px;line-height:1;font-weight:700;text-transform:capitalize;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.post-head,.page-head{margin-bottom:48px}.post-head .row,.page-head .row{align-items:center}@media only screen and (max-width: 1024px){.post-head,.page-head{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-head,.page-head{margin-bottom:32px}}.post-image,.page-image{position:relative;transform:translate(0);padding-top:90%;min-height:280px;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.post-image img,.page-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}@media only screen and (max-width: 1024px){.post-image,.page-image{padding-top:65%;margin-bottom:40px}}@media only screen and (max-width: 576px){.post-image,.page-image{margin-bottom:32px}}.page-image{padding-top:56.25%;margin-bottom:48px}@media only screen and (max-width: 1024px){.page-image{margin-bottom:40px}}@media only screen and (max-width: 576px){.page-image{margin-bottom:32px}}.post-video,.page-video{margin-bottom:48px;border-radius:8px;overflow:hidden;transform:translate(0);background-color:var(--background-alt-color)}.post-video .post-video__wrap,.post-video .page-video__wrap,.page-video .post-video__wrap,.page-video .page-video__wrap{position:relative;width:100%;height:0;padding-bottom:56.25%}.post-video .post-video__wrap iframe,.post-video .page-video__wrap iframe,.page-video .post-video__wrap iframe,.page-video .page-video__wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}@media only screen and (max-width: 1024px){.post-video,.page-video{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-video,.page-video{margin-bottom:32px}}.post__info{margin-left:44px}.post__info.post__info-video{max-width:760px;margin:0 auto}@media only screen and (max-width: 1024px){.post__info{margin-left:0}}.page__info{max-width:760px;margin:0 auto}.post__tags{display:flex;align-items:center;flex-wrap:wrap;margin-bottom:20px}.post__tags .post__tag{padding:12px 16px;margin:4px 8px 4px 0;font-size:14px;line-height:1;font-weight:500;text-transform:capitalize;border:none;border-radius:8px;color:var(--heading-font-color);transition:none;background-color:var(--background-alt-color)}.post__tags .post__tag:last-child{margin-right:0}@media only screen and (max-width: 576px){.post__tags{margin-bottom:16px}}.post__title,.page__title{margin-bottom:24px;font-size:46px;line-height:1.2;font-weight:900}@media only screen and (max-width: 576px){.post__title,.page__title{margin-bottom:20px;font-size:32px}}.page__title{margin-bottom:0}.post__meta{display:flex;align-items:center;line-height:1}.post__meta .post__author-image{position:relative;transform:translate(0);width:50px;height:50px;border-radius:50%;overflow:hidden;margin-right:12px;background-color:var(--background-alt-color)}.post__meta .post__author-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.post__meta .post__meta-bottom{display:flex;flex-direction:column}.post__meta .post__author{display:inline-block;margin-bottom:7px;font-size:16px;font-weight:500;text-decoration:underline;text-decoration-color:rgba(0,0,0,0);color:var(--heading-font-color);transition:text-decoration-color .35s}.post__meta .post__author:hover{text-decoration-color:var(--heading-font-color)}.post__meta .post__date{font-size:14px;font-weight:400;color:var(--text-alt-color)}.post,.page{max-width:760px;margin:0 auto 60px;color:var(--text-color)}.post a,.page a{font-weight:500;border-bottom:1px solid var(--border-color)}.post a:hover,.page a:hover{color:var(--link-color);border-bottom-color:var(--link-color-hover)}.post img,.post .js-reframe,.page img,.page .js-reframe{border-radius:8px;overflow:hidden}.post img.lightense-open,.post .js-reframe.lightense-open,.page img.lightense-open,.page .js-reframe.lightense-open{border-radius:0}.post img[src$="#wide"],.page img[src$="#wide"]{display:block;width:100vw;max-width:none;margin-left:50%;transform:translateX(-50%);border-radius:0;pointer-events:none;user-select:none}.post .button,.page .button{border:none;text-decoration:none}.post__share .share__list{display:flex;align-items:center;width:100%}.post__share .share__item{width:25%;margin-right:8px;margin-bottom:0;text-align:center}.post__share .share__item:last-child{margin-right:0}.post__share .share__link{display:flex;justify-content:center;align-items:center;width:100%;height:54px;font-size:18px;text-transform:uppercase;border:none;border-radius:8px;background:var(--background-alt-color)}.post__share .share__link i{transition:transform .25s;will-change:transform}.post__share .share__link:hover{color:var(--heading-font-color)}.post__share .share__link:hover i{transform:scale(1.1)}.related-posts{display:none;margin-top:80px}.related-posts.is-related{display:block}.related-posts .related-tag{text-transform:capitalize}@media only screen and (max-width: 576px){.related-posts{margin-top:60px}.related-posts .row .col:last-child{margin-bottom:0}}.show-comments{margin:48px 0 32px;text-align:center}.show-comments .disqus-button{padding:28px;border-radius:8px;text-decoration:underline;text-decoration-color:rgba(0,0,0,0)}.show-comments .disqus-button:hover{text-decoration-color:var(--heading-font-color)}@media only screen and (max-width: 576px){.show-comments{margin:60px 0 0}.show-comments .disqus-button{padding:24px}}.post__comments{max-width:760px;margin:0 auto}.post__comments.is-open{margin:0 auto 32px}@media only screen and (max-width: 576px){.post__comments.is-open{margin:0 auto}}.error{text-align:center}.error .error__title{margin-bottom:24px;font-size:100px;line-height:1}.error .error__text{margin-bottom:0;color:var(--text-alt-color)}@media only screen and (max-width: 576px){.error .error__title{font-size:68px}}.recent-posts{margin-top:80px}@media only screen and (max-width: 576px){.recent-posts{margin-top:60px}.recent-posts .row .col:last-child{margin-bottom:0}}.tag__head{margin:80px 0}@media only screen and (max-width: 1024px){.tag__head{margin:40px 0}}.tags__inner{margin-bottom:120px}@media only screen and (max-width: 576px){.tags__inner{margin-bottom:60px}}.tag__title{margin-bottom:32px;font-size:46px;font-weight:900}@media only screen and (max-width: 576px){.tag__title{font-size:32px}}.tag__list{display:flex;align-items:center;flex-wrap:wrap;padding-bottom:80px;border-bottom:1px solid var(--background-alt-color)}.tag__list .tag__item{margin-right:12px;margin-bottom:12px}.tag__list .tag__item:last-child{margin-right:0}.tag__list .tag__link{display:block;padding:12px 16px;font-size:16px;font-weight:500;text-transform:capitalize;border-radius:8px;transition:none;background:var(--background-alt-color)}.tag__list .tag__link:hover{color:var(--heading-font-color)}@media only screen and (max-width: 576px){.tag__list{padding-bottom:48px}.tag__list .tag__item{margin-right:8px;margin-bottom:8px}.tag__list .tag__link{font-size:14px}}.tag__info{position:relative;display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}.tag__info::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 576px){.tag__info::after{content:none}}.tag__info-box{display:flex;align-items:center}.tag__counter{display:flex;flex-direction:column;align-items:center;padding:12px 24px;border-radius:8px;color:var(--heading-font-color);background:var(--background-alt-color)}.tag__counter span{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:32px;font-weight:700;line-height:1}.tag__counter small{font-size:16px;font-weight:500}@media only screen and (max-width: 576px){.tag__counter{display:none}}.tag__name{padding:50px 20px 50px 20px;margin-bottom:0;font-size:36px;text-transform:capitalize;background-color:var(--background-color)}.tag__name span{font-weight:400;color:var(--text-alt-color)}@media only screen and (max-width: 768px){.tag__name{font-size:32px}}@media only screen and (max-width: 576px){.tag__name{padding:32px 12px 32px 0;font-size:26px}}.top__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:rgba(0,0,0,0);color:var(--link-color);transition:text-decoration .35s;background:var(--background-color)}.top__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 576px){.top__link{padding-left:0;font-size:16px}}
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Unbounded:wght@600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/signal.css">
+  <script src="/assets/js/signal.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/content-compat.css">
+  <link rel="stylesheet" href="/assets/css/graphic.css">
 </head>
-
-<body>
-
-  
-
-  <!-- begin header -->
-<header class="header" id="top">
-  <div class="container">
-    <div class="row">
-      <div class="header__inner col col-12">
-
-        <div class="logo">
-          <a class="logo__link" href="/">
-          
-            Matthew Reinbold
-          
-          </a>
-        </div>
-        <nav class="main-nav">
-          <div class="main-nav__box">
-            <div class="nav__icon-close">
-              <i class="ion ion-md-close"></i>
-            </div>
-            <div class="nav__title">Menu</div>
-            <ul class="nav__list list-reset">
-              <li class="nav__item">
-                <a href="/" class="nav__link">Home</a>
-              </li>
-              
-                
-                  
-                  <li class="nav__item">
-                    <a href="/Appearances/" class="nav__link">Appearances</a>
-                  </li>
-                  
-                
-              
-                
-                  
-                  <li class="nav__item">
-                    <a href="/disclosure/" class="nav__link">Disclosures</a>
-                  </li>
-                  
-                
-              
-                
-                  
-                  <li class="nav__item">
-                    <a href="/about/" class="nav__link">About</a>
-                  </li>
-                  
-                
-              
-                
-                  
-                  <li class="nav__item">
-                    <a href="/stories/" class="nav__link">Stories</a>
-                  </li>
-                  
-                
-              
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-              
-              
-            </ul>
-          </div>
-        </nav>
-
-        <div class="nav-button">
-          <i class="nav__icon icon__menu ion ion-md-menu"></i>
-          <i class="nav__icon icon__search ion ion-md-search"></i>
-        </div>
-
-
-      </div>
-    </div>
+<body data-section="software">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="wordmark" href="/">Matthew Reinbold</a>
+    <nav aria-label="Main navigation">
+      <a href="/archive/" >Archive</a>
+      <a href="/about/" >About</a>
+      <a href="/Appearances/" >Appearances</a>
+    </nav>
   </div>
 </header>
-<!-- end header -->
 
-<!-- begin search -->
-<div class="search">
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-        <div class="search__box">
-          <div class="search__group">
-            <div class="search__close">
-              <i class="ion ion-md-close"></i>
-            </div>
-            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
-            <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row search-results-list" id="js-results-container"></div>
-  </div>
-
-</div>
-<!-- end search -->
-
-  <!-- begin content -->
-  <main class="content" aria-label="Content">
-    <div class="post-head">
-  <div class="container">
-    <div class="row">
-      
-      
-
-      
-      <div class="col col-6 col-d-12">
-        <div class="post-image">
-          <img class="lazy" data-src="/images/2013/02/gamification_stablediffusion.png" alt="Intro to Gamification">
-        </div>
-      </div>
-      
-
-      
-      
-      
-      <div class="col col-6 col-d-12">
-        <div class="post__info ">
-  
-          
-            <div class="post__tags">
-              
-                <a href="/tags#Presentations" class="post__tag">Presentations</a>
-              
-                <a href="/tags#Productivity" class="post__tag">Productivity</a>
-              
-            </div>
-          
-  
-          <h1 class="post__title">Intro to Gamification</h1>
-          <h2 class="">Slides and Text Embedded</h2>
-  
-          <div class="post__meta">
-            <a href="/about/" class="post__author-image">
-              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
-            </a>
-
-            <div class="post__meta-bottom">
-              <a class="post__author" href="/about/">Matthew Reinbold</a>
-              <time class="post__date" datetime="2013-02-04T00:00:00-06:00">04 Feb 2013</time>
-            </div>
-          </div>
-  
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- begin post -->
-<div class="container animate">
-
-  <article class="post">
-
-    <div class="post__content">
-      <p>Last year I had the opportunity to put together a gamification preso for the Denver ColdFusion User's Group as well as Placewise Media. I've finally got around to posting the results online. The slides are ~~embedded below but I'll warn you - they won't make much sense in a vaccum. Be sure to click on the 'gear' and click "Open speaker notes".~~ below.</p>
+  <main id="main" tabindex="-1"><article class="presentation-reading"><header class="essay-header shell"><div class="eyebrow"><a class="category" href="/archive/?section=software">Software</a><span>Presentation / Slides &amp; narration</span></div><h1>Intro to Gamification</h1><p class="subtitle">Slides and Text Embedded</p><p class="byline">Matthew Reinbold / <time datetime="2013-02-04T00:00:00-06:00">04 Feb 2013</time></p></header><div class="presentation-body shell prose" id="article-body"><p>Last year I had the opportunity to put together a gamification preso for the Denver ColdFusion User's Group as well as Placewise Media. I've finally got around to posting the results online. The slides are ~~embedded below but I'll warn you - they won't make much sense in a vaccum. Be sure to click on the 'gear' and click "Open speaker notes".~~ below.</p>
 
 <p><em>Update 2025-03-10</em> -  Revisiting this was quite the trip down memory lane (3x4 aspect ratios! Turntable.fm! Fantasy football before rampant sports-betting!). While gamification as an enterprise attention-grabber no longer is a thing, there were some aspects that seemed to hold up enough to jusitify the work to bring this presentation back. I want to thank <strong>Martin</strong> for pointing out that the Google Slides embed no longer worked and this page needed some attention.</p>
 
 <hr />
-<p><figure><img src="/images/2013/02/preso/00.png" /></figure></p>
 
-<p>This presentation was originally developed in October, 2012.</p>
+<div class="presentation-slide" id="slide-1" data-slide="1">
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/01.png" /></figure></p>
-<p>This is a presentation about gamification. While the transmutation of mundane tasks in games(!) may seem like a recent hype cycle, application of gamification has been around for some time. In this introduction I’ll be giving an explanation as to what it is, the importance of understanding a user’s journey in using a piece of software, and how we can use game design elements to support that growth.</p>
+  <figure><img src="/images/2013/02/preso/00.png" loading="lazy" /></figure>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/02.png" /></figure></p>
+  <div class="presentation-narration">
 
-<p>So why  should anyone listen to anything I have to say about gamification?</p>
+    <p>This presentation was originally developed in October, 2012.</p>
 
-<p>Currently I’m a Creative Principal for Vox Pop Design and a Senior Application Engineer at placewise media. Previously I’ve worked for Microsoft Game Studios. But, perhaps most importantly, for 18 years of my life the photo above was my backyard. I love the solace and isolation of South Dakota when I return to visit. But not having much to do meant that much of my adolescence was spent trying to find the fun in the mundane. Without knowing it, I was adding gamification elements to help get things done.</p>
+    <hr />
 
-<p>Much more recently I’ve become interested in the formal study of game mechanics as a means of motivating employees in workplace situations. In my experience the difference in one place being great to work at and another being a grind has less to do with the actual nature of work and everything to do with the culture of play (or lack thereof) surrounding it.</p>
+  </div>
+</div>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/03.png" /></figure></p>
+<div class="presentation-slide" id="slide-2" data-slide="2">
 
-<p>So what is gamification?</p>
+  <figure><img src="/images/2013/02/preso/01.png" loading="lazy" /></figure>
 
-<p>Simply put, it is a means to motivate. As the great game developer Mary Poppins said “In every job that must be done, there is an element of fun. You find the fun and snap! The job’s a game.” This is the “spoon full of sugar helps the medicine go down” approach to getting things done. It is <strong>not</strong> about making a game, but using game-like elements to make a process better.</p>
+  <div class="presentation-narration">
 
-<p>Fun is not just beneficial to learning but, <a href="http://voices.washingtonpost.com/answer-sheet/learning/why-fun-matters-in-education.html">by many reports</a>, required for authentic learning and long-term memory.</p>
+    <p>This is a presentation about gamification. While the transmutation of mundane tasks in games(!) may seem like a recent hype cycle, application of gamification has been around for some time. In this introduction I’ll be giving an explanation as to what it is, the importance of understanding a user’s journey in using a piece of software, and how we can use game design elements to support that growth.</p>
 
-<p>Neurologist and educator Judy Willis’s book “Research-Based Strategies to Ignite Student Learning: Insights from a Neurologist and Classroom Teacher” (ASCD, 2006) is one of many that have highlighted the learning benefits of fun. Here are just a few excerpts:</p>
+    <hr />
 
-<blockquote>
-  <p>The highest-level executive thinking, making of connections, and “aha” moments are more likely to occur in an atmosphere of “exuberant discovery,” where students of all ages retain that kindergarten enthusiasm of embracing each day with the joy of learning.</p>
-</blockquote>
+  </div>
+</div>
 
-<p>So fun actually seems to promote learning. It increases dopamine, endorphins, and oxygen.</p>
+<div class="presentation-slide" id="slide-3" data-slide="3">
 
-<blockquote>
-  <p>The human brain and body respond positively to laughter with the release of endorphin, epinephrine (adrenaline), and dopamine, and with increased breathing volume (more oxygen). When a lesson starts with humor, there is more alerting, and the subsequent information is attached to the positive emotional event as an event or flashbulb memory.</p>
-</blockquote>
+  <figure><img src="/images/2013/02/preso/02.png" loading="lazy" /></figure>
 
-<p>To be clear <strong>gamification is not the same as designing a game</strong>. While they may share several elements a game exists for its own sake. Gamification is the enhancement of an already existing task, process, or system.</p>
+  <div class="presentation-narration">
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/04.png" /></figure></p>
+    <p>So why  should anyone listen to anything I have to say about gamification?</p>
 
-<p>There are several aspects to “FUN”.  Different people find enjoyment in the process of doing different things, mentioned above. The list is by no means comprehensive.</p>
+    <p>Currently I’m a Creative Principal for Vox Pop Design and a Senior Application Engineer at placewise media. Previously I’ve worked for Microsoft Game Studios. But, perhaps most importantly, for 18 years of my life the photo above was my backyard. I love the solace and isolation of South Dakota when I return to visit. But not having much to do meant that much of my adolescence was spent trying to find the fun in the mundane. Without knowing it, I was adding gamification elements to help get things done.</p>
 
-<p>Many of these things are self-evident. To clarify somewhat, however, ‘winning’ is about overcoming an obstacle whereas ‘triumphing’ is not only overcoming an obstacle but doing so against other players.</p>
+    <p>Much more recently I’ve become interested in the formal study of game mechanics as a means of motivating employees in workplace situations. In my experience the difference in one place being great to work at and another being a grind has less to do with the actual nature of work and everything to do with the culture of play (or lack thereof) surrounding it.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/05.png" /></figure></p>
+    <hr />
 
-<p>Smarter people than me have taken the vast array of “fun” things and have categorized them into major themes.</p>
+  </div>
+</div>
 
-<p>Nicole Lazzaro is one of these thinkers. She has 20+ years as a Player Experience Designer and she categorizes fun in one of four ways (poster: http://xeodesign.com/4k2f/4k2f.jpg, white paper: http://xeodesign.com/xeodesign_whyweplaygames.pdf)</p>
+<div class="presentation-slide" id="slide-4" data-slide="4">
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* easy fun - not taxing, "the bubble wrap of games" - vehicle for imagination
+  <figure><img src="/images/2013/02/preso/03.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>So what is gamification?</p>
+
+    <p>Simply put, it is a means to motivate. As the great game developer Mary Poppins said “In every job that must be done, there is an element of fun. You find the fun and snap! The job’s a game.” This is the “spoon full of sugar helps the medicine go down” approach to getting things done. It is <strong>not</strong> about making a game, but using game-like elements to make a process better.</p>
+
+    <p>Fun is not just beneficial to learning but, <a href="http://voices.washingtonpost.com/answer-sheet/learning/why-fun-matters-in-education.html">by many reports</a>, required for authentic learning and long-term memory.</p>
+
+    <p>Neurologist and educator Judy Willis’s book “Research-Based Strategies to Ignite Student Learning: Insights from a Neurologist and Classroom Teacher” (ASCD, 2006) is one of many that have highlighted the learning benefits of fun. Here are just a few excerpts:</p>
+
+    <blockquote>
+      <p>The highest-level executive thinking, making of connections, and “aha” moments are more likely to occur in an atmosphere of “exuberant discovery,” where students of all ages retain that kindergarten enthusiasm of embracing each day with the joy of learning.</p>
+    </blockquote>
+
+    <p>So fun actually seems to promote learning. It increases dopamine, endorphins, and oxygen.</p>
+
+    <blockquote>
+      <p>The human brain and body respond positively to laughter with the release of endorphin, epinephrine (adrenaline), and dopamine, and with increased breathing volume (more oxygen). When a lesson starts with humor, there is more alerting, and the subsequent information is attached to the positive emotional event as an event or flashbulb memory.</p>
+    </blockquote>
+
+    <p>To be clear <strong>gamification is not the same as designing a game</strong>. While they may share several elements a game exists for its own sake. Gamification is the enhancement of an already existing task, process, or system.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-5" data-slide="5">
+
+  <figure><img src="/images/2013/02/preso/04.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>There are several aspects to “FUN”.  Different people find enjoyment in the process of doing different things, mentioned above. The list is by no means comprehensive.</p>
+
+    <p>Many of these things are self-evident. To clarify somewhat, however, ‘winning’ is about overcoming an obstacle whereas ‘triumphing’ is not only overcoming an obstacle but doing so against other players.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-6" data-slide="6">
+
+  <figure><img src="/images/2013/02/preso/05.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Smarter people than me have taken the vast array of “fun” things and have categorized them into major themes.</p>
+
+    <p>Nicole Lazzaro is one of these thinkers. She has 20+ years as a Player Experience Designer and she categorizes fun in one of four ways (poster: http://xeodesign.com/4k2f/4k2f.jpg, white paper: http://xeodesign.com/xeodesign_whyweplaygames.pdf)</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* easy fun - not taxing, "the bubble wrap of games" - vehicle for imagination
 * hard fun - challenges, overcoming obstacles, competition - feelings of accomplishment - sense of mastery
 * people fun - working together on a team, the fun of socializing - social bonding
 * serious fun - some kinds of fun tie into serious real objectives, doing things that have meaning for you - provides meaning of value
-</code></pre></div></div>
+</code></pre></div>    </div>
 
-<p>Another game designer, Marc Leblanc, puts things together slightly differently in the list to the right. These two lists, while interesting, are by no means conclusive.</p>
+    <p>Another game designer, Marc Leblanc, puts things together slightly differently in the list to the right. These two lists, while interesting, are by no means conclusive.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/06.png" /></figure></p>
+    <hr />
 
-<p>All of that deep thinking about what people find fun gets into some very deep and varied disciplines. Trying to get one’s head around the theoretical approaches out there can be overwhelming, as this diagram of Nicole’s Lazzaro’s seemingly simple 4 keys 2 fun shows. But while there might be vast volumes of thought that goes what might make something fun, the actual implementation should be deceptively simple.</p>
+  </div>
+</div>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/07.png" /></figure></p>
+<div class="presentation-slide" id="slide-7" data-slide="7">
 
-<p>This is the progress bar for profile completion on LinkedIn.com.</p>
+  <figure><img src="/images/2013/02/preso/06.png" loading="lazy" /></figure>
 
-<p>Usually, filling out a profile is the antithesis of fun. On too many sites it is a long form that leaves you more fearful of what the marketing department is planning with your data rather than excitement on filling it out.</p>
+  <div class="presentation-narration">
 
-<p>To solve this problem LinkedIn didn’t program an immersive game. Instead, they added the profile completion status bar that seen above. It’s not a game. Yet, by using game elements LinkedIn saw a profile completion rate increase 20%.</p>
+    <p>All of that deep thinking about what people find fun gets into some very deep and varied disciplines. Trying to get one’s head around the theoretical approaches out there can be overwhelming, as this diagram of Nicole’s Lazzaro’s seemingly simple 4 keys 2 fun shows. But while there might be vast volumes of thought that goes what might make something fun, the actual implementation should be deceptively simple.</p>
 
-<p>So what elements of fun does the bar have? What elements from the ‘ings’ we talked about before does a progress bar incorporate?
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-8" data-slide="8">
+
+  <figure><img src="/images/2013/02/preso/07.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>This is the progress bar for profile completion on LinkedIn.com.</p>
+
+    <p>Usually, filling out a profile is the antithesis of fun. On too many sites it is a long form that leaves you more fearful of what the marketing department is planning with your data rather than excitement on filling it out.</p>
+
+    <p>To solve this problem LinkedIn didn’t program an immersive game. Instead, they added the profile completion status bar that seen above. It’s not a game. Yet, by using game elements LinkedIn saw a profile completion rate increase 20%.</p>
+
+    <p>So what elements of fun does the bar have? What elements from the ‘ings’ we talked about before does a progress bar incorporate?
 	* realtime feedback of accomplishment
 	* a demonstration of approaching “mastery”
 	* a surprise at what the completion percentage will be, and what task might be next
 	* <a href="http://www.inc.com/guides/201105/use-game-design-to-reward-your-customers.html">taps an innate human desire to complete things</a></p>
 
-<p>A progress bar implies there is a path that a person is on - that their action is part of larger series of steps toward a positive outcome.</p>
+    <p>A progress bar implies there is a path that a person is on - that their action is part of larger series of steps toward a positive outcome.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/08.png" /></figure></p>
+    <hr />
 
-<p>Fun, without purpose, can be engaging for a limited time. But how can we maintain a high level of engagement for software over time? How do we keep something that was initially fun from becoming tiresome and repetitive? At a very high level, we need to consider the player journey. That journey, much like a good book, is divided into three steps:</p>
+  </div>
+</div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* onboarding
+<div class="presentation-slide" id="slide-9" data-slide="9">
+
+  <figure><img src="/images/2013/02/preso/08.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Fun, without purpose, can be engaging for a limited time. But how can we maintain a high level of engagement for software over time? How do we keep something that was initially fun from becoming tiresome and repetitive? At a very high level, we need to consider the player journey. That journey, much like a good book, is divided into three steps:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* onboarding
 * scaffolding
 * mastering
-</code></pre></div></div>
+</code></pre></div>    </div>
 
-<p>Even in the case of LinkedIn and the seemingly simple progress bar, there was the implied path from empty profile to completion. The progress bar was the means by which to demonstrate it.</p>
+    <p>Even in the case of LinkedIn and the seemingly simple progress bar, there was the implied path from empty profile to completion. The progress bar was the means by which to demonstrate it.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/09.png" /></figure></p>
+    <hr />
 
-<p>Let’s break down each of these steps in the player journey into each of its component parts. First of these is Onboarding.</p>
+  </div>
+</div>
 
-<p>Onboarding is vital to getting a player’s “buy-in”. Consider the case of Angry Birds. A player doesn’t start with every bird type. Gameplay begins with one type of bird with no ability other than to be flung from a catapult. The enemy types are simple. The structures you are tasked with toppling are straightforward. It is approachable for a new player because the number of options have been purposely limited.</p>
+<div class="presentation-slide" id="slide-10" data-slide="10">
 
-<p>Consider another popular mobile game, Plants vs. Zombies. In much the same way as Angry Birds, the options facing a new player are purposely limited to the most fundamental elements - a single path for zombies to approach, a single type of zombie, and a single ability to defend their approach.</p>
+  <figure><img src="/images/2013/02/preso/09.png" loading="lazy" /></figure>
 
-<p>In either case, onboarding is about <em>simplifying a process to the core elements to make fun apparent</em>.</p>
+  <div class="presentation-narration">
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/10.png" /></figure></p>
+    <p>Let’s break down each of these steps in the player journey into each of its component parts. First of these is Onboarding.</p>
 
-<p>After a user is on board it is vital to support their growth as a participant in the system. The scaffolding provided not only needs to give a person the increasing nuance to a system that they’ll desire but the support they’ll need to overcome the increasing complexity.</p>
+    <p>Onboarding is vital to getting a player’s “buy-in”. Consider the case of Angry Birds. A player doesn’t start with every bird type. Gameplay begins with one type of bird with no ability other than to be flung from a catapult. The enemy types are simple. The structures you are tasked with toppling are straightforward. It is approachable for a new player because the number of options have been purposely limited.</p>
 
-<p>An example on successful scaffolding is seen in the classic strategy game <em>Alpha Centauri</em>.  The screenshot above is one of a series of governors a player is confronted with during the course of the game.They notify you of major events, alert you to new and more complex challenges, and manage things if you’re distracted elsewhere. It’s not Clippy. Clippy was an attempt at an onboarding experience that was intrusive. Alpha Centauri’s governors <em>support</em> a player’s increasing involvement with an app.</p>
+    <p>Consider another popular mobile game, Plants vs. Zombies. In much the same way as Angry Birds, the options facing a new player are purposely limited to the most fundamental elements - a single path for zombies to approach, a single type of zombie, and a single ability to defend their approach.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/11.png" /></figure></p>
+    <p>In either case, onboarding is about <em>simplifying a process to the core elements to make fun apparent</em>.</p>
 
-<p>If a system is properly scaffold then its users will eventually reach a point in which they obtain mastery. The path to mastery requires balance on part of the game systems builder. If it is too easy, people will get bored. If it is too hard, people will get discouraged. In either negative case people will leave for experiences that are more fun than what they are currently doing.</p>
+    <hr />
 
-<p>There are many ways of demonstrating mastery. In some systems that may mean allowing users that have achieved a high level greater permissions or responsibility within the system (like StackOverflow). In the image here, the rewards, or badges, that I’ve accrued here are on display. Each represents a different an action taken in the system during the progression from a new account.</p>
+  </div>
+</div>
 
-<p>[As an aside, there’s clearly sponsorship opportunities for brands in this approach, as many of these badges are Toyota themed (Toyota “pickup of the week”, the “Venza Head Turner”). These are a much more interesting brand integration than only having a sidebar ad.]</p>
+<div class="presentation-slide" id="slide-11" data-slide="11">
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/12.png" /></figure></p>
+  <figure><img src="/images/2013/02/preso/10.png" loading="lazy" /></figure>
 
-<p>The way that we accomplish that pathway, from the onboarding experience through till mastery, is through actual <strong>game elements</strong>.</p>
+  <div class="presentation-narration">
 
-<p>There are numerous sites online that allow you to listen to streaming music. Whether by music genome (Pandora) or relevance algorithm (Last.fm) music sites are pretty much the same: pick an artist or genre, click play, and listen.</p>
+    <p>After a user is on board it is vital to support their growth as a participant in the system. The scaffolding provided not only needs to give a person the increasing nuance to a system that they’ll desire but the support they’ll need to overcome the increasing complexity.</p>
 
-<p>Turntable.fm is different for the way they incorporate game elements into the commonplace practice of streaming music. These elements applied to collaborative listening make something <em>fun</em>.</p>
+    <p>An example on successful scaffolding is seen in the classic strategy game <em>Alpha Centauri</em>.  The screenshot above is one of a series of governors a player is confronted with during the course of the game.They notify you of major events, alert you to new and more complex challenges, and manage things if you’re distracted elsewhere. It’s not Clippy. Clippy was an attempt at an onboarding experience that was intrusive. Alpha Centauri’s governors <em>support</em> a player’s increasing involvement with an app.</p>
 
-<p>We’ll return to this example in a moment once we’ve explored some of these elements.</p>
+    <hr />
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/13.png" /></figure></p>
+  </div>
+</div>
 
-<p>There are numerous elements that we can borrow from games to apply during our gamification of a system. It is the application of these elements which provide repeatability to a system.</p>
+<div class="presentation-slide" id="slide-12" data-slide="12">
 
-<p>While certain games have made the transition to mobile devices Tic Tac Toe isn’t one of them. It’s because once we’ve figured out how to force a draw regardless of who starts (usually sometime in elementary school), the game is no longer fun. The game elements limit the replayability (and thus <em>fun</em>) of the system.</p>
+  <figure><img src="/images/2013/02/preso/11.png" loading="lazy" /></figure>
 
-<p>Compare this to Hangman, which is vastly more enjoyable. The simple act of growing one’s vocabulary adds greater challenge to the game itself. An element, like the number of letters an opponent needs to guess, varies as a child gains “mastery” of progressively harder words.</p>
+  <div class="presentation-narration">
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/14.png" /></figure></p>
+    <p>If a system is properly scaffold then its users will eventually reach a point in which they obtain mastery. The path to mastery requires balance on part of the game systems builder. If it is too easy, people will get bored. If it is too hard, people will get discouraged. In either negative case people will leave for experiences that are more fun than what they are currently doing.</p>
 
-<p>Many game theorists divide game elements into three tiers.</p>
+    <p>There are many ways of demonstrating mastery. In some systems that may mean allowing users that have achieved a high level greater permissions or responsibility within the system (like StackOverflow). In the image here, the rewards, or badges, that I’ve accrued here are on display. Each represents a different an action taken in the system during the progression from a new account.</p>
 
-<p>These tiers can be thought of as a pyramid. Starting at the top are the dynamics of a game. These are the things that after the game has concluded you’re most apt to share with friends. It is how you felt after learning “the cake is a lie”.</p>
+    <p>[As an aside, there’s clearly sponsorship opportunities for brands in this approach, as many of these badges are Toyota themed (Toyota “pickup of the week”, the “Venza Head Turner”). These are a much more interesting brand integration than only having a sidebar ad.]</p>
 
-<p>Good gamification starts at this high level, not with individual features. What emotions do we want the user to have? What is the story they’ll experience? What relationships will they develop having progressed through the software?</p>
+    <hr />
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/15.png" /></figure></p>
+  </div>
+</div>
 
-<p>With our broad motivations set, we move down the pyramid to the second level: dynamic-creating interactions. Again, these aren’t specific features but more tactical means for accomplishing our high level dynamics.</p>
+<div class="presentation-slide" id="slide-13" data-slide="13">
 
-<p>For example, how do we create the highest-level goal of relationships within a software system? Well, those relationships may come about from competition between players over a scarce resource. Or people may get to know one another from feedback left by other users/players/accounts.</p>
+  <figure><img src="/images/2013/02/preso/12.png" loading="lazy" /></figure>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/16.png" /></figure></p>
+  <div class="presentation-narration">
 
-<p>The final, bottom, level of our pyramid is actual functionality places before people. In many cases these items are merely keepers of score. Things like badges, points, and leaderboards (for example) are ways of representing where a person is within their own progression from new user to master.</p>
+    <p>The way that we accomplish that pathway, from the onboarding experience through till mastery, is through actual <strong>game elements</strong>.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/17.png" /></figure></p>
+    <p>There are numerous sites online that allow you to listen to streaming music. Whether by music genome (Pandora) or relevance algorithm (Last.fm) music sites are pretty much the same: pick an artist or genre, click play, and listen.</p>
 
-<p>Application of points, badges, and leaderboards are <strong>so common</strong> within gamified systems that they have their own acronym - <em>the PBL Triad</em>.</p>
+    <p>Turntable.fm is different for the way they incorporate game elements into the commonplace practice of streaming music. These elements applied to collaborative listening make something <em>fun</em>.</p>
 
-<p>Be aware - points, badges, and leaderboards all appeal to the achiever type. They may not be appropriate for other types.</p>
+    <p>We’ll return to this example in a moment once we’ve explored some of these elements.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/19.png" /></figure></p>
+    <hr />
 
-<p>So now that we’ve examined gamified elements let’s return to our turntable.fm screenshot and identify the game elements present.</p>
+  </div>
+</div>
 
-<p>Working around the screen in a roughly clockwise manner we see:</p>
+<div class="presentation-slide" id="slide-14" data-slide="14">
 
-<ul>
-  <li>A room whose theme is a particular style of music, allowing people of shared taste to find each other</li>
-  <li>Avatars of varying status, with cooler avatars unlocked with higher point totals</li>
-  <li>A display of points, or favorable reactions a DJ has accumulated during the course of playing music</li>
-  <li>A collection of songs (the song queue) an individual has amassed during their time on site</li>
-  <li>A realtime feedback gauge showing the popularity of a song</li>
-</ul>
+  <figure><img src="/images/2013/02/preso/13.png" loading="lazy" /></figure>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/20.png" /></figure></p>
+  <div class="presentation-narration">
 
-<p>Of course, a gamified system doesn’t need to be the sole domain of cartoonified avatars and casual consumption. Here we see a dashboard of tenXer, a site that helps developers be more productive. In this screenshot we see many of the same elements that were present on the turntable.fm site. These include an avatar (in this case, a profile picture) and a leaderboard containing a number of “points” (in this case, hours in meetings).</p>
+    <p>There are numerous elements that we can borrow from games to apply during our gamification of a system. It is the application of these elements which provide repeatability to a system.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/21.png" /></figure></p>
+    <p>While certain games have made the transition to mobile devices Tic Tac Toe isn’t one of them. It’s because once we’ve figured out how to force a draw regardless of who starts (usually sometime in elementary school), the game is no longer fun. The game elements limit the replayability (and thus <em>fun</em>) of the system.</p>
 
-<p>Stackoverflow has been incredibly successful in incorporating game elements into its system. Stackoverflow obviously wasn’t the first site on the Internet that allowed users to get answers to their questions. However, their gamified system provides motivation to users to provide the best possible answers. The result is consistent placement near the top of search engines for nearly any development query.</p>
+    <p>Compare this to Hangman, which is vastly more enjoyable. The simple act of growing one’s vocabulary adds greater challenge to the game itself. An element, like the number of letters an opponent needs to guess, varies as a child gains “mastery” of progressively harder words.</p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/22.png" /></figure></p>
+    <hr />
 
-<p>Here we see game elements on an e-learning site, Code School. Each course has a series of obtainable badges that can be obtained while progressing through the course. Acquired badges can then be displayed on a user’s profile to demonstrate mastery.</p>
+  </div>
+</div>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/23.png" /></figure></p>
+<div class="presentation-slide" id="slide-15" data-slide="15">
 
-<p>Codeacademy is a similar site. It too offers online programming classes. Beyond badges they also include things like progress bars, points, and feedback encouragement via streaks.</p>
+  <figure><img src="/images/2013/02/preso/14.png" loading="lazy" /></figure>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/24.png" /></figure></p>
+  <div class="presentation-narration">
 
-<p>Perhaps one of the greatest illustrations of what gamification can do for a company can be demonstrated by two otherwise nearly identical services.</p>
+    <p>Many game theorists divide game elements into three tiers.</p>
 
-<p>Dodgeball was founded by  Dennis Crowley and Alex Rainert in 2000. It was acquired by Google in 2005 and Crowley left in 2007. In 2008 Crowley founded Foursquare. Not only were the founders the same, but the core functionality and logos were shocking similar. So with so many similarities why is Foursquare still with us but Dodgeball not?</p>
+    <p>These tiers can be thought of as a pyramid. Starting at the top are the dynamics of a game. These are the things that after the game has concluded you’re most apt to share with friends. It is how you felt after learning “the cake is a lie”.</p>
 
-<p>Foursquare implemented a gamification strategy that made it initially successful. They learned some key lessons from Dodgeball:</p>
+    <p>Good gamification starts at this high level, not with individual features. What emotions do we want the user to have? What is the story they’ll experience? What relationships will they develop having progressed through the software?</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- dodgeball (db) had an engagement gap - it was only useful if a number of people were using it
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-16" data-slide="16">
+
+  <figure><img src="/images/2013/02/preso/15.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>With our broad motivations set, we move down the pyramid to the second level: dynamic-creating interactions. Again, these aren’t specific features but more tactical means for accomplishing our high level dynamics.</p>
+
+    <p>For example, how do we create the highest-level goal of relationships within a software system? Well, those relationships may come about from competition between players over a scarce resource. Or people may get to know one another from feedback left by other users/players/accounts.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-17" data-slide="17">
+
+  <figure><img src="/images/2013/02/preso/16.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>The final, bottom, level of our pyramid is actual functionality places before people. In many cases these items are merely keepers of score. Things like badges, points, and leaderboards (for example) are ways of representing where a person is within their own progression from new user to master.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-18" data-slide="18">
+
+  <figure><img src="/images/2013/02/preso/17.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Application of points, badges, and leaderboards are <strong>so common</strong> within gamified systems that they have their own acronym - <em>the PBL Triad</em>.</p>
+
+    <p>Be aware - points, badges, and leaderboards all appeal to the achiever type. They may not be appropriate for other types.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-19" data-slide="19">
+
+  <figure><img src="/images/2013/02/preso/19.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>So now that we’ve examined gamified elements let’s return to our turntable.fm screenshot and identify the game elements present.</p>
+
+    <p>Working around the screen in a roughly clockwise manner we see:</p>
+
+    <ul>
+      <li>A room whose theme is a particular style of music, allowing people of shared taste to find each other</li>
+      <li>Avatars of varying status, with cooler avatars unlocked with higher point totals</li>
+      <li>A display of points, or favorable reactions a DJ has accumulated during the course of playing music</li>
+      <li>A collection of songs (the song queue) an individual has amassed during their time on site</li>
+      <li>A realtime feedback gauge showing the popularity of a song</li>
+    </ul>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-20" data-slide="20">
+
+  <figure><img src="/images/2013/02/preso/20.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Of course, a gamified system doesn’t need to be the sole domain of cartoonified avatars and casual consumption. Here we see a dashboard of tenXer, a site that helps developers be more productive. In this screenshot we see many of the same elements that were present on the turntable.fm site. These include an avatar (in this case, a profile picture) and a leaderboard containing a number of “points” (in this case, hours in meetings).</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-21" data-slide="21">
+
+  <figure><img src="/images/2013/02/preso/21.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Stackoverflow has been incredibly successful in incorporating game elements into its system. Stackoverflow obviously wasn’t the first site on the Internet that allowed users to get answers to their questions. However, their gamified system provides motivation to users to provide the best possible answers. The result is consistent placement near the top of search engines for nearly any development query.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-22" data-slide="22">
+
+  <figure><img src="/images/2013/02/preso/22.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Here we see game elements on an e-learning site, Code School. Each course has a series of obtainable badges that can be obtained while progressing through the course. Acquired badges can then be displayed on a user’s profile to demonstrate mastery.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-23" data-slide="23">
+
+  <figure><img src="/images/2013/02/preso/23.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Codeacademy is a similar site. It too offers online programming classes. Beyond badges they also include things like progress bars, points, and feedback encouragement via streaks.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-24" data-slide="24">
+
+  <figure><img src="/images/2013/02/preso/24.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Perhaps one of the greatest illustrations of what gamification can do for a company can be demonstrated by two otherwise nearly identical services.</p>
+
+    <p>Dodgeball was founded by  Dennis Crowley and Alex Rainert in 2000. It was acquired by Google in 2005 and Crowley left in 2007. In 2008 Crowley founded Foursquare. Not only were the founders the same, but the core functionality and logos were shocking similar. So with so many similarities why is Foursquare still with us but Dodgeball not?</p>
+
+    <p>Foursquare implemented a gamification strategy that made it initially successful. They learned some key lessons from Dodgeball:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- dodgeball (db) had an engagement gap - it was only useful if a number of people were using it
 - db had a lack of choice; there just wasn't a whole lot of things to do - if the entirity of "meaninful choice" is to do something or not do it, people won't be engaged
 - db didn't have progression - you didn't get anywhere by what you did - the 100th checkin was the same as the 1st time
 - db had some social interaction but they weren't powerfully tied to games - there wasn't the ability to compete and/or collaborate with friends
 - db didn't make the action a habit - if you have to think "oh I need to check in" then it won't catch on
-</code></pre></div></div>
+</code></pre></div>    </div>
 
-<p>What did foursquare do differently?</p>
+    <p>What did foursquare do differently?</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- introduced badges - demonstration of mastery of their system - had mayorships, a competitive element that players could compete with each other for
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- introduced badges - demonstration of mastery of their system - had mayorships, a competitive element that players could compete with each other for
 - choices and progression are important, checkin becomes much more granulated (health club verses conference - singular act becomes rich and complex and nuanced) 
 - but not just type of location, but quantity to "level" up
-</code></pre></div></div>
+</code></pre></div>    </div>
 
-<p><a href="http://mashable.com/2009/12/25/foursquare-gowalla/">Image from 2009 Mashable article</a></p>
+    <p><a href="http://mashable.com/2009/12/25/foursquare-gowalla/">Image from 2009 Mashable article</a></p>
 
-<hr />
-<p><figure><img src="/images/2013/02/preso/25.png" /></figure></p>
+    <hr />
 
-<p>We’ve been talking about simple, low level techniques. Let’s now switch to looking at a large-scale, real world application of gamification on an existing, popular web property.</p>
-
-<p>The NFL is, at its core, a media company. A goal for its website would be to maximize revenue through maximizing user engagement and minimizing visitor bounces. The screenshot above is for their NFL Fan Rewards program. This page is the portal describing the game elements across their site. But chances are this isn’t the first exposure a vistor to NFL.com has.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/26.png" /></figure></p>
-
-<p>A much more likely experience is like what is shown above. Here I browsed to the site to get a quick update on how the Denver Broncos are doing. In the lower right a subtle box pops a message <em>pop</em> You’ve received +2 coins! My point total goes up. I’m getting feedback that just by doing this thing I would have done anyway I’m accumulating points.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/27.png" /></figure></p>
-
-<p>Clicking on the green total scrolls an overlay into view giving me a bit of info about what is going on.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/28.png" /></figure></p>
-<p>If I continue interacting with the content I achieve higher levels of status. Here I’ve managed to watch enough NFL.com videos, read NFL.com news stories, and left a comment (all accomplishing the NFL’s goal of greater engagement with the site) that I’ve unlocked a badge. The “Rookie 2” shows that I have progressed on my path to mastering the NFL.com experience. I also have a clear call to action to spread the game to my friends. In doing so, I can continue progressing along my own path.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/29.png" /></figure></p>
-
-<p>Much like the Yahoo dashboard, the NFL also has a dashboard where my various accomplishments are on display. At the bottom of the screenshot you can also see they have the concept of “drives”. These are much like quests in a traditional video game. Each drive involves visiting a different part of the site and (sometimes) taking an action that I might not normally take (exploration was one of our ‘ings that people find fun). From initially checking the games progress I’m now suddenly signing up for a fantasy league because I want to complete the progress bar (again, completing can be fun).</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/30.png" /></figure></p>
-
-<p>The NFL.com site is extremely deep with numerous options for interaction. At the bottom we see that we are given a meaningful choice - we can either read about the points system and how it is linked to rewards (the left option) or visit the NFL.com store for points (the right option). Meaningful choice is important because it helps the visitor still feel that they’re in control.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/31.png" /></figure></p>
-
-<p>And the variety of rewards continue. What was supposed to be a quick five minute checkup suddenly turns into 45 minutes of exploration, collecting, and delightful surprise. The experience was fun and, as a result, I used the site much more than I would have otherwise because of its gamification.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/32.png" /></figure></p>
-
-<p>But these concepts don’t just have to be about externally facing sites. What about internal teams? That’s a focus for Salesforce’s Work.com (formerly called Rypple). It is a platform for motivating employees.</p>
-
-<p>A precursor was “the Distributor” (also known as the ‘Lovemachine’), used by Linden Labs (who are best known for creating the virtual world Second Life). <a href="http://en.wikipedia.org/wiki/Linden_Lab">From wikipedia</a>:</p>
-
-<blockquote>
-  <p>“Linden Lab utilizes another internal tool, known as the Distributor, that enables all employees to distribute “points” to projects that they deem to be worthy of development and resource support. Each point has a financial value that is based on each quarter’s financial performance. As a result, key stakeholders in the projects with high point values receive a distributed monetary payoff at the end of the quarter for successfully completed projects. The Distributor was discontinued after Rosedale left the company.”</p>
-</blockquote>
-
-<p><a href="http://www.benchmarkemail.com/blogs/detail/linden-lab-uses-love-to-break-down-traditional-office-organization">More on the Lovemachine</a> which was spun off into <a href="http://www.lovemachineinc.com/">its own angel-backed startup</a>.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/34.png" /></figure></p>
-
-<p>So how does one begin implementing a gamified system? There are some “off the shelf” solutions:</p>
-
-<ul>
-  <li>Bigdoor - http://www.bigdoor.com/</li>
-  <li>Bunchball - http://www.bunchball.com/</li>
-  <li>Badgeville - http://www.badgeville.com/</li>
-</ul>
-
-<p>However, be aware of what these are - a sprinkling of PBL onto an existing experience rather than an integration identifying what people want and what their expectations are. They start with features at the base of the game element pyramid when a compelling experience starts by defining goals at the top.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/35.png" /></figure></p>
-
-<p>If you are interested in learning more there are plenty of resources available online and in the books listed above.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/37.png" /></figure></p>
-
-<p>Getting deeper, “<a href="http://www.youtube.com/watch?v=7ZGCPap7GkY">Getting Gamification Right (2011)</a>” builds on the concepts introduced with the PBL triad and looks at motivation factors in why sometimes they work and sometimes they don’t.</p>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/38.png" /></figure></p>
-
-<p>Finally, Amy Jo Kim has a detailed breakdown of gamification approaches based on her years of game industry experience.</p>
-
-<ul>
-  <li><a href="http://www.youtube.com/watch?v=F4YP-hGZTuA">Smart Gamification: Seven Core Concepts for Creating Compelling Experiences (2011)</a></li>
-  <li><a href="http://www.youtube.com/watch?v=B0H3ASbnZmc">Smart Gamification: Designing the Player Journey (2011)</a></li>
-</ul>
-
-<hr />
-<p><figure><img src="/images/2013/02/preso/39.png" /></figure></p>
-
-<p>And that’s it. Thanks for reading this far.</p>
-
-
-    </div>
-
-    
-
-  </article>
-</div>
-<!-- end post -->
-
-
-
-
-
-
-
-<!-- begin related posts -->
-<div class="container">
-  <section class="related-posts is-related animate">
-    <div class="row">
-      <div class="col col-12">
-        <div class="container__inner">
-          <div class="section__info">
-            <div class="section__head">
-              <h2 class="section__title">You may also like</h2>
-              <a class="section__link" href="/blog">
-                
-                
-                  
-                    <a href="/tags#Presentations" class="section__link related-tag">See all<span> Presentations</span></a>
-                  
-                
-                  
-                
-              
-              </a>
-            </div>
-          </div>
-          <div class="row">
-
-          
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-
-              <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
-
-    <div class="article__head">
-      <time class="article__date" datetime="2025-09-30T00:00:00-05:00">30 Sep 2025</time>
-
-      
-
-      
-      <a class="article__image" href="/2025/09/30/platformsAsPlumbing">
-        <img class="lazy" data-src="/images/2025/09/Slide1.PNG" alt="The Perils of Platform Plumbing (and What to Do About It)">
-      </a>
-      
-
-    </div>
-
-    <div class="article__content">
-
-      <h2 class="article__title">
-        <a href="/2025/09/30/platformsAsPlumbing">The Perils of Platform Plumbing (and What to Do About It)</a>
-      </h2>
-
-      
-
-    </div>
   </div>
 </div>
 
-            
-                
-              
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
+<div class="presentation-slide" id="slide-25" data-slide="25">
 
-              <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
+  <figure><img src="/images/2013/02/preso/25.png" loading="lazy" /></figure>
 
-    <div class="article__head">
-      <time class="article__date" datetime="2024-09-30T00:00:00-05:00">30 Sep 2024</time>
+  <div class="presentation-narration">
 
-      
+    <p>We’ve been talking about simple, low level techniques. Let’s now switch to looking at a large-scale, real world application of gamification on an existing, popular web property.</p>
 
-      
-      <a class="article__image" href="/2024/09/30/TurboEncabulator">
-        <img class="lazy" data-src="/images/2024/09/Slide1.PNG" alt="Surviving the Turbo Encabulator">
-      </a>
-      
+    <p>The NFL is, at its core, a media company. A goal for its website would be to maximize revenue through maximizing user engagement and minimizing visitor bounces. The screenshot above is for their NFL Fan Rewards program. This page is the portal describing the game elements across their site. But chances are this isn’t the first exposure a vistor to NFL.com has.</p>
 
-    </div>
+    <hr />
 
-    <div class="article__content">
-
-      <h2 class="article__title">
-        <a href="/2024/09/30/TurboEncabulator">Surviving the Turbo Encabulator</a>
-      </h2>
-
-      
-
-    </div>
   </div>
 </div>
 
-            
-                
-              
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
-            
-            
-            
-      
-            
-      
-            
+<div class="presentation-slide" id="slide-26" data-slide="26">
 
-              <div class="article col col-4 col-d-6 col-t-12">
-  <div class="article__inner">
+  <figure><img src="/images/2013/02/preso/26.png" loading="lazy" /></figure>
 
-    <div class="article__head">
-      <time class="article__date" datetime="2023-06-23T00:00:00-05:00">23 Jun 2023</time>
+  <div class="presentation-narration">
 
-      
+    <p>A much more likely experience is like what is shown above. Here I browsed to the site to get a quick update on how the Denver Broncos are doing. In the lower right a subtle box pops a message <em>pop</em> You’ve received +2 coins! My point total goes up. I’m getting feedback that just by doing this thing I would have done anyway I’m accumulating points.</p>
 
-      
-      <a class="article__image" href="/2023/06/23/SeparatingAIFactFromFiction">
-        <img class="lazy" data-src="/images/2023/06/Slide1.PNG" alt="Separating AI Fact from Fiction">
-      </a>
-      
+    <hr />
 
-    </div>
-
-    <div class="article__content">
-
-      <h2 class="article__title">
-        <a href="/2023/06/23/SeparatingAIFactFromFiction">Separating AI Fact from Fiction</a>
-      </h2>
-
-      
-
-    </div>
   </div>
 </div>
 
-            
-                
-                  
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="presentation-slide" id="slide-27" data-slide="27">
+
+  <figure><img src="/images/2013/02/preso/27.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Clicking on the green total scrolls an overlay into view giving me a bit of info about what is going on.</p>
+
+    <hr />
+
+  </div>
 </div>
-<!-- end related posts -->
 
+<div class="presentation-slide" id="slide-28" data-slide="28">
 
-  </main>
-  <!-- end content -->
+  <figure><img src="/images/2013/02/preso/28.png" loading="lazy" /></figure>
 
-  <!-- begin footer -->
-<footer class="footer">
+  <div class="presentation-narration">
 
-  <div class="footer__inner">
-    <div class="container">
-      <div class="row">
+    <p>If I continue interacting with the content I achieve higher levels of status. Here I’ve managed to watch enough NFL.com videos, read NFL.com news stories, and left a comment (all accomplishing the NFL’s goal of greater engagement with the site) that I’ve unlocked a badge. The “Rookie 2” shows that I have progressed on my path to mastering the NFL.com experience. I also have a clear call to action to spread the game to my friends. In doing so, I can continue progressing along my own path.</p>
 
-        <div class="col col-5 col-d-12">
-          <div class="footer__author">
-            <div class="footer__author-avatar">
-              <img class="lazy" data-src="/images/headshot.jpg" alt="Matthew Reinbold">
-            </div>
-            <h3 class="footer__author-name">Matthew Reinbold</h3>
-            <p class="footer__author-bio">I write, speak, and coach for better software practices. You would think that would be a lot of tech. But, increasingly, it is more about people (like everything else).</p>
-            
-          </div>
-        </div>
+    <hr />
 
-        
-        <div class="col col-6 push-1 col-d-12 push-d-0">
-          <div class="footer__gallery">
-            <h3 class="footer__gallery-title">Gallery</h3>
-            
-            <div class="gallery-footer">
-              <div class="gallery" style="grid-template-columns: repeat(3, auto);">
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/MatthewReinbold2-speaking-2014.png" alt="Matthew speaking in Amsterdam, 2014" loading="lazy">
-                </div>
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/MatthewReinbold2-speaking-2014b.jpg" alt="Matthew speaking in Minneapolis, 2014" loading="lazy">
-                </div>
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/MatthewReinbold-speaking-2015.jpg" alt="Matthew speaking in Northern Virgina, 2015" loading="lazy">
-                </div>
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/MatthewReinbold-speaking-2016.jpg" alt="Matthew leading training in 2016" loading="lazy">
-                </div>
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/api-strat-speaking-headshot.jpg" alt="Matthew speaking in 2019" loading="lazy">
-                </div>
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/headshot-2018.png" alt="Matthew in 2018" loading="lazy">
-                </div>
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/video_2021.jpg" alt="Matthew presenting online in 2021" loading="lazy">
-                </div>
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/podcast-2021.png" alt="Matthew recording a podcast in 2021" loading="lazy">
-                </div>
-                
-                <div class="gallery__image">
-                  <img src="/images/gallery/podcast-2021b.png" alt="Matthew appearing on a podcast in 2021" loading="lazy">
-                </div>
-                
-              </div>
-            </div>
-            
-          </div>
-        </div>
-        
-
-      </div>
-    </div>
   </div>
+</div>
 
-  <div class="footer__info">
-    <div class="container">
-      <div class="row">
-        <div class="col col-12">
-          <div class="footer__info-box">
-            <div class="copyright">2026 &copy; <a href="/">Matthew Reinbold</a>. </div>
-            <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="presentation-slide" id="slide-29" data-slide="29">
+
+  <figure><img src="/images/2013/02/preso/29.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Much like the Yahoo dashboard, the NFL also has a dashboard where my various accomplishments are on display. At the bottom of the screenshot you can also see they have the concept of “drives”. These are much like quests in a traditional video game. Each drive involves visiting a different part of the site and (sometimes) taking an action that I might not normally take (exploration was one of our ‘ings that people find fun). From initially checking the games progress I’m now suddenly signing up for a fantasy league because I want to complete the progress bar (again, completing can be fun).</p>
+
+    <hr />
+
   </div>
+</div>
 
-</footer>
-<!-- end footer -->
+<div class="presentation-slide" id="slide-30" data-slide="30">
 
-  <script src="/js/scripts.js"></script>
-  <script src="/js/common.js"></script>
+  <figure><img src="/images/2013/02/preso/30.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>The NFL.com site is extremely deep with numerous options for interaction. At the bottom we see that we are given a meaningful choice - we can either read about the points system and how it is linked to rewards (the left option) or visit the NFL.com store for points (the right option). Meaningful choice is important because it helps the visitor still feel that they’re in control.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-31" data-slide="31">
+
+  <figure><img src="/images/2013/02/preso/31.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>And the variety of rewards continue. What was supposed to be a quick five minute checkup suddenly turns into 45 minutes of exploration, collecting, and delightful surprise. The experience was fun and, as a result, I used the site much more than I would have otherwise because of its gamification.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-32" data-slide="32">
+
+  <figure><img src="/images/2013/02/preso/32.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>But these concepts don’t just have to be about externally facing sites. What about internal teams? That’s a focus for Salesforce’s Work.com (formerly called Rypple). It is a platform for motivating employees.</p>
+
+    <p>A precursor was “the Distributor” (also known as the ‘Lovemachine’), used by Linden Labs (who are best known for creating the virtual world Second Life). <a href="http://en.wikipedia.org/wiki/Linden_Lab">From wikipedia</a>:</p>
+
+    <blockquote>
+      <p>“Linden Lab utilizes another internal tool, known as the Distributor, that enables all employees to distribute “points” to projects that they deem to be worthy of development and resource support. Each point has a financial value that is based on each quarter’s financial performance. As a result, key stakeholders in the projects with high point values receive a distributed monetary payoff at the end of the quarter for successfully completed projects. The Distributor was discontinued after Rosedale left the company.”</p>
+    </blockquote>
+
+    <p><a href="http://www.benchmarkemail.com/blogs/detail/linden-lab-uses-love-to-break-down-traditional-office-organization">More on the Lovemachine</a> which was spun off into <a href="http://www.lovemachineinc.com/">its own angel-backed startup</a>.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-33" data-slide="33">
+
+  <figure><img src="/images/2013/02/preso/34.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>So how does one begin implementing a gamified system? There are some “off the shelf” solutions:</p>
+
+    <ul>
+      <li>Bigdoor - http://www.bigdoor.com/</li>
+      <li>Bunchball - http://www.bunchball.com/</li>
+      <li>Badgeville - http://www.badgeville.com/</li>
+    </ul>
+
+    <p>However, be aware of what these are - a sprinkling of PBL onto an existing experience rather than an integration identifying what people want and what their expectations are. They start with features at the base of the game element pyramid when a compelling experience starts by defining goals at the top.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-34" data-slide="34">
+
+  <figure><img src="/images/2013/02/preso/35.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>If you are interested in learning more there are plenty of resources available online and in the books listed above.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-35" data-slide="35">
+
+  <figure><img src="/images/2013/02/preso/37.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Getting deeper, “<a href="http://www.youtube.com/watch?v=7ZGCPap7GkY">Getting Gamification Right (2011)</a>” builds on the concepts introduced with the PBL triad and looks at motivation factors in why sometimes they work and sometimes they don’t.</p>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-36" data-slide="36">
+
+  <figure><img src="/images/2013/02/preso/38.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>Finally, Amy Jo Kim has a detailed breakdown of gamification approaches based on her years of game industry experience.</p>
+
+    <ul>
+      <li><a href="http://www.youtube.com/watch?v=F4YP-hGZTuA">Smart Gamification: Seven Core Concepts for Creating Compelling Experiences (2011)</a></li>
+      <li><a href="http://www.youtube.com/watch?v=B0H3ASbnZmc">Smart Gamification: Designing the Player Journey (2011)</a></li>
+    </ul>
+
+    <hr />
+
+  </div>
+</div>
+
+<div class="presentation-slide" id="slide-37" data-slide="37">
+
+  <figure><img src="/images/2013/02/preso/39.png" loading="lazy" /></figure>
+
+  <div class="presentation-narration">
+
+    <p>And that’s it. Thanks for reading this far.</p>
+
+  </div>
+</div>
+</div><footer class="article-end shell"><span class="end-mark" aria-hidden="true">■</span><a href="/archive/">Explore the archive →</a><a href="#main">Back to top ↑</a></footer></article>
+</main>
+  <footer class="site-footer"><span>© 2026 Matthew Reinbold</span><a href="/archive/">Explore the archive ↗</a><a href="https://netapinotes.com/">Net API Notes ↗</a><a href="/about/#disclosures">Disclosures</a><a href="/feed.xml">RSS</a></footer>
 </body>
-
 </html>
