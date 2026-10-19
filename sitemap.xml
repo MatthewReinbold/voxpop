@@ -657,6 +657,10 @@
 <lastmod>2026-06-05T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2026/10/18/212Westbound-01</loc>
+<lastmod>2026-10-18T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/Appearances/</loc>
 </url>
 <url>
@@ -667,6 +671,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/stories/212-westbound/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/stories/aesop-2121/</loc>
