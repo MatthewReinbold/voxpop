@@ -661,6 +661,10 @@
 <lastmod>2026-10-18T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2026/10/21/212Westbound-02</loc>
+<lastmod>2026-10-21T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/Appearances/</loc>
 </url>
 <url>
@@ -698,6 +702,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/stories/the-trial-of-remy-d/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/vault/212_Westbound-Matthew_Reinbold.pdf</loc>
+<lastmod>2026-10-21T09:43:46-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/vault/Biggest-Little-Bill_Matthew-Reinbold.pdf</loc>
